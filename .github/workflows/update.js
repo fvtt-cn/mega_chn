@@ -34,6 +34,6 @@ for (let project of projects) {
     download(project.src, `./english/${project.name}.json`, () => { });
 
     if (!fs.existsSync(`./chinese/${project.name}.json`)) {
-        fs.closeSync(fs.openSync(`./chinese/${project.name}.json`, 'w'))
+        fs.writeFileSync(`./chinese/${project.name}.json`, '{}');
     }
 }
