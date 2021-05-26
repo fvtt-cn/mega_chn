@@ -1,0 +1,10 @@
+[
+    {
+        "name": "midi-qol",
+        "src": "https://gitlab.com/tposney/midi-qol/-/raw/master/src/lang/en.json"
+    },
+    {
+        "name": "dae",
+        "src": "https://gitlab.com/tposney/dae/-/raw/master/src/lang/en.json"
+    }
+]
