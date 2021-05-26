@@ -1,4 +1,6 @@
 # Foundry VTT Mega 翻译包
+![](https://img.shields.io/badge/Foundry-v0.8.5-informational) <a href="https://hosted.weblate.org/engage/fvtt_cn-mega_chn/zh_Hans/"><img src="https://hosted.weblate.org/widgets/fvtt_cn-mega_chn/zh_Hans/svg-badge.svg" alt="翻译状态" /></a> [![Update Language Sources](https://github.com/fvtt-cn/mega_chn/actions/workflows/update.yml/badge.svg)](https://github.com/fvtt-cn/mega_chn/actions/workflows/update.yml) [![Release Creation](https://github.com/fvtt-cn/mega_chn/actions/workflows/merge.yml/badge.svg)](https://github.com/fvtt-cn/mega_chn/actions/workflows/merge.yml)
+
 内置多个 MOD、系统的翻译合集，便于非 Git 用户参与到 Foundry VTT 的汉化工作之中。
 
 ## 已翻译的 MOD 列表
