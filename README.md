@@ -9,3 +9,7 @@
 
 ## 如何参与到翻译中
 本项目使用 [Weblate](https://hosted.weblate.org/) 进行翻译工作，使用 Weblate 无需拥有任何 Git 使用知识，只需在界面上进行中英对照翻译即可！
+
+<a href="https://hosted.weblate.org/engage/fvtt_cn-mega_chn/">
+<img src="https://hosted.weblate.org/widgets/fvtt_cn-mega_chn/-/open-graph.png" alt="翻译状态" />
+</a>
