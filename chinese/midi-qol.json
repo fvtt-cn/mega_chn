@@ -200,8 +200,7 @@
         "光耀祷词",
         "弹射",
         "地动",
-        "Acid Splash",
-        "Earth Tremor"
+        "Acid Splash"
     ],
     "midi-qol.noDamageSaveProp": "豁免无伤",
     "midi-qol.noDamageText": "no damage on save",
