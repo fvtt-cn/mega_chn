@@ -21,8 +21,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Update Projects Source Json
-        shell: bash
-        run: node ./.github/workflows/update.js
+        run: | 
+          npm i -D request
+          node ./.github/workflows/update.js
         
       - name: Add & Commit
         uses: EndBug/add-and-commit@v7.2.1
