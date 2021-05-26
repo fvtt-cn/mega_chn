@@ -3,7 +3,7 @@ const merge = require('deepmerge')
 
 const entries = fs.readdirSync('./chinese/').map(file => {
     if (file.endsWith('.json')) {
-        return JSON.parse(fs.readFileSync(file, 'utf8'));
+        return JSON.parse(fs.readFileSync(`./chinese/${file}`, 'utf8'));
     } else return {};
 });
 
