@@ -1,0 +1,24 @@
+{
+    "name": "mega_chn",
+    "title": "Translation: 中文 [Mega]",
+    "description": "为 FVTT 多个 MOD 和系统添加了中文翻译。",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.8.5",
+    "coreTranslation": true,
+    "author": "FVTT-CN",
+    "scripts": [],
+    "styles": [],
+    "packs": [],
+    "languages": [
+      {
+        "lang": "cn",
+        "name": "中文",
+        "path": "cn.json"
+      }
+    ],
+    "version": "Auto replaced",
+    "url": "Auto replaced",
+    "manifest": "Auto replaced",
+    "download": "Auto replaced"
+  }
+  
