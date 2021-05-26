@@ -201,13 +201,9 @@
         "弹射",
         "地动",
         "Acid Splash",
-        "Thunderclap",
         "Create Bonfire",
-        "Poison Spray",
         "Disintegrate",
-        "Cordon of Arrows",
         "Infestation",
-        "Word of Radiance",
         "Earth Tremor"
     ],
     "midi-qol.noDamageSaveProp": "豁免无伤",
