@@ -31,9 +31,11 @@ const download = (url, dest, cb) => {
 
 const projects = JSON.parse(fs.readFileSync('./projects.json', 'utf8'));
 for (let project of projects) {
-    download(project.src, `./english/${project.name}.json`, () => { });
-
-    if (!fs.existsSync(`./chinese/${project.name}.json`)) {
-        fs.writeFileSync(`./chinese/${project.name}.json`, '{}');
-    }
+    const ext = project.yml ? "yml" : "json";
+    // Download English source file.
+    download(project.src, `./english/${project.name}.${ext}`);
+    
+    // Add empty Chinese translation if not exists.
+    if (!fs.existsSync(`./chinese/${project.name}.${ext}`))
+        fs.writeFileSync(`./chinese/${project.name}.${ext}`, '{}');
 }
