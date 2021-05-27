@@ -41,7 +41,7 @@
     "MAGICITEMS.SheetNoRecharge": "无法充能",
     "MAGICITEMS.SheetCost": "消耗/环",
     "MAGICITEMS.SheetUpcast": "升环施法",
-    "MAGICITEMS.SheetConsumption": "消耗充能",
+    "MAGICITEMS.SheetConsumption": "消耗充能。",
     "MAGICITEMS.SheetLevel": "环位",
     "MAGICITEMS.SheetTable": "随机表",
     "MAGICITEMS.SheetFeat": "能力",
