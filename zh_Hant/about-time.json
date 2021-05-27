@@ -5,5 +5,21 @@
     "about-time.notMaster": "不是主要控制時間的GM - 終止活動",
     "I18N.MAINTAINERS": "benwater12",
     "I18N.LANGUAGE": "正體中文",
-    "about-time.RTU.hint": "遊戲時間更新的頻率 舉例:30代表現實過了30秒遊戲時間就會更新，0代表遊戲時間不會和現實時間更新"
+    "about-time.RTU.hint": "遊戲時間更新的頻率 舉例:30代表現實過了30秒遊戲時間就會更新，0代表遊戲時間不會和現實時間更新",
+    "about-time.monthDetails": "月份詳細",
+    "about-time.current": "目前日期&時間",
+    "about-time.details": "日曆詳細",
+    "about-time.Second": "秒",
+    "about-time.Minute": "分",
+    "about-time.Hour": "時",
+    "about-time.Day": "日",
+    "about-time.Month": "月",
+    "about-time.Year": "年",
+    "about-time.Date": "日期",
+    "about-time.CAL.hint": "選擇遊戲中使用的日曆",
+    "about-time.CAL.name": "啟用日曆",
+    "about-time.MCT.hint": "當有GM身分的帳號參加時，等待以確認是否有其他GM有管理時間的權限",
+    "about-time.MCT.name": "時間管理員自動判定等待時間",
+    "about-time.SPR.hint": "戰鬥時一輪有幾秒",
+    "about-time.SPR.name": "一輪代表的遊戲時間"
 }
