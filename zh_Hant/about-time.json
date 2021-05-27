@@ -16,7 +16,7 @@
     "about-time.Month": "月",
     "about-time.Year": "年",
     "about-time.Date": "日期",
-    "about-time.CAL.hint": "選擇遊戲中使用的日曆",
+    "about-time.CAL.hint": "選擇哪一個日立正在被運用",
     "about-time.CAL.name": "啟用日曆",
     "about-time.MCT.hint": "當有一個GM身分的帳號參加時，等待以確認是否有其他GM有管理時間的權限",
     "about-time.MCT.name": "時間管理員自動判定等待時間",
