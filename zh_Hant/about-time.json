@@ -8,7 +8,7 @@
     "about-time.RTU.hint": "遊戲時間更新的頻率 舉例:30代表現實過了30秒遊戲時間就會更新，0代表遊戲時間不會和現實時間更新",
     "about-time.monthDetails": "月份詳細",
     "about-time.current": "目前日期&時間",
-    "about-time.details": "日曆詳細",
+    "about-time.details": "日歷細節",
     "about-time.Second": "秒",
     "about-time.Minute": "分鐘",
     "about-time.Hour": "小時",
