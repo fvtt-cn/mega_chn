@@ -1,1 +1,21 @@
-{}
+{
+    "TidyUI.clear": "清空搜索框",
+    "TidyUI.search": "輸入以搜索模組",
+    "TidyUI.paste": "在此貼上你的模組列表！",
+    "TidyUI.notice": "模組列表已復製到剪貼板，記得儲存！",
+    "TidyUI.close": "關閉視窗",
+    "TidyUI.activate": "啟動模組",
+    "TidyUI.toClipboard": "複製到剪貼板",
+    "TidyUI.import": "匯入模組列表",
+    "TidyUI.export": "匯出已啟用的模組列表",
+    "TidyUI.checkAll": "啟用所有模組",
+    "TidyUI.uncheckAll": "禁用除Tidy UI外的所有模組",
+    "TidyUI.hideDisableAll": {
+        "hint": "勾選以隱藏 ‘儲存’ 按鈕旁的 ‘禁用所有模組’。",
+        "name": "隱藏 ‘禁用所有模組’ 的按鈕。"
+    },
+    "TidyUI.moduleSettingsActive": {
+        "hint": "如果你需要經常檢視模組設置，你可能會想要啟用此選項，以便不用點擊切換至模組設置。",
+        "name": "總是啟用模組設置頁。"
+    }
+}
