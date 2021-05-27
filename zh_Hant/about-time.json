@@ -29,5 +29,8 @@
     "about-time.display.advance1h": "往前一小時",
     "about-time.display.advance10min": "往前十分鐘",
     "about-time.display.advance1min": "往前一分鐘",
-    "about-time.weekDays": "工作天"
+    "about-time.weekDays": "週間日",
+    "about-time.display.advanceMidDay": "往前到中午",
+    "about-time.display.advance7pm": "往前到晚上 7 點",
+    "about-time.yearNames": "年份名"
 }
