@@ -12,10 +12,12 @@
 - Midi-QoL
 - betterCurses
 - Drag Ruler
-- lib-df-hotkeys
+- Lib DF Hotkeys
 - Split Journal
 - TouchVTT
-- Multilevel-Tokens
+- Multilevel Tokens
+- About Time
+- Magic Items
 
 ## 已翻译的系统列表
 - 待建设
