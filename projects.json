@@ -42,5 +42,9 @@
     {
         "name": "drag-ruler",
         "src": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/develop/lang/en.json"
+    },
+    {
+        "name": "multilevel-tokens",
+        "src": "https://github.com/grandseiken/foundryvtt-multilevel-tokens/raw/master/lang/en.json"
     }
 ]
