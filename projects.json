@@ -6,5 +6,9 @@
     {
         "name": "dae",
         "src": "https://gitlab.com/tposney/dae/-/raw/master/src/lang/en.json"
+    },
+    {
+        "name": "betterCurses",
+        "src": "https://raw.githubusercontent.com/Wigsinator/betterCurses/master/src/lang/en.json"
     }
 ]
