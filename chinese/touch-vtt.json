@@ -1,1 +1,8 @@
-{}
+{
+    "TOUCHVTT.SnapToGrid": "指示物固定到网格上",
+    "TOUCHVTT.BigButton": "更大的工具按钮",
+    "TOUCHVTT.DeleteWall": "删除选择的墙",
+    "TOUCHVTT.UndoWall": "撤销上一次墙操作",
+    "TOUCHVTT.ToggleWallChain": "切换墙壁链接",
+    "TOUCHVTT.Erase": "擦除"
+}
