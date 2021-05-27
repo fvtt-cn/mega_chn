@@ -10,5 +10,37 @@
     {
         "name": "betterCurses",
         "src": "https://raw.githubusercontent.com/Wigsinator/betterCurses/master/src/lang/en.json"
+    },
+    {
+        "name": "touch-vtt",
+        "src": "https://raw.githubusercontent.com/Oromis/touch-vtt/main/lang/en.json"
+    },
+    {
+        "name": "tokenmagic",
+        "src": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/lang/en.json"
+    },
+    {
+        "name": "tidy-ui",
+        "src": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/langs/en.json"
+    },
+    {
+        "name": "tidy5e",
+        "src": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/langs/en.json"
+    },
+    {
+        "name": "split-journal",
+        "src": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-split-journal/main/lang/en.json"
+    },
+    {
+        "name": "lib-df-hotkeys",
+        "src": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/lib-df-hotkeys/lang/en.json"
+    },
+    {
+        "name": "fxmaster",
+        "src": "https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/lang/en.json"
+    },
+    {
+        "name": "drag-ruler",
+        "src": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/develop/lang/en.json"
     }
 ]
