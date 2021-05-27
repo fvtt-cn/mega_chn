@@ -18,7 +18,7 @@
     "about-time.Date": "日期",
     "about-time.CAL.hint": "選擇遊戲中使用的日曆",
     "about-time.CAL.name": "啟用日曆",
-    "about-time.MCT.hint": "當有GM身分的帳號參加時，等待以確認是否有其他GM有管理時間的權限",
+    "about-time.MCT.hint": "當有一個GM身分的帳號參加時，等待以確認是否有其他GM有管理時間的權限",
     "about-time.MCT.name": "時間管理員自動判定等待時間",
     "about-time.SPR.hint": "戰鬥時一輪有幾秒",
     "about-time.SPR.name": "一輪代表的遊戲時間"
