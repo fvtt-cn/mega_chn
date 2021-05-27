@@ -1,1 +1,7 @@
-{}
+{
+    "CONTROLS.Daylight": "日光滤镜",
+    "CONTROLS.Weather": "天气空间",
+    "CONTROLS.Effects": "效果控件",
+    "FILTERMANAGE.Title": "滤镜效果管理",
+    "WEATHERMANAGE.Title": "天气效果管理"
+}
