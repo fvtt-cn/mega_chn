@@ -1,6 +1,4 @@
-SWADE.ConvictionEnd: ''
 SWADE.PCAmmoFromInventoryDesc: ''
-SWADE.AmmoManagementDesc: ''
 SWADE.EnableBennyNotifyDesc: 在获得，给出或刷新助力点时发送聊天栏提示。
 SWADE.AutoLinkDesc: 若启用，当你将一个NPC设置为不羁角色时，他的角色卡会自动与指示物关联
 SWADE.FreeReroll: 免费重投
