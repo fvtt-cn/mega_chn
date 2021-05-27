@@ -54,5 +54,10 @@
     {
         "name": "magic-items",
         "src": "https://gitlab.com/riccisi/foundryvtt-magic-items/-/raw/master/module/lang/en.json"
+    },
+    {
+        "name": "swade",
+        "yml": true,
+        "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
     }
 ]
