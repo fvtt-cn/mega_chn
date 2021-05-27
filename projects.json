@@ -46,5 +46,13 @@
     {
         "name": "multilevel-tokens",
         "src": "https://github.com/grandseiken/foundryvtt-multilevel-tokens/raw/master/lang/en.json"
+    },
+    {
+        "name": "about-time",
+        "src": "https://gitlab.com/tposney/about-time/-/raw/master/src/lang/en.json"
+    },
+    {
+        "name": "magic-items",
+        "src": "https://gitlab.com/riccisi/foundryvtt-magic-items/-/raw/master/module/lang/en.json"
     }
 ]
