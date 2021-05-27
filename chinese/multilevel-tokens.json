@@ -32,5 +32,6 @@
     "MLT.SettingAutoSyncTargets": "自动同步玩家目标",
     "MLT.FieldDisableRegionNotes": "将该区域的所有自动化特性全部禁用。",
     "MLT.FieldDisableRegion": "禁用区域",
-    "MLT.SettingCloneModuleFlags": "复制被别的模组设置的token标志"
+    "MLT.SettingCloneModuleFlags": "复制被别的模组设置的token标志",
+    "MLT.SettingCloneModuleFlagsHint": "模组可以在token上设置不同的标志供自己使用。勾选此项，则克隆出的token会继承其本体所拥有的标志。鉴于这些标志的作用取决于问题中的模组，我无法告诉你这个选项的作用，但如果克隆token与其他模组的互动性差，你可以尝试改变该选项。"
 }
