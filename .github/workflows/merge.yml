@@ -14,7 +14,7 @@ jobs:
     - name: Merge Translation
       id: merge_translation
       run: | 
-        npm i -D deepmerge
+        npm i -D deepmerge js-yaml
         node ./.github/workflows/merge.js
 
     # Substitute the Manifest and Download URLs in the module.json
