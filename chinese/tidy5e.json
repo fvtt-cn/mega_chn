@@ -1,1 +1,21 @@
-{}
+{
+    "TidyUI.clear": "清空搜索框",
+    "TidyUI.search": "键入以搜索模组",
+    "TidyUI.notice": "模组列表已复制到剪贴板，记得保存！",
+    "TidyUI.import": "导入模组列表",
+    "TidyUI.export": "导出已启用的模组列表",
+    "TidyUI.paste": "在此粘贴你的模组列表！",
+    "TidyUI.close": "关闭窗口",
+    "TidyUI.activate": "激活模组",
+    "TidyUI.toClipboard": "复制到剪贴板",
+    "TidyUI.checkAll": "启用所有模组",
+    "TidyUI.uncheckAll": "禁用除Tidy UI外的所有模组",
+    "TidyUI.hideDisableAll": {
+        "hint": "勾选以隐藏‘保存’按钮旁的‘禁用所有模组’。",
+        "name": "隐藏‘禁用所有模组’按钮。"
+    },
+    "TidyUI.moduleSettingsActive": {
+        "name": "总是启用模组设置页。",
+        "hint": "如果你需要经常访问模组设置，你可能会想要启用该选项，如此便不用点击切换至模组设置。"
+    }
+}
