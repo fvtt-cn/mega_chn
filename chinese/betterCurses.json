@@ -1,1 +1,13 @@
-{}
+{
+    "betterCurses.debug.hint": "是否将调试结果输出到控制台？",
+    "betterCurses.debug.name": "调试模式",
+    "betterCurses.rsak": "远程法术攻击",
+    "betterCurses.msak": "近战法术攻击",
+    "betterCurses.rwak": "远程武器攻击",
+    "betterCurses.mwak": "近战武器攻击",
+    "betterCurses.affects": "该诅咒影响",
+    "betterCurses.formula": "诅咒伤害骰公式",
+    "betterCurses.curseName": "诅咒名称",
+    "betterCurses.isCurse": "是诅咒",
+    "betterCurses.Title": "诅咒"
+}
