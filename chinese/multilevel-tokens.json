@@ -36,5 +36,6 @@
     "MLT.SettingCloneModuleFlagsHint": "MOD 可以在指示物上设置不同的旗标（flags）供其使用。勾选此项，则克隆出的指示物会继承其本体所拥有的 Flags。鉴于这些 Flags 的作用取决于各个 MOD，无法确切地告诉此设置的作用，但如果克隆指示物与其他 MOD 的互动性差，你可以尝试修改该设置。",
     "MLT.TabNotes": "定义此绘图为 Multilevel Tokens 的自动化区域。",
     "MLT.TabTitle": "多层",
-    "MLT.FieldSceneLocal": "场景限定"
+    "MLT.FieldSceneLocal": "场景限定",
+    "MLT.SectionTargetRegionNotes": "被该目标区域创建的副本token的设置"
 }
