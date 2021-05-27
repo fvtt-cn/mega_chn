@@ -6,7 +6,7 @@
     "I18N.MAINTAINERS": "benwater12",
     "I18N.LANGUAGE": "正體中文",
     "about-time.RTU.hint": "遊戲時間更新的頻率 舉例:30代表現實過了30秒遊戲時間就會更新，0代表遊戲時間不會和現實時間更新",
-    "about-time.monthDetails": "月份詳細",
+    "about-time.monthDetails": "月份細節",
     "about-time.current": "現在日期和時間",
     "about-time.details": "日歷細節",
     "about-time.Second": "秒",
@@ -21,5 +21,13 @@
     "about-time.MCT.hint": "當有一個GM身分的帳號參加時，等待以確認是否有其他GM有管理時間的權限",
     "about-time.MCT.name": "時間管理員自動判定等待時間",
     "about-time.SPR.hint": "戰鬥時一輪有幾秒",
-    "about-time.SPR.name": "一輪代表的遊戲時間"
+    "about-time.SPR.name": "一輪代表的遊戲時間",
+    "about-time.countDown.startStop": "啟動/暫停虛擬時鐘",
+    "about-time.display.advanceMidnight": "往前到午夜",
+    "about-time.display.advance7am": "往前到隔天早上7點",
+    "about-time.display.advance8h": "往前八小時",
+    "about-time.display.advance1h": "往前一小時",
+    "about-time.display.advance10min": "往前十分鐘",
+    "about-time.display.advance1min": "往前一分鐘",
+    "about-time.weekDays": "工作天"
 }
