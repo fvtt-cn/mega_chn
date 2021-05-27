@@ -20,7 +20,7 @@
 - Magic Items
 
 ## 已翻译的系统列表
-- 待建设
+- SWADE
 
 ## 如何参与到翻译中
 本项目使用 [Weblate](https://hosted.weblate.org/) 进行翻译工作，使用 Weblate 无需拥有任何 Git 使用知识，只需在界面上进行中英对照翻译即可！
