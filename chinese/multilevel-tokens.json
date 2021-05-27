@@ -37,6 +37,7 @@
     "MLT.TabNotes": "定义此绘图为 Multilevel Tokens 的自动化区域。",
     "MLT.TabTitle": "多层",
     "MLT.FieldSceneLocal": "场景限定",
-    "MLT.SectionTargetRegionNotes": "被该目标区域创建的副本token的设置",
-    "MLT.FieldClonedTokenScale": "副本token缩放因子"
+    "MLT.SectionTargetRegionNotes": "被该目标区域创建的克隆指示物的设置。",
+    "MLT.FieldClonedTokenScale": "副本token缩放因子",
+    "MLT.FieldClonedTokenTintColor": "克隆指示物的色调"
 }
