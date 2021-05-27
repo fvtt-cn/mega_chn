@@ -10,6 +10,11 @@
 ## 已翻译的 MOD 列表
 - DAE
 - Midi-QoL
+- betterCurses
+- Drag Ruler
+- lib-df-hotkeys
+- Split Journal
+- TouchVTT
 
 ## 已翻译的系统列表
 - 待建设
