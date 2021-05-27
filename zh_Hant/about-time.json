@@ -1,1 +1,8 @@
-{}
+{
+    "about-time.RTU.name": "現實時間更新間隔",
+    "about-time.GTM.hint": "遊戲時間對現實時間的倍數",
+    "about-time.GTM.name": "更新遊戲時間倍數",
+    "about-time.notMaster": "不是控制時間的GM - 操作已取消",
+    "I18N.MAINTAINERS": "Sass",
+    "I18N.LANGUAGE": "正體中文"
+}
