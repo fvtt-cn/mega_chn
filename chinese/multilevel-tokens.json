@@ -31,5 +31,6 @@
     "MLT.SettingAutoSyncTargetsHint": "勾选此项，则将一个token选中为目标或取消选中时，也对其副本（或本体）进行同样的操作。",
     "MLT.SettingAutoSyncTargets": "自动同步玩家目标",
     "MLT.FieldDisableRegionNotes": "将该区域的所有自动化特性全部禁用。",
-    "MLT.FieldDisableRegion": "禁用区域"
+    "MLT.FieldDisableRegion": "禁用区域",
+    "MLT.SettingCloneModuleFlags": "复制被别的模组设置的token标志"
 }
