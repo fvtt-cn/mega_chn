@@ -59,5 +59,9 @@
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
+    },
+    {
+        "name": "sr5e",
+        "src": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/locale/en/config.json"
     }
 ]
