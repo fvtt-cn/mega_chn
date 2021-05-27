@@ -40,5 +40,8 @@
     "MLT.SectionTargetRegionNotes": "被该目标区域创建的克隆指示物的设置。",
     "MLT.FieldClonedTokenScale": "克隆指示物缩放倍数",
     "MLT.FieldClonedTokenTintColor": "克隆指示物的色调",
-    "MLT.SectionMacroTriggersNotes": "当token进入、离开或在该区域中移动时，触发一个宏。在宏中，变量 <b>scene</b>，<b>region</b>，<b>token</b> 和 <b>actor</b> 会给予相应的<b>场景</b>，<b>绘图</b>，<b>指示物</b>和<b>角色</b> 对象。"
+    "MLT.SectionMacroTriggersNotes": "当指示物进入、离开或在该区域中移动时，触发一个宏。在宏中，变量 <b>scene</b>，<b>region</b>，<b>token</b> 和 <b>actor</b> 会以相应的<b>场景</b>，<b>绘图</b>，<b>指示物</b>和<b>角色</b>赋值。",
+    "MLT.SectionLevelsNotes": "指示物移动到 <b>@stairs</b> 时将被传送到在层数更邻近的楼层区域内其他的 <b>@stairs</b>，位置保持相对一致。",
+    "MLT.FieldAdditionalArgumentsNotes": "在宏内，<b>args</b> 变量中可用的参数，用逗号分隔。",
+    "MLT.SectionMacroEventsNotes": "在宏内，<b>event</b> 变量将会在 <b>MLT.ENTER</b>, <b>MLT.LEAVE</b>, or <b>MLT.MOVE</b> 中取一值。"
 }
