@@ -88,7 +88,7 @@
     "DF_HOTKEYS.Config_Reset": "恢复默认值",
     "DF_HOTKEYS.Config_Table_Key": "按键绑定",
     "DF_HOTKEYS.Config_Table_Name": "快捷键名称",
-    "DF_HOTKEYS.Config_Warning": "当心  <code>Ctrl+W</code>。许多浏览器将其设置为关闭选项卡、窗口或者软件的快捷键。",
+    "DF_HOTKEYS.Config_Warning": "当心 <code>Ctrl+W</code>。许多浏览器将其设置为关闭选项卡、窗口或者软件的快捷键。",
     "DF_HOTKEYS.ModName": "库: DF 快捷键",
     "DF_HOTKEYS.Config_Title": "快捷键设置"
 }
