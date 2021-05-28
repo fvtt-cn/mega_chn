@@ -428,8 +428,8 @@
     "DL.ModsFastTurnField": "快速回合",
     "DL.ModsSlowTurnField": "慢速回合",
     "DL.ModsSaveChanges": "保存设定",
-    "DL.ModsDisableAll": "禁用所有调整值",
-    "DL.ModsModsField": "调整值",
+    "DL.ModsDisableAll": "禁用所有调整",
+    "DL.ModsModsField": "调整",
     "DL.ModsName": "名称",
     "DL.ModsEffects": "效果",
     "DL.ModsModifier": "Mod",
@@ -641,6 +641,18 @@
         "Choose": "选择",
         "Character": "角色：",
         "Everyone": "所有人",
-        "AddSubtract": "增加/减少财富："
-    }
+        "AddSubtract": "增加/减少财富：",
+        "CoinsGC": "金冠币",
+        "CoinsSS": "银先令",
+        "CoinsCP": "铜便士",
+        "CoinsBits": "碎子",
+        "CurrentWealth": "当前财富",
+        "ButtonApply": "应用",
+        "ButtonCancel": "取消"
+    },
+    "DL.AttackEdit": "编辑攻击",
+    "DL.AttackDelete": "删除攻击",
+    "DL.AttackClone": "复制攻击",
+    "DL.ActorMods": "角色调整",
+    "DL.ActorModfiers": "角色调整"
 }
