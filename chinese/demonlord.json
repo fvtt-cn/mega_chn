@@ -581,5 +581,9 @@
     "DL.ActionRangeMedium": "中程",
     "DL.ActionRangeLong": "远程",
     "DL.ActionRangeExtreme": "极远",
-    "DL.ActionRangeSight": "视界"
+    "DL.ActionRangeSight": "视界",
+    "DL.TriggeredAction": "反应动作",
+    "DL.Action": "动作",
+    "DL.ActionTriggeredAction": "动作或反应动作",
+    "DL.ActionAreaSize": "体型"
 }
