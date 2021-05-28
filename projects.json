@@ -67,5 +67,9 @@
     {
         "name": "sr5e",
         "src": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/locale/en/config.json"
+    },
+    {
+        "name": "ryuutama",
+        "src": "https://raw.githubusercontent.com/Reaver01/ryuutama/master/lang/en.json"
     }
 ]
