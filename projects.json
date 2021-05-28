@@ -68,6 +68,10 @@
         "src": "https://raw.githubusercontent.com/ElfFriend-DnD/foundryvtt-gmScreen/main/src/lang/en.json"
     },
     {
+        "name": "simple-calendar",
+        "src": "https://raw.githubusercontent.com/vigoren/foundryvtt-simple-calendar/main/src/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
@@ -83,5 +87,9 @@
     {
         "name": "demonlord",
         "src": "https://raw.githubusercontent.com/Xacus/demonlord/master/lang/en.json"
+    },
+    {
+        "name": "wfrp4e",
+        "src": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/lang/en.json"
     }
 ]
