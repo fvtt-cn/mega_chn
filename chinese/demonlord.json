@@ -26,7 +26,7 @@
     "DL.CharHealth": "生命值",
     "DL.CharHealthDamage": "伤害",
     "DL.CharHealthHealingRating": "愈合率",
-    "DL.CharHealthInjured": "负伤",
+    "DL.CharHealthInjured": "受伤",
     "DL.CharDefense": "防御",
     "DL.CharPerception": "感知",
     "DL.CharName": "姓名",
