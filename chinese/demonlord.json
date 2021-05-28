@@ -598,5 +598,6 @@
     "DL.ActionTargetTypesHemisphere": "半球",
     "DL.ActionTargetTypesLine": "线形",
     "DL.ActionTargetTypesSphere": "球体",
-    "DL.ActionTargetTypesSquare": "方形"
+    "DL.ActionTargetTypesSquare": "方形",
+    "DL.ActionDuration": "持续时间"
 }
