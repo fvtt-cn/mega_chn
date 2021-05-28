@@ -286,8 +286,8 @@ SWADE.SubtractPPDesc: 从可用奇术点中减去消耗点数
 SWADE.DmgRolls: 伤害投骰
 SWADE.Subtract: 减去
 SWADE.Joker: 鬼牌
-SWADE.CoreSkillsPack: 核心技能组
-SWADE.CoreSkillsPackDesc: 选择启用的核心技能组
+SWADE.CoreSkillsPack: 核心技能合集
+SWADE.CoreSkillsPackDesc: 选择启用的核心技能合集
 SWADE.BonusDamage: 奖励伤害
 SWADE.Quick: 迅捷
 SWADE.ClickSuggestions: 点击此处获取帮助
