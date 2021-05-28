@@ -22,7 +22,7 @@
     "about-time.MCT.name": "時間管理員自動判定等待時間",
     "about-time.SPR.hint": "戰鬥時一輪有幾秒",
     "about-time.SPR.name": "一輪代表的遊戲時間",
-    "about-time.countDown.startStop": "啟動/暫停虛擬時鐘",
+    "about-time.countDown.startStop": "啟動/暫停虛擬時鐘。",
     "about-time.display.advanceMidnight": "往前到午夜",
     "about-time.display.advance7am": "往前到隔天早上7點",
     "about-time.display.advance8h": "往前八小時",
