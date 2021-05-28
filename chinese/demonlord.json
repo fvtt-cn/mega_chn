@@ -336,7 +336,7 @@
     "DL.DialogHealedFor": "治疗 ",
     "DL.DialogHealedForPoints": " 点伤害。",
     "DL.DialogRest": "进行休整。",
-    "DL.DialogShoeEffects": "显示效果：",
+    "DL.DialogShoeEffects": "显示效果",
     "DL.CreatureEdit": "编辑生物",
     "DL.CreatureSave": "保存生物",
     "ACTOR": {
@@ -488,7 +488,7 @@
     "DL.AfflictionsFatigued": "力竭的生物进行的攻击掷骰和检定掷骰都有1点劣势。",
     "DL.AfflictionsFrightened": "恐慌的生物进行的攻击掷骰和检定掷骰都有1点劣势，具体看何种东西引起他的恐慌。",
     "DL.AfflictionsHorrified": "惊惧的生物进行的攻击掷骰和检定掷骰都有3点劣势，具体看何种东西引起他的惊惧。",
-    "DL.AfflictionsGrabbed": "该状态取决于生物的体型。被擒拿的生物体型小于或等于擒抱他的生物，则被擒拿的生物在挣脱擒拿前无法离开该生物。如果被擒拿生物体型大于擒抱他的生物。当被擒拿生物移动时，擒拿他的生物可以选择和其一同移动（抓在对方身体上）或结束擒拿。（可以查看擒抱Grab来了解关于擒拿的更多细节，和逃脱 Escape来了解如何逃离擒抱。",
+    "DL.AfflictionsGrabbed": "该状态取决于生物的体型。被擒拿的生物体型小于或等于擒抱他的生物，则被擒拿的生物在挣脱擒拿前无法离开该生物。如果被擒拿生物体型大于擒抱他的生物。当被擒拿生物移动时，擒拿他的生物可以选择和其一同移动（抓在对方身体上）或结束擒拿。（可以查看擒抱来了解关于擒拿的更多细节，和逃脱来了解如何逃离擒抱。）",
     "DL.AfflictionsImmobilized": "被束缚的生物速度归0，并不能获得基于速度的加值。所有对被束缚生物进行的攻击掷骰获得1点优势。",
     "DL.AfflictionsImpaired": "脆弱的生物进行的所有攻击掷骰和检定掷骰都有1点劣势。",
     "DL.AfflictionsPoisoned": "中毒的生物进行的所有攻击掷骰和检定掷骰都有1点劣势。",
