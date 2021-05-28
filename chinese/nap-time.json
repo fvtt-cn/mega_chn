@@ -1,1 +1,21 @@
-{}
+{
+    "NAPTIME.Button": "提示玩家休息",
+    "NAPTIME.Dialog.Title": "休憩时间",
+    "NAPTIME.Dialog.Content": "你想要进行哪种休息？",
+    "NAPTIME.Settings.GMNoDialog": "GM 端（无对话框）",
+    "NAPTIME.Settings.Player": "玩家端",
+    "NAPTIME.Settings.None": "无",
+    "NAPTIME.Settings.CharacterLong.Name": "长休：角色",
+    "NAPTIME.Settings.CharacterShort.Name": "短休：角色",
+    "NAPTIME.Settings.CharacterShort.Hint": "对于绑定了用户的角色，应怎样处理短休？",
+    "NAPTIME.Settings.OtherLong.Hint": "对于未绑定用户的角色，应怎样处理长休？",
+    "NAPTIME.Settings.OtherShort.Name": "短休：其他",
+    "NAPTIME.Settings.Offline.Name": "以其他方式对待离线角色？",
+    "NAPTIME.AutoHD": "自动生命骰：",
+    "NAPTIME.AutoHDThreshold": "停止掷骰的伤害阈值：",
+    "NAPTIME.Settings.GMDialog": "GM 端（由对话框）",
+    "NAPTIME.Settings.CharacterLong.Hint": "对于绑定了用户的角色，应怎样处理长休？",
+    "NAPTIME.Settings.OtherLong.Name": "长休：其他",
+    "NAPTIME.Settings.OtherShort.Hint": "对于未绑定用户的角色，应怎样处理短休？",
+    "NAPTIME.Settings.Offline.Hint": "启用后，正离线的用户绑定的角色将会以上面选择‘其他’角色处理的方式执行休息。禁用时，将以‘角色’的方式处理"
+}
