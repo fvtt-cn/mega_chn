@@ -64,6 +64,10 @@
         "src": "https://raw.githubusercontent.com/BadIdeasBureau/nap-time/main/languages/en.json"
     },
     {
+        "name": "gmScreen",
+        "src": "https://raw.githubusercontent.com/ElfFriend-DnD/foundryvtt-gmScreen/main/src/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
