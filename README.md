@@ -23,6 +23,7 @@
 - Tidy UI
 - Tidy5e Sheet
 - Crash's Tracking & Training (5e)
+- Nap Time
 
 ## 已翻译的系统列表
 - SWADE
