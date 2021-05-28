@@ -172,7 +172,7 @@ ITEM.TypeHindrance: 负赘
 ITEM.TypeEdge: 专长
 ITEM.TypeGear: 装备
 ITEM.TypeShield: 盾牌
-ITEM.TypeArmor: 护甲
+ITEM.TypeArmor: 盔甲
 ITEM.TypeWeapon: 武器
 ACTOR.TypeVehicle: 载具
 ACTOR.TypeNpc: NPC
