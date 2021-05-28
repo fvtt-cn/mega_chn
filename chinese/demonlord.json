@@ -591,5 +591,8 @@
     "DL.ActionTargetTypesCreature": "生物",
     "DL.ActionTargetTypesObject": "物件",
     "DL.ActionTargetTypesCreatureObject": "生物与物件",
-    "DL.ActionTargetTypesCircle": "圆形"
+    "DL.ActionTargetTypesCircle": "圆形",
+    "DL.ActionTargetTypesCube": "立方体",
+    "DL.ActionTargetTypesCone": "锥形",
+    "DL.ActionTargetTypesCylinder": "圆柱体"
 }
