@@ -11,11 +11,11 @@
     "SR5.MIGRATION.WarningHeader": "迁移警告",
     "SR5.MIGRATION.WarningTitle": "警告",
     "SETTINGS": {
-        "ApplyLimitsDescription": "界限是否应该应用在掷骰中？",
+        "ApplyLimitsDescription": "界限是否应该应用在掷骰中",
         "ApplyLimitsName": "掷骰时应用界限",
         "EstimateDiagonal": "测量对角线移动(1-2-1)",
         "IgnoreDiagonal": "无视对角线移动(1-1-1)",
-        "DiagonalMovementDescription": "当使用正方形格子时，如何处理对角线移动？",
+        "DiagonalMovementDescription": "当使用正方形格子时，如何处理对角线移动",
         "DiagonalMovementName": "对角线移动"
     },
     "SR5.SourceFieldEmptyError": "The Source field is empty, please enter valid text for the source",
