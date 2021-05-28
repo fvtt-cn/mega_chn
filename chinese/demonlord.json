@@ -608,7 +608,7 @@
     "DL.ActionDurationDays": "天",
     "DL.ActionDurationMonths": "月",
     "DL.ActionDurationYears": "年",
-    "DL.ActionTexture": "模板纹理",
+    "DL.ActionTexture": "测量板材质",
     "DL.TalentRollActions": "动作：",
     "DL.ItemRollText": "物品：",
     "DL.SettingTemplateAutoTargetingHint": "自动将测量板内的指示物设定为目标。",
@@ -628,5 +628,19 @@
     "DL.stabilize": "稳定伤势",
     "DL.AfflictionsConcentrate": "一些法术效应或能力需要你去专注来持续产生效用。如果你专注某个效应，来维持效应直到下轮结束，你能专注该效应多长时间取决于其法术的最大持续时间。",
     "DL.AfflictionsDefend": "当你选择防护，直到本轮轮次结束，所有对你进行的攻击掷骰带有1点劣势，你为抵抗攻击进行的所有检定掷骰获得1点优势。这些收益会在你无法使用动作时失去，例如你被震慑，眩晕或昏迷。",
-    "DL.AfflictionsHelp": "选择一个5码内可以看见你并理解你语言的生物。进行一次智力检定。若成功，目标本轮结束之前下次进行的攻击掷骰或检定掷骰获得1点优势。"
+    "DL.AfflictionsHelp": "选择一个5码内可以看见你并理解你语言的生物。进行一次智力检定。若成功，目标本轮结束之前下次进行的攻击掷骰或检定掷骰获得1点优势。",
+    "DL.AfflictionsPrepare": "你会为在特定事件发生时开展一项行动而进行准备。选择一个你通常会使用一个动作来进行的行动，比如攻击或撤离等。然后，描述一个你开展此行动之前必须发生的事件。这便是触发器。 如果该触发事件在轮次结束前发生，你可以使用一个反应来进行准备动作。你以此进行的攻击掷骰和检定掷骰获得1点优势。否则无事发生。",
+    "DL.AfflictionsReload": "选择一把你能触及并拥有装填能力的武器（例如弩）。如果你拥有该武器使用的弹药，你装填此武器。",
+    "DL.AfflictionsRetreat": "你移动最多为你速度值一半的距离，本次移动不会触发其他生物的借机攻击。",
+    "DL.AfflictionsRush": "你移动最多为你速度值两倍的距离。",
+    "DL.AfflictionsStabilize": "选择一个在你触及范围内的失能生物。进行一次智力检定，如果该生物处于濒死状态则额外获得1点劣势。若成功，目标愈合1点伤害。",
+    "DL.PathsTraitTransfers": "转移所有天赋",
+    "DL.PTCharacters": "角色",
+    "DL.MacroWealthManager": {
+        "DialogTitle": "财富管理",
+        "Choose": "选择",
+        "Character": "角色：",
+        "Everyone": "所有人",
+        "AddSubtract": "增加/减少财富："
+    }
 }
