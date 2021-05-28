@@ -60,6 +60,10 @@
         "src": "https://raw.githubusercontent.com/crash1115/5e-training/master/lang/en.json"
     },
     {
+        "name": "nap-time",
+        "src": "https://raw.githubusercontent.com/BadIdeasBureau/nap-time/main/languages/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
