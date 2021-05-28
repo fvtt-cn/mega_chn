@@ -4,13 +4,12 @@ name: Update Language Sources
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   schedule:
-  # * is a special character in YAML so you have to quote this string
-  - cron:  '*/5 * * * *'
-
-  # Allows you to run this workflow manually from the Actions tab
+    - cron:  '*/5 * * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'projects.json'
 
 jobs:
   update:
