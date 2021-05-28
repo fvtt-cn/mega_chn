@@ -601,5 +601,7 @@
     "DL.ActionTargetTypesSquare": "方形",
     "DL.ActionDuration": "持续时间",
     "DL.ActionDurationValue": "值",
-    "DL.ActionDurationType": "类型"
+    "DL.ActionDurationType": "类型",
+    "DL.ActionDurationRounds": "轮",
+    "DL.ActionDurationMinutes": "分钟"
 }
