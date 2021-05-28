@@ -596,5 +596,7 @@
     "DL.ActionTargetTypesCone": "锥形",
     "DL.ActionTargetTypesCylinder": "圆柱体",
     "DL.ActionTargetTypesHemisphere": "半球",
-    "DL.ActionTargetTypesLine": "线形"
+    "DL.ActionTargetTypesLine": "线形",
+    "DL.ActionTargetTypesSphere": "球体",
+    "DL.ActionTargetTypesSquare": "方形"
 }
