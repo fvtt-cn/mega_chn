@@ -223,8 +223,8 @@
     "DL.SpellEffectDice": "效果骰",
     "DL.SpellEffectDiceResult": "结果：",
     "DL.SpellMaxUsesReached": "已达到法术最大使用次数",
-    "DL.ChallengeRollText": "检定投骰：",
-    "DL.ChallengeRequestRollText": "要求检定投骰：",
+    "DL.ChallengeRollText": "检定：",
+    "DL.ChallengeRequestRollText": "要求检定：",
     "DL.ChallengeVS": "VS",
     "DL.AttackRollText": "攻击：",
     "DL.AttackSpecialRollText": "特殊攻击：",
@@ -603,5 +603,9 @@
     "DL.ActionDurationValue": "值",
     "DL.ActionDurationType": "类型",
     "DL.ActionDurationRounds": "轮",
-    "DL.ActionDurationMinutes": "分钟"
+    "DL.ActionDurationMinutes": "分钟",
+    "DL.ActionDurationHours": "小时",
+    "DL.ActionDurationDays": "天",
+    "DL.ActionDurationMonths": "月",
+    "DL.ActionDurationYears": "年"
 }
