@@ -56,6 +56,10 @@
         "src": "https://gitlab.com/riccisi/foundryvtt-magic-items/-/raw/master/module/lang/en.json"
     },
     {
+        "name": "5e-training",
+        "src": "https://raw.githubusercontent.com/crash1115/5e-training/master/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
