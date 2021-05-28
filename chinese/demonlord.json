@@ -590,5 +590,6 @@
     "DL.ActionTargetTypesSelf": "自身",
     "DL.ActionTargetTypesCreature": "生物",
     "DL.ActionTargetTypesObject": "物件",
-    "DL.ActionTargetTypesCreatureObject": "生物与物件"
+    "DL.ActionTargetTypesCreatureObject": "生物与物件",
+    "DL.ActionTargetTypesCircle": "圆形"
 }
