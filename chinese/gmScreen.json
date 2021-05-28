@@ -1,1 +1,9 @@
-{}
+{
+    "GMSCR": {
+        "Grid": "网格",
+        "gmScreen": {
+            "Title": "GM屏风",
+            "ClearCell": "清除单元格"
+        }
+    }
+}
