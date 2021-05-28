@@ -585,5 +585,8 @@
     "DL.TriggeredAction": "反应动作",
     "DL.Action": "动作",
     "DL.ActionTriggeredAction": "动作或反应动作",
-    "DL.ActionAreaSize": "尺寸"
+    "DL.ActionAreaSize": "尺寸",
+    "DL.ActionAreaShape": "形状",
+    "DL.ActionTargetTypesSelf": "自身",
+    "DL.ActionTargetTypesCreature": "生物"
 }
