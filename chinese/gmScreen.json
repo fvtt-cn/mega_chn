@@ -2,7 +2,7 @@
     "GMSCR": {
         "Grid": "网格",
         "gmScreen": {
-            "Title": "GM帷幕",
+            "Title": "GM 帷幕",
             "ClearCell": "清除单元格",
             "EmptyCellHint": "将笔记、随机表、角色和物品从世界或合集包中拖至此处。",
             "Refresh": "刷新",
@@ -19,7 +19,7 @@
             },
             "condensedButton": {
                 "Hint": "将文本从按钮上移除",
-                "Name": "精简 GM 帷幕 按钮"
+                "Name": "精简 GM 帷幕按钮"
             },
             "gm-screen-config": {
                 "Name": "网格标签",
@@ -35,16 +35,16 @@
                 "Hint": "清除网格条目。这个操作不可撤销。"
             },
             "right-margin": {
-                "Hint": "设置 GM 帷幕右边到侧边栏之间的偏移距离。此数值可能影响抽屉显示模式下的帷幕宽度。",
-                "Name": "仅限抽屉：右边偏移量"
+                "Hint": "设置 GM 帷幕右边到侧边栏之间的偏移距离。此数值可能影响抽屉显示模式下的最大帷幕宽度。",
+                "Name": "仅限抽屉：右边距"
             },
             "drawer-width": {
-                "Hint": "将宽度设置为除去侧边栏宽度和右边偏移量后的有效帷幕宽度的百分比。",
+                "Hint": "将除去侧边栏和右边距后的可用帷幕宽度，乘以此百分比计算最终宽度。",
                 "Name": "仅限抽屉：宽度"
             },
             "display-as-drawer": {
                 "Hint": "将 GM 帷幕显示为屏幕底部的抽屉，而非通常的对话框。如果你想要配合使用 PopOut，禁用此项。",
-                "Name": "显示为抽屉"
+                "Name": "以抽屉样式显示"
             },
             "drawer-height": {
                 "Name": "仅限抽屉：高度",
@@ -73,7 +73,7 @@
                 "Content": "你确定要清除网格条目吗？这个操作无法撤销。",
                 "Title": "清除网格"
             },
-            "noGrids": "你的GM没有共享任何GM网格。"
+            "noGrids": "你的 GM 没有共享任何GM 帷幕网格。"
         },
         "cellConfigDialog": {
             "CellConfig": "单元格配置",
