@@ -225,7 +225,8 @@
         "chat": "聊天消息",
         "letme": "LMRTFY",
         "letmeQuery": "LMRTFY + 询问",
-        "none": "关闭"
+        "none": "关闭",
+        "mtb": "Monk's Token Bar"
     },
     "midi-qol.playerRollSavesOptionsReduced": {
         "chat": "聊天消息",
@@ -256,7 +257,8 @@
     "midi-qol.rollNPCSaves.Name": "提示GM掷豁免骰",
     "midi-qol.rollNPCSavesOptions": {
         "auto": "自动",
-        "letme": "LMRTFY"
+        "letme": "LMRTFY",
+        "mtb": "Monk's Token Bar"
     },
     "midi-qol.RollOtherDamage.Hint": "启用后，rwak/mwak附加的豁免失败后还会掷其他公式，掷骰结果作为额外伤害。豁免成功则伤害减半，用武器属性的noDamSave和fullDamSave来覆写",
     "midi-qol.RollOtherDamage.Name": "对rwak/mwak的豁免失败时掷其他公式",
