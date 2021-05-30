@@ -178,5 +178,9 @@
     "FSC.Notes.DialogTitle": "备注",
     "FSC.Notes.New": "新备注",
     "FSC.Notes.Empty": "当日无备注",
-    "FSC.Notes.AddNew": "添加新备注"
+    "FSC.Notes.AddNew": "添加新备注",
+    "FSC.One": "1",
+    "FSC.Five": "5",
+    "FSC.Thirty": "30",
+    "FSC.By": "由"
 }
