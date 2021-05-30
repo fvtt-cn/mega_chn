@@ -6,7 +6,11 @@
             "ClearCell": "清除单元格",
             "EmptyCellHint": "将笔记、随机表、角色和物品从世界或合集包中拖至此处。",
             "Refresh": "刷新",
-            "Reset": "清除网格"
+            "Reset": "清除网格",
+            "ConfigureCell": "配置行列间距",
+            "Open": "GM 帷幕",
+            "OpenPlayer": "玩家帷幕",
+            "OpenFull": "展开全部条目表"
         },
         "settings": {
             "columns": {
@@ -14,7 +18,8 @@
                 "Hint": "你想要多少列？改变此项也许会需要清除网格。"
             },
             "condensedButton": {
-                "Hint": "将文本从按钮上移除"
+                "Hint": "将文本从按钮上移除",
+                "Name": "精简 GM 帷幕 按钮"
             },
             "gm-screen-config": {
                 "Name": "网格标签",
@@ -28,13 +33,36 @@
             "reset": {
                 "Name": "重置",
                 "Hint": "清除网格条目。这个操作不可撤销。"
+            },
+            "right-margin": {
+                "Hint": "设置 GM 帷幕右边到侧边栏之间的偏移距离。此数值可能影响抽屉显示模式下的帷幕宽度。",
+                "Name": "仅限抽屉：右边偏移量"
+            },
+            "drawer-width": {
+                "Hint": "将宽度设置为除去侧边栏宽度和右边偏移量后的有效帷幕宽度的百分比。",
+                "Name": "仅限抽屉：宽度"
+            },
+            "display-as-drawer": {
+                "Hint": "将 GM 帷幕显示为屏幕底部的抽屉，而非通常的对话框。如果你想要配合使用 PopOut，禁用此项。",
+                "Name": "显示为抽屉"
+            },
+            "drawer-height": {
+                "Name": "仅限抽屉：高度",
+                "Hint": "设置 GM 帷幕在抽屉显示模式下的高度。"
+            },
+            "drawer-opacity": {
+                "Name": "仅限抽屉：不透明度",
+                "Hint": "控制抽屉的透明程度。"
             }
         },
         "gridConfig": {
             "GridTabs": "网格标签配置",
             "GridConfig": "网格配置",
             "table": {
-                "Add": "添加"
+                "Add": "添加",
+                "TabLabel": "选项卡标签",
+                "Rows": "行覆盖",
+                "Columns": "列覆盖"
             },
             "errors": {
                 "empty": "无法保存没有标签的网格。"
@@ -48,7 +76,9 @@
             "noGrids": "你的GM没有共享任何GM网格。"
         },
         "cellConfigDialog": {
-            "CellConfig": "单元格配置"
+            "CellConfig": "单元格配置",
+            "RowSpan": "行间距",
+            "ColSpan": "列间距"
         }
     }
 }
