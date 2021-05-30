@@ -61,8 +61,8 @@
             "table": {
                 "Add": "添加",
                 "TabLabel": "选项卡标签",
-                "Rows": "行覆盖",
-                "Columns": "列覆盖"
+                "Rows": "行",
+                "Columns": "列"
             },
             "errors": {
                 "empty": "无法保存没有标签的网格。"
@@ -77,8 +77,8 @@
         },
         "cellConfigDialog": {
             "CellConfig": "单元格配置",
-            "RowSpan": "行间距",
-            "ColSpan": "列间距"
+            "RowSpan": "行",
+            "ColSpan": "列"
         }
     }
 }
