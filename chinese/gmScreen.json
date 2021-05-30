@@ -2,8 +2,53 @@
     "GMSCR": {
         "Grid": "网格",
         "gmScreen": {
-            "Title": "GM屏风",
-            "ClearCell": "清除单元格"
+            "Title": "GM帷幕",
+            "ClearCell": "清除单元格",
+            "EmptyCellHint": "将笔记、随机表、角色和物品从世界或合集包中拖至此处。",
+            "Refresh": "刷新",
+            "Reset": "清除网格"
+        },
+        "settings": {
+            "columns": {
+                "Name": "列",
+                "Hint": "你想要多少列？改变此项也许会需要清除网格。"
+            },
+            "condensedButton": {
+                "Hint": "将文本从按钮上移除"
+            },
+            "gm-screen-config": {
+                "Name": "网格标签",
+                "Label": "标签配置",
+                "Hint": "在此处添加、删除和更新网格标签。"
+            },
+            "rows": {
+                "Name": "行",
+                "Hint": "你想要多少行？改变此项可能会需要清楚网格。"
+            },
+            "reset": {
+                "Name": "重置",
+                "Hint": "清除网格条目。这个操作不可撤销。"
+            }
+        },
+        "gridConfig": {
+            "GridTabs": "网格标签配置",
+            "GridConfig": "网格配置",
+            "table": {
+                "Add": "添加"
+            },
+            "errors": {
+                "empty": "无法保存没有标签的网格。"
+            }
+        },
+        "warnings": {
+            "clearConfirm": {
+                "Content": "你确定要清除网格条目吗？这个操作无法撤销。",
+                "Title": "清除网格"
+            },
+            "noGrids": "你的GM没有共享任何GM网格。"
+        },
+        "cellConfigDialog": {
+            "CellConfig": "单元格配置"
         }
     }
 }
