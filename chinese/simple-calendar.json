@@ -27,7 +27,7 @@
     "FSC.Date.October": "十月",
     "FSC.Date.November": "十一月",
     "FSC.Time.Current": "当前时间",
-    "FSC.Moon.Phase.New": "新月亮",
+    "FSC.Moon.Phase.New": "新建月历",
     "FSC.Moon.Phase.WaxingCrescent": "眉月",
     "FSC.Moon.Phase.FirstQuarter": "上弦月",
     "FSC.Moon.Phase.WaxingGibbous": "盈凸月",
@@ -83,7 +83,7 @@
     "FSC.Configuration.Season.StartingDayHelp": "每年起始月中季节开始的日子。",
     "FSC.Configuration.Season.Color": "颜色",
     "FSC.MoveYearBack": "后移一年",
-    "FSC.Time.ControlsHelp": "选择需要改变的时间单位，并使用控制选项增减1或5单位.",
+    "FSC.Time.ControlsHelp": "选择需要改变的时间单位，并使用控制选项增减 1 或 5 单位.",
     "FSC.Notes.TitleHelp": "该备注的标题。",
     "FSC.Date.Monday": "周一",
     "FSC.Date.Tuesday": "周二",
@@ -182,5 +182,7 @@
     "FSC.One": "1",
     "FSC.Five": "5",
     "FSC.Thirty": "30",
-    "FSC.By": "由"
+    "FSC.By": "由",
+    "FSC.Notes.NewFor": "新建备注给",
+    "FSC.Notes.For": "备注："
 }
