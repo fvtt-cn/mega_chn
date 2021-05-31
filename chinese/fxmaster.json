@@ -35,5 +35,7 @@
     "CONTROLS.Bloom": "花开滤镜",
     "CONTROLS.OldFilm": "老电影滤镜",
     "CONTROLS.Predator": "捕食者滤镜",
-    "CONTROLS.Underwater": "水下滤镜"
+    "CONTROLS.Underwater": "水下滤镜",
+    "FXMASTER.PermissionCreate": "使用FXMaster特效",
+    "FXMASTER.PermissionCreateHint": "允许通过场景管理使用FXMaster特效。"
 }
