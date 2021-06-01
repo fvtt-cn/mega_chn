@@ -78,7 +78,7 @@
     {
         "name": "pf1-alt-sheet",
         "src": "https://gitlab.com/zenvy/foundryvtt-pf1-alt-sheet/-/raw/master/lang/en.json"
-    }
+    },
     {
         "name": "swade",
         "yml": true,
