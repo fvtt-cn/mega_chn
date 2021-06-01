@@ -752,7 +752,7 @@
     "SHEET.CharacteristicCurrent": "目前",
     "SHEET.ExperienceCurrent": "目前",
     "SHEET.CareerCurrent": "目前",
-    "Disease.IncubationFinished": "{disease} incubation finished. ",
+    "Disease.IncubationFinished": "",
     "PROPERTY.Accurate": "瞄准",
     "PROPERTY.Blackpowder": "火药",
     "PROPERTY.Blast": "爆破",
