@@ -90,7 +90,7 @@
     },
     {
         "name": "demonlord",
-        "src": "https://raw.githubusercontent.com/Xacus/demonlord/master/lang/en.json"
+        "src": "https://github.com/Xacus/demonlord/raw/master/src/lang/en.json"
     },
     {
         "name": "wfrp4e",
