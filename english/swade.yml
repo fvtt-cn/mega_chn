@@ -96,6 +96,10 @@ SWADE.Berserk: Berserk
 SWADE.Defending: Defending
 SWADE.Flying: Flying
 SWADE.Holding: Holding
+SWADE.Hold: Hold
+SWADE.ActNow: Act Now
+SWADE.ActAfterCurrentCombatant: Act After Current Combatant
+SWADE.LoseTurn: Toggle Lose Turn
 SWADE.Frightened: Frightened
 SWADE.Encumbered: Encumbered
 SWADE.Prone: Prone
@@ -347,3 +351,10 @@ SWADE.DmgRolls: Damage Rolls
 SWADE.SubtractPPDesc: Subtract PP Cost from the available PP
 SWADE.AddPPDesc: Add PP Cost to the available PP
 SWADE.RightClickZoom: Right-Click to Zoom
+SWADE.SysMigrationWarning: >-
+  Your SWADE system data is from too old a Foundry version and cannot be
+  reliably migrated to the latest version. The process will be attempted, but
+  errors may occur.
+SWADE.SomethingWrongWithCardComp: Something went wrong with the card compendium, switching back to default
+SWADE.DeckShuffled: Card Deck automatically shuffled
+SWADE.BasePace: Base Pace
