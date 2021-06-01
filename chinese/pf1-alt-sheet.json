@@ -1,1 +1,53 @@
-{}
+{
+    "PF1AS": {
+        "InfoMissingClass": "你的角色缺少职业。前往特性标签页添加一个。",
+        "AbilityScores": "属性值",
+        "ExperienceShort": "XP",
+        "CharacterSheetLabel": "替换人物卡",
+        "NPCSheetLabel": "替换NPC人物卡",
+        "Abilities": "属性",
+        "FFShort": "措手不及",
+        "ACShort": "AC",
+        "Levels": "等级",
+        "TouchShort": "接触",
+        "PointBuy": "使用购点",
+        "SpeedAndMovement": "速度与移动",
+        "SpellRes": "法术抗力",
+        "AttackBonuses": "攻击加值",
+        "ClassNoFeatures": "无职业特性",
+        "DieLetter": "D",
+        "NoFeatures": "创建（+）或从合集包中拖到此处",
+        "SpecialQualities": "特殊能力",
+        "CombatManeuvers": "战技",
+        "CasterLevel": "施法者等级",
+        "Roll": "投骰",
+        "Level0": "0环",
+        "Level1": "1环",
+        "Level2": "2环",
+        "Level3": "3环",
+        "Level4": "4环",
+        "Level5": "5环",
+        "Level6": "6环",
+        "Level7": "7环",
+        "Level8": "8环",
+        "Level9": "9环",
+        "Spells": {
+            "CannotCastAbilityScore": "-你的属性值不够高",
+            "CannotCast": "你无法施放该环法术，因为："
+        },
+        "Skill": {
+            "AlwaysShow": "AS",
+            "AlwaysShowTooltip": "总是在概览页显示"
+        },
+        "Features": {
+            "MinimizeClasses": "最小化职业显示"
+        },
+        "Config": {
+            "Reset": "重置人物卡配置",
+            "ResetTooltip": "清除角色上的特定模组配置并还原为默认值。如果有东西挂掉了不妨这么做。"
+        },
+        "MetricSpeeds": "你在使用公制单位。\n请输入以英尺为单位的数值。\n常见数值：\n20尺 = 6米\n30尺 = 9米",
+        "NatAC": "天生护甲",
+        "BaseCombatStats": "基础战斗数据"
+    }
+}
