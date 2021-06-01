@@ -76,6 +76,10 @@
         "src": "https://raw.githubusercontent.com/pyrige/fvtt-keikaku/main/i18n/en.json"
     },
     {
+        "name": "pf1-alt-sheet",
+        "src": "https://gitlab.com/zenvy/foundryvtt-pf1-alt-sheet/-/raw/master/lang/en.json"
+    }
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
