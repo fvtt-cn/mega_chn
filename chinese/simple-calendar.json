@@ -266,5 +266,13 @@
     "FSC.Error.Note.NoSelectedMonth": "没有选中月份，无法添加新备注。",
     "FSC.Module.CalendarWeather.Message": "我们检测到日历/天气模块已为此世界启用。<br/><br/>如果要将日历/天气日历设置导入到简单日历中，请选择“导入至简单日历”，这将使简单日历与日历/天气设置相匹配。<br/><br/>如果要使日历/天气匹配简单日历，请选择“导出为日历/天气”，这将使日历/天气设置与简单日历配置相匹配。<br/><br/>否则可以选择“无更改”，并且将保留原样。如果以后要进行导入/导出，则该选项将在简单日历常规设置中可用。<br/>",
     "FSC.Module.AboutTime.Message": "我们检测到已为此世界启用了“About-Time”模组。<br/><br/>如果要将“About-Time”日历设置导入简单日历，请选择“导入简单日历”，这将使简单日历与“About-Time”设置匹配。<br/><br/>如果要使“About-Time”与简单日历匹配，请选择“导出到About-Time”，这将使“About-Time”设置与简单日历配置匹配。<br/><br/>否则，您可以选择“无更改”，事情将保持原样。如果您想稍后进行导入/导出，则该选项将在“简单日历通用设置”中提供。<br/>",
-    "FSC.Random": "随机"
+    "FSC.Random": "随机",
+    "FSC.Configuration.Year.YearNameBehaviour": "",
+    "FSC.Configuration.Year.YearNameBehaviourHelp": "",
+    "FSC.Configuration.Year.YearNames": "",
+    "FSC.Configuration.Year.YearName": "",
+    "FSC.Configuration.Year.YearNameAdd": "",
+    "FSC.Configuration.Year.YearNameRemove": "",
+    "FSC.Configuration.Year.YearNamesStart": "",
+    "FSC.Configuration.Year.YearNamesStartHelp": ""
 }
