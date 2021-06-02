@@ -80,6 +80,22 @@
         "src": "https://gitlab.com/zenvy/foundryvtt-pf1-alt-sheet/-/raw/master/lang/en.json"
     },
     {
+        "name": "smalltime",
+        "src": "https://github.com/unsoluble/smalltime/raw/main/lang/en.json"
+    },
+    {
+        "name": "ActiveAuras",
+        "src": "https://raw.githubusercontent.com/kandashi/Active-Auras/main/lang/en.json"
+    },
+    {
+        "name": "polyglot",
+        "src": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-polyglot/master/lang/en.json"
+    },
+    {
+        "name": "PDFoundry",
+        "src": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/locale/en/config.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
