@@ -4,5 +4,14 @@
     "TOUCHVTT.DeleteWall": "删除选择的墙",
     "TOUCHVTT.UndoWall": "撤销上一次墙操作",
     "TOUCHVTT.ToggleWallChain": "切换墙壁链接",
-    "TOUCHVTT.Erase": "擦除"
+    "TOUCHVTT.Erase": "擦除",
+    "TOUCHVTT.Rotate45": "旋转至右上",
+    "TOUCHVTT.Rotate0": "旋转至向上",
+    "TOUCHVTT.Rotate90": "旋转至向右",
+    "TOUCHVTT.Rotate135": "旋转至右下",
+    "TOUCHVTT.Rotate180": "旋转至向下",
+    "TOUCHVTT.Rotate225": "旋转至左下",
+    "TOUCHVTT.Rotate270": "旋转至向左",
+    "TOUCHVTT.Rotate315": "旋转至左上",
+    "TOUCHVTT.DeleteDrawing": "删除选中的绘图"
 }
