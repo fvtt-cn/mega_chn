@@ -22,7 +22,7 @@ SWADE.Actors: 角色
 SWADE.AddStats: 额外数值
 SWADE.Vehicles: 载具
 SWADE.GM: 游戏主持人
-SWADE.Cone: 锥形模板
+SWADE.Cone: 锥形盖板
 SWADE.LBT: 大型爆散盖板
 SWADE.MBT: 中型爆散盖板
 SWADE.SBT: 小型爆散盖板
@@ -50,7 +50,7 @@ SWADE.Formula: 公式
 SWADE.DiceConfLabel: 打开骰子设置
 SWADE.DiceConfDesc: 调整SWADE/Dice So Nice的整合设定
 SWADE.DiceConf: 骰子设置
-SWADE.SettingConfDesc: 将系统微调到与当前的进行游戏相符
+SWADE.SettingConfDesc: 将系统调整到与当前的进行游戏相符
 SWADE.SettingConfLabel: 打开设置设定
 SWADE.SettingConf: 设置设定
 SWADE.VehicleAmmoFromInventory: 载具使用其物品栏中的弹药
@@ -187,7 +187,7 @@ SWADE.CommunityCharSheet: 社区角色卡
 SWADE.Equipped: 已装备
 SWADE.Eqd: Eq'd
 SWADE.CarryWeight: 负载
-SWADE.Currency: 货币
+SWADE.Currency: 货币形式
 SWADE.Enabled: 启用
 SWADE.HasMaxValue: 有最大值
 SWADE.Label: 标签
@@ -225,8 +225,8 @@ SWADE.ShotsUsed: 弹药消耗
 SWADE.SkillModUni: 特性修正（通用）
 SWADE.DmgModUni: 伤害修正（通用）
 SWADE.Actions: 动作
-SWADE.ActionsEffects: 动作 & 效果
-SWADE.Notes: 笔记
+SWADE.ActionsEffects: 动作与效果
+SWADE.Notes: 注释
 SWADE.Cover: 掩体
 SWADE.Parry: 格挡
 SWADE.Mag: 装弹量
@@ -261,7 +261,7 @@ SWADE.Stunned: 震慑
 SWADE.Vuln: 脆弱
 SWADE.Distr: 分神
 SWADE.Shaken: 动摇
-SWADE.Biography: 自传
+SWADE.Biography: 人物历程
 SWADE.Shields: 护盾
 SWADE.Armors: 护甲
 SWADE.RangedWeapons: 远程武器
@@ -294,11 +294,11 @@ SWADE.ClickSuggestions: 点击此处获取帮助
 SWADE.AltTrait: 替代特性
 SWADE.Trait: 特性
 SWADE.TraitRolls: 特性投骰
-SWADE.CurrencyNameDesc: 货币的名称
+SWADE.CurrencyNameDesc: 给货币进行命名
 SWADE.CurrencyName: 货币名称
-SWADE.WealthTypeDesc: 选择计算角色财富的方式
+SWADE.WealthTypeDesc: 选择计算角色财富与货币的形式
 SWADE.NoneOther: 无/其他
-SWADE.WealthDie: 财富
+SWADE.WealthDie: 财富形式
 SWADE.WealthType: 财富骰子类型
 SWADE.Crew: 所需操作人员
 SWADE.GrantsPowers: 获得奇术
@@ -309,8 +309,8 @@ SWADE.Checkbox: 勾选框
 SWADE.Number: 数量
 SWADE.String: 文本
 SWADE.Passengers: 可选乘员
-SWADE.EdgesHindrances: 专长 & 负赘
-SWADE.About: 关于
+SWADE.EdgesHindrances: 专长与负赘
+SWADE.About: 其他
 SWADE.RacialAbilities: 种族特质
 SWADE.SpecialAbilities: 特殊能力
 SWADE.SpecialAbility: 特殊能力
@@ -327,7 +327,15 @@ SWADE.RollMode: 投骰模块
 SWADE.PCAmmoFromInventoryDesc: 启用该选项以把"装备"类物品作为弹药使用，其可在装填武器时使用
 SWADE.AmmoManagementDesc: 启用时，弹药会在适当的情况下从武器的弹匣中扣除，同时物品卡会获得新的装填按钮，如果可用弹药不足则无法进行攻击投骰
 SWADE.PPCost: 消耗奇术点
-SWADE.CoreSkillsDesc: 输入所有的角色核心技能，中间以逗号分隔
+SWADE.CoreSkillsDesc: 输入所有角色的核心技能，中间以逗号分隔
 SWADE.CoreSkills: 核心技能
 SWADE.CoreSkill: 核心技能
 ITEM.TypeAbility: 特质
+SWADE.Hold: 待机
+SWADE.ActNow: 当前行动方
+SWADE.ActAfterCurrentCombatant: 当前战斗方后一名行动方
+SWADE.LoseTurn: 失去当前轮开关
+SWADE.SysMigrationWarning: 你的SWADE系统数据来自于过旧的Foundry版本，其无法可靠地转移到最新的版本当中，尽管仍然可以尝试进行该步骤，但是可能会招致错误。
+SWADE.SomethingWrongWithCardComp: 卡牌合集包出现错误，将切换回默认设置
+SWADE.DeckShuffled: 牌组自动洗牌
+SWADE.BasePace: 基础移速
