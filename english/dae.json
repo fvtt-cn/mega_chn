@@ -252,6 +252,8 @@
     "dae.ConditionalVisibilityVision": "CV Vision",
     "dae.noDupDamageMacro.Name": "No Duplicate Damage macros",
     "dae.noDupDamageMacro.Hint": "If checked duplicate Damage Macros will be ignored",
+    "dae.DisableEffects.Name": "Disable all active effect processing",
+    "dae.DisableEffects.Hint": "IF set no active effects will be applied to characters. Useful if you want to change character values that are modified by active effects",
 
     "dae.SW5E": "Note For Translators - The following strings are ONLY required for the SW5E system",
     "dae.force": "Force",
