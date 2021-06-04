@@ -41,7 +41,7 @@ SWADE.Add: 添加
 SWADE.Redraw: 抽卡
 SWADE.Cancel: 取消
 SWADE.Ok: 确定
-SWADE.GroupRoll: 团队投骰
+SWADE.GroupRoll: 团体投骰
 SWADE.RollRaise: 投骰优良
 SWADE.Roll: 投
 SWADE.RollExample: 例如： +1d6x= 或 -2
@@ -311,7 +311,7 @@ SWADE.String: 文本
 SWADE.Passengers: 可选乘员
 SWADE.EdgesHindrances: 专长与负赘
 SWADE.About: 其他
-SWADE.RacialAbilities: 种族特质
+SWADE.RacialAbilities: 种族能力
 SWADE.SpecialAbilities: 特殊能力
 SWADE.SpecialAbility: 特殊能力
 SWADE.Subtype: 子类
@@ -330,7 +330,7 @@ SWADE.PPCost: 消耗奇术点
 SWADE.CoreSkillsDesc: 输入所有角色的核心技能，中间以逗号分隔
 SWADE.CoreSkills: 核心技能
 SWADE.CoreSkill: 核心技能
-ITEM.TypeAbility: 特质
+ITEM.TypeAbility: 能力
 SWADE.Hold: 待机
 SWADE.ActNow: 当前行动方
 SWADE.ActAfterCurrentCombatant: 当前战斗方后一名行动方
