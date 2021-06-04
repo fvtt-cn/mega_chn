@@ -320,7 +320,7 @@
     "DL.DialogWarningSurprisedFailer": "你受惊了，你无法移动或使用动作，你的所有检定自动失败。",
     "DL.DialogWarningStunnedFailer": "你被震慑了，你无法移动或使用动作，你的所有检定自动失败。",
     "DL.DialogWarningUnconsciousFailer": "你陷入昏迷，你无法移动或使用动作，你的所有检定自动失败。",
-    "DL.DialogWarningWeaponAttackModifier": "武器的攻击调整值没有被设置。",
+    "DL.DialogWarningWeaponAttackModifier": "该武器的攻击属性调整值没有被设置。",
     "DL.DialogUseItem": "使用物品：",
     "DL.DialogUseItemHealingPotion": "治疗药水",
     "DL.DialogUseItemHealingPotionText": "治疗#伤害.",
