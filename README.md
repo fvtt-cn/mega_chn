@@ -28,6 +28,10 @@
 - Simple Calendar
 - Keikaku
 - PF1 Alt Sheet
+- PDFoundry
+- SmallTime
+- Active Auras
+- Polyglot
 
 ## 已翻译的系统列表
 - SWADE
