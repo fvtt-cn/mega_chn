@@ -1,1 +1,106 @@
-{}
+{
+    "PDFOUNDRY": {
+        "CONTEXT": {
+            "OpenPDF": "打开PDF",
+            "PreloadPDF": "预加载PDF"
+        },
+        "PDFSHEET": {
+            "TOOLTIP": {
+                "Name": "该PDF的长可读名称是什么？",
+                "Code": "用于打开该PDF的短码是什么？",
+                "URL": "应该打开哪一个PDF文件？",
+                "EnableCaching": "PDF在被打开后应该在玩家的电脑上缓存吗？这也许能节省带宽，但会占用用户电脑的储存空间。",
+                "PDFType": "参见手册以查阅PDF类型的描述。",
+                "PageOffset": "当你要求系统打开一个页面时，该页面应该偏移多少以打开正确的页面？"
+            },
+            "LABEL": {
+                "Name": "PDF名称",
+                "Code": "PDF代码",
+                "URL": "PDF URL",
+                "PageOffset": "页面偏移",
+                "EnableCaching": "启用缓存",
+                "PDFType": "PDF类型",
+                "TestSettings": "当你按下这个按钮时，你的PDF将会打开至第5页。如果打开的不是第5页，关闭PDF并调整页面偏移直到打开的是第5页。"
+            },
+            "PLACEHOLDER": {
+                "Name": "搜刮指南！",
+                "Code": "搜指",
+                "PageOffset": "0, 3, -5, ...",
+                "URL": "自data目录的相对路径。"
+            },
+            "BUTTON": {
+                "Browse": "浏览",
+                "TestSettings": "测试设定"
+            }
+        },
+        "VIEWER": {
+            "ViewPDF": "查看PDF",
+            "ShowToPlayersText": "展示给…",
+            "ShowToPlayersTitle": "按住SHIFT以向除你之外的所有玩家展示。",
+            "SelectPlayers": "选择玩家",
+            "SelectPlayersConfirm": "就这样吧！",
+            "SelectSheet": "算则PDF",
+            "SelectSheetConfirm": "就这样吧！",
+            "InspectData": "检查数据",
+            "InspectDataHelp3": "虽然为了方便，提供了复制/roll语句的按钮，但在投骰时，系统可能会有意省略或更改数据。如果/roll语句没有产生预期的结果，这不是bug。",
+            "InspectDataHelp1": "如果您愿意，可以将此窗口保持打开状态，并将卡返回至系统系统卡。窗口将每10秒刷新一次，以反映对参与者所做的更改，但您也可以使用标题上的“刷新”按钮手动刷新。",
+            "InspectDataHelp2": "在PDF中使用这些数据路径时应该非常小心。颜色编码是一种“最佳猜测”，虽然它通常是正确的，但某些系统可能会出现异常，或导致您在卡中输入的更改被系统为某些数据路径所覆盖。"
+        },
+        "MANUAL": {
+            "Name": "PDFoundry用户手册"
+        },
+        "ERROR": {
+            "NoPDFWithCode": "无法找到具有特定代码的PDF。",
+            "NoPDFWithName": "无法找到具有特定名称的PDF。",
+            "PageMustBePositive": "页面必须大于等于１。",
+            "FileNotFound": "打开PDF时发生错误：未在服务器上找到该文件。"
+        },
+        "ENRICH": {
+            "EmptyLinkText": "＠PDF标签需要关联文本。",
+            "LinkTitleOpen": "打开",
+            "LinkTitlePage": "页",
+            "InvalidFormat": "＠PDF标签格式无效。"
+        },
+        "SETTINGS": {
+            "WindowTitle": "PDFoundry设定",
+            "SettingsMenuButtonLabel": "配置PDFoundry",
+            "OpenHelp": "打开PDFoundry手册",
+            "CacheSizeName": "PDF缓存大小",
+            "ViewerThemeName": "查看器主题",
+            "ViewerThemeHint": "查看器应该使用哪个主题？更改只会影响新打开的查看器。",
+            "ShowInExistingViewerName": "在现有查看器中显示共享PDF",
+            "CacheSizeHint": "PDF缓存应允许占用多少MB的硬盘空间？必须介于64和1024之间（含64和1024）。",
+            "ShowInExistingViewerHint": "如果启用，当其他玩家向您显示一个PDF时，如果您已经打开了该PDF，直接改变页面，而不是打开新窗口。"
+        },
+        "COMMON": {
+            "PageNumber": "页号"
+        },
+        "MISC": {
+            "PDFTYPE": {
+                "Static": "静态",
+                "Fillable": "可填充表单（未链接）",
+                "Actor": "可填充表单（人物卡）"
+            },
+            "DANGER": {
+                "Safe": "使用此路径可能是安全的。",
+                "Low": "该路径不太可能是危险的，但你应该小心。",
+                "High": "如果使用此路径，很可能会导致问题。",
+                "Critical": "在任何情况下都不应使用此路径！"
+            },
+            "CreatePDF": "创建PDF",
+            "NewPDF": "新PDF",
+            "Confirm": "确定",
+            "Refresh": "刷新",
+            "CopiedToClipboard": "已复制！",
+            "CopyRollPath": "复制/roll语句路径到剪贴板。",
+            "CopyDataPath": "将数据路径复制到剪贴板。"
+        },
+        "COMMANDS": {
+            "Success": "PDFoundry:$COMMAND_NAME$成功完成。",
+            "PurgeCacheSuccess": "PDF缓存已清除。",
+            "FixMissingTypesSuccess": "修复了缺少类型定义的PDF。",
+            "FixMissingTypesFailure": "未找到缺少类型定义的PDF。",
+            "Failure": "PDFoundry:$COMMAND_NAME$遇到错误。有关更多详细信息，请参阅控制台。"
+        }
+    }
+}
