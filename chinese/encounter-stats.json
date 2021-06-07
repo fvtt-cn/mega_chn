@@ -1,1 +1,23 @@
-{}
+{
+    "FVTTEncounterStats.opt_enable_name": "启用 FVTT 遭遇统计",
+    "FVTTEncounterStats.opt_enable_hint": "启用 FVTT 遭遇统计模组",
+    "FVTTEncounterStats.opt_compendium_link_enable_name": "启用合集链接",
+    "FVTTEncounterStats.opt_compendium_link_system_name": "合集前缀",
+    "FVTTEncounterStats.opt_compendium_link_system_hint": "格式为 'dnd5e.items.fCRftM4QxEDkeu0a'，dnd5e 是合集组内括号中的文本段。",
+    "FVTTEncounterStats.template.most_damage_overall": "总计最高伤害",
+    "FVTTEncounterStats.template.highest_average_damage": "最高平均伤害",
+    "FVTTEncounterStats.template.highest_damage_in_1_hit": "单发最高伤害",
+    "FVTTEncounterStats.template.enemies": "敌人",
+    "FVTTEncounterStats.template.hp": "HP",
+    "FVTTEncounterStats.template.ac": "AC",
+    "FVTTEncounterStats.template.damage_total": "总计伤害",
+    "FVTTEncounterStats.template.min_damage": "最低伤害",
+    "FVTTEncounterStats.template.max_damage": "最高伤害",
+    "FVTTEncounterStats.template.avg_damage": "平均伤害",
+    "FVTTEncounterStats.template.round": "轮次",
+    "FVTTEncounterStats.template.weapon_spell_name": "武器/法术名",
+    "FVTTEncounterStats.template.advantage": "优势",
+    "FVTTEncounterStats.template.disadvantage": "劣势",
+    "FVTTEncounterStats.template.attack_total": "攻击总值",
+    "FVTTEncounterStats.opt_compendium_link_enable_hint": "将法术/武器的名称替换为该物品的合集条目的链接。如果在攻击数值统计中有条目为 undefined 则禁用此项。"
+}
