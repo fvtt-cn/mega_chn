@@ -96,6 +96,10 @@
         "src": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/locale/en/config.json"
     },
     {
+        "name": "encounter-stats",
+        "src": "https://raw.githubusercontent.com/johnnolan/fvtt-encounter-stats/main/languages/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
