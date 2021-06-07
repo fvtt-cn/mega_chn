@@ -252,5 +252,7 @@
     "dae.DamageDealt": "造成伤害：角色造成伤害后过期",
     "dae.isSkillDetail": "技能检定",
     "dae.isCheckDetail": "属性检定",
-    "dae.isSaveDetail": "豁免掷骰"
+    "dae.isSaveDetail": "豁免掷骰",
+    "dae.DisableEffects.Name": "禁用所有主动效果处理",
+    "dae.DisableEffects.Hint": "启用后，所有主动效果都不会再应用到角色上。用于你想要改变角色会被主动效果修改特定值"
 }
