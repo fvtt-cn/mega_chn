@@ -32,6 +32,7 @@
 - SmallTime
 - Active Auras
 - Polyglot
+- Encounter Stats
 
 ## 已翻译的系统列表
 - SWADE
