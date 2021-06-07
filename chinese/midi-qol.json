@@ -336,5 +336,12 @@
         "wallsBlock": "除墙壁遮挡外",
         "always": "始终",
         "none": "关闭"
+    },
+    "midi-qol.RequiresTargets.Name": "目标需要被选中",
+    "midi-qol.RequiresTargets.Hint": "在掷骰前要求指示物必须标中。‘禁用’将忽略此项，‘战斗中’仅在战斗中要求，‘始终’将在任何需要目标的物品掷骰时检查。无法与 Better Rolls 共用",
+    "midi-qol.requiresTargetsOptions": {
+        "none": "禁用",
+        "combat": "战斗中",
+        "always": "始终"
     }
 }
