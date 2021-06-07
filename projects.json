@@ -100,6 +100,10 @@
         "src": "https://raw.githubusercontent.com/johnnolan/fvtt-encounter-stats/main/languages/en.json"
     },
     {
+        "name": "NPCGen",
+        "src": "https://raw.githubusercontent.com/ardittristan/VTTNPCGen/master/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
