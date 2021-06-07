@@ -10,7 +10,7 @@
         "DefaultLanguageTitle": "默认语言",
         "DefaultLanguageHint": "选择默认选择的语言名称。留空则使用系统默认值。",
         "ReplaceLanguagesTitle": "替换系统语言",
-        "ReplaceLanguagesHint": " ",
+        "ReplaceLanguagesHint": "替换系统默认语言为你的自定义语言。列表中的第一项语言将成为新的默认语言。需要重载。",
         "RandomizeRunesTitle": "随机化符文",
         "ScrambleGMTitle": "为GM加密信息",
         "ExportFontsTitle": "使字体可用",
