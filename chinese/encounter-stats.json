@@ -19,5 +19,6 @@
     "FVTTEncounterStats.template.advantage": "优势",
     "FVTTEncounterStats.template.disadvantage": "劣势",
     "FVTTEncounterStats.template.attack_total": "攻击总值",
-    "FVTTEncounterStats.opt_compendium_link_enable_hint": "将法术/武器的名称替换为该物品的合集条目的链接。如果在攻击数值统计中有条目为 undefined 则禁用此项。"
+    "FVTTEncounterStats.opt_compendium_link_enable_hint": "将法术/武器的名称替换为该物品的合集条目的链接。如果在攻击数值统计中有条目为 undefined 则禁用此项。",
+    "FVTTEncounterStats.template.isCritical": "重击"
 }
