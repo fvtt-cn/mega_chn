@@ -13,7 +13,7 @@
     "SMLTME.Allow_Trusted": "允许Trusted用户组玩家控制",
     "SMLTME.Darkness_Control_Hint": "将场景的黑暗等级与SmallTIme当前时间进行关联。",
     "SMLTME.Player_Visibility": "玩家可见性",
-    "SMLTME.Player_Visibility_Hint": "选择场景中的玩家可以看见SmallTIme的哪些部分。",
+    "SMLTME.Player_Visibility_Hint": "选择场景中的玩家可以看见SmallTIme的哪些部分。默认选项在 MOD 设置中。",
     "SMLTME.Player_Visibility_Default": "默认玩家可见度",
     "SMLTME.Player_Vis_0": "无",
     "SMLTME.Player_Vis_1": "仅日/月位置",
@@ -27,5 +27,6 @@
     "SMLTME.Darkness_Config_Hint": "拖动太阳和月亮以设置日出日落时间。它们的高度确定了黑暗等级的最大/最小值。",
     "SMLTME.AboutTime_Hint": "如果About Time时钟改变了，SmallTime也会一起改变，反之亦然。将SmallTime时间加过午夜也会改变About Time日期。",
     "SMLTME.Allow_Trusted_Hint": "Trusted用户组的玩家可以改变当前时间。",
-    "SMLTME.Player_Visibility_Default_Hint": "新场景的默认可见等级。"
+    "SMLTME.Player_Visibility_Default_Hint": "场景的默认可见等级。",
+    "SMLTME.Player_Vis_3": "使用默认设置"
 }
