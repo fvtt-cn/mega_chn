@@ -104,6 +104,10 @@
         "src": "https://raw.githubusercontent.com/ardittristan/VTTNPCGen/master/lang/en.json"
     },
     {
+        "name": "automated-animations",
+        "src": "https://raw.githubusercontent.com/otigon/automated-jb2a-animations/main/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
