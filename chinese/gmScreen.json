@@ -79,6 +79,10 @@
             "CellConfig": "单元格配置",
             "RowSpan": "行",
             "ColSpan": "列"
+        },
+        "entitySheet": {
+            "Label": "GM 帷幕表",
+            "Hint": "在 GM 帷幕上为此项设置专用的表。"
         }
     }
 }
