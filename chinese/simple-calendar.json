@@ -274,5 +274,9 @@
     "FSC.Configuration.Year.YearName": "年份名称",
     "FSC.Configuration.Year.YearNameAdd": "新增年份名称",
     "FSC.Configuration.Year.YearNameRemove": "移除所有年份名称",
-    "FSC.Configuration.Year.YearNamesStartHelp": "名称列表中第一个名称的开始年份。"
+    "FSC.Configuration.Year.YearNamesStartHelp": "名称列表中第一个名称的开始年份。",
+    "FSC.Configuration.Time.UpdateFrequency": "更新频率",
+    "FSC.Configuration.Time.UpdateFrequencyHelp": "此项决定了多久更新一次时钟。",
+    "FSC.Configuration.Time.UnifyGameAndClock": "统一时钟的启动/暂停与游戏暂停",
+    "FSC.Configuration.Time.UnifyGameAndClockHelp": "绑定时钟的启动/暂停按钮与游戏的暂停/恢复选项"
 }
