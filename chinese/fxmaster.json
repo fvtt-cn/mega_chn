@@ -38,5 +38,6 @@
     "CONTROLS.Underwater": "水下滤镜",
     "FXMASTER.PermissionCreate": "使用FXMaster特效",
     "FXMASTER.PermissionCreateHint": "允许通过场景管理使用FXMaster特效。",
-    "FXMASTER.Folder": "文件夹"
+    "FXMASTER.Folder": "文件夹",
+    "FXMASTER.MaskWeather": "遮罩 FXMaster 天气"
 }
