@@ -108,6 +108,14 @@
         "src": "https://raw.githubusercontent.com/otigon/automated-jb2a-animations/main/lang/en.json"
     },
     {
+        "name": "minimal-ui",
+        "src": "https://raw.githubusercontent.com/saif-ellafi/foundryvtt-minimal-ui/main/lang/en.json"
+    },
+    {
+        "name": "quick-insert",
+        "src": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/raw/master/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
