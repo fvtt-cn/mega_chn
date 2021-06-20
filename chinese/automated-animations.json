@@ -248,5 +248,6 @@
     "AUTOANIM.demonlordtrigger_misses": "命中和未命中时播放动画",
     "AUTOANIM.demonlordtrigger_rolldamage": "掷伤害骰时播放动画",
     "AUTOANIM.demonlordtrigger_applydamage": "应用伤害时播放动画",
-    "AUTOANIM.customAnim": "自定动画？"
+    "AUTOANIM.customAnim": "自定动画？",
+    "AUTOANIM.impact": "冲击"
 }
