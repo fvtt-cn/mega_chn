@@ -239,6 +239,7 @@
     "midi-qol.DistanceIncludesHeight.Name": "Include height difference in distance calcs",
     "midi-qol.NoSocketLib": "Midi-qol requires socketlib installed and enabled",
     "midi-qol.NoCubInstalled": "You have enabled midi-qol concentration automation. This requires that you install and activate Combat Utility Belt as well. Concentration Automation will be disalbed.",
-    "midi-qol.confirm": "Confirmation Dialog"
-
+    "midi-qol.confirm": "Confirmation Dialog",
+    "midi-qol.ExportConfig": "Export midi-qol settings to json file",
+    "midi-qol.ImportConfig": "Import midi-qol settings to json file"
 }
