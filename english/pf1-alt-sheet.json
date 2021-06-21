@@ -39,10 +39,12 @@
         },
         "Skill": {
             "AlwaysShow": "AS",
-            "AlwaysShowTooltip": "Always show on summary tab"
+            "AlwaysShowTooltip": "Always show on summary tab",
+            "TooManyRanks": "Used too many skill ranks"
         },
         "Features": {
-            "MinimizeClasses": "Minimize display of classes"
+            "MinimizeClasses": "Minimize display of classes",
+            "TooManyFeats": "Too many feats"
         },
         "Config": {
             "Reset": "Reset Sheet config",
