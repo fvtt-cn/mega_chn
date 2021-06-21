@@ -343,5 +343,7 @@
         "none": "禁用",
         "combat": "战斗中",
         "always": "始终"
-    }
+    },
+    "midi-qol.ImportConfig": "从 JSON 文件导入 Midi-QoL 设置",
+    "midi-qol.ExportConfig": "导出 Midi-QoL 设置到 JSON 文件"
 }
