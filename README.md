@@ -3,6 +3,8 @@
 
 内置多个 MOD、系统的翻译合集，便于非 Git 用户参与到 Foundry VTT 的汉化工作之中。
 
+如需提议新增 MOD、系统，可以在[建议贴](https://github.com/fvtt-cn/mega_chn/discussions/4)中回复。
+
 ## 安装
 - [x] 清单文件地址： [https://github.com/fvtt-cn/mega_chn/releases/latest/download/module.json](https://github.com/fvtt-cn/mega_chn/releases/latest/download/module.json)
 - [ ] 内置 MOD 管理器 
