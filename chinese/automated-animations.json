@@ -249,5 +249,7 @@
     "AUTOANIM.demonlordtrigger_rolldamage": "掷伤害骰时播放动画",
     "AUTOANIM.demonlordtrigger_applydamage": "应用伤害时播放动画",
     "AUTOANIM.customAnim": "自定动画？",
-    "AUTOANIM.impact": "冲击"
+    "AUTOANIM.impact": "冲击",
+    "AUTOANIM.impactVariant": "冲击变体",
+    "AUTOANIM.underToken": "在指示物下方播放动画？"
 }
