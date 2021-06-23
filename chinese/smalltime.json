@@ -28,5 +28,8 @@
     "SMLTME.AboutTime_Hint": "如果About Time时钟改变了，SmallTime也会一起改变，反之亦然。将SmallTime时间加过午夜也会改变About Time日期。",
     "SMLTME.Allow_Trusted_Hint": "Trusted用户组的玩家可以改变当前时间。",
     "SMLTME.Player_Visibility_Default_Hint": "场景的默认可见等级。",
-    "SMLTME.Player_Vis_3": "使用默认设置"
+    "SMLTME.Player_Vis_3": "使用默认设置",
+    "SMLTME.Date_Format": "日期格式",
+    "SMLTME.Calendar_Provider_Hint": "你的世界的日历信息的来源。",
+    "SMLTME.Calendar_Provider": "日历提供方"
 }
