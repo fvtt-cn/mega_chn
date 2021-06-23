@@ -39,5 +39,17 @@
     "FXMASTER.PermissionCreate": "使用FXMaster特效",
     "FXMASTER.PermissionCreateHint": "允许通过场景管理使用FXMaster特效。",
     "FXMASTER.Folder": "文件夹",
-    "FXMASTER.MaskWeather": "遮罩 FXMaster 天气"
+    "FXMASTER.MaskWeather": "遮罩 FXMaster 天气",
+    "FXMASTER.Saturation": "饱和度",
+    "FXMASTER.Gamma": "伽马",
+    "FXMASTER.Duration": "持续时间",
+    "FXMASTER.Brightness": "亮度",
+    "FXMASTER.Contrast": "对比度",
+    "FXMASTER.Noise": "噪点",
+    "FXMASTER.Blur": "模糊度",
+    "FXMASTER.Bloom": "泛光度",
+    "FXMASTER.Sepia": "深褐色",
+    "FXMASTER.Threshold": "阈值",
+    "FXMASTER.Period": "时期",
+    "CONTROLS.Filters": "滤镜控件"
 }
