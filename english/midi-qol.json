@@ -109,6 +109,7 @@
     "midi-qol.config": "Midi QoL config",
     "midi-qol.Hint": "Configure the various workflow settings for midi-qol. Be warned there are lots of them",
     "midi-qol.DiceSound.Name": "Attack Roll",
+    "midi-qol.AttackRoll": "Attack Roll",
     "midi-qol.CriticalSound.Name": "Critical Hit",
     "midi-qol.FumbleSound.Name": "Fumble",
     "midi-qol.DiceSounds.Hint": "Sound to play for different sorts of rolls. ONLY applies to the combo card",
@@ -126,9 +127,9 @@
     "midi-qol.speedItemRollsOptions": {"off": "Off", "on": "On", "onCard": "On + Show Item Card"},
     "midi-qol.autoCheckHitOptions": {"none": "None", "all": "Check - all see result", "whisper": "Check - only GM sees"},
     "midi-qol.clickOptions": {"off": "Off", "attack": "Attack Rolls Only", "damage": "Damage Rolls Only", "all": "Attack and Damage"},
-    "midi-qol.autoTargetOptions": {"none": "None", "always": "Always", "wallsBlock": "Walls Block"},
+    "midi-qol.autoTargetOptions":  {"none": "None", "always": "Always", "alwaysIgnoreDefeated": "Always - Ignore defeated", "wallsBlock": "Walls Block", "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated"},
     "midi-qol.autoCheckSavesOptions": {"none": "Off", "all":  "Save - All see result", "whisper": "Save - only GM sees", "allShow": "Save - All see Result + Rolls"},
-    "midi-qol.rangeTargetOptions": {"none": "None", "always": "Always", "wallsBlock": "Walls Block"},
+    "midi-qol.rangeTargetOptions": {"none": "None", "always": "Always", "alwaysIgnoreDefeated": "Always - Ignore Defeated", "wallsBlock": "Walls Block", "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated"},
     "midi-qol.autoRollDamageOptions": {"none": "Never", "always":  "Always", "onHit": "Attack Hits"},
     "midi-qol.autoApplyDamageOptions": {"none": "No", "noCard": "No + damage card", "yes": "Yes", "yesCard": "Yes + damage card"},
     "midi-qol.removeButtonsOptions": {"off": "Off", "attack": "Attack Only", "damage": "Damage Only", "all": "Attack and Damage"},
@@ -241,5 +242,6 @@
     "midi-qol.NoCubInstalled": "You have enabled midi-qol concentration automation. This requires that you install and activate Combat Utility Belt as well. Concentration Automation will be disalbed.",
     "midi-qol.confirm": "Confirmation Dialog",
     "midi-qol.ExportConfig": "Export midi-qol settings to json file",
-    "midi-qol.ImportConfig": "Import midi-qol settings to json file"
+    "midi-qol.ImportConfig": "Import midi-qol settings from json file",
+    "midi-qol.flags.midi-qol.bardicInspiration": "Bardic Inspiration"
 }
