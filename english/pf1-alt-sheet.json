@@ -50,6 +50,13 @@
             "Reset": "Reset Sheet config",
             "ResetTooltip": "Clears the module-specific config for this actor and restores the default. Good when something seems to be broken."
         },
+        "Links" : {
+            "Header": "Actor Link",
+            "Mode": "Mode",
+            "ModeNone": "None",
+            "ModeFamiliar": "Familiar",
+            "MasterRankPlural": "Master Ranks"
+        },
         "MetricSpeeds": "You are using metric.\nPlease enter ft values anyway.\nCommon values:\n20 ft = 6 m\n30 ft = 9 m"
     }
 }
