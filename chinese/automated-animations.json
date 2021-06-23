@@ -165,7 +165,7 @@
     "AUTOANIM.chooseAudio": "选择音频文件",
     "AUTOANIM.audioDelay": "延时音频（毫秒）",
     "AUTOANIM.audioVolume": "音频音量（0-100）",
-    "AUTOANIM.markerEnable": "启用标记（需要 CTA）",
+    "AUTOANIM.markerEnable": "启用标记",
     "AUTOANIM.item1HS": "单手挥砍",
     "AUTOANIM.colorLightGreen": "淡绿色",
     "AUTOANIM.colorGreenYellow": "绿黄色",
