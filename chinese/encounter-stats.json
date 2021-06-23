@@ -10,7 +10,7 @@
     "FVTTEncounterStats.template.enemies": "敌人",
     "FVTTEncounterStats.template.hp": "HP",
     "FVTTEncounterStats.template.ac": "AC",
-    "FVTTEncounterStats.template.damage_total": "总计伤害",
+    "FVTTEncounterStats.template.damage_total": "总计",
     "FVTTEncounterStats.template.min_damage": "最低伤害",
     "FVTTEncounterStats.template.max_damage": "最高伤害",
     "FVTTEncounterStats.template.avg_damage": "平均伤害",
@@ -25,5 +25,13 @@
     "FVTTEncounterStats.template.finalhp": "最终 HP",
     "FVTTEncounterStats.template.attacks": "攻击",
     "FVTTEncounterStats.template.health": "生命值",
-    "FVTTEncounterStats.template.rolltype": "掷骰类型"
+    "FVTTEncounterStats.template.rolltype": "掷骰类型",
+    "FVTTEncounterStats.template.type": "类型",
+    "FVTTEncounterStats.actiontypes.heal": "治疗",
+    "FVTTEncounterStats.actiontypes.msak": "近战法术攻击",
+    "FVTTEncounterStats.actiontypes.rsak": "远程法术攻击",
+    "FVTTEncounterStats.actiontypes.mwak": "近战武器攻击",
+    "FVTTEncounterStats.actiontypes.rwak": "远程武器攻击",
+    "FVTTEncounterStats.actiontypes.save": "豁免",
+    "FVTTEncounterStats.actiontypes.other": "其他"
 }
