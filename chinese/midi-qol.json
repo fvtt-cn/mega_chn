@@ -65,7 +65,9 @@
     "midi-qol.autoTargetOptions": {
         "always": "始终",
         "none": "从不",
-        "wallsBlock": "除墙壁遮挡外"
+        "wallsBlock": "除墙壁遮挡外",
+        "wallsBlockIgnoreDefeated": "墙壁遮挡 - 忽略战败",
+        "alwaysIgnoreDefeated": "始终 - 忽略战败"
     },
     "midi-qol.buttons.altDamage": "替代伤害",
     "midi-qol.buttons.attack": "攻击",
@@ -335,7 +337,9 @@
     "midi-qol.rangeTargetOptions": {
         "wallsBlock": "除墙壁遮挡外",
         "always": "始终",
-        "none": "关闭"
+        "none": "关闭",
+        "alwaysIgnoreDefeated": "始终 - 忽略战败",
+        "wallsBlockIgnoreDefeated": "墙壁遮挡 - 忽略战败"
     },
     "midi-qol.RequiresTargets.Name": "目标需要被选中",
     "midi-qol.RequiresTargets.Hint": "在掷骰前要求指示物必须标中。‘禁用’将忽略此项，‘战斗中’仅在战斗中要求，‘始终’将在任何需要目标的物品掷骰时检查。无法与 Better Rolls 共用",
@@ -345,5 +349,7 @@
         "always": "始终"
     },
     "midi-qol.ImportConfig": "从 JSON 文件导入 Midi-QoL 设置",
-    "midi-qol.ExportConfig": "导出 Midi-QoL 设置到 JSON 文件"
+    "midi-qol.ExportConfig": "导出 Midi-QoL 设置到 JSON 文件",
+    "midi-qol.flags.midi-qol.bardicInspiration": "吟游激励",
+    "midi-qol.AttackRoll": "攻击检定"
 }
