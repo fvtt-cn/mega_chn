@@ -251,5 +251,7 @@
     "AUTOANIM.customAnim": "自定动画？",
     "AUTOANIM.impact": "冲击",
     "AUTOANIM.impactVariant": "冲击变体",
-    "AUTOANIM.underToken": "在指示物下方播放动画？"
+    "AUTOANIM.underToken": "在指示物下方播放动画？",
+    "AUTOANIM.colorLightBlue": "浅蓝色",
+    "AUTOANIM.colorRainbow": "彩虹"
 }
