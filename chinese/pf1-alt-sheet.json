@@ -37,10 +37,12 @@
         },
         "Skill": {
             "AlwaysShow": "AS",
-            "AlwaysShowTooltip": "总是在概览页显示"
+            "AlwaysShowTooltip": "总是在概览页显示",
+            "TooManyRanks": "使用了过多技能点"
         },
         "Features": {
-            "MinimizeClasses": "最小化职业显示"
+            "MinimizeClasses": "最小化职业显示",
+            "TooManyFeats": "专长过多"
         },
         "Config": {
             "Reset": "重置人物卡配置",
@@ -48,6 +50,12 @@
         },
         "MetricSpeeds": "你在使用公制单位。\n请输入以英尺为单位的数值。\n常见数值：\n20尺 = 6米\n30尺 = 9米",
         "NatAC": "天生护甲",
-        "BaseCombatStats": "基础战斗数据"
+        "BaseCombatStats": "基础战斗数据",
+        "Links": {
+            "Header": "角色链接",
+            "Mode": "模式",
+            "ModeNone": "无",
+            "ModeFamiliar": "魔宠"
+        }
     }
 }
