@@ -24,6 +24,7 @@
     "midi-qol.ItemRollButtons.Hint": "Add Roll Buttons to item description - these buttons support ctl/alt/shift to skip the dialog",
     "midi-qol.AddChatDamageButtons.Name": "Add damage buttons to chat message",
     "midi-qol.AddChatDamageButtons.Hint": "Add Damage buttons to any damage roll chat message - clicking applies damage to all selected tokens (NOT TARGETED) (the same as the drop down menu)",
+    "midi-qol.AddChatDamageButtonsOptions": {"none": "None", "gm": "Only add buttons for GM", "pc": "Only add buttons for Players", "both": "Add buttons for everyone"},
     "midi-qol.AutoRollDamage.Name": "Auto roll Damage",
     "midi-qol.AutoRollDamage.Hint": "Automatically roll Damage when an attack roll is made. If auto roll damage is set to attack-hits it will roll damage if no targets are selected, the attack hits (see auto check hits) or hits are not being checked",
     "midi-qol.AutoCheckSaves.Name": "Auto check Saves",
