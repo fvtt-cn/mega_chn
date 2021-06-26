@@ -240,6 +240,7 @@
     "dae.isSkillDetail": "skill check",
     "dae.1Action": "1 Action: Expires on the next action (item roll) of the character",
     "dae.1Attack": "1 Attack: Expires on the next attack by the character",
+    "dae.1Reaction": "1 Reaction: Expires after the attack that tirggered the reactionis complete",
     "dae.1Hit": "1 Hit: Expires on the next hit by the character",
     "dae.DamageDealt": "DamageDealt: Exipires when the character deals damage",
     "dae.turnStart": "Turn Start: Expires at the start of the character's next turn (in combat)",
