@@ -351,5 +351,30 @@
     "midi-qol.ImportConfig": "从 JSON 文件导入 Midi-QoL 设置",
     "midi-qol.ExportConfig": "导出 Midi-QoL 设置到 JSON 文件",
     "midi-qol.flags.midi-qol.bardicInspiration": "吟游激励",
-    "midi-qol.AttackRoll": "攻击检定"
+    "midi-qol.AttackRoll": "攻击检定",
+    "midi-qol.DoReactionsOptions": {
+        "all": "启用",
+        "none": "关闭"
+    },
+    "midi-qol.GMDoReactionsOptions": {
+        "all": "启用",
+        "none": "关闭"
+    },
+    "midi-qol.ShowReactionAttackRoll.Name": "显示攻击骰",
+    "midi-qol.ShowReactionAttackRollOptions": {
+        "none": "攻击命中",
+        "d20": "仅 d20 掷骰",
+        "all": "攻击骰合计值"
+    },
+    "midi-qol.DoReactions.Name": "检查玩家反应",
+    "midi-qol.GMDoReactions.Name": "检查 NPC/GM 反应",
+    "midi-qol.ReactionTimeout.Name": "反应检查超时",
+    "midi-qol.ReactionTimeout.Hint": "等待选择反应的时间，超时则假定没有进行反应",
+    "midi-qol.AddChatDamageButtonsOptions": {
+        "none": "关闭",
+        "gm": "仅为 GM 添加按钮",
+        "pc": "仅为玩家添加按钮",
+        "both": "为所有人添加按钮"
+    },
+    "midi-qol.DoReactions.Hint": "给被攻击的角色在决定掷骰前使用反应的选项"
 }
