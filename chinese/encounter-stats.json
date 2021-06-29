@@ -33,5 +33,8 @@
     "FVTTEncounterStats.actiontypes.mwak": "近战武器攻击",
     "FVTTEncounterStats.actiontypes.rwak": "远程武器攻击",
     "FVTTEncounterStats.actiontypes.save": "豁免",
-    "FVTTEncounterStats.actiontypes.other": "其他"
+    "FVTTEncounterStats.actiontypes.other": "其他",
+    "FVTTEncounterStats.enable_aoe_damage_name": "启用 AOE 伤害跟踪",
+    "FVTTEncounterStats.enable_aoe_damage_hint": "启用后，所有使用测量板的法术（AOE 效果）将使用命中区域内指示物所受到的伤害，而非掷的伤害骰结果。",
+    "FVTTEncounterStats.config.debug": "反馈 Bug"
 }
