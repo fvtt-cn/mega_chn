@@ -105,8 +105,8 @@
     "FSC.Configuration.Month.DaysHelp": "这个月的天数。",
     "FSC.Configuration.Month.Intercalary": "闰月",
     "FSC.Configuration.Month.IntercalaryHelp": "这个月是否是闰月。",
-    "FSC.Configuration.Month.IntercalaryInclude": "将闰月计入总日期计数",
-    "FSC.Configuration.Month.IntercalaryIncludeHelp": "启用该项，则每年的总天数会包含闰月的天数。",
+    "FSC.Configuration.Month.IntercalaryInclude": "将闰月计入日期计数",
+    "FSC.Configuration.Month.IntercalaryIncludeHelp": "启用后，在计算星期内的某天在一年中的总天数时，闰月将被视为普通月份，但在列表中仍然会列作闰月。",
     "FSC.Configuration.Month.DayOffset": "日期偏移",
     "FSC.Configuration.Month.DayOffsetHelp": "日期数字的偏移量。当你想从2月开始而不是1月时使用",
     "FSC.Configuration.Month.Number": "月份数字",
@@ -278,5 +278,12 @@
     "FSC.Configuration.Time.UpdateFrequency": "更新频率",
     "FSC.Configuration.Time.UpdateFrequencyHelp": "此项决定了多久更新一次时钟。",
     "FSC.Configuration.Time.UnifyGameAndClock": "统一时钟的启动/暂停与游戏暂停",
-    "FSC.Configuration.Time.UnifyGameAndClockHelp": "绑定时钟的启动/暂停按钮与游戏的暂停/恢复选项"
+    "FSC.Configuration.Time.UnifyGameAndClockHelp": "绑定时钟的启动/暂停按钮与游戏的暂停/恢复选项",
+    "FSC.Import": "导入",
+    "FSC.Export": "导出",
+    "FSC.Configuration.General.ImportExport.SCConfig": "导入/导出日历配置",
+    "FSC.Importer.NoFile": "请选择一个文件以导入。",
+    "FSC.Importer.InvalidSCConfig": "上传了无效文件，请选择简单日历导出的 JSON 文件。",
+    "FSC.Configuration.General.ImportExport.Title": "导入/导出",
+    "FSC.Configuration.General.ImportExport.SCConfigHelp": "导入或导出简单日历当前日历配置，用于分享或在其他世界载入备份。"
 }
