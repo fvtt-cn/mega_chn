@@ -35,6 +35,12 @@
 - Active Auras
 - Polyglot
 - Encounter Stats
+- NPC Generator
+- Automated JB2A Animations
+- Minimal UI
+- Quick Insert
+- Levels
+- Torchlight
 
 ## 已翻译的系统列表
 - SWADE
