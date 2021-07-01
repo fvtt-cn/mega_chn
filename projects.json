@@ -116,6 +116,14 @@
         "src": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/raw/master/lang/en.json"
     },
     {
+        "name": "torchlight",
+        "src": "https://raw.githubusercontent.com/PhilippeKr/TorchLight/main/lang/en.json"
+    },
+    {
+        "name": "levels",
+        "src": "https://raw.githubusercontent.com/theripper93/Levels/main/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
