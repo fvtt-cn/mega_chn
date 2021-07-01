@@ -31,7 +31,7 @@ jobs:
 
     # Create a zip file with all files required by the module to add to the release
     - name: Create Artifact
-      run: zip -r ./mega_chn.zip module.json cn.json
+      run: zip -r ./mega_chn.zip module.json cn.json welcome.js
 
     # Create a release for this specific version
     - name: Update Release with Files
