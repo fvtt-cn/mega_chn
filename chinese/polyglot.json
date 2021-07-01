@@ -51,6 +51,7 @@
         "LanguageSettings": "语言设定",
         "ChatSettings": "聊天设定",
         "LanguagesHint": "改变语言使用的字母表。需要重新加载，但保存时不会重新加载。重置为默认则会重新加载。",
-        "ComprehendLanguagesHint": "类似于D&D中的通晓语言法术。输入一个你已经设置好的自定义语言。该语言无法说出或写出，但可以明白所有其他语言。"
+        "ComprehendLanguagesHint": "类似于D&D中的通晓语言法术。输入一个你已经设置好的自定义语言。该语言无法说出或写出，但可以明白所有其他语言。",
+        "DefaultAlphabet": "默认字符"
     }
 }
