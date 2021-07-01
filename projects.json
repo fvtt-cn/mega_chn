@@ -124,6 +124,10 @@
         "src": "https://raw.githubusercontent.com/theripper93/Levels/main/lang/en.json"
     },
     {
+        "name": "df-chat-enhance",
+        "src": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/df-chat-enhance/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
