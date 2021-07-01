@@ -41,6 +41,7 @@
 - Quick Insert
 - Levels
 - Torchlight
+- DF Chat Enhance
 
 ## 已翻译的系统列表
 - SWADE
