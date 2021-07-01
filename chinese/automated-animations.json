@@ -253,5 +253,10 @@
     "AUTOANIM.impactVariant": "冲击变体",
     "AUTOANIM.underToken": "在指示物下方播放动画？",
     "AUTOANIM.colorLightBlue": "浅蓝色",
-    "AUTOANIM.colorRainbow": "彩虹"
+    "AUTOANIM.colorRainbow": "彩虹",
+    "AUTOANIM.sneakattack": "偷袭",
+    "AUTOANIM.bullet": "子弹",
+    "AUTOANIM.bolt": "箭矢",
+    "AUTOANIM.damageType": "伤害类型",
+    "AUTOANIM.snipe": "狙击"
 }
