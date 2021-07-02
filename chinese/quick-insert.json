@@ -10,7 +10,7 @@
     "QUICKINSERT.SettingsFiltersSheetsEnabled": "人物卡集成",
     "QUICKINSERT.SettingsQuickOpen": "按键绑定：打开Quick Insert",
     "QUICKINSERT.SettingsEnableGlobalContext": "启用全局浏览模式",
-    "QUICKINSERT.SettingsEnableGlobalContextHint": "即使没有可附着的上下文也能在浏览模式中打开Quick Insert的按键绑定。",
+    "QUICKINSERT.SettingsEnableGlobalContextHint": "即使没有可附着的上下文也能在浏览模式中打开 Quick Insert 的按键绑定。",
     "QUICKINSERT.SettingsClickToInsert": "点击结果以提交",
     "QUICKINSERT.SettingsClickToInsertHint": "禁用此项，则点击搜索结果时将总是显示它，而不是提交/插入",
     "QUICKINSERT.SettingsAutomaticIndexing": "自动建立索引",
