@@ -255,7 +255,7 @@
     "midi-qol.RemoveHiddenInvis.Name": "进行攻击将移除隐匿/隐形的状态(需要CUB或CV)",
     "midi-qol.RequireTargets.Hint": "如果没有选择指示物作为目标，则只允许目标为自身或者AOE的掷骰（开启better-rolls后无效）",
     "midi-qol.RequireTargets.Name": "在掷骰前需要先选中目标",
-    "midi-qol.rollNPCSaves.Hint": "自动时模组将会为NPC掷豁免，否则GM将会收到LMRTFY的提示。",
+    "midi-qol.rollNPCSaves.Hint": "自动时模组将会为 NPC 掷豁免，否则 GM 将会收到 LMRTFY 的提示。",
     "midi-qol.rollNPCSaves.Name": "提示GM掷豁免骰",
     "midi-qol.rollNPCSavesOptions": {
         "auto": "自动",
@@ -284,7 +284,7 @@
     "midi-qol.SingleConcentrationRoll.Name": "单次专注检查",
     "midi-qol.Special": "特殊",
     "midi-qol.SpeedAbilityRolls.Name": "启用快速属性（豁免/检定/技能）掷骰",
-    "midi-qol.SpeedItemRolls.Blurb": "你可以任意分配(ctrl|cmd)/alt/shift鼠标单击的调整值。尤其需要注意优势/劣势/多用。默认：优势 = Alt，劣势 = Ctrl，多用 = Shift，重击 = Alt",
+    "midi-qol.SpeedItemRolls.Blurb": "你可以任意分配 (ctrl|cmd)/alt/shift 鼠标单击的调整值。尤其需要注意优势/劣势/多用。默认：优势 = Alt，劣势 = Ctrl，多用 = Shift，重击 = Alt",
     "midi-qol.SpeedItemRolls.Hint": "Midi-qol使用ctrl/alt/meta/shift键来进行快捷掷骰。该设置将会覆盖自动掷攻击骰。按键为Ctrl=劣势，Alt=优势，Shift=多用，Ctrl+Alt=快进掷骰。",
     "midi-qol.SpeedItemRolls.Name": "启用快捷物品掷骰",
     "midi-qol.speedItemRollsOptions": {
