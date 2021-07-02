@@ -1,6 +1,6 @@
 {
     "DF_CHAT_ENHANCE.LANG": "中文",
-    "DF_CHAT_ENHANCE.ReloadGameTitle": "DF Chat Enhance",
+    "DF_CHAT_ENHANCE.ReloadGameTitle": "DF 聊天增强",
     "DF_CHAT_LOG.Setting_GmOnlyTitle": "冒险日志：设定冒险日志功能为仅限 GM",
     "DF_CHAT_LOG.Error_Disabled": "GM 已经禁用冒险日志",
     "DF_CHAT_LOG.Config_NoSelection": "---",
@@ -58,12 +58,12 @@
     "DF_CHAT_LOG.GMCommandDescription": "向 GM 冒险日志提交事件",
     "DF_CHAT_LOG.HelpDialog_Title": "冒险日志命令帮助",
     "DF_CHAT_LOG.Setting_EnableTitle": "冒险日志：启用",
-    "DF_CHAT_LOG.Setting_EnableHint": "启用冒险日志功能，用于直接从聊天侧边栏里为日志记录事件。",
-    "DF_CHAT_LOG.Setting_GmOnlyHint": "设定冒险日志的命令仅限 GM 可用。",
+    "DF_CHAT_LOG.Setting_EnableHint": "启用冒险日志功能，用于直接从聊天侧边栏里为日志记录事件",
+    "DF_CHAT_LOG.Setting_GmOnlyHint": "设定冒险日志的命令仅限 GM 可用",
     "DF_CHAT_LOG.Setting_GmOnlyWhisperName": "冒险日志：(如果仅限 GM) 所有日志设为私聊",
-    "DF_CHAT_LOG.Setting_GmOnlyWhisperHint": "如果仅限 GM 可用，这项设定可以令所有日志条目的聊天消息设为私聊。",
+    "DF_CHAT_LOG.Setting_GmOnlyWhisperHint": "如果仅限 GM 可用，这项设定可以令所有日志条目的聊天消息设为私聊",
     "DF_CHAT_LOG.Setting_PrintMessagesName": "冒险日志：将日志发布到聊天",
-    "DF_CHAT_LOG.Setting_PrintMessagesHint": "为新的冒险日志条目发布一条聊天消息。",
+    "DF_CHAT_LOG.Setting_PrintMessagesHint": "为新的冒险日志条目发布一条聊天消息",
     "DF_CHAT_LOG.Setting_SortDescendingName": "冒险日志：按新消息在顶端排序",
     "DF_CHAT_LOG.Setting_SortDescendingHint": "冒险日志以最新的消息置于日志顶端来排序，最旧的消息会在日志底端。",
     "DF_CHAT_LOG.Error_LibWrapperMissing": "你没有启用 libWrapper 。冒险日志功能依赖于此模组，无法起效。",
@@ -92,5 +92,36 @@
     "DF_CHAT_EDIT.Settings_GMEditAllName": "聊天编辑：GM 可以编辑所有消息",
     "DF_CHAT_EDIT.Settings_GMEditAllHint": "允许 GM 除了自己的消息外，还可以编辑任何人的消息",
     "DF_CHAT_EDIT.EditedFlag": "(已编辑)",
-    "DF_CHAT_EDIT.Error_NoPermission": "GM 已禁用编辑"
+    "DF_CHAT_EDIT.Error_NoPermission": "GM 已禁用编辑",
+    "DF_CHAT_ARCHIVE.ArchiveViewer_Error_Delete_All": "无法删除归档中的所有聊天消息。如果你想要删除一条归档，请在归档管理中处理。",
+    "DF_CHAT_LOG.Error_ApiLog_NotGm": "你必须是 GM 才能向 GM 冒险日志提交事件",
+    "DF_CHAT_MERGE": {
+        "ShowHeaderName": "聊天合并：显示消息页眉",
+        "AllowRollsName": "聊天合并：如何处理掷骰合并",
+        "AllowRollsHint": "掷骰消息应该如何处理。",
+        "SeparateName": "聊天合并：显示合并消息分隔线",
+        "SeparateHint": "在合并的消息之间显示一条细线。",
+        "HoverName": "聊天合并：显示悬停阴影",
+        "EpochName": "聊天合并：最长时间段",
+        "EpochHint": "允许聊天消息合并的最长的时间段。",
+        "AllowRollsOptions": {
+            "none": "不合并",
+            "rolls": "与其他掷骰合并",
+            "all": "与任何消息合并"
+        },
+        "EnableName": "聊天合并：启用聊天消息合并",
+        "EnableHint": "将合并短时间内由同一名用户发送的消息。",
+        "ShowHeaderHint": "启用后，每条合并消息都会显示消息页眉。",
+        "HoverHint": "在鼠标悬停于一条合并的聊天消息上时，显示一道边框阴影。"
+    },
+    "DF_CHAT_SCROLL": {
+        "EnableName": "启用聊天滚动改进",
+        "ScrollIfYouName": "在你发送消息时滚动到底部",
+        "ScrollButton": "滚动到底部",
+        "NewMessage": "新消息！",
+        "ScrollIfYouHint": "如果你已在聊天栏中滚动到上面，此功能将会在你发送消息时，自动将你的聊天栏滚动到底部。",
+        "EnableHint": "将显示滚动到底部的按钮，并且如果你要在聊天栏中向上滚动，此功能将会阻止新消息发送时自动滚动到底部。作为新消息发送的提醒，滚动到底部的按钮将会被高亮。"
+    },
+    "DF_CHAT_EDIT.Settings_IgnoreHtmlName": "聊天编辑：忽略含有 HTML 的消息",
+    "DF_CHAT_EDIT.Settings_IgnoreHtmlHint": "禁止编辑包含 HTML 代码的聊天消息。"
 }
