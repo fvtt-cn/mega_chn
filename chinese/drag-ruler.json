@@ -3,11 +3,11 @@
         "settings": {
             "speedProviderSettings": {
                 "speedProvider": {
-                    "hint": "选择指示物移动着色时，速度信息的提供方。Drag Ruler 自带通用的速度提供方，提供基础功能并且在配置正确时，应对所有游戏系统都有效。游戏系统和安装的 MOD 可能会提供可用的新速度提供方。选择其他速度提供方替换通用速度提供方可能会与正在使用的游戏系统的规则整合得更好。下列的选项依赖于此处选择的速度提供方。",
+                    "hint": "选择指示物移动着色时，速度信息的提供方。Drag Ruler 自带通用的速度提供方，提供基础功能并且在配置正确时，应对所有游戏系统都有效。游戏系统和安装的模组可能会提供可用的新速度提供方。选择其他速度提供方替换通用速度提供方可能会与正在使用的游戏系统的规则整合得更好。下列的选项依赖于此处选择的速度提供方。",
                     "choices": {
                         "system": "系统 {name}",
                         "native": "通用",
-                        "module": "MOD {name}"
+                        "module": "模组 {name}"
                     },
                     "name": "速度设置提供方"
                 },
@@ -69,12 +69,12 @@
         "resetMovementHistory": "重置移动历史",
         "dependencies": {
             "socketlib": {
-                "text": "Drag Ruler 依赖于 socketlib MOD 以正常运行。请在该世界中激活 socketlib MOD。",
-                "title": "Socketlib MOD 未安装/启用"
+                "text": "Drag Ruler 依赖于 socketlib 模组以正常运行。请在该世界中激活 socketlib 模组。",
+                "title": "Socketlib 模组未安装/启用"
             },
             "terrain-ruler": {
                 "neverShowAgain": "不再显示此条",
-                "text": "你已启用 {moduleName}。Drag Ruler 可以使用这个 MOD 测量放置的困难地形。为此，Drag Ruler 将使用 Terrain Ruler MOD。如果已经安装并启用了 Terrain Ruler，Drag Ruler 将自动开始在测量中反应困难地形的结果。",
+                "text": "你已启用 {moduleName}。Drag Ruler 可以使用此模组测量放置的困难地形。为此，Drag Ruler 将使用 Terrain Ruler 模组。如果已经安装并启用了 Terrain Ruler，Drag Ruler 将自动开始在测量中反映困难地形的结果。",
                 "title": "Drag Ruler 如何测量困难地形"
             },
             "ok": "OK"
