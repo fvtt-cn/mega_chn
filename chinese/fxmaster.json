@@ -51,5 +51,11 @@
     "FXMASTER.Sepia": "深褐色",
     "FXMASTER.Threshold": "阈值",
     "FXMASTER.Period": "时期",
-    "CONTROLS.Filters": "滤镜控件"
+    "CONTROLS.Filters": "滤镜控件",
+    "CONTROLS.InvertMask": "反转天气遮罩",
+    "FXMASTER.CastThrow": "投向目标",
+    "FXMASTER.CastExtend": "延向目标",
+    "FXMASTER.CastExpand": "扩向目标",
+    "FXMASTER.CastRotate": "旋转",
+    "FXMASTER.CastStatic": "面向目标"
 }
