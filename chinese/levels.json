@@ -66,5 +66,9 @@
     "levels.form.tip": "*层级不能交叉（例如：0,9 / 10,19 / 20,29）",
     "levels.form.suggestedLevels": "按推荐生成层级",
     "levels.form.autoLevels": "从场景中获取层级",
-    "levels.err.lessfog": "层级：警告！检测到 Less Fog - 指示物可见性将不会如预期般工作，请禁用任一模组。"
+    "levels.err.lessfog": "层级：警告！检测到 Less Fog - 指示物可见性将不会如预期般工作，请禁用任一模组。",
+    "levels.settings.preciseTokenVisibility.name": "精确指示物可见性",
+    "levels.settings.preciseTokenVisibility.hint": "启用后除了中心，也将会检查指示物角落的视野，对性能有一定损耗",
+    "levels.settings.blockSightMovement.name": "篱笆模式",
+    "levels.settings.blockSightMovement.hint": "启用后，有高度的墙壁不会限制视野但仍然会限制移动"
 }
