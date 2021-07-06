@@ -213,6 +213,7 @@
     "dae.temporaryFilter": "Timed effects",
     "dae.Priority": "Priority",
     "dae.Stackable": "Stackable",
+    "dae.stackableOptions": {"none": "Effects do not stack", "multi": "Stacking effects apply the effect multiple times", "count": "each stack increase stack count by 1"},
     "dae.useDAESheet.Name": "Use the DAE Active Effect Config Sheet?",
     "dae.useDAESheet.Hint": "If false uses the Core ActiveEffectConfig Sheet",
     "dae.confirm": "Confirmation Dialog",
@@ -291,6 +292,5 @@
     "dae.pil": "Piloting",
     "dae.tec": "Technology",
     "dae.powerForceLevel": "Force Power Level"
-    
 }
 
