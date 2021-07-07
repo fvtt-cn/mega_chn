@@ -102,7 +102,7 @@ SWADE.Handling: 操控性
 SWADE.Status: 状态
 SWADE.Addi: 额外
 SWADE.General: 通用
-SWADE.JokersWild: 不羁小丑！
+SWADE.JokersWild: 鬼牌不羁！
 SWADE.InitDraw: 先攻抽卡！
 SWADE.Init: 先攻
 SWADE.Incap: 无力化
@@ -148,8 +148,8 @@ SWADE.AttrSma: 聪慧
 SWADE.AttrAgi: 灵巧
 SWADE.Derived: 衍生数值
 SWADE.Attributes: 属性
-SWADE.AttributeTest: 属性考验
-SWADE.SkillTest: 技能考验
+SWADE.AttributeTest: 属性检定
+SWADE.SkillTest: 技能检定
 SWADE.TraitMod: 特性模式
 SWADE.Bennies: 助力点
 SWADE.Extra: 龙套
@@ -187,7 +187,7 @@ SWADE.CommunityCharSheet: 旧版角色卡
 SWADE.Equipped: 已装备
 SWADE.Eqd: Eq'd
 SWADE.CarryWeight: 负载
-SWADE.Currency: 货币形式
+SWADE.Currency: 货币
 SWADE.Enabled: 启用
 SWADE.HasMaxValue: 有最大值
 SWADE.Label: 标签
@@ -232,7 +232,7 @@ SWADE.Parry: 格挡
 SWADE.Mag: 装弹量
 SWADE.RoF: 射速
 SWADE.APLong: 穿甲
-SWADE.Ap: AP
+SWADE.Ap: 穿甲
 SWADE.Rng: 射程
 SWADE.DmgOver: 替换伤害
 SWADE.Dmg: 伤害
@@ -298,7 +298,7 @@ SWADE.CurrencyNameDesc: 给货币进行命名
 SWADE.CurrencyName: 货币名称
 SWADE.WealthTypeDesc: 选择计算角色财富与货币的形式
 SWADE.NoneOther: 无/其他
-SWADE.WealthDie: 财富形式
+SWADE.WealthDie: 财富
 SWADE.WealthType: 财富骰子类型
 SWADE.Crew: 所需操作人员
 SWADE.GrantsPowers: 获得奇术
