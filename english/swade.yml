@@ -1,3 +1,5 @@
+SWADE.ButtonReset: Reset
+SWADE.ButtonSubmit: Submit
 SWADE.CommunityCharSheet: Legacy Character Sheet
 SWADE.CommunityNPCSheet: Community NPC Sheet
 SWADE.CommunityVicSheet: Community Vehicle Sheet
@@ -83,6 +85,7 @@ SWADE.Weapons: Weapons
 SWADE.MeleeWeapons: Melee Weapons
 SWADE.RangedWeapons: Ranged Weapons
 SWADE.Armors: Armors
+SWADE.WeaponsAndArmor: Weapons & Armor
 SWADE.Shields: Shields
 SWADE.Biography: Biography
 SWADE.Shaken: Shaken
@@ -95,6 +98,12 @@ SWADE.Aiming: Aiming
 SWADE.Berserk: Berserk
 SWADE.Defending: Defending
 SWADE.Flying: Flying
+SWADE.Follow: Follow {name}
+SWADE.Unfollow: Unfollow {name}
+SWADE.MakeGroupLeader: Make Group Leader
+SWADE.RemoveGroupLeader: Remove Group Leader
+SWADE.SetGroupColor: Set Group Color
+SWADE.SelectColor: Select a color
 SWADE.Holding: Holding
 SWADE.Hold: Hold
 SWADE.ActNow: Act Now
@@ -185,6 +194,9 @@ SWADE.Fatigue: Fatigue
 SWADE.FatigueMax: Max Fatigue
 SWADE.Incap: Incapacitated
 SWADE.Init: Initiative
+SWADE.DrawInit: Draw Initiative
+SWADE.ActionDeckReset: Reset Action Deck Table
+SWADE.ActionDeckResetNotification: Action Deck reset
 SWADE.InitDraw: draws for Initiative!
 SWADE.JokersWild: Joker's Wild
 SWADE.General: General
@@ -358,3 +370,12 @@ SWADE.SysMigrationWarning: >-
 SWADE.SomethingWrongWithCardComp: Something went wrong with the card compendium, switching back to default
 SWADE.DeckShuffled: Card Deck automatically shuffled
 SWADE.BasePace: Base Pace
+SWADE.WarningPackLocked: You cannot edit a locked Compendium. Please unlock it first
+SWADE.ActionCardEditor: Action Card Editor
+SWADE.CardFace: Card Face
+SWADE.CardValue: Value
+SWADE.CardSuit: Suit
+SWADE.IsJoker: Is Joker
+SWADE.OpenACEditor: Open in Action Card Editor
+SWADE.Yes: Yes
+SWADE.No: No
