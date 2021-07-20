@@ -3,7 +3,7 @@
         "LanguagesTitle": "语言",
         "Fonts": "字体",
         "CustomLanguagesTitle": "自定义语言",
-        "CustomLanguagesHint": "定义一个以逗号分隔的自定义语言列表以添加至系统中。",
+        "CustomLanguagesHint": "定义一个以逗号分隔的自定义语言列表以添加至系统中。需要重载。",
         "TruespeechTitle": "巧言术",
         "ComprehendLanguagesTitle": "通晓语言",
         "TruespeechHint": "类似于D&D中的巧言术。输入一个已经设置好的自定义语言。说这种语言的人可以听懂所有说出的语言（无法阅读笔记），并且所有的生物都能听懂他说的话。",
@@ -52,6 +52,19 @@
         "ChatSettings": "聊天设定",
         "LanguagesHint": "改变语言使用的字母表。需要重新加载，但保存时不会重新加载。重置为默认则会重新加载。",
         "ComprehendLanguagesHint": "类似于D&D中的通晓语言法术。输入一个你已经设置好的自定义语言。该语言无法说出或写出，但可以明白所有其他语言。",
-        "DefaultAlphabet": "默认字符"
+        "DefaultAlphabet": "默认字符",
+        "LanguageProvider": {
+            "hint": "选择语言信息的字母表和语言的提供方。游戏系统和安装模组可以添加更多语言提供方。下方的选项依赖于此处选择的语言提供方。⚠️如果你修改了提供方，你必须保存并重新打开这些设置。",
+            "name": "语言设置提供方",
+            "choices": {
+                "module": "模组 {name}",
+                "native": "通用",
+                "system": "系统 {name}"
+            }
+        },
+        "FontSettings": "字体设置",
+        "enableAllFontsTitle": "在语言设置中添加所有字体",
+        "enableAllFontsHint": "在语言设置中令 Polyglot 字体全部生效。需要重载。",
+        "UESRPG.Language": "语言"
     }
 }
