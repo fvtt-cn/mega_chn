@@ -376,5 +376,7 @@
         "pc": "仅为玩家添加按钮",
         "both": "为所有人添加按钮"
     },
-    "midi-qol.DoReactions.Hint": "给被攻击的角色在决定掷骰前使用反应的选项"
+    "midi-qol.DoReactions.Hint": "给被攻击的角色在决定掷骰前使用反应的选项",
+    "midi-qol.ExportJSon": "导出掷骰统计到 Json 文件",
+    "midi-qol.ExportCSV": "导出掷骰统计到 CSV 文件"
 }
