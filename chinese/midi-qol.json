@@ -29,10 +29,11 @@
     "midi-qol.AutoCheckSaves.Hint": "施法时，自动确认豁免骰结果。禁用后会假设所有目标的豁免全部失败。",
     "midi-qol.AutoCheckSaves.Name": "自动确认豁免结果",
     "midi-qol.autoCheckSavesOptions": {
-        "all": "豁免确认 - 所有人可见",
+        "all": "豁免确认 - 所有人可见结果 + 豁免",
         "allShow": "豁免确认 - 所有人可见结果+骰子",
         "none": "禁用",
-        "whisper": "豁免确认 - 仅GM可见"
+        "whisper": "豁免确认 - 仅GM可见",
+        "allNoRoll": "豁免 - 所有人仅看到结果"
     },
     "midi-qol.AutoDamage.Name": "自动掷伤害骰",
     "midi-qol.AutoEffects.Hint": "若目标被命中、豁免失败或者未豁免，自动对其应用物品的主动效果。需要使用dae，同时最好使用about-time。",
@@ -265,7 +266,7 @@
     "midi-qol.RollOtherDamage.Hint": "启用后，远程武器/近战武器攻击附加的豁免失败后还会掷其他公式，掷骰结果作为额外伤害。豁免成功则伤害减半，使用武器属性的noDamSave和fullDamSave来覆写",
     "midi-qol.RollOtherDamage.Name": "对远程武器/近战武器攻击的豁免失败时掷其他公式",
     "midi-qol.Save": "保存设置",
-    "midi-qol.save-failure": " 失败骰 ",
+    "midi-qol.save-failure": " 失败骰",
     "midi-qol.save-success": " 成功骰 ",
     "midi-qol.Saves": "豁免",
     "midi-qol.saving-throw": "豁免",
@@ -378,5 +379,17 @@
     },
     "midi-qol.DoReactions.Hint": "给被攻击的角色在决定掷骰前使用反应的选项",
     "midi-qol.ExportJSon": "导出掷骰统计到 Json 文件",
-    "midi-qol.ExportCSV": "导出掷骰统计到 CSV 文件"
+    "midi-qol.ExportCSV": "导出掷骰统计到 CSV 文件",
+    "midi-qol.WallsBlockRange.Hint": "令墙壁可以遮挡远程攻击（4 点检测需要 DND Helpers 模组）\n无 = 无效果，中心 = 检查中心对中心线，4 点检测边角是否不可见，4 点检测将根据遮蔽程度调整 AC",
+    "midi-qol.WallsBlockRange.Name": "墙壁遮挡远程攻击",
+    "midi-qol.WallsBlockRangeOptionsNew": {
+        "none": "无",
+        "center": "中心检测",
+        "4point": "4 点检测",
+        "4pointAC": "4 点 AC 检测"
+    },
+    "midi-qol.WallsBlockRangeOptions": {
+        "none": "无",
+        "center": "中心检测"
+    }
 }
