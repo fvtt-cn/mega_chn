@@ -45,7 +45,7 @@
 
 ## 已翻译的系统列表
 - SWADE
-- Shadowrun 5e
+- ~~Shadowrun 5e~~ *Removed due to no translation*
 - Ryuutama
 - Shadow of the Demon Lord
 - WFRP 4e
