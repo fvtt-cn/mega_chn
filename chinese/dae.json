@@ -132,7 +132,7 @@
     "dae.turnStart": "回合开始: 角色（战斗中）下个回合开始时结束",
     "dae.1Hit": "1 次命中: 角色下次命中时结束",
     "dae.1Attack": "1 次攻击: 角色下次攻击时结束",
-    "dae.1Action": "1 个动作: 角色执行下个动作（物品掷骰）时结束",
+    "dae.1Action": "1 次法术: 角色执行下个动作（物品掷骰）时结束",
     "dae.isDamaged": "受伤: 角色受到伤害时结束",
     "dae.isAttacked": "被攻击: 角色被攻击时结束",
     "dae.expireRealTime.Hint": "启用后如果没有安装about-time/times-up，限时效果将会以真实时间结束。",
@@ -255,5 +255,12 @@
     "dae.isSaveDetail": "豁免掷骰",
     "dae.DisableEffects.Name": "禁用所有主动效果处理",
     "dae.DisableEffects.Hint": "启用后，所有主动效果都不会再应用到角色上。用于你想要改变角色会被主动效果修改特定值",
-    "dae.1Reaction": "一个反应：攻击触发的反应完成后失效"
+    "dae.1Reaction": "一个反应：攻击触发的反应完成后失效",
+    "dae.stackableOptions": {
+        "multi": "堆叠效果应用多次",
+        "none": "效果不堆叠",
+        "count": "每次堆叠增加计数 1"
+    },
+    "dae.1Spell": "1 次攻击: 在角色释放下个法术时结束",
+    "dae.isMoved": "移动: 在指示物移动时结束"
 }
