@@ -26,7 +26,7 @@
     "levels.settings.lockElevation.hint": "避免玩家在自己的指示物 HUD 上修改其高度。需要注意的是，如果玩家拥有权限修改其指示物，可以从指示物配置里修改此项。",
     "levels.settings.defaultLosHeight.name": "默认指示物高度",
     "levels.settings.autoLOSHeight.name": "自动指示物高度",
-    "levels.settings.autoLOSHeight.hint": "根据其体型和缩放大小，自动计算其高度。将忽略所有手动的设置。 ",
+    "levels.settings.autoLOSHeight.hint": "根据其体型和缩放大小，自动计算其高度。将忽略所有默认的指示物高度，指示物设置中非 0 的将优先于自动计算。 ",
     "levels.settings.debugRaycast.name": "调试：启用光线虚拟",
     "levels.settings.debugRaycast.hint": "显示 3D 视线（绿色可见，红色不可见）",
     "levels.settings.preciseLightOcclusion.name": "实验性：精准光线遮挡",
@@ -70,5 +70,10 @@
     "levels.settings.preciseTokenVisibility.name": "精确指示物可见性",
     "levels.settings.preciseTokenVisibility.hint": "启用后除了中心，也将会检查指示物角落的视野，对性能有一定损耗",
     "levels.settings.blockSightMovement.name": "篱笆模式",
-    "levels.settings.blockSightMovement.hint": "启用后，有高度的墙壁不会限制视野但仍然会限制移动"
+    "levels.settings.blockSightMovement.hint": "启用后，有高度的墙壁不会限制视野但仍然会限制移动",
+    "levels.settings.tokenElevScaleMultiSett.name": "高度缩放自定义乘数",
+    "levels.settings.tokenElevScaleMultiSett.hint": "将高度缩放乘以此数值。大于 1 的数值将会让指示物变得更大，而小于 1 的数值则会让指示物变得更小",
+    "levels.settings.forceUiRefresh.name": "强制 UI 刷新",
+    "levels.template.special.name": "特殊",
+    "levels.settings.forceUiRefresh.hint": "在性能损耗情况下强制对层级 UI 进行更频繁的刷新，启用后可能会在特定系统中产生一些问题（例如 PF2e）"
 }
