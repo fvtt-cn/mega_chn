@@ -62,7 +62,8 @@
                 "Add": "添加",
                 "TabLabel": "选项卡标签",
                 "Rows": "行",
-                "Columns": "列"
+                "Columns": "列",
+                "TabOrder": "顺序"
             },
             "errors": {
                 "empty": "无法保存没有标签的网格。"
