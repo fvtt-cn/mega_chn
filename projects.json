@@ -1,7 +1,7 @@
 [
     {
         "name": "midi-qol",
-        "src": "https://gitlab.com/tposney/midi-qol/-/raw/master/src/lang/en.json"
+        "src": "https://gitlab.com/tposney/midi-qol/-/raw/master/lang/en.json"
     },
     {
         "name": "dae",
