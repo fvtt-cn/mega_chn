@@ -339,3 +339,24 @@ SWADE.SysMigrationWarning: 你的SWADE系统数据来自于过旧的Foundry版�
 SWADE.SomethingWrongWithCardComp: 卡牌合集包出现错误，将切换回默认设置
 SWADE.DeckShuffled: 牌组自动洗牌
 SWADE.BasePace: 基础移速
+SWADE.ButtonReset: 重置
+SWADE.WeaponsAndArmor: 武器&护甲
+SWADE.SetGroupColor: 设定团体颜色
+SWADE.DrawInit: 抽取先攻
+SWADE.ActionDeckReset: 重置行动卡表格
+SWADE.ActionCardEditor: 行动卡编辑器
+SWADE.ButtonSubmit: 提交
+SWADE.Follow: 跟随 {名称}
+SWADE.Unfollow: 不再跟随 {名称}
+SWADE.MakeGroupLeader: 添加团体领袖
+SWADE.RemoveGroupLeader: 移除团体领袖
+SWADE.SelectColor: 选择一种颜色
+SWADE.ActionDeckResetNotification: 行动卡重置
+SWADE.CardFace: 卡面
+SWADE.CardValue: 卡牌数值
+SWADE.CardSuit: 卡牌花色
+SWADE.IsJoker: 是鬼牌
+SWADE.OpenACEditor: 以行动卡编辑器打开
+SWADE.Yes: 确认
+SWADE.No: 取消
+SWADE.WarningPackLocked: 无法编辑锁定的合集，请先解锁
