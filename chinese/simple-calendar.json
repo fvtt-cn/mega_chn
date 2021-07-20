@@ -302,5 +302,11 @@
     "FSC.Notes.DateTime.Title": "备注日期/时间",
     "FSC.Notes.DateTime.AllDay": "添加时间",
     "FSC.Configuration.General.PlayerReorderNotes": "重排序备注",
-    "FSC.Configuration.NoteCategories.Name": "备注类别名"
+    "FSC.Configuration.NoteCategories.Name": "备注类别名",
+    "FSC.Configuration.NoteCategories.ColorHelp": "此备注类别关联的颜色。",
+    "FSC.Configuration.NoteCategories.NameHelp": "该备注类别的显示名称。",
+    "FSC.Configuration.NoteCategories.Color": "备注类别颜色",
+    "FSC.Configuration.NoteCategories.Add": "添加备注类别",
+    "FSC.Configuration.NoteCategories.RemoveAll": "移除所有备注类别",
+    "FSC.Configuration.Notes.NoteCategoriesHelp": "选择所有与此备注关联的不同的备注类别。"
 }
