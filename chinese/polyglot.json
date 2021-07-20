@@ -3,14 +3,14 @@
         "LanguagesTitle": "语言",
         "Fonts": "字体",
         "CustomLanguagesTitle": "自定义语言",
-        "CustomLanguagesHint": "定义一个以逗号分隔的自定义语言列表以添加至系统中。需要重载。",
+        "CustomLanguagesHint": "定义一个以逗号分隔的自定义语言列表以添加至系统中。",
         "TruespeechTitle": "巧言术",
         "ComprehendLanguagesTitle": "通晓语言",
         "TruespeechHint": "类似于D&D中的巧言术。输入一个已经设置好的自定义语言。说这种语言的人可以听懂所有说出的语言（无法阅读笔记），并且所有的生物都能听懂他说的话。",
         "DefaultLanguageTitle": "默认语言",
         "DefaultLanguageHint": "选择默认选择的语言名称。留空则使用系统默认值。",
         "ReplaceLanguagesTitle": "替换系统语言",
-        "ReplaceLanguagesHint": "替换系统默认语言为你的自定义语言。列表中的第一项语言将成为新的默认语言。需要重载。",
+        "ReplaceLanguagesHint": "替换系统默认语言为你的自定义语言。列表中的第一项语言将成为新的默认语言。",
         "RandomizeRunesTitle": "随机化符文",
         "ScrambleGMTitle": "为GM加密信息",
         "ExportFontsTitle": "使字体可用",
@@ -44,13 +44,13 @@
         "WFRP4E": {
             "LanguageSkills": "语言"
         },
-        "ScrambleGMHint": "不替GM翻译并显示文本（参考地球仪图标的颜色来判断token是否明白）。需要重新加载。",
-        "RandomizeRunesHint": "启用该选项会导致被加密的文本每次出现都会不一样，即使信息是重复的。需要重新加载。",
+        "ScrambleGMHint": "不替 GM 翻译并显示文本（参考地球仪图标的颜色来判断指示物是否理解）。需要重载。",
+        "RandomizeRunesHint": "启用该选项会导致被加密的文本每次出现都会不一样，即使信息重复。",
         "DisplayTranslatedHint": "对于聊天栏中被翻译的语言，将翻译显示在原文下方。",
         "HideTranslationHint": "在发送给玩家的信息中隐藏地球仪图标和“翻译自”。用于不想显示给玩家说的是哪种语言时。需要重新加载。",
         "LanguageSettings": "语言设定",
         "ChatSettings": "聊天设定",
-        "LanguagesHint": "改变语言使用的字母表。需要重新加载，但保存时不会重新加载。重置为默认则会重新加载。",
+        "LanguagesHint": "改变语言使用的字母表。重置为默认则会重新加载。",
         "ComprehendLanguagesHint": "类似于D&D中的通晓语言法术。输入一个你已经设置好的自定义语言。该语言无法说出或写出，但可以明白所有其他语言。",
         "DefaultAlphabet": "默认字符",
         "LanguageProvider": {
@@ -64,7 +64,7 @@
         },
         "FontSettings": "字体设置",
         "enableAllFontsTitle": "在语言设置中添加所有字体",
-        "enableAllFontsHint": "在语言设置中令 Polyglot 字体全部生效。需要重载。",
+        "enableAllFontsHint": "在语言设置中令 Polyglot 字体全部生效。",
         "UESRPG.Language": "语言"
     }
 }
