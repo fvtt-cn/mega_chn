@@ -285,5 +285,22 @@
     "FSC.Importer.NoFile": "请选择一个文件以导入。",
     "FSC.Importer.InvalidSCConfig": "上传了无效文件，请选择简单日历导出的 JSON 文件。",
     "FSC.Configuration.General.ImportExport.Title": "导入/导出",
-    "FSC.Configuration.General.ImportExport.SCConfigHelp": "导入或导出简单日历当前日历配置，用于分享或在其他世界载入备份。"
+    "FSC.Configuration.General.ImportExport.SCConfigHelp": "导入或导出简单日历当前日历配置，用于分享或在其他世界载入备份。",
+    "FSC.AllDay": "全天",
+    "FSC.Notes.Date": "备注日期",
+    "FSC.Notes.DateTime.Help": "备注的日期以及发生的时间。",
+    "FSC.Configuration.General.PlayerReorderNotesHelp": "勾选的角色将能够重新排序每日的备注。",
+    "FSC.Configuration.Notes.NoteCategories": "备注类别",
+    "FSC.Clear": "清空",
+    "FSC.OrdinalSuffix.st": "st",
+    "FSC.OrdinalSuffix.nd": "nd",
+    "FSC.OrdinalSuffix.rd": "rd",
+    "FSC.OrdinalSuffix.th": "th",
+    "FSC.Notes.DateHelp": "备注的日期。",
+    "FSC.Notes.NotPlayerVisible": "玩家不可见",
+    "FSC.Notes.Time": "时间",
+    "FSC.Notes.DateTime.Title": "备注日期/时间",
+    "FSC.Notes.DateTime.AllDay": "添加时间",
+    "FSC.Configuration.General.PlayerReorderNotes": "重排序备注",
+    "FSC.Configuration.NoteCategories.Name": "备注类别名"
 }
