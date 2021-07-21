@@ -55,7 +55,8 @@
             "Header": "角色链接",
             "Mode": "模式",
             "ModeNone": "无",
-            "ModeFamiliar": "魔宠"
+            "ModeFamiliar": "魔宠",
+            "MasterRankPlural": "主人等级"
         }
     }
 }
