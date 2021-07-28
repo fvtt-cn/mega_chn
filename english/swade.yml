@@ -102,6 +102,8 @@ SWADE.Follow: Follow {name}
 SWADE.Unfollow: Unfollow {name}
 SWADE.MakeGroupLeader: Make Group Leader
 SWADE.RemoveGroupLeader: Remove Group Leader
+SWADE.AddTokenFollowers: Add Selected Tokens as Followers
+SWADE.GroupByName: Group by Name
 SWADE.SetGroupColor: Set Group Color
 SWADE.SelectColor: Select a color
 SWADE.Holding: Holding
