@@ -40,7 +40,8 @@
         "Skill": {
             "AlwaysShow": "AS",
             "AlwaysShowTooltip": "Always show on summary tab",
-            "TooManyRanks": "Used too many skill ranks"
+            "TooManyRanks": "Used too many skill ranks",
+            "AddSkill": "Add Skill"
         },
         "Features": {
             "MinimizeClasses": "Minimize display of classes",
