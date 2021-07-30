@@ -259,5 +259,8 @@
     "midi-qol.ImportConfig": "Import midi-qol settings from json file",
     "midi-qol.flags.midi-qol.bardicInspiration": "Bardic Inspiration",
     "midi-qol.ExportJSon": "Export Roll Stats to Json file",
-    "midi-qol.ExportCSV": "Export Roll Stats to CSV file"
+    "midi-qol.ExportCSV": "Export Roll Stats to CSV file",
+    "midi-qol.criticalThreshold": "Critical",
+    "midi-qol.AutoCEEffects.Name": "Apply Convenient Effects",
+    "midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used"
 }
