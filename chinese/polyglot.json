@@ -65,6 +65,8 @@
         "FontSettings": "字体设置",
         "enableAllFontsTitle": "在语言设置中添加所有字体",
         "enableAllFontsHint": "在语言设置中令 Polyglot 字体全部生效。",
-        "UESRPG.Language": "语言"
+        "UESRPG.Language": "语言",
+        "JournalHighlightTitle": "日志高亮不透明度（%）",
+        "JournalHighlightHint": "设定日志上的字体的高亮不透明度。"
     }
 }
