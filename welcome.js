@@ -7,9 +7,10 @@ const TRANSLATORS = [
     "bnp800",
     "hxqxh",
     "psedonatural",
-    "白药君"
+    "白药君",
+    "长耳"
 ];
-const LIST_VERSION = 1;
+const LIST_VERSION = 2;
 
 Hooks.on("init", () => {
     game.settings.register(MODULE_NAME, WELCOMED_NAME, {
@@ -42,13 +43,13 @@ Hooks.on("ready", () => {
 
         let content = `
             <h2>欢迎使用 FVTT 中文翻译 Mega 整合包！</h2>
-            <p>Mega 包内置了多个系统和数十个不同 MOD 的海量翻译，适合各类 GM 和玩家使用。</p>
+            <p>Mega 包内置了多个系统和数十个不同模组的海量翻译，适合各类 GM 和玩家使用。</p>
             <h3>此翻译包的诞生离不开所有译者的支持，特别鸣谢！</h3>
             <ul>
                 ${list}
             </ul>
             <p><small>此外，感谢 <a href="https://weblate.org/">Weblate</a> 项目为此项目提供翻译流程规范化的软件支持！</small></p>
-            <p>如需参与 Mega 包翻译工作，或提议支持更多 MOD/系统，请联系 <a href="https://github.com/fvtt-cn/">FVTT-CN 组织</a>！</p>
+            <p>如需参与 Mega 包翻译工作，或提议支持更多模组/系统，请联系 <a href="https://github.com/fvtt-cn/">FVTT-CN 组织</a>！</p>
         `;
 
         const welcomeDialog = new Dialog({
