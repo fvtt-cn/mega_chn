@@ -75,5 +75,11 @@
     "levels.settings.tokenElevScaleMultiSett.hint": "将高度缩放乘以此数值。大于 1 的数值将会让指示物变得更大，而小于 1 的数值则会让指示物变得更小",
     "levels.settings.forceUiRefresh.name": "强制 UI 刷新",
     "levels.template.special.name": "特殊",
-    "levels.settings.forceUiRefresh.hint": "在性能损耗情况下强制对层级 UI 进行更频繁的刷新，启用后可能会在特定系统中产生一些问题（例如 PF2e）"
+    "levels.settings.forceUiRefresh.hint": "在性能损耗情况下强制对层级 UI 进行更频繁的刷新，启用后可能会在特定系统中产生一些问题（例如 PF2e）",
+    "levels.settings.hideElevation.hint": "对棋子隐藏高度",
+    "levels.settings.hideElevation.opt0": "不隐藏",
+    "levels.settings.hideElevation.opt1": "隐藏玩家",
+    "levels.settings.hideElevation.opt2": "对所有人隐藏",
+    "levels.firsttime.dialog": "层级.第一次启动时显示画面",
+    "levels.settings.hideElevation.name": "隐藏高度"
 }
