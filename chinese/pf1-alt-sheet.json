@@ -38,7 +38,8 @@
         "Skill": {
             "AlwaysShow": "AS",
             "AlwaysShowTooltip": "总是在概览页显示",
-            "TooManyRanks": "使用了过多技能点"
+            "TooManyRanks": "使用了过多技能点",
+            "AddSkill": "添加技能"
         },
         "Features": {
             "MinimizeClasses": "最小化职业显示",
