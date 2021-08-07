@@ -6,7 +6,7 @@
         "CustomLanguagesHint": "定义一个以逗号分隔的自定义语言列表以添加至系统中。",
         "TruespeechTitle": "巧言术",
         "ComprehendLanguagesTitle": "通晓语言",
-        "TruespeechHint": "类似于D&D中的巧言术。输入一个已经设置好的自定义语言。说这种语言的人可以听懂所有说出的语言（无法阅读笔记），并且所有的生物都能听懂他说的话。",
+        "TruespeechHint": "输入一个语言。说这种语言的人可以听懂所有说出的语言（无法阅读笔记），并且所有的生物都能听懂他说的话。",
         "DefaultLanguageTitle": "默认语言",
         "DefaultLanguageHint": "选择默认选择的语言名称。留空则使用系统默认值。",
         "ReplaceLanguagesTitle": "替换系统语言",
@@ -45,13 +45,13 @@
             "LanguageSkills": "语言"
         },
         "ScrambleGMHint": "不替 GM 翻译并显示文本（参考地球仪图标的颜色来判断指示物是否理解）。需要重载。",
-        "RandomizeRunesHint": "启用该选项会导致被加密的文本每次出现都会不一样，即使信息重复。",
+        "RandomizeRunesHint": "此项决定了生成段落的随机数发生器类型。⚠️选项“无”仅支持字母数字字符（无变音记号）。",
         "DisplayTranslatedHint": "对于聊天栏中被翻译的语言，将翻译显示在原文下方。",
         "HideTranslationHint": "在发送给玩家的信息中隐藏地球仪图标和“翻译自”。用于不想显示给玩家说的是哪种语言时。需要重新加载。",
         "LanguageSettings": "语言设定",
         "ChatSettings": "聊天设定",
         "LanguagesHint": "改变语言使用的字母表。重置为默认则会重新加载。",
-        "ComprehendLanguagesHint": "类似于D&D中的通晓语言法术。输入一个你已经设置好的自定义语言。该语言无法说出或写出，但可以明白所有其他语言。",
+        "ComprehendLanguagesHint": "输入一个语言。该语言无法说出或写出，但可以明白所有其他语言。",
         "DefaultAlphabet": "默认字符",
         "LanguageProvider": {
             "hint": "选择语言信息的字母表和语言的提供方。游戏系统和安装模组可以添加更多语言提供方。下方的选项依赖于此处选择的语言提供方。⚠️如果你修改了提供方，你必须保存并重新打开这些设置。",
@@ -63,10 +63,17 @@
             }
         },
         "FontSettings": "字体设置",
-        "enableAllFontsTitle": "在语言设置中添加所有字体",
+        "enableAllFontsTitle": "使用所有字体",
         "enableAllFontsHint": "在语言设置中令 Polyglot 字体全部生效。",
         "UESRPG.Language": "语言",
         "JournalHighlightTitle": "日志高亮不透明度（%）",
-        "JournalHighlightHint": "设定日志上的字体的高亮不透明度。"
+        "JournalHighlightHint": "设定日志上的字体的高亮不透明度。",
+        "logographicalFontToggleHint": "对使用语素文字的段落减半其空间占用（例如：日文、中文字符）。",
+        "logographicalFontToggleTitle": "语素文字",
+        "RandomizeRunesOptions": {
+            "a": "默认",
+            "b": "独特段落",
+            "c": "无 ⚠️"
+        }
     }
 }
