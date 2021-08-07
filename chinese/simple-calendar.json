@@ -308,5 +308,7 @@
     "FSC.Configuration.NoteCategories.Color": "备注类别颜色",
     "FSC.Configuration.NoteCategories.Add": "添加备注类别",
     "FSC.Configuration.NoteCategories.RemoveAll": "移除所有备注类别",
-    "FSC.Configuration.Notes.NoteCategoriesHelp": "选择所有与此备注关联的不同的备注类别。"
+    "FSC.Configuration.Notes.NoteCategoriesHelp": "选择所有与此备注关联的不同的备注类别。",
+    "FSC.Notes.Reminder": "提醒我！",
+    "FSC.Notes.ReminderHelp": "你会想起这件事的。"
 }
