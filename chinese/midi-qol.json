@@ -392,5 +392,7 @@
         "none": "无",
         "center": "中心检测"
     },
-    "midi-qol.criticalThreshold": "临界"
+    "midi-qol.criticalThreshold": "临界",
+    "midi-qol.AutoCEEffects.Name": "应用便利效果",
+    "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果"
 }
