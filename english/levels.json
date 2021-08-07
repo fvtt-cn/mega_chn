@@ -4,8 +4,8 @@
     "levels.settings.enableTooltips.hint": "Show tooltips with top and bottom when hovering levels objects",
     "levels.settings.tokenElevScale.name": "Change token sized based on elevation",
     "levels.settings.tokenElevScale.hint": "Change size of tokens based on elevation of the controlled token",
-    "levels.settings.tokenElevScaleMultiSett.name": "Elevation scale custom multiplier",
-    "levels.settings.tokenElevScaleMultiSett.hint": "Multiply elevation scale by this number. A number larger than 1 will make tokens bigger while one smaller than 1 will make them smaller",
+    "levels.settings.tokenElevScaleMultiSett.name":"Elevation scale custom multiplier",
+    "levels.settings.tokenElevScaleMultiSett.hint":"Multiply elevation scale by this number. A number larger than 1 will make tokens bigger while one smaller than 1 will make them smaller",
     "levels.settings.fogHiding.name": "Advanced Fog of War",
     "levels.settings.fogHiding.hint": "Hide unexplored floors from the explored fog of war",
     "levels.settings.lockElevation.name": "Lock Elevation",
@@ -20,21 +20,23 @@
     "levels.settings.preciseLightOcclusion.hint": "Removes light occlusion artefacts at the cost of performance",
     "levels.settings.preciseTokenVisibility.name": "Precise token visibility",
     "levels.settings.preciseTokenVisibility.hint": "Enabling this option will check for sight against corners of the token in addition to the center at the cost of some performance",
-    "levels.settings.blockSightMovement.name": "Fence",
-    "levels.settings.blockSightMovement.hint": "When enabled, walls with height that does not restrict vision will still restrict movement",
-    "levels.settings.forceUiRefresh.name": "Force UI refresh",
+    "levels.settings.blockSightMovement.name":"Fence",
+    "levels.settings.blockSightMovement.hint":"When enabled, walls with height that does not restrict vision will still restrict movement",
+    "levels.settings.forceUiRefresh.name":"Force UI refresh",
     "levels.settings.forceUiRefresh.hint": "Forces more frequent refreshes of the levels UI at the cost of performance, if enabled may cause issues on specific systems (eg. PF2e)",
     "levels.settings.hideElevation.name": "Hide Elevation",
     "levels.settings.hideElevation.hint": "Hide elevation from the tokens",
     "levels.settings.hideElevation.opt0": "Don't Hide",
     "levels.settings.hideElevation.opt1": "Hide for players",
     "levels.settings.hideElevation.opt2": "Hide for everyone",
+
+
     "levels.tilecoonfig.rangeTop.name": "Height (Top)",
     "levels.tilecoonfig.rangeBottom.name": "Height (Bottom)",
     "levels.tilecoonfig.showIfAbove.name": "Show even when below?",
-    "levels.tilecoonfig.showAboveRange.name": "Max Elevation Difference",
-    "levels.tilecoonfig.isBasement.name": "is Basement?",
-    "levels.tilecoonfig.noFogHide.name": "Don't hide this tile in the Fog",
+    "levels.tilecoonfig.showAboveRange.name":"Max Elevation Difference",
+    "levels.tilecoonfig.isBasement.name":"is Basement?",
+    "levels.tilecoonfig.noFogHide.name":"Don't hide this tile in the Fog",
     "levels.tilecoonfig.range.unit": "Elevation",
     "levels.drawingconfig.hb.name": "Height (Bottom)",
     "levels.drawingconfig.ht.name": "Height (Top)",
@@ -51,6 +53,7 @@
     "levels.tokenconfig.tokenHeight.unit": "(Distance)",
     "levels.template.elevation.name": "Elevation",
     "levels.template.special.name": "Special",
+
     "levels.controls.main.name": "Levels",
     "levels.controls.levelsview.name": "Enable Levels View/Placement",
     "levels.controls.definelevels.name": "Edit Levels",
@@ -60,7 +63,8 @@
     "levels.controls.levelshole.name": "Place drawings as Stairs when enabled, place as holes when disabled",
     "levels.controls.levelsclear.name": "Clear Levels",
     "levels.controls.placeOverhead.name": "If enabled place tiles as overhead tiles 'inside' levels",
-    "levels.controls.setTemplateElevation.name": "Set elevation for next placed template",
+    "levels.controls.setTemplateElevation.name":"Set elevation for next placed template",
+
     "levels.dialog.levelsclear.title": "Clear Levels",
     "levels.dialog.levelsclear.content": "Clear all stored levels?",
     "levels.dialog.define.warn": "Define levels as: bottom,top|bottom,top - eg. 0,9|10,19|20,29",
@@ -68,10 +72,13 @@
     "levels.dialog.define.text": "Levels: ",
     "levels.dialog.elevator.title": "Levels - Choose a Floor",
     "levels.dialog.elevation.title": "Set Elevation for next Template placement",
+
     "levels.yesnodialog.yes": "Confirm",
     "levels.yesnodialog.no": "Cancel",
+
     "levels.widget.title": "Levels",
     "levels.widget.element": "Level",
+
     "levels.form.bottom": "Bottom:",
     "levels.form.top": "Top:",
     "levels.form.name": "Name:",
@@ -80,6 +87,8 @@
     "levels.form.tip": "*Levels should not overlap (eg. 0,9 / 10,19 / 20,29)",
     "levels.form.suggestedLevels": "Generate Suggested Levels",
     "levels.form.autoLevels": "Get levels from Scene",
+
     "levels.err.lessfog": "Levels: WARNING! Less Fog detected - token visibility will not work as expected, please disable either module",
-    "levels.firsttime.dialog": "层级.第一次启动。显示画面"
+    "levels.firsttime.dialog": ""
+
 }
