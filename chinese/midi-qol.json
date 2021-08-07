@@ -391,5 +391,6 @@
     "midi-qol.WallsBlockRangeOptions": {
         "none": "无",
         "center": "中心检测"
-    }
+    },
+    "midi-qol.criticalThreshold": "临界"
 }
