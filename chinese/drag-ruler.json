@@ -48,6 +48,10 @@
             "alwaysShowSpeedForPCs": {
                 "hint": "启用后，基于 PC 速度的着色将会展示给所有人，即使并未对该角色有观察权限。",
                 "name": "向所有人展示 PC 的速度"
+            },
+            "autoStartMeasurement": {
+                "name": "自动测量",
+                "hint": "如果启用此选项，在你拖动棋子时标尺会自动显示，如果禁用，拖动棋子时将不会启用标尺，仅在按下显示路径按钮时显示。"
             }
         },
         "genericSpeedProvider": {
