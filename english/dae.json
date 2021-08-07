@@ -293,6 +293,8 @@
     "dae.lor": "Lore",
     "dae.pil": "Piloting",
     "dae.tec": "Technology",
-    "dae.powerForceLevel": "Force Power Level"
+    "dae.powerForceLevel": "Force Power Level",
+    "dae.DAETitleBar.Name": "DAE Title Bar",
+    "dae.DAETitleBar.Hint": "Display DAE effect editor button in Title Bar"
 }
 
