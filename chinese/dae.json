@@ -295,8 +295,8 @@
     "dae.forceDarkDC": "黑暗原力技术DC",
     "dae.forceUnivDC": "通用原力技术DC",
     "dae.techDC": "科技技术DC",
-    "dae.foverride": "原力反制",
-    "dae.toverride": "技术反制",
+    "dae.foverride": "原力覆盖",
+    "dae.toverride": "技术覆盖",
     "dae.lor": "学识",
     "dae.pil": "驾驶"
 }
