@@ -262,5 +262,11 @@
         "count": "每次堆叠增加计数 1"
     },
     "dae.1Spell": "1 次攻击: 在角色释放下个法术时结束",
-    "dae.isMoved": "移动: 在指示物移动时结束"
+    "dae.isMoved": "移动: 在指示物移动时结束",
+    "dae.fvalue": "原力值",
+    "dae.DAETitleBar.Name": "DAE 标题栏",
+    "dae.DAETitleBar.Hint": "在标题栏显示 DAE 效果编辑器的按钮",
+    "dae.fmax": "原力最大值",
+    "dae.tmax": "技术最大值",
+    "dae.tvalue": "技术值"
 }
