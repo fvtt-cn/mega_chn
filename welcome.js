@@ -8,9 +8,9 @@ const TRANSLATORS = [
     "hxqxh",
     "psedonatural",
     "白药君",
-    "长耳"
+    "水肺"
 ];
-const LIST_VERSION = 2;
+const LIST_VERSION = 3;
 
 Hooks.on("init", () => {
     game.settings.register(MODULE_NAME, WELCOMED_NAME, {
