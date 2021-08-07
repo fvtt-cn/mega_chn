@@ -303,5 +303,17 @@
     "AUTOANIM.targetEffect": "目标效果",
     "AUTOANIM.animPreview": "动画预览",
     "AUTOANIM.animPreviewHint": "在 A-A 选项卡预览视频",
-    "AUTOANIM.teleport": "你选择了范围外的一点。请重新选择"
+    "AUTOANIM.teleport": "你选择了范围外的一点。请重新选择",
+    "AUTOANIM.cloudOfDaggers": "匕首之云",
+    "AUTOANIM.occlusionMode": "遮盖模式",
+    "AUTOANIM.occlusion01": "渐隐（整个图块）",
+    "AUTOANIM.occlusion02": "屋顶（遮挡视线和光照）",
+    "AUTOANIM.occlusion00": "无（总是可见）",
+    "AUTOANIM.occlusionAlpha": "遮盖透明度",
+    "AUTOANIM.lightningbolt": "闪电箭",
+    "AUTOANIM.chakram": "环刃",
+    "AUTOANIM.bless": "祝福术",
+    "AUTOANIM.auraScale": "相对于指示物尺寸",
+    "AUTOANIM.removeTemplate": "放置后移除测量板？",
+    "AUTOANIM.occlusion03": "径向（环绕指示物）"
 }
