@@ -42,6 +42,7 @@
 - Levels
 - Torchlight
 - DF Chat Enhance
+- DnD5e Helpers
 
 ## 已翻译的系统列表
 - SWADE
