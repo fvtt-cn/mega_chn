@@ -31,5 +31,6 @@
     "SMLTME.Player_Vis_3": "使用默认设置",
     "SMLTME.Date_Format": "日期格式",
     "SMLTME.Calendar_Provider_Hint": "你的世界的日历信息的来源。",
-    "SMLTME.Calendar_Provider": "日历提供方"
+    "SMLTME.Calendar_Provider": "日历提供方",
+    "SMLTME.Position_Reset": "按住 Shift 点击以重置 SmallTime 窗口位置"
 }
