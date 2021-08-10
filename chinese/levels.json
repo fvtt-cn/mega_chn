@@ -81,5 +81,7 @@
     "levels.settings.hideElevation.opt1": "隐藏玩家",
     "levels.settings.hideElevation.opt2": "对所有人隐藏",
     "levels.firsttime.dialog": "层级.第一次启动时显示画面",
-    "levels.settings.hideElevation.name": "隐藏高度"
+    "levels.settings.hideElevation.name": "隐藏高度",
+    "levels.settings.revealTokenInFog.hint": "如果指示物可见，揭示其附近的战争迷雾",
+    "levels.settings.revealTokenInFog.name": "揭示在迷雾中的指示物"
 }
