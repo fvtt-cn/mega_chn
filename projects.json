@@ -145,10 +145,6 @@
         "src": "https://github.com/Xacus/demonlord/raw/master/src/lang/en.json"
     },
     {
-        "name": "wfrp4e",
-        "src": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/lang/en.json"
-    },
-    {
         "name": "d35e",
         "src": "https://raw.githubusercontent.com/Rughalt/D35E/master/lang/en.json"
     }
