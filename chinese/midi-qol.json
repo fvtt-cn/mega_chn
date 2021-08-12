@@ -160,7 +160,8 @@
         "details": "掷骰公式",
         "none": "关闭",
         "d20AttackOnly": "仅显示攻击骰的 D20",
-        "detailsDSN": "掷骰公式，显示 DSN 骰子"
+        "detailsDSN": "掷骰公式，显示 DSN 骰子",
+        "hitDamage": "显示命中/未命中和伤害总和"
     },
     "midi-qol.Hint": "配置 midi-qol 的各种工作流。当心，前方一大波设置来袭",
     "midi-qol.hits": "命中",
@@ -263,8 +264,8 @@
         "letme": "LMRTFY",
         "mtb": "Monk's Token Bar"
     },
-    "midi-qol.RollOtherDamage.Hint": "启用后，远程武器/近战武器攻击附加的豁免失败后还会掷其他公式，掷骰结果作为额外伤害。豁免成功则伤害减半，使用武器属性的noDamSave和fullDamSave来覆写",
-    "midi-qol.RollOtherDamage.Name": "对远程武器/近战武器攻击的豁免失败时掷其他公式",
+    "midi-qol.RollOtherDamage.Hint": "启用后，远程武器/近战武器攻击附加的豁免后还会掷其他公式，掷骰结果作为额外伤害。豁免成功则伤害减半，使用武器属性的 noDamSave 和 fullDamSave 来覆写",
+    "midi-qol.RollOtherDamage.Name": "对远程武器/近战武器攻击的豁免时掷其他公式",
     "midi-qol.Save": "保存设置",
     "midi-qol.save-failure": " 失败骰",
     "midi-qol.save-success": " 成功骰 ",
