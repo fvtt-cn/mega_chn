@@ -32,7 +32,7 @@
   "QUICKINSERT.IndexingSettingsTitle": "Quick Insert Indexing Settings",
   "QUICKINSERT.IndexingSettingsForcesReindex": "Updating these settings will force reindexing for all connected clients!",
   "QUICKINSERT.IndexingSettingsHiddenCompendiums": "Hidden compendiums will only show up for GMs, no matter what the table below says.",
-  "QUICKINSERT.IndexingSettingsDisabledCompendiumEntities": "Compendiums containing disabled entity types are automatically disabled, no matter what the compendium pack table says.",
+  "QUICKINSERT.IndexingSettingsDisabledCompendiumEntities": "Compendiums containing disabled document types are automatically disabled, no matter what the compendium pack table says.",
   "QUICKINSERT.FilterListTitle": "Customize Quick Insert filters",
   "QUICKINSERT.FilterListFilterScope": "Filter scope",
   "QUICKINSERT.FilterListFilterScopeWorld": "World (Available to all players in the world)",
@@ -58,7 +58,7 @@
   "QUICKINSERT.FilterEditorReactivateHere": "Click to reactivate here",
   "QUICKINSERT.FilterEditorCompendium": "Compendium",
   "QUICKINSERT.FilterEditorDirectory": "Directory",
-  "QUICKINSERT.FilterEditorEntityType": "Entity type",
+  "QUICKINSERT.FilterEditorEntityType": "Document type",
   "QUICKINSERT.SheetFiltersTitle": "Customize Quick Insert character sheet filters",
   "QUICKINSERT.SheetFiltersNote": "Select the filters to use when clicking Quick Insert links in character sheets."
 }
