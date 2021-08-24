@@ -136,7 +136,7 @@
     "midi-qol.removeButtonsOptions": {"off": "Off", "attack": "Attack Only", "damage": "Damage Only", "all": "Attack and Damage"},
     "midi-qol.damageImmunitiesOptions": {"none": "Never", "immunityDefault": "apply immunities", "immunityPhysical": "apply immunities + physical"},
     "midi-qol.showItemDetailsOptions": {"none": "None", "cardOnly": "Card Only", "pc": "Card + Details: PC Only", "all": "Card + Details: NPC + PC"},
-    "midi-qol.rollNPCSavesOptions": {"auto": "Auto",  "letme": "Let Me Roll That For You", "mtb": "Monks Token Bar"},
+    "midi-qol.rollNPCSavesOptions": {"none": "None", "auto": "Auto",  "letme": "Let Me Roll That For You", "mtb": "Monks Token Bar"},
     "midi-qol.playerRollSavesOptions": {"none": "None",  "letme": "Let Me Roll That For You", "letmeQuery": "LMRTFY + Query", "chat": "Chat Message", "mtb": "Monks Token Bar"},
     "midi-qol.playerRollSavesOptionsReduced": {"none": "None",  "letme": "Let Me Roll That For You", "chat": "Chat Message"},
     "midi-qol.AutoRemoveTargetsOptions": {"none": "Never", "dead": "untarget dead after roll", "allGM": "untarget dead and all GM", "all": "untarget all at end of turn"},
@@ -271,5 +271,5 @@
     "midi-qol.ExportCSV": "Export Roll Stats to CSV file",
     "midi-qol.criticalThreshold": "Critical",
     "midi-qol.AutoCEEffects.Name": "Apply Convenient Effects",
-    "midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used"
+    "midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used. Requires auto apply active effects enabled."
 }
