@@ -225,7 +225,7 @@
     "midi-qol.NearbyFoe.Name": "Ranged attacks when a foe is closer than this have disadvantage. 0 disables",
     "midi-qol.WallsBlockRange.Name": "Walls block ranged attacks",
     "midi-qol.WallsBlockRange.Hint": "Walls block ranged attacks (4 point checks require DND Helpers module)\n none = no effect, center = check center to center line, 4 point check blocked if no corner visible, 4 point check adjusts AC according to cover",
-    "midi-qol.WallsBlockRangeOptionsNew": {"none": "No", "center": "Center Check", "4point": "4 point check", "4pointAC": "4 point AC Check"},
+    "midi-qol.WallsBlockRangeOptionsNew": {"none": "No", "center": "Center Check", "dnd5eHelpers": "dnd5e helpers", "dnd5eHelpersAC": "dnd5e helpers + AC"},
     "midi-qol.NearbyAllyRanged.Name": "(House Rule) Ranged Attacks at foes near allies have disadvantage.",
     "midi-qol.WallsBlockRangeOptions": {"none": "No", "center": "Center Check"},
     "midi-qol.NearbyAllyRanged.Hint": "Ranged Attacks with allies nearby (5 feet) to the target have disadvantage for targets smaller than this (w*h). 0 disables",
@@ -271,5 +271,6 @@
     "midi-qol.ExportCSV": "Export Roll Stats to CSV file",
     "midi-qol.criticalThreshold": "Critical",
     "midi-qol.AutoCEEffects.Name": "Apply Convenient Effects",
-    "midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used. Requires auto apply active effects enabled."
+    "midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used. Requires auto apply active effects enabled.",
+    "midi-qol.BonusACCover": "AC Cover"
 }
