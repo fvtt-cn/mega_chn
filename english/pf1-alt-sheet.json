@@ -33,6 +33,11 @@
         "Level7": "7th",
         "Level8": "8th",
         "Level9": "9th",
+        "Chat": {
+            "AttackChatCard": "Alternative (from pf1-alt-sheet)",
+            "addAttackChatCardTemplateN": "Add alternative attack roll chat card",
+            "addAttackChatCardTemplateH": "Adds another alternative attack roll chat card for selection. You need to manually select it in the system settings."
+        },
         "Spells": {
             "CannotCast": "You cannot cast spells of this level because:",
             "CannotCastAbilityScore": "- your ability score is not high enough"
