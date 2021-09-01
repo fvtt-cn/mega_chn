@@ -262,7 +262,8 @@
     "midi-qol.rollNPCSavesOptions": {
         "auto": "自动",
         "letme": "LMRTFY",
-        "mtb": "Monk's Token Bar"
+        "mtb": "Monk's Token Bar",
+        "none": "无"
     },
     "midi-qol.RollOtherDamage.Hint": "启用后，远程武器/近战武器攻击附加的豁免后还会掷其他公式，掷骰结果作为额外伤害。豁免成功则伤害减半，使用武器属性的 noDamSave 和 fullDamSave 来覆写",
     "midi-qol.RollOtherDamage.Name": "对远程武器/近战武器攻击的豁免时掷其他公式",
