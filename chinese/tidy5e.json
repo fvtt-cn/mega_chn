@@ -18,6 +18,8 @@
         "name": "总是启用模组设置页。",
         "hint": "如果你需要经常访问模组设置，你可能会想要启用该选项，如此便不用点击切换至模组设置。"
     },
-    "TidyUI.toFile": "下载 JSON 文件",
-    "TidyUI.fromFile": "导入 JSON 文件"
+    "TidyUI.toFile": "下载 为JSON 文件",
+    "TidyUI.fromFile": "导入 JSON 文件",
+    "TidyUI.warning": "警告：",
+    "TidyUI.instruction": "为了重新导入你的模组列表，你必须下载JSON文件。以文本形式复制只适用于发布到 Discord 或类似的地方。如果你有旧的文本格式的保存，当你想恢复它时，它仍然会被识别。"
 }
