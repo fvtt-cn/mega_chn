@@ -47,7 +47,7 @@
     "QUICKINSERT.FilterEditorReactivateHere": "点击以在此重新激活",
     "QUICKINSERT.FilterEditorCompendium": "合集包",
     "QUICKINSERT.FilterEditorDirectory": "目录",
-    "QUICKINSERT.FilterEditorEntityType": "实体类型",
+    "QUICKINSERT.FilterEditorEntityType": "文档类型",
     "QUICKINSERT.SheetFiltersTitle": "自定义Quick Insert人物卡过滤器",
     "QUICKINSERT.SheetFiltersNote": "选择在人物卡中点击Quick Insert链接时使用的过滤器。",
     "QUICKINSERT.SettingsFiltersSheetsEnabledHint": "只对选中的系统/卡启用。在人物卡中加入Quick Insert搜索按钮，以及已选择的相关过滤器（在“人物卡过滤器”菜单中配置的）",
@@ -57,7 +57,7 @@
     "QUICKINSERT.SettingsIndexTimeoutHint": "尝试在该时间内为每个合集包建立索引，4次尝试后失败。如果一些合集包未出现在你的搜索结果中时，尝试增加此项。",
     "QUICKINSERT.SettingsSearchButtonHint": "在场景左侧的场景控制中添加一个搜索按钮",
     "QUICKINSERT.IndexingSettingsForcesReindex": "更新此设定项将会强制为所有已连接客户端重新建立索引！",
-    "QUICKINSERT.IndexingSettingsDisabledCompendiumEntities": "含有已禁用实体类型的合集包将被自动禁用，无视合集包表格所述。",
+    "QUICKINSERT.IndexingSettingsDisabledCompendiumEntities": "含有已禁用文档类型的合集包将被自动禁用，无视合集包表格所述。",
     "QUICKINSERT.FilterListOptionDisable": "禁用",
     "QUICKINSERT.FilterEditorFolderAny": "目录中任意位置",
     "QUICKINSERT.FilterEditorFilterIsDefault": "这是一个默认过滤器，你可以从表中禁用或复制它，但它无法被编辑。"
