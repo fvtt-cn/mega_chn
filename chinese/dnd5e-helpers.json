@@ -113,7 +113,7 @@
     "DND5EH.UndeadFort_quickdialogcontent": "<p>伤害来源是</p>",
     "DND5EH.UndeadFort_quickdialogprompt1": "光耀伤害/重击",
     "DND5EH.UndeadFort_quickdialogprompt2": "普通伤害",
-    "DND5EH.UndeadFort_insantdeathmessage": "目标直接死亡",
+    "DND5EH.UndeadFort_insantdeathmessage": "{tokenName} 直接死亡",
     "DND5EH.UndeadFort_surivalmessage": "{tokenName} 掷出 {total} 而存活下来",
     "DND5EH.UndeadFort_slowdialogcontentquery": "对目标伤害：",
     "DND5EH.LairHelper_name": "巢穴动作提示",
@@ -175,5 +175,12 @@
     "DND5EH.GreatWoundDialogSuccessMessage": "{actorName} 通过 {gwFeatureName} 豁免",
     "DND5EH.GreatWoundTableName_hint": "重伤发生时掷骰的表的名称。",
     "DND5EH.OpenWoundDeathSave_hint": "开放性伤口将会在死亡豁免失败的差数在 5 以上时触发",
-    "DND5EH.OpenWoundCrit_hint": "开放性伤口将在攻击掷骰时触发。如果攻击骰结果大于此值，将掷开放性伤口。留空以禁用此功能"
+    "DND5EH.OpenWoundCrit_hint": "开放性伤口将在攻击掷骰时触发。如果攻击骰结果大于此值，将掷开放性伤口。留空以禁用此功能",
+    "setting.ConfigOption.name": "配置设置",
+    "setting.ConfigOption.label": "打开助手设置",
+    "option.gridTemplateScaling.none": "无模板缩放",
+    "option.gridTemplateScaling.lineCone": "线和锥形体",
+    "option.gridTemplateScaling.circle": "圆形",
+    "setting.gridTemplateScaling.name": "将模板自动调整到5e网格",
+    "setting.gridTemplateScaling.hint": "线和圆锥将按照长度尺度缩放，圆形将变为等面积矩形，当模板需要长度测量时，将计算5e网格距离。"
 }
