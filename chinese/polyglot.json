@@ -77,6 +77,17 @@
         },
         "Generic": {
             "Language": "语言"
+        },
+        "source": {
+            "name": "来源类型",
+            "hint": "如果你的字体保存在 Forge 素材库里，选择 Forge。如果保存在 S3 存储桶里，选择 S3。",
+            "data": "数据文件夹",
+            "forgevtt": "Forge 素材库",
+            "s3": "S3 存储桶"
+        },
+        "directory": {
+            "name": "自定义字体目录",
+            "hint": "设置为除 \"modules\" 文件夹外的一个包含字体文件的文件夹。"
         }
     }
 }
