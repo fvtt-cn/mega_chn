@@ -26,7 +26,7 @@
         "none": "从不",
         "whisper": "命中确认 - 仅GM可见"
     },
-    "midi-qol.AutoCheckSaves.Hint": "施法时，自动确认豁免骰结果。禁用后会假设所有目标的豁免全部失败。",
+    "midi-qol.AutoCheckSaves.Hint": "自动确认豁免骰结果。禁用后会假设所有目标的豁免全部失败。",
     "midi-qol.AutoCheckSaves.Name": "自动确认豁免结果",
     "midi-qol.autoCheckSavesOptions": {
         "all": "豁免确认 - 所有人可见结果 + 豁免",
@@ -99,7 +99,7 @@
         "borders": "仅限边框",
         "none": "禁用"
     },
-    "midi-qol.ConcentrationAutomation.Hint": "启用后，midi-qol将会处理专注的管理，并将会禁用CUB的专注管理模块",
+    "midi-qol.ConcentrationAutomation.Hint": "启用后，midi-qol 将会处理专注的管理，需要打开自动确认豁免，并将会禁用 CUB 的专注管理模块",
     "midi-qol.ConcentrationAutomation.Name": "启用专注自动管理",
     "midi-qol.concentrationCheckName": "专注",
     "midi-qol.config": "Midi QoL 配置",
@@ -152,8 +152,8 @@
     "midi-qol.hidden": "隐匿",
     "midi-qol.HideNPCNames.Hint": "在命中、豁免的聊天消息里隐藏指示物的名称",
     "midi-qol.HideNPCNames.Name": "隐藏指示物名称",
-    "midi-qol.HideRollDetails.Hint": "选择GM掷骰对玩家隐藏多少。‘掷骰公式+DSN骰子’意味着玩家将看到随机的DSN骰子和结果所以无法算出怪物的加值。",
-    "midi-qol.HideRollDetails.Name": "隐藏掷骰详情",
+    "midi-qol.HideRollDetails.Hint": "选择 GM 掷骰对玩家隐藏/显示多少内容",
+    "midi-qol.HideRollDetails.Name": "隐藏 GM 掷骰详情",
     "midi-qol.hideRollDetailsOptions": {
         "all": "全部掷骰",
         "d20Only": "仅显示攻击骰的D20",
@@ -258,18 +258,18 @@
     "midi-qol.RequireTargets.Hint": "如果没有选择指示物作为目标，则只允许目标为自身或者AOE的掷骰（开启better-rolls后无效）",
     "midi-qol.RequireTargets.Name": "在掷骰前需要先选中目标",
     "midi-qol.rollNPCSaves.Hint": "自动时模组将会为 NPC 掷豁免，否则 GM 将会收到 LMRTFY 的提示。",
-    "midi-qol.rollNPCSaves.Name": "提示GM掷豁免骰",
+    "midi-qol.rollNPCSaves.Name": "提示 GM 掷豁免骰（未链接）",
     "midi-qol.rollNPCSavesOptions": {
         "auto": "自动",
         "letme": "LMRTFY",
         "mtb": "Monk's Token Bar",
-        "none": "无"
+        "none": "聊天消息"
     },
     "midi-qol.RollOtherDamage.Hint": "启用后，远程武器/近战武器攻击附加的豁免后还会掷其他公式，掷骰结果作为额外伤害。豁免成功则伤害减半，使用武器属性的 noDamSave 和 fullDamSave 来覆写",
     "midi-qol.RollOtherDamage.Name": "对远程武器/近战武器攻击的豁免时掷其他公式",
     "midi-qol.Save": "保存设置",
     "midi-qol.save-failure": " 失败骰",
-    "midi-qol.save-success": " 成功骰 ",
+    "midi-qol.save-success": " 成功骰",
     "midi-qol.Saves": "豁免",
     "midi-qol.saving-throw": "豁免",
     "midi-qol.saving-throws": "豁免",
@@ -382,19 +382,35 @@
     "midi-qol.DoReactions.Hint": "给被攻击的角色在决定掷骰前使用反应的选项",
     "midi-qol.ExportJSon": "导出掷骰统计到 Json 文件",
     "midi-qol.ExportCSV": "导出掷骰统计到 CSV 文件",
-    "midi-qol.WallsBlockRange.Hint": "令墙壁可以遮挡远程攻击（4 点检测需要 DND Helpers 模组）\n无 = 无效果，中心 = 检查中心对中心线，4 点检测边角是否不可见，4 点检测将根据遮蔽程度调整 AC",
+    "midi-qol.WallsBlockRange.Hint": "令墙壁可以遮挡远程攻击（4 点检测需要 DND Helpers 模组）\n无 = 无效果，中心 = 检查中心对中心线，中心 + 层级 = 检查中心但用层级模组来判断墙壁遮挡，4 点检测边角是否不可见，4 点检测将根据遮蔽程度调整 AC",
     "midi-qol.WallsBlockRange.Name": "墙壁遮挡远程攻击",
     "midi-qol.WallsBlockRangeOptionsNew": {
         "none": "无",
         "center": "中心检测",
         "4point": "4 点检测",
-        "4pointAC": "4 点 AC 检测"
+        "4pointAC": "4 点 AC 检测",
+        "centerLevels": "中心 + 层级",
+        "dnd5eHelpers": "dnd5e 小助手",
+        "dnd5eHelpersAC": "dnd5e 小助手 + AC"
     },
     "midi-qol.WallsBlockRangeOptions": {
         "none": "无",
-        "center": "中心检测"
+        "center": "中心检测",
+        "centerLevels": "中心 + 层级"
     },
     "midi-qol.criticalThreshold": "临界",
     "midi-qol.AutoCEEffects.Name": "应用便利效果",
-    "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果"
+    "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果。需要启用自动应用主动效果。",
+    "midi-qol.BonusACCover": "AC 掩蔽",
+    "midi-qol.NoChangelogs": "Midi-qol 支持并建议使用 ChangeLogs 模组来显示最新更新所引入的所有变化",
+    "midi-qol.HideRollDetails.HintLong": {
+        "detailsDSN": "掷骰公式但显示 DSN：隐藏掷骰公式但仍掷 DSN 骰",
+        "d20Only": "显示攻击 d20 + 伤害总值：仅显示攻击骰的 d20 骰以及伤害总计值",
+        "none": "关闭：不隐藏",
+        "hitDamage": "显示命中/未命中 + 伤害总值：显示命中/未命中以及伤害总计值",
+        "d20attackOnly": "仅显示攻击 D20：仅显示攻击骰的 d20",
+        "all": "全掷骰：对玩家隐藏所有掷骰细节",
+        "details": "掷骰公式：隐藏掷骰共识并且不显示 DSN 骰子"
+    },
+    "midi-qol.rollNPCLinkedSaves.Name": "提示 GM 掷豁免骰（链接）"
 }
