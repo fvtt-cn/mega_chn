@@ -112,7 +112,9 @@
         "EnableName": "聊天合并：启用聊天消息合并",
         "EnableHint": "将合并短时间内由同一名用户发送的消息。",
         "ShowHeaderHint": "启用后，每条合并消息都会显示消息页眉。",
-        "HoverHint": "在鼠标悬停于一条合并的聊天消息上时，显示一道边框阴影。"
+        "HoverHint": "在鼠标悬停于一条合并的聊天消息上时，显示一道边框阴影。",
+        "SplitSpeakerName": "按发言者分组",
+        "SplitSpeakerHint": "启用后，消息将按发言的角色分组；否则，按所有来自同一用户的消息分组。"
     },
     "DF_CHAT_SCROLL": {
         "EnableName": "启用聊天滚动改进",
@@ -123,5 +125,21 @@
         "EnableHint": "将显示滚动到底部的按钮，并且如果你要在聊天栏中向上滚动，此功能将会阻止新消息发送时自动滚动到底部。作为新消息发送的提醒，滚动到底部的按钮将会被高亮。"
     },
     "DF_CHAT_EDIT.Settings_IgnoreHtmlName": "聊天编辑：忽略含有 HTML 的消息",
-    "DF_CHAT_EDIT.Settings_IgnoreHtmlHint": "禁止编辑包含 HTML 代码的聊天消息。"
+    "DF_CHAT_EDIT.Settings_IgnoreHtmlHint": "禁止编辑包含 HTML 代码的聊天消息。",
+    "DF_CHAT_WHISPER_TRUNC": {
+        "SettingCharLimitName": "私信截断字符数限制",
+        "SettingCharLimitHint": "截断收件人名称前所能显示的最大字符数。",
+        "SettingEnabledName": "启用私信名列表截断",
+        "SettingEnabledHint": "将截断私信消息中较长的收信人名称列表。"
+    },
+    "DF_CHAT_ARCHIVE": {
+        "Settings": {
+            "ArchiveFolder_Name": "聊天归档保存文件夹",
+            "HideExport": "聊天归档：隐藏导出聊天记录按钮",
+            "ArchiveFolder_Hint": "聊天归档所存储于的文件夹"
+        }
+    },
+    "DF_CHAT_EDIT": {
+        "ContextOption": "编辑消息"
+    }
 }
