@@ -310,5 +310,15 @@
     "FSC.Configuration.NoteCategories.RemoveAll": "移除所有备注类别",
     "FSC.Configuration.Notes.NoteCategoriesHelp": "选择所有与此备注关联的不同的备注类别。",
     "FSC.Notes.Reminder": "提醒我！",
-    "FSC.Notes.ReminderHelp": "你会想起这件事的。"
+    "FSC.Notes.ReminderHelp": "你会想起这件事的。",
+    "FSC.Dawn": "黎明",
+    "FSC.Midday": "正午",
+    "FSC.Dusk": "黄昏",
+    "FSC.Configuration.Season.SunriseSunsetHelp": "此季度第一天日出和日落的时间。",
+    "FSC.Midnight": "午夜",
+    "FSC.Configuration.Season.StartingDate": "起始日期",
+    "FSC.Configuration.Season.StartingDateHelp": "每年的此季度开始的月和日。",
+    "FSC.Configuration.Season.SunriseSunset": "日出/日落时间",
+    "FSC.Configuration.Time.SecondsInCombatRound": "每战斗轮的秒数",
+    "FSC.Configuration.Time.SecondsInCombatRoundHelp": "一个战斗轮中所经过的秒数。仅适用于当前系统不在战斗轮中增加时间的情况！"
 }
