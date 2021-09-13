@@ -32,5 +32,7 @@
     "SMLTME.Date_Format": "日期格式",
     "SMLTME.Calendar_Provider_Hint": "你的世界的日历信息的来源。",
     "SMLTME.Calendar_Provider": "日历提供方",
-    "SMLTME.Position_Reset": "按住 Shift 点击以重置 SmallTime 窗口位置"
+    "SMLTME.Position_Reset": "按住 Shift 点击以重置 SmallTime 窗口位置",
+    "SMLTME.Sun_Sync": "同步日出/日落",
+    "SMLTME.Sun_Sync_Hint": "需要简单日历中的日出和日落时间。"
 }
