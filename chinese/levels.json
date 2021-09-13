@@ -83,5 +83,11 @@
     "levels.firsttime.dialog": "层级.第一次启动时显示画面",
     "levels.settings.hideElevation.name": "隐藏高度",
     "levels.settings.revealTokenInFog.hint": "如果指示物可见，揭示其附近的战争迷雾",
-    "levels.settings.revealTokenInFog.name": "揭示在迷雾中的指示物"
+    "levels.settings.revealTokenInFog.name": "揭示在迷雾中的指示物",
+    "levels.dialog.removeLevel.title": "移除层级",
+    "levels.dialog.removeLevel.content": "你确定你想要移除此层级吗？",
+    "levels.dialog.getFromScene.title": "从场景中获取层级",
+    "levels.ui.title": "层级 - 图层工具",
+    "levels.err.collision": "尝试的移动与至少一个天花板/地板发生碰撞",
+    "levels.dialog.getFromScene.content": "从当前场景中获取层级吗？此操作将会覆盖你当前的层级"
 }
