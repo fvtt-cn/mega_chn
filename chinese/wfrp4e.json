@@ -422,7 +422,6 @@
     "CHAT.DamageAppliedError": "无伤害数值。确认攻击者正在使用可以造成伤害的物品，例如一把武器。",
     "CHAT.DamageAppliedErrorTiring": "无法自动计算伤害（可能因为疲劳，或者武器/特性没有被正确地设置）",
     "CHAT.DamageApplied": "伤害已应用",
-    "CHAT.ApplyDamageBasic": "",
     "CHAT.DamageShield": "盾牌",
     "CHAT.MustChoose": "必须选择",
     "CHAT.ChooseFrom": "从以下选项中选择",
