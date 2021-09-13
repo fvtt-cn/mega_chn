@@ -36,5 +36,9 @@
     "FVTTEncounterStats.actiontypes.other": "其他",
     "FVTTEncounterStats.enable_aoe_damage_name": "启用 AOE 伤害跟踪",
     "FVTTEncounterStats.enable_aoe_damage_hint": "启用后，所有使用测量板的法术（AOE 效果）将使用命中区域内指示物所受到的伤害，而非掷的伤害骰结果。",
-    "FVTTEncounterStats.config.debug": "反馈 Bug"
+    "FVTTEncounterStats.config.debug": "反馈 Bug",
+    "FVTTEncounterStats.enable_monster_stats_hint": "选择此项来跟踪玩家或所有参战者。",
+    "FVTTEncounterStats.enable_monster_stats_name": "启用怪物/NPC 数据追踪",
+    "FVTTEncounterStats.template.most_damage_per_turn": "单回合最高伤害",
+    "FVTTEncounterStats.template.rounddmg": "轮次伤害"
 }
