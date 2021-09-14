@@ -148,7 +148,7 @@
     "midi-qol.ShowReactionAttackRoll.Name": "Show attack roll",
     "midi-qol.ShowReactionAttackRollOptions": {"none": "Attack Hits", "d20": "d20 roll only", "all": "Attack Roll Total"},
     "midi-qol.DoReactions.Name": "Check PLAYER reactions",
-    "midi-qol.DoReactions.Hint": "Give an attacked actor the option to use a reaciton before adjudicating the roll",
+    "midi-qol.DoReactions.Hint": "Give an attacked actor the option to use a reaction before adjudicating the roll",
     "midi-qol.GMDoReactions.Name": "Check NPC/GM reactions",
     "midi-qol.ReactionTimeout.Name": "Reaction check timeout",
     "midi-qol.ReactionTimeout.Hint": "How long to wait before assuming no reaction has been taken",
