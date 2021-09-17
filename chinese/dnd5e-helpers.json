@@ -194,5 +194,14 @@
     "setting.losOnTarget.hint": "全局启用/禁用此功能（包括图块掩蔽设置项）。",
     "option.losOnTarget.center": "中心点视线（Foundry 版本）",
     "option.losOnTarget.corner": "四角视线（DMG 第 251 页）",
-    "setting.losKeyBind.name": "掩蔽绑定按键"
+    "setting.losKeyBind.name": "掩蔽绑定按键",
+    "setting.removeCover.hint": "在参战者回合结束时移除任意掩蔽",
+    "option.coverApplication.auto": "自动",
+    "option.coverTint.red": "暗红色",
+    "option.coverTint.blue": "亮蓝色",
+    "option.coverTint.grey": "暗灰色",
+    "option.coverTint.rainbow": "彩虹色",
+    "setting.wmOptions.name": "自动检测狂野魔法",
+    "setting.removeCover.name": "在回合结束时移除掩蔽",
+    "setting.clearTargets.name": "在回合结束时移除目标"
 }
