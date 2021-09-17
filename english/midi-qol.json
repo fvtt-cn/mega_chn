@@ -272,7 +272,7 @@
     "midi-qol.ExportCSV": "Export Roll Stats to CSV file",
     "midi-qol.criticalThreshold": "Critical",
     "midi-qol.AutoCEEffects.Name": "Apply Convenient Effects",
-    "midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used. Requires auto apply active effects enabled.",
+    "midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used. Requires auto apply active effects enabled as well.",
     "midi-qol.BonusACCover": "AC Cover",
     "midi-qol.NoChangelogs": "Midi-qol supports and recommends the ChangeLogs module to show you any changes since you last updated"
 }
