@@ -234,6 +234,7 @@
     "midi-qol.NearbyAllyRanged.Hint": "Ranged Attacks with allies nearby (5 feet) to the target have disadvantage for targets smaller than this (w*h). 0 disables",
     "midi-qol.Incapacitated.Name": "Incapacitated actors can't make attacks",
     "midi-qol.RemoveHiddenInvis.Name": "Attacking removes hidden/invisible (requires Conditional Visibility or CUB)",
+    "midi-qol.CriticalSaves.Name": "Critical/Fumble always succeed/fail for saving throws",
     "midi-qol.MaxDRValue.Name": "(House rule) Enabling this means that only the most effective Damage Reduction will apply. Off means DR accumulates",
     "midi-qol.invisible": "Invisible",
     "midi-qol.hidden": "Hidden",
