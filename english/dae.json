@@ -247,8 +247,10 @@
     "dae.1Reaction": "1 Reaction: Expires after the attack that triggered the reaction is complete",
     "dae.1Hit": "1 Hit: Expires on the next {type} hit by the character",
     "dae.DamageDealt": "DamageDealt: Expires when the character deals damage",
-    "dae.turnStart": "Turn Start: Expires at the start of the character's next turn (in combat)",
-    "dae.turnEnd": "Turn End: Expires at the end of the character's next turn (in combat)",
+    "dae.turnStart": "Turn Start: Expires at the start of the targets's next turn (in combat)",
+    "dae.turnStartSource": "Turn Start: Expires at the start of the source actor's next turn (in combat)",
+    "dae.turnEnd": "Turn End: Expires at the end of the targets's next turn (in combat)",
+    "dae.turnEndSource": "Turn End: Expires at the end of the source actor's next turn (in combat)",
     "dae.startEveryTurn": "Start of each turn: Run effect macros at the start of the characters turn",
     "dae.endEveryTurn": "End of each turn: Run effect macros at the end of the characters turn",
     "dae.displayTraits.Name": "Include active effects in special traits display",
@@ -298,5 +300,5 @@
     "dae.powerForceLevel": "Force Power Level",
     "dae.DAETitleBar.Name": "DAE Title Bar",
     "dae.DAETitleBar.Hint": "Display DAE effect editor button in Title Bar",
-    "dae.statusEffect": "Status Effect"
+    "dae.StatusEffect": "Status Effect"
 }
