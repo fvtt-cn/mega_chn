@@ -42,6 +42,7 @@ SWADE.Derived: Derived Stats
 SWADE.AttrAgi: Agility
 SWADE.AttrSma: Smarts
 SWADE.AnimalSmarts: Animal Smarts
+SWADE.AnimalSmartsMarker: A
 SWADE.AttrSpr: Spirit
 SWADE.AttrStr: Strength
 SWADE.AttrVig: Vigor
@@ -199,7 +200,7 @@ SWADE.Init: Initiative
 SWADE.DrawInit: Draw Initiative
 SWADE.ActionDeckReset: Reset Action Deck Table
 SWADE.ActionDeckResetNotification: Action Deck reset
-SWADE.InitDraw: draws for Initiative!
+SWADE.InitDraw: drew the...
 SWADE.JokersWild: Joker's Wild
 SWADE.General: General
 SWADE.Addi: Additional
@@ -347,7 +348,6 @@ SWADE.NoPowerPoints: No Power Points
 SWADE.NoPowerPointsDesc: When enabled this option hides all Power Point interactions
 SWADE.WealthType: Wealth Type
 SWADE.WealthDie: Wealth
-SWADE.NoneOther: None / Other
 SWADE.WealthTypeDesc: Choose how to track character wealth and currency
 SWADE.CurrencyName: Currency Name
 SWADE.CurrencyNameDesc: Name your currency
@@ -379,5 +379,33 @@ SWADE.CardValue: Value
 SWADE.CardSuit: Suit
 SWADE.IsJoker: Is Joker
 SWADE.OpenACEditor: Open in Action Card Editor
-SWADE.Yes: Yes
-SWADE.No: No
+SWADE.Yes: 'Yes'
+SWADE.No: 'No'
+SWADE.ShowCharacterSummary: Show Character Summary
+SWADE.CharacterSummary: Character Summary
+SWADE.CopyHtml: Copy HTML
+SWADE.CopyMarkdown: Copy Markdown
+SWADE.InitCardDeck: Card Deck to use for Initiative
+SWADE.Imperial: Imperial
+SWADE.Metric: Metric
+SWADE.WeightUnitLabel: Unit of weight
+SWADE.WeightUnitDesc: >-
+  Sets whether weights are measured in pounds or kilogramms. Changing this will
+  NOT change the weights on items, only how the encumbrance is calculated
+SWADE.UseAttributeShorts: Use shortened attribute names
+SWADE.UseAttributeShortsDesc: >-
+  Activate this option if you want to see abbreviated attribute names on the pc
+  and npc sheets, i.e. Agi instead of Agility, Sma instead of Smarts, etc.
+  You'll need to close and reopen all open sheets for this option to take
+  effect.
+SWADE.BennyImageSheet: Benny
+SWADE.BennyImageSheetDesc: Select which image to use for Bennies on the Character Sheet
+SWADE.Benny3DFront: Front Texture
+SWADE.Benny3DFrontDesc: Front exture of the 3D Benny
+SWADE.Benny3DBack: Back Texture
+SWADE.Benny3DBackDesc: Back texture of the 3D Benny
+SWADE.ChangeBennyWarning: Changing these settings will require you to refresh the page!
+SWADE.3DBennies: 3D Bennies
+SWADE.HardChoices: Hard Choices
+SWADE.HardChoicesDesc: Checking this will enable the Hard Choices rule
+SWADE.WealthSelectionNoneOther: None/Other
