@@ -257,7 +257,7 @@
     "midi-qol.PlayerStatsOnly.Hint": "Only keep statistics for player owned actors",
     "midi-qol.ShowStats": "Show Statistics Window",
     "midi-qol.DefaultSaveMult.Name": "Default saving throw multiplier",
-    "midi-qol.DefaultSaveMult.Hint": "If there are no other modifiers a saving throw will do this fraction of the damage of the origianl attack. Default 0.5, half damage on save. You should only change this if you know how multipliers work",
+    "midi-qol.DefaultSaveMult.Hint": "If there are no other modifiers a saving throw will do this fraction of the damage of the original attack. Default 0.5, half damage on save. You should only change this if you know how multipliers work",
     "midi-qol.RequireMagical.Name": "Require 'Magical' property",
     "midi-qol.RequireMagical.Hint": "If enabled, only weapons with 'Magical' property set do magical damage",
     "midi-qol.RemoveConcentration.Name": "Remove concentration on failed save",
