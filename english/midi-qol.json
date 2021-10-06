@@ -16,7 +16,7 @@
     "midi-qol.AutoCheckHit.Name": "Auto check if attack hits target",
     "midi-qol.AutoCheckHit.Hint": "Check if an attack roll hits selected targets - damage is rolled if one or more targets is hit and auto roll damage is enabled. If disabled midi-qol will assume the attack hits and continue rolling.",
     "midi-qol.RequiresTargets.Name": "Require targets to be selected",
-    "midi-qol.RequiresTargets.Hint": "Require tokens to be targeted before rolls. Never mans ignore, In Combat means only in combat and always whenver an item with targets is rolled. Does not work with better rolls",
+    "midi-qol.RequiresTargets.Hint": "Require tokens to be targeted before rolls. Never means never require targets to be set, In Combat means only in combat and always whenver an item with targets is rolled. Does not work with better rolls",
     "midi-qol.requiresTargetsOptions": {"none": "Never", "combat": "In Combat", "always": "Always"},
     "midi-qol.AutoApplyDamage.Name": "Auto apply damage to target",
     "midi-qol.AutoApplyDamage.Hint": "Auto apply damage to hit targets (if autocheck hits on) or targets user has selected",
