@@ -542,5 +542,10 @@
     "CHAT.ScatterYou": "以你为中心",
     "CHAT.ScatterThem": "以对方为中心",
     "CHAT.ScatterNote": "注意：距离不可大于你与目标之间距离的一半",
-    "Specification": "特化"
+    "Specification": "特化",
+    "ErrorNoAmmo": "弹药耗尽！",
+    "ErrorNotLoaded": "未装填 - 装填中",
+    "ErrorDamagePermission": "你没有对该角色应用伤害的权限。",
+    "DIALOG.PostQuantity": "剩余数量",
+    "ErrorLimitedWeapons": "你无法装备更多武器。"
 }
