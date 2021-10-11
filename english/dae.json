@@ -300,5 +300,7 @@
     "dae.powerForceLevel": "Force Power Level",
     "dae.DAETitleBar.Name": "DAE Title Bar",
     "dae.DAETitleBar.Hint": "Display DAE effect editor button in Title Bar",
-    "dae.StatusEffect": "Status Effect"
+    "dae.StatusEffect": "Status Effect",
+    "dae.ShowDeprecation.Name": "Show Deprecation Errors",
+    "dae.ShowDeprecation.Hint": "Show Deprecation Errors in console"
 }
