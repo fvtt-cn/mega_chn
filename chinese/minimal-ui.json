@@ -70,5 +70,9 @@
     "MinimalUI.ColorPicker": "取色器",
     "MinimalUI.LogoBehaviourToggleNoChat": "Logo开关隐藏除聊天框之外的所有UI",
     "MinimalUI.LogoImageHint": "图像大小需为100x50像素。",
-    "MinimalUI.HidePlayerCameraHint": "玩家摄像头/音频是否仅对GM可见"
+    "MinimalUI.HidePlayerCameraHint": "玩家摄像头/音频是否仅对GM可见",
+    "MinimalUI.PlayersShowPingName": "使用MInimal UI行为的Ping记录器",
+    "MinimalUI.PlayersShowPingHint": "无视自动隐藏玩家列表显示Ping",
+    "MinimalUI.PlayersShowPing": "显示",
+    "MinimalUI.PlayersHidePing": "隐藏"
 }
