@@ -89,5 +89,6 @@
     "levels.dialog.getFromScene.title": "从场景中获取层级",
     "levels.ui.title": "层级 - 图层工具",
     "levels.err.collision": "尝试的移动与至少一个天花板/地板发生碰撞",
-    "levels.dialog.getFromScene.content": "从当前场景中获取层级吗？此操作将会覆盖你当前的层级"
+    "levels.dialog.getFromScene.content": "从当前场景中获取层级吗？此操作将会覆盖你当前的层级",
+    "levels.controls.suppressBrmode.name": "抑制Better Roofs模式应用"
 }
