@@ -101,7 +101,7 @@
     "midi-qol.ConfigTitle": "Midi-Qol Configuration",
     "midi-qol.WorkflowSettings": "Workflow Settings",
     "midi-qol.CheckSaveText.Name": "Search spell description",
-    "midi-qol.CheckSaveText.Hint": "Search spell description for save type - 'half as much damage'. If unchecked assume a save does 1/2 damage",
+    "midi-qol.CheckSaveText.Hint": "Search spell description for save type - 'half as much damage' and if present spell does 1/2 damage on save. If unchecked assume a save does default save modifier damage",
     "midi-qol.Save": "Save Settings",
     "midi-qol.saving-throws": "Saving Throws",
     "midi-qol.saving-throw": "Saving Throw",
@@ -279,6 +279,8 @@
     "midi-qol.BonusACCover": "AC Cover",
     "midi-qol.NoChangelogs": "Midi-qol supports and recommends the ChangeLogs module to show you any changes since you last updated",
     "midi-qol.UseMidiCrit.Name": "Use midi-qol weapon critical threshhold",
-    "midi-qol.UseMidiCrit.Hint": "Enable/Disable Midi-qol critical hit threshold field on item sheet"
-
+    "midi-qol.UseMidiCrit.Hint": "Enable/Disable Midi-qol critical hit threshold field on item sheet",
+    "midi-qol.ActiveDefenceString": "Active Defence",
+    "midi-qol.ActiveDefence.Name": "Active Defence",
+    "midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit' rolls players make a defence roll. Requires LMRTFY and does not work with better rolls"
 }
