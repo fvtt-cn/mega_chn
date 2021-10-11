@@ -478,7 +478,6 @@
     "SETTINGS.MooConditionTriggers": "状态触发器",
     "SETTINGS.MooConditionTriggersHint": "在角色回合结束时激活状态，而不是在轮结束时。",
     "SETTINGS.MooCritModifiers": "暴击表调整值",
-    "SETTINGS.MooCritMOdifiersHint": "",
     "SETTINGS.MooSLDamageHint": "对抗伤害计算只基于攻击方的SL，而不是攻击方与防御方的差值",
     "SETTINGS.MooRangedDamage": "远程伤害调整",
     "SETTINGS.MooRangedDamageHint": "远程武器的伤害现在要减去检定中任何调整值的十位数。+20 = -2 伤害，-30 = + 3 伤害",
