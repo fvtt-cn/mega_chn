@@ -337,7 +337,6 @@
     "FSC.DateFormat.Year.ShortExample": "90 91 ... 19 20",
     "FSC.DateFormat.Year.Name": "年份名称，如年份名称设定中确定的那样。",
     "FSC.DateFormat.Year.Prefix": "在年份前缀设定中确定的年份前缀。",
-    "FSC.DateFormat.Year.PrefixExample": "",
     "FSC.DateFormat.Year.Postfix": "年份后缀设定中确定的年份后缀。",
     "FSC.DateFormat.Month.Number": "月份数字。",
     "FSC.DateFormat.Month.NumberPadded": "带0的月份数字。",
