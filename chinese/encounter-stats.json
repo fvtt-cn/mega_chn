@@ -40,5 +40,12 @@
     "FVTTEncounterStats.enable_monster_stats_hint": "选择此项来跟踪玩家或所有参战者。",
     "FVTTEncounterStats.enable_monster_stats_name": "启用怪物/NPC 数据追踪",
     "FVTTEncounterStats.template.most_damage_per_turn": "单回合最高伤害",
-    "FVTTEncounterStats.template.rounddmg": "轮次伤害"
+    "FVTTEncounterStats.template.rounddmg": "轮次伤害",
+    "FVTTEncounterStats.opt_notification_created_name": "在日志条目创建时显示通知",
+    "FVTTEncounterStats.template.kills": "击杀",
+    "FVTTEncounterStats.template.most_kills": "最多击杀",
+    "FVTTEncounterStats.template.most_healing": "最多治疗动作",
+    "FVTTEncounterStats.template.most_support_actions": "最多支援动作",
+    "FVTTEncounterStats.template.dmg": "伤害",
+    "FVTTEncounterStats.template.battlefield_actions": "最多控场动作"
 }
