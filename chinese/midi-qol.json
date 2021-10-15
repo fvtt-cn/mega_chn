@@ -83,7 +83,7 @@
     "midi-qol.buttons.versatileAttack": "多用 攻击",
     "midi-qol.buttons.versatileDamage": "多用 伤害",
     "midi-qol.CheckRange.Name": "在攻击时检查武器射程",
-    "midi-qol.CheckSaveText.Hint": "检索法术描述的内容以进行豁免后的伤害判断 - 'half as much damage'。关闭后会假设所有法术豁免成功时都造成一半的伤害",
+    "midi-qol.CheckSaveText.Hint": "检索法术描述的内容以进行豁免后的伤害判断 - 'half as much damage'，如果出现则法术在豁免成功时造成一半伤害。关闭后会假设所有法术豁免成功时都造成默认倍数的伤害",
     "midi-qol.CheckSaveText.Name": "检索法术描述",
     "midi-qol.clickOptions": {
         "all": "攻击和伤害骰",
@@ -263,10 +263,11 @@
         "auto": "自动",
         "letme": "LMRTFY",
         "mtb": "Monk's Token Bar",
-        "none": "聊天消息"
+        "none": "聊天消息",
+        "letmeQuery": "LMRTFY + 查询"
     },
-    "midi-qol.RollOtherDamage.Hint": "启用后，远程武器/近战武器攻击附加的豁免后还会掷其他公式，掷骰结果作为额外伤害。豁免成功则伤害减半，使用武器属性的 noDamSave 和 fullDamSave 来覆写",
-    "midi-qol.RollOtherDamage.Name": "对远程武器/近战武器攻击的豁免时掷其他公式",
+    "midi-qol.RollOtherDamage.Hint": "关闭 = 不自动掷其他伤害骰。出现豁免= 仅在物品需豁免时掷其他伤害。激活 = 在激活条件为空或者为真时掷其他伤害",
+    "midi-qol.RollOtherDamage.Name": "远程武器/近战武器攻击时掷其他公式",
     "midi-qol.Save": "保存设置",
     "midi-qol.save-failure": " 失败骰",
     "midi-qol.save-success": " 成功骰",
@@ -345,7 +346,7 @@
         "wallsBlockIgnoreDefeated": "墙壁遮挡 - 忽略战败"
     },
     "midi-qol.RequiresTargets.Name": "目标需要被选中",
-    "midi-qol.RequiresTargets.Hint": "在掷骰前要求指示物必须标中。‘禁用’将忽略此项，‘战斗中’仅在战斗中要求，‘始终’将在任何需要目标的物品掷骰时检查。无法与 Better Rolls 共用",
+    "midi-qol.RequiresTargets.Hint": "在掷骰前要求指示物必须标中。‘禁用’表示从不要求选中目标，‘战斗中’仅在战斗中要求，‘始终’将在任何需要目标的物品掷骰时检查。无法与 Better Rolls 共用",
     "midi-qol.requiresTargetsOptions": {
         "none": "禁用",
         "combat": "战斗中",
@@ -400,7 +401,7 @@
     },
     "midi-qol.criticalThreshold": "临界",
     "midi-qol.AutoCEEffects.Name": "应用便利效果",
-    "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果。需要启用自动应用主动效果。",
+    "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果。需要同时启用自动应用主动效果。",
     "midi-qol.BonusACCover": "AC 掩蔽",
     "midi-qol.NoChangelogs": "Midi-qol 支持并建议使用 ChangeLogs 模组来显示最新更新所引入的所有变化",
     "midi-qol.HideRollDetails.HintLong": {
@@ -412,5 +413,17 @@
         "all": "全掷骰：对玩家隐藏所有掷骰细节",
         "details": "掷骰公式：隐藏掷骰共识并且不显示 DSN 骰子"
     },
-    "midi-qol.rollNPCLinkedSaves.Name": "提示 GM 掷豁免骰（链接）"
+    "midi-qol.rollNPCLinkedSaves.Name": "提示 GM 掷豁免骰（链接）",
+    "midi-qol.ActiveDefenceString": "主动防御",
+    "midi-qol.ActiveDefence.Name": "主动防御",
+    "midi-qol.ActiveDefence.Hint": "与 GM 掷‘命中’骰相反，玩家掷防御骰。需要使用 LMRTFY 并关闭 betterRolls 以正常工作",
+    "midi-qol.UseMidiCrit.Name": "使用 midi-qol 的武器重击阈值",
+    "midi-qol.UseMidiCrit.Hint": "启用/禁用 Midi-qol 在物品卡上的重击阈值设置",
+    "midi-qol.RollOtherDamageOptions": {
+        "none": "关闭",
+        "activation": "激活条件",
+        "ifSave": "出现豁免"
+    },
+    "midi-qol.otherCritProp": "重击其他掷骰",
+    "midi-qol.CriticalSaves.Name": "大成功/大失败总是令豁免掷骰成功/失败"
 }
