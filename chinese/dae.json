@@ -128,8 +128,8 @@
     "dae.displayTraits.Name": "在特殊特性显示中包含主动效果",
     "dae.endEveryTurn": "每回合结束时：在角色每回合结束时执行效果宏",
     "dae.startEveryTurn": "每回合开始时：在角色每回合开始时执行效果宏",
-    "dae.turnEnd": "回合结束：角色（战斗中）下个回合结束时结束",
-    "dae.turnStart": "回合开始：角色（战斗中）下个回合开始时结束",
+    "dae.turnEnd": "回合结束：目标（战斗中）下个回合结束时结束",
+    "dae.turnStart": "回合开始：目标（战斗中）下个回合开始时结束",
     "dae.1Hit": "1 次命中：角色下次命中时结束",
     "dae.1Attack": "1 次攻击：角色下次 {type} 时结束",
     "dae.1Action": "1 个动作：角色执行下个动作（物品掷骰）时结束",
@@ -300,5 +300,12 @@
     "dae.lor": "学识",
     "dae.pil": "驾驶",
     "dae.Critical_Hit Threshold": "重击阈值",
-    "dae.isHit": "被命中：角色被任何武器/法术攻击命中时结束，即使武器/法术并未造成伤害"
+    "dae.isHit": "被命中：角色被任何武器/法术攻击命中时结束，即使武器/法术并未造成伤害",
+    "dae.HandleEquip.Hint": "启用后，DAE 将会在装备/卸载时处理启用/禁用主动效果，并在切换主动效果时将会切换装备/未装备",
+    "dae.StatusEffect": "状态效果",
+    "dae.ShowDeprecation.Name": "显示已弃用错误",
+    "dae.ShowDeprecation.Hint": "在控制台显示已弃用的错误",
+    "dae.HandleEquip.Name": "处理装备/卸载的物品主动效果",
+    "dae.turnStartSource": "回合开始：来源角色（战斗中）的下个回合开始时结束",
+    "dae.turnEndSource": "回合开始：来源角色（战斗中）的下个回合结束时结束"
 }
