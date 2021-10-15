@@ -8,10 +8,9 @@ const TRANSLATORS = [
     "hxqxh",
     "psedonatural",
     "白药君",
-    "水肺",
-    "Kingfeng"
+    "Many more from ❤FVTT-CN❤",
 ];
-const LIST_VERSION = 4;
+const LIST_VERSION = 5;
 
 Hooks.on("init", () => {
     game.settings.register(MODULE_NAME, WELCOMED_NAME, {
@@ -39,7 +38,7 @@ Hooks.on("ready", () => {
 
         let list = "";
         for (let tr of TRANSLATORS) {
-            list += `<li>${tr}</li>`;
+            list += `<li><b>${tr}</b></li>`;
         }
 
         let content = `
