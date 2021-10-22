@@ -43,6 +43,8 @@
 - Torchlight
 - DF Chat Enhance
 - DnD5e Helpers
+- Theatre
+- Dice So Nice!
 
 ## 已翻译的系统列表
 - SWADE
