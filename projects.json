@@ -136,6 +136,10 @@
         "src": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/lang/en.json"
     },
     {
+        "name": "league-theatre",
+        "src": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-theatre/master/app/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
