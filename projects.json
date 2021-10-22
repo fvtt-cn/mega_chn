@@ -140,6 +140,18 @@
         "src": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-theatre/master/app/lang/en.json"
     },
     {
+        "name": "monks-tokenbar",
+        "src": "https://raw.githubusercontent.com/ironmonk88/monks-tokenbar/main/lang/en.json"
+    },
+    {
+        "name": "monks-common-display",
+        "src": "https://raw.githubusercontent.com/ironmonk88/monks-common-display/main/lang/en.json"
+    },
+    {
+        "name": "monks-little-details",
+        "src": "https://raw.githubusercontent.com/ironmonk88/monks-little-details/main/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
