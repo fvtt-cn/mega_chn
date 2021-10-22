@@ -172,5 +172,13 @@
     "DICESONICE.ThrowingForceWeak": "弱",
     "DICESONICE.WelcomeMessage2": "点击此按钮可设置（或禁用）你的3D骰子：",
     "DICESONICE.WelcomeMessage3": "你可以随时在此位置修改设置： '配置设定 > MOD设置 > Dice So Nice!'",
-    "DICESONICE.WelcomeMessage4": "此消息不再显示。愿骰神保佑你！"
+    "DICESONICE.WelcomeMessage4": "此消息不再显示。愿骰神保佑你！",
+    "DICESONICE.settingsBackup": "备份&恢复",
+    "DICESONICE.showExtraDice": "开启额外的骰子自定义选项",
+    "DICESONICE.Cancel": "取消",
+    "DICESONICE.SaveAs": "保存为...",
+    "DICESONICE.Load": "加载...",
+    "DICESONICE.Import": "导入...",
+    "DICESONICE.Export": "全部导出",
+    "DICESONICE.ExportSFX": "导出特效"
 }
