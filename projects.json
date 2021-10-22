@@ -132,6 +132,10 @@
         "src": "https://raw.githubusercontent.com/trioderegion/dnd5e-helpers/master/lang/en.json"
     },
     {
+        "name": "dice-so-nice",
+        "src": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
