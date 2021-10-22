@@ -123,5 +123,22 @@
     "MonksTokenBar.AssignByCR": "按 CR 分配金币",
     "MonksTokenBar.ConvertToLootable": "转换为战利品",
     "MonksTokenBar.Gold": "金币",
-    "MonksTokenBar.allow-player.hint": "允许玩家使用工具栏，但限制只能用自己拥有的角色。"
+    "MonksTokenBar.allow-player.hint": "允许玩家使用工具栏，但限制只能用自己拥有的角色。",
+    "MonksTokenBar.DisablePanning": "禁用平移",
+    "MonksTokenBar.HideNPCName": "隐藏NPC名称",
+    "MonksTokenBar.Inspiration": "激励",
+    "MonksTokenBar.Attribute": "属性",
+    "MonksTokenBar.SelectFailed": "选中失败的角色",
+    "MonksTokenBar.SelectSaved": "选中保存的角色",
+    "MonksTokenBar.SelectAll": "选择所有角色",
+    "MonksTokenBar.UnknownError": "出现未知错误",
+    "MonksTokenBar.UnknownSystem": "你使用的系统不支持Monk's Tokenbar。",
+    "MonksTokenBar.show-disable-panning-option.name": "显示禁用平移选项",
+    "MonksTokenBar.send-levelup-whisper.name": "升级时私聊玩家",
+    "MonksTokenBar.send-levelup-whisper.hint": "角色升级时私聊玩家",
+    "MonksTokenBar.show-inspiration.name": "显示激励",
+    "MonksTokenBar.show-inspiration.hint": "如果指示物拥有激励，再指示物上显示一个图标",
+    "MonksTokenBar.allow-after-movement.name": "允许回合结束后移动",
+    "MonksTokenBar.show-vertical.hint": "",
+    "MonksTokenBar.Levelup": "你有了足够升级的经验值！"
 }
