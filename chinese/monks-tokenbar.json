@@ -139,6 +139,5 @@
     "MonksTokenBar.show-inspiration.name": "显示激励",
     "MonksTokenBar.show-inspiration.hint": "如果指示物拥有激励，再指示物上显示一个图标",
     "MonksTokenBar.allow-after-movement.name": "允许回合结束后移动",
-    "MonksTokenBar.show-vertical.hint": "",
     "MonksTokenBar.Levelup": "你有了足够升级的经验值！"
 }
