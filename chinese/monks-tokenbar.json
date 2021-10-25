@@ -125,7 +125,7 @@
     "MonksTokenBar.Gold": "金币",
     "MonksTokenBar.allow-player.hint": "允许玩家使用工具栏，但限制只能用自己拥有的角色。",
     "MonksTokenBar.DisablePanning": "禁用平移",
-    "MonksTokenBar.HideNPCName": "隐藏NPC名称",
+    "MonksTokenBar.HideNPCName": "隐藏 NPC 名称",
     "MonksTokenBar.Inspiration": "激励",
     "MonksTokenBar.Attribute": "属性",
     "MonksTokenBar.SelectFailed": "选中失败的角色",
@@ -139,5 +139,17 @@
     "MonksTokenBar.show-inspiration.name": "显示激励",
     "MonksTokenBar.show-inspiration.hint": "如果指示物拥有激励，再指示物上显示一个图标",
     "MonksTokenBar.allow-after-movement.name": "允许回合结束后移动",
-    "MonksTokenBar.Levelup": "你有了足够升级的经验值！"
+    "MonksTokenBar.Levelup": "你有了足够升级的经验值！",
+    "MonksTokenBar.Characteristics": "特征",
+    "MonksTokenBar.ActorNotCombatant": "角色未参与战斗以掷先攻",
+    "MonksTokenBar.show-disable-panning-option.hint": "在指示物上下文菜单中显示一个禁用拖拽的选项",
+    "MonksTokenBar.allow-after-movement.hint": "允许玩家在回合结束后移动指示物以‘清理’战场",
+    "MonksTokenBar.show-on-tracker.name": "在追踪器中显示",
+    "MonksTokenBar.show-on-tracker.hint": "在战斗追踪器中显示移动按钮",
+    "MonksTokenBar.gold-formula.name": "掉金公式",
+    "MonksTokenBar.gold-formula.hint": "计算杀死敌人掉落金钱的公式",
+    "MonksTokenBar.show-vertical.name": "纵向显示",
+    "MonksTokenBar.show-vertical.hint": "Tokenbar 纵向显示",
+    "MonksTokenBar.capture-savingthrows.name": "捕获豁免骰",
+    "MonksTokenBar.capture-savingthrows.hint": "在请求物品豁免骰时创建一个豁免骰的聊天卡"
 }
