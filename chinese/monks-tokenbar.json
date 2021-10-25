@@ -149,7 +149,7 @@
     "MonksTokenBar.gold-formula.name": "掉金公式",
     "MonksTokenBar.gold-formula.hint": "计算杀死敌人掉落金钱的公式",
     "MonksTokenBar.show-vertical.name": "纵向显示",
-    "MonksTokenBar.show-vertical.hint": "Tokenbar 纵向显示",
+    "MonksTokenBar.show-vertical.hint": "纵向显示指示物栏",
     "MonksTokenBar.capture-savingthrows.name": "捕获豁免骰",
     "MonksTokenBar.capture-savingthrows.hint": "在请求物品豁免骰时创建一个豁免骰的聊天卡"
 }
