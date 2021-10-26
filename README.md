@@ -45,6 +45,9 @@
 - DnD5e Helpers
 - Theatre
 - Dice So Nice!
+- Monk's Little Details
+- Monk's Token Bar
+- Monk's Common Display
 
 ## 已翻译的系统列表
 - SWADE
