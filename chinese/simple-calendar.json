@@ -346,5 +346,6 @@
     "FSC.DateFormat.Day.Number": "日数字。",
     "FSC.DateFormat.Day.NumberPadded": "带0的日数字。",
     "FSC.DateFormat.Day.NumberSuffix": "带尾缀的日数字。",
-    "FSC.DateFormat.Weekday.Number": "周中该日的数字。"
+    "FSC.DateFormat.Weekday.Number": "周中该日的数字。",
+    "FSC.DateFormat.Year.PrefixExample": "前缀"
 }
