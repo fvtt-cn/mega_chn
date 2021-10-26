@@ -682,5 +682,6 @@
     "DL.SettingTemplateAutoRemove": "在动作结束后自动移除测量板",
     "DL.SettingTemplateAutoRemoveHint": "自动移除场景中的治疗或伤害测量板。",
     "DL.SettingtargetingOnSelectHint": "在聊天栏动作中用选中指示物来替代标记目标。",
-    "DL.SettingtargetingOnSelect": "用选中指示物来替代标记目标"
+    "DL.SettingtargetingOnSelect": "用选中指示物来替代标记目标",
+    "DL.ItemMaxUsesReached": "已达到物品的最大使用次数"
 }
