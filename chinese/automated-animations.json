@@ -435,7 +435,7 @@
     "AUTOANIM.tint": "色调",
     "AUTOANIM.melee": "近战",
     "AUTOANIM.ranged": "远程",
-    "AUTOANIM.onToken": "在指示物上",
+    "AUTOANIM.onToken": "指示物上",
     "AUTOANIM.presets": "预设",
     "AUTOANIM.submit": "提交",
     "AUTOANIM.import": "导入设置",
