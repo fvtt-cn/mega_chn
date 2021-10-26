@@ -1,6 +1,6 @@
 {
     "WFRP4E.system.title": "战锤奇幻角色扮演第4版",
-    "ACTOR.TypeCharacter": "非玩家角色",
+    "ACTOR.TypeCharacter": "玩家角色",
     "ACTOR.TypeNpc": "非玩家角色",
     "ACTOR.TypeCreature": "生物",
     "ACTOR.TypeVehicle": "载具",
