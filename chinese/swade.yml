@@ -176,7 +176,7 @@ ITEM.TypeArmor: 盔甲
 ITEM.TypeWeapon: 武器
 ACTOR.TypeVehicle: 载具
 ACTOR.TypeNpc: NPC
-ACTOR.TypeCharacter: 非玩家角色
+ACTOR.TypeCharacter: 玩家角色
 SWADE.ModHint: 确保你的调整值里包含了 + 或 -
 SWADE.OfficialSheet: 狂野世界官方角色卡 by Pinnacle
 SWADE.Expand: 展开
