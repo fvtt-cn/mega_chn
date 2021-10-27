@@ -203,5 +203,7 @@
     "option.coverTint.rainbow": "彩虹色",
     "setting.wmOptions.name": "自动检测狂野魔法",
     "setting.removeCover.name": "在回合结束时移除掩蔽",
-    "setting.clearTargets.name": "在回合结束时移除目标"
+    "setting.clearTargets.name": "在回合结束时移除目标",
+    "setting.clearTargets.hint": "参战者回合结束时释放所有目标",
+    "DND5EH.LoSMaskNPCs_creatureMask": "一个生物"
 }
