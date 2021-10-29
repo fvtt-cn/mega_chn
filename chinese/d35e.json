@@ -1513,5 +1513,8 @@
     "D35E.ApplyAlt": "应用全部",
     "D35E.RestParty": "休息",
     "D35E.PartyRested": "所有人都会得到休息。每日使用次数得到恢复，生命值得到治愈。",
-    "SETTINGS.D35EPsionicsAreDifferentL": "将法术抗力分开为魔法法术抗力与异能抗力"
+    "SETTINGS.D35EPsionicsAreDifferentL": "将法术抗力分开为魔法法术抗力与异能抗力",
+    "D35E.ConcealmentBaseInPercent": "隐蔽（0-100%）",
+    "D35E.ImprovedCover": "高掩蔽",
+    "D35E.BehindImprovedCover": "在高掩蔽后"
 }
