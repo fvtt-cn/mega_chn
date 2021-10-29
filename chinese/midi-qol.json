@@ -429,5 +429,7 @@
     "midi-qol.PromptDamageRoll.Name": "增强伤害骰对话框",
     "midi-qol.PromptDamageRoll.Hint": "当使用伤害骰对话框时，显示一个增强版的对话框，支持选择物品伤害。",
     "midi-qol.GMHide3dDice.Name": "隐藏 GM 攻击/伤害/豁免的 3D 掷骰 - 覆写其他设置",
-    "midi-qol.GhostRolls.Name": "攻击/伤害骰显示为‘DSN 隐骰’而非隐藏掷骰"
+    "midi-qol.GhostRolls.Name": "攻击/伤害骰显示为‘DSN 隐骰’而非隐藏掷骰",
+    "midi-qol.convenientEffectsOn": "应用便捷效果",
+    "midi-qol.convenientEffectsOff": "不应用便捷效果"
 }
