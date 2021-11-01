@@ -263,7 +263,16 @@
     "dae.DisableEffects.Hint": "If set no active effects will be applied to characters. Useful if you want to change character values that are modified by active effects",
     "dae.HandleEquip.Name": "Handle Equip/Unequip item active effects",
     "dae.HandleEquip.Hint": "If set DAE will handle equip/unequip enabling/disabling active effects and toggling active will toggle equip/unequip",
-    "dae.SW5E": "Note For Translators - The following strings are ONLY required for the SW5E system",
+    "dae.DAETitleBar.Name": "DAE Title Bar",
+    "dae.DAETitleBar.Hint": "Display DAE effect editor button in Title Bar",
+    "dae.StatusEffect": "Status Effect",
+    "dae.ShowDeprecation.Name": "Show Deprecation Errors",
+    "dae.ShowDeprecation.Hint": "Show Deprecation Errors in console",
+    "dae.CE": "Convenient Effects",
+    "dae.CUB": "Combat Utility Belt",
+
+    "dae.SW5EHint": "Note For Translators - The following strings are ONLY required for the SW5E system",
+    "dae.SW5E": "sw5e",
     "dae.force": "Force",
     "dae.tech": "Tech",
     "dae.known": "Powers Known",
@@ -298,9 +307,16 @@
     "dae.pil": "Piloting",
     "dae.tec": "Technology",
     "dae.powerForceLevel": "Force Power Level",
-    "dae.DAETitleBar.Name": "DAE Title Bar",
-    "dae.DAETitleBar.Hint": "Display DAE effect editor button in Title Bar",
-    "dae.StatusEffect": "Status Effect",
-    "dae.ShowDeprecation.Name": "Show Deprecation Errors",
-    "dae.ShowDeprecation.Hint": "Show Deprecation Errors in console"
-}
+
+    "dae.ATLHint": "Note for translators these are only required for Active Token Lighting",
+    "dae.ATL": "ATL",
+    "dae.dimLight": "Dim Light",
+    "dae.brightLight": "Bright Light",
+    "dae.dimSight": "Dim Sight",
+    "dae.brightSight": "Bright Sight",
+    "dae.sightAngle": "Sight Angle",
+    "dae.lightColor": "Light Color",
+    "dae.lightAnimation": "Light Animation",
+    "dae.lightAlpha": "Light ALpha",
+    "dae.lightAngle": "Light Angle"
+  }
