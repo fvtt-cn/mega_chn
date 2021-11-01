@@ -185,7 +185,7 @@
     "DICESONICE.enableFlavorColorset": "当传递了主题时（如：1d20[acid]）覆盖你的骰子外观",
     "DICESONICE.migrateMessageNeedGM": "'Dice So Nice' 需要迁移到 v4。请连接 GM 账号。",
     "DICESONICE.disabledForInitiative": "禁用先攻掷骰",
-    "DICESONICE.disabledForInitiativeHint": "当从战斗追踪器中掷先攻骰时禁用 3D 掷骰。",
+    "DICESONICE.disabledForInitiativeHint": "当从战斗板中掷先攻骰时禁用 3D 掷骰。",
     "DICESONICE.enabledSimultaneousRollForMessage": "相同消息掷骰合并",
     "DICESONICE.enabledSimultaneousRollForMessageHint": "单条消息包括多个掷骰时，同时播放所有动画",
     "DICESONICE.showGhostDice": "为隐藏的掷骰显示鬼骰",
