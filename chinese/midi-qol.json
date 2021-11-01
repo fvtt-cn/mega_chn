@@ -117,7 +117,7 @@
     "midi-qol.DamageCardHeal": "治疗",
     "midi-qol.DamageCardMultHeader": "加倍",
     "midi-qol.DamageCardUndoHeader": "撤销",
-    "midi-qol.DamageImmunities.Hint": "当使用midi-qol伤害按钮或自动应用伤害时，应用目标的伤害免疫/易伤/抗性。包含所有伤害类型。",
+    "midi-qol.DamageImmunities.Hint": "当使用 midi-qol 伤害按钮或自动应用伤害时，应用目标的伤害免疫/易伤/抗性。包含所有伤害类型。",
     "midi-qol.DamageImmunities.Name": "应用伤害免疫",
     "midi-qol.damageImmunitiesOptions": {
         "immunityPhysical": "应用免疫 + 物理",
@@ -276,7 +276,7 @@
     "midi-qol.saving-throws": "豁免",
     "midi-qol.showGM.Hint": "GM可见所有私聊消息，即使游戏设置中描述为GM不可见",
     "midi-qol.showGM.Name": "GM可见所有私聊消息",
-    "midi-qol.ShowItemDetails.Hint": "开启后物品详情会在聊天卡片里显示。你可以使用DND5E系统的设置来自动隐藏描述",
+    "midi-qol.ShowItemDetails.Hint": "开启后物品详情会在聊天卡片里显示。你可以使用 DND5E 系统的设置来自动隐藏描述",
     "midi-qol.ShowItemDetails.Name": "在聊天卡片里展示物品详情",
     "midi-qol.showItemDetailsOptions": {
         "all": "卡片 + 详情：NPC + PC",
@@ -289,7 +289,7 @@
     "midi-qol.Special": "特殊",
     "midi-qol.SpeedAbilityRolls.Name": "启用快速属性（豁免/检定/技能）掷骰",
     "midi-qol.SpeedItemRolls.Blurb": "你可以任意分配 (ctrl|cmd)/alt/shift 鼠标单击的调整值。尤其需要注意优势/劣势/多用。默认：优势 = Alt，劣势 = Ctrl，多用 = Shift，重击 = Alt",
-    "midi-qol.SpeedItemRolls.Hint": "Midi-qol使用ctrl/alt/meta/shift键来进行快捷掷骰。该设置将会覆盖自动掷攻击骰。按键为Ctrl=劣势，Alt=优势，Shift=多用，Ctrl+Alt=快进掷骰。",
+    "midi-qol.SpeedItemRolls.Hint": "Midi-qol 使用 ctrl/alt/meta/shift 键来进行快捷掷骰。该设置将会覆盖自动掷攻击骰。按键为Ctrl=劣势，Alt=优势，Shift=多用，Ctrl+Alt=快进掷骰。",
     "midi-qol.SpeedItemRolls.Name": "启用快捷物品掷骰",
     "midi-qol.speedItemRollsOptions": {
         "off": "禁用",
