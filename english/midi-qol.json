@@ -100,8 +100,8 @@
     "midi-qol.MergeCardCondensed.Hint": "Conserve a little chat log space by making attack and damage rolls smaller ",
     "midi-qol.ConfigTitle": "Midi-Qol Configuration",
     "midi-qol.WorkflowSettings": "Workflow Settings",
-    "midi-qol.CheckSaveText.Name": "Search spell description",
-    "midi-qol.CheckSaveText.Hint": "Search spell description for save type - 'half as much damage' and if present spell does 1/2 damage on save. If unchecked assume a save does default save modifier damage",
+    "midi-qol.CheckSaveText.Name": "Search item description",
+    "midi-qol.CheckSaveText.Hint": "Search item description for save type - 'half as much damage' and if present spell does 1/2 damage on save. If unchecked assume a save does default save modifier damage",
     "midi-qol.Save": "Save Settings",
     "midi-qol.saving-throws": "Saving Throws",
     "midi-qol.saving-throw": "Saving Throw",
@@ -288,6 +288,8 @@
     "midi-qol.GMHide3dDice.Name": "Hide GM attack/damage/saving throw 3d dice rolls - overrides other settings",
     "midi-qol.GhostRolls.Name": "For attack/damage rolls display with 'dice so nice ghost rolls' rather than hiding the roll",
     "midi-qol.convenientEffectsOn": "Apply Convenient Effect",
-    "midi-qol.convenientEffectsOff": "Don't Apply Convenient Effect"
+    "midi-qol.convenientEffectsOff": "Don't Apply Convenient Effect",
+    "midi-qol.FastForwardSpells.Name": "Skip consume spell slot dialog",
+    "midi-qol.FastForwardSpells.Hint": "If set skip the spell configuration dialog (consuming a spell slot and place templates) unless no spell slot of the correct level is available, or the Advantage + Disadvantage keys are pressed when clicking"
 
 }
