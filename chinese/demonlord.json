@@ -12,7 +12,7 @@
         "TypeWeapon": "武器",
         "TypeAmmo": "弹药",
         "TypeAncestry": "种族",
-        "TypeArmor": "盔甲",
+        "TypeArmor": "护甲",
         "TypeCreaturerole": "生物类型",
         "TypeEndoftheround": "回合结束效果"
     },
