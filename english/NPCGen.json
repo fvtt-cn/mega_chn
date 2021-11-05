@@ -64,5 +64,6 @@
     "npcGen.exportLabel": "Open",
     "npcGen.exportHint": "Copy or paste all NPC Generator settings",
     "npcGen.roleSpecificImages": "Role specific images",
-    "npcGen.roleSpecificImagesHint": "Allows to supply role specific image paths if enabled"
+    "npcGen.roleSpecificImagesHint": "Allows to supply role specific image paths if enabled",
+    "npcGen.default": "Default"
 }
