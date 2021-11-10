@@ -64,5 +64,6 @@
     "npcGen.weight": "质量",
     "npcGen.levelDesc": "用于 HP",
     "npcGen.settingsHint": "打开一个 JSON 编辑器，允许你向生成器添加自己的条目。双击选项卡查看示例。或者在 GitHub 上阅读 examples.md 获取更多信息。",
-    "npcGen.saveCharacterHint": "令生成器保存生成的 NPC 为 PC 而非 NPC。可能改善兼容性。"
+    "npcGen.saveCharacterHint": "令生成器保存生成的 NPC 为 PC 而非 NPC。可能改善兼容性。",
+    "npcGen.default": "默认"
 }
