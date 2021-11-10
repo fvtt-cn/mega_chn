@@ -137,9 +137,18 @@
             "ArchiveFolder_Name": "聊天归档保存文件夹",
             "HideExport": "聊天归档：隐藏导出聊天记录按钮",
             "ArchiveFolder_Hint": "聊天归档所存储于的文件夹"
-        }
+        },
+        "ArchiveViewer_Html": "将聊天保记录存为html文件"
     },
     "DF_CHAT_EDIT": {
         "ContextOption": "编辑消息"
+    },
+    "DF_CHAT_LOG": {
+        "Setting": {
+            "EnableTitle": "冒险日志：启用",
+            "EnableHint": "启用冒险日志功能来将事件从聊天边栏直接记录到日志中",
+            "GmOnlyTitle": "冒险日志：仅对GM启用冒险日志",
+            "GmOnlyHint": "使冒险日志指令仅对GM开放"
+        }
     }
 }
