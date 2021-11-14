@@ -60,6 +60,8 @@ SWADE.CoreSkillsDesc: >-
   Enter a comma-separated list of skill names to be defined as core skills for
   all actors
 SWADE.LinkAttr: Linked Attribute
+SWADE.ArcaneSkill: Arcane Skill
+SWADE.ActivateArcaneDevice: Activate Device
 SWADE.Die: Die
 SWADE.WildDie: Wild Die
 SWADE.Mod: Modifier
@@ -155,6 +157,7 @@ SWADE.Desc: Description
 SWADE.Special: Special Abilities
 SWADE.Details: Details
 SWADE.Equippable: Equippable
+SWADE.ArcaneDevice: Arcane Device
 SWADE.Misc: Misc
 SWADE.QuickAccess: Quick Access
 SWADE.Effects: Active Effects
