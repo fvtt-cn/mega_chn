@@ -63,7 +63,7 @@
     "midi-qol.AutoTarget.Hint": "When placing a template (e.g. spell) auto target tokens inside the template.",
     "midi-qol.noDamageonSaveSpells" : ["Acid Splash", "Sword Burst", "Thunderclap", "Vicious Mockery", "Create Bonfire", "Lightning Lure", "Poison Spray", "Cordon of Arrow", "Disintegrate", "Sacred Flame", "Cordon of Arrows", "Frostbite", "Infestation", "Toll the Dead", "Word of Radiance", "Catapult", "Earth Tremor"],
     "midi-qol.fullDamageText": "Full damage on save",
-    "mnidi-qol._comment for translaters": "The text below is searched for by midi in the spell description",
+    "midi-qol._comment for translaters_fullDamage": "The text below is searched for by midi in the spell description",
     "midi-qol.fullDamage": "full damage on save",
     "midi-qol.undoDamageFrom": "Undo applied damage from ",
     "midi-qol.noGM": "No GM user connected cannot apply effects/update Hit Points",
@@ -85,11 +85,11 @@
     "midi-qol.PlayerSaveTimeout.Hint": "How long to wait before taking over the player's save for them in seconds",
     "midi-qol.MagicResistant": "magic-resistant",
     "midi-qol.MagicResistanceFeat": "Magic Resistance",
-    "mnidi-qol._comment for translaters": "The text below is searched for by midi in the spell description",
+    "midi-qol._comment for translaters_halfDamage": "The text below is searched for by midi in the spell description",
     "midi-qol.halfDamage": "half as much damage",
-    "mnidi-qol._comment for translaters": "The text below is searched for by midi in the spell description",
+    "midi-qol._comment for translaters_halfDamageAlt": "The text below is searched for by midi in the spell description",
     "midi-qol.halfDamageAlt": "half damage",
-    "mnidi-qol._comment for translaters": "The text below is searched for by midi in the spell description",
+    "midi-qol._comment for translaters_noDamage": "The text below is searched for by midi in the spell description",
     "midi-qol.noDamage": "no damage on save",
     "midi-qol.noDamageText": "no damage on save",
     "midi-qol.PreRollChecks.Name": "Experimental: Apply checks before doing speed/macro roll",
@@ -310,7 +310,7 @@
     "midi-qol.EffectActivation": "Activation Condition true required for effect activation",
     "midi-qol.HPUpdated": "HP Updated",
     "midi-qol.HPNotUpdated": "HP Not Updated",
-    "mnidi-qol._comment for translaters": "The text below is searched for by midi in reaction items activation condition",
+    "midi-qol._comment_for translaters_damaged": "The text below is searched for by midi in reaction items activation condition",
     "midi-qol.damaged": "damaged"
     
 }
