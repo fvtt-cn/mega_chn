@@ -254,6 +254,7 @@
     "midi-qol.DamageCardApplyHeader": "Apply",
     "midi-qol.DamageCardCalc": "Calc",
     "midi-qol.DamageCardHeal": "Heal",
+    "midi-qol.DamageCardAll": "All",
     "midi-qol.StatsTitle": "Roll Statistics",
     "midi-qol.RollStats": "Statistics",
     "midi-qol.RollStatsConfig": "Statisitics Config",
@@ -307,10 +308,13 @@
     "midi-qol.ChallengeModeArmor.Hint": "Implements the challenge mode armor rules - see the readme for more information",
     "midi-qol.ChallengeModeArmorScale.Hint": "Requires Challenge Mode Armor enabled. Implements a modified challenge mode armor rules - see the readme for more information",
     "midi-qol.nonSilverPhysical": "Non-Silver Physical",
+    "midi-qol.nonAdamantinePhysical": "Non-Adamantine Physical",
     "midi-qol.EffectActivation": "Activation Condition true required for effect activation",
     "midi-qol.HPUpdated": "HP Updated",
     "midi-qol.HPNotUpdated": "HP Not Updated",
-    "midi-qol._comment_for translaters_damaged": "The text below is searched for by midi in reaction items activation condition",
-    "midi-qol.damaged": "damaged"
+    "midi-qol._comment_for translaters_reactionDamaged": "The text below is searched for by midi in reaction items activation condition",
+    "midi-qol.reactionDamaged": "damaged" ,
+    "midi-qol._comment for translaters_reactionAttacked": "The text below is searched for by midi in the items activation condition",
+    "midi-qol.reactionAttacked": "attacked"
     
 }
