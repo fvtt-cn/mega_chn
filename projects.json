@@ -175,5 +175,9 @@
     {
         "name": "cyberpunk-red-core",
         "src": "https://gitlab.com/JasonAlanTerry/fvtt-cyberpunk-red-core/-/raw/dev/lang/en.json"
+    },
+    {
+        "name": "ironsworn",
+        "src": "https://raw.githubusercontent.com/ben/foundry-ironsworn/main/system/lang/en.json"
     }
 ]
