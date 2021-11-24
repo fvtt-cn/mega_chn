@@ -62,6 +62,7 @@
     "midi-qol.AutoTarget.Name": "Auto target on template draw",
     "midi-qol.AutoTarget.Hint": "When placing a template (e.g. spell) auto target tokens inside the template.",
     "midi-qol.noDamageonSaveSpells" : ["Acid Splash", "Sword Burst", "Thunderclap", "Vicious Mockery", "Create Bonfire", "Lightning Lure", "Poison Spray", "Cordon of Arrow", "Disintegrate", "Sacred Flame", "Cordon of Arrows", "Frostbite", "Infestation", "Toll the Dead", "Word of Radiance", "Catapult", "Earth Tremor"],
+    "midi-qol.noDamageonSaveSpellsv9" : "Acid Splash,Sword Burst,Thunderclap,Vicious Mockery,Create Bonfire,Lightning Lure,Poison Spray,Cordon of Arrow,Disintegrate,Sacred Flame,Cordon of Arrows,Frostbite, Infestation, Toll the Dead, Word of Radiance, Catapult, Earth Tremor",
     "midi-qol.fullDamageText": "Full damage on save",
     "midi-qol._comment for translaters_fullDamage": "The text below is searched for by midi in the spell description",
     "midi-qol.fullDamage": "full damage on save",
@@ -138,7 +139,7 @@
     "midi-qol.speedItemRollsOptions": {"off": "Off", "on": "On", "onCard": "On + Show Item Card"},
     "midi-qol.autoCheckHitOptions": {"none": "None", "all": "Check - all see result", "whisper": "Check - only GM sees"},
     "midi-qol.clickOptions": {"off": "Off", "attack": "Attack Rolls Only", "damage": "Damage Rolls Only", "all": "Attack and Damage"},
-    "midi-qol.autoTargetOptions":  {"none": "None", "always": "Always", "alwaysIgnoreDefeated": "Always - Ignore defeated", "wallsBlock": "Walls Block", "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated"},
+    "midi-qol.autoTargetOptions":  {"none": "None", "always": "Always", "alwaysIgnoreDefeated": "Always - Ignore defeated", "wallsBlock": "Walls Block", "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated", "dfqol": "Use DF QOL"},
     "midi-qol.autoCheckSavesOptions": {"none": "Off", "allNoRoll":  "Save - All see result only", "all":  "Save - All see result + save", "whisper": "Save - only GM sees", "allShow": "Save - All see Result + Rolls"},
     "midi-qol.rangeTargetOptions": {"none": "None", "always": "Always", "alwaysIgnoreDefeated": "Always - Ignore Defeated", "wallsBlock": "Walls Block", "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated"},
     "midi-qol.autoRollDamageOptions": {"none": "Never", "always":  "Always", "onHit": "Attack Hits"},
@@ -315,6 +316,12 @@
     "midi-qol._comment_for translaters_reactionDamaged": "The text below is searched for by midi in reaction items activation condition",
     "midi-qol.reactionDamaged": "damaged" ,
     "midi-qol._comment for translaters_reactionAttacked": "The text below is searched for by midi in the items activation condition",
-    "midi-qol.reactionAttacked": "attacked"
+    "midi-qol.reactionAttacked": "attacked",
+    "midi-qol.ddbGL.Name": "Enable ddb-game-log support",
+    "midi-qol.ddbGL.Hint": "Accept attack/damage/saving throws from ddb-game-log to trigger midi workflows in foundry",
+    "midi-qol.ShowReactionChatMessage.Name": "Show Chat prompt for reactions",
+    "midi-qol.reactionFlavorAttack": "{actorName} is hit by {itemName} and can use a reaction",
+    "midi-qol.reactionFlavorDamage": "{actorName} is damaged by {itemName} and can use a reaction"
+
     
 }
