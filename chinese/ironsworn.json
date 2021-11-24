@@ -376,7 +376,7 @@
             },
             "Strike": {
                 "title": "猛攻",
-                "description": "<p>当<strong>你拥有主动权并且在近距离发起进攻</strong>，投+钢铁。<strong>当你拥有主动权并发起远距离进攻</strong>，投+锋锐。</p>\n",
+                "description": "<p>当<strong>你拥有主动权并且在近距离发起进攻</strong>，投+钢铁。<strong>当你拥有主动权并发起远距离进攻</strong>，投+锋锐。</p></p>\n",
                 "strong": "<p>若为<strong>强成功</strong>，造成+1伤害。你保留主动权。</p>\n",
                 "weak": "<p>若为<strong>弱成功</strong>，造成伤害并失去主动权。</p>\n",
                 "miss": "<p>若为<strong>失败</strong>，你的攻击失败，并且你必须<em>付出代价</em>。你的敌人拥有主动权。</p>\n"
@@ -1063,7 +1063,7 @@
         "Suffer": "忍耐",
         "Quest": "任务",
         "Fate": "命运",
-        "Delve": "Delve",
+        "Delve": "探索",
         "Optional Delve": "可选Delve",
         "Custom Moves": "自定义行动",
         "CustomMoves": "自定义行动",
