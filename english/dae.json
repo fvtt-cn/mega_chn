@@ -213,7 +213,6 @@
     "dae.temporaryFilter": "Timed effects",
     "dae.Priority": "Priority",
     "dae.Stackable": "Stackable",
-    "dae.stackableOptions": {"none": "Effects do not stack", "multi": "Stacking effects apply the effect multiple times", "count": "each stack increase stack count by 1"},
     "dae.useDAESheet.Name": "Use the DAE Active Effect Config Sheet?",
     "dae.useDAESheet.Hint": "If false uses the Core ActiveEffectConfig Sheet",
     "dae.confirm": "Confirmation Dialog",
@@ -272,7 +271,7 @@
     "dae.CUB": "Combat Utility Belt",
     "dae.ShowInline.Name": "Display results of inline rolls",
     "dae.ShowInline.Hint": "Effects with an inline roll will display the roll results if set",
-
+    "dae.stackableOptions": {"none": "Effects do not stack", "multi": "Stacking effects apply the effect multiple times", "count": "each stack increase stack count by 1"},
     "dae.SW5EHint": "Note For Translators - The following strings are ONLY required for the SW5E system",
     "dae.SW5E": "sw5e",
     "dae.force": "Force",
