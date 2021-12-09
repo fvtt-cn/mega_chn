@@ -29,6 +29,12 @@
   "QUICKINSERT.SettingsIndexTimeou9_5s": "9.5 seconds",
   "QUICKINSERT.SettingsSearchButton": "Search button in scene controls",
   "QUICKINSERT.SettingsSearchButtonHint": "Adds a search button in the scene controls on the left side of the scene",
+  "QUICKINSERT.SettingsDefaultActionScene": "Default Action for Scenes",
+  "QUICKINSERT.SettingsDefaultActionSceneHint": "The action that will be performed by default when selecting a scene",
+  "QUICKINSERT.SettingsDefaultActionRollTable": "Default Action for Rollable Tables",
+  "QUICKINSERT.SettingsDefaultActionRollTableHint": "The action that will be performed by default when selecting a rollable table",
+  "QUICKINSERT.SettingsDefaultActionMacro": "Default Action for Macros",
+  "QUICKINSERT.SettingsDefaultActionMacroHint": "The action that will be performed by default when selecting a macro",
   "QUICKINSERT.IndexingSettingsTitle": "Quick Insert Indexing Settings",
   "QUICKINSERT.IndexingSettingsForcesReindex": "Updating these settings will force reindexing for all connected clients!",
   "QUICKINSERT.IndexingSettingsHiddenCompendiums": "Hidden compendiums will only show up for GMs, no matter what the table below says.",
@@ -60,5 +66,8 @@
   "QUICKINSERT.FilterEditorDirectory": "Directory",
   "QUICKINSERT.FilterEditorEntityType": "Document type",
   "QUICKINSERT.SheetFiltersTitle": "Customize Quick Insert character sheet filters",
-  "QUICKINSERT.SheetFiltersNote": "Select the filters to use when clicking Quick Insert links in character sheets."
+  "QUICKINSERT.SheetFiltersNote": "Select the filters to use when clicking Quick Insert links in character sheets.",
+  "QUICKINSERT.ActionEdit": "Edit",
+  "QUICKINSERT.ActionShow": "Show",
+  "QUICKINSERT.ActionExecute": "Execute"
 }
