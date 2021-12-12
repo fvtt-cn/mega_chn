@@ -113,6 +113,7 @@
     "CPR.chat.damageApplication.prompt.forbiddenTypes": "The follwoing tokens do not support automatic damage application:",
     "CPR.chat.damageApplication.prompt.title": "Confirm the damage application",
     "CPR.chat.damageApplication.rezReducedBy": "REZ reduced by:",
+    "CPR.chat.initiative": "Initiative",
     "CPR.chat.self": "Self",
     "CPR.chat.whisper": "Whisper",
     "CPR.combatUtils.noCombatSelected": "No combat encounter selected!",
