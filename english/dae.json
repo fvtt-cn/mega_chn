@@ -308,7 +308,8 @@
     "dae.pil": "Piloting",
     "dae.tec": "Technology",
     "dae.powerForceLevel": "Force Power Level",
-
+    "dae.forceToHud.Name": "Force display on token",
+    "dae.forceToHud.Hint": "If non empty set the icon for the effect will be displayed on the token regardless of duration",
     "dae.ATLHint": "Note for translators these are only required for Active Token Lighting",
     "dae.ATL": "ATL",
     "dae.dimLight": "Dim Light",
