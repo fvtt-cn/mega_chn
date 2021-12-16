@@ -439,7 +439,7 @@
 	"midi-qol.ActiveDefence.Name": "Active Defence",
 	"midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit' rolls players make a defence roll. Requires LMRTFY and does not work with better rolls",
 	"midi-qol.PromptDamageRoll.Name": "Enhanced Damage Roll Dialog",
-	"midi-qol.PromptDamageRoll.Hint": "When udisng Damage Roll Dialog display an enhanced dialog that supports choosing item damage.",
+	"midi-qol.PromptDamageRoll.Hint": "When using Damage Roll Dialog display an enhanced dialog that supports choosing item damage.",
 	"midi-qol.GMHide3dDice.Name": "Hide GM attack/damage/saving throw 3d dice rolls - overrides other settings",
 	"midi-qol.GhostRolls.Name": "For attack/damage rolls display with 'dice so nice ghost rolls' rather than hiding the roll",
 	"midi-qol.convenientEffectsOn": "Apply Convenient Effect",
