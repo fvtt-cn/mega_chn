@@ -734,7 +734,7 @@
     "CPR.mookSheet.items.externalCyberware": "External",
     "CPR.mookSheet.items.internalCyberware": "Internal",
     "CPR.mookSheet.items.pressDeleteToDelete": "Press DEL to delete",
-    "CPR.mookSheet.items.pressShiftToInstallorUninstall": "Press SHIFT to install or uninstall the cyberware",
+    "CPR.mookSheet.items.shiftClickToInstallorUninstall": "Shift-Click to install or uninstall the cyberware",
     "CPR.mookSheet.items.specialGear": "Special Gear",
     "CPR.mookSheet.items.unloaded": "Unloaded",
     "CPR.mookSheet.skills.clickToRollThisSkill": "Click to roll this skill",
