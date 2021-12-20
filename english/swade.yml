@@ -404,7 +404,7 @@ SWADE.UseAttributeShortsDesc: >-
 SWADE.BennyImageSheet: Benny
 SWADE.BennyImageSheetDesc: Select which image to use for Bennies on the Character Sheet
 SWADE.Benny3DFront: Front Texture
-SWADE.Benny3DFrontDesc: Front exture of the 3D Benny
+SWADE.Benny3DFrontDesc: Front texture of the 3D Benny
 SWADE.Benny3DBack: Back Texture
 SWADE.Benny3DBackDesc: Back texture of the 3D Benny
 SWADE.ChangeBennyWarning: Changing these settings will require you to refresh the page!
@@ -412,3 +412,12 @@ SWADE.3DBennies: 3D Bennies
 SWADE.HardChoices: Hard Choices
 SWADE.HardChoicesDesc: Checking this will enable the Hard Choices rule
 SWADE.WealthSelectionNoneOther: None/Other
+SWADE.Benny3DFrontBump: Front Bump Map
+SWADE.Benny3DBackBump: Back Bump Map
+SWADE.Benny3DFrontBumpDesc: Front bump map of the benny
+SWADE.Benny3DBackBumpDesc: Back bump map of the benny
+SWADE.Modifiers: Modifiers
+SWADE.ActionTraitMod: Action Trait Modifier
+SWADE.ActionDmgMod: Action Damage Modifier
+SWADE.ItemTraitMod: Item Trait Modifier
+SWADE.ItemDmgMod: Item Damage Modifer
