@@ -9,7 +9,7 @@
   "QUICKINSERT.SettingsGmOnlyHint": "Only the GMs will be allowed to use Quick Insert",
   "QUICKINSERT.SettingsFiltersSheetsEnabled": "Character sheet integration",
   "QUICKINSERT.SettingsFiltersSheetsEnabledHint": "Only available for select systems/sheets. Adds Quick Insert search buttons in character sheets, with a relevant filter selected (as configured in the \"Character sheet filters\" menu)",
-  "QUICKINSERT.SettingsQuickOpen": "Keybind: Open Quick Insert",
+  "QUICKINSERT.SettingsQuickOpen": "Toggle Quick Insert",
   "QUICKINSERT.SettingsQuickOpenHint": "Enter a key combination that opens QuickInsert in the active context",
   "QUICKINSERT.SettingsEnableGlobalContext": "Enable global Browse Mode",
   "QUICKINSERT.SettingsEnableGlobalContextHint": "Keybind will open Quick Insert in Browse Mode even when there's no context to attach to.",
