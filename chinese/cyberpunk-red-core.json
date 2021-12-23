@@ -89,5 +89,7 @@
     "CPR.characterSheet.bottomPane.fight.controlClickToSendToChat": "按Ctrl并点击以发送到聊天栏",
     "CPR.global.role.tech.name": "技术",
     "CPR.global.ammo.type.armorPiercing": "穿甲弹药",
-    "CPR.global.ammo.variety.heavyPistol": "重型手枪弹药"
+    "CPR.global.ammo.variety.heavyPistol": "重型手枪弹药",
+    "ITEM.TypeSkill": "技能",
+    "ITEM.TypeWeapon": "武器"
 }
