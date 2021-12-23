@@ -317,6 +317,8 @@
 	"midi-qol.AllowUseMacro.Hint": "When enabled adds a macro name field which will be called on use. See the Readme for the details",
 	"midi-qol.onUseMacroLabel": " On Use Macros",
 	"midi-qol.onUseMacroOptions": {
+    "templatePlaced": "Only callled once a template is placed",
+    "preambleComplete": "After targeting complete",
 		"preAttackRoll": "Before Attack Roll",
 		"preCheckHits": "Before Check Hits",
 		"postAttackRoll": "After Attack Roll",
