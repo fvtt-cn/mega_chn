@@ -385,3 +385,15 @@ SWADE.3DBennies: 3D助力点
 SWADE.HardChoices: 艰难抉择
 SWADE.HardChoicesDesc: 勾选此项会启用艰难抉择规则
 SWADE.WealthSelectionNoneOther: 无/其他
+SWADE.Benny3DFrontBump: 前置凹凸贴图
+SWADE.Benny3DBackBump: 后置凹凸贴图
+SWADE.Benny3DFrontBumpDesc: 助力点前置凹凸贴图
+SWADE.Benny3DBackBumpDesc: 助力点后置凹凸贴图
+SWADE.Modifiers: 修正值
+SWADE.ActionTraitMod: 动作特性修正值
+SWADE.ActionDmgMod: 动作伤害修正值
+SWADE.ItemTraitMod: 物品特性修正值
+SWADE.ItemDmgMod: 物品伤害修正值
+SWADE.ArcaneSkill: 奥法技能
+SWADE.ActivateArcaneDevice: 启动装置
+SWADE.ArcaneDevice: 奥法装置
