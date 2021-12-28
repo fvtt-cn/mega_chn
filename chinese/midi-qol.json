@@ -433,5 +433,6 @@
     "midi-qol.convenientEffectsOn": "应用便捷效果",
     "midi-qol.convenientEffectsOff": "不应用便捷效果",
     "midi-qol.FastForwardSpells.Name": "跳过消耗法术位对话框",
-    "midi-qol.FastForwardSpells.Hint": "启用后，法术配置对话框（消耗法术位以及放置测量板）将被跳过，除非目前没有有效的正确法术位，或者在点击时同时按下了优势+劣势的快捷键"
+    "midi-qol.FastForwardSpells.Hint": "启用后，法术配置对话框（消耗法术位以及放置测量板）将被跳过，除非目前没有有效的正确法术位，或者在点击时同时按下了优势+劣势的快捷键",
+    "midi-qol._comment for translaters_noDamageonSaveSpells": "foundry v9不再支持数组json元素，所以仅能使用v9版本"
 }
