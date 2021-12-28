@@ -224,8 +224,8 @@
 	"midi-qol.showItemDetailsOptions": {
 		"none": "None",
 		"cardOnly": "Card Only",
-		"pc": "Card + Details: PC Only",
-		"all": "Card + Details: NPC + PC"
+		"pc": "Details: PC Only",
+		"all": "Details: NPC + PC"
 	},
 	"midi-qol.rollNPCSavesOptions": {
 		"none": "Chat Message",
@@ -446,8 +446,8 @@
 	"midi-qol.GhostRolls.Name": "For attack/damage rolls display with 'dice so nice ghost rolls' rather than hiding the roll",
 	"midi-qol.convenientEffectsOn": "Apply Convenient Effect",
 	"midi-qol.convenientEffectsOff": "Don't Apply Convenient Effect",
-	"midi-qol.FastForwardSpells.Name": "Skip consume spell slot dialog",
-	"midi-qol.FastForwardSpells.Hint": "If set skip the spell configuration dialog (consuming a spell slot and place templates) unless no spell slot of the correct level is available, or the Advantage + Disadvantage keys are pressed when clicking",
+	"midi-qol.ConsumeResource.Name": "Skip consume resurce dialog",
+	"midi-qol.ConsumeResource.Hint": "If set skip the consume resource dialog (consuming a default resource/spell slot and place templates) unless no spell slot of the correct level is available, or the Advantage + Disadvantage keys are pressed when clicking",
 	"midi-qol.ChallengeModeArmor.Name": "Enable Challenge Mode Armor Class",
 	"midi-qol.ChallengeModeArmorScale.Name": "Enable house version Challenge Mode Armor Class",
 	"midi-qol.ChallengeModeArmor.Hint": "Implements the challenge mode armor rules - see the readme for more information",
