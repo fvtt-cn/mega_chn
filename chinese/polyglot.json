@@ -90,6 +90,10 @@
             "hint": "设置为除 \"modules\" 文件夹外的一个包含字体文件的文件夹。"
         },
         "Font": "字体",
-        "FontSize": "字体大小（%）"
+        "FontSize": "字体大小（%）",
+        "DND5E": {
+            "SpecialLanguagesTitle": "替换特殊语言",
+            "SpecialLanguagesHint": "用于替换“语言”的语言名称，如“它一生中知道的所有语言”。"
+        }
     }
 }
