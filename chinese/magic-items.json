@@ -92,5 +92,8 @@
     "MAGICITEMS.SettingHideFromPlayersHint": "隐藏玩家的魔法物品设置标签",
     "MAGICITEMS.SettingHideFromPlayers": "对玩家隐藏设置选项",
     "MAGICITEMS.SettingIdentifiedOnlyHint": "仅为已鉴定的魔法物品显示",
-    "MAGICITEMS.SettingIdentifiedOnly": "仅鉴定可用"
+    "MAGICITEMS.SettingIdentifiedOnly": "仅鉴定可用",
+    "MAGICITEMS.MagicItemDestroyCheckSuccess": "成功！",
+    "MAGICITEMS.MagicItemDestroyCheckFailure": "失败！",
+    "MAGICITEMS.WarnItemNoLongerExists": "似乎 "
 }
