@@ -207,5 +207,12 @@
     "DICESONICE.TestRoll": "测试掷骰",
     "DICESONICE.sfxOptionsIsGlobal": "（仅限 GM）为所有玩家启用此音效",
     "DICESONICE.sfxOptionsCustomSound": "选择一个音频文件",
-    "DICESONICE.sfxOptionsMacro": "选择一个宏"
+    "DICESONICE.sfxOptionsMacro": "选择一个宏",
+    "DICESONICE.RollableAreaText": "掷骰区域",
+    "DICESONICE.RollableAreaConfig": "掷骰区域设置",
+    "DICESONICE.RollableAreaConfigTitle": "掷骰区域设置",
+    "DICESONICE.RollableAreaConfigHint": "确定屏幕上哪些部分显示3D骰子动画。",
+    "DICESONICE.RollableAreaConfigDescription1": "调整大小和/或移动区域，以确定显示3D骰子动画的 \"掷骰区域\"。",
+    "DICESONICE.RollableAreaConfigDescription2": "按 \"应用 \"保存并应用您的更改，或按 \"重置 \"返回到默认设置。",
+    "DICESONICE.Restore": "恢复"
 }
