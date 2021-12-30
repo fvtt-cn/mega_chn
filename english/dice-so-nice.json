@@ -226,10 +226,11 @@
 
     "DICESONICE.RollableAreaConfig":  "Rollable Area Settings",
     "DICESONICE.RollableAreaConfigTitle": "Rollable Area Settings",
-    "DICESONICE.RollableAreaConfigHint": "Define the portion of the screen that shows the 3D dice animation.",
+    "DICESONICE.RollableAreaConfigHint": "Define the portion of the screen that shows the 3D dice animation. This setting won't affect other players.",
     "DICESONICE.RollableAreaText": "Rollable Area",
     "DICESONICE.RollableAreaConfigDescription1": "Resize and/or move the area alongside to define the \"Rollable Area\" within which 3D dice animation will be displayed.",
-    "DICESONICE.RollableAreaConfigDescription2": "Press \"Apply\" to save and apply your changes or press \"Reset\" to return to the default settings.",
+    "DICESONICE.RollableAreaConfigDescription3": "While having an active rollable area, resizing the window won't automatically resize the rollable area. You'll have restore or resize the area yourself.",
+    "DICESONICE.RollableAreaConfigDescription2": "Press \"Apply\" to save and apply your changes or press \"Restore\" to return to the automatic settings.",
     "DICESONICE.Restore": "Restore"
 
 }
