@@ -8,7 +8,7 @@
     "QUICKINSERT.SettingsGmOnly": "仅GM",
     "QUICKINSERT.SettingsGmOnlyHint": "只有GM才可以使用Quick Insert",
     "QUICKINSERT.SettingsFiltersSheetsEnabled": "人物卡集成",
-    "QUICKINSERT.SettingsQuickOpen": "按键绑定：打开Quick Insert",
+    "QUICKINSERT.SettingsQuickOpen": "开关Quick Insert",
     "QUICKINSERT.SettingsEnableGlobalContext": "启用全局浏览模式",
     "QUICKINSERT.SettingsEnableGlobalContextHint": "即使没有可附着的上下文也能在浏览模式中打开 Quick Insert 的按键绑定。",
     "QUICKINSERT.SettingsClickToInsert": "点击结果以提交",
@@ -60,5 +60,14 @@
     "QUICKINSERT.IndexingSettingsDisabledCompendiumEntities": "含有已禁用文档类型的合集包将被自动禁用，无视合集包表格所述。",
     "QUICKINSERT.FilterListOptionDisable": "禁用",
     "QUICKINSERT.FilterEditorFolderAny": "目录中任意位置",
-    "QUICKINSERT.FilterEditorFilterIsDefault": "这是一个默认过滤器，你可以从表中禁用或复制它，但它无法被编辑。"
+    "QUICKINSERT.FilterEditorFilterIsDefault": "这是一个默认过滤器，你可以从表中禁用或复制它，但它无法被编辑。",
+    "QUICKINSERT.SettingsDefaultActionRollTable": "默认随机表动作",
+    "QUICKINSERT.SettingsDefaultActionRollTableHint": "选择随机表时会默认执行该动作",
+    "QUICKINSERT.SettingsDefaultActionMacro": "默认宏动作",
+    "QUICKINSERT.SettingsDefaultActionMacroHint": "选择宏时会默认执行该动作",
+    "QUICKINSERT.ActionEdit": "编辑",
+    "QUICKINSERT.ActionShow": "显示",
+    "QUICKINSERT.ActionExecute": "执行",
+    "QUICKINSERT.SettingsDefaultActionScene": "默认场景动作",
+    "QUICKINSERT.SettingsDefaultActionSceneHint": "选择场景时会默认执行该动作"
 }
