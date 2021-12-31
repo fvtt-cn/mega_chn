@@ -211,8 +211,9 @@
     "DICESONICE.RollableAreaText": "掷骰区域",
     "DICESONICE.RollableAreaConfig": "掷骰区域设置",
     "DICESONICE.RollableAreaConfigTitle": "掷骰区域设置",
-    "DICESONICE.RollableAreaConfigHint": "确定屏幕上哪些部分显示3D骰子动画。",
+    "DICESONICE.RollableAreaConfigHint": "确定屏幕上哪些部分显示3D骰子动画。该设置不会影响其他玩家。",
     "DICESONICE.RollableAreaConfigDescription1": "调整大小和/或移动区域，以确定显示3D骰子动画的 \"掷骰区域\"。",
-    "DICESONICE.RollableAreaConfigDescription2": "按 \"应用 \"保存并应用您的更改，或按 \"重置 \"返回到默认设置。",
-    "DICESONICE.Restore": "恢复"
+    "DICESONICE.RollableAreaConfigDescription2": "按 \"应用 \"保存并应用您的更改，或按 \"恢复 \"返回到自动设置。",
+    "DICESONICE.Restore": "恢复",
+    "DICESONICE.RollableAreaConfigDescription3": "调整窗口大小时，已有的掷骰区域的大小不会随之改变。你必须自己重新调整区域的尺寸。"
 }
