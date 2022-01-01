@@ -321,5 +321,7 @@
     "dae.lightColor": "光照颜色",
     "dae.lightAnimation": "光照动画",
     "dae.lightAlpha": "光照透明度",
-    "dae.lightAngle": "光照角度"
+    "dae.lightAngle": "光照角度",
+    "dae.ShowInline.Name": "显示内恋掷骰的结果",
+    "dae.ShowInline.Hint": "若设置，带有内联掷骰的效果将会显示掷骰结果"
 }
