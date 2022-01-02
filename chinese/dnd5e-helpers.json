@@ -191,7 +191,7 @@
     "setting.effectIconScale.hint": "对默认图标尺寸 20px 放大的倍数",
     "option.gridTemplateScaling.all": "所有测量板",
     "setting.losOnTarget.name": "选择目标时计算掩蔽",
-    "setting.losOnTarget.hint": "全局启用/禁用此功能（包括图块掩蔽设置项）。",
+    "setting.losOnTarget.hint": "无论是否使用快捷键，选中指示物时总是计算掩蔽。",
     "option.losOnTarget.center": "中心点视线（Foundry 版本）",
     "option.losOnTarget.corner": "四角视线（DMG 第 251 页）",
     "setting.losKeyBind.name": "掩蔽绑定按键",
@@ -297,5 +297,7 @@
     "setting.GreatWoundItemSetting.hint": "对角色应用掷骰表中的主动效果或物品",
     "setting.OpenWoundPcOnlyName.hint": "仅对玩家拥有的角色触发开放性伤口处理流程",
     "setting.OpenWoundCrit.hint": "开放性伤口将在对指示物的攻击掷骰掷出重击时触发。角色的特性中武器重击阈值用于计算此项。",
-    "setting.OpenWound0HPGW.hint": "开放性伤口将会在因一次超过角色最大生命值一半的伤害导致生命值归零时触发（需要启用重伤功能）"
+    "setting.OpenWound0HPGW.hint": "开放性伤口将会在因一次超过角色最大生命值一半的伤害导致生命值归零时触发（需要启用重伤功能）",
+    "setting.losSystem.name": "掩蔽计算模式",
+    "setting.losSystem.hint": "选择在检测掩蔽时使用的算法，或者完全禁用此特性。"
 }
