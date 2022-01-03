@@ -10,7 +10,7 @@ const TRANSLATORS = [
     "白药君",
     "Many more from ❤FVTT-CN❤",
 ];
-const LIST_VERSION = 5;
+const LIST_VERSION = 6;
 
 Hooks.on("init", () => {
     game.settings.register(MODULE_NAME, WELCOMED_NAME, {
@@ -49,7 +49,7 @@ Hooks.on("ready", () => {
                 ${list}
             </ul>
             <p><small>此外，感谢 <a href="https://weblate.org/">Weblate</a> 项目为此项目提供翻译流程规范化的软件支持！</small></p>
-            <p>如需参与 Mega 包翻译工作，或提议支持更多模组/系统，请联系 <a href="https://github.com/fvtt-cn/">FVTT-CN 组织</a>！</p>
+            <p>如需参与 FVTT 翻译工作，或提议支持更多模组/系统，请联系 <a href="https://github.com/fvtt-cn/">FVTT-CN 组织</a>！</p>
         `;
 
         const welcomeDialog = new Dialog({
