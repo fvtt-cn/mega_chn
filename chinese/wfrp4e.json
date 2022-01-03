@@ -1144,5 +1144,17 @@
     "BUGREPORT.ContactPlaceholder": "Discord名称或邮箱。",
     "SHEET.Stomp": "践踏",
     "Label": "标签",
-    "TookDamage": "受到{damage}点伤害"
+    "TookDamage": "受到{damage}点伤害",
+    "as weapon": "作为武器",
+    "BleedUnc": "<b>{name}</b>陷入昏迷！",
+    "BleedFail": "<b>{name}</b> 死于失血过多！",
+    "ERRORParser": "无法找到{name}",
+    "Item Properties": "物品特性",
+    "TABLE.Lookup": "查找： ",
+    "ACTOR.AdvancementError": "无法负担{action}{item}，没有足够的经验值",
+    "Initialization": "初始化",
+    "WFRP4e Content Initialization": "WFRP4e内容初始化",
+    "Setup": "设置",
+    "Import or update the content from the WFRP4e Core Module": "从WFRP4e核心模组中导入或更新内容",
+    "WFRP4e Content Setup": "WFRP4e内容设置"
 }
