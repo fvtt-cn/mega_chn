@@ -83,7 +83,7 @@
     "midi-qol.buttons.versatileAttack": "多用 攻击",
     "midi-qol.buttons.versatileDamage": "多用 伤害",
     "midi-qol.CheckRange.Name": "在攻击时检查武器射程",
-    "midi-qol.CheckSaveText.Hint": "检索物品描述的内容以进行豁免后的伤害判断 - 'half as much damage'，如果出现则法术在豁免成功时造成一半伤害。关闭后会假设所有豁免成功时都造成默认倍数的伤害",
+    "midi-qol.CheckSaveText.Hint": "进行豁免后的伤害判断时，检索物品描述的内容是否出现'half as much damage'，如果出现则法术在豁免成功时造成一半伤害。关闭后所有豁免成功时都造成默认倍数的伤害",
     "midi-qol.CheckSaveText.Name": "检索物品描述",
     "midi-qol.clickOptions": {
         "all": "攻击和伤害骰",
