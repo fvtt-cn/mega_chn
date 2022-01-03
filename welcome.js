@@ -4,10 +4,10 @@ const LISTVER_NAME = "listver";
 
 const TRANSLATORS = [
     "hmqgg",
-    "bnp800",
     "hxqxh",
+    "bnp800",
+    "TravelingK",
     "psedonatural",
-    "白药君",
     "Many more from ❤FVTT-CN❤",
 ];
 const LIST_VERSION = 6;
