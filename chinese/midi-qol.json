@@ -210,7 +210,7 @@
         "Acid Splash"
     ],
     "midi-qol.noDamageSaveProp": "豁免无伤",
-    "midi-qol.noDamageText": "no damage on save",
+    "midi-qol.noDamageText": "No damage on save",
     "midi-qol.noGM": "只有当GM用户在线时才能应用效果或者更新HP",
     "midi-qol.noItemNamed": "你选择的指示物没有对应名称的物品",
     "midi-qol.noSaveTargets": "豁免没有选中目标",
@@ -267,7 +267,7 @@
         "letmeQuery": "LMRTFY + 查询"
     },
     "midi-qol.RollOtherDamage.Hint": "关闭 = 不自动掷其他伤害骰。出现豁免= 仅在物品需豁免时掷其他伤害。激活 = 在激活条件为空或者为真时掷其他伤害",
-    "midi-qol.RollOtherDamage.Name": "远程武器/近战武器攻击时掷其他公式",
+    "midi-qol.RollOtherDamage.Name": "远程武器/近战武器攻击时掷其他伤害公式",
     "midi-qol.Save": "保存设置",
     "midi-qol.save-failure": " 失败骰",
     "midi-qol.save-success": " 成功骰",
@@ -279,10 +279,10 @@
     "midi-qol.ShowItemDetails.Hint": "开启后物品详情会在聊天卡片里显示。你可以使用 DND5E 系统的设置来自动隐藏描述",
     "midi-qol.ShowItemDetails.Name": "在聊天卡片里展示物品详情",
     "midi-qol.showItemDetailsOptions": {
-        "all": "卡片 + 详情：NPC + PC",
+        "all": "详情：NPC + PC",
         "cardOnly": "仅限卡片",
         "none": "关闭",
-        "pc": "卡片 + 详情：仅限PC"
+        "pc": "详情：仅限PC"
     },
     "midi-qol.SingleConcentrationRoll.Hint": "启用后，骰正常伤害+豁免+其他/多用的伤害骰的攻击将只会进行单次合计伤害的专注检定",
     "midi-qol.SingleConcentrationRoll.Name": "单次专注检查",
