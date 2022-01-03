@@ -52,6 +52,19 @@
             "autoStartMeasurement": {
                 "name": "自动测量",
                 "hint": "如果启用此选项，在你拖动棋子时标尺会自动显示，如果禁用，拖动棋子时将不会启用标尺，仅在按下显示路径按钮时显示。"
+            },
+            "useGridlessRaster": {
+                "name": "使用基于速度的吸附",
+                "hint": "在无网格场景中，这使得指示物吸附至其速度范围。"
+            },
+            "rightClickAction": {
+                "name": "右键点击动作",
+                "hint": "拖动指示物时点击右键应该执行什么动作？",
+                "choices": {
+                    "create": "创建路径点",
+                    "delete": "删除路径点",
+                    "cancel": "取消拖动"
+                }
             }
         },
         "genericSpeedProvider": {
@@ -82,6 +95,19 @@
                 "title": "Drag Ruler 如何测量困难地形"
             },
             "ok": "OK"
+        },
+        "keybindings": {
+            "cancelDrag": "取消拖动",
+            "createWaypoint": "创建路径点",
+            "deleteWaypoint": "删除路径点",
+            "disableSnap": {
+                "name": "禁用吸附",
+                "hint": "按下此键时吸附会被暂时禁用"
+            },
+            "moveWithoutAnimation": {
+                "name": "禁用指示物动画",
+                "hint": "放置指示物时按住，则指示物将直接移动至目标地点"
+            }
         }
     }
 }
