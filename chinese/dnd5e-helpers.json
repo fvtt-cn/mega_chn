@@ -299,5 +299,6 @@
     "setting.OpenWoundCrit.hint": "开放性伤口将在对指示物的攻击掷骰掷出重击时触发。角色的特性中武器重击阈值用于计算此项。",
     "setting.OpenWound0HPGW.hint": "开放性伤口将会在因一次超过角色最大生命值一半的伤害导致生命值归零时触发（需要启用重伤功能）",
     "setting.losSystem.name": "掩蔽计算模式",
-    "setting.losSystem.hint": "选择在检测掩蔽时使用的算法，或者完全禁用此特性。"
+    "setting.losSystem.hint": "选择在检测掩蔽时使用的算法，或者完全禁用此特性。",
+    "DND5EH.UndeadFort_failsafe": "{tokenName} 投骰对抗 DC {dc}"
 }
