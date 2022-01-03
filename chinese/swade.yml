@@ -400,5 +400,5 @@ SWADE.ArcaneDevice: 奥法装置
 SWADE.Duplicates: 发现重复项
 SWADE.DuplicateItemsBodyText: 将添加 {type} <strong>{name}</strong> 至角色 {target} 时发现下列重复项
   (名称与类型)。 新物品已被重命名以反映其来源。
-SWADE.Archetype: 原型
-SWADE.ArchetypeAbilities: 原型能力
+SWADE.Archetype: 范型
+SWADE.ArchetypeAbilities: 范型能力
