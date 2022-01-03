@@ -476,5 +476,6 @@
     "AUTOANIM.10": "10",
     "AUTOANIM.11": "11",
     "AUTOANIM.12": "12",
-    "AUTOANIM.13": "13"
+    "AUTOANIM.13": "13",
+    "AUTOANIM.nohit": "未命中"
 }
