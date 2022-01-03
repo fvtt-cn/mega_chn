@@ -158,5 +158,7 @@
     "MonksLittleDetails.sortstatus.rows": "行",
     "MonksLittleDetails.sortstatus.columns": "列",
     "MonksLittleDetails.token-highlight-remove.name": "清除指示物高亮",
-    "MonksLittleDetails.token-highlight-remove.hint": "在指示物第一次移动后清除指示物的高亮"
+    "MonksLittleDetails.token-highlight-remove.hint": "在指示物第一次移动后清除指示物的高亮",
+    "MonksLittleDetails.token-highlight-picture-hostile.hint": "在战斗追踪中作为敌人动态图像使用的图像",
+    "MonksLittleDetails.token-highlight-picture-hostile.name": "敌人高亮图像"
 }
