@@ -153,5 +153,8 @@
     "Theatre.Standing.Fade": "渐变",
     "Theatre.Standing.None": "无",
     "Theatre.Other": "其他",
-    "Theatre.NotYet": "尚未实现"
+    "Theatre.NotYet": "尚未实现",
+    "Theatre.UI.Settings.removeLabelSheetHeader": "从人物卡上移除标题栏标签",
+    "Theatre.UI.Settings.removeLabelSheetHeaderHint": "从人物卡标题栏上移除标签，对小屏幕和移动设备很有用",
+    "Theatre.UI.Settings.suppressMacroHotbar": "舞台被隐藏时显示宏快捷栏"
 }
