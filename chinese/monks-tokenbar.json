@@ -154,5 +154,7 @@
     "MonksTokenBar.capture-savingthrows.hint": "在请求物品豁免骰时创建一个豁免骰的聊天卡",
     "MonksTokenBar.token-size.name": "指示物尺寸",
     "MonksTokenBar.token-size.hint": "改变指示物在指示物栏上的大小，防止属性从侧边消失。",
-    "MonksTokenBar.RequestWithRoll": "带有掷骰的请求"
+    "MonksTokenBar.RequestWithRoll": "带有掷骰的请求",
+    "MonksTokenBar.EditStats": "编辑数据",
+    "MonksTokenBar.Flavor": "风味"
 }
