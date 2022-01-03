@@ -160,5 +160,7 @@
     "MonksLittleDetails.token-highlight-remove.name": "清除指示物高亮",
     "MonksLittleDetails.token-highlight-remove.hint": "在指示物第一次移动后清除指示物的高亮",
     "MonksLittleDetails.token-highlight-picture-hostile.hint": "在战斗追踪中作为敌人动态图像使用的图像",
-    "MonksLittleDetails.token-highlight-picture-hostile.name": "敌人高亮图像"
+    "MonksLittleDetails.token-highlight-picture-hostile.name": "敌人高亮图像",
+    "MonksLittleDetails.invisible-dead.name": "隐藏死者",
+    "MonksLittleDetails.invisible-dead.hint": "当一个怪物死亡时，将其变为对玩家不可见。"
 }
