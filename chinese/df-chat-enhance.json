@@ -168,7 +168,9 @@
             "Disabled": "游戏管理员已禁用冒险日志",
             "NoJournalSet": "游戏管理员没有设置冒险日志使用的日志",
             "NoJournalSetGM": "冒险日志没有可用的日志设置，使用“<code>/日志设置</code>”来设置一个",
-            "ApiLog_NotGm": "你必须是GM才能向GM冒险日志中记录事件"
+            "ApiLog_NotGm": "你必须是GM才能向GM冒险日志中记录事件",
+            "MissingMessage": "你没有提供一则消息",
+            "MissingQuote": "你缺少{0}的封闭引言"
         }
     },
     "DF_CHAT_PLAYER_COLOR": {
