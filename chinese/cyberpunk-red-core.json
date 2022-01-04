@@ -92,5 +92,6 @@
     "CPR.global.ammo.variety.heavyPistol": "重型手枪弹药",
     "ITEM.TypeSkill": "技能",
     "ITEM.TypeWeapon": "武器",
-    "ITEM.TypeGear": "装备"
+    "ITEM.TypeGear": "装备",
+    "ITEM.TypeAmmo": "弹药"
 }
