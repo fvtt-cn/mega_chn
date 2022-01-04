@@ -128,9 +128,9 @@
     "DF_CHAT_EDIT.Settings_IgnoreHtmlHint": "禁止编辑包含 HTML 代码的聊天消息。",
     "DF_CHAT_WHISPER_TRUNC": {
         "SettingCharLimitName": "私信截断字符数限制",
-        "SettingCharLimitHint": "截断收件人名称前所能显示的最大字符数。",
+        "SettingCharLimitHint": "在截断收信者名称前所能显示的最大字符数。",
         "SettingEnabledName": "启用私信名列表截断",
-        "SettingEnabledHint": "将截断私信消息中较长的收信人名称列表。"
+        "SettingEnabledHint": "将截断私信消息中较长的收信者名称列表。"
     },
     "DF_CHAT_ARCHIVE": {
         "Settings": {
@@ -138,39 +138,39 @@
             "HideExport": "聊天归档：隐藏导出聊天记录按钮",
             "ArchiveFolder_Hint": "聊天归档所存储于的文件夹"
         },
-        "ArchiveViewer_Html": "将聊天保记录存为html文件"
+        "ArchiveViewer_Html": "将聊天保记录存为 html 文件"
     },
     "DF_CHAT_EDIT": {
         "ContextOption": "编辑消息",
-        "Settings_MarkdownName": "聊天编辑：启用Markdown",
-        "Settings_MarkdownHint": "在聊天记录中启用Markdown格式。"
+        "Settings_MarkdownName": "聊天编辑：启用 Markdown",
+        "Settings_MarkdownHint": "聊天记录中启用 Markdown 格式。"
     },
     "DF_CHAT_LOG": {
         "Setting": {
             "EnableTitle": "冒险日志：启用",
             "EnableHint": "启用冒险日志功能来将事件从聊天边栏直接记录到日志中",
-            "GmOnlyTitle": "冒险日志：仅对GM启用冒险日志",
-            "GmOnlyHint": "使冒险日志指令仅对GM开放",
+            "GmOnlyTitle": "冒险日志：仅对 GM 启用冒险日志",
+            "GmOnlyHint": "使冒险日志指令仅对 GM 开放",
             "PrintMessagesHint": "新的冒险日志进入时向聊天中发送消息",
-            "GmOnlyWhisperName": "冒险日志：（如果仅对GM启用）所有的日志均为私信",
-            "GmOnlyWhisperHint": "若上方选项设置为仅GM启用，日志将以私信的形式进入聊天消息",
+            "GmOnlyWhisperName": "冒险日志：（如果仅对 GM 启用）所有的日志均为私信",
+            "GmOnlyWhisperHint": "若上方选项设置为仅 GM 启用，日志将以私信的形式进入聊天消息",
             "PrintMessagesName": "冒险日志：发送日志至聊天",
             "SortDescendingName": "冒险日志：将最新内容置于顶部",
             "SortDescendingHint": "对冒险日志进行排序，最新的消息在日志的顶部，最旧的消息在日志的底部。",
             "SimpleCalendarName": "冒险日志：使用简单日历的时间戳",
-            "SimpleCalendarHint": "使用简单日历产生的时间戳，而不是真实时间",
+            "SimpleCalendarHint": "使用简单日历产生时间戳，而非真实时间",
             "UseTimeName": "冒险日志：包含当前时间",
             "UseTimeHint": "包含时间戳形式的当前时间（hh:mm:ss）"
         },
         "Error": {
-            "LibWrapperMissing": "你没有启用libWrapper。Adventure Log依赖于这个模块，没有它将无法运行。",
-            "ConfigGmOnly": "只有GM可以改变冒险日志的配置。",
-            "Disabled": "游戏管理员已禁用冒险日志",
-            "NoJournalSet": "游戏管理员没有设置冒险日志使用的日志",
-            "NoJournalSetGM": "冒险日志没有可用的日志设置，使用“<code>/日志设置</code>”来设置一个",
-            "ApiLog_NotGm": "你必须是GM才能向GM冒险日志中记录事件",
-            "MissingMessage": "你没有提供一则消息",
-            "MissingQuote": "你缺少{0}的封闭引言"
+            "LibWrapperMissing": "你没有启用 libWrapper。冒险日志依赖于此模组，没有它将无法运行。",
+            "ConfigGmOnly": "只有 GM 可以修改冒险日志配置。",
+            "Disabled": "GM 已禁用冒险日志",
+            "NoJournalSet": "GM 没有设置冒险日志所使用的日志",
+            "NoJournalSetGM": "冒险日志没有设置可用的日志，使用“<code>/log config</code>”来设置",
+            "ApiLog_NotGm": "你必须是 GM 才能向 GM 冒险日志中记录事件",
+            "MissingMessage": "你没有提供消息",
+            "MissingQuote": "你漏掉了 {0} 的反引号"
         }
     },
     "DF_CHAT_PLAYER_COLOR": {
