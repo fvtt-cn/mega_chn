@@ -208,7 +208,7 @@
     "DND5EH.LoSMaskNPCs_creatureMask": "一个生物",
     "setting.losKeyBind.hint": "指定一个快捷键来检查选中目标时的掩护状况。",
     "setting.coverApplication.name": "应用掩护",
-    "setting.coverApplication.hint": "允许应用掩护奖励。这些都适用于攻击者，而不是目标。并且只影响近战和远程攻击，不影响敏捷豁免。",
+    "setting.coverApplication.hint": "允许应用掩蔽的加值。这些加值应用于攻击者而非目标。此项仅会影响近战和远程攻击，不影响敏捷豁免。",
     "setting.coverTint.name": "掩护按钮调色",
     "option.coverApplication.manual": "手动",
     "setting.losWithTokens.name": "指示物掩蔽",
