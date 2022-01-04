@@ -13,7 +13,6 @@
                 "description": "<p>当<strong>你进行了一个决定性的行动</strong>并获得强成功时, 并取得强成功时，你可以尝试结算这场战斗的结果。如果你这样做了，请投挑战骰，并与你的进度相比较。在该投骰中，这次掷骰无视气势。</p>\n"
             },
             "Endure Harm": {
-                "description": "",
                 "strong": "<p>若为<strong>强成功</strong>，选择一项。</p>\n<ul>\n<li>Shake it off: If your health is greater than 0, suffer -1 momentum in exchange for +1 health.</li>\n<li>Embrace the pain: 获得+1气势。</li>\n</ul>\n",
                 "weak": "<p>若为<strong>弱成功</strong>, you press on.</p>\n",
                 "title": "忍耐伤害",
@@ -22,11 +21,9 @@
                         "entry1": "The harm is mortal. <em>直面死亡</em>。",
                         "entry2": "You are dying. You need to <em>Heal</em> within an hour or two, or <em>直面死亡</em>。",
                         "entry3": "You are unconscious 并out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to a foe not inclined to show mercy, <em>直面死亡</em>。",
-                        "entry4": "",
                         "entry5": ""
                     }
-                },
-                "miss": ""
+                }
             },
             "Face Danger": {
                 "strong": "<p>若为<strong>强成功</strong>，你成功了，获得+1气势。</p>\n",
@@ -74,12 +71,10 @@
                 "description": "<p>当<strong>你的 journey comes to an end</strong>, roll the challenge dice 并compare to your progress.这次掷骰无视气势。</p>\n",
                 "strong": "<p>若为<strong>强成功</strong>, the situation at your destination favors you. Choose one.</p>\n<ul>\n<li>Make another move now（不能是<em>进度行动</em>），并获得+1。</li>\n<li>获得+1气势。</li>\n</ul>\n",
                 "weak": "<p>若为<strong>弱成功</strong>, you arrive but face an unforeseen hazard or complication.想象你发现了什么（如果不确定，<em>询问先知</em>）。</p>\n",
-                "title": "到达目的地",
-                "miss": ""
+                "title": "到达目的地"
             },
             "Compel": {
                 "title": "操控",
-                "description": "",
                 "strong": "<p>若为<strong>强成功</strong>, they’ll do what you want or share what they know. 获得+1气势。 If you use this exchange to <em>Gather Information</em>, make that move now 并add +1.</p>\n",
                 "weak": "<p>若为<strong>弱成功</strong>, as above, but they ask something of you in return. Envision what they want (如果不确定，<em>询问先知</em>).</p>\n",
                 "miss": "<p>若为<strong>失败</strong>, they refuse or make a dem并which costs you greatly. <em>付出代价</em>。</p>\n"
@@ -87,31 +82,25 @@
             "Sojourn": {
                 "title": "旅居",
                 "description": "<p>当<strong>你 spend time in a community seeking assistance</strong>，投+心灵.如果你们共享一个纽带，获得+1。</p>\n",
-                "weak": "",
                 "miss": "<p>若为<strong>失败</strong>, you find no help here. <em>付出代价</em>。</p>\n",
                 "extradescription": "<p>若为hit, you 并your allies may each focus on one of your chosen recover actions and投+心灵 again.如果你们共享一个纽带，获得+1。</p>\n",
-                "strong": "",
                 "extrastrong": "<p>若为<strong>强成功</strong>, take +2 more for that action.</p>\n",
                 "extraweak": "<p>若为<strong>弱成功</strong>, take +1 more.</p>\n",
                 "extramiss": "<p>若为<strong>失败</strong>, it goes badly 并you lose all benefits for that action.</p>\n"
             },
             "Forge a Bond": {
-                "weak": "",
                 "miss": "<p>若为<strong>失败</strong>, they reject you. <em>付出代价</em>。</p>\n",
                 "title": "缔结纽带",
-                "description": "",
                 "strong": "<p>若为<strong>强成功</strong>, make note of the bond, mark a tick on your bond progress track, 并选择一项。</p>\n<ul>\n<li>获得+1精神。</li>\n<li>获得+2气势。</li>\n</ul>\n"
             },
             "Test Your Bond": {
                 "title": "考验纽带",
                 "description": "<p>当<strong>你的 bond is tested through conflict, betrayal, or circumstance</strong>，投+心灵.</p>\n",
                 "strong": "<p>若为<strong>强成功</strong>, this test has strengthened your bond. Choose one.</p>\n<ul>\n<li>获得+1精神。</li>\n<li>获得+2气势。</li>\n</ul>\n",
-                "weak": "",
                 "miss": "<p>若为<strong>失败</strong>, or if you have no interest in maintaining this relationship, clear the bond 并<em>付出代价</em>。</p>\n"
             },
             "Aid Your Ally": {
-                "title": "援助盟友",
-                "description": ""
+                "title": "援助盟友"
             },
             "Clash": {
                 "title": "交锋",
@@ -131,8 +120,7 @@
                 "title": "直面死亡",
                 "miss": "<p>若为<strong>失败</strong>, you are dead.</p>\n",
                 "description": "<p>当<strong>你 are brought to the brink of death</strong>, 并glimpse the world beyond，投+心灵.</p>\n",
-                "strong": "<p>若为<strong>强成功</strong>, death rejects you. You are cast back into the mortal world.</p>\n",
-                "weak": ""
+                "strong": "<p>若为<strong>强成功</strong>, death rejects you. You are cast back into the mortal world.</p>\n"
             },
             "Companion Endure Harm": {
                 "miss": "",
@@ -145,14 +133,11 @@
                 "title": "忍受压力",
                 "oracles": {
                     "Endure Stress": {
-                        "entry1": "",
                         "entry2": "",
-                        "entry3": "You give in to a fear or compulsion, 并act against your better instincts.",
-                        "entry4": ""
+                        "entry3": "You give in to a fear or compulsion, 并act against your better instincts."
                     }
                 },
                 "miss": "",
-                "description": "",
                 "strong": "<p>若为<strong>强成功</strong>，选择一项。</p>\n<ul>\n<li>Shake it off: If your spirit is greater than 0, suffer -1 momentum in exchange for +1 spirit</li>\n<li>Embrace the darkness: Take +1 momentum</li>\n</ul>\n",
                 "weak": "<p>若为<strong>弱成功</strong>, you press on.</p>\n"
             },
@@ -160,7 +145,6 @@
                 "title": "直面绝望",
                 "description": "<p>当<strong>你 are brought to the brink of desolation</strong>，投+心灵.</p>\n",
                 "strong": "<p>若为<strong>强成功</strong>, you resist 并press on.</p>\n",
-                "weak": "",
                 "miss": "<p>若为<strong>失败</strong>, you succumb to despair or horror 并are lost.</p>\n"
             },
             "Out of Supply": {
@@ -168,19 +152,16 @@
                 "description": "<p>当<strong>你的 supply is exhausted</strong> (reduced to 0), mark unprepared. If you suffer additional -supply while unprepared, 你必须exchange each additional -supply for any combination of -health, -spirit or -momentum as appropriate to the circumstances.</p>\n"
             },
             "Face a Setback": {
-                "title": "直面挫折",
-                "description": ""
+                "title": "直面挫折"
             },
             "Fulfill Your Vow": {
                 "miss": "<p>若为<strong>失败</strong>, your quest is undone. Envision what happens (如果不确定，<em>询问先知</em>), 并选择一项。</p>\n<ul>\n<li>You recommit: Clear all but one filled progress, 并raise the quest’s rank by one (if not already epic).</li>\n<li>You give up: <em>Forsake Your Vow</em>.</li>\n</ul>\n",
                 "title": "实现誓言",
                 "description": "<p>当<strong>你 achieve what you believe to be the fulfillment of your vow</strong>, roll the challenge dice 并compare to your progress.这次掷骰无视气势。</p>\n",
-                "strong": "<p>若为<strong>强成功</strong>, your quest is complete. Mark experience (troublesome=1; dangerous=2; formidable=3; extreme=4; epic=5).</p>\n",
-                "weak": ""
+                "strong": "<p>若为<strong>强成功</strong>, your quest is complete. Mark experience (troublesome=1; dangerous=2; formidable=3; extreme=4; epic=5).</p>\n"
             },
             "Forsake Your Vow": {
-                "title": "放弃誓言",
-                "description": ""
+                "title": "放弃誓言"
             },
             "Advance": {
                 "title": "提升",
@@ -190,33 +171,23 @@
                 "title": "付出代价",
                 "oracles": {
                     "Pay the Price": {
-                        "entry2": "",
                         "entry3": "",
-                        "entry4": "",
                         "entry5": "",
-                        "entry13": "",
                         "entry14": "",
                         "entry1": "Roll again 并apply that result but make it worse. If you roll this result yet again, think of something dreadful that changes the course of your quest (Ask the Oracle if unsure) 并make it happen.",
-                        "entry16": "",
                         "entry6": "",
-                        "entry7": "",
                         "entry8": "",
-                        "entry9": "",
                         "entry10": "",
-                        "entry11": "",
-                        "entry12": "",
-                        "entry15": ""
+                        "entry12": ""
                     }
                 },
                 "description": ""
             },
             "Ask the Oracle": {
-                "title": "询问先知",
-                "description": ""
+                "title": "询问先知"
             },
             "Discover a Site": {
-                "title": "",
-                "description": ""
+                "title": ""
             },
             "Delve the Depths": {
                 "title": "Delve the Depths",
@@ -237,19 +208,16 @@
                         "entry5": "Mark progress twice 并Reveal a Danger."
                     },
                     "Delve the Depths - Wits": {
-                        "entry3": "",
                         "entry4": "Take both: Mark progress 并Find an Opportunity.",
                         "entry5": "Mark progress twice 并Reveal a Danger.",
                         "entry1": "Mark progress 并Reveal a Danger.",
                         "entry2": "Mark progress."
                     }
                 },
-                "description": "",
                 "weak": "",
                 "miss": "<p>若为<strong>失败</strong>, <em>Reveal a Danger</em>.</p>\n"
             },
             "Find an Opportunity": {
-                "title": "",
                 "description": "",
                 "oracles": {
                     "Find an Opportunity": {
@@ -267,9 +235,7 @@
                 }
             },
             "Escape the Depths": {
-                "weak": "",
                 "title": "Escape the Depths",
-                "description": "",
                 "strong": "<p>若为<strong>强成功</strong>, you make your way safely out of the site. 获得+1气势。 </p>\n",
                 "miss": "<p>若为<strong>失败</strong>, a dire threat or imposing obstacle stands in your way. <em>Reveal a Danger</em>. If you survive, you may make your escape.</p>\n"
             },
@@ -278,8 +244,7 @@
                 "description": "<p>当<strong>你 make a move 并score a miss</strong>, mark a tick on your failure track. If <strong>你 score a miss when making a progress move</strong>, mark two ticks.</p>\n"
             },
             "Take a Hiatus": {
-                "title": "Take a Hiatus",
-                "description": ""
+                "title": "Take a Hiatus"
             },
             "Gather Information": {
                 "title": "获取信息",
@@ -291,13 +256,11 @@
             "Swear an Iron Vow": {
                 "title": "发下铁誓",
                 "weak": "<p>若为<strong>弱成功</strong>, you are determined but begin your quest with more questions than answers. Take +1 momentum, 并envision what you do to find a path forward.</p>\n",
-                "miss": "",
                 "description": "",
                 "strong": "<p>若为<strong>强成功</strong>, you are emboldened 并it is clear what 你必须do next (如果不确定，<em>询问先知</em>). 获得+2气势。</p>\n"
             },
             "Reach a Milestone": {
-                "title": "抵达里程碑",
-                "description": ""
+                "title": "抵达里程碑"
             },
             "Reveal a Danger": {
                 "oracles": {
@@ -328,8 +291,7 @@
                         "entry10": "Roll twice more on this table. Both results occur. If they are the same result, make it worse."
                     }
                 },
-                "title": "Reveal a Danger",
-                "description": ""
+                "title": "Reveal a Danger"
             },
             "Check Your Gear": {
                 "title": "Check Your Gear",
@@ -342,34 +304,28 @@
                 "title": "Locate Your Objective",
                 "description": "<p>当<strong>你的 exploration of a site comes to an end</strong>, roll the challenge dice 并compare to your progress.这次掷骰无视气势。</p>\n",
                 "strong": "<p>若为<strong>强成功</strong>, you locate your objective 并the situation favors you. Choose one.</p>\n<ul>\n<li>Make another move now (not a progress move)，并获得+1。</li>\n<li>获得+1气势。</li>\n</ul>\n",
-                "weak": "<p>若为<strong>弱成功</strong>, you locate your objective but face an unforeseen hazard or complication. Envision what you find (<strong>Ask the Oracle</strong> if unsure).</p>\n",
-                "miss": ""
+                "weak": "<p>若为<strong>弱成功</strong>, you locate your objective but face an unforeseen hazard or complication. Envision what you find (<strong>Ask the Oracle</strong> if unsure).</p>\n"
             },
             "Reveal a Danger (alternate version)": {
-                "title": "Reveal a Danger (alternate version)",
-                "description": ""
+                "title": "Reveal a Danger (alternate version)"
             },
             "Wield a Rarity": {
-                "title": "Wield a Rarity",
-                "description": ""
+                "title": "Wield a Rarity"
             },
             "Draw the Circle": {
                 "title": "决斗",
                 "description": "<p>当<strong>你 challenge someone to a formal duel, or accept a challenge</strong>，投+心灵. If you share a bond with this community, add +1.</p>\n",
                 "strong": "<p>若为<strong>强成功</strong>, 获得+1气势。 You may also choose up to two boasts 并take +1 momentum for each.</p>\n",
-                "weak": "",
                 "miss": ""
             },
             "Write Your Epilogue": {
                 "title": "写下终章",
                 "description": "<p>当<strong>你 retire from your life as Ironsworn</strong>, envision two things: What you hope for, 并what you fear. Then, roll the challenge dice 并compare to your bonds.这次掷骰无视气势。</p>\n",
                 "strong": "<p>若为<strong>强成功</strong>, things come to pass as you hoped.</p>\n",
-                "weak": "",
                 "miss": "<p>若为<strong>失败</strong>, your fears are realized. </p>\n"
             },
             "Enter the Fray": {
                 "title": "进入战斗",
-                "description": "",
                 "strong": "<p>若为<strong>强成功</strong>, 获得+2气势。你获得主动权。</p>\n",
                 "weak": "<p>若为<strong>弱成功</strong>，选择一项。</p>\n<ul>\n<li>Bolster your position: 获得+2气势。</li>\n<li>Prepare to act: Take initiative.</li>\n</ul>\n",
                 "miss": "<p>若为<strong>失败</strong>, combat begins with you at a disadvantage. <em>付出代价</em>。你的敌人拥有主动权。</p>\n"
@@ -384,13 +340,11 @@
             "Learn From Your Failures": {
                 "title": "Learn From Your Failures",
                 "description": "<p>当<strong>你 spend time reflecting on your hardships 并missteps</strong>, 并your failure track is +6 or greater, roll your challenge dice 并compare to your progress.这次掷骰无视气势。</p>\n",
-                "strong": "",
                 "weak": "<p>若为<strong>弱成功</strong>, you learn from your mistakes. Take 2 experience 并clear all progress.</p>\n",
                 "miss": "<p>若为<strong>失败</strong>, you’ve learned the wrong lessons. Take 1 experience 并clear all progress. Then, envision how you set off on an ill-fated path.</p>\n"
             },
             "Advance a Threat": {
                 "title": "Advance a Threat",
-                "description": "",
                 "oracles": {
                     "Advance a Threat": {
                         "entry1": "The threat readies its next step, or a new danger looms. If you are in a position to prevent this development, you may attempt to do so. If you succeed, Reach a Milestone. Otherwise, mark menace.",
@@ -402,7 +356,6 @@
         },
         "DomainContents": {
             "Barrow": {
-                "description": "",
                 "feature1": "Burial chambers",
                 "feature2": "Maze of narrow passages",
                 "feature3": "Shrine",
@@ -426,7 +379,6 @@
             "Cavern": {
                 "title": "Cavern",
                 "summary": "A place of stone 并darkness.",
-                "description": "",
                 "feature1": "Twisting passages",
                 "feature4": "Subterranean waterway",
                 "feature5": "Cave pool",
@@ -462,7 +414,6 @@
                 "feature10": "Something unusual or unexpected",
                 "feature11": "You transition into a new theme",
                 "danger4": "Bitter chill",
-                "description": "",
                 "feature1": "Maze of icy tunnels",
                 "feature2": "Glistening cave",
                 "danger5": "Disorienting reflections"
@@ -477,7 +428,6 @@
                 "danger5": "Foul weather",
                 "title": "Icereach",
                 "summary": "A frigid landscape formed of frozen seas.",
-                "description": "",
                 "feature1": "Plains of ice 并snow",
                 "feature2": "Seawater channel",
                 "feature3": "Icy highlands",
@@ -494,7 +444,6 @@
                 "summary": "Tunnels dug greedily 并deep.",
                 "feature1": "Cramped tunnels",
                 "feature2": "Mine works",
-                "description": "",
                 "feature3": "Excavated chamber",
                 "feature4": "Mineshaft",
                 "feature5": "Collapsed tunnel",
@@ -523,7 +472,6 @@
                 "feature10": "Something unusual or unexpected",
                 "title": "Pass",
                 "summary": "Treacherous paths over high mountains.",
-                "description": "",
                 "feature1": "Winding mountain path",
                 "feature11": "You transition into a new theme",
                 "feature12": "You transition into a new domain",
@@ -544,7 +492,6 @@
                 "danger3": "Blocked or broken passage",
                 "title": "Ruin",
                 "summary": "The crumbling legacy of a dead civilization.",
-                "description": "",
                 "feature6": "Broken statuary or fading murals",
                 "feature7": "Preserved vault",
                 "feature8": "Temple to forgotten gods",
@@ -561,7 +508,6 @@
                 "danger4": "Rushing current",
                 "danger5": "Claustrophobic squeeze",
                 "summary": "Stone passages carved by ocean waves.",
-                "description": "",
                 "feature1": "Watery tunnels",
                 "title": "Sea Cave",
                 "feature2": "Eroded chamber",
@@ -582,7 +528,6 @@
                 "summary": "A primeval marsh, cloaked in mist.",
                 "feature1": "Narrow path through a fetid bog",
                 "feature2": "Stagnant waterway",
-                "description": "",
                 "feature3": "Flooded thicket",
                 "feature4": "Isl并of dry land",
                 "feature5": "Submerged discovery",
@@ -612,7 +557,6 @@
                 "feature11": "You transition into a new theme",
                 "title": "Tanglewood",
                 "summary": "A perilous forest of eternal shadow.",
-                "description": "",
                 "feature3": "Waterway",
                 "feature12": "You transition into a new domain",
                 "danger1": "Denizen hunts",
@@ -624,7 +568,6 @@
             "Underkeep": {
                 "title": "Underkeep",
                 "summary": "An age-old subterranean dungeon.",
-                "description": "",
                 "feature1": "Carved passages",
                 "feature2": "Hall or chamber",
                 "feature3": "Stairs into the depths",
@@ -646,7 +589,6 @@
             "Stronghold": {
                 "title": "Stronghold",
                 "summary": "A fortress secured against trespassers.",
-                "description": "",
                 "feature1": "Connecting passageways",
                 "feature2": "Barracks or common quarters",
                 "feature3": "Large hall",
@@ -731,7 +673,6 @@
                 "danger9": "Illusions lead you astray",
                 "title": "Corrupted",
                 "summary": "This place is tainted by dark magic.",
-                "description": "",
                 "feature1": "Mystic focus or conduit",
                 "feature2": "Strange environmental disturbances",
                 "feature3": "Mystic runes or markings",
@@ -755,7 +696,6 @@
                 "danger12": "Alarm trigger",
                 "title": "Fortified",
                 "summary": "Foes defend this place against intruders.",
-                "description": "",
                 "feature1": "Camp or quarters",
                 "feature2": "Guarded location",
                 "feature3": "Storage or repository",
@@ -777,7 +717,6 @@
                 "danger7": "Divine manifestations",
                 "danger8": "Aspect of the faith beguiles you",
                 "danger9": "Unexpected leader is revealed",
-                "description": "",
                 "feature1": "Temple or altar",
                 "feature2": "Offerings or atonements",
                 "feature3": "Religious relic or idol",
@@ -802,7 +741,6 @@
                 "danger12": "Sudden, shocking manifestation",
                 "title": "Haunted",
                 "summary": "Restless spirits are bound to this place.",
-                "description": "",
                 "feature1": "Tomb or burial site",
                 "feature2": "Blood was spilled here",
                 "feature3": "Unnatural mists or darkness",
@@ -820,7 +758,6 @@
                 "summary": "Foul creatures dwell here.",
                 "feature1": "Inhabited nest",
                 "feature2": "Abandoned nest",
-                "description": "",
                 "feature3": "Ravaged terrain or architecture",
                 "feature4": "Remains or carrion",
                 "feature5": "Hoarded food",
@@ -840,7 +777,6 @@
             "Ancient": {
                 "title": "Ancient",
                 "summary": "This place holds the secrets of a bygone age.",
-                "description": "",
                 "feature1": "Evidence of lost knowledge",
                 "feature2": "Inscrutable relics",
                 "feature3": "Ancient artistry or craft",
@@ -862,7 +798,6 @@
             "Ravaged": {
                 "title": "Ravaged",
                 "summary": "Time, disaster, or strife have taken their toll.",
-                "description": "",
                 "feature1": "Path of destruction",
                 "feature2": "Abandoned or ruined dwelling",
                 "feature3": "Untouched or preserved area",
@@ -884,7 +819,6 @@
             "Wild": {
                 "title": "Wild",
                 "summary": "Nature prevails in this place.",
-                "description": "",
                 "feature1": "Denizen’s lair",
                 "feature2": "Territorial markings",
                 "feature3": "Impressive flora or fauna",
@@ -909,10 +843,8 @@
                 "option1": "我们是第一批行走在这片土地上的人类。",
                 "name": "传承",
                 "quest1": "第一批定居者的记录中有一段描诉着深山荒野中心地带的一片小树林。据说这个地方的精魂会赐予一种神奇的祝福。它究竟赐予了什么恩惠？",
-                "option2": "",
                 "quest2": "收获不足。无情的大雪使村庄与世隔绝。食物即将耗尽。你要怎么做才能让这些人度过这个恶劣的季节？",
-                "option3": "在这片土地上，到处都有令人难以置信的金属柱。它们呈铁灰色，像河底的鹅卵石一样光滑。没有人知道它们的用途。有人说它们和世界一样古老。有些人，如铁祭司，还会崇拜它们，并在它们面前立下誓言。大多数人在遇到它们的时候，都会做出保佑的手势，然后匆匆赶路。这些柱子不会褪色，即使是最锋利的刀剑也无法划伤它们。",
-                "quest3": ""
+                "option3": "在这片土地上，到处都有令人难以置信的金属柱。它们呈铁灰色，像河底的鹅卵石一样光滑。没有人知道它们的用途。有人说它们和世界一样古老。有些人，如铁祭司，还会崇拜它们，并在它们面前立下誓言。大多数人在遇到它们的时候，都会做出保佑的手势，然后匆匆赶路。这些柱子不会褪色，即使是最锋利的刀剑也无法划伤它们。"
             },
             "Communities": {
                 "name": "聚落",
