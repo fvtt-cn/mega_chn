@@ -538,5 +538,14 @@
     "AUTOANIM.snowflakes": "雪花",
     "AUTOANIM.heart": "心脏",
     "AUTOANIM.skullabove": "上方骷髅",
-    "AUTOANIM.rolled": "掷骰"
+    "AUTOANIM.rolled": "掷骰",
+    "AUTOANIM.speed": "速度",
+    "AUTOANIM.arc": "电弧",
+    "AUTOANIM.alpha": "透明度",
+    "AUTOANIM.gravity": "引力",
+    "AUTOANIM.mass": "质量",
+    "AUTOANIM.rate": "速率",
+    "AUTOANIM.sprite": "精魂",
+    "AUTOANIM.life": "生命",
+    "AUTOANIM.emiterSize": "发射器尺寸"
 }
