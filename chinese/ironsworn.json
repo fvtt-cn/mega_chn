@@ -20,8 +20,7 @@
                     "Endure Harm": {
                         "entry1": "The harm is mortal. <em>直面死亡</em>。",
                         "entry2": "You are dying. You need to <em>Heal</em> within an hour or two, or <em>直面死亡</em>。",
-                        "entry3": "You are unconscious 并out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to a foe not inclined to show mercy, <em>直面死亡</em>。",
-                        "entry5": ""
+                        "entry3": "You are unconscious 并out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to a foe not inclined to show mercy, <em>直面死亡</em>。"
                     }
                 }
             },
@@ -123,7 +122,6 @@
                 "strong": "<p>若为<strong>强成功</strong>, death rejects you. You are cast back into the mortal world.</p>\n"
             },
             "Companion Endure Harm": {
-                "miss": "",
                 "title": "伙伴忍受伤害",
                 "description": "<p>当<strong>你的 companion faces physical damage</strong>, they suffer -health equal to the amount of harm inflicted. If your companion’s health is 0, exchange any leftover -health for -momentum. Then，投+心灵 or +your companion’s health, whichever is higher.</p>\n",
                 "strong": "<p>若为<strong>强成功</strong>, your companion rallies. Give them +1 health.</p>\n",
@@ -133,11 +131,9 @@
                 "title": "忍受压力",
                 "oracles": {
                     "Endure Stress": {
-                        "entry2": "",
                         "entry3": "You give in to a fear or compulsion, 并act against your better instincts."
                     }
                 },
-                "miss": "",
                 "strong": "<p>若为<strong>强成功</strong>，选择一项。</p>\n<ul>\n<li>Shake it off: If your spirit is greater than 0, suffer -1 momentum in exchange for +1 spirit</li>\n<li>Embrace the darkness: Take +1 momentum</li>\n</ul>\n",
                 "weak": "<p>若为<strong>弱成功</strong>, you press on.</p>\n"
             },
@@ -171,23 +167,15 @@
                 "title": "付出代价",
                 "oracles": {
                     "Pay the Price": {
-                        "entry3": "",
                         "entry5": "",
-                        "entry14": "",
                         "entry1": "Roll again 并apply that result but make it worse. If you roll this result yet again, think of something dreadful that changes the course of your quest (Ask the Oracle if unsure) 并make it happen.",
-                        "entry6": "",
                         "entry8": "",
-                        "entry10": "",
                         "entry12": ""
                     }
-                },
-                "description": ""
+                }
             },
             "Ask the Oracle": {
                 "title": "询问先知"
-            },
-            "Discover a Site": {
-                "title": ""
             },
             "Delve the Depths": {
                 "title": "Delve the Depths",
@@ -214,11 +202,9 @@
                         "entry2": "Mark progress."
                     }
                 },
-                "weak": "",
                 "miss": "<p>若为<strong>失败</strong>, <em>Reveal a Danger</em>.</p>\n"
             },
             "Find an Opportunity": {
-                "description": "",
                 "oracles": {
                     "Find an Opportunity": {
                         "entry1": "The terrain favors you, or you find a hidden path.",
@@ -256,7 +242,6 @@
             "Swear an Iron Vow": {
                 "title": "发下铁誓",
                 "weak": "<p>若为<strong>弱成功</strong>, you are determined but begin your quest with more questions than answers. Take +1 momentum, 并envision what you do to find a path forward.</p>\n",
-                "description": "",
                 "strong": "<p>若为<strong>强成功</strong>, you are emboldened 并it is clear what 你必须do next (如果不确定，<em>询问先知</em>). 获得+2气势。</p>\n"
             },
             "Reach a Milestone": {
@@ -315,8 +300,7 @@
             "Draw the Circle": {
                 "title": "决斗",
                 "description": "<p>当<strong>你 challenge someone to a formal duel, or accept a challenge</strong>，投+心灵. If you share a bond with this community, add +1.</p>\n",
-                "strong": "<p>若为<strong>强成功</strong>, 获得+1气势。 You may also choose up to two boasts 并take +1 momentum for each.</p>\n",
-                "miss": ""
+                "strong": "<p>若为<strong>强成功</strong>, 获得+1气势。 You may also choose up to two boasts 并take +1 momentum for each.</p>\n"
             },
             "Write Your Epilogue": {
                 "title": "写下终章",
