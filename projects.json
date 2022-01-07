@@ -179,5 +179,9 @@
     {
         "name": "ironsworn",
         "src": "https://raw.githubusercontent.com/ben/foundry-ironsworn/main/system/lang/en.json"
+    },
+    {
+        "name": "gurps",
+        "src": "https://github.com/crnormand/gurps/raw/main/lang/en.json"
     }
 ]
