@@ -183,5 +183,9 @@
     {
         "name": "gurps",
         "src": "https://github.com/crnormand/gurps/raw/main/lang/en.json"
+    },
+    {
+        "name": "swade-tools",
+        "src": "https://raw.githubusercontent.com/lipefl/swade-tools/main/lang/en.json"
     }
 ]
