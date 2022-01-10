@@ -80,8 +80,8 @@
     "MinimalUI.HotbarPositionMaxLeft": "左（Foundry默认）",
     "MinimalUI.SettingsPartiallyVisible": "部分可见",
     "MinimalUI.ControlsSubHideName": "左侧控制栏的子菜单风格",
-    "MinimalUI.TransparencyPercentageName": "悬停透明度百分比",
-    "MinimalUI.TransparencyPercentageHint": "我们的鼠标悬停之前，其透明度是多少？默认：75",
+    "MinimalUI.TransparencyPercentageName": "悬停不透明度百分比",
+    "MinimalUI.TransparencyPercentageHint": "鼠标悬停前，组件的不透明度是多少？默认：100",
     "MinimalUI.SettingsAutoHidePlus": "进阶自动隐藏",
     "MinimalUI.SettingsClickToggle": "点击切换"
 }
