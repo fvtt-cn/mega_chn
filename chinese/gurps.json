@@ -542,5 +542,9 @@
     "GURPS.chatHelpStatus": "设置指示物的效果状态<hr>参数：\ntoggle|t：开关状态\non|+|set：打开状态\noff|-|unset：关闭状态\nclear：移除所有状态\n&lt;指示物名称&gt;|@self：影响的指示物\nlist：展示所有状态名\n{JSON data}：可选的“duration.combat”数据<hr>例子\n/st on prone Bog\n/st - shock1 @self\n/st list",
     "GURPS.chatHelpRemote": "远程执行即时生效公式<hr>参数：\n[OtF]：即时生效公式\n&lt;玩家名称&gt;|<i>空白</i>：玩家名称列表（或<i>空白</i>来发送给所有玩家）<hr>例子：\n/rem &#91;&rlm;PER] Chris\n/rem [&rlm;ST+2]",
     "GURPS.pointDamage": "<span class='roll-value'>{damage}</span>点伤害",
-    "GURPS.pointsDamage": "<span class='roll-value'>{damage}</span>点伤害。"
+    "GURPS.pointsDamage": "<span class='roll-value'>{damage}</span>点伤害。",
+    "__Permissions__": "=========",
+    "__Drag Ruler__": "=========",
+    "__Fantastic Dungeon Grappling__": "=========",
+    "__Damage Types__": "========="
 }
