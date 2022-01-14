@@ -82,7 +82,7 @@
     "GURPS.move": "移动",
     "GURPS.oneHandLift": "单手举力",
     "__Char Sheet__": "=========",
-    "GURPS.copyrightGURPS": "GURPS 是 Steve Jackson Games 的注册商标，其规则和艺术的版权亦由Steve Jackson Games拥有。所有权利由 Steve Jackson Games 保留。本游戏辅助工具是Chris Normand/Nose66的原创作品，根据 http://www.sjgames.com/general/online_policy.html 授予的权限，免费发布，不得转售。",
+    "GURPS.copyrightGURPS": "GURPS 是 Steve Jackson Games 的注册商标，其规则和艺术的版权亦由Steve Jackson Games拥有。所有权利由 Steve Jackson Games 保留。本游戏辅助工具是Chris Normand/Nose66的原创作品，根据 http://www.sjgames.com/general/online_policy.html 授予的权限，免费发布，不得转售",
     "__Character Description__": "=========",
     "GURPS.descriptionSizeModifier": "体型修正（SM）",
     "GURPS.point": "点数",
@@ -701,5 +701,6 @@
     "GURPS.importGCSNoUses": "该文件由旧版本的GCA Export创建，其未包含装备的“使用次数”列。",
     "GURPS.importGCSNoMeleeRangedNotesForSameItem": "该文件由旧版本的GCA Export创建，其没有导出由相同物品创建的个人近战与远程攻击笔记。",
     "GURPS.importGCANoParent": "该文件由旧版本的GCA Export创建，其不包含优势/劣势、技能、法术的“父类”属性。",
-    "GURPS.importGCSNoParent": "该文件由旧版本的GCA Export创建，其未包含“父类”属性。物品无法出现在它们的容器内。"
+    "GURPS.importGCSNoParent": "该文件由旧版本的GCA Export创建，其未包含“父类”属性。物品无法出现在它们的容器内。",
+    "GURPS.modifierQualityNone": "无"
 }
