@@ -504,5 +504,7 @@
     "midi-qol._comment for translaters_noDamage": "Midi 将在法术描述中搜索下列文本",
     "midi-qol._comment for translaters_fullDamage": "Midi 将在法术描述中搜索下列文本",
     "midi-qol._comment for translaters_halfDamage": "Midi 将在法术描述中搜索下列文本",
-    "midi-qol._comment for translaters_halfDamageAlt": "Midi 将在法术描述中搜索下列文本"
+    "midi-qol._comment for translaters_halfDamageAlt": "Midi 将在法术描述中搜索下列文本",
+    "midi-qol.SpellUseSoundRanged.Name": " 法术使用（远程）",
+    "midi-qol.WeaponUseSoundRanged.Name": " 武器使用（远程）"
 }
