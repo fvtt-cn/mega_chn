@@ -1157,6 +1157,5 @@
     "Setup": "设置",
     "Import or update the content from the WFRP4e Core Module": "从WFRP4e核心模组中导入或更新内容",
     "WFRP4e Content Setup": "WFRP4e内容设置",
-    "CHAT.DiseaseFinish": "{disease}的持续时间已结束。",
-    "MARKET.d": ""
+    "CHAT.DiseaseFinish": "{disease}的持续时间已结束。"
 }
