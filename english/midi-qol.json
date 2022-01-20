@@ -460,6 +460,7 @@
 	"midi-qol.HPUpdated": "HP Updated",
 	"midi-qol.HPNotUpdated": "HP Not Updated",
 	"midi-qol.reactionDamaged": "Damaged",
+  "midi-qol.reactionManual": "Manual",
 	"midi-qol.ddbGL.Name": "Enable ddb-game-log support",
 	"midi-qol.ddbGL.Hint": "Accept attack/damage/saving throws from ddb-game-log to trigger midi workflows in foundry",
 	"midi-qol.ShowReactionChatMessage.Name": "Show Chat prompt for reactions",
@@ -473,5 +474,9 @@
   "midi-qol._comment for translaters_ItemMacroText": "The text below is searched for by midi in the onUseMacro field in item data. If you change it every item with an onUseMacro will need to be chaged to match",
   "midi-qol.ItemMacroText": "ItemMacro",
   "midi-qol.LateTargeting.Name": "Experimental: Allow targeting after starting the roll",
-  "midi-qol.LateTargeting.Hint": "When rolling with auto roll attack set, items which are not AoE, Ranged or self targetting will pause and wait for targets to be selected. Switch out of targeting mode in the controls HUD"
+  "midi-qol.LateTargeting.Hint": "When rolling with auto roll attack set, items which are not AoE, Ranged or self targetting will pause and wait for targets to be selected. Switch out of targeting mode in the controls HUD",
+  "midi-qol.AddDead.Name": "When HP = 0: NPC Add Defeated, PC Add Convenient Effect Unconscious",
+  "midi-qol.Wounded": "Wounded",
+  "midi-qol.AddWounded.Name": "Mark Wounded when hp falls below %",
+  "midi-qol.AddWounded.Hint": "Add Custom Convenient Effect 'Wounded' when HP are less than specified percentage of max. 0 disables. You must create the Custom Convenient Effect yourself"
 }
