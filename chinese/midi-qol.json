@@ -506,5 +506,10 @@
     "midi-qol._comment for translaters_halfDamage": "Midi 将在法术描述中搜索下列文本",
     "midi-qol._comment for translaters_halfDamageAlt": "Midi 将在法术描述中搜索下列文本",
     "midi-qol.SpellUseSoundRanged.Name": " 法术使用（远程）",
-    "midi-qol.WeaponUseSoundRanged.Name": " 武器使用（远程）"
+    "midi-qol.WeaponUseSoundRanged.Name": " 武器使用（远程）",
+    "midi-qol.reactionManual": "手册",
+    "midi-qol.AddDead.Name": "当HP=0：NPC变为被击败，PC变为昏迷状态",
+    "midi-qol.Wounded": "重伤",
+    "midi-qol.AddWounded.Name": "当HP低于__%时标记为重伤",
+    "midi-qol.AddWounded.Hint": "当明生命值小于最大值的特定百分比时添加自定义效果状态“重伤”。0为禁用。你必须自己创建自定义效果"
 }
