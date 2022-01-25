@@ -39,5 +39,8 @@
     "ACTIVEAURAS.measurmentoptions_hint": "使用系统定义的移动方式测量系统，而非直线（欧几里得几何距离），默认开启",
     "ACTIVEAURAS.measurementHeight_hint": "光环所使用测量高度的系统。开启后使用高度的简单对比，否则使用欧几里得距离（实验性功能）",
     "ACTIVEAURAS.FORM_Wildcard": "应用到通配符指示物",
-    "ACTIVEAURAS.FORM_Extra": "应用到额外指示物"
+    "ACTIVEAURAS.FORM_Extra": "应用到额外指示物",
+    "ACTIVEAURAS.scrollingAura": "禁用光环的文字卷动",
+    "ACTIVEAURAS.scrollingAuraHint": "移除任何已应用光环中激活效果的文字卷动",
+    "ACTIVEAURAS.FORM_Temporary": "为指示物应用激活效果图标"
 }
