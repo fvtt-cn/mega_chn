@@ -274,6 +274,7 @@
 		"ifSave": "If Save present",
 		"activation": "Activation Condition"
 	},
+  "midi-qol.ReactionAlreadyUsed": "You have already used your reaction this round",
 	"midi-qol.GMDoReactionsOptions": { "all": "On", "none": "off" },
 	"midi-qol.DoReactionsOptions": { "all": "On", "none": "off" },
 	"midi-qol.ShowReactionAttackRoll.Name": "Show attack roll",
@@ -478,5 +479,7 @@
   "midi-qol.AddDead.Name": "When HP = 0: NPC Add Defeated, PC Add Convenient Effect Unconscious",
   "midi-qol.Wounded": "Wounded",
   "midi-qol.AddWounded.Name": "Mark Wounded when hp falls below %",
-  "midi-qol.AddWounded.Hint": "Add Custom Convenient Effect 'Wounded' when HP are less than specified percentage of max. 0 disables. You must create the Custom Convenient Effect yourself"
+  "midi-qol.AddWounded.Hint": "Add Custom Convenient Effect 'Wounded' when HP are less than specified percentage of max. 0 disables. You must create the Custom Convenient Effect yourself",
+  "midi-qol.debugCallTiming.Name": "Log execution timing",
+  "midi-qol.debugCallTiming.Hint": "Provide some log information about how long things take"
 }
