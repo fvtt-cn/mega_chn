@@ -511,5 +511,8 @@
     "midi-qol.AddDead.Name": "当HP=0：NPC变为被击败，PC变为昏迷状态",
     "midi-qol.Wounded": "重伤",
     "midi-qol.AddWounded.Name": "当HP低于__%时标记为重伤",
-    "midi-qol.AddWounded.Hint": "当明生命值小于最大值的特定百分比时添加自定义效果状态“重伤”。0为禁用。你必须自己创建自定义效果"
+    "midi-qol.AddWounded.Hint": "当明生命值小于最大值的特定百分比时添加自定义效果状态“重伤”。0为禁用。你必须自己创建自定义效果",
+    "midi-qol.debugCallTiming.Name": "记录执行时间",
+    "midi-qol.debugCallTiming.Hint": "提供一些耗时相关的日志信息",
+    "midi-qol.ReactionAlreadyUsed": "你已在此轮使用过你的反应"
 }
