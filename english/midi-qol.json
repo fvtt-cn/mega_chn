@@ -34,7 +34,7 @@
 	"midi-qol.AutoCheckSaves.Name": "Auto check Saves",
 	"midi-qol.AutoCheckSaves.Hint": "Automatically check saving throws when a saving throw is required. If disabled it will assume that all targets failed their save.",
   "midi-qol.AutoFailSavesFriendly.Name": "Fail saves from friendly caster",
-  "midi-qol.AtoFailSavesFriendly.Hint": "When a saving throw is required from a friendly caster auto fail the saving throw",
+  "midi-qol.AutoFailSavesFriendly.Hint": "When a saving throw is required from a friendly caster auto fail the saving throw",
 	"midi-qol.DisplaySaveDC.Name": "Display Saving throw DC",
 	"midi-qol.DisplaySaveDC.Hint": "If false hide the DC of the saving throw from the players (Merge card only)",
 	"midi-qol.AutoRemoveTargets.Name": "Untarget at end of turn",
