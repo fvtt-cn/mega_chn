@@ -434,6 +434,11 @@
 	"midi-qol.flags.midi-qol.bardicInspiration": "Bardic Inspiration",
 	"midi-qol.ExportJSon": "Export Roll Stats to Json file",
 	"midi-qol.ExportCSV": "Export Roll Stats to CSV file",
+  "midi-qol.AutoCEEffectsOptions" : {
+    "none": "Don't Apply",
+    "cepri": "Apply CE, if absent apply item effects",
+    "both": "Apply CE and item effects"
+  },
 	"midi-qol.AutoCEEffects.Name": "Apply Convenient Effects",
 	"midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used. Requires auto apply active effects enabled as well.",
 	"midi-qol.BonusACCover": "AC Cover",
@@ -487,5 +492,7 @@
   "midi-qol.KeysDisadvantage.Hint": " Roll with disadvantage",
   "midi-qol.KeysCritical.Hint": "Roll critical damage (from chat card only)",
   "midi-qol.KeysVersatile.Hint": "Roll Verstatile Damage",
-  "midi-qol.KeysOther.Hint": "Roll Other formula as damage"
+  "midi-qol.KeysOther.Hint": "Roll Other formula as damage",
+  "midi-qol.FixStickyKeys.Name": "Fix sticky adv/ctl/shift",
+  "midi-qol.FixStickyKeys.Hint": "If set midi will attempt to resolve adv/ctl/shift being stuck 'on'"
 }
