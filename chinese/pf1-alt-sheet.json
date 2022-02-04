@@ -61,7 +61,7 @@
         },
         "Chat": {
             "AttackChatCard": "替换（由pf1-alt-sheet提供）",
-            "addAttackChatCardTemplateN": "增加替换央视的攻击投骰聊天卡片",
+            "addAttackChatCardTemplateN": "增加替换样式的攻击投骰聊天卡片",
             "addAttackChatCardTemplateH": "增加了另一个替换样式的攻击投骰聊天卡片以供选择。你需要在系统设置中手动选择。"
         }
     }
