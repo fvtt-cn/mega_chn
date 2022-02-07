@@ -40,7 +40,8 @@
         },
         "Spells": {
             "CannotCast": "You cannot cast spells of this level because:",
-            "CannotCastAbilityScore": "- your ability score is not high enough"
+            "CannotCastAbilityScore": "- your ability score is not high enough",
+            "NoSpellsLeft": "No spells left"
         },
         "Skill": {
             "AlwaysShow": "AS",
