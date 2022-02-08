@@ -494,5 +494,15 @@
   "midi-qol.KeysVersatile.Hint": "Roll Verstatile Damage",
   "midi-qol.KeysOther.Hint": "Roll Other formula as damage",
   "midi-qol.FixStickyKeys.Name": "Fix sticky adv/ctl/shift",
-  "midi-qol.FixStickyKeys.Hint": "If set midi will attempt to resolve adv/ctl/shift being stuck 'on'"
+  "midi-qol.FixStickyKeys.Hint": "If set midi will attempt to resolve adv/ctl/shift being stuck 'on'",
+  "midi-qol.DisplaySaveAdvantage.Name": "Display if save had Advantage/Disadvantage",
+  "midi-qol.QuickSettings": "QuickSettings",
+  "midi-qol.QuickSettingsBlurb": {
+    "1": "Quick settings let you set a combination of settings at once.",
+    "2": "When one of the buttons below is pushed the changes are immediately made to your settings",
+    "3": "A list of changes is displayed once the application is complete",
+    "4": "Suggestions for improvements welcome"
+  },
+  "midi-qol.NoOptionalRules.Name": "No optional rules",
+  "midi-qol.NoOptionalRules.Hint": "Disable optional rules for this roll"
 }
