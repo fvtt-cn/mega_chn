@@ -325,5 +325,12 @@
     "dae.ShowInline.Name": "显示内联掷骰的结果",
     "dae.ShowInline.Hint": "若设置，带有内联掷骰的效果将会显示掷骰结果",
     "dae.forceToHud.Name": "强制在指示物上显示",
-    "dae.forceToHud.Hint": "若设置为非空，则效果图标会在指示物上一直显示"
+    "dae.forceToHud.Hint": "若设置为非空，则效果图标会在指示物上一直显示",
+    "dae.light": "光照",
+    "dae.bright": "明亮",
+    "dae.dim": "微光",
+    "dae.color": "光照颜色",
+    "dae.animation": "动画",
+    "dae.alpha": "透明度",
+    "dae.angle": "角度"
 }

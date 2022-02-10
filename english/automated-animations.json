@@ -568,6 +568,36 @@
     "AUTOANIM.particlenote": "Particle Settings for 3D Canvas Module",
     "AUTOANIM.sortmenu": "Sort Menu",
     "AUTOANIM.decoupleSounds": "Decouple Sounds",
-    "AUTOANIM.decoupleSounds_hint": "Prevents Sounds from Repeating with Animations"
+    "AUTOANIM.decoupleSounds_hint": "Prevents Sounds from Repeating with Animations",
 
+    "AUTOANIM.end": "End",
+    "AUTOANIM.hideBorder": "Hide from Players",
+    "AUTOANIM.gridMeasure": "Grid Measurement",
+
+    "AUTOANIM.playbackRate": "Playback Rate",
+    "AUTOANIM.constantScaleY": "Constant Y Scale",
+    "AUTOANIM.macro": "Macro",
+    "AUTOANIM.add": "Add",
+    "AUTOANIM.args": "Send Args",
+
+
+    "AUTOANIM.darkwhite": "Dark White",
+    "AUTOANIM.darkpurplered": "Dark Purple Red",
+    "AUTOANIM.energy": "Energy",
+    "AUTOANIM.conduit": "Conduit",
+    "AUTOANIM.liquid": "Liquid",
+    "AUTOANIM.splash": "Splash",
+    "AUTOANIM.brightgreen": "Bright Green",
+    "AUTOANIM.brightblue": "Bright Blue",
+    "AUTOANIM.purplegreen": "Purple Green",
+    "AUTOANIM.eruption": "Eruption",
+    "AUTOANIM.circleofstars": "Circle of Stars",
+    "AUTOANIM.dualattach": "Dual Attach",
+    "AUTOANIM.noTips": "Disable Persistent Effect Tips",
+    "AUTOANIM.noTipsHint": "Disables the Tooltip for how to Delete Persistent Effects",
+    "AUTOANIM.only": "Only",
+    "AUTOANIM.name": "Name",
+    "AUTOANIM.macroconcurrent": "Concurrent with Animation",
+    "AUTOANIM.awaitmacro": "Await Macro Completion",
+    "AUTOANIM.macroonly": "Macro only, No Animation"
 }

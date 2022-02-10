@@ -152,6 +152,10 @@
         "src": "https://raw.githubusercontent.com/ironmonk88/monks-little-details/main/lang/en.json"
     },
     {
+        "name": "swade-tools",
+        "src": "https://raw.githubusercontent.com/lipefl/swade-tools/main/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
@@ -183,9 +187,5 @@
     {
         "name": "gurps",
         "src": "https://github.com/crnormand/gurps/raw/main/lang/en.json"
-    },
-    {
-        "name": "swade-tools",
-        "src": "https://raw.githubusercontent.com/lipefl/swade-tools/main/lang/en.json"
     }
 ]

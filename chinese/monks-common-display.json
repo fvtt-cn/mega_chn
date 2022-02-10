@@ -30,5 +30,9 @@
     "MonksCommonDisplay.selection.hint": "该玩家可以镜像指示物选择",
     "MonksCommonDisplay.clear.name": "清除",
     "MonksCommonDisplay.clear.hint": "清除该玩家所有打开的窗口",
-    "MonksCommonDisplay.save": "保存更改"
+    "MonksCommonDisplay.save": "保存更改",
+    "MonksCommonDisplay.show-camera-views.hint": "启用视频集成后显示摄像头视图。",
+    "MonksCommonDisplay.show-camera-views.name": "显示摄像头视图",
+    "MonksCommonDisplay.combat-scale.name": "战斗缩放",
+    "MonksCommonDisplay.combat-scale.hint": "缩放战斗UI尺寸变小或者变大"
 }
