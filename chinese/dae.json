@@ -332,5 +332,6 @@
     "dae.color": "光照颜色",
     "dae.animation": "动画",
     "dae.alpha": "透明度",
-    "dae.angle": "角度"
+    "dae.angle": "角度",
+    "dae.DurationExpression": "以秒计数的效果持续时间投骰公式"
 }
