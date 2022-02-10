@@ -294,7 +294,7 @@ SWADE.IgnWounds: Ignore Wounds
 SWADE.Size: Size
 SWADE.Scale: Scale
 SWADE.PickACard: Pick a card for
-SWADE.NoCardsLeft: There are not enough cards left in the deck!
+SWADE.NoCardsLeft: There are not enough cards left in the deck! Only {current} of {needed} needed cards are available
 SWADE.OldCard: Old card
 SWADE.ActionCard: Action Card
 SWADE.ConvictionActive: Conviction Active
@@ -471,13 +471,16 @@ SWADE.ChaseCardsCleared: All chase cards have been removed from the scene.
 SWADE.SetUpChase: Set Up Chase
 SWADE.NotADeckCompendium: The compendium you selected doesn't appear to be a legacy deck
 SWADE.ConvertToDeck: Convert to Deck
-SWADE.Expiration.Expiration: Expiration
+SWADE.Expiration.TabLabel: Turn Behavior
+SWADE.Expiration.Description: <p>Effects expire on the target's <em>next turn or later</em>.</p>
 SWADE.Expiration.Behavior: Expiration Behavior
 SWADE.Expiration.BeginAuto: Start of Turn, Automatic
 SWADE.Expiration.BeginPrompt: Start of Turn, Prompt
-SWADE.Expiration.EndAuto: End of Next Turn, Automatic
-SWADE.Expiration.EndPrompt: End of Next Turn, Prompt
+SWADE.Expiration.EndAuto: End of Turn, Automatic
+SWADE.Expiration.EndPrompt: End of Turn, Prompt
 SWADE.Expiration.None: None
 SWADE.Expiration.LooseTurnOnHold: Lose Turn on Hold
 SWADE.RemoveEffectTitle: Remove {label} ?
-SWADE.RemoveEffectBody: '<p style="text-align: center;">Remove <strong>{label}</strong> from <strong>{parent}</strong>?</p>'
+SWADE.RemoveEffectBody: >-
+  <p style="text-align: center;">Remove <strong>{label}</strong> from
+  <strong>{parent}</strong>?</p>
