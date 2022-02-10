@@ -1,4 +1,4 @@
-SWADE.EnableBennyNotifyDesc: 获得，给予或刷新助力点时弹出聊天信息。
+﻿SWADE.EnableBennyNotifyDesc: 获得，给予或刷新助力点时弹出聊天信息。
 SWADE.AutoLinkDesc: 若启用，当你将一个NPC设置为不羁角色时，他的角色卡会自动与指示物关联
 SWADE.FreeReroll: 免费重投
 SWADE.RerollWithBenny: 助力点重投
@@ -45,7 +45,7 @@ SWADE.GroupRoll: 团体投骰
 SWADE.RollRaise: 投骰优良
 SWADE.Roll: 投骰
 SWADE.RollExample: 例如： +1d6x= 或 -2
-SWADE.SitMod: 临时修正
+SWADE.SitMod: 临时调整值
 SWADE.Formula: 公式
 SWADE.DiceConfLabel: 打开骰子设置
 SWADE.DiceConfDesc: 调整SWADE/Dice So Nice的整合设定
@@ -57,7 +57,8 @@ SWADE.VehicleAmmoFromInventory: 载具使用其物品栏中的弹药
 SWADE.NPCAmmoFromInventory: NPC使用其物品栏中的弹药
 SWADE.PCAmmoFromInventory: 角色使用物品栏中的弹药
 SWADE.AmmoManagement: 弹药管理
-SWADE.WildDiePresetDesc: 为不羁骰选择一个DSN主题。如果想自定义则选择“自定义Custom”，如果不想让不羁骰看起来有所区别则选择“无None”。请注意自定义的不羁骰只有你自己
+SWADE.WildDiePresetDesc: >-
+  为不羁骰选择一个DSN主题。如果想自定义则选择“自定义Custom”，如果不想让不羁骰看起来有所区别则选择“无None”。请注意自定义的不羁骰只有你自己
   能看到，其他玩家会看到不同的主题样式。
 SWADE.WildDiePreset: 不羁骰主题
 SWADE.ShowBennyAnimationDesc: 使用助力点时播放动画，仅在Dice So Nice!模块启用时生效
@@ -128,7 +129,6 @@ SWADE.AllBenniesRefresh: 刷新所有助力点
 SWADE.BenniesRefresh: 刷新助力点
 SWADE.BenniesGive: 给予一个助力点
 SWADE.BenniesSpend: 花费一个助力点
-SWADE.Mod: 修正
 SWADE.WildDie: 不羁骰
 SWADE.Die: 骰子
 SWADE.LinkAttr: 关联属性
@@ -150,7 +150,7 @@ SWADE.Derived: 衍生数值
 SWADE.Attributes: 属性
 SWADE.AttributeTest: 属性检定
 SWADE.SkillTest: 技能检定
-SWADE.TraitMod: 特性模式
+SWADE.TraitMod: 特性调整值
 SWADE.Bennies: 助力点
 SWADE.Extra: 龙套
 SWADE.WildCard: 不羁角色
@@ -222,18 +222,16 @@ SWADE.Head: 头部
 SWADE.HitLocations: 命中位置
 SWADE.NaturalArmor: 天生护甲
 SWADE.ShotsUsed: 弹药消耗
-SWADE.SkillModUni: 特性修正（通用）
-SWADE.DmgModUni: 伤害修正（通用）
+SWADE.SkillModUni: 特性调整值（通用）
+SWADE.DmgModUni: 伤害调整值（通用）
 SWADE.Actions: 动作
 SWADE.ActionsEffects: 动作与效果
 SWADE.Notes: 注释
-SWADE.Cover: 掩体
 SWADE.Parry: 格挡
 SWADE.Mag: 装弹量
 SWADE.RoF: 射速
 SWADE.APLong: 穿甲
 SWADE.Ap: 穿甲
-SWADE.Rng: 射程
 SWADE.DmgOver: 替换伤害
 SWADE.Dmg: 伤害
 SWADE.Armor: 护甲
@@ -241,7 +239,6 @@ SWADE.Smite: 痛击
 SWADE.Invisible: 隐形
 SWADE.Torch: 火把
 SWADE.Reach: 触及
-SWADE.CoverShield: 掩蔽 - 护盾
 SWADE.Poisoned: 中毒
 SWADE.OnFire: 着火
 SWADE.HeartAttack: 心脏病发
@@ -298,7 +295,7 @@ SWADE.CurrencyNameDesc: 给货币进行命名
 SWADE.CurrencyName: 货币名称
 SWADE.WealthTypeDesc: 选择计算角色财富与货币的形式
 SWADE.NoneOther: 无/其他
-SWADE.WealthDie: 财富
+SWADE.WealthDie: 财富骰
 SWADE.WealthType: 财富骰子类型
 SWADE.Crew: 所需操作人员
 SWADE.GrantsPowers: 获得奇术
@@ -317,7 +314,7 @@ SWADE.SpecialAbility: 特殊能力
 SWADE.Subtype: 子类
 SWADE.AutoCalcParry: 自动计算格挡(含盾牌)
 SWADE.ParryBaseDesc: 用于计算角色格挡的技能名称
-SWADE.ParryBase: 格挡基本技能
+SWADE.ParryBase: 本地化的格挡技能名称
 SWADE.JokersWildDesc: 当任一玩家角色抽到鬼牌时，全员各给予一枚助力点
 SWADE.HideNpcItemChatCardsDesc: 启用时，NPC物品卡将自动通过私信发给所有游戏主持人，不会公开展示给所有人
 SWADE.HideNpcItemChatCards: 隐藏NPC物品卡
@@ -343,11 +340,11 @@ SWADE.ButtonReset: 重置
 SWADE.WeaponsAndArmor: 武器&护甲
 SWADE.SetGroupColor: 设定团体颜色
 SWADE.DrawInit: 抽取先攻
-SWADE.ActionDeckReset: 重置行动卡表格
+SWADE.ActionDeckReset: 重置行动卡组
 SWADE.ActionCardEditor: 行动卡编辑器
 SWADE.ButtonSubmit: 提交
-SWADE.Follow: 跟随 {名称}
-SWADE.Unfollow: 不再跟随 {名称}
+SWADE.Follow: '跟随 {名称}'
+SWADE.Unfollow: '不再跟随 {名称}'
 SWADE.MakeGroupLeader: 添加团体领袖
 SWADE.RemoveGroupLeader: 移除团体领袖
 SWADE.SelectColor: 选择一种颜色
@@ -373,7 +370,8 @@ SWADE.Imperial: 英制
 SWADE.Metric: 公制
 SWADE.WeightUnitLabel: 重量单位
 SWADE.UseAttributeShorts: 使用截短的属性名称
-SWADE.UseAttributeShortsDesc: 若你想看见pc和npc卡上的属性名称，则启用此选项。例如：Agi取代Agility，Sma取代Smarts等等。你需要关闭并重新打开所有已打开的卡以让此选项生效。
+SWADE.UseAttributeShortsDesc: >-
+  若你想看见pc和npc卡上的属性名称，则启用此选项。例如：Agi取代Agility，Sma取代Smarts等等。你需要关闭并重新打开所有已打开的卡以让此选项生效。
 SWADE.BennyImageSheet: 助力点
 SWADE.BennyImageSheetDesc: 选择在角色卡上使用的助力点图片
 SWADE.Benny3DFront: 正面纹理
@@ -389,16 +387,74 @@ SWADE.Benny3DFrontBump: 前置凹凸贴图
 SWADE.Benny3DBackBump: 后置凹凸贴图
 SWADE.Benny3DFrontBumpDesc: 助力点前置凹凸贴图
 SWADE.Benny3DBackBumpDesc: 助力点后置凹凸贴图
-SWADE.Modifiers: 修正值
-SWADE.ActionTraitMod: 动作特性修正值
-SWADE.ActionDmgMod: 动作伤害修正值
-SWADE.ItemTraitMod: 物品特性修正值
-SWADE.ItemDmgMod: 物品伤害修正值
+SWADE.Modifiers: 调整值
+SWADE.ActionTraitMod: 动作特性调整值
+SWADE.ActionDmgMod: 动作伤害调整值
+SWADE.ItemTraitMod: 物品特性调整值
+SWADE.ItemDmgMod: 物品伤害调整值
 SWADE.ArcaneSkill: 奥法技能
 SWADE.ActivateArcaneDevice: 启动装置
 SWADE.ArcaneDevice: 奥法装置
 SWADE.Duplicates: 发现重复项
-SWADE.DuplicateItemsBodyText: 将添加 {type} <strong>{name}</strong> 至角色 {target} 时发现下列重复项
-  (名称与类型)。 新物品已被重命名以反映其来源。
+SWADE.DuplicateItemsBodyText: >-
+  将添加 {type} <strong>{name}</strong> 至角色 {target} 时发现下列重复项 (名称与类型)。
+  新物品已被重命名以反映其来源。
 SWADE.Archetype: 范型
 SWADE.ArchetypeAbilities: 范型能力
+CARD.TypeAdventure: 冒险卡片
+CARD.TypePoker: 扑克牌
+SWADE.ActionDeckPresetLight: 行动卡组(浅色)
+SWADE.ActionDeckPresetDark: 行动卡组(深色)
+SWADE.Modifier: 调整值
+SWADE.NoActionDeckFound: 未找到行动卡组，创建中
+SWADE.NoActionDeckDiscardPileFound: 未找到行动卡弃牌堆，创建中
+SWADE.InitDiscardPile: 先攻弃牌堆
+SWADE.Wealth: 财富
+SWADE.Characters: 角色
+SWADE.SettingRules: 设定规则
+SWADE.WorldBasics: 世界基础
+SWADE.CoreSkillsList: 核心技能清单
+SWADE.MAPenalty: 复合动作减值
+SWADE.Mod.Custom.Add: 添加自定义调整值
+SWADE.Mod.Support: 援助
+SWADE.Mod.Preset.Add: 添加预设
+SWADE.Mod.Preset.Choose: 选择一项预设...
+SWADE.Illumination._name: 光照
+SWADE.Illumination.Dim: 昏暗光照
+SWADE.Illumination.Dark: 黑暗
+SWADE.Illumination.Pitch: 漆黑
+SWADE.Cover._name: 掩蔽
+SWADE.Cover.Shield: 掩蔽-盾牌
+SWADE.Cover.Light: 轻度掩蔽
+SWADE.Cover.Medium: 中度掩蔽
+SWADE.Cover.Heavy: 重度掩蔽
+SWADE.Cover.Total: 全掩蔽
+SWADE.Range._name: 射程
+SWADE.Range.Medium: 中距射程
+SWADE.Range.Long: 长距射程
+SWADE.Range.Extreme: 极限射程
+SWADE.ModOther: 其他调整值
+SWADE.Snapfire: 猝射
+SWADE.UnstablePlatform: 不稳平台
+SWADE.CannotAddRaceToRace: 你不能将族裔/范型添加至族裔/范型！
+SWADE.ApplyEncumbrance: 应用负载减值
+SWADE.ApplyEncumbranceHint: '应用负载减值。请记住这暂不支持对抗{fatigue}的{vigor}考验！'
+SWADE.LayOutChaseWithDeck: 使用卡组布置追逐
+SWADE.ClearChaseCards: 从场景中清除追逐卡
+SWADE.NoSceneAvailable: 无可用场景，或你已禁用canvas
+SWADE.ChaseCardsCleared: 所有追逐卡都已从场景中移除。
+SWADE.SetUpChase: 设置追逐
+SWADE.NotADeckCompendium: 你选择的合集包并不是旧版卡组
+SWADE.ConvertToDeck: 转换至卡组
+SWADE.Expiration.BeginAuto: 回合开始，自动
+SWADE.Expiration.BeginPrompt: 回合开始，弹窗
+SWADE.Expiration.EndAuto: 下一回合结束，自动
+SWADE.Expiration.EndPrompt: 下一回合结束，弹窗
+SWADE.Expiration.None: 无
+SWADE.Expiration.LooseTurnOnHold: 待机时失去回合
+SWADE.RemoveEffectTitle: '移除{label}？'
+SWADE.RemoveEffectBody: >-
+  <p style="text-align:
+  center;">从<strong>{parent}</strong>移除<strong>{label}</strong> ?</p>
+SWADE.Expiration.Expiration: 终止
+SWADE.Expiration.Behavior: 终止行为
