@@ -1,4 +1,4 @@
-SWADE.EnableBennyNotifyDesc: 获得，给予或刷新助力点时弹出聊天信息。
+﻿SWADE.EnableBennyNotifyDesc: 获得，给予或刷新助力点时弹出聊天信息。
 SWADE.AutoLinkDesc: 若启用，当你将一个NPC设置为不羁角色时，他的角色卡会自动与指示物关联
 SWADE.FreeReroll: 免费重投
 SWADE.RerollWithBenny: 助力点重投
@@ -45,7 +45,7 @@ SWADE.GroupRoll: 团体投骰
 SWADE.RollRaise: 投骰优良
 SWADE.Roll: 投骰
 SWADE.RollExample: 例如： +1d6x= 或 -2
-SWADE.SitMod: 临时修正
+SWADE.SitMod: 临时调整值
 SWADE.Formula: 公式
 SWADE.DiceConfLabel: 打开骰子设置
 SWADE.DiceConfDesc: 调整SWADE/Dice So Nice的整合设定
@@ -57,7 +57,8 @@ SWADE.VehicleAmmoFromInventory: 载具使用其物品栏中的弹药
 SWADE.NPCAmmoFromInventory: NPC使用其物品栏中的弹药
 SWADE.PCAmmoFromInventory: 角色使用物品栏中的弹药
 SWADE.AmmoManagement: 弹药管理
-SWADE.WildDiePresetDesc: 为不羁骰选择一个DSN主题。如果想自定义则选择“自定义Custom”，如果不想让不羁骰看起来有所区别则选择“无None”。请注意自定义的不羁骰只有你自己
+SWADE.WildDiePresetDesc: >-
+  为不羁骰选择一个DSN主题。如果想自定义则选择“自定义Custom”，如果不想让不羁骰看起来有所区别则选择“无None”。请注意自定义的不羁骰只有你自己
   能看到，其他玩家会看到不同的主题样式。
 SWADE.WildDiePreset: 不羁骰主题
 SWADE.ShowBennyAnimationDesc: 使用助力点时播放动画，仅在Dice So Nice!模块启用时生效
@@ -128,7 +129,6 @@ SWADE.AllBenniesRefresh: 刷新所有助力点
 SWADE.BenniesRefresh: 刷新助力点
 SWADE.BenniesGive: 给予一个助力点
 SWADE.BenniesSpend: 花费一个助力点
-SWADE.Mod: 修正
 SWADE.WildDie: 不羁骰
 SWADE.Die: 骰子
 SWADE.LinkAttr: 关联属性
@@ -222,18 +222,16 @@ SWADE.Head: 头部
 SWADE.HitLocations: 命中位置
 SWADE.NaturalArmor: 天生护甲
 SWADE.ShotsUsed: 弹药消耗
-SWADE.SkillModUni: 特性修正（通用）
-SWADE.DmgModUni: 伤害修正（通用）
+SWADE.SkillModUni: 特性调整值（通用）
+SWADE.DmgModUni: 伤害调整值（通用）
 SWADE.Actions: 动作
 SWADE.ActionsEffects: 动作与效果
 SWADE.Notes: 注释
-SWADE.Cover: 掩体
 SWADE.Parry: 格挡
 SWADE.Mag: 装弹量
 SWADE.RoF: 射速
 SWADE.APLong: 穿甲
 SWADE.Ap: 穿甲
-SWADE.Rng: 射程
 SWADE.DmgOver: 替换伤害
 SWADE.Dmg: 伤害
 SWADE.Armor: 护甲
@@ -241,7 +239,6 @@ SWADE.Smite: 痛击
 SWADE.Invisible: 隐形
 SWADE.Torch: 火把
 SWADE.Reach: 触及
-SWADE.CoverShield: 掩蔽 - 护盾
 SWADE.Poisoned: 中毒
 SWADE.OnFire: 着火
 SWADE.HeartAttack: 心脏病发
@@ -346,8 +343,8 @@ SWADE.DrawInit: 抽取先攻
 SWADE.ActionDeckReset: 重置行动卡组
 SWADE.ActionCardEditor: 行动卡编辑器
 SWADE.ButtonSubmit: 提交
-SWADE.Follow: 跟随 {名称}
-SWADE.Unfollow: 不再跟随 {名称}
+SWADE.Follow: '跟随 {名称}'
+SWADE.Unfollow: '不再跟随 {名称}'
 SWADE.MakeGroupLeader: 添加团体领袖
 SWADE.RemoveGroupLeader: 移除团体领袖
 SWADE.SelectColor: 选择一种颜色
@@ -373,7 +370,8 @@ SWADE.Imperial: 英制
 SWADE.Metric: 公制
 SWADE.WeightUnitLabel: 重量单位
 SWADE.UseAttributeShorts: 使用截短的属性名称
-SWADE.UseAttributeShortsDesc: 若你想看见pc和npc卡上的属性名称，则启用此选项。例如：Agi取代Agility，Sma取代Smarts等等。你需要关闭并重新打开所有已打开的卡以让此选项生效。
+SWADE.UseAttributeShortsDesc: >-
+  若你想看见pc和npc卡上的属性名称，则启用此选项。例如：Agi取代Agility，Sma取代Smarts等等。你需要关闭并重新打开所有已打开的卡以让此选项生效。
 SWADE.BennyImageSheet: 助力点
 SWADE.BennyImageSheetDesc: 选择在角色卡上使用的助力点图片
 SWADE.Benny3DFront: 正面纹理
@@ -389,17 +387,18 @@ SWADE.Benny3DFrontBump: 前置凹凸贴图
 SWADE.Benny3DBackBump: 后置凹凸贴图
 SWADE.Benny3DFrontBumpDesc: 助力点前置凹凸贴图
 SWADE.Benny3DBackBumpDesc: 助力点后置凹凸贴图
-SWADE.Modifiers: 修正值
-SWADE.ActionTraitMod: 动作特性修正值
-SWADE.ActionDmgMod: 动作伤害修正值
-SWADE.ItemTraitMod: 物品特性修正值
-SWADE.ItemDmgMod: 物品伤害修正值
+SWADE.Modifiers: 调整值
+SWADE.ActionTraitMod: 动作特性调整值
+SWADE.ActionDmgMod: 动作伤害调整值
+SWADE.ItemTraitMod: 物品特性调整值
+SWADE.ItemDmgMod: 物品伤害调整值
 SWADE.ArcaneSkill: 奥法技能
 SWADE.ActivateArcaneDevice: 启动装置
 SWADE.ArcaneDevice: 奥法装置
 SWADE.Duplicates: 发现重复项
-SWADE.DuplicateItemsBodyText: 将添加 {type} <strong>{name}</strong> 至角色 {target} 时发现下列重复项
-  (名称与类型)。 新物品已被重命名以反映其来源。
+SWADE.DuplicateItemsBodyText: >-
+  将添加 {type} <strong>{name}</strong> 至角色 {target} 时发现下列重复项 (名称与类型)。
+  新物品已被重命名以反映其来源。
 SWADE.Archetype: 范型
 SWADE.ArchetypeAbilities: 范型能力
 CARD.TypeAdventure: 冒险卡片
@@ -439,7 +438,7 @@ SWADE.Snapfire: 猝射
 SWADE.UnstablePlatform: 不稳平台
 SWADE.CannotAddRaceToRace: 你不能将族裔/范型添加至族裔/范型！
 SWADE.ApplyEncumbrance: 应用负载减值
-SWADE.ApplyEncumbranceHint: 应用负载减值。请记住这暂不支持对抗{fatigue}的{vigor}考验！
+SWADE.ApplyEncumbranceHint: '应用负载减值。请记住这暂不支持对抗{fatigue}的{vigor}考验！'
 SWADE.LayOutChaseWithDeck: 使用卡组布置追逐
 SWADE.ClearChaseCards: 从场景中清除追逐卡
 SWADE.NoSceneAvailable: 无可用场景，或你已禁用canvas
@@ -453,8 +452,9 @@ SWADE.Expiration.EndAuto: 下一回合结束，自动
 SWADE.Expiration.EndPrompt: 下一回合结束，弹窗
 SWADE.Expiration.None: 无
 SWADE.Expiration.LooseTurnOnHold: 待机时失去回合
-SWADE.RemoveEffectTitle: 移除{label}？
-SWADE.RemoveEffectBody: '<p style="text-align: center;">从<strong>{parent}</strong>移除<strong>{label}</strong>
-  ?</p>'
+SWADE.RemoveEffectTitle: '移除{label}？'
+SWADE.RemoveEffectBody: >-
+  <p style="text-align:
+  center;">从<strong>{parent}</strong>移除<strong>{label}</strong> ?</p>
 SWADE.Expiration.Expiration: 终止
 SWADE.Expiration.Behavior: 终止行为
