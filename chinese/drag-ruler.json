@@ -65,6 +65,14 @@
                     "delete": "删除路径点",
                     "cancel": "取消拖动"
                 }
+            },
+            "allowPathfinding": {
+                "name": "允许玩家寻路",
+                "hint": "允许玩家在此世界中使用Drag Ruler的寻路功能。注意寻路可能经过未探索的战争迷雾和虚体墙，这可能提前向玩家暴露秘密。"
+            },
+            "autoPathfinding": {
+                "name": "默认寻路",
+                "hint": "若启用，拖动指示物会自动使用寻路标尺"
             }
         },
         "genericSpeedProvider": {
@@ -107,6 +115,10 @@
             "moveWithoutAnimation": {
                 "name": "禁用指示物动画",
                 "hint": "放置指示物时按住，则指示物将直接移动至目标地点"
+            },
+            "togglePathfinding": {
+                "name": "寻路开关",
+                "hint": "拖动指示物时按住，寻路功能便会暂时启用/禁用"
             }
         }
     }
