@@ -83,17 +83,37 @@
             "hint": "如果你的字体保存在 Forge 素材库里，选择 Forge。如果保存在 S3 存储桶里，选择 S3。",
             "data": "数据文件夹",
             "forgevtt": "Forge 素材库",
-            "s3": "S3 存储桶"
+            "s3": "S3 存储桶",
+            ".hint": "如果你的字体存放在Forge Assets中，选择Forge。如果它们储存在S3桶中，选择S3。"
         },
         "directory": {
             "name": "自定义字体目录",
-            "hint": "设置为除 \"modules\" 文件夹外的一个包含字体文件的文件夹。"
+            "hint": "设置为除 \"modules\" 文件夹外的一个包含字体文件的文件夹。",
+            ".hint": "设置为一个在\"modules\"文件夹之外的存放字体文件的文件夹。"
         },
         "Font": "字体",
         "FontSize": "字体大小（%）",
         "DND5E": {
             "SpecialLanguagesTitle": "替换特殊语言",
             "SpecialLanguagesHint": "用于替换“语言”的语言名称，如“它一生中知道的所有语言”。"
-        }
+        },
+        "Languages.title": "语言",
+        "Languages.hint": "选择语言使用的字母表。刷新时会重置为默认。",
+        "CustomLanguages.title": "自定义语言",
+        "CustomLanguages.hint": "定义一个要添加至系统的自定义语言列表，使用逗号隔开。",
+        "ComprehendLanguages.title": "通晓语言法术",
+        "ComprehendLanguages.hint": "设置一种语言，使说它的人明白所有其他语言，但其并不能被说出或写下。",
+        "Truespeech.title": "巧言术",
+        "Truespeech.hint": "设置一种语言，说它的人听懂所有说出的语言(不能阅读笔记)，且所有生物都能听懂其。",
+        "JournalHighlight.title": "笔记高光透明度 (%)",
+        "JournalHighlight.hint": "定义笔记中字体高光的透明度。",
+        "logographicalFontToggle.title": "语素字体",
+        "logographicalFontToggle.hint": "将使用语素字体(例如日语，汉语文字)的句子大小缩减一半。",
+        "DefaultLanguage.title": "默认语言",
+        "DefaultLanguage.hint": "默认选择的语言。留空以使用系统默认。",
+        "ReplaceLanguages.title": "替换系统语言",
+        "ReplaceLanguages.hint": "使用你的自定义语言替换系统的默认语言。列表中第一个语言会成为新的默认语言。",
+        "ScrambleGM.title": "为GM加密信息",
+        "ScrambleGM.hint": "不要为GM翻译文本（）"
     }
 }
