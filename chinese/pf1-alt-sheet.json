@@ -33,7 +33,8 @@
         "Level9": "9环",
         "Spells": {
             "CannotCastAbilityScore": "-你的属性值不够高",
-            "CannotCast": "你无法施放该环法术，因为："
+            "CannotCast": "你无法施放该环法术，因为：",
+            "NoSpellsLeft": "已无法术"
         },
         "Skill": {
             "AlwaysShow": "AS",
