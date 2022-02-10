@@ -547,5 +547,19 @@
     "AUTOANIM.rate": "速率",
     "AUTOANIM.sprite": "精魂",
     "AUTOANIM.life": "生命",
-    "AUTOANIM.emiterSize": "发射器尺寸"
+    "AUTOANIM.emiterSize": "发射器尺寸",
+    "AUTOANIM.toggle3d": "切换3D",
+    "AUTOANIM.expand": "展开",
+    "AUTOANIM.collapse": "折叠",
+    "AUTOANIM.duplicate": "复制",
+    "AUTOANIM.delete": "删除",
+    "AUTOANIM.particlenote": "粒子设定（3D Canvas）",
+    "AUTOANIM.sortmenu": "菜单排序",
+    "AUTOANIM.decoupleSounds": "分离声音",
+    "AUTOANIM.decoupleSounds_hint": "防止声音在动画中重复",
+    "AUTOANIM.playbackRate": "播放速率",
+    "AUTOANIM.constantScaleY": "Y比例",
+    "AUTOANIM.end": "末尾",
+    "AUTOANIM.hideBorder": "对玩家隐藏",
+    "AUTOANIM.gridMeasure": "网格测量"
 }
