@@ -1,4 +1,4 @@
-﻿SWADE.EnableBennyNotifyDesc: 获得，给予或刷新助力点时弹出聊天信息。
+SWADE.EnableBennyNotifyDesc: 获得，给予或刷新助力点时弹出聊天信息。
 SWADE.AutoLinkDesc: 若启用，当你将一个NPC设置为不羁角色时，他的角色卡会自动与指示物关联
 SWADE.FreeReroll: 免费重投
 SWADE.RerollWithBenny: 助力点重投
@@ -31,7 +31,7 @@ SWADE.ConvictionExtend: 需要维系信念点吗？
 SWADE.ConvictionActivate: 使用信念点！
 SWADE.ActionCard: 行动卡
 SWADE.OldCard: 旧卡
-SWADE.NoCardsLeft: 牌堆中没有足够的卡牌！
+SWADE.NoCardsLeft: 牌堆中没有足够的卡牌！只有{current}张可用，而需求{needed}张
 SWADE.PickACard: 选一张卡
 SWADE.Scale: 尺寸
 SWADE.Size: 体型
@@ -448,8 +448,8 @@ SWADE.NotADeckCompendium: 你选择的合集包并不是旧版卡组
 SWADE.ConvertToDeck: 转换至卡组
 SWADE.Expiration.BeginAuto: 回合开始，自动
 SWADE.Expiration.BeginPrompt: 回合开始，弹窗
-SWADE.Expiration.EndAuto: 下一回合结束，自动
-SWADE.Expiration.EndPrompt: 下一回合结束，弹窗
+SWADE.Expiration.EndAuto: 回合结束，自动
+SWADE.Expiration.EndPrompt: 回合结束，弹窗
 SWADE.Expiration.None: 无
 SWADE.Expiration.LooseTurnOnHold: 待机时失去回合
 SWADE.RemoveEffectTitle: '移除{label}？'
@@ -458,3 +458,5 @@ SWADE.RemoveEffectBody: >-
   center;">从<strong>{parent}</strong>移除<strong>{label}</strong> ?</p>
 SWADE.Expiration.Expiration: 终止
 SWADE.Expiration.Behavior: 终止行为
+SWADE.Expiration.TabLabel: 回合行为
+SWADE.Expiration.Description: <p>效果结束于目标的<em>下个回合或之后</em>.</p>
