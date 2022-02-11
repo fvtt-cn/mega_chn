@@ -155,7 +155,7 @@
     "SWADETOOLS.StatusIconsSettingSystem": "SWADE系统",
     "SWADETOOLS.StatusIconsSettingNone": "禁用",
     "SWADETOOLS.SettingNoAutoRoll": "禁用战斗中的自动投骰",
-    "SWADETOOLS.SettingNoAutoRollHint": "该选项将会禁用战斗中的自动摆脱震慑或动摇投骰。",
+    "SWADETOOLS.SettingNoAutoRollHint": "(需要刷新)该选项将会禁用战斗中的自动摆脱震慑或动摇投骰。",
     "SWADETOOLS.sayIsShaken": "陷入动摇",
     "SWADETOOLS.sayIsStunned": "陷入震慑",
     "SWADETOOLS.Scale": "尺寸",
