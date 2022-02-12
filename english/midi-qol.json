@@ -437,6 +437,7 @@
 	"midi-qol.ExportCSV": "Export Roll Stats to CSV file",
   "midi-qol.AutoCEEffectsOptions" : {
     "none": "Don't Apply",
+    "itempri": "Apply Item effects, if absent apply CE",
     "cepri": "Apply CE, if absent apply item effects",
     "both": "Apply CE and item effects"
   },
