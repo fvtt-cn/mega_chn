@@ -14,7 +14,7 @@
     "MLT.FieldTarget": "目标",
     "MLT.FieldSource": "源",
     "MLT.SectionTokenCloningNotes": "token会从 <b>源</b> 区域中被复制到任何拥有匹配标识符的 <b>目标</b> 区域。",
-    "MLT.SectionTokenCloning": "克隆token",
+    "MLT.SectionTokenCloning": "克隆指示物",
     "MLT.FieldSceneLocalNotes": "将传送和克隆区域限制为只能与在同场景中的其他区域匹配。",
     "MLT.FieldSnapToGridNotes": "当传送至该 <b>出</b> 区域时，token会吸附至网格。",
     "MLT.FieldSnapToGrid": "网格吸附",
