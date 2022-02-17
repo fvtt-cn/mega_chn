@@ -3,9 +3,10 @@
 	"midi-qol.ItemDeleteCheck.Hint": "Open a confirmation dialog when trying to delete items from character sheet",
 	"midi-qol.DamageImmunities.Name": "Apply Damage immunities",
 	"midi-qol.DamageImmunities.Hint": "When using midi-qol damage buttons or auto applying damage apply target's damage immunities/vulnerabilities/resistances. All damage types are checked.",
-	"midi-qol.WorldKeyMappings.Name": "World key mappings",
-	"midi-qol.WorldKeyMappings.Hint": "When set the GM creates key mappings for all clients. Otherwise local to the client (Change requires reload)",
-	"midi-qol.SpeedAbilityRolls.Name": "Enable Speed Ability (save/check/skill) Rolls",
+	"midi-qol.WorldKeyMappings.Name": "World vs Client Key Configuration",
+	"midi-qol.WorldKeyMappings.Blurb1": "Key mappings are defined per client. Each player can have different key mappings. To force all clients to have the same key mappings use one of the available modules to enfore common settings.",
+	"midi-qol.WorldKeyMappings.Blurb2": "I have tested 'Force Client Controls' with success",
+  "midi-qol.SpeedAbilityRolls.Name": "Enable Speed Ability (save/check/skill) Rolls",
 	"midi-qol.ShowItemDetails.Name": "Show Item details in chat card",
 	"midi-qol.ShowItemDetails.Hint": "If set the item details will be displayed in the chat card. You can use the DND5E system setting to auto hide the description",
 	"midi-qol.AutoRollAttack.Name": "When item is rolled, automatically roll the attack if there is one",
@@ -211,7 +212,8 @@
 		"none": "No",
 		"noCard": "No + damage card",
 		"yes": "Yes",
-		"yesCard": "Yes + damage card"
+		"yesCard": "Yes + damage card",
+    "yesCardNPC": "Yes(NPC) No(PC) + damage card"
 	},
 	"midi-qol.removeButtonsOptions": {
 		"off": "Off",
@@ -464,6 +466,7 @@
 	"midi-qol.nonAdamantinePhysical": "Non-Adamantine Physical",
 	"midi-qol.EffectActivation": "Activation Condition true required for effect activation",
 	"midi-qol.HPUpdated": "HP Updated",
+  "midi-qol.HPNPCUpdated": "NPC HP Updated",
 	"midi-qol.HPNotUpdated": "HP Not Updated",
 	"midi-qol.reactionDamaged": "Damaged",
   "midi-qol.reactionManual": "Manual",
