@@ -277,21 +277,6 @@
 		"ifSave": "If Save present",
 		"activation": "Activation Condition"
 	},
-  "midi-qol.ReactionAlreadyUsed": "You have already used your reaction this round",
-	"midi-qol.GMDoReactionsOptions": { "all": "On", "none": "off" },
-	"midi-qol.DoReactionsOptions": { "all": "On", "none": "off" },
-	"midi-qol.ShowReactionAttackRoll.Name": "Show attack roll",
-	"midi-qol.ShowReactionAttackRollOptions": {
-		"none": "Attack Hits",
-		"d20": "d20 roll only",
-		"all": "Attack Roll Total"
-	},
-	"midi-qol.Reactions": "Reactions - Only if checking hits",
-	"midi-qol.DoReactions.Name": "Check PLAYER reactions",
-	"midi-qol.DoReactions.Hint": "Give an attacked actor the option to use a reaction before adjudicating the roll",
-	"midi-qol.GMDoReactions.Name": "Check NPC/GM reactions",
-	"midi-qol.ReactionTimeout.Name": "Reaction check timeout",
-	"midi-qol.ReactionTimeout.Hint": "How long to wait before assuming no reaction has been taken",
 	"midi-qol.potion": "Potion",
 	"midi-qol.HideRollDetails.Name": "GM Roll details hiding",
 	"midi-qol.HideRollDetails.Hint": "Choose how much of GM rolls to hide/show to players",
@@ -323,6 +308,7 @@
 	"midi-qol.AllowUseMacro.Hint": "When enabled adds a macro name field which will be called on use. See the Readme for the details",
 	"midi-qol.onUseMacroLabel": " On Use Macros",
 	"midi-qol.onUseMacroOptions": {
+    "preItemRoll": "Called before the item is rolled (*)",
     "templatePlaced": "Only callled once a template is placed",
     "preambleComplete": "After targeting complete",
 		"preAttackRoll": "Before Attack Roll",
@@ -395,9 +381,9 @@
 	"midi-qol.NearbyAllyRanged.Name": "(House Rule) Ranged Attacks at foes near allies have disadvantage.",
 	"midi-qol.WallsBlockRangeOptions": { "none": "No", "center": "Center Check", "centerLevels": "Center + Levels" },
 	"midi-qol.NearbyAllyRanged.Hint": "Ranged Attacks with allies nearby (5 feet) to the target have disadvantage for targets smaller than this (w*h). 0 disables",
-	"midi-qol.Incapacitated.Name": "Incapacitated actors can't make attacks",
+	"midi-qol.Incapacitated.Name": "Incapacitated actors can't take actions or reactions",
 	"midi-qol.RemoveHiddenInvis.Name": "Attacking removes hidden/invisible (requires Conditional Visibility or CUB)",
-	"midi-qol.CriticalSaves.Name": "Critical/Fumble always succeed/fail for saving throws",
+	"midi-qol.CriticalSaves.Name": "(House Rule) Critical/Fumble always succeed/fail for saving throws",
 	"midi-qol.MaxDRValue.Name": "(House rule) Enabling this means that only the most effective Damage Reduction will apply. Off means DR accumulates",
 	"midi-qol.invisible": "Invisible",
 	"midi-qol.hidden": "Hidden",
@@ -508,6 +494,37 @@
     "3": "A list of changes is displayed once the application is complete",
     "4": "Suggestions for improvements welcome"
   },
+  "midi-qol.Reaction.Title": "Reaction Processing",
+  "midi-qol.GMDoReactionsOptions": { "all": "On", "none": "off" },
+	"midi-qol.DoReactionsOptions": { "all": "On", "none": "off" },
+	"midi-qol.ShowReactionAttackRoll.Name": "Show attack roll",
+	"midi-qol.ShowReactionAttackRollOptions": {
+		"none": "Attack Hits",
+		"d20": "d20 roll only",
+		"all": "Attack Roll Total"
+	},
+	"midi-qol.Reactions": "Prompt For Reactions",
+	"midi-qol.DoReactions.Name": "Check PLAYER reactions",
+	"midi-qol.DoReactions.Hint": "Give an attacked actor the option to use a reaction before adjudicating the roll. Reactions when hit require auto check hits enabled. Damage reactions if applying damage",
+	"midi-qol.GMDoReactions.Name": "Check NPC/GM reactions",
+	"midi-qol.ReactionTimeout.Name": "Reaction check timeout",
+	"midi-qol.ReactionTimeout.Hint": "How long to wait before assuming no reaction has been taken",
   "midi-qol.NoOptionalRules.Name": "No optional rules",
-  "midi-qol.NoOptionalRules.Hint": "Disable optional rules for this roll"
+  "midi-qol.NoOptionalRules.Hint": "Disable optional rules for this roll",
+  "midi-qol.RecordAOO.Name": "Record Attacks of Opportunity",
+	"midi-qol.RecordAOO.Hint": "When an actor makes an attack and it is not their turn in the combat tracker - mark their reaction used",
+	"midi-qol.RecordAOOOptions": {
+		"none": "Do not check",
+		"character": "Characters only",
+		"all": "All actors"
+	},
+  "midi-qol.EnforceReactions.Name": "Enforce Reactions",
+	"midi-qol.EnforceReactions.Hint": "Block using reaction items if reaction already used",
+	"midi-qol.EnforceReactionsOptions": {
+		"none": "Do not check",
+		"character": "Characters only",
+		"all": "All actors"
+	},
+  "midi-qol.EnforceReactions.Title": "Reaction Used",
+  "midi-qol.EnforceReactions.Content": "You have used your reaction this round. Do you want to proceed anyway?"
 }
