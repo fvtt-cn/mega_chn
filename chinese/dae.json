@@ -265,7 +265,7 @@
     "dae.isMoved": "移动：在指示物移动时结束",
     "dae.fvalue": "原力值",
     "dae.DAETitleBar.Name": "DAE 标题栏",
-    "dae.DAETitleBar.Hint": "在标题栏显示 DAE 效果编辑器的按钮",
+    "dae.DAETitleBar.Hint": "在标题栏显示 DAE 效果编辑器的按钮（不再需要此选项 - 只需编辑效果栏）",
     "dae.fmax": "原力最大值",
     "dae.tmax": "技术最大值",
     "dae.tvalue": "技术值",
@@ -335,5 +335,7 @@
     "dae.angle": "角度",
     "dae.DurationExpression": "以秒计数的效果持续时间投骰公式",
     "dae.not-reflected": "物品效果已保存。这些改变不会反映在转移后的原始效果上。",
-    "dae.not-transferred": "物品效果已保存。设定要转移的所持物品效果不会自动转移效果。"
+    "dae.not-transferred": "物品效果已保存。设定要转移的所持物品效果不会自动转移效果。",
+    "dae.DAENoTitleText.Name": " 仅图标",
+    "dae.DAENoTitleText.Hint": " 仅在标题栏显示扳手图标，否则为图标 + DAE"
 }
