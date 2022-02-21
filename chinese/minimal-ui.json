@@ -52,7 +52,7 @@
     "MinimalUI.HotbarPPositionName": "宏快捷栏手动像素位置",
     "MinimalUI.HotbarPPositionHint": "宏位置为“手动”时像素的水平位置",
     "MinimalUI.NavigationStyleName": "场景导航样式",
-    "MinimalUI.NavigationStyleHint": "自定义场景导航行为。当隐藏时考虑‘DF Scene Enhancement’。",
+    "MinimalUI.NavigationStyleHint": "自定义场景导航行为",
     "MinimalUI.NavigationSizeName": "场景导航大小",
     "MinimalUI.NavigationSizeHint": "自定义场景导航可见时的大小。",
     "MinimalUI.PlayersBehaviourName": "玩家列表行为",
@@ -83,5 +83,9 @@
     "MinimalUI.TransparencyPercentageName": "悬停不透明度百分比",
     "MinimalUI.TransparencyPercentageHint": "鼠标悬停前，组件的不透明度是多少？默认：100",
     "MinimalUI.SettingsAutoHidePlus": "进阶自动隐藏",
-    "MinimalUI.SettingsClickToggle": "点击切换"
+    "MinimalUI.SettingsClickToggle": "点击切换",
+    "MinimalUI.NoCameraBehaviorName": "无摄像机行为",
+    "MinimalUI.NoCameraBehaviorReduced": "缩减",
+    "MinimalUI.NoCameraBehaviorHidden": "隐藏",
+    "MinimalUI.NoCameraBehaviorHint": "如何处理关闭摄像头的玩家？注意：隐藏模式不允许打开和关闭相机。一旦禁用，除非切换到其他模式，将无法重新启用摄像头。使用默认或缩减模式进行切换。"
 }
