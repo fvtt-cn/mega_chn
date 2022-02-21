@@ -116,7 +116,7 @@
         "ReplaceLanguages.title": "替换系统语言",
         "ReplaceLanguages.hint": "使用你的自定义语言替换系统的默认语言。列表中第一个语言会成为新的默认语言。",
         "ScrambleGM.title": "为GM加密信息",
-        "ScrambleGM.hint": "不要为GM翻译文本（）",
+        "ScrambleGM.hint": "不要为 GM 翻译文本（参照地球图标的颜色来理解指示物）。需要重载。",
         "enableAllFonts.title": "使用所有字体",
         "enableAllFonts.hint": "使Polyglot字体在语言设置中可用。",
         "RandomizeRunes.title": "随机符文",
