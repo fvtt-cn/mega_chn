@@ -432,7 +432,7 @@
 	"midi-qol.AutoCEEffects.Name": "Apply Convenient Effects",
 	"midi-qol.AutoCEEffects.Hint": "Apply convenient effects which match item name when item used. Requires auto apply active effects enabled as well.",
 	"midi-qol.BonusACCover": "AC Cover",
-	"midi-qol.NoChangelogs": "Midi-qol supports and recommends the ChangeLogs module to show you any changes since you last updated",
+	"midi-qol.NoChangelogs": "Midi-qol supports and recommends the ChangeLogs or Module Manager+ modules to show you any changes since you last updated",
 	"midi-qol.ActiveDefenceString": "Active Defence",
 	"midi-qol.ActiveDefence.Name": "Active Defence",
 	"midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit' rolls players make a defence roll. Requires LMRTFY and does not work with better rolls",
