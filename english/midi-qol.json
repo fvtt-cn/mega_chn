@@ -207,7 +207,7 @@
 		"wallsBlock": "Walls Block",
 		"wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated"
 	},
-	"midi-qol.autoRollDamageOptions": { "none": "Never", "always": "Always", "onHit": "Attack Hits" },
+	"midi-qol.autoRollDamageOptions": { "none": "Never", "always": "Always", "onHit": "Damage Roll Needed" },
 	"midi-qol.autoApplyDamageOptions": {
 		"none": "No",
 		"noCard": "No + damage card",
@@ -496,8 +496,8 @@
     "4": "Suggestions for improvements welcome"
   },
   "midi-qol.Reaction.Title": "Reaction Processing",
-  "midi-qol.GMDoReactionsOptions": { "all": "On", "none": "off" },
-	"midi-qol.DoReactionsOptions": { "all": "On", "none": "off" },
+  "midi-qol.GMDoReactionsOptions": { "all": "On", "allMI": "On + Magic Items", "none": "off" },
+	"midi-qol.DoReactionsOptions": { "all": "On", "allMI": "On + Magic Items", "none": "off" },
 	"midi-qol.ShowReactionAttackRoll.Name": "Show attack roll",
 	"midi-qol.ShowReactionAttackRollOptions": {
 		"none": "Attack Hits",
@@ -519,13 +519,17 @@
 		"character": "Characters only",
 		"all": "All actors"
 	},
-  "midi-qol.EnforceReactions.Name": "Enforce Reactions",
-	"midi-qol.EnforceReactions.Hint": "Block using reaction items if reaction already used",
+  "midi-qol.EnforceReactions.Name": "Enforce Reactions/Bonus Actions",
+	"midi-qol.EnforceReactions.Hint": "Prompt when using reaction/bonus actions items if reaction/bonus action already used",
 	"midi-qol.EnforceReactionsOptions": {
 		"none": "Do not check",
 		"character": "Characters only",
 		"all": "All actors"
 	},
   "midi-qol.EnforceReactions.Title": "Reaction Used",
-  "midi-qol.EnforceReactions.Content": "You have used your reaction this round. Do you want to proceed anyway?"
+  "midi-qol.EnforceReactions.Content": "You have used your reaction this round. Do you want to proceed anyway?",
+  "midi-qol.DisplayHitResultNumeric.Name": "Display how much an attack hit or missed by (per target)",
+  "midi-qol.EnforceBonusActions.Title": "Bonus Action Used",
+  "midi-qol.EnforceBonusActions.Content": "You have used your bonus action this round. Do you want to proceed anyway?",
+  "midi-qol.MidiProperties": "Midi-qol Item Properties"
 }
