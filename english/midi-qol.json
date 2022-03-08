@@ -189,7 +189,7 @@
 		"alwaysIgnoreDefeated": "Always - Ignore defeated",
 		"wallsBlock": "Walls Block",
 		"wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated",
-		"dfqol": "Use DF QOL"
+		"dftemplates": "Use DF Template Enhancements"
 	},
 	"midi-qol.autoCheckSavesOptions": {
 		"none": "Off",
