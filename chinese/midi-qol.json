@@ -361,11 +361,13 @@
     "midi-qol.AttackRoll": "攻击检定",
     "midi-qol.DoReactionsOptions": {
         "all": "启用",
-        "none": "关闭"
+        "none": "关闭",
+        "allMI": "启用 + 魔法物品"
     },
     "midi-qol.GMDoReactionsOptions": {
         "all": "启用",
-        "none": "关闭"
+        "none": "关闭",
+        "allMI": "启用 + 魔法物品"
     },
     "midi-qol.ShowReactionAttackRoll.Name": "显示攻击骰",
     "midi-qol.ShowReactionAttackRollOptions": {
@@ -554,5 +556,15 @@
     "midi-qol.EnforceReactions.Title": "已使用反应",
     "midi-qol.EnforceReactions.Content": "您本轮已使用了反应。仍要继续吗？",
     "midi-qol.ActiveConcentrationSpell.ContentGeneric": "<p>你正处于专注中。要结束专注并继续吗？</p>",
-    "midi-qol.ActiveConcentrationSpell.ContentNamed": "<p>你正专注于<em>@NAME@</em>。要结束专注并继续吗？</p>"
+    "midi-qol.ActiveConcentrationSpell.ContentNamed": "<p>你正专注于<em>@NAME@</em>。要结束专注并继续吗？</p>",
+    "midi-qol.MidiProperties": "Midi-qol 物品属性",
+    "midi-qol.SoundSettings.Name": "配置 Midi 自定义音效",
+    "midi-qol.SoundSettings.Hint": "为物品掷骰设置 midi-qol 自定义音效",
+    "midi-qol.SoundSettings.Label": "配置 Midi 自定义音效",
+    "midi-qol.SoundSettingsBlurb": {
+        "2": "选择“创建示例播放列表”后将会创建一个“Midi-qol 物品音效”播放列表，其中包含了一些音效",
+        "3": "选择“基本设置”并修改",
+        "4": "其他创建设置增加了更多细节/复杂选项"
+    },
+    "midi-qol.AddRow": "添加一排"
 }
