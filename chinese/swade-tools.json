@@ -167,5 +167,6 @@
     "SWADETOOLS.SituationalRules": "情景规则",
     "SWADETOOLS.Customization": "自定义",
     "SWADETOOLS.RulesSettings": "设定规则",
-    "SWADETOOLS.bullets": "子弹"
+    "SWADETOOLS.bullets": "子弹",
+    "SWADETOOLS.SettingsSimpleRolls": "简化特性投骰"
 }
