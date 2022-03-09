@@ -16,7 +16,8 @@
         "noCard": "禁用 + 伤害卡片",
         "none": "禁用",
         "yes": "启用",
-        "yesCard": "启用 + 伤害卡片"
+        "yesCard": "启用 + 伤害卡片",
+        "yesCardNPC": "启用（NPC）禁用（PC）+ 伤害卡片"
     },
     "midi-qol.AutoAttack.Name": "自动掷攻击骰",
     "midi-qol.AutoCheckHit.Hint": "检查攻击骰是否命中选中的目标 - 如果命中了任意目标而且启用了自动掷伤害骰，就会掷伤害骰并应用结果。禁用后midi-qol会假设攻击全部命中并掷后续的骰子。",
@@ -59,7 +60,7 @@
     "midi-qol.autoRollDamageOptions": {
         "always": "始终",
         "none": "从不",
-        "onHit": "攻击命中时"
+        "onHit": "需要伤害掷骰时"
     },
     "midi-qol.AutoTarget.Hint": "在放置测量板（如施法）时，自动选中测量板范围内的指示物作为目标。",
     "midi-qol.AutoTarget.Name": "自动选中测量板上的目标",
@@ -69,7 +70,8 @@
         "wallsBlock": "除墙壁遮挡外",
         "wallsBlockIgnoreDefeated": "墙壁遮挡 - 忽略战败",
         "alwaysIgnoreDefeated": "始终 - 忽略战败",
-        "dfqol": "使用 DF QOL"
+        "dfqol": "使用 DF QOL",
+        "dftemplates": "使用 DF 模版增强"
     },
     "midi-qol.buttons.altDamage": "替代伤害",
     "midi-qol.buttons.attack": "攻击",
@@ -167,7 +169,7 @@
     "midi-qol.Hint": "配置 midi-qol 的各种工作流。当心，前方一大波设置来袭",
     "midi-qol.hits": "命中",
     "midi-qol.Hits": "命中",
-    "midi-qol.Incapacitated.Name": "无力的角色无法进行攻击",
+    "midi-qol.Incapacitated.Name": "失能的角色不能执行任何动作或反应",
     "midi-qol.InvisAdvantage.Name": "隐匿/隐形的攻击者在攻击时具有优势(需要CUB或CV)",
     "midi-qol.invisible": "隐形",
     "midi-qol.ItemDeleteCheck.Hint": "当从人物卡中删除物品时弹出确认对话框",
@@ -217,7 +219,7 @@
     "midi-qol.noSaveTargets": "豁免没有选中目标",
     "midi-qol.noSelection": "未选中指示物或角色",
     "midi-qol.noTargets": "你必须在掷攻击骰前选中一个指示物作为目标",
-    "midi-qol.noTokens": "无法应用效果 - 未选择指示物",
+    "midi-qol.noTokens": "无法应用效果 - 无目标指示物",
     "midi-qol.onUseMacroLabel": " 物品调用宏",
     "midi-qol.Optional": "可选",
     "midi-qol.OptionalRules.Hint": "你可能希望启用的一些DND5E游戏规则。通常无法与better rolls协同使用。",
@@ -302,7 +304,7 @@
     "midi-qol.sure": "你确认？",
     "midi-qol.Targeting": "目标选定",
     "midi-qol.undoDamageFrom": "撤销伤害-来自 ",
-    "midi-qol.UseCustomSounds.Hint": "开启后将会用以下声音设置覆盖系统声音。",
+    "midi-qol.UseCustomSounds.Hint": "开启后将会覆盖系统声音。设置的声音来自“配置 Midi 自定义声音”",
     "midi-qol.UseCustomSounds.Name": "启用 midi-qol 自定义声音",
     "midi-qol.UseTokenNames.Hint": "聊天卡片的标题和目标名使用指示物的名称，而非角色名",
     "midi-qol.UseTokenNames.Name": "聊天卡片使用指示物名称",
@@ -404,7 +406,7 @@
     "midi-qol.AutoCEEffects.Name": "应用便利效果",
     "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果。需要同时启用自动应用主动效果。",
     "midi-qol.BonusACCover": "AC 掩蔽",
-    "midi-qol.NoChangelogs": "Midi-qol 支持并建议使用 ChangeLogs 模组来显示最新更新所引入的所有变化",
+    "midi-qol.NoChangelogs": "Midi-qol 支持并建议使用 ChangeLogs 或 Module Manager+ 模组来显示最新更新引入的所有变化",
     "midi-qol.HideRollDetails.HintLong": {
         "detailsDSN": "掷骰公式但显示 DSN：隐藏掷骰公式但仍掷 DSN 骰",
         "d20Only": "显示攻击 d20 + 伤害总值：仅显示攻击骰的 d20 骰以及伤害总计值",
@@ -426,7 +428,7 @@
         "ifSave": "出现豁免"
     },
     "midi-qol.otherCritProp": "重击其他掷骰",
-    "midi-qol.CriticalSaves.Name": "大成功/大失败总是令豁免掷骰成功/失败",
+    "midi-qol.CriticalSaves.Name": "（房规）大成功/大失败总是令豁免掷骰成功/失败",
     "midi-qol.PromptDamageRoll.Name": "增强伤害骰对话框",
     "midi-qol.PromptDamageRoll.Hint": "当使用伤害骰对话框时，显示一个增强版的对话框，支持选择物品伤害。",
     "midi-qol.GMHide3dDice.Name": "隐藏 GM 攻击/伤害/豁免的 3D 掷骰 - 覆写其他设置",
@@ -468,7 +470,8 @@
         "postAttackRoll": "在攻击骰后",
         "postSave": "在豁免检定后",
         "preDamageApplication": "在伤害应用前",
-        "all": "全部"
+        "all": "全部",
+        "preItemRoll": "在物品掷骰之前调用（*）"
     },
     "midi-qol.concentrationActivationCondition": "专注",
     "midi-qol.ConsumeResource.Name": "跳过消耗资源对话框",
@@ -480,7 +483,7 @@
     "midi-qol.DeferText": "[顺延]",
     "midi-qol._comment for translaters_ItemMacroText": "Midi 将在物品数据中的物品调用宏字段中搜索以下文本。修改每个物品后，物品调用宏需要修改以匹配",
     "midi-qol.ItemMacroText": "物品宏",
-    "midi-qol.LateTargeting.Name": "实验性：允许开始掷骰后选择目标",
+    "midi-qol.LateTargeting.Name": "延后目标选择",
     "midi-qol.LateTargeting.Hint": "掷骰时如果设置了自动攻击骰，除了 AOE，远程或者自身目标的将会暂停并等待选择目标。在控制 HUD 中退出选择目标模式",
     "midi-qol.ShowReactionChatMessage.Name": "为反应显示聊天提示",
     "midi-qol.reactionFlavorAttack": "{actorName} 被 {itemName} 命中，可以使用一个反应",
@@ -511,8 +514,45 @@
     "midi-qol.AddDead.Name": "当HP=0：NPC变为被击败，PC变为昏迷状态",
     "midi-qol.Wounded": "重伤",
     "midi-qol.AddWounded.Name": "当HP低于__%时标记为重伤",
-    "midi-qol.AddWounded.Hint": "当明生命值小于最大值的特定百分比时添加自定义效果状态“重伤”。0为禁用。你必须自己创建自定义效果",
+    "midi-qol.AddWounded.Hint": "当明生命值小于最大值的特定百分比时添加自定义效果状态“重伤”。0为禁用。",
     "midi-qol.debugCallTiming.Name": "记录执行时间",
     "midi-qol.debugCallTiming.Hint": "提供一些耗时相关的日志信息",
-    "midi-qol.ReactionAlreadyUsed": "你已在此轮使用过你的反应"
+    "midi-qol.ReactionAlreadyUsed": "你已在此轮使用过你的反应",
+    "midi-qol.AutoCEEffectsOptions": {
+        "itempri": "应用物品效果，如果无物品效果则应用 CE",
+        "none": "不使用",
+        "cepri": "应用 CE，如果 CE 则应用物品效果",
+        "both": "应用 CE 与物品效果"
+    },
+    "midi-qol.EnforceReactionsOptions": {
+        "none": "不启用",
+        "character": "仅玩家角色",
+        "all": "所有角色"
+    },
+    "midi-qol.EnforceBonusActions.Title": "附赠动作已使用",
+    "midi-qol.EnforceBonusActions.Content": "您本轮已使用了附赠动作。仍要继续吗？",
+    "midi-qol.NoOptionalRules.Name": "无可选规则",
+    "midi-qol.NoOptionalRules.Hint": "本次掷骰禁用可选规则",
+    "midi-qol.CriticalSoundName": "重击",
+    "midi-qol.FumbleSoundName": "大失败",
+    "midi-qol.Misses": "未命中",
+    "midi-qol.RecordAOOOptions": {
+        "all": "所有角色",
+        "character": "仅玩家角色",
+        "none": "不启用"
+    },
+    "midi-qol.EnforceReactions.Name": "增强反应",
+    "midi-qol.EnforceBonusActions.Name": "增强附赠动作",
+    "midi-qol.EnforceReactions.Hint": "使用反应时，如果该轮已经使用过反应则进行提醒",
+    "midi-qol.SoundSettings.Tab": "声音",
+    "midi-qol.EnforceBonusActions.Hint": "使用附赠动作时，如果该轮已经使用过附赠动作则进行提醒",
+    "midi-qol.LateTargeting.Blurb": "选择 {targetCount} 个目标",
+    "midi-qol.HPNPCUpdated": "NPC HP 更新",
+    "midi-qol.autoFailFriendly": "友好自动失败",
+    "midi-qol.RecordAOO.Name": "记录借机攻击",
+    "midi-qol.RecordAOO.Hint": "当一个角色在其回合外进行了一次攻击时——标记他们的反应已使用",
+    "midi-qol.EnforceReactions.Title": "已使用反应",
+    "midi-qol.EnforceReactions.Content": "您本轮已使用了反应。仍要继续吗？",
+    "midi-qol.ActiveConcentrationSpell.ContentGeneric": "<p>你正处于专注中。要结束专注并继续吗？</p>",
+    "midi-qol.ActiveConcentrationSpell.ContentNamed": "<p>你正专注于<em>@NAME@</em>。要结束专注并继续吗？</p>"
 }
