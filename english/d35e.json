@@ -116,6 +116,7 @@
   "D35E.CondFear": "Fear (any)",
   "D35E.CondSickened": "Sickened",
   "D35E.CondStunned": "Stunned",
+  "D35E.CondProne": "Prone",
 
   "D35E.CondTypeBleed": "Bleed",
   "D35E.CondTypeBlind": "Blind",
@@ -1581,6 +1582,13 @@
   "D35E.CheckUpdatesToItems": "Check for Updates to Items",
   "D35E.CheckUpdatesToItemsDest": "Check for updates to items originally spawned from D35E system",
   "D35E.D35ECurrencyConfigUpdate": "Update Custom Coins List",
+  "D35E.RunSpeedMultiplierModifier": "Run Speed Multiplier",
+  "D35E.AttributeDamageConfig": "Ability Score Loss",
+  "D35E.AttributeDamageConfigHint": "Ability damage and ability drain will be reflected on the ability score. Ability penalty will only affect the modifier, not the score itself.",
+  "D35E.Spelllist": "Spell List",
+  "D35E.UseSpellList": "Use Spell List",
+  "D35E.Compendium": "Compendium",
+  "D35E.Physical": "Physical",
   
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
@@ -1652,5 +1660,11 @@
   "SETTINGS.D35EPsionicsAreDifferentN": "Variant Rule - Psionics Are Different",
   "SETTINGS.D35EPsionicsAreDifferentL": "Splits Spell Resistance into Power and Spell Resistances",
   "SETTINGS.D35EFullAttackChatCardN": "Show Full Attack chat card",
-  "SETTINGS.D35EFullAttackChatCardL": "Show Full Attack chat card on full attack roll"
+  "SETTINGS.D35EFullAttackChatCardL": "Show Full Attack chat card on full attack roll",
+  "SETTINGS.D35ESharedVisionModeN": "Shared Vision Mode",
+  "SETTINGS.D35ESharedVisionModeH": "How to handle Shared Vision between players.",
+  "SETTINGS.D35ESharedVisionWithoutSelection": "Without selected token",
+  "SETTINGS.D35ESharedVisionWithSelection": "Always",
+  "SETTINGS.D35EShowPlayerContextNotesN": "Show Context Notes to players.",
+  "SETTINGS.D35EShowPlayerContextNotesH": "Displays context notes in chat cards to Players."
 }
