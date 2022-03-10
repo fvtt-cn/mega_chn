@@ -540,7 +540,7 @@
     "midi-qol.Misses": "未命中",
     "midi-qol.RecordAOOOptions": {
         "all": "所有角色",
-        "character": "仅玩家角色",
+        "character": "仅角色",
         "none": "不启用"
     },
     "midi-qol.EnforceReactions.Name": "增强反应",
@@ -574,7 +574,8 @@
     "midi-qol.QuickSettingsBlurb": {
         "1": "快速设置让你可以立刻设定一组设置。",
         "2": "下列按钮之一被按下后，设置会立刻改变",
-        "3": "更改完成后将会显示一份更改列表"
+        "3": "更改完成后将会显示一份更改列表",
+        "4": "欢迎提出改进建议"
     },
     "midi-qol.RollToggle.Hint": "为攻击/伤害/属性检定切换快速/自动掷骰设置",
     "midi-qol.RollToggle.Name": "掷骰切换",
@@ -583,5 +584,11 @@
     "midi-qol.Reaction.Title": "反应处理",
     "midi-qol.KeysCritical.Hint": "掷重击伤害（仅自聊天卡片）",
     "midi-qol.KeysVersatile.Hint": "掷多用伤害",
-    "midi-qol.KeysOther.Hint": "掷伤害的其他公式"
+    "midi-qol.KeysOther.Hint": "掷伤害的其他公式",
+    "midi-qol.rollOtherProp": "也掷其他",
+    "midi-qol.WorldKeyMappings.Blurb1": "按键映射由每个客户端定义。每名玩家可以拥有不同的按键映射。强制所有客户端使用相同按键映射，可以使用某一模组来强制统一设置。",
+    "midi-qol.WorldKeyMappings.Blurb2": "我已经成功测试过 'Force Client Controls' 模组",
+    "midi-qol.WorldKeyMappings.Name": "世界 vs 客户端按键配置",
+    "midi-qol.FixStickyKeys.Name": "修复粘连的优势/Ctrl/Shift",
+    "midi-qol.FixStickyKeys.Hint": "启用后，Midi 将会尝试解决优势/Ctrl/Shift 卡在开启状态的问题"
 }
