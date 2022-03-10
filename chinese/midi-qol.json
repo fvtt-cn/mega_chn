@@ -385,7 +385,7 @@
         "pc": "仅为玩家添加按钮",
         "both": "为所有人添加按钮"
     },
-    "midi-qol.DoReactions.Hint": "给被攻击的角色在决定掷骰前使用反应的选项",
+    "midi-qol.DoReactions.Hint": "给被攻击的角色在决定掷骰前使用反应的选项。命中时的反应需要开启“自动确认攻击命中目标”。如果应用伤害则进行伤害反应",
     "midi-qol.ExportJSon": "导出掷骰统计到 Json 文件",
     "midi-qol.ExportCSV": "导出掷骰统计到 CSV 文件",
     "midi-qol.WallsBlockRange.Hint": "令墙壁可以遮挡远程攻击（4 点检测需要 DND Helpers 模组）\n无 = 无效果，中心 = 检查中心对中心线，中心 + 层级 = 检查中心但用层级模组来判断墙壁遮挡，4 点检测边角是否不可见，4 点检测将根据遮蔽程度调整 AC",
@@ -500,7 +500,7 @@
     "midi-qol.AccelKeysOverride.Hint": "启用后，midi 将会始终使用优势/劣势的快捷键映射，而非交给诸如 better rolls 的其他模组",
     "midi-qol.fullDamageAlt": "豁免成功时受到全部伤害",
     "midi-qol.hitsEC": " 闪避等级命中",
-    "midi-qol.Reactions": "反应 - 仅在检查命中",
+    "midi-qol.Reactions": "提示反应",
     "midi-qol.nonSilverPhysical": "非银制物理",
     "midi-qol.EffectActivation": "效果激活所需的激活条件为真",
     "midi-qol.HPUpdated": "HP 更新",
@@ -564,7 +564,24 @@
     "midi-qol.SoundSettingsBlurb": {
         "2": "选择“创建示例播放列表”后将会创建一个“Midi-qol 物品音效”播放列表，其中包含了一些音效",
         "3": "选择“基本设置”并修改",
-        "4": "其他创建设置增加了更多细节/复杂选项"
+        "4": "其他创建设置增加了更多细节/复杂选项",
+        "1": "开始……"
     },
-    "midi-qol.AddRow": "添加一排"
+    "midi-qol.AddRow": "添加一排",
+    "midi-qol.DisplayHitResultNumeric.Name": "显示攻击每个目标命中或未命中的程度",
+    "midi-qol.DisplaySaveAdvantage.Name": "显示豁免的优势/劣势",
+    "midi-qol.QuickSettings": "快速设置",
+    "midi-qol.QuickSettingsBlurb": {
+        "1": "快速设置让你可以立刻设定一组设置。",
+        "2": "下列按钮之一被按下后，设置会立刻改变",
+        "3": "更改完成后将会显示一份更改列表"
+    },
+    "midi-qol.RollToggle.Hint": "为攻击/伤害/属性检定切换快速/自动掷骰设置",
+    "midi-qol.RollToggle.Name": "掷骰切换",
+    "midi-qol.KeysAdvantage.Hint": "掷优势",
+    "midi-qol.KeysDisadvantage.Hint": " 掷劣势",
+    "midi-qol.Reaction.Title": "反应处理",
+    "midi-qol.KeysCritical.Hint": "掷重击伤害（仅自聊天卡片）",
+    "midi-qol.KeysVersatile.Hint": "掷多用伤害",
+    "midi-qol.KeysOther.Hint": "掷伤害的其他公式"
 }
