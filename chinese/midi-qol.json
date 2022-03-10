@@ -9,7 +9,7 @@
     "midi-qol.AddChatDamageButtons.Name": "在聊天消息上添加伤害按钮",
     "midi-qol.AllowUseMacro.Hint": "启用后，填写一个宏的名字，每次使用物品时将会被调用。详情参见Readme",
     "midi-qol.AllowUseMacro.Name": "使用物品时调用宏",
-    "midi-qol.ApplyEffects": "应用主动效果",
+    "midi-qol.ApplyEffects": "应用动态效果",
     "midi-qol.AutoApplyDamage.Hint": "自动对命中的目标（如果已开启自动确认攻击命中目标）或用户选定的目标结算伤害",
     "midi-qol.AutoApplyDamage.Name": "自动对目标应用伤害",
     "midi-qol.autoApplyDamageOptions": {
@@ -406,7 +406,7 @@
     },
     "midi-qol.criticalThreshold": "临界",
     "midi-qol.AutoCEEffects.Name": "应用便利效果",
-    "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果。需要同时启用自动应用主动效果。",
+    "midi-qol.AutoCEEffects.Hint": "在物品使用时，应用名称匹配的便利效果。需要同时启用自动应用动态效果。",
     "midi-qol.BonusACCover": "AC 掩蔽",
     "midi-qol.NoChangelogs": "Midi-qol 支持并建议使用 ChangeLogs 或 Module Manager+ 模组来显示最新更新引入的所有变化",
     "midi-qol.HideRollDetails.HintLong": {
@@ -467,8 +467,8 @@
         "preDamageRoll": "在伤害骰前",
         "postDamageRoll": "在伤害骰后",
         "preSave": "在豁免检定前",
-        "preActiveEffects": "在主动效果生效前",
-        "postActiveEffects": "在主动效果生效后 ",
+        "preActiveEffects": "在动态效果生效前",
+        "postActiveEffects": "在动态效果生效后 ",
         "postAttackRoll": "在攻击骰后",
         "postSave": "在豁免检定后",
         "preDamageApplication": "在伤害应用前",
