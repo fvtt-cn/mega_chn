@@ -764,5 +764,15 @@
     "GURPS.importOldGCSFile": "您的角色由旧版本的 GCS 保存，其未输出全部所需属性。请将 GCS 升级到4.36或之后的版本，重新打开并保存您的角色文件，然后再次尝试读取。",
     "GURPS.importNoJSONDetected": "无法分割 JSON。您的 GCS 文件似乎已损坏。",
     "GURPS.settingRangeStrategy": "战斗：射程调整值策略",
-    "GURPS.settingHintRangeStrategy": "设置用于计算射程惩罚的公式。"
+    "GURPS.settingHintRangeStrategy": "设置用于计算射程惩罚的公式。",
+    "GURPS.STATUSProne": "卧姿",
+    "GURPS.effectChatModifiedToHit": "{displayName}是<br>[{modifier}]",
+    "GURPS.STATUSStanding": "站姿",
+    "GURPS.STATUSCrawling": "爬行",
+    "GURPS.reset": "清除设置",
+    "GURPS.resolveDiceRoll": "您骰了什么？",
+    "GURPS.settingUsePhysicalDice": "使用实体骰子",
+    "GURPS.settingHintUsePhysicalDice": "启用后，在受信玩家掷骰子时会出现提示框。玩家可以掷实体骰子然后把结果输入 Foundry。",
+    "GURPS.share": "分享",
+    "GURPS.addDamageModifier": "伤害调整值"
 }
