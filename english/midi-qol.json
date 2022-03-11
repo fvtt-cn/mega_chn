@@ -439,8 +439,8 @@
 	"midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit' rolls players make a defence roll. Requires LMRTFY and does not work with better rolls",
 	"midi-qol.PromptDamageRoll.Name": "Enhanced Damage Roll Dialog",
 	"midi-qol.PromptDamageRoll.Hint": "When using Damage Roll Dialog display an enhanced dialog that supports choosing item damage.",
-	"midi-qol.GMHide3dDice.Name": "Hide GM attack/damage/saving throw 3d dice rolls - overrides other settings",
-	"midi-qol.GhostRolls.Name": "For attack/damage rolls display with 'dice so nice ghost rolls' rather than hiding the roll",
+	"midi-qol.GMHide3dDice.Name": "Hide GM attack/damage/saving throw 3d dice rolls - overrides other settings (merge card only)",
+	"midi-qol.GhostRolls.Name": "For attack/damage rolls display with 'dice so nice ghost rolls' rather than hiding the roll (merge card only",
 	"midi-qol.convenientEffectsOn": "Apply Convenient Effect",
 	"midi-qol.convenientEffectsOff": "Don't Apply Convenient Effect",
 	"midi-qol.ConsumeResource.Name": "Skip consume resurce dialog",
@@ -526,8 +526,9 @@
 	"midi-qol.EnforceBonusActions.Hint": "Prompt when using bonus action items if a bonus action already used this round",
 	"midi-qol.EnforceReactionsOptions": {
 		"none": "Do not check",
-		"character": "Characters only",
-		"all": "All actors"
+    "displayOnly": "Display status icon",
+		"character": "Characters: prompt if used",
+		"all": "All actors: prompt if used"
 	},
   "midi-qol.EnforceReactions.Title": "Reaction Used",
   "midi-qol.EnforceReactions.Content": "You have used your reaction this round. Do you want to proceed anyway?",
@@ -544,5 +545,7 @@
     "3": "Choose `Basic Settings` and tinker",
     "4": "The other create setting add more details/complexity"
   },
-  "midi-qol.AddRow": "Add Row"
+  "midi-qol.AddRow": "Add Row",
+  "midi-qol.CheckFlanking.Name": "Check Flanking",
+  "midi-qol.CheckFlanking.Hint": "Check if you and your allies flank the opponent"
 }
