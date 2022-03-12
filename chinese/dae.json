@@ -337,5 +337,9 @@
     "dae.not-reflected": "物品效果已保存。这些改变不会反映在转移后的原始效果上。",
     "dae.not-transferred": "物品效果已保存。设定要转移的所持物品效果不会自动转移效果。",
     "dae.DAENoTitleText.Name": " 仅图标",
-    "dae.DAENoTitleText.Hint": " 仅在标题栏显示扳手图标，否则为图标 + DAE"
+    "dae.DAENoTitleText.Hint": " 仅在标题栏显示扳手图标，否则为图标 + DAE",
+    "dae.GM": "GM",
+    "dae.local": "本地",
+    "dae.actorUpdate": "角色更新",
+    "dae.ZeroHP": "零生命值：角色生命值归零时结束"
 }
