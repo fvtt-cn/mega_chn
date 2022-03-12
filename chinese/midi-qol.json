@@ -433,8 +433,8 @@
     "midi-qol.CriticalSaves.Name": "（房规）大成功/大失败总是令豁免掷骰成功/失败",
     "midi-qol.PromptDamageRoll.Name": "增强伤害骰对话框",
     "midi-qol.PromptDamageRoll.Hint": "当使用伤害骰对话框时，显示一个增强版的对话框，支持选择物品伤害。",
-    "midi-qol.GMHide3dDice.Name": "隐藏 GM 攻击/伤害/豁免的 3D 掷骰 - 覆写其他设置",
-    "midi-qol.GhostRolls.Name": "攻击/伤害骰显示为‘DSN 隐骰’而非隐藏掷骰",
+    "midi-qol.GMHide3dDice.Name": "隐藏 GM 攻击/伤害/豁免的 3D 掷骰 - 覆写其他设置（仅限合并卡片）",
+    "midi-qol.GhostRolls.Name": "攻击/伤害骰显示为‘DSN 隐骰’而非隐藏掷骰（仅限合并卡片）",
     "midi-qol.convenientEffectsOn": "应用便捷效果",
     "midi-qol.convenientEffectsOff": "不应用便捷效果",
     "midi-qol.FastForwardSpells.Name": "跳过消耗法术位对话框",
@@ -528,8 +528,9 @@
     },
     "midi-qol.EnforceReactionsOptions": {
         "none": "不启用",
-        "character": "仅玩家角色",
-        "all": "所有角色"
+        "character": "角色：使用过则提示",
+        "all": "所有角色：使用过则提示",
+        "displayOnly": "显示状态图标"
     },
     "midi-qol.EnforceBonusActions.Title": "附赠动作已使用",
     "midi-qol.EnforceBonusActions.Content": "您本轮已使用了附赠动作。仍要继续吗？",
@@ -589,6 +590,6 @@
     "midi-qol.WorldKeyMappings.Blurb1": "按键映射由每个客户端定义。每名玩家可以拥有不同的按键映射。强制所有客户端使用相同按键映射，可以使用某一模组来强制统一设置。",
     "midi-qol.WorldKeyMappings.Blurb2": "我已经成功测试过 'Force Client Controls' 模组",
     "midi-qol.WorldKeyMappings.Name": "世界 vs 客户端按键配置",
-    "midi-qol.FixStickyKeys.Name": "修复粘连的优势/Ctrl/Shift",
+    "midi-qol.FixStickyKeys.Name": "修复粘连的 yo",
     "midi-qol.FixStickyKeys.Hint": "启用后，Midi 将会尝试解决优势/Ctrl/Shift 卡在开启状态的问题"
 }
