@@ -590,6 +590,12 @@
     "midi-qol.WorldKeyMappings.Blurb1": "按键映射由每个客户端定义。每名玩家可以拥有不同的按键映射。强制所有客户端使用相同按键映射，可以使用某一模组来强制统一设置。",
     "midi-qol.WorldKeyMappings.Blurb2": "我已经成功测试过 'Force Client Controls' 模组",
     "midi-qol.WorldKeyMappings.Name": "世界 vs 客户端按键配置",
-    "midi-qol.FixStickyKeys.Name": "修复粘连的 yo",
-    "midi-qol.FixStickyKeys.Hint": "启用后，Midi 将会尝试解决优势/Ctrl/Shift 卡在开启状态的问题"
+    "midi-qol.FixStickyKeys.Name": "修复粘连的优势/Ctrl/Shift",
+    "midi-qol.FixStickyKeys.Hint": "启用后，Midi 将会尝试解决优势/Ctrl/Shift 卡在开启状态的问题",
+    "midi-qol.OptionalCritRule.Name": "（房规）重击余量",
+    "midi-qol.OptionalCritRule.Hint": "攻击骰超过 AC 的差值超过此值，均为重击。设为 -1 以禁用",
+    "midi-qol.CheckFlanking.Name": "检查夹击",
+    "midi-qol.CheckFlanking.Hint": "检查你和你的盟友是否夹击了敌人",
+    "midi-qol.RollAlternate.Name": "移动掷骰公式到提示中",
+    "midi-qol.RollAlternate.Hint": "在合并卡上使用另一种掷骰显示，将掷骰公式移到提示中"
 }
