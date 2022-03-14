@@ -580,6 +580,6 @@
     "AUTOANIM.macroonly": "仅执行宏，无动画",
     "AUTOANIM.macro": "宏",
     "AUTOANIM.add": "添加",
-    "AUTOANIM.args": "发送 Args",
+    "AUTOANIM.args": "发送参数",
     "AUTOANIM.noTips": "禁用永久效果提示"
 }
