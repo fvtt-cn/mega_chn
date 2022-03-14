@@ -1,1 +1,180 @@
-{}
+{
+    "REST-RECOVERY": {
+        "ClassNames": {
+            "Wizard": "法师",
+            "Bard": "吟游诗人",
+            "Druid": "德鲁伊"
+        },
+        "FeatureNames": {
+            "ArcaneRecovery": "奥术恢复",
+            "SongOfRest": "纾压曲",
+            "ChefFeat": "大厨",
+            "ChefTools": "厨师工具",
+            "PeriaptItem": "愈合护身符",
+            "DurableFeat": "耐性",
+            "DruidRecovery": "自然恢复"
+        },
+        "Fractions": {
+            "None": "无",
+            "Quarter": "四分之一",
+            "Half": "二分之一",
+            "Full": "全部"
+        },
+        "Rounding": {
+            "RoundDown": "向下取整",
+            "RoundUp": "向上取整"
+        },
+        "NumberToText": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五"
+        },
+        "Chat": {
+            "RegainedSpellSlots": "额外恢复：",
+            "SpellSlotList": "{number} 个 {level} 环法术位",
+            "SpellSlotListPlural": "{number} 个 {level} 环法术位",
+            "SongOfRestSelf": "{name} 享受着自己的纾压曲。",
+            "Chef": "{name} 享用着 {chef} 制作的美味食物。",
+            "ChefSelf": "{name} 享用着自己制作的美味食物。",
+            "SongOfRest": "{name} 享受着 {bard} 的纾压曲。"
+        },
+        "Dialogs": {
+            "ResetSettings": {
+                "Cancel": "取消",
+                "Title": "休息恢复 | 重置设定",
+                "Content": "你确定你想要重置所有休息恢复模组的设定到默认值吗？<br><strong>此变更无法撤销！</strong>",
+                "Confirm": "重置模组设定"
+            },
+            "ShortRest": {
+                "SpellSlotRecovery": "以 {featureName} 恢复法术位",
+                "SpellSlotsLeft": "你有 {spellSlotsLeft} 个环位以待恢复。",
+                "NoFeatureUse": "你已经耗尽 {featureName} 的使用次数，因此不能再在此次短休中恢复任何法术位。",
+                "FullSpells": "你的法术位已经完全恢复，因此没有必要再恢复任何法术位。",
+                "FullHealth": "你的生命值已经完全恢复，因此不能再掷任何生命骰。"
+            },
+            "LongRest": {
+                "Begin": "开始长休",
+                "CustomRules": "你正在游玩自定规则，这意味着你可能会恢复生命值、生命骰、职业资源、物品充能次数、法术位。",
+                "BeginExplanation": "开始长休之后，你将恢复你的一部分生命骰以便用于恢复生命值。"
+            },
+            "ModuleConfig": {
+                "Title": "休息恢复配置",
+                "LongRest": "长休设定",
+                "ShortRest": "短休设定",
+                "Other": "其他设定",
+                "Submit": "提交设定"
+            }
+        },
+        "Settings": {
+            "Reset": {
+                "Title": "重置设定到默认值",
+                "Label": "重置休息恢复设定",
+                "Hint": "此项将会重置所有的模组设定到默认值。"
+            },
+            "Configure": {
+                "Title": "模组配置",
+                "Label": "配置休息",
+                "Hint": "你可以在此对话框中配置休息的运作方式。"
+            },
+            "QuickHDRoll": {
+                "Title": "速骰生命骰（跳过对话框）",
+                "Hint": "跳过对话框以快速地掷生命骰。"
+            },
+            "Debug": {
+                "Title": "启用调试模式",
+                "Label": "打印调试消息到控制台"
+            },
+            "ShortRest": {
+                "IgnoreInactive": {
+                    "Title": "忽略离线玩家角色",
+                    "Hint": "如果你的小队中有一位拥有纾压曲的吟游诗人或者一位大厨，开启此项后，仅在其在线登录时，才会考虑其在场。"
+                },
+                "WizardClassName": {
+                    "Title": "法师职业名称",
+                    "Hint": "此处你可以配置在你的游戏中法师的职业名称为何。此项可为本地化的文本。"
+                },
+                "DruidClassName": {
+                    "Title": "德鲁伊职业名称",
+                    "Hint": "此处你可以配置在你的游戏中德鲁伊的职业名称为何。此项可为本地化的文本。"
+                },
+                "BardClassName": {
+                    "Title": "吟游诗人职业名称",
+                    "Hint": "此处你可以配置在你的游戏中吟游诗人的职业名称为何，用于决定使用谁的纾压曲。此项可为本地化的文本。"
+                },
+                "ArcaneRecovery": {
+                    "Title": "奥术恢复名称",
+                    "Hint": "此处你可以配置在你的游戏中法师的奥术恢复特性名称为何。此项可为本地化的文本。"
+                },
+                "NaturalRecovery": {
+                    "Title": "自然恢复名称",
+                    "Hint": "此处你可以配置在你的游戏中德鲁伊的自然恢复特性名称为何。此项可为本地化的文本。"
+                },
+                "ChefFeat": {
+                    "Title": "大厨特性名称",
+                    "Hint": "此处你可以配置在你的游戏中大厨特性的名称为何。此项可为本地化的文本。"
+                },
+                "ChefTools": {
+                    "Title": "厨师工具名称",
+                    "Hint": "此处你可以配置在你的游戏中厨师工具物品的名称为何。此项可为本地化的文本。留空以无视厨师工具的需求来使用此特性。"
+                },
+                "DurableFeat": {
+                    "Title": "耐性特性名称",
+                    "Hint": "此处你可以配置在你的游戏中耐性特性的名称为何。此项可为本地化的文本。"
+                },
+                "PeriaptItem": {
+                    "Title": "愈合护身符名称",
+                    "Hint": "此处你可以配置在你的游戏中愈合护身符物品的名称为何。此项可为本地化的文本。"
+                },
+                "SongOfRest": {
+                    "Title": "纾压曲名称",
+                    "Hint": "此处你可以配置在你的游戏中吟游诗人的纾压曲名称为何。此项可为本地化的文本。"
+                }
+            },
+            "LongRest": {
+                "RollHitDice": {
+                    "Title": "启用长休生命骰掷骰",
+                    "Hint": "在长休对话框中，启用掷骰的 UI。"
+                },
+                "PreRegainHitDice": {
+                    "Title": "在完成长休前启用生命骰恢复",
+                    "Hint": "启用后，将在完成长休前恢复生命骰，因此可以在休息中使用生命骰。"
+                },
+                "HitPointsRecoveryFraction": {
+                    "Hint": "长休中生命值恢复的比例。",
+                    "Title": "生命值恢复比例"
+                },
+                "HitDiceRecoveryFraction": {
+                    "Title": "生命骰恢复比例",
+                    "Hint": "长休中生命骰恢复的比例。"
+                },
+                "HitDiceRecoveryRounding": {
+                    "Hint": "如何对生命骰恢复的个数取整。",
+                    "Title": "生命骰恢复取整"
+                },
+                "ResourcesRecoveryFraction": {
+                    "Title": "资源恢复比例",
+                    "Hint": "长休中资源恢复的比例。"
+                },
+                "SpellSlotsRecoveryFraction": {
+                    "Title": "法术位恢复比例",
+                    "Hint": "长休中法术位恢复的比例（契约魔法除外）。"
+                },
+                "ItemUsesRecoveryFraction": {
+                    "Hint": "长休中物品使用次数（物品、消耗品等等）恢复的比例。",
+                    "Title": "物品使用次数恢复比例"
+                },
+                "FeatUsesRecoveryFraction": {
+                    "Title": "特性使用次数恢复比例",
+                    "Hint": "长休中特性使用次数恢复的比例。"
+                },
+                "DailyUsesRecoveryFraction": {
+                    "Title": "日常使用恢复比例",
+                    "Hint": "长休中日常使用次数恢复的比例（拥有“每日”恢复设定的物品）。"
+                }
+            }
+        },
+        "PatchedRecovery": "{actorName} 的 {recoveryName} 已被修补，现在拥有 1/1 长休次数。"
+    }
+}
