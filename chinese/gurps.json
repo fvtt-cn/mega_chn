@@ -774,5 +774,11 @@
     "GURPS.settingUsePhysicalDice": "使用实体骰子",
     "GURPS.settingHintUsePhysicalDice": "启用后，在受信玩家掷骰子时会出现提示框。玩家可以掷实体骰子然后把结果输入 Foundry。",
     "GURPS.share": "分享",
-    "GURPS.addDamageModifier": "伤害调整值"
+    "GURPS.addDamageModifier": "伤害调整值",
+    "GURPS.quicknotes": "快速笔记",
+    "GURPS.activeEffects": "动态效果",
+    "GURPS.default": "默认",
+    "GURPS.effectsEffect": "效果",
+    "GURPS.settingHintActiveEffects": "允许 GM 创建并应用动态效果",
+    "GURPS.effectModNoTokenSelected": "未选中指示物"
 }
