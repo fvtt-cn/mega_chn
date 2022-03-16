@@ -29,7 +29,12 @@
             "2": "二",
             "3": "三",
             "4": "四",
-            "5": "五"
+            "5": "五",
+            "1st": "第一",
+            "2nd": "第二",
+            "3rd": "第三",
+            "4th": "第四",
+            "5th": "第五"
         },
         "Chat": {
             "RegainedSpellSlots": "额外恢复：",
@@ -57,14 +62,24 @@
             "LongRest": {
                 "Begin": "开始长休",
                 "CustomRules": "你正在游玩自定规则，这意味着你可能会恢复生命值、生命骰、职业资源、物品充能次数、法术位。",
-                "BeginExplanation": "开始长休之后，你将恢复你的一部分生命骰以便用于恢复生命值。"
+                "BeginExplanation": "开始长休之后，你将恢复你的一部分生命骰以便用于恢复生命值。",
+                "CustomRulesLink": "查看自定规则。"
             },
             "ModuleConfig": {
                 "Title": "休息恢复配置",
                 "LongRest": "长休设定",
                 "ShortRest": "短休设定",
                 "Other": "其他设定",
-                "Submit": "提交设定"
+                "Submit": "提交设定",
+                "ItemNames": "特性名称设定"
+            },
+            "LongRestWarning": {
+                "Title": "完成长休？",
+                "Content": "你没有消耗任何生命骰以恢复生命值，你确定你想要完成长休吗？"
+            },
+            "LongRestSettingsDialog": {
+                "Title": "长休设定",
+                "Content": "这些是你的 GM 在此游戏中配置的长休设定。"
             }
         },
         "Settings": {
