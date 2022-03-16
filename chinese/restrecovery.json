@@ -12,7 +12,8 @@
             "ChefTools": "厨师工具",
             "PeriaptItem": "愈合护身符",
             "DurableFeat": "耐性",
-            "DruidRecovery": "自然恢复"
+            "DruidRecovery": "自然恢复",
+            "NaturalRecovery": "自然恢复"
         },
         "Fractions": {
             "None": "无",
@@ -61,7 +62,7 @@
             },
             "LongRest": {
                 "Begin": "开始长休",
-                "CustomRules": "你正在游玩自定规则，这意味着你可能会恢复生命值、生命骰、职业资源、物品充能次数、法术位。",
+                "CustomRules": "你正在游玩自定规则，这意味着你可能会以不同的方式恢复生命值、生命骰、职业资源、物品充能次数、法术位。",
                 "BeginExplanation": "开始长休之后，你将恢复你的一部分生命骰以便用于恢复生命值。",
                 "CustomRulesLink": "查看自定规则。"
             },
@@ -80,6 +81,10 @@
             "LongRestSettingsDialog": {
                 "Title": "长休设定",
                 "Content": "这些是你的 GM 在此游戏中配置的长休设定。"
+            },
+            "ShortRestWarning": {
+                "Title": "结束短休？",
+                "Content": "您还没有花费生命骰来恢复生命值，确定要结束短休吗？"
             }
         },
         "Settings": {
