@@ -39,7 +39,7 @@
             "ShowToPlayersTitle": "按住SHIFT以向除你之外的所有玩家展示。",
             "SelectPlayers": "选择玩家",
             "SelectPlayersConfirm": "就这样吧！",
-            "SelectSheet": "算则PDF",
+            "SelectSheet": "选择PDF",
             "SelectSheetConfirm": "就这样吧！",
             "InspectData": "检查数据",
             "InspectDataHelp3": "虽然为了方便，提供了复制/roll语句的按钮，但在投骰时，系统可能会有意省略或更改数据。如果/roll语句没有产生预期的结果，这不是bug。",
