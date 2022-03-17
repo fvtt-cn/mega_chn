@@ -238,7 +238,7 @@
     "dae.isAttacked": "Is Attacked: Expires if the character is attacked",
     "dae.isMoved": "Moved: expires when the token is moved",
     "dae.isDamaged": "is Damaged: Expires if the character is damaged",
-    "dae.ZeroHP": "Zero HP: exires if the character reaches 0 HP",
+    "dae.ZeroHP": "Zero HP: expires if the character reaches 0 HP",
     "dae.isHit": "is Hit: Expires if the character is hit by any weapon/spell attack even if the weapon/spell does not deal damage",
     "dae.isRollBase": "Expires if the character rolls: ",
     "dae.isSaveDetail": "saving throw",
