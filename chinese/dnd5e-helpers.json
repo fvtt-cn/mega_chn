@@ -6,8 +6,8 @@
     "DND5EH.Default_none": "无",
     "DND5EH.Default_SocketSend": "套接字发送 {socketData}",
     "DND5EH.Default_roll": "掷骰",
-    "DND5EH.flagsNoCover": "忽略半掩蔽和四分之三掩蔽",
-    "DND5EH.flagsNoCoverHint": "由特性提供。",
+    "DND5EH.flagsNoCover": "忽略特定掩蔽",
+    "DND5EH.flagsNoCoverHint": "由特性与魔法物品提供。",
     "DND5EH.GridTemplateScaling_name": "自动调整测量板为 5e 网格",
     "DND5EH.GridTemplateScaling_hint": "线形和锥形将会放缩其长度。圆形将会转化为等价的矩形。此项设置目的是匹配 5e 在测量板放置时的对角线测量的网格距离。",
     "DND5EH.Default_SocketSetup": "DnD5e 小帮手套接字已接收",
@@ -312,5 +312,9 @@
     "DND5EH.groupLabel.pcFeatures": "PC 特性助手",
     "DND5EH.groupLabel.combat": "战斗助手",
     "DND5EH.groupLabel.misc": "杂项",
-    "DND5EH.SubModule.GreatWounds.label": "变体规则：重伤"
+    "DND5EH.SubModule.GreatWounds.label": "变体规则：重伤",
+    "DND5EH.flagsNoCoverOptionHalf": "忽略半掩蔽。",
+    "DND5EH.flagsNoCoverOptionThreeQ": "忽略半掩蔽与四分之三掩蔽。",
+    "DND5EH.flagsNoCoverOptionFull": "忽略全部掩蔽。",
+    "DND5EH.flagsNoCoverOptionNone": "不忽略掩蔽。"
 }
