@@ -890,5 +890,14 @@
     "GURPS.settingImportHintBodyPlan": "注意：在首次导入时总会从文件读取身体形状类型。",
     "GURPS.settingImportBodyPlanUseFile": "使用导入的文件的身体形状类型。",
     "GURPS.settingImportBodyPlanIgnore": "忽略导入的文件的身体形状类型。",
-    "GURPS.settingImportBodyPlanAsk": "在导入时覆盖前询问。"
+    "GURPS.settingImportBodyPlanAsk": "在导入时覆盖前询问。",
+    "GURPS.settingRangeStrategyRangeBands": "怪物猎人 2 射程关联",
+    "GURPS.settingRangeStrategyTenPenalties": "每 10 六角格/方格/米减 1",
+    "GURPS.settingRangeStrategyStandard": "尺寸与速度/射程表",
+    "GURPS.settingHintCalculateEnc": "选中后将根据携带的装备自动计算负重等级，并且无法手动更改。如果此项关闭，你可以通过点击来更改它。",
+    "GURPS.settingUseEquipped": "角色：基于“已装备”的重量",
+    "GURPS.settingHintBasicPDFs": "选择“合并”或“分离”并在配置 PDFoundry 时使用相应的 PDF 代码。注意：如果你选择“分离”，在 PDFoundry 测试时基本集战役篇 PDF 应该位于 340 页。",
+    "GURPS.settingShowNavigation": "角色：显示导航",
+    "GURPS.settingCalculateEnc": "角色：计算负重",
+    "GURPS.settingHintShowNavigation": "选中后，在完整 GCS 角色卡中将会显示导航栏。"
 }
