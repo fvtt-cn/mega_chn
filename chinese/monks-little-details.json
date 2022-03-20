@@ -140,7 +140,7 @@
     "MonksLittleDetails.combatopen.gm": "仅限 GM",
     "MonksLittleDetails.opencombat.name": "弹出战斗对话框",
     "MonksLittleDetails.disable-opencombat.hint": "如果在战斗开始时你不需要弹窗",
-    "MonksLittleDetails.prevent-token-removal.hint": "防止通过指示物界面移除一个指示物，仅在遭遇界面中移除它。",
+    "MonksLittleDetails.prevent-token-removal.hint": "限制只能在遭遇页面从战斗中移除指示物，防止通过指示物 HUD 移除。",
     "MonksLittleDetails.show-drag-points-together.hint": "在墙体工具上显示一个拖拽按钮，如果墙面的点正好重叠，就会把它们一同拖拽移动",
     "MonksLittleDetails.show-bloodsplat.hint": "当一个怪物死亡时，将其转变为一滩血迹，并隐藏图像、属性条及效果。毕竟它死了。",
     "MonksLittleDetails.move-pause.hint": "将“暂停”图标移到屏幕上方，使其更加居中，避免为什么指示物无法移动的疑惑。",
@@ -166,5 +166,14 @@
     "MonksLittleDetails.auto-scroll.hint": "自动卷动战斗板，保持当前战斗者一直处于最顶部",
     "MonksLittleDetails.auto-scroll.name": "自动卷动战斗板",
     "MonksLittleDetails.ClearAll": "清除全部",
-    "MonksLittleDetails.ClearWarning": "该文件夹的所有内容将被永久删除。"
+    "MonksLittleDetails.ClearWarning": "该文件夹的所有内容将被永久删除。",
+    "MonksLittleDetails.select-combatant.hint": "在参展者的回合自动选中其指示物",
+    "MonksLittleDetails.actorsoundsoptions.none": "禁用",
+    "MonksLittleDetails.actorsoundsoptions.everyone": "所有角色",
+    "MonksLittleDetails.actorsoundsoptions.npc": "仅 NPC",
+    "MonksLittleDetails.select-combatant.name": "选中参战者",
+    "MonksLittleDetails.treasure-chest-size.name": "战利品图像尺寸",
+    "MonksLittleDetails.treasure-chest-size.hint": "与指示物尺寸相较的战利品图像的尺寸",
+    "MonksLittleDetails.treasure-chest.name": "战利品图像",
+    "MonksLittleDetails.treasure-chest.hint": "指示物变成战利品时使用的图像"
 }
