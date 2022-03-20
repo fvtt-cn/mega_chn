@@ -287,7 +287,7 @@
     "option.wmOptions.more": "启用 - 更多",
     "setting.wmTableName.hint": "浪涌发生时掷骰的表的名称（默认：Wild-Magic-Surge-Table）。留空以跳过此步骤。",
     "setting.wmToCRecharge.hint": "启用后，在狂野魔法浪涌发生时，充能混乱之潮特性的使用次数。",
-    "setting.actionMgmtEnable.hint": "在受控指示物上显示一个新的 HUD 用于跟踪战斗中动作、附赠动作和反应的使用次数",
+    "setting.actionMgmtEnable.hint": "在战斗中启用动作追踪。显示动作、附赠动作和反应的使用次数。",
     "setting.abilityRecharge.hint": "启用/禁用此功能（全局）。可以切换在回合开始/结束时进行",
     "setting.regenBlock.hint": "检测到此名称的效果将阻止再生掷骰提示弹出",
     "setting.undeadFortEnable.name": "不死韧性检定",
@@ -316,5 +316,7 @@
     "DND5EH.flagsNoCoverOptionHalf": "忽略半掩蔽。",
     "DND5EH.flagsNoCoverOptionThreeQ": "忽略半掩蔽与四分之三掩蔽。",
     "DND5EH.flagsNoCoverOptionFull": "忽略全部掩蔽。",
-    "DND5EH.flagsNoCoverOptionNone": "不忽略掩蔽。"
+    "DND5EH.flagsNoCoverOptionNone": "不忽略掩蔽。",
+    "setting.actionMgmtDisplay.hint": "客户端设置，偏爱的 HUD 显示风格。",
+    "setting.actionMgmtDisplay.name": "启用动作管理 HUD"
 }
