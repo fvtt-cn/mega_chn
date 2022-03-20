@@ -156,6 +156,14 @@
         "src": "https://github.com/fantasycalendar/FoundryVTT-RestRecovery/raw/main/languages/en.json"
     },
     {
+        "name": "itempiles",
+        "src": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/raw/master/languages/en.json"
+    },
+    {
+        "name": "monks-enhanced-journal",
+        "src": "https://github.com/ironmonk88/monks-enhanced-journal/raw/main/lang/en.json"
+    },
+    {
         "name": "swade-tools",
         "src": "https://raw.githubusercontent.com/lipefl/swade-tools/main/lang/en.json"
     },
