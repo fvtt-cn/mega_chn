@@ -43,7 +43,7 @@
     "MonksLittleDetails.close-combat-when-done.hint": "当你完成一个战斗遭遇时，如果没有其他进行中的战斗，则关闭战斗弹窗。",
     "MonksLittleDetails.prevent-token-removal.name": "防止指示物移除",
     "MonksLittleDetails.swap-buttons.hint": "我认为设置按钮放置在底部比放置在中间更好。",
-    "MonksLittleDetails.alter-hud.name": "修改指示物界面的状态效果",
+    "MonksLittleDetails.alter-hud.name": "修改指示物 HUD 的状态效果",
     "MonksLittleDetails.alter-hud.hint": "改变指示物 HUD 以显示详细的状态效果并允许清除所有效果。",
     "MonksLittleDetails.add-extra-statuses.hint": "添加一些在 DnD 中用得到的状态效果。",
     "MonksLittleDetails.change-invisible-image.hint": "不使用 Foundry 的蒙面人图片，而使用一张勾勒外形的图片",
