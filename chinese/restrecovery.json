@@ -58,7 +58,8 @@
                 "SpellSlotsLeft": "你有 {spellSlotsLeft} 个环位以待恢复。",
                 "NoFeatureUse": "你已经耗尽 {featureName} 的使用次数，因此不能再在此次短休中恢复任何法术位。",
                 "FullSpells": "你的法术位已经完全恢复，因此没有必要再恢复任何法术位。",
-                "FullHealth": "你的生命值已经完全恢复，因此不能再掷任何生命骰。"
+                "FullHealth": "你的生命值已经完全恢复，因此不能再掷任何生命骰。",
+                "AutoRoll": "自动掷骰"
             },
             "LongRest": {
                 "Begin": "开始长休",
@@ -68,11 +69,13 @@
             },
             "ModuleConfig": {
                 "Title": "休息恢复配置",
-                "LongRest": "长休设定",
-                "ShortRest": "短休设定",
+                "LongRest": "长休",
+                "ShortRest": "短休",
                 "Other": "其他设定",
                 "Submit": "提交设定",
-                "ItemNames": "特性名称设定"
+                "ItemNames": "特性名称",
+                "General": "通用设置",
+                "Request": "此处需要新的特性。"
             },
             "LongRestWarning": {
                 "Title": "完成长休？",
@@ -192,6 +195,10 @@
                 "DailyUsesRecoveryFraction": {
                     "Title": "日常使用恢复比例",
                     "Hint": "长休中日常使用次数恢复的比例（拥有“每日”恢复设定的物品）。"
+                },
+                "EnableAutoRollButton": {
+                    "Title": "启用自动掷生命骰按钮",
+                    "Hint": "这会在长休和短休 UI 上添加一个按钮，让玩家可以在生命值不满时自动掷生命骰。"
                 }
             }
         },
