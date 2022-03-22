@@ -429,7 +429,7 @@
         "activation": "激活条件",
         "ifSave": "出现豁免"
     },
-    "midi-qol.otherCritProp": "重击其他掷骰",
+    "midi-qol.otherCritProp": "重击其他",
     "midi-qol.CriticalSaves.Name": "（房规）大成功/大失败总是令豁免掷骰成功/失败",
     "midi-qol.PromptDamageRoll.Name": "增强伤害骰对话框",
     "midi-qol.PromptDamageRoll.Hint": "当使用伤害骰对话框时，显示一个增强版的对话框，支持选择物品伤害。",
@@ -597,5 +597,14 @@
     "midi-qol.CheckFlanking.Name": "检查夹击",
     "midi-qol.CheckFlanking.Hint": "检查你和你的盟友是否夹击了敌人",
     "midi-qol.RollAlternate.Name": "移动掷骰公式到提示中",
-    "midi-qol.RollAlternate.Hint": "在合并卡上使用另一种掷骰显示，将掷骰公式移到提示中"
+    "midi-qol.RollAlternate.Hint": "在合并卡上使用另一种掷骰显示，将掷骰公式移到提示中",
+    "midi-qol.magicalDamageProp": "魔法伤害",
+    "midi-qol.magicalEffectProp": "魔法效应",
+    "midi-qol.concentrationEffectProp": "专注",
+    "midi-qol.CheckFlankingOptions": {
+        "off": "禁用",
+        "ceOnly": "仅便捷效果",
+        "advonly": "仅优势",
+        "ceadv": "便捷效果 + 优势"
+    }
 }
