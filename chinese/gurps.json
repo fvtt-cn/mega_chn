@@ -983,5 +983,18 @@
     "GURPS.addAdjustedForDamageType": "‡ - 为伤害调整值校正",
     "GURPS.ignoreBodyPlan": "忽略导入的身体形状类型",
     "GURPS.pointsTotal": "总计点数",
-    "GURPS.noTargetSelected": "没有选中目标"
+    "GURPS.noTargetSelected": "没有选中目标",
+    "GURPS.settingManeuverDetailFull": "全部细节",
+    "GURPS.settingSheetDetail": "快速角色卡",
+    "GURPS.settingManeuverDetail": "动作可见性细节",
+    "GURPS.settingHintManeuverDetail": "决定 GM 与所有者之外的人能看到什么动作细节。“全部细节”：比如“全力攻击（坚定）”和“佯攻”均会显示细节；“无佯攻”：除了佯攻会显示为“攻击”外与“全部细节”相同；“一般”：跟“全部，无佯攻”一样，除了不显示选项。例如，“全力攻击（猛力）”会显示为“全力攻击”。（GM 与所有者依然可以看到全部细节。）",
+    "GURPS.settingManeuverGMOnly": "仅 GM 与所有者",
+    "GURPS.settingManeuverEveryone": "所有人",
+    "GURPS.settingHintSheetDetail": "选择使用“快速角色卡”的角色卡。这些将会显示在标题栏，用户可以通过点击来切换它与“完整（GCS）”角色卡",
+    "GURPS.settingImportEncoding": "导入文件编码",
+    "GURPS.settingImportHintEncoding": "如果你导入的 unicode 编码角色未能正常显示，尝试将该选项设定为 UTF-8 编码。",
+    "GURPS.settingManeuverDetailNoFeint": "无佯攻",
+    "GURPS.settingManeuverDetailGeneral": "一般",
+    "GURPS.settingAutoIgnoreQty": "导入：自动保存 Foundry Qty/数量",
+    "GURPS.settingHintAutoIgnoreQty": "选中后，在用户改变 QTY/数量时会设置装备为“导入时保存当前 QTY/数量”（其上会显示蓝色的文件图标）。注意：该项不会检测“使用次数”的变化。如果您想在两次导入之间记忆“使用次数”，则需要手动设置该装备。"
 }
