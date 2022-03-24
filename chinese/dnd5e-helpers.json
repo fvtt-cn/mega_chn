@@ -318,5 +318,7 @@
     "DND5EH.flagsNoCoverOptionFull": "忽略全部掩蔽。",
     "DND5EH.flagsNoCoverOptionNone": "不忽略掩蔽。",
     "setting.actionMgmtDisplay.hint": "客户端设置，偏爱的 HUD 显示风格。",
-    "setting.actionMgmtDisplay.name": "启用动作管理 HUD"
+    "setting.actionMgmtDisplay.name": "启用动作管理 HUD",
+    "setting.whisperToSelf.name": "私聊掩蔽报告给自己",
+    "setting.whisperToSelf.hint": "只向自己私聊掩蔽报告，而非也私聊给 GM。"
 }
