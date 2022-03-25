@@ -37,7 +37,7 @@
         "allNoRoll": "豁免 - 所有人仅看到结果"
     },
     "midi-qol.AutoDamage.Name": "自动掷伤害骰",
-    "midi-qol.AutoEffects.Hint": "若目标被命中、豁免失败或者未豁免，自动对其应用物品的动态效果。需要使用dae，同时最好使用about-time。",
+    "midi-qol.AutoEffects.Hint": "若目标被命中、豁免失败或者未豁免，自动对其应用物品的动态效果。需要使用 dae，同时最好使用 about-time。",
     "midi-qol.AutoEffects.Name": "自动对目标应用物品效果",
     "midi-qol.AutoFastForward.Hint": "始终快进掷攻击、伤害骰。点击攻击、伤害的按钮时同样快进",
     "midi-qol.AutoFastForward.Name": "自动快进掷骰",
