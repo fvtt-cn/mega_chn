@@ -267,7 +267,7 @@
     "setting.OpenWoundsFeatureName.hint": "为开放性伤口功能显示的名称。",
     "setting.OpenWoundPcOnlyName.name": "开放性伤口仅对 PC 有效",
     "setting.OpenWoundDeathSave.name": "开放性伤口 - 死亡豁免",
-    "setting.GreatWoundEnable.hint": "在指示物单发伤害超过 50% 最大生命值时，掷一个特殊掷骰表",
+    "setting.GreatWoundEnable.hint": "在指示物单发伤害超过 50% 最大生命值时，掷一个特殊掷骰表。该阈值可在“战斗”页面中更改。",
     "setting.OpenWoundDeathSave.hint": "开放性伤口触发于一次低于此值的死亡豁免掷骰",
     "setting.OpenWoundCrit.name": "开放性伤口 - 重击",
     "setting.OpenWound0HP.name": "开放性伤口 - HP 归零",
@@ -320,5 +320,7 @@
     "setting.actionMgmtDisplay.hint": "客户端设置，偏爱的 HUD 显示风格。",
     "setting.actionMgmtDisplay.name": "启用动作管理 HUD",
     "setting.whisperToSelf.name": "私聊掩蔽报告给自己",
-    "setting.whisperToSelf.hint": "只向自己私聊掩蔽报告，而非也私聊给 GM。"
+    "setting.whisperToSelf.hint": "只向自己私聊掩蔽报告，而非也私聊给 GM。",
+    "setting.GreatWoundTriggerPct.name": "触发：：最大 HP 百分比",
+    "setting.GreatWoundTriggerPct.hint": "伤害损失的生命值百分比超过该数值就会触发重伤。设置为 0 将禁用此检查。默认为 50。"
 }
