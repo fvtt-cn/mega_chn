@@ -606,5 +606,13 @@
         "ceOnly": "仅便捷效果",
         "advonly": "仅优势",
         "ceadv": "便捷效果 + 优势"
-    }
+    },
+    "midi-qol.playerDamageCardOptions": {
+        "none": "不显示",
+        "playerresults": "显示玩家结果",
+        "playerbuttons": "显示玩家结果 + 按钮",
+        "npcplayerresults": "显示玩家与 NPC 结果",
+        "npcplayerbuttons": "显示 NPC/玩家结果 + 按钮"
+    },
+    "midi-qol.toggleEffectProp": "开关效果"
 }
