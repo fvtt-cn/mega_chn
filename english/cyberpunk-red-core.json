@@ -76,6 +76,7 @@
     "CPR.characterSheet.bottomPane.role.abilities": "Abilities",
     "CPR.characterSheet.bottomPane.role.noRolesWarning": "No roles defined, drag a role item to the sheet first.",
     "CPR.characterSheet.bottomPane.role.rank": "Rank",
+    "CPR.characterSheet.leftPane.image.showPlayers": "Show Players",
     "CPR.characterSheet.leftPane.deathSave.hoverCriticalInjuryPenalty": "Critical Injury Penalty",
     "CPR.characterSheet.leftPane.deathSave.increase": "Click to increase the Death Save Penalty",
     "CPR.characterSheet.leftPane.deathSave.reset": "Click to reset Death Save Penalty",
