@@ -294,7 +294,9 @@ SWADE.IgnWounds: Ignore Wounds
 SWADE.Size: Size
 SWADE.Scale: Scale
 SWADE.PickACard: Pick a card for
-SWADE.NoCardsLeft: There are not enough cards left in the deck! Only {current} of {needed} needed cards are available
+SWADE.NoCardsLeft: >-
+  There are not enough cards left in the deck! Only {current} of {needed} needed
+  cards are available
 SWADE.OldCard: Old card
 SWADE.ActionCard: Action Card
 SWADE.ConvictionActive: Conviction Active
@@ -484,3 +486,4 @@ SWADE.RemoveEffectTitle: Remove {label} ?
 SWADE.RemoveEffectBody: >-
   <p style="text-align: center;">Remove <strong>{label}</strong> from
   <strong>{parent}</strong>?</p>
+SWADE.PPAbbreviation: PP
