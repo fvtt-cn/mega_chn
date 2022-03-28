@@ -1571,5 +1571,7 @@
     "SETTINGS.D35ESharedVisionWithoutSelection": "不包含未选中的棋子",
     "SETTINGS.D35ESharedVisionWithSelection": "总是",
     "SETTINGS.D35EShowPlayerContextNotesN": "向玩家展示背景说明。",
-    "SETTINGS.D35EShowPlayerContextNotesH": "向玩家展示聊天界面的上下文及注释。"
+    "SETTINGS.D35EShowPlayerContextNotesH": "向玩家展示聊天界面的上下文及注释。",
+    "D35E.AttackTypeWeaponIcon": "<img src='icons/svg/sword.svg' class='attack-info-icon' />",
+    "D35E.AttackTypeNaturalIcon": "<img src='icons/svg/pawprint.svg' class='attack-info-icon' />"
 }
