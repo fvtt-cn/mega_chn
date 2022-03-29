@@ -168,6 +168,10 @@
         "src": "https://raw.githubusercontent.com/lipefl/swade-tools/main/lang/en.json"
     },
     {
+        "name": "ready-to-use-cards",
+        "src": "https://gitlab.com/adrien.schiehle/ready-to-use-cards/-/raw/master/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
