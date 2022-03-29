@@ -118,7 +118,7 @@ SWADE.MaxPP: 最大奇术点
 SWADE.CurPP: 当前奇术点
 SWADE.PPShort: 奇术点
 SWADE.PP: 奇术点
-SWADE.Price: 花费
+SWADE.Price: 费用
 SWADE.Weight: 重量
 SWADE.Quantity: 数量
 SWADE.Unequipped: 未装备
@@ -198,7 +198,7 @@ SWADE.LevelHeaded: 沉稳冷静
 SWADE.Hesitant: 犹豫不决
 SWADE.UseConv: 使用信念点！
 SWADE.Conv: 信念点
-SWADE.Req: 前置条件
+SWADE.Req: 需求
 SWADE.ArcBack: 奥法背景
 SWADE.Edges: 专长
 SWADE.Minor: (次要)
@@ -414,7 +414,7 @@ SWADE.Characters: 角色
 SWADE.SettingRules: 设定规则
 SWADE.WorldBasics: 世界基础
 SWADE.CoreSkillsList: 核心技能清单
-SWADE.MAPenalty: 复合动作减值
+SWADE.MAPenalty: 多重动作减值
 SWADE.Mod.Custom.Add: 添加自定义调整值
 SWADE.Mod.Support: 援助
 SWADE.Mod.Preset.Add: 添加预设
