@@ -320,8 +320,8 @@
     "midi-qol.UsePlayerPortrait.Name": "聊天卡片使用角色立绘",
     "midi-qol.RemoveConcentration.Hint": "启用后，在角色受到伤害进行的专注豁免失败时，将会自动移除其专注状态。禁用则必须手动移除",
     "midi-qol.RemoveConcentration.Name": "豁免失败时移除专注状态",
-    "midi-qol.RequireMagical.Hint": "启用后，仅带有‘魔法’属性的武器才会造成魔法伤害",
-    "midi-qol.RequireMagical.Name": "需要 ‘魔法’ 属性",
+    "midi-qol.RequireMagical.Hint": "魔法属性可以是武器属性的‘魔法’或 Midi-QoL 的‘魔法伤害’属性，启用后该物品将造成魔法伤害。‘关闭’则非武器默认造成魔法伤害，武器在攻击加值 > 0 时造成魔法伤害。‘非法术’则仅只有法术默认造成魔法伤害。‘全部’则没有物品默认造成魔法伤害",
+    "midi-qol.RequireMagical.Name": "需要设置‘魔法’属性",
     "midi-qol.DefaultSaveMult.Hint": "如果没有指定其他调整值，豁免掷骰计算伤害时，将以此值乘以原本的攻击伤害。默认值为 0.5，即豁免成功时伤害减半。仅当你知道该机制如何起效时才应修改此值",
     "midi-qol.DefaultSaveMult.Name": "默认豁免掷骰乘数",
     "midi-qol.ShowStats": "显示统计数据窗口",
@@ -595,7 +595,7 @@
     "midi-qol.OptionalCritRule.Name": "（房规）重击余量",
     "midi-qol.OptionalCritRule.Hint": "攻击骰超过 AC 的差值超过此值，均为重击。设为 -1 以禁用",
     "midi-qol.CheckFlanking.Name": "检查夹击",
-    "midi-qol.CheckFlanking.Hint": "检查你和你的盟友是否夹击了敌人",
+    "midi-qol.CheckFlanking.Hint": "检查你和你的盟友是否夹击了敌人。给予攻击者优势 和/或 对攻击者应用 CE 的夹击状态 或 对目标应用 CE 的被夹击状态",
     "midi-qol.RollAlternate.Name": "移动掷骰公式到提示中",
     "midi-qol.RollAlternate.Hint": "在合并卡上使用另一种掷骰显示，将掷骰公式移到提示中",
     "midi-qol.magicalDamageProp": "魔法伤害",
@@ -605,14 +605,34 @@
         "off": "禁用",
         "ceOnly": "仅便捷效果",
         "advonly": "仅优势",
-        "ceadv": "便捷效果 + 优势"
+        "ceadv": "便捷效果夹击 + 优势",
+        "ceflanked": "仅便捷效果被夹击状态",
+        "ceonly": "仅便捷效果的夹击",
+        "ceflankedNoconga": "便捷效果被夹击 + 无排队送死"
     },
     "midi-qol.playerDamageCardOptions": {
         "none": "不显示",
         "playerresults": "显示玩家结果",
         "playerbuttons": "显示玩家结果 + 按钮",
         "npcplayerresults": "显示玩家与 NPC 结果",
-        "npcplayerbuttons": "显示 NPC/玩家结果 + 按钮"
+        "npcplayerbuttons": "显示玩家和 NPC + 按钮"
     },
-    "midi-qol.toggleEffectProp": "开关效果"
+    "midi-qol.toggleEffectProp": "开关效果",
+    "midi-qol.PlayerDamageCard.Name": "展示玩家的伤害卡片",
+    "midi-qol.PlayerDamageCard.Hint": "伤害卡片的简化版本。仅在 GM 卡片显示时显示。卡片不会对 GM 显示",
+    "midi-qol.AutoEffectsOptions": {
+        "applyNoButton": "应用效果不显示按钮",
+        "off": "不自动应用效果",
+        "applyRemove": "应用效果并移除按钮",
+        "applyLeave": "应用效果并保留按钮"
+    },
+    "midi-qol.RequireMagicalOptions": {
+        "off": "非武器造成魔法伤害",
+        "nonspell": "非法术造成非魔法伤害",
+        "allitems": "所有物品造成非魔法伤害"
+    },
+    "midi-qol.NonSilverPhysical": "非银制物理",
+    "midi-qol.NonAdamantinePhysical": "非精金物理",
+    "midi-qol.NonMagical": "非魔法",
+    "midi-qol.Magical": "魔法"
 }
