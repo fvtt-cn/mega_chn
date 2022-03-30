@@ -996,5 +996,17 @@
     "GURPS.settingManeuverDetailNoFeint": "无佯攻",
     "GURPS.settingManeuverDetailGeneral": "一般",
     "GURPS.settingAutoIgnoreQty": "导入：自动保存 Foundry Qty/数量",
-    "GURPS.settingHintAutoIgnoreQty": "选中后，在用户改变 QTY/数量时会设置装备为“导入时保存当前 QTY/数量”（其上会显示蓝色的文件图标）。注意：该项不会检测“使用次数”的变化。如果您想在两次导入之间记忆“使用次数”，则需要手动设置该装备。"
+    "GURPS.settingHintAutoIgnoreQty": "选中后，在用户改变 QTY/数量时会设置装备为“导入时保存当前 QTY/数量”（其上会显示蓝色的文件图标）。注意：该项不会检测“使用次数”的变化。如果您想在两次导入之间记忆“使用次数”，则需要手动设置该装备。",
+    "GURPS.rateOfFire": "攻击距离",
+    "GURPS.selectToken": "选择指示物",
+    "GURPS.showQuestion": "显示？",
+    "GURPS.shockPenaltyNextTurnOnly": "{name}：-{modifier} DX 与 IQ（仅下一轮）。",
+    "GURPS.resource": "资源",
+    "GURPS.roll": "骰",
+    "GURPS.rolled": "投出",
+    "GURPS.swimmersOrFlyersSuffer": "游泳飞行",
+    "GURPS.swimmerFlyer": "游泳/飞行",
+    "GURPS.abbrevReference": "引用",
+    "GURPS.moveHalf": "减半（{reason}）",
+    "GURPS.abbrevRef": "引用"
 }
