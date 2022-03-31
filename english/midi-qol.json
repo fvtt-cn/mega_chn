@@ -423,9 +423,9 @@
 	"midi-qol.ShowStats": "Show Statistics Window",
 	"midi-qol.DefaultSaveMult.Name": "Default saving throw multiplier",
 	"midi-qol.DefaultSaveMult.Hint": "If there are no other modifiers a saving throw will do this fraction of the damage of the original attack. Default 0.5, half damage on save. You should only change this if you know how multipliers work",
-	"midi-qol.RequireMagical.Name": "Require 'Magical' property set",
+	"midi-qol.RequireMagical.Name": "Require 'Magical' property",
 	"midi-qol.RequireMagical.Hint": "Magical Property is either the weapon property 'Magical' or the midi-qol 'magic dam' property and if set the item does magical damage. 'Off' non-weapons do magical damage by default, weapons do magical damage if attack bonus > 0. 'Non Spell' means only spells do magical damage by default. 'All' no item does magical damage by default",
-  "midi-qol.RequireMagicalOptions": {"off": "Non-weapons do magical damage", "nonspell": "Non spells do non-magical damage", "allitems": "All Items do non-magial damage"},
+  "midi-qol.RequireMagicalOptions": {"off": "Off: Non-weapons do magical damage", "nonspell": "Non spells do non-magical damage", "allitems": "All Items do non-magial damage"},
 	"midi-qol.RemoveConcentration.Name": "Remove concentration on failed save",
 	"midi-qol.RemoveConcentration.Hint": "If enabled concentration will be removed on a failed save when damage taken otherwise must be removed manually",
 	"midi-qol.UsePlayerPortrait.Name": "Use Actor portrait in chat cards",
@@ -569,6 +569,8 @@
   "midi-qol.RollAlternate.Name": "Move roll formula to tooltip",
   "midi-qol.RollAlternate.Hint": "Use alternate roll display on merge card moving the roll formula to the tooltip",
   "midi-qol.OptionalCritRule.Name": "(House Rule) Critical Roll Margin",
-  "midi-qol.OptionalCritRule.Hint": "Attack Rolls this much above AC are critical. -1 disables"
-
+  "midi-qol.OptionalCritRule.Hint": "Attack Rolls this much above AC are critical. -1 disables",
+  "midi-qol.ActorOnUseMacros": "Actor On Use Macros",
+  "midi-qol.MacroPass": "Macro Pass",
+  "midi-qol.MacroName": "Macro Name"
 }
