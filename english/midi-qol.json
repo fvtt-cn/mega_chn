@@ -498,6 +498,8 @@
   "midi-qol.autoFailFriendly": "auto fail friendly",
   "midi-qol.RollToggle.Hint": "Toggle fast/auto roll setting for attack/damage/ability Checks",
   "midi-qol.RollToggle.Name": "Roll Toggle",
+  "midi-qol.FastForward.Hint": "Fast forward the next roll",
+  "midi-qol.FastForward.Name": "Fast Forward",
   "midi-qol.KeysAdvantage.Hint": "Roll with advantage",
   "midi-qol.KeysDisadvantage.Hint": " Roll with disadvantage",
   "midi-qol.KeysCritical.Hint": "Roll critical damage (from chat card only)",
@@ -572,5 +574,7 @@
   "midi-qol.OptionalCritRule.Hint": "Attack Rolls this much above AC are critical. -1 disables",
   "midi-qol.ActorOnUseMacros": "Actor On Use Macros",
   "midi-qol.MacroPass": "Macro Pass",
-  "midi-qol.MacroName": "Macro Name"
+  "midi-qol.MacroName": "Macro Name",
+  "midi-qol.DamageRolled": "Rolled",
+  "midi-qol.DamageApplied": "Applied"
 }
