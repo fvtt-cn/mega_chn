@@ -180,5 +180,6 @@
     "MonksTokenBar.None": "无",
     "MonksTokenBar.GMOnly": "仅GM",
     "MonksTokenBar.PlayersOnly": "玩家",
-    "MonksTokenBar.Everyone": "所有人"
+    "MonksTokenBar.Everyone": "所有人",
+    "MonksTokenBar.RequestRollGM": "请求掷骰，仅 GM"
 }
