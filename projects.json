@@ -37,7 +37,7 @@
     },
     {
         "name": "fxmaster",
-        "src": "https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/lang/en.json"
+        "src": "https://github.com/ghost-fvtt/fxmaster/raw/master/lang/en.jsonn"
     },
     {
         "name": "drag-ruler",
