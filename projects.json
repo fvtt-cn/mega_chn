@@ -210,6 +210,6 @@
     },
     {
         "name": "pf1",
-        "src": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/blob/master/lang/en.json"
+        "src": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/lang/en.json"
     }
 ]
