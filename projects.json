@@ -207,5 +207,9 @@
     {
         "name": "gurps",
         "src": "https://github.com/crnormand/gurps/raw/main/lang/en.json"
+    },
+    {
+        "name": "pf1",
+        "src": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/blob/master/lang/en.json"
     }
 ]
