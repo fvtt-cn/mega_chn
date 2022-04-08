@@ -107,9 +107,9 @@
     "MonksTokenBar.XPAdd": " 增加",
     "MonksTokenBar.RollMode": "掷骰模式",
     "MonksTokenBar.PublicRoll": "公开掷骰",
-    "MonksTokenBar.PrivateGMRoll": "GM 私骰",
-    "MonksTokenBar.BlindGMRoll": "GM 盲骰",
-    "MonksTokenBar.SelfRoll": "私骰",
+    "MonksTokenBar.PrivateGMRoll": "公开掷骰，隐藏结果",
+    "MonksTokenBar.BlindGMRoll": "私密掷骰，隐藏结果",
+    "MonksTokenBar.SelfRoll": "仅 GM 掷骰",
     "MonksTokenBar.DeleteItem": "移除物品",
     "MonksTokenBar.Vs": "对抗",
     "MonksTokenBar.Request": "请求",
@@ -181,5 +181,13 @@
     "MonksTokenBar.GMOnly": "仅GM",
     "MonksTokenBar.PlayersOnly": "玩家",
     "MonksTokenBar.Everyone": "所有人",
-    "MonksTokenBar.RequestRollGM": "请求掷骰，仅 GM"
+    "MonksTokenBar.RequestRollGM": "请求掷骰，仅 GM",
+    "MonksTokenBar.RollCritFailed": "大失败",
+    "MonksTokenBar.OpenCharacterSheet": "打开角色卡",
+    "MonksTokenBar.RequestSavingThrow": "请求豁免掷骰",
+    "MonksTokenBar.dblclick-action.name": "双击动作",
+    "MonksTokenBar.dblclick-action.hint": "当双击指示物时执行的动作",
+    "MonksTokenBar.RollCritPassed": "大成功",
+    "MonksTokenBar.gm-sound.name": "GM 掷骰声效",
+    "MonksTokenBar.gm-sound.hint": "在 GM 隐藏请求掷骰时播放声效"
 }
