@@ -179,5 +179,11 @@
     "Theatre.UI.Keybinds.removeStaged7": "移下 7 号舞台演员",
     "Theatre.UI.Keybinds.removeStaged8": "移下 8 号舞台演员",
     "Theatre.UI.Keybinds.removeStaged9": "移下 9 号舞台演员",
-    "Theatre.UI.Keybinds.removeStaged10": "移下 10 号舞台演员"
+    "Theatre.UI.Keybinds.removeStaged10": "移下 10 号舞台演员",
+    "Theatre.UI.Keybinds.flipPortrait": "翻转立绘",
+    "Theatre.UI.Keybinds.nudgePortraitLeft": "向左微移立绘",
+    "Theatre.UI.Keybinds.nudgePortraitRight": "向右微移立绘",
+    "Theatre.UI.Keybinds.nudgePortraitUp": "向上微移立绘",
+    "Theatre.UI.Keybinds.nudgePortraitDown": "向下微移立绘",
+    "Theatre.UI.Keybinds.unfocusTextArea": "取消聚焦文本框"
 }
