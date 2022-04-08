@@ -48,6 +48,8 @@
 - Monk's Little Details
 - Monk's Token Bar
 - Monk's Common Display
+- Ready to Use Cards
+- Babele
 
 ## 已翻译的系统列表
 - SWADE
