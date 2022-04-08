@@ -13,13 +13,16 @@
             "PeriaptItem": "愈合护身符",
             "DurableFeat": "耐性",
             "DruidRecovery": "自然恢复",
-            "NaturalRecovery": "自然恢复"
+            "NaturalRecovery": "自然恢复",
+            "WoundClosureBlessing": "愈合祝福",
+            "BlackBloodFeature": "黑血愈合"
         },
         "Fractions": {
             "None": "无",
             "Quarter": "四分之一",
             "Half": "二分之一",
-            "Full": "全部"
+            "Full": "全部",
+            "Custom": "自定公式"
         },
         "Rounding": {
             "RoundDown": "向下取整",
@@ -59,7 +62,9 @@
                 "NoFeatureUse": "你已经耗尽 {featureName} 的使用次数，因此不能再在此次短休中恢复任何法术位。",
                 "FullSpells": "你的法术位已经完全恢复，因此没有必要再恢复任何法术位。",
                 "FullHealth": "你的生命值已经完全恢复，因此不能再掷任何生命骰。",
-                "AutoRoll": "自动掷骰"
+                "AutoRoll": "自动掷骰",
+                "NoMoreRests": "不能再短休",
+                "NoMoreRestsSmall": "你已经不能再进行短休了，因为你的游戏规则规定每次长休期间最多只能短休 {max_short_rests} 次。"
             },
             "LongRest": {
                 "Begin": "开始长休",
@@ -75,7 +80,8 @@
                 "Submit": "提交设定",
                 "ItemNames": "特性名称",
                 "General": "通用设置",
-                "Request": "此处需要新的特性。"
+                "Request": "此处需要新的特性。",
+                "MoreToCome": "并提供更多配置选项！"
             },
             "LongRestWarning": {
                 "Title": "完成长休？",
@@ -153,6 +159,10 @@
                 "SongOfRest": {
                     "Title": "纾压曲名称",
                     "Hint": "此处你可以配置在你的游戏中吟游诗人的纾压曲名称为何。此项可为本地化的文本。"
+                },
+                "MaxShortRests": {
+                    "Title": "每次长休期间的最多短休次数",
+                    "Hint": "这可以防止角色在已短休相应次数后继续短休。长休会重置此计数。输入 0 以禁用此项。"
                 }
             },
             "LongRest": {
@@ -199,6 +209,60 @@
                 "EnableAutoRollButton": {
                     "Title": "启用自动掷生命骰按钮",
                     "Hint": "这会在长休和短休 UI 上添加一个按钮，让玩家可以在生命值不满时自动掷生命骰。"
+                },
+                "PreRegainHitDiceBuffer": {
+                    "Title": "启用生命骰最大缓冲",
+                    "Hint": "此项将使每个角色总是重新获得生命骰，即使这会使生命骰超过最大值，因此不会浪费生命骰。长休结束时，任何超过其最大值的未使用的生命骰都会消失。"
+                }
+            },
+            "ItemNames": {
+                "WizardClassName": {
+                    "Title": "法师职业名称",
+                    "Hint": "此处你可以配置在你的游戏中法师的职业称呼。此项可为本地化的文本。"
+                },
+                "DruidClassName": {
+                    "Title": "德鲁伊职业名称",
+                    "Hint": "此处你可以配置在你的游戏中德鲁伊的职业称呼。此项可为本地化的文本。"
+                },
+                "BardClassName": {
+                    "Title": "吟游诗人职业名称",
+                    "Hint": "此处你可以配置在你的游戏中吟游诗人的职业称呼，用于决定使用谁的纾压曲。此项可为本地化的文本。"
+                },
+                "ArcaneRecovery": {
+                    "Title": "奥术恢复名称",
+                    "Hint": "此处你可以配置在你的游戏中法师的奥术恢复的特性称呼。此项可为本地化的文本。"
+                },
+                "NaturalRecovery": {
+                    "Hint": "此处你可以配置在你的游戏中德鲁伊的自然恢复的特性称呼。此项可为本地化的文本。",
+                    "Title": "自然恢复名称"
+                },
+                "ChefFeat": {
+                    "Hint": "此处你可以配置在你的游戏中的大厨的专长称呼。此项可为本地化的文本。",
+                    "Title": "大厨专长名称"
+                },
+                "SongOfRest": {
+                    "Title": "纾压曲名称",
+                    "Hint": "此处你可以配置在你的游戏中吟游诗人的纾压曲的特性称呼。此项可为本地化的文本。"
+                },
+                "ChefTools": {
+                    "Title": "厨师工具名称",
+                    "Hint": "此处你可以配置在你的游戏中的厨师工具的物品称呼。此项可为本地化的文本。此项留空以无视厨师工具的需求来使用此特性。"
+                },
+                "DurableFeat": {
+                    "Title": "耐性专长名称",
+                    "Hint": "此处你可以配置在你的游戏中的耐性的专长称呼。此项可为本地化的文本。"
+                },
+                "PeriaptItem": {
+                    "Hint": "此处你可以配置在你的游戏中的愈合护身符的物品称呼。此项可为本地化的文本。",
+                    "Title": "愈合护身符名称"
+                },
+                "WoundClosureBlessing": {
+                    "Title": "愈合祝福名称",
+                    "Hint": "此处你可以配置在你的游戏中的愈合祝福的特性称呼。此项可为本地化的文本。"
+                },
+                "BlackBloodFeature": {
+                    "Title": "黑血愈合名称",
+                    "Hint": "此处你可以配置在你的游戏中的黑血愈合的特性称呼。此项可为本地化的文本。"
                 }
             }
         },
