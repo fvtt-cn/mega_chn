@@ -597,7 +597,7 @@
     "midi-qol.CheckFlanking.Name": "检查夹击",
     "midi-qol.CheckFlanking.Hint": "检查你和你的盟友是否夹击了敌人。给予攻击者优势 和/或 对攻击者应用 CE 的夹击状态 或 对目标应用 CE 的被夹击状态",
     "midi-qol.RollAlternate.Name": "移动掷骰公式到提示中",
-    "midi-qol.RollAlternate.Hint": "在合并卡上使用另一种掷骰显示，将掷骰公式移到提示中",
+    "midi-qol.RollAlternate.Hint": "在合并卡上使用另一种掷骰显示，将掷骰公式移到提示中并添加可选的优势注解",
     "midi-qol.magicalDamageProp": "魔法伤害",
     "midi-qol.magicalEffectProp": "魔法效应",
     "midi-qol.concentrationEffectProp": "专注",
@@ -627,12 +627,25 @@
         "applyLeave": "应用效果并保留按钮"
     },
     "midi-qol.RequireMagicalOptions": {
-        "off": "非武器造成魔法伤害",
+        "off": "关闭：非武器造成魔法伤害",
         "nonspell": "非法术造成非魔法伤害",
         "allitems": "所有物品造成非魔法伤害"
     },
     "midi-qol.NonSilverPhysical": "非银制物理",
     "midi-qol.NonAdamantinePhysical": "非精金物理",
     "midi-qol.NonMagical": "非魔法",
-    "midi-qol.Magical": "魔法"
+    "midi-qol.Magical": "魔法",
+    "midi-qol.ActorOnUseMacros": "角色的使用宏",
+    "midi-qol.FastForward.Hint": "快进下一次掷骰",
+    "midi-qol.FastForward.Name": "快进",
+    "midi-qol.RollAlternateOptions": {
+        "off": "默认工具提示",
+        "formula": "公式 -> 工具提示",
+        "adv": "优势注解",
+        "formulaadv": "公式 -> 工具提示 + 优势注解"
+    },
+    "midi-qol.MacroPass": "宏传递",
+    "midi-qol.MacroName": "宏名称",
+    "midi-qol.DamageRolled": "已掷骰",
+    "midi-qol.DamageApplied": "已应用"
 }
