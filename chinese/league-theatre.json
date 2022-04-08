@@ -47,7 +47,7 @@
     "Theatre.UI.Notification.BadFilepath": "提交中存在错误的文件路径，拒绝小剧场配置更改： ",
     "Theatre.UI.Notification.ErrorFatal": "致命错误，请提交带有错误报告的控制台日志（f12->控制台）",
     "Theatre.UI.Settings.displayMode": "文本框显示模式",
-    "Theatre.UI.Settings.displayModeHint": "小剧场立绘下方的文本框显示模式。 【方型】文本框呈块状，不透明。【长型】文本框狭长，贯穿整个屏幕且为半透明。【无对话框】适合只用于演出不注重文字的语音团。",
+    "Theatre.UI.Settings.displayModeHint": "小剧场立绘下方的文本框显示模式。 【方型】文本框呈块状，不透明。【长型】文本框狭长，贯穿整个屏幕且为半透明。【无对话框】适合语音团。这种团中文字并不重要，因为*很难去读*；它更适合只用来通过表情和动作操纵立绘。",
     "Theatre.UI.Settings.displayModeTextBox": "方型",
     "Theatre.UI.Settings.displayModeLightBox": "长型",
     "Theatre.UI.Settings.displayModeClearBox": "无对话框",
