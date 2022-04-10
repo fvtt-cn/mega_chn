@@ -1,21 +1,16 @@
 {
   "name": "~~~mega_chn",
   "title": "Translation: 中文 [Mega]",
-  "description": "为 FVTT 多个 MOD 和系统添加了中文翻译。",
+  "description": "内置多个模组、系统的翻译合集，便于非 Git 用户参与到 Foundry VTT 的汉化工作之中。",
   "minimumCoreVersion": "9.238",
   "compatibleCoreVersion": "9.999",
-  "coreTranslation": true,
   "author": "FVTT-CN",
-  "esmodules": [
-    "welcome.js"
-  ],
-  "languages": [
-    {
+  "esmodules": [ "welcome.js" ],
+  "languages": [{
       "lang": "cn",
       "name": "中文",
       "path": "cn.json"
-    }
-  ],
+  }],
   "version": "Auto replaced",
   "url": "Auto replaced",
   "manifest": "Auto replaced",
