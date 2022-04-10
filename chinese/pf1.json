@@ -6,7 +6,7 @@
                     "Categories": {
                         "Use": {
                             "Desc": {
-                                "Basic": "Called when an item has been used. If an item has at least one script call under this category, it's usable no matter what. This call will have an additional object: <code>{var1}</code> which contains the underlying data being used to generate an ItemAttack.",
+                                "Basic": "使用物品时调用。如果物品在此类下具有至少一个脚本调用，其无论如何都可用。该调用会具有额外对象 <code>{var1}</code>， 其中含有用于创建物品攻击的底层数据。",
                                 "Extra1": "Setting <code>shared.hideChat</code> to <code>true</code> prevents a chat card from being shown.",
                                 "Extra2": "Setting <code>shared.reject</code> to <code>true</code> prevents the item from being used, take away charges and showing a chat card."
                             },
@@ -385,7 +385,7 @@
             }
         },
         "Label": "Help",
-        "WIP": "This section is currently a Work In Progress (WIP).",
+        "WIP": "该部分仍在施工中 (WIP).",
         "Desc": "This is a reference sheet and information panel on various topics of the Pathfinder 1e system for Foundry Virtual Tabletop.",
         "Desc2": "You can select topics on the left, whose contents will appear on the right. On the top of this window are navigational tools.",
         "Img": {
@@ -425,7 +425,7 @@
     "SETTINGS.pf1NoExpN": "关闭经验追踪",
     "SETTINGS.pf1NoExpL": "从人物卡中移除经验条。",
     "SETTINGS.pf1OpenXPDistributorN": "打开经验分配器",
-    "SETTINGS.pf1OpenXPDistributorL": "在战斗结束时打开经验分配器，在确认删除战斗时按住Shift可跳过。",
+    "SETTINGS.pf1OpenXPDistributorL": "在战斗结束时打开经验分配器，在确认删除战斗时按住Shift可跳过",
     "SETTINGS.pf1BackgroundSkillsN": "使用背景技能",
     "SETTINGS.pf1BackgroundSkillsH": "使用背景技能可选规则集",
     "SETTINGS.pf1FractionalBaseBonusesN": "使用局部基础加值",
@@ -435,15 +435,15 @@
     "SETTINGS.pf1NPCWoundsAndVigorN": "负伤与活力（NPC）",
     "SETTINGS.pf1NPCWoundsAndVigorH": "对NPC适用'负伤与活力'可选规则。",
     "SETTINGS.pf1AutoCollapseCardN": "折叠物品卡",
-    "SETTINGS.pf1AutoCollapseCardL": "自动折叠聊天记录中的物品卡描述。",
+    "SETTINGS.pf1AutoCollapseCardL": "自动折叠聊天记录中的物品卡描述",
     "SETTINGS.pf1MeasureStyleN": "使用PF测量方式",
-    "SETTINGS.pf1MeasureStyleL": "是否使用开拓者的测量样式代替FVTT的默认样式。",
+    "SETTINGS.pf1MeasureStyleL": "是否使用开拓者的测量样式代替FVTT的默认样式",
     "SETTINGS.pf1LowLightVisionModeN": "昏暗视觉需要选择指示物",
     "SETTINGS.pf1LowLightVisionModeH": "勾选时，玩家若没有点选指示物无法获得任何指示物的昏暗视觉",
     "SETTINGS.pf1CoinWeightN": "货币重量除数",
     "SETTINGS.pf1CoinWeightH": "多少枚货币具有1磅重量",
     "SETTINGS.pf1SharedVisionModeN": "共享视野模式",
-    "SETTINGS.pf1SharedVisionModeH": "如何处理玩家间的共享视野",
+    "SETTINGS.pf1SharedVisionModeH": "如何处理玩家间的共享视野。",
     "SETTINGS.pf1SharedVisionWithoutSelection": "不包含选中的token",
     "SETTINGS.pf1SharedVisionWithSelection": "总是",
     "SETTINGS.pf1AllowScriptChangesN": "启用脚本改变",
@@ -457,19 +457,19 @@
     "SETTINGS.pf1CoreEffectsN": "默认token状态",
     "SETTINGS.pf1CoreEffectsH": "取消勾选便仅在token上显示pf1状态图标，勾选则连核心图标一并显示",
     "SETTINGS.pf1HideChatButtonsN": "隐藏聊天卡片按钮",
-    "SETTINGS.pf1HideChatButtonsH": "是否隐藏聊天卡片上的按钮，例如攻击投骰上的应用伤害",
+    "SETTINGS.pf1HideChatButtonsH": "是否隐藏聊天卡片上的按钮，例如攻击投骰上的应用伤害。",
     "SETTINGS.pf1AttackChatCardTemplateN": "攻击投骰结果样式",
     "SETTINGS.pf1AttackChatCardTemplateH": "选择攻击投骰结果的样式",
     "SETTINGS.pf1UnchainedActionEconomyN": "Unchained动作系统",
-    "SETTINGS.pf1UnchainedActionEconomyH": "是否使用Unchained动作系统可选规则",
+    "SETTINGS.pf1UnchainedActionEconomyH": "是否使用Unchained动作系统可选规则。",
     "SETTINGS.pf1SkipActionDialogsN": "忽略行动提示框",
     "SETTINGS.pf1SkipActionDialogsH": "忽略行动提示框(例如攻击/豁免时的提示框)除非你按住shift键点击它",
     "SETTINGS.placeMeasureTemplateOnQuickRollsN": "快速投骰时放置测量盖板",
     "SETTINGS.placeMeasureTemplateOnQuickRollsH": "跳过行动提示框时放置测量盖板.",
     "SETTINGS.pf1InvertSectionFilterBehaviourN": "反转物品筛选模式",
-    "SETTINGS.pf1InvertSectionFilterBehaviourH": "反转在物品栏中按住shift点击物品筛选标签的行为模式",
+    "SETTINGS.pf1InvertSectionFilterBehaviourH": "反转在物品栏中按住shift点击物品筛选标签的行为模式。",
     "SETTINGS.pf1HideReachMeasurementsN": "隐藏触及范围",
-    "SETTINGS.pf1HideReachMeasurementsH": "不显示触及范围，例如悬停在快捷操作上时",
+    "SETTINGS.pf1HideReachMeasurementsH": "不显示触及范围，例如悬停在快捷操作上时。",
     "SETTINGS.pf1DisplayIterativesN": "显示迭代数",
     "SETTINGS.pf1DisplayIterativesH": "将BAB拆分成迭代显示，而不是显示总值",
     "SETTINGS.pf1AlternativeReachCornerRuleN": "替换触及规则",
@@ -480,10 +480,10 @@
     "SETTINGS.pf1ClearTargetsAfterAttackH": "是否在攻击投骰之后取消所有目标。",
     "SETTINGS.pf1HealthConfigName": "设置生命值",
     "SETTINGS.pf1HealthConfigLabel": "设置生命值",
-    "SETTINGS.pf1HealthConfigHint": "设置角色的生命值计算方式",
+    "SETTINGS.pf1HealthConfigHint": "设置角色的生命值计算方式。",
     "SETTINGS.pf1HealthConfigTabBase": "基础",
     "SETTINGS.pf1HealthConfigTabVariant": "变体规则",
-    "SETTINGS.pf1HealthConfigInstructions": "为各种类型的角色设置计算参数，作为参考，PFS使用以下设置：自动计算，取期望值，其中一个HD取满，向上取整，生命值浮动",
+    "SETTINGS.pf1HealthConfigInstructions": "为各种类型的角色设置计算参数。作为参考，PFS使用以下设置：自动计算，取期望值，其中一个HD取满，向上取整，生命值浮动。",
     "SETTINGS.pf1HealthComputeAuto": "自动",
     "SETTINGS.pf1HealthComputeManual": "手动",
     "SETTINGS.pf1HealthRoundingName": "生命值取整",
@@ -499,7 +499,7 @@
     "SETTINGS.pf1HealthConfigWoundThresholdsPCName": "PC伤害临界",
     "SETTINGS.pf1HealthConfigWoundsThresholdsPCHint": "为玩家启用伤害临界可选规则。",
     "SETTINGS.pf1HealthConfigWoundThresholdsNPCName": "NPC伤害临界",
-    "SETTINGS.pf1HealthConfigWoundsThresholdsNPCHint": "为非玩家角色启用伤害临界可选规则",
+    "SETTINGS.pf1HealthConfigWoundsThresholdsNPCHint": "为非玩家角色启用伤害临界可选规则。",
     "SETTINGS.pf1HealthConfigWoundThresholdsPCOverrideName": "允许PC覆盖伤害临界设置",
     "SETTINGS.pf1HealthConfigWoundThresholdsPCOverrideHint": "允许每个玩家角色单独在人物卡设置页面中覆盖伤害临界调整值的设置。",
     "SETTINGS.pf1HealthConfigWoundThresholdsNPCOverrideName": "允许NPC覆盖伤害临界设置",
@@ -622,6 +622,43 @@
                 "NewFeat": "你有一个新专长可选择",
                 "NewFeats": "你有{newValue}个新专长可选",
                 "NewAbilityScore": "你可以选择一项属性值+1"
+            },
+            "AbilityScore": {
+                "Header": "属性值提升"
+            }
+        },
+        "FC": {
+            "Alt": {
+                "Desc": "你会获得与种族和职业关联的特殊能力作为该等级的天赋职业奖励。"
+            },
+            "Label": "天赋职业奖励",
+            "HP": {
+                "Desc": "你会获得一点生命值作为该等级的天赋职业奖励。"
+            },
+            "Skill": {
+                "Desc": "你会获得一点自由使用的技能点作为该等级的天赋职业奖励。"
+            }
+        },
+        "Health": {
+            "Roll": {
+                "Desc": "你该等级的生命值将会基于你生命骰大小投骰决定。"
+            },
+            "Manual": {
+                "Desc": "你会决定该等级自己获得多少生命值。"
+            }
+        },
+        "AbilityScore": {
+            "Label": "属性值",
+            "PointsLeft": "剩余点数: {value}",
+            "Item": {
+                "Name": "添加属性值",
+                "Desc": "<p>该功能是用于追踪你获得生命骰时的属性值变化的。</p>"
+            }
+        },
+        "Summary": {
+            "Label": "概要",
+            "AbilityScore": {
+                "Gain": "{abl}: +{value}"
             }
         }
     },
@@ -650,7 +687,7 @@
     "PF1.AbilityDamage": "属性伤害",
     "PF1.AbilityDrain": "属性吸取",
     "PF1.PointBuyCalculator": "购点计算器",
-    "PF1.PointBuyCalculatorWarning": "购点计算器会覆盖角色基础属性",
+    "PF1.PointBuyCalculatorWarning": "购点计算器会覆盖角色基础属性。",
     "PF1.PointBuyCalculatorSpent": "花费点数",
     "PF1.PointBuyCalculatorCampaignType": "战役类型",
     "PF1.PointBuyCalculatorPoints": "购点",
@@ -667,13 +704,13 @@
     "PF1.LinkTypeCharges": "充能",
     "PF1.LinkTypeClassAssociations": "职业关联",
     "PF1.LinkTypeAmmunition": "弹药",
-    "PF1.LinkHelpChildren": "关联的附属物品会随其宗主一起被删除",
-    "PF1.LinkHelpCharges": "如此关联的物品会共享充能，将所有物品关联至一个主物品上",
-    "PF1.LinkHelpClassAssociations": "如此关联的物品会在到达相应的等级职业时自动添加至角色",
-    "PF1.LinkHelpAmmunition": "如此关联的物品会在每一次攻击后自动消耗一发",
+    "PF1.LinkHelpChildren": "关联的附属物品会随其附属对象(该物品)一起被删除。",
+    "PF1.LinkHelpCharges": "关联的物品从关联对象(该物品)处继承和共享充能。",
+    "PF1.LinkHelpClassAssociations": "职业关联物品将在角色到达特定职业等级时自动添加。不像其他物品关联，这些必须从合集包中关联。",
+    "PF1.LinkHelpAmmunition": "关联的物品将在使用关联对象(该物品)每一次进行攻击后自动减少数量(或充能)。",
     "PF1.HelpSellMultiplierN": "贩卖比率",
     "PF1.HelpSellMultiplier": "非交易品出售时的价格比率，默认为0.5。交易品总以原价出售.",
-    "PF1.HelpDomainSpell": "此法术在休息时不会消耗任何法术位来恢复",
+    "PF1.HelpDomainSpell": "此法术在休息时不会消耗任何法术位来恢复。",
     "PF1.AbilityStr": "力量",
     "PF1.AbilityDex": "敏捷",
     "PF1.AbilityCon": "体质",
@@ -1169,7 +1206,7 @@
     "PF1.WarningNoSizeDie": "无法确定适合 {0} 的骰子大小，默认投掷 {1}",
     "PF1.WarningNoDiceAllowedInFormula": "{1}的公式'{0}'中不允许投骰",
     "PF1.WarningInsufficientAmmunition": "{0}类弹药不足",
-    "PF1.WarningMissingAmmunition": "没有与该攻击关联的弹药",
+    "PF1.WarningMissingAmmunition": "没有与该攻击关联的弹药。",
     "PF1.WarningConditionalRoll": "投特定调整值{name}的{number}号公式时发生了错误",
     "PF1.WarningNoItemOnActor": "角色{0}未持有物品{1}",
     "PF1.WarningCannotCreateChargeLink": "无法在{0}和{1}之间创建充能型关联，因为{1}已经有自己的充能型关联了",
@@ -1177,9 +1214,9 @@
     "PF1.WarningNoCombatantFound": "未找到参战者",
     "PF1.NotificationCreatedAttack": "从 {0} 创建攻击",
     "PF1.Action_RollDefenses": "显示防御信息",
-    "PF1.Info_FirstClass": "从{0}中拖出一个\n或点击上面的'+添加'按钮",
+    "PF1.Info_FirstClass": "从{0}中拖出一个\n或点击上面的'+添加'按钮。",
     "PF1.Info_FirstClass_Compendium": "职业合集包",
-    "PF1.Info_MissingClass": "你的人物缺少一个职业，查看人物卡概览页中的职业处",
+    "PF1.Info_MissingClass": "你的人物缺少一个职业，查看人物卡概览页中的职业子标签页。",
     "PF1.CMDNotes": "CMD 备注",
     "PF1.AttackNotes": "攻击备注",
     "PF1.EffectNotes": "效果备注",
@@ -1431,7 +1468,7 @@
     "PF1.Unidentified": "未鉴定",
     "PF1.Exhaustion": "力竭",
     "PF1.FlyManeuverability": "飞行机动",
-    "PF1.FlyManeuverabilityShort": "飞行",
+    "PF1.FlyManeuverabilityShort": "飞行机动",
     "PF1.Health": "生命",
     "PF1.Healing": "治疗",
     "PF1.HealingTemp": "治疗 (临时)",
@@ -1884,8 +1921,8 @@
     "PF1.Hidden": "隐藏",
     "PF1.Bright": "光亮",
     "PF1.Dim": "昏暗",
-    "PF1.PCs": "PCs",
-    "PF1.NPCs": "NPCs",
+    "PF1.PCs": "PC",
+    "PF1.NPCs": "NPC",
     "PF1.Options": "选项",
     "PF1.Cancel": "取消",
     "PF1.Migration.Start": "为PF1系统版本：{version}执行迁移中。 请稍等。",
@@ -1915,8 +1952,9 @@
         "AddClassDialog_Desc": "点击“正常”会出现一个简短的向导，点击“原始”则会不作任何替换地添加一个职业。"
     },
     "ACTOR": {
-        "TypeCharacter": "Player Character (PC)",
-        "TypeNpc": "Nonplayer Character (NPC)"
+        "TypeCharacter": "玩家角色 (PC)",
+        "TypeNpc": "非玩家角色 (NPC)",
+        "TypeBasic": "基础 (模组用)"
     },
     "PF1.CreateItemScrollOf": "{0}卷轴",
     "Pathfinder 1": "开拓者 1",
@@ -1935,5 +1973,34 @@
     "PF1.SpellComponentFocus": "器材",
     "PF1.LanguageAklo": "邪灵语",
     "PF1.CreatureTypeHumanoid": "类人生物",
-    "PF1.CreatureTypeUndead": "不死生物"
+    "PF1.CreatureTypeUndead": "不死生物",
+    "PF1.CondTypeDeathEffects": "死亡效果",
+    "PF1.CustomHitDice": "自定义生命骰",
+    "PF1.CustomHitDiceHint": "输入公式，例如：floor(@item.level / 2)",
+    "PF1.Tiebreaker": "细分",
+    "PF1.Subtype": "子类",
+    "PF1.Unknown": "位置",
+    "PF1.UsesAmmo": "使用弹药",
+    "SETTINGS.pf1InitTiebreakerN": "先攻细分",
+    "SETTINGS.pf1InitTiebreakerH": "添加除以100的先攻总值以细分。",
+    "SETTINGS.pf1obscureSaveDCsN": "隐藏豁免DC",
+    "SETTINGS.pf1obscureSaveDCsH": "对玩家隐藏聊天卡片中的DC数值。",
+    "PF1.SpellComponentKeys": {
+        "Verbal": "语言",
+        "Somatic": "姿势",
+        "Thought": "思维",
+        "Emotion": "情绪",
+        "Material": "材料",
+        "Focus": "器材",
+        "DivineFocus": "法器"
+    },
+    "PF1.ApplyToAll": "应用至全部",
+    "PF1.CondCowering": "畏缩",
+    "PF1.AmmoTypeArrow": "箭",
+    "PF1.AmmoTypeBolt": "矢",
+    "PF1.AmmoTypeRepeatingBolt": "矢 (连发)",
+    "PF1.AmmoTypeBulletSling": "弹丸 (投石索)",
+    "PF1.AmmoTypeBulletGun": "弹丸 (火器)",
+    "PF1.AmmoTypeBulletDragoon": "弹丸 (龙骑兵火器)",
+    "PF1.AmmoTypeDart": "飞镖"
 }
