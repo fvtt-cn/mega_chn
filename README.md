@@ -9,7 +9,11 @@
 - [x] 清单文件地址： [https://github.com/fvtt-cn/mega_chn/releases/latest/download/module.json](https://github.com/fvtt-cn/mega_chn/releases/latest/download/module.json)
 - [x] 模组管理器： 搜索 `Translation: 中文 [Mega]` 并**完成更新**
 
-## 如何参与到翻译中
+## 加入我们
+- QQ 频道： https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=3cheK&appChannel=share&businessType=9&from=246610&biz=ka
+- Discord 服务器： https://discord.gg/7UrkEg634m
+
+### 如何参与到翻译中
 本项目使用 [Weblate](https://hosted.weblate.org/) 进行翻译工作，使用 Weblate 无需拥有任何 Git 使用知识，只需在界面上进行中英对照翻译即可！
 
 <a href="https://weblate.dickytwister.org/engage/mega_chn/">
