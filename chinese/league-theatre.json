@@ -156,7 +156,7 @@
     "Theatre.NotYet": "尚未实现",
     "Theatre.UI.Settings.removeLabelSheetHeader": "从人物卡上移除标题栏标签",
     "Theatre.UI.Settings.removeLabelSheetHeaderHint": "从人物卡标题栏上移除标签，对小屏幕和移动设备很有用",
-    "Theatre.UI.Settings.suppressMacroHotbar": "舞台被隐藏时显示宏快捷栏",
+    "Theatre.UI.Settings.suppressMacroHotbar": "舞台被隐藏时显示玩家列表和宏快捷栏",
     "Theatre.UI.Keybinds.activateStaged2": "激活 2 号舞台演员",
     "Theatre.UI.Keybinds.activateStaged1": "激活 1 号舞台演员",
     "Theatre.UI.Keybinds.addOwnedToStage": "上场拥有的角色",
@@ -185,5 +185,7 @@
     "Theatre.UI.Keybinds.nudgePortraitRight": "向右微移立绘",
     "Theatre.UI.Keybinds.nudgePortraitUp": "向上微移立绘",
     "Theatre.UI.Keybinds.nudgePortraitDown": "向下微移立绘",
-    "Theatre.UI.Keybinds.unfocusTextArea": "取消聚焦文本框"
+    "Theatre.UI.Keybinds.unfocusTextArea": "取消聚焦文本框",
+    "Theatre.UI.Settings.gmOnlyHint": "启用后，仅有 GM 可以控制舞台。小剧场的控件将会对玩家隐藏。",
+    "Theatre.UI.Settings.gmOnly": "仅 GM 控制"
 }
