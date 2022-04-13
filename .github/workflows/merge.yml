@@ -1,8 +1,13 @@
-name: Release Creation
+name: Create Release
 
 on: 
   release:
     types: [ published ]
+
+env:
+  ZIP_FILENAME: "mega_chn"
+  PACKAGE_CONTENT: "module.json cn.json welcome.js"
+  PACKAGE_ID: 1208
 
 jobs:
   build:
@@ -13,7 +18,7 @@ jobs:
     # Merge Chinese translations
     - name: Merge Translation
       id: merge_translation
-      run: | 
+      run: |
         npm i -D deepmerge js-yaml
         node ./.github/workflows/merge.js
 
@@ -28,10 +33,12 @@ jobs:
         url: https://github.com/${{github.repository}}
         manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
         download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/mega_chn.zip
+        changelog: https://github.com/${{github.repository}}/releases/tag/${{github.event.release.tag_name}}
 
     # Create a zip file with all files required by the module to add to the release
     - name: Create Artifact
-      run: zip -r ./mega_chn.zip module.json cn.json welcome.js
+      id: build-zip
+      run: zip -r $ZIP_FILENAME.zip $PACKAGE_CONTENT
 
     # Create a release for this specific version
     - name: Update Release with Files
@@ -46,3 +53,15 @@ jobs:
         artifacts: './module.json, ./mega_chn.zip'
         tag: ${{ github.event.release.tag_name }}
         body: ${{ github.event.release.body }}
+
+    # Publish to Foundry VTT module repo
+    - name: Publish to Foundry VTT Repo
+      id: publish_foundry_repo
+      if: ${{ env.PACKAGE_ID }}
+      uses: Varriount/fvtt-autopublish@v1.0.6
+      with:
+        manifest-file: 'module.json'
+        manifest-url: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.json
+        module-id: ${{ env.PACKAGE_ID }}
+        username: ${{ secrets.FVTT_USERNAME }}
+        password: ${{ secrets.FVTT_PASSWORD }}
