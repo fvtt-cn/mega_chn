@@ -1573,5 +1573,11 @@
     "SETTINGS.D35EShowPlayerContextNotesN": "向玩家展示背景说明。",
     "SETTINGS.D35EShowPlayerContextNotesH": "向玩家展示聊天界面的上下文及注释。",
     "D35E.AttackTypeWeaponIcon": "<img src='icons/svg/sword.svg' class='attack-info-icon' />",
-    "D35E.AttackTypeNaturalIcon": "<img src='icons/svg/pawprint.svg' class='attack-info-icon' />"
+    "D35E.AttackTypeNaturalIcon": "<img src='icons/svg/pawprint.svg' class='attack-info-icon' />",
+    "D35E.NoExtraAttacks": "没有额外攻击",
+    "D35E.DropItemWithUIDTitle": "启用物品UID",
+    "D35E.ImportStripUid": "移除UID和激活物品",
+    "D35E.NumberOfAttacksAutocalculated": "额外攻击是自动计算的。如果你不想让它自动计算，将<b>攻击次数基于bab</b>设置为 <b>永不</b>.",
+    "D35E.AttackBonusInfo": "这些数值将 <b>不会随着战斗设定而变化</b>，而这些加值包括武器专攻等能力。",
+    "D35E.DropItemWithUID": "将此物品与棋子链接。这个设置应该仅由<b>自动设置职业功能</b>添加。<br><br>如果你想要将物品添加到角色中，点击UID以下按钮即可。<br><br><br><br><em style='opacity: 0.8'>拖动只会导致它从脚本中转移</em>"
 }
