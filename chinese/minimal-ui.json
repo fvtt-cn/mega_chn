@@ -87,5 +87,5 @@
     "MinimalUI.NoCameraBehaviorName": "无摄像机行为",
     "MinimalUI.NoCameraBehaviorReduced": "缩减",
     "MinimalUI.NoCameraBehaviorHidden": "隐藏",
-    "MinimalUI.NoCameraBehaviorHint": "如何处理关闭摄像头的玩家？注意：隐藏模式不允许打开和关闭相机。一旦禁用，除非切换到其他模式，将无法重新启用摄像头。使用默认或缩减模式进行切换。"
+    "MinimalUI.NoCameraBehaviorHint": "如何处理关闭摄像头的玩家？注意：隐藏模式不允许打开摄像头。一旦禁用，除非切换到其他模式，将无法重新启用摄像头。切换到其他模式以重新开启。"
 }
