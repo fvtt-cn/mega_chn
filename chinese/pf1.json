@@ -414,7 +414,7 @@
         "TypeAttack": "Attack",
         "TypeRace": "Race",
         "TypeContainer": "Container",
-        "TypeWeapon": "Weapon",
+        "TypeWeapon": "武器",
         "TypeEquipment": "Equipment, Magic Item, etc."
     },
     "SETTINGS.pf1CurWtN": "开启货币负重",
