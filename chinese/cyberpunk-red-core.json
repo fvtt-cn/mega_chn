@@ -91,7 +91,7 @@
     "CPR.global.ammo.type.armorPiercing": "穿甲弹药",
     "CPR.global.ammo.variety.heavyPistol": "重型手枪弹药",
     "ITEM.TypeSkill": "技能",
-    "ITEM.TypeWeapon": "Weapon",
+    "ITEM.TypeWeapon": "武器",
     "ITEM.TypeGear": "装备",
     "ITEM.TypeAmmo": "弹药",
     "ACTOR.TypeDemon": "恶魔",
