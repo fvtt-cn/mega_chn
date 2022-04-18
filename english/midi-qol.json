@@ -137,6 +137,7 @@
 		"maxCrit": "Max Critical Dice",
 		"maxAll": "Max All Dice",
 		"doubleDice": "Double Rolled Damage",
+    "explode": "Explode critical dice",
 		"baseDamage": "No Bonus"
 	},
 	"midi-qol.MergeCard.Name": "Merge Rolls to one card",
@@ -317,7 +318,8 @@
 	"midi-qol.playerControlsInvisibleTokens.Hint": "Experimental - might work",
 	"midi-qol.Debug.Name": "Enable debug",
 	"midi-qol.Debug.Hint": "Set to None unless you want to fill up the console log. All enables CONFIG.hooks.debug",
-	"midi-qol.AllowUseMacro.Name": "Add macro to call on use",
+	"midi-qol.AllowUseMacro.Name": "Add item on use macro to sheet",
+  "midi-qol.AllowActorUseMacro.Name": "Add actor on use macro to sheet",
 	"midi-qol.AllowUseMacro.Hint": "When enabled adds a macro name field which will be called on use. See the Readme for the details",
 	"midi-qol.onUseMacroLabel": " On Use Macros",
 	"midi-qol.onUseMacroOptions": {
