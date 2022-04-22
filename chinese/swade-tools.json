@@ -187,5 +187,10 @@
     "SWADETOOLS.CalledShot": "定点攻击",
     "SWADETOOLS.CalledShotHint": "减值会自动加上，手动添加额外的调整值。爆头应用+4伤害。",
     "SWADETOOLS.SettingsSimpleRollsHint": "该选项将会简化特性投骰，只显示用于填写自定义调整值的字段",
-    "SWADETOOLS.YesButPC": "是，仅PC"
+    "SWADETOOLS.YesButPC": "是，仅PC",
+    "SWADETOOLS.NoTokenSelected": "未选中指示物",
+    "SWADETOOLS.OtherUnskilled": "其他(未受训)",
+    "SWADETOOLS.Shooting": "射击",
+    "SWADETOOLS.RapidFireSetting": "速射",
+    "SWADETOOLS.SettingShootingHint": "基于射击的专长所使用的技能。"
 }
