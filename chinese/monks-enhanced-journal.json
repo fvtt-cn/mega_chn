@@ -286,5 +286,9 @@
     "MonksEnhancedJournal.show-bookmarkbar.hint": "在日记浏览器中显示书签栏",
     "MonksEnhancedJournal.show-menubar.name": "显示编辑器菜单",
     "MonksEnhancedJournal.show-menubar.hint": "编辑日志条目时，打开所有日志类型的菜单栏",
-    "MonksEnhancedJournal.LifeStatus": "生活状态"
+    "MonksEnhancedJournal.LifeStatus": "生活状态",
+    "MonksEnhancedJournal.distribute-conversion.name": "分发转换",
+    "MonksEnhancedJournal.purchase-conversion.name": "购物转换",
+    "MonksEnhancedJournal.purchase-conversion.hint": "购买物品时允许在货币间进行转换",
+    "MonksEnhancedJournal.distribute-conversion.hint": "分发货币时，将余数部分转换成次级货币以供分发"
 }
