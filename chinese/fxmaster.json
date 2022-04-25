@@ -80,5 +80,9 @@
     "FXMASTER.DisableAllHint": "开启此项将禁用所有用户的效果，覆写启用标记。这主要是为了在版本迁移失败时停用效果的保护。你应该不需要自己去设置此项。改变此项后需要手动重新加载。",
     "FXMASTER.FiltersActivateOnLayerDrawings": "在绘图上激活滤镜",
     "FXMASTER.MigrationWorldStart": "正在为 FXMaster 执行世界迁移。请耐心等待，不要关闭你的游戏或关闭你的服务器。",
-    "FXMASTER.MigrationWorldCompletedWithErrors": "FXMaster 世界迁移出现了错误。更多细节参见开发者控制台（F12）。效果已经通过“对所有人禁用效果”设置项被禁用，以避免任何潜在的场景崩溃可能。只有当你确定这样做是安全的，才能重新激活。你可能想先从任何受影响的场景中删除所有天气和滤镜效果。"
+    "FXMASTER.MigrationWorldCompletedWithErrors": "FXMaster 世界迁移出现了错误。更多细节参见开发者控制台（F12）。效果已经通过“对所有人禁用效果”设置项被禁用，以避免任何潜在的场景崩溃可能。只有当你确定这样做是安全的，才能重新激活。你可能想先从任何受影响的场景中删除所有天气和滤镜效果。",
+    "FXMASTER.WeatherEffectsGroupOther": "其他",
+    "FXMASTER.WeatherEffectsGroupAnimals": "动物",
+    "FXMASTER.WeatherEffectsGroupWeather": "天气",
+    "FXMASTER.LineWidth": "线宽"
 }
