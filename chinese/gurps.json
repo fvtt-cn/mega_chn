@@ -299,7 +299,7 @@
     "GURPS.colorSheetMenuAreasAttributesHoverColor": "属性悬停颜色",
     "GURPS.colorSheetMenuAreasAttributesHoverTextColor": "属性悬停文字颜色",
     "GURPS.colorSheetMenuAreasWeaponsHoverColor": "武器悬停颜色",
-    "GURPS.colorSheetMenuAreasWeaponsTextColor": "武器文本颜色",
+    "GURPS.colorSheetMenuAreasWeaponsTextColor": "武器文字颜色",
     "GURPS.colorSheetMenuAreasWeaponsHoverTextColor": "武器悬停文字颜色",
     "GURPS.colorSheetMenuAreasSkillsColor": "技能颜色",
     "GURPS.colorSheetMenuAreasSkillsTextColor": "技能文字颜色",
@@ -1021,5 +1021,16 @@
     "GURPS.shoveAndKnockOver": "推与撞翻",
     "GURPS.runningShoveAndKnockOver": "助跑推与撞翻",
     "GURPS.shiftSlightly": "稍稍推动",
-    "GURPS.pdfRef": "来源引用"
+    "GURPS.pdfRef": "来源引用",
+    "GURPS.colorSheetMenuAreasOtfNotesHoverTextColor": "OtF 注记文字颜色",
+    "GURPS.colorSheetMenuAreasOtfNotesHoverColor": "OtF 注记悬停颜色",
+    "GURPS.colorSheetMenuCustomColors": "自定义颜色",
+    "GURPS.colorSheetMenuAreasOtfNotesTextColor": "OtF 注记文字颜色",
+    "GURPS.colorSheetMenuAreasOtfNotesColor": "OtF 注记颜色",
+    "GURPS.spoken": "口语",
+    "GURPS.written": "书写",
+    "GURPS.settingUseQuintessence": "使用精粹属性",
+    "GURPS.settingHintUseQuintessence": "启用后会在角色卡上添加精粹属性，并且可以使用资源追踪器追踪精粹点数的变化。",
+    "GURPS.language": "语言",
+    "GURPS.settingHintRemoveUnequipped": "选中后，系统会对比携带装备的名称与近战攻击、远程攻击的名称。有对应装备的攻击仅会在装备装备时出现在攻击列表里"
 }
