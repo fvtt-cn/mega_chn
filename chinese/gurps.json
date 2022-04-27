@@ -1032,5 +1032,6 @@
     "GURPS.settingUseQuintessence": "使用精粹属性",
     "GURPS.settingHintUseQuintessence": "启用后会在角色卡上添加精粹属性，并且可以使用资源追踪器追踪精粹点数的变化。",
     "GURPS.language": "语言",
-    "GURPS.settingHintRemoveUnequipped": "选中后，系统会对比携带装备的名称与近战攻击、远程攻击的名称。有对应装备的攻击仅会在装备装备时出现在攻击列表里"
+    "GURPS.settingHintRemoveUnequipped": "选中后，系统会对比携带装备的名称与近战攻击、远程攻击的名称。有对应装备的攻击仅会在装备装备时出现在攻击列表里",
+    "GURPS.allOutDefense": "全力防御"
 }
