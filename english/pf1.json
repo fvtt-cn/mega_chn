@@ -1147,6 +1147,8 @@
     }
   },
 
+  "PF1.Abundant": "Abundant",
+  "PF1.AbundantDesc": "Never remove this ammunition when used.",
   "PF1.AddClass": "Add Class",
   "PF1.Horizontal": "Horizontal",
   "PF1.Vertical": "Vertical",
