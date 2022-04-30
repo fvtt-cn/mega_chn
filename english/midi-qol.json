@@ -462,6 +462,7 @@
 	"midi-qol.convenientEffectsOff": "Don't Apply Convenient Effect",
 	"midi-qol.ConsumeResource.Name": "Skip consume resurce dialog",
 	"midi-qol.ConsumeResource.Hint": "If set skip the consume resource dialog (consuming a default resource/spell slot and place templates) unless no spell slot of the correct level is available, or the Advantage + Disadvantage keys are pressed when clicking",
+  "midi-qol.ConsumeResourceOptions": {"none": "No Auto consume", "spell": "Auto consume spell slot", "item": "Auto consume resources/uses", "both": "Auto consume resources/spell slots"},
 	"midi-qol.ChallengeModeArmor.Name": "Enable Challenge Mode Armor Class",
 	"midi-qol.ChallengeModeArmorScale.Name": "Enable house version Challenge Mode Armor Class",
 	"midi-qol.ChallengeModeArmor.Hint": "Implements the challenge mode armor rules - see the readme for more information",

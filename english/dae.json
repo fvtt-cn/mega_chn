@@ -336,5 +336,7 @@
     "dae.lightColor": "Light Color",
     "dae.lightAnimation": "Light Animation",
     "dae.lightAlpha": "Light ALpha",
-    "dae.lightAngle": "Light Angle"
+    "dae.lightAngle": "Light Angle",
+    "dae.DAEUntestedSystems.Name": "Load DAE for untested game systems",
+    "dae.DAEUntestedSystems.Hint": "If checked DAE will load for any system not marked compatible. If unchecked DAE will only load for systems marked compatible. Requires reload"
   }
