@@ -16,5 +16,7 @@
   "BABELE.EnableTranslationExportHint": "Enable this option if you want to add a button on each compendium to generate the translation file, useful as a startup template",
   "BABELE.ShowOriginalName": "Shows Original Name",
   "BABELE.ShowOriginalNameHint": "Shows the untranslated name of the compendium's item in addition to the translated one. This will also allow you to filter by the original name along with the translated one in the search widget.",
+  "BABELE.ShowTranslateOption": "Show translate option",
+  "BABELE.ShowTranslateOptionHint": "Toggles the translate option on the actor sheets.",
   "BABELE.requireLibWrapperMessage": "Babele requires the 'libWrapper' module. Please install and activate it."
 }
