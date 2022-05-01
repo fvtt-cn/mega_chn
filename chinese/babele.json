@@ -16,5 +16,7 @@
     "BABELE.ShowOriginalName": "显示原本名称",
     "BABELE.requireLibWrapperMessage": "Babele 依赖于 “libWrapper”模组。请安装并激活 libWrapper。",
     "BABELE.ShowOriginalNameHint": "合集包物品不仅显示翻译后的名称，而且显示未翻译的名称，从而让玩家可以在搜索工具中使用两者进行搜索筛选。",
-    "BABELE.TranslateActorHint": "自动翻译有翻译的角色物品"
+    "BABELE.TranslateActorHint": "自动翻译有翻译的角色物品",
+    "BABELE.ShowTranslateOption": "显示翻译按钮",
+    "BABELE.ShowTranslateOptionHint": "在角色卡上显示翻译按钮。"
 }
