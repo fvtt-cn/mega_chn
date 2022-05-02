@@ -290,5 +290,6 @@
     "MonksEnhancedJournal.distribute-conversion.name": "分发转换",
     "MonksEnhancedJournal.purchase-conversion.name": "购物转换",
     "MonksEnhancedJournal.purchase-conversion.hint": "购买物品时允许在货币间进行转换",
-    "MonksEnhancedJournal.distribute-conversion.hint": "分发货币时，将余数部分转换成次级货币以供分发"
+    "MonksEnhancedJournal.distribute-conversion.hint": "分发货币时，将余数部分转换成次级货币以供分发",
+    "MonksEnhancedJournal.EditAttributes": "编辑属性"
 }
