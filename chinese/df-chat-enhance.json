@@ -138,7 +138,7 @@
             "HideExport": "聊天归档：隐藏导出聊天记录按钮",
             "ArchiveFolder_Hint": "聊天归档所存储于的文件夹"
         },
-        "ArchiveViewer_Html": "将聊天保记录存为 html 文件"
+        "ArchiveViewer_Html": "将聊天记录保存为 HTML 文件"
     },
     "DF_CHAT_EDIT": {
         "ContextOption": "编辑消息",
