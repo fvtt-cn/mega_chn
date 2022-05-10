@@ -173,7 +173,7 @@
     "SWADETOOLS.GMMod": "GM调整值",
     "SWADETOOLS.RetargetBtn": "使用GM目标",
     "SWADETOOLS.NoTarget": "未选中目标。",
-    "SWADETOOLS.Total": "总值",
+    "SWADETOOLS.Total": "原始总值",
     "SWADETOOLS.TN": "目标值",
     "SWADETOOLS.RaiseCalcBtn": "优良数量",
     "SWADETOOLS.Raises": "优良",
@@ -192,5 +192,15 @@
     "SWADETOOLS.OtherUnskilled": "其他(未受训)",
     "SWADETOOLS.Shooting": "射击",
     "SWADETOOLS.RapidFireSetting": "速射",
-    "SWADETOOLS.SettingShootingHint": "基于射击的专长所使用的技能。"
+    "SWADETOOLS.SettingShootingHint": "基于射击的专长所使用的技能。",
+    "SWADETOOLS.DieSteps": "骰子类型",
+    "SWADETOOLS.Rounds": "轮数",
+    "SWADETOOLS.NotBelowd4": "特性不得低于d4",
+    "SWADETOOLS.BoostLowerHint": "使用负数来削弱特性",
+    "SWADETOOLS.DurationHint": "若无持续时间则留空",
+    "SWADETOOLS.BoostMark": "强化",
+    "SWADETOOLS.BoostSkill": "将添加[强化]标记给",
+    "SWADETOOLS.LowerSkillIgnored": "将被忽略以",
+    "SWADETOOLS.NoSkill": "不具备此技能",
+    "SWADETOOLS.DeleteManually": "手动删除"
 }
