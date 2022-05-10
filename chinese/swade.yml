@@ -23,9 +23,9 @@ SWADE.AddStats: 额外数值
 SWADE.Vehicles: 载具
 SWADE.GM: 游戏主持人
 SWADE.Cone: 锥形盖板
-SWADE.LBT: 大型爆散盖板
-SWADE.MBT: 中型爆散盖板
-SWADE.SBT: 小型爆散盖板
+SWADE.LBT: 大型爆发盖板
+SWADE.MBT: 中型爆发盖板
+SWADE.SBT: 小型爆发盖板
 SWADE.NoBennies: 你没有足够的助力点！
 SWADE.ConvictionExtend: 需要维系信念点吗？
 SWADE.ConvictionActivate: 使用信念点！
