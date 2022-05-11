@@ -211,5 +211,9 @@
     {
         "name": "pf1",
         "src": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/lang/en.json"
+    },
+    {
+        "name": "ose",
+        "src": "https://github.com/vttred/ose/raw/main/src/lang/en.json"
     }
 ]
