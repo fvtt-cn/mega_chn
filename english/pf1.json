@@ -547,11 +547,15 @@
   "PF1.AmmoTypeBulletDragoon": "Bullet (Dragoon Firearm)",
   "PF1.AmmoTypeDart": "Dart",
 
+  "PF1.SenseBSense": "Blindsense",
   "PF1.SenseBS": "Blindsight",
   "PF1.SenseDV": "Darkvision",
   "PF1.SenseTS": "Tremorsense",
   "PF1.SenseTR": "Truesight",
   "PF1.SenseLL": "Low-light",
+  "PF1.SenseSI": "See Invisibility",
+  "PF1.SenseSID": "See in darkness",
+  "PF1.SenseSC": "Scent",
 
   "PF1.FlyManeuverabilityClumsy": "Clumsy",
   "PF1.FlyManeuverabilityPoor": "Poor",
@@ -1720,7 +1724,8 @@
 
   "PF1.Info": {
     "AddClassDialog": "You can hold Shift to bypass this dialog.",
-    "AddClassDialog_Desc": "Pressing Normal opens a short wizard, while pressing Raw will add the class without any alterations."
+    "AddClassDialog_Desc": "Pressing Normal opens a short wizard, while pressing Raw will add the class without any alterations.",
+    "NotFunctioning": "The system (currently) doesn't use this feature"
   },
 
   "PF1.Help": {
