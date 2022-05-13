@@ -1641,6 +1641,7 @@
   "PF1.Vision": "Vision",
   "PF1.Held": "Held",
   "PF1.GiveItem": "Give Item",
+  "PF1.SplitItem": "Split Item",
   "PF1.HideFromToken": "Hide from token",
   "PF1.ACPArmor": "ACP (Armor)",
   "PF1.ACPShield": "ACP (Shield)",
@@ -1696,6 +1697,7 @@
   "PF1.NPCs": "NPCs",
   "PF1.Options": "Options",
   "PF1.Cancel": "Cancel",
+  "PF1.Split": "Split",
 
   "PF1.Migration.Start": "Applying PF1 System Migration for version {version}. Please stand by.",
   "PF1.Migration.Ongoing": "Migration is ongoing. Please wait until it finishes.",
@@ -1719,6 +1721,13 @@
       "GiveToAll": "Give to All",
       "TotalExperience": "Total Experience",
       "SplitExperience": "Split Experience"
+    }
+  },
+
+  "PF1.Dialog": {
+    "SplitItem": {
+      "Title": "Split item: {0}",
+      "Desc": "Input the number to split off."
     }
   },
 
