@@ -1606,6 +1606,11 @@
   "D35E.DropItemWithUID": "You are trying to add item with UID to an actor. These items should be added only by <b>Automatic Class Features</b> functionality.<br><br>If you still want to add this item to the actor, you can add it without UID by clicking the button below.<br><br><em style='opacity: 0.8'>Removing UID will only remove it from a copy added to the actor.</em>",
   "D35E.ImportStripUid": "Remove UID and Add Item",
   "D35E.AttackTypeSpecialPlural": "Special Attacks",
+  "D35E.Dead": "Dead",
+  "D35E.Dying": "Dying",
+  "D35E.Stable": "Stable",
+  "D35E.Staggered": "Staggered",
+  "D35E.Unconscious": "Unconscious",
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
   "SETTINGS.D35EShowPartyHudTokenL": "Toggles if images displayed in party hud should be token images or portrait images.",
