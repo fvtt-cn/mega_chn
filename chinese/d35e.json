@@ -1588,5 +1588,10 @@
     "D35E.AttackTypeExtraordinaryShort": "EX",
     "D35E.AttackTypeSupernaturalShort": "SU",
     "D35E.AttackTypeExtraordinarIcon": "<img src='icons/svg/terror.svg' class='attack-info-icon' />",
-    "D35E.AttackTypeSupernaturalIcon": "<img src='icons/svg/ice-aura.svg' class='attack-info-icon' />"
+    "D35E.AttackTypeSupernaturalIcon": "<img src='icons/svg/ice-aura.svg' class='attack-info-icon' />",
+    "D35E.Dead": "死亡",
+    "D35E.Dying": "濒死",
+    "D35E.Stable": "稳定",
+    "D35E.Staggered": "恍惚",
+    "D35E.Unconscious": "昏迷"
 }
