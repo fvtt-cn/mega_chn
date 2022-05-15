@@ -403,5 +403,7 @@
     "FSC.Configuration.General.Display.DateFormat.TimeHelp": "用于显示一段时间显示文字的格式文字。",
     "FSC.Configuration.General.Display.DateFormat.MonthYear": "月/年格式",
     "FSC.Configuration.General.Display.DateFormat.MonthYearHelp": "在日历视图顶部显示的一段月份和年份的格式文字。",
-    "FSC.Configuration.Month.AbbreviationHelp": "该月份的缩写名。"
+    "FSC.Configuration.Month.AbbreviationHelp": "该月份的缩写名。",
+    "FSC.AddNewCalendar": "添加新日历",
+    "FSC.ApplyPredefined": "应用预定义配置？"
 }
