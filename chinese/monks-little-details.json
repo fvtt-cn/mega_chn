@@ -175,5 +175,9 @@
     "MonksLittleDetails.treasure-chest-size.name": "战利品图像尺寸",
     "MonksLittleDetails.treasure-chest-size.hint": "与指示物尺寸相较的战利品图像的尺寸",
     "MonksLittleDetails.treasure-chest.name": "战利品图像",
-    "MonksLittleDetails.treasure-chest.hint": "指示物变成战利品时使用的图像"
+    "MonksLittleDetails.treasure-chest.hint": "指示物变成战利品时使用的图像",
+    "MonksLittleDetails.module-management-changes.name": "模组管理改变",
+    "MonksLittleDetails.module-management-changes.hint": "为模组依赖可用性添加着色，点击依赖项可跳转过去。",
+    "MonksLittleDetails.macro-tabs.name": "宏Tab键",
+    "MonksLittleDetails.macro-tabs.hint": "允许宏编辑器中的tab键添加制表符，而不是跳转至下一个填写框"
 }
