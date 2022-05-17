@@ -820,6 +820,7 @@
     "CPR.migration.effects.program": "Migrated Program Effect",
     "CPR.migration.effects.skill": "Migrated Skill Mod for",
     "CPR.migration.status.allActorsDone": "All actors migrated, continuing to unlinked tokens",
+    "CPR.migration.status.waitForEnd": "World Migration: Release notes will display when finished, please be patient",
     "CPR.migration.status.allItemsDone": "All items migrated, continuing to actors",
     "CPR.migration.status.allTokensDone": "All tokens migrated",
     "CPR.migration.status.actorErrors": "Errors during Actor migration, aborting",
