@@ -1949,7 +1949,8 @@
     },
     "PF1.Info": {
         "AddClassDialog": "你可以按住Shift来跳过该对话。",
-        "AddClassDialog_Desc": "点击“正常”会出现一个简短的向导，点击“原始”则会不作任何替换地添加一个职业。"
+        "AddClassDialog_Desc": "点击“正常”会出现一个简短的向导，点击“原始”则会不作任何替换地添加一个职业。",
+        "NotFunctioning": "系统(目前)不使用该特性"
     },
     "ACTOR": {
         "TypeCharacter": "玩家角色 (PC)",
@@ -2002,5 +2003,32 @@
     "PF1.AmmoTypeBulletSling": "弹丸 (投石索)",
     "PF1.AmmoTypeBulletGun": "弹丸 (火器)",
     "PF1.AmmoTypeBulletDragoon": "弹丸 (龙骑兵火器)",
-    "PF1.AmmoTypeDart": "飞镖"
+    "PF1.AmmoTypeDart": "飞镖",
+    "PF1.SpellBookPrimary": "首选",
+    "PF1.Ammunition": "弹药",
+    "PF1.AmmunitionAbbr": "弹药",
+    "PF1.SpellBookSpelllike": "类法术",
+    "PF1.Abundant": "补给",
+    "PF1.AbundantDesc": "使用后不移除该弹药。",
+    "PF1.Bonus": "加值",
+    "PF1.BaseDice": "基础骰子",
+    "PF1.ModifierAbbr": "调整值",
+    "PF1.SpellbookName": "法术书名称",
+    "SETTINGS.pf1NPCProficienciesN": "NPC擅长项",
+    "SETTINGS.pf1NPCProficienciesH": "NPC角色也会使用擅长项。若禁用此项(默认)，他们会如规则文本中所述一般被认为擅长所有东西。",
+    "PF1.SenseBSense": "盲感",
+    "PF1.SenseSI": "识破隐形",
+    "PF1.SenseSID": "看破黑暗",
+    "PF1.SenseSC": "灵敏嗅觉",
+    "PF1.SpellBookSecondary": "次选",
+    "PF1.SpellBookTertiary": "备选",
+    "PF1.SavingThrowGoodFractionalBonus": "高豁免骰加值",
+    "PF1.SplitItem": "拆分物品",
+    "PF1.Split": "拆分",
+    "PF1.Dialog": {
+        "SplitItem": {
+            "Title": "拆分物品: {0}",
+            "Desc": "输入要拆分的数量。"
+        }
+    }
 }
