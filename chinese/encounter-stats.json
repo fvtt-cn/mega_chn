@@ -50,6 +50,6 @@
     "FVTTEncounterStats.template.battlefield_actions": "最多控场动作",
     "FVTTEncounterStats.opt_toggle_campaign_tracking_hint": "若不选中，将会停止跟踪战役数据。方便GM测试使用。",
     "FVTTEncounterStats.opt_toggle_campaign_tracking_name": "开关战役跟踪",
-    "FVTTEncounterStats.opt_enable_simple_calendar_integration_name": "开启简单日历集成",
-    "FVTTEncounterStats.opt_enable_simple_calendar_integration_hint": "若你使用简单日历，则根据简单日历中的日期生成日志文章标题。"
+    "FVTTEncounterStats.opt_enable_simple_calendar_integration_name": "开启Simple Calendar集成",
+    "FVTTEncounterStats.opt_enable_simple_calendar_integration_hint": "若你使用Simple Calendar，则根据Simple Calendar中的日期生成日志文章标题。"
 }
