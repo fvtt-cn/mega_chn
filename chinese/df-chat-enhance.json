@@ -157,8 +157,8 @@
             "PrintMessagesName": "冒险日志：发送日志至聊天",
             "SortDescendingName": "冒险日志：将最新内容置于顶部",
             "SortDescendingHint": "对冒险日志进行排序，最新的消息在日志的顶部，最旧的消息在日志的底部。",
-            "SimpleCalendarName": "冒险日志：使用简单日历的时间戳",
-            "SimpleCalendarHint": "使用简单日历产生时间戳，而非真实时间",
+            "SimpleCalendarName": "冒险日志：使用Simple Calendar的时间戳",
+            "SimpleCalendarHint": "使用Simple Calendar产生时间戳，而非真实时间",
             "UseTimeName": "冒险日志：包含当前时间",
             "UseTimeHint": "包含时间戳形式的当前时间（hh:mm:ss）"
         },
