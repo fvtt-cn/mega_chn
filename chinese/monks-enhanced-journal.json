@@ -291,5 +291,13 @@
     "MonksEnhancedJournal.purchase-conversion.name": "购物转换",
     "MonksEnhancedJournal.purchase-conversion.hint": "购买物品时允许在货币间进行转换",
     "MonksEnhancedJournal.distribute-conversion.hint": "分发货币时，将余数部分转换成次级货币以供分发",
-    "MonksEnhancedJournal.EditAttributes": "编辑属性"
+    "MonksEnhancedJournal.EditAttributes": "编辑属性",
+    "MonksEnhancedJournal.editcurrency.name": "编辑货币",
+    "MonksEnhancedJournal.editcurrency.hint": "编辑这个世界使用的货币",
+    "MonksEnhancedJournal.editpersonattribute.hint": "编辑人物表中的属性",
+    "MonksEnhancedJournal.editpersonattribute.name": "编辑人物属性",
+    "MonksEnhancedJournal.editplaceattribute.name": "编辑地点属性",
+    "MonksEnhancedJournal.SlideConfiguration": "幻灯片设置",
+    "MonksEnhancedJournal.DCConfiguration": "DC设置",
+    "MonksEnhancedJournal.editplaceattribute.hint": "编辑地点表中现实的内容"
 }
