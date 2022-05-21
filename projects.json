@@ -25,7 +25,7 @@
     },
     {
         "name": "tidy5e",
-        "src": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/langs/en.json"
+        "src": "https://github.com/sdenec/tidy5e-sheet/raw/master/src/lang/en.json"
     },
     {
         "name": "split-journal",
