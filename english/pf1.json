@@ -1208,6 +1208,8 @@
   "PF1.Defense": "Defense",
   "PF1.Defenses": "Defenses",
   "PF1.Description": "Description",
+  "PF1.Descriptor": "Descriptor",
+  "PF1.DescriptorPlural": "Descriptors",
   "PF1.Details": "Details",
   "PF1.Edit": "Edit",
   "PF1.Enchantments": "Enchantments",
