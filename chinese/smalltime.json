@@ -13,7 +13,7 @@
     "SMLTME.Allow_Trusted": "允许Trusted用户组玩家控制",
     "SMLTME.Darkness_Control_Hint": "将场景的黑暗等级与SmallTIme当前时间进行关联。",
     "SMLTME.Player_Visibility": "玩家可见性",
-    "SMLTME.Player_Visibility_Hint": "选择场景中的玩家可以看见 SmallTime 的哪些部分。默认选项在模组设置中。",
+    "SMLTME.Player_Visibility_Hint": "选择场景中的玩家可以看见 SmallTime 的哪些部分。新场景的默认选项在模组设置中。",
     "SMLTME.Player_Visibility_Default": "默认玩家可见度",
     "SMLTME.Player_Vis_0": "无",
     "SMLTME.Player_Vis_1": "仅日/月位置",
@@ -35,5 +35,8 @@
     "SMLTME.Position_Reset": "按住 Shift 点击以重置 SmallTime 窗口位置",
     "SMLTME.Sun_Sync": "同步日出/日落",
     "SMLTME.Sun_Sync_Hint": "需要Simple Calendar中的日出和日落时间。",
-    "SMLTME.Show_Seconds": "显示秒"
+    "SMLTME.Show_Seconds": "显示秒",
+    "SMLTME.Threshold_Override_Tooltip": "SmallTime 正根据月相调整该项",
+    "SMLTME.Moonlight_Adjust": "月光调整",
+    "SMLTME.Moonlight_Adjust_Hint": "根据当前月相调整全局光照阈值。"
 }
