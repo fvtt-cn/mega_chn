@@ -341,5 +341,7 @@
     "dae.GM": "GM",
     "dae.local": "本地",
     "dae.actorUpdate": "角色更新",
-    "dae.ZeroHP": "零生命值：角色生命值归零时结束"
+    "dae.ZeroHP": "零生命值：角色生命值归零时结束",
+    "dae.DAEUntestedSystems.Hint": "若选中，即使在未标记为兼容的系统中 DAE 也会加载；若不选中，DAE 只会在标记为兼容的系统中加载。该功能重新载入后生效",
+    "dae.DAEUntestedSystems.Name": "在未测试的游戏系统中加载 DAE"
 }
