@@ -2030,5 +2030,7 @@
             "Title": "拆分物品: {0}",
             "Desc": "输入要拆分的数量。"
         }
-    }
+    },
+    "PF1.Descriptor": "描述符",
+    "PF1.DescriptorPlural": "描述符"
 }
