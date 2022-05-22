@@ -162,7 +162,7 @@ SWADE.Equippable: Equippable
 SWADE.ArcaneDevice: Arcane Device
 SWADE.Misc: Misc
 SWADE.QuickAccess: Quick Access
-SWADE.Effects: Active Effects
+SWADE.Effects: Effects
 SWADE.Hindrances: Hindrances
 SWADE.MajHind: Major Hindrance
 SWADE.Major: (Major)
@@ -293,7 +293,7 @@ SWADE.ConfigInit: Configure Initiative
 SWADE.IgnWounds: Ignore Wounds
 SWADE.Size: Size
 SWADE.Scale: Scale
-SWADE.PickACard: Pick a card for
+SWADE.PickACard: Pick a card for {name}
 SWADE.NoCardsLeft: >-
   There are not enough cards left in the deck! Only {current} of {needed} needed
   cards are available
@@ -487,3 +487,44 @@ SWADE.RemoveEffectBody: >-
   <p style="text-align: center;">Remove <strong>{label}</strong> from
   <strong>{parent}</strong>?</p>
 SWADE.PPAbbreviation: PP
+SWADE.ShowInChat: Show in chat
+SWADE.ExpandDescription: Expand to show description
+SWADE.Favorite: Favorite
+SWADE.Equip: Equip
+SWADE.RollDamage: Roll Damage
+SWADE.SystemLinks.Changelog: Changelog
+SWADE.SystemLinks.Wiki: Wiki
+SWADE.SystemLinks.ReportAnIssue: Report an Issue
+SWADE.Keybindings.OpenFavoriteCards.Name: Open Favorite Card Hand
+SWADE.Keybindings.OpenFavoriteCards.UserConfigLabel: Favorite Card Hand
+SWADE.Keybindings.OpenFavoriteCards.Hint: You can set your favorite hand in the User Config
+SWADE.Keybindings.OpenFavoriteCards.NoCardsWarning: You don't have a favorite card hand set!
+SWADE.Keybindings.Bennies.Name: Spend/Receive a Benny
+SWADE.Keybindings.Bennies.Hint: >-
+  Press to spend a Benny, hold down Alt while you press the key to receive a
+  Benny instead
+SWADE.OpenOrigin: Open origin
+SWADE.EffectsTemporary: Temporary Effects
+SWADE.EffectsPermanent: Permanent Effects
+SWADE.Ranks.Novice: Novice
+SWADE.Ranks.Seasoned: Seasoned
+SWADE.Ranks.Veteran: Veteran
+SWADE.Ranks.Heroic: Heroic
+SWADE.Ranks.Legendary: Legendary
+SWADE.Advances.EditorTitle: Advance Editor
+SWADE.Advances.Toggle: Toggle Advance Planned Status
+SWADE.Advances.Delete: Delete Advance
+SWADE.Advances.Planned: Planned
+SWADE.Advances.Modes.Legacy: Legacy
+SWADE.Advances.Modes.Expanded: Expanded
+SWADE.Advances.Types.Edge: New Edge
+SWADE.Advances.Types.SingleSkill: Raise Single Skill
+SWADE.Advances.Types.TwoSkills: Raise Two Skills
+SWADE.Advances.Types.Attribute: Raise Attribute
+SWADE.Advances.Types.Hindrance: Decrease Hindrance
+SWADE.AddAdvance: Add Advance
+SWADE.Appearance: Appearance
+SWADE.CharacterGoals: Goals
+SWADE.Background: Background
+SWADE.ActiveEffects.Add: Add Active Effect
+SWADE.ActiveEffects.Source: Source
