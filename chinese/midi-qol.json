@@ -647,5 +647,11 @@
     "midi-qol.MacroPass": "宏传递",
     "midi-qol.MacroName": "宏名称",
     "midi-qol.DamageRolled": "已掷骰",
-    "midi-qol.DamageApplied": "已应用"
+    "midi-qol.DamageApplied": "已应用",
+    "midi-qol.ConsumeResourceOptions": {
+        "none": "不自动消耗",
+        "spell": "自动消耗法术位",
+        "item": "自动消耗资源/使用次数",
+        "both": "自动消耗资源/法术位"
+    }
 }
