@@ -155,7 +155,7 @@
         "name": "Tidy5e 色彩主题。",
         "default": "默认（浅色）",
         "dark": "可选（深色）",
-        "hint": "使用默认的浅色或可选的深色 Tidy5e 色彩主题。"
+        "hint": "使用默认的浅色主题或可选的深色主题。"
     },
     "TIDY5E.Settings.RollButtonsToCard": {
         "name": "在物品信息卡片上显示 midiQol 物品按钮",
@@ -238,7 +238,7 @@
         "hint": "向有“限制”权限的玩家显示除日志外的角色卡全部内容。"
     },
     "TIDY5E.Settings.PortraitStyle": {
-        "name": "圆形肖像风格。",
+        "name": "圆形肖像。",
         "hint": "选择使用圆形肖像/图标的角色。",
         "all": "所有角色",
         "pc": "PC",
@@ -321,5 +321,6 @@
     "TIDY5E.Settings.playerSheetWidth": {
         "name": "默认玩家角色卡宽度。",
         "hint": "玩家角色卡的宽度，单位是像素，需要刷新才能生效（默认 740）。"
-    }
+    },
+    "TIDY5E.RestoreOnRest": "休息后回复"
 }
