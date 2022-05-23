@@ -250,5 +250,76 @@
         "name": "默认载具角色卡宽度。",
         "hint": "载具角色卡的宽度，单位是像素，需要刷新才能生效（默认 740）。"
     },
-    "TIDY5E.Settings.PcLabel": "PC"
+    "TIDY5E.Settings.PcLabel": "PC",
+    "TIDY5E.Settings.CustomExhaustionIcon": {
+        "hint": "在下方输入您自定义的力竭效果图像地址，如“modules/tidy5e-sheet/images/exhaustion.svg”。仅当力竭效果是“tidy 5e”模式时有效。",
+        "name": "自定义力竭效果图标。"
+    },
+    "TIDY5E.Settings.LinkMarker": {
+        "hint": "在已链接/未链接的 NPC 角色卡上添加链接图标，在周围添加彩边。",
+        "name": "标记已链接/未链接的 NPC。",
+        "default": "无链接标记（默认）",
+        "unlinked": "只应用于未链接的指示物",
+        "linked": "只应用于已链接的指示物",
+        "both": "应用于已链接的和未链接的指示物"
+    },
+    "TIDY5E.Settings.EditGmAlways": {
+        "name": "GM 总可以编辑 PC 角色卡。",
+        "hint": "启用后，GM 无需解锁 PC 角色卡就能进行编辑。"
+    },
+    "TIDY5E.Settings.EditEffectsGmOnly": {
+        "name": "仅允许 GM 编辑主动效果。",
+        "hint": "启用后禁止玩家编辑他们角色卡上的主动效果，但是他们仍能看到已应用的效果。"
+    },
+    "TIDY5E.Settings.QuantityAlwaysShown": {
+        "name": "总是显示物品数量。",
+        "hint": "启用后不会隐藏物品数量。"
+    },
+    "TIDY5E.Settings.InspirationDisabled": {
+        "name": "禁用激励追踪器。",
+        "hint": "如果您的战役不使用激励，您可以完全禁用激励追踪器。"
+    },
+    "TIDY5E.Settings.ExhaustionEffects": {
+        "default": "不使用自动力竭效果",
+        "tidy5e": "Tidy5e - 应用整合的效果（使用 FVTT 主动效果）",
+        "name": "自动力竭效果。",
+        "hint": "选择如何根据等级应用力竭效果（掷骰劣势需要安装 midiQol 模组）",
+        "custom": "自定义- 使用您选择的效果（需要 CUB 模组）"
+    },
+    "TIDY5E.Settings.CustomExhaustionEffect": {
+        "name": "自定义 CUB 力竭效果名称。",
+        "hint": "设置您自定义力竭效果的名称 ——必须跟 CUB 中定义的名称相同，但是不包含等级数字，如“ Exhaustion”。",
+        "tiers": "自定义 CUB 力竭等级的数字，默认为 5。",
+        "warning": "找不到需要应用力竭效果的角色指示物！"
+    },
+    "TIDY5E.Settings.ExhaustionDisabled": {
+        "name": "禁用力竭追踪器。",
+        "hint": "如果您的战役不使用力竭，您可以完全禁用力竭追踪器。"
+    },
+    "TIDY5E.Settings.RestingForNpcs": {
+        "name": "NPC 休息。",
+        "hint": "启用后会在 NPC 角色卡上显示休息图标/按钮。"
+    },
+    "TIDY5E.Settings.RestingForNpcsChat": {
+        "name": "隐藏 NPC 休息的聊天信息。",
+        "hint": "启用后会隐藏 NPC 休息的聊天信息（对 GM 与玩家均应用）。"
+    },
+    "TIDY5E.Settings.DefaultActionsTab": {
+        "name": "首次打开角色卡时的默认栏。",
+        "hint": "可以在“行动”和“基本属性”之间选择。",
+        "default": "行动",
+        "attributes": "基本属性"
+    },
+    "TIDY5E.Settings.HiddenDeathSaves": {
+        "name": "对玩家隐藏死亡豁免。",
+        "hint": "启用后，只有 GM 才能进行死亡豁免、查看死亡豁免结果"
+    },
+    "TIDY5E.Settings.npsSheetWidth": {
+        "name": "默认 NPC 角色卡宽度。",
+        "hint": "NPC 角色卡的宽度，单位是像素，需要刷新才能生效（默认 740）。"
+    },
+    "TIDY5E.Settings.playerSheetWidth": {
+        "name": "默认玩家角色卡宽度。",
+        "hint": "玩家角色卡的宽度，单位是像素，需要刷新才能生效（默认 740）。"
+    }
 }
