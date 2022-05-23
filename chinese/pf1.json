@@ -2032,5 +2032,9 @@
         }
     },
     "PF1.Descriptor": "描述符",
-    "PF1.DescriptorPlural": "描述符"
+    "PF1.DescriptorPlural": "描述符",
+    "PF1.EditSkill": "编辑技能",
+    "PF1.DeleteSkill": "删除技能",
+    "PF1.DeleteSkillTitle": "删除技能: {0}",
+    "PF1.DeleteSkillConfirmation": "你确定要删除这个技能吗？"
 }
