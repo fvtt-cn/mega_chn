@@ -13,7 +13,7 @@
     "SMLTME.Allow_Trusted": "允许Trusted用户组玩家控制",
     "SMLTME.Darkness_Control_Hint": "将场景的黑暗等级与SmallTIme当前时间进行关联。",
     "SMLTME.Player_Visibility": "玩家可见性",
-    "SMLTME.Player_Visibility_Hint": "选择场景中的玩家可以看见 SmallTime 的哪些部分。新场景的默认选项在模组设置中。",
+    "SMLTME.Player_Visibility_Hint": "选择场景中的玩家可以看见 SmallTime 的哪些部分。默认选项已设置在在模组设置中。",
     "SMLTME.Player_Visibility_Default": "默认玩家可见度",
     "SMLTME.Player_Vis_0": "无",
     "SMLTME.Player_Vis_1": "仅日/月位置",
