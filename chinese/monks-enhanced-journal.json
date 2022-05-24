@@ -299,5 +299,15 @@
     "MonksEnhancedJournal.editplaceattribute.name": "编辑地点属性",
     "MonksEnhancedJournal.SlideConfiguration": "幻灯片设置",
     "MonksEnhancedJournal.DCConfiguration": "DC设置",
-    "MonksEnhancedJournal.editplaceattribute.hint": "编辑地点表中现实的内容"
+    "MonksEnhancedJournal.editplaceattribute.hint": "编辑地点表中现实的内容",
+    "MonksEnhancedJournal.Volume": "音量",
+    "MonksEnhancedJournal.Autoplay": "自动播放",
+    "MonksEnhancedJournal.TrapConfiguration": "陷阱设置",
+    "MonksEnhancedJournal.EditCurrency": "编辑货币",
+    "MonksEnhancedJournal.JournalEntries": "日志条目",
+    "MonksEnhancedJournal.Entry": "条目",
+    "MonksEnhancedJournal.Unknown": "未知",
+    "MonksEnhancedJournal.Quests": "任务",
+    "MonksEnhancedJournal.EditBackground": "编辑背景",
+    "MonksEnhancedJournal.Save": "保存"
 }
