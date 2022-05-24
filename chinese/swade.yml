@@ -464,7 +464,7 @@ SWADE.PPAbbreviation: 奇术点
 SWADE.Advances.Types.SingleSkill: 提升单个技能
 SWADE.ShowInChat: 在聊天中显示
 SWADE.ExpandDescription: 展开以显示描述
-SWADE.Favorite: 最爱
+SWADE.Favorite: 收藏
 SWADE.Equip: 装备
 SWADE.RollDamage: 投伤害
 SWADE.SystemLinks.Changelog: 更新日志
@@ -483,7 +483,7 @@ SWADE.Ranks.Legendary: 传奇
 SWADE.Advances.EditorTitle: 升级编辑器
 SWADE.Advances.Delete: 删除升级
 SWADE.Advances.Planned: 已计划
-SWADE.Advances.Toggle: 开关升级已计划状态
+SWADE.Advances.Toggle: 切换升级计划状态
 SWADE.Advances.Modes.Legacy: 传统
 SWADE.Advances.Modes.Expanded: 扩展
 SWADE.Advances.Types.Edge: 新专长
@@ -496,3 +496,7 @@ SWADE.CharacterGoals: 目标
 SWADE.Background: 背景
 SWADE.ActiveEffects.Add: 添加激活效果
 SWADE.ActiveEffects.Source: 来源
+SWADE.Keybindings.OpenFavoriteCards.Name: 打开收藏手牌
+SWADE.Keybindings.OpenFavoriteCards.UserConfigLabel: 收藏手牌
+SWADE.Keybindings.OpenFavoriteCards.Hint: 你可以在用户配置中设置自己的收藏手牌
+SWADE.Keybindings.OpenFavoriteCards.NoCardsWarning: 你没有设置收藏手牌！
