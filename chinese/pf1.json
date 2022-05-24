@@ -2036,5 +2036,7 @@
     "PF1.EditSkill": "编辑技能",
     "PF1.DeleteSkill": "删除技能",
     "PF1.DeleteSkillTitle": "删除技能: {0}",
-    "PF1.DeleteSkillConfirmation": "你确定要删除这个技能吗？"
+    "PF1.DeleteSkillConfirmation": "你确定要删除这个技能吗？",
+    "PF1.Skill": "技能",
+    "PF1.AbilityMultiplier": "属性倍数"
 }
