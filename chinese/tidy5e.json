@@ -72,9 +72,9 @@
     "TIDY5E.Encumbrance": "负重",
     "TIDY5E.EditSpell": "编辑法术",
     "TIDY5E.DeleteSpell": "删除法术",
-    "TIDY5E.AddFav": "添加喜爱",
-    "TIDY5E.isFav": "喜爱",
-    "TIDY5E.RemoveFav": "移出喜爱",
+    "TIDY5E.AddFav": "添加收藏",
+    "TIDY5E.isFav": "收藏",
+    "TIDY5E.RemoveFav": "移除收藏",
     "TIDY5E.Show": "显示/编辑",
     "TIDY5E.Hide": "隐藏",
     "TIDY5E.Edit": "编辑",
@@ -322,5 +322,9 @@
         "name": "默认玩家角色卡宽度。",
         "hint": "玩家角色卡的宽度，单位是像素，需要刷新才能生效（默认 740）。"
     },
-    "TIDY5E.RestoreOnRest": "休息后回复"
+    "TIDY5E.RestoreOnRest": "休息后回复",
+    "TIDY5E.Settings.HpOverlayBorder": {
+        "hint": "输入角色肖像生命值覆盖物向内偏移的数值，在偏移的部分不会给生命值覆盖物着色。",
+        "name": "生命值覆盖物偏移。"
+    }
 }
