@@ -1503,6 +1503,7 @@
   "PF1.CarryStrength": "Carry Strength",
   "PF1.CarryMultiplier": "Carry Multiplier",
   "PF1.Multiplier": "Multiplier",
+  "PF1.AbilityMultiplier": "Ability Multiplier",
   "PF1.CarryLightLoad": "Light Load",
   "PF1.CarryMediumLoad": "Medium Load",
   "PF1.CarryHeavyLoad": "Heavy Load",
