@@ -428,5 +428,9 @@
     "FSC.Warn.Time.ActiveCombats": "有战斗正在进行，请在启动实时时钟前解决它们。",
     "FSC.Warn.Notes.NotGM": "游戏中没有GM，玩家需要有GM连接才能添加备注。",
     "FSC.Warn.Macros.GMUpdate": "只有GM可以更新日历的日期！",
-    "FSC.Warn.Calendar.NotGM": "游戏中没有GM，玩家需要有GM连接才能改变日期/时间。"
+    "FSC.Warn.Calendar.NotGM": "游戏中没有GM，玩家需要有GM连接才能改变日期/时间。",
+    "FSC.Migration.APIDialog.Title": "执行迁移？",
+    "FSC.Migration.APIDialog.Content": "这会强制执行Simple Calendar的迁移工具。你确定想要执行吗？",
+    "FSC.Notes.Macro": "自动执行宏",
+    "FSC.Notes.MacroHelp": "选择一个将会在备注中的日期和时间经过自动执行的宏。"
 }
