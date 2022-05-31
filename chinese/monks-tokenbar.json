@@ -189,5 +189,7 @@
     "MonksTokenBar.dblclick-action.hint": "当双击指示物时执行的动作",
     "MonksTokenBar.RollCritPassed": "大成功",
     "MonksTokenBar.gm-sound.name": "GM 掷骰声效",
-    "MonksTokenBar.gm-sound.hint": "在 GM 隐藏请求掷骰时播放声效"
+    "MonksTokenBar.gm-sound.hint": "在 GM 隐藏请求掷骰时播放声效",
+    "MonksTokenBar.resolution-size.name": "指示物分辨率",
+    "MonksTokenBar.resolution-size.hint": "设置指示物的分辨率，数字越大图片越清晰，但加载时间会变长。"
 }
