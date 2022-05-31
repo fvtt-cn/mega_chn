@@ -142,7 +142,7 @@
     "MonksLittleDetails.disable-opencombat.hint": "如果在战斗开始时你不需要弹窗",
     "MonksLittleDetails.prevent-token-removal.hint": "限制只能在遭遇页面从战斗中移除指示物，防止通过指示物 HUD 移除。",
     "MonksLittleDetails.show-drag-points-together.hint": "在墙体工具上显示一个拖拽按钮，如果墙面的点正好重叠，就会把它们一同拖拽移动",
-    "MonksLittleDetails.show-bloodsplat.hint": "当一个怪物死亡时，将其转变为一滩血迹，并隐藏图像、属性条及效果。毕竟它死了。",
+    "MonksLittleDetails.show-bloodsplat.hint": "当一个怪物死亡时，将其转变为一滩血迹。你可以选择对玩家隐藏该指示物。",
     "MonksLittleDetails.move-pause.hint": "将“暂停”图标移到屏幕上方，使其更加居中，避免为什么指示物无法移动的疑惑。",
     "MonksLittleDetails.sort-by-columns.hint": "按列而不是按行排序指示物界面的状态效果",
     "MonksLittleDetails.remember-previous.name": "记住上一个",
@@ -179,5 +179,11 @@
     "MonksLittleDetails.module-management-changes.name": "模组管理改变",
     "MonksLittleDetails.module-management-changes.hint": "为模组依赖可用性添加着色，点击依赖项可跳转过去。",
     "MonksLittleDetails.macro-tabs.name": "宏Tab键",
-    "MonksLittleDetails.macro-tabs.hint": "允许宏编辑器中的tab键添加制表符，而不是跳转至下一个填写框"
+    "MonksLittleDetails.macro-tabs.hint": "允许宏编辑器中的tab键添加制表符，而不是跳转至下一个填写框",
+    "MonksLittleDetails.ActorSound": "角色声音",
+    "MonksLittleDetails.AudioFile": "音频文件",
+    "MonksLittleDetails.Volume": "音量",
+    "MonksLittleDetails.bloodsplatoptions.false": "无血迹",
+    "MonksLittleDetails.bloodsplatoptions.true": "使用血迹，隐藏指示物",
+    "MonksLittleDetails.bloodsplatoptions.both": "使用血迹，显示指示物"
 }
