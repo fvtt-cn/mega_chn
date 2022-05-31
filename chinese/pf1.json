@@ -2038,5 +2038,11 @@
     "PF1.DeleteSkillTitle": "删除技能: {0}",
     "PF1.DeleteSkillConfirmation": "你确定要删除这个技能吗？",
     "PF1.Skill": "技能",
-    "PF1.AbilityMultiplier": "属性倍数"
+    "PF1.AbilityMultiplier": "属性倍数",
+    "PF1.Copy": "复制",
+    "PF1.Override": "覆盖",
+    "PF1.Drink": "饮用",
+    "PF1.Properties": "性质",
+    "PF1.ActionName": "动作名称",
+    "PF1.ChooseAnAction": "选择一个动作"
 }
