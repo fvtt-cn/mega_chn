@@ -119,6 +119,8 @@
 		"Settings_IgnoreHtmlHint": "Do not allow messages containing HTML to be edited.",
 		"Settings_MarkdownName": "Chat Edit: Enable Markdown",
 		"Settings_MarkdownHint": "Enable Markdown styling in the Chat Log.",
+		"Settings_ShowEditedLabelName": "Chat Edit: Tag Edited Messages",
+		"Settings_ShowEditedLabelHint": "Add a small label at the bottom of an edited message that says \"(edited)\"",
 		"EditedFlag": "(edited)",
 		"Error_NoPermission": "The Gamemaster has disabled editing",
 		"ContextOption": "Edit Message"
@@ -167,5 +169,9 @@
 		"EnabledName": "Display Send Button in Chat",
 		"EnabledHint": "Display a send button in the chat box that can be clicked to send a message.",
 		"ButtonTitle": "Send message"
+	},
+	"DF_CHAT_FONT_SIZE": {
+		"FontSizeName": "Chat Message Font Size",
+		"FontSizeHint": "The font size of chat messages and the text box. (default: 14)"
 	}
 }
