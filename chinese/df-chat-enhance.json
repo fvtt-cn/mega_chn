@@ -143,7 +143,9 @@
     "DF_CHAT_EDIT": {
         "ContextOption": "编辑消息",
         "Settings_MarkdownName": "聊天编辑：启用 Markdown",
-        "Settings_MarkdownHint": "聊天记录中启用 Markdown 格式。"
+        "Settings_MarkdownHint": "聊天记录中启用 Markdown 格式。",
+        "Settings_ShowEditedLabelName": "编辑聊天：标记已编辑的信息",
+        "Settings_ShowEditedLabelHint": "在已编辑的信息下面添加一个小标签“(已编辑)”"
     },
     "DF_CHAT_LOG": {
         "Setting": {
@@ -177,5 +179,14 @@
         "Label": "玩家聊天颜色",
         "SettingTintBackgroundName": "聊天消息背景染色",
         "SettingTintBackgroundHint": "用玩家的颜色为聊天消息的背景染色。"
+    },
+    "DF_CHAT_SEND_BUTTON": {
+        "EnabledName": "在聊天中显示发送按钮",
+        "EnabledHint": "在聊天框中显示一个可以点击发送信息的发送按钮。",
+        "ButtonTitle": "发送信息"
+    },
+    "DF_CHAT_FONT_SIZE": {
+        "FontSizeName": "聊天信息字体大小",
+        "FontSizeHint": "聊天信息和文本框的字体大小。(默认: 14)"
     }
 }
