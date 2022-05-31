@@ -38,5 +38,7 @@
     "SMLTME.Show_Seconds": "显示秒",
     "SMLTME.Threshold_Override_Tooltip": "SmallTime 正根据月相调整该项",
     "SMLTME.Moonlight_Adjust": "月光调整",
-    "SMLTME.Moonlight_Adjust_Hint": "根据当前月相调整全局光照阈值。"
+    "SMLTME.Moonlight_Adjust_Hint": "根据当前月相调整全局光照阈值。",
+    "SMLTME.Moon_Darkness_Hint": "基于当前月相自适应最大黑暗等级。",
+    "SMLTME.Moon_Darkness": "月相影响黑暗等级"
 }
