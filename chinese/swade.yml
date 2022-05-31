@@ -185,7 +185,7 @@ SWADE.CommunityVicSheet: 社区载具卡
 SWADE.CommunityNPCSheet: 社区NPC卡
 SWADE.CommunityCharSheet: 旧版角色卡
 SWADE.Equipped: 已装备
-SWADE.Eqd: Eq'd
+SWADE.Eqd: 已装备
 SWADE.CarryWeight: 负载
 SWADE.Currency: 货币
 SWADE.Enabled: 启用
@@ -500,3 +500,4 @@ SWADE.Keybindings.OpenFavoriteCards.Name: 打开收藏手牌
 SWADE.Keybindings.OpenFavoriteCards.UserConfigLabel: 收藏手牌
 SWADE.Keybindings.OpenFavoriteCards.Hint: 你可以在用户配置中设置自己的收藏手牌
 SWADE.Keybindings.OpenFavoriteCards.NoCardsWarning: 你没有设置收藏手牌！
+SWADE.Advances.Number: 升级数
