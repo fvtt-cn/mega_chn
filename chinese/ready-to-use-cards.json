@@ -86,5 +86,6 @@
     "RTUCards.action.transferCards.reveal.label": "明牌",
     "RTUCards.action.swapCards.withRevealed.label": "交换明牌",
     "RTUCards.user.pile.title": "明牌（用户）",
-    "RTUCards.user.pile.description": "所有人均可见，但是只有拥有者能使用它们。"
+    "RTUCards.user.pile.description": "所有人均可见，但是只有拥有者能使用它们。",
+    "RTUCards.default.cards.hearts01.label": "红桃 A"
 }
