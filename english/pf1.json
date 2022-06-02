@@ -1721,6 +1721,9 @@
   "PF1.DenyDexBonus": "Deny Dexterity bonus",
 
   "PF1.Application": {
+    "ActionChooser": {
+      "Title": "{actor} using {item}"
+    },
     "ChangeTargetSelector": {
       "Title": "Select change target"
     },
