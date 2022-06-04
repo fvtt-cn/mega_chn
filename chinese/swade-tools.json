@@ -202,5 +202,6 @@
     "SWADETOOLS.BoostSkill": "将添加[强化]标记给",
     "SWADETOOLS.LowerSkillIgnored": "将被忽略以",
     "SWADETOOLS.NoSkill": "不具备此技能",
-    "SWADETOOLS.DeleteManually": "手动删除"
+    "SWADETOOLS.DeleteManually": "手动删除",
+    "SWADETOOLS.LeaveItBlank": "留空"
 }
