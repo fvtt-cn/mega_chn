@@ -1945,6 +1945,9 @@
             "GiveToAll": "给予所有人",
             "TotalExperience": "总经验",
             "SplitExperience": "平分经验"
+        },
+        "ActionChooser": {
+            "Title": "{actor}使用{item}"
         }
     },
     "PF1.Info": {
