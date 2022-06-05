@@ -1084,6 +1084,7 @@
   "PF1.RollBABMacroName": "{0}: Roll Base Attack Bonus",
   "PF1.RollSaveMacroName": "{0}: Roll {1} Save",
 
+  "PF1.DamageTypeUntyped": "Untyped",
   "PF1.DamageTypeBludgeoning": "Bludgeoning",
   "PF1.DamageTypePiercing": "Piercing",
   "PF1.DamageTypeSlashing": "Slashing",
@@ -1095,6 +1096,12 @@
   "PF1.DamageTypeForce": "Force",
   "PF1.DamageTypeNegative": "Negative",
   "PF1.DamageTypePositive": "Positive",
+
+  "PF1.DamageTypeCategory": {
+    "misc": "Miscellaneous",
+    "physical": "Physical",
+    "energy": "Energy"
+  },
 
   "PF1.SourceInfoSize": "Size",
   "PF1.SourceInfoBuffs": "Buff",
@@ -1204,7 +1211,6 @@
   "PF1.Damage": "Damage",
   "PF1.DamageCritical": "Critical Damage",
   "PF1.DamageRoll": "Damage Roll",
-  "PF1.DamageType": "Damage Type",
   "PF1.DamImm": "Damage Immunities",
   "PF1.DamRed": "Damage Reduction",
   "PF1.DamVuln": "Damage Vulnerabilities",
@@ -1301,6 +1307,7 @@
   "PF1.TempShort": "Temp.",
   "PF1.TempHP": "Temporary Hit Points",
   "PF1.Nonlethal": "Nonlethal",
+  "PF1.Precision": "Precision",
   "PF1.Initiative": "Initiative",
   "PF1.Tiebreaker": "Tiebreaker",
   "PF1.MaxDexShort": "Max Dex",
@@ -1485,6 +1492,8 @@
   "PF1.CritHealingBonusFormula": "Critical Healing Bonus Formula",
   "PF1.NonCritHealingBonusFormula": "Non-critical Healing Bonus Formula",
   "PF1.DamageTypes": "Damage Types",
+  "PF1.DamageType": "Damage Type",
+  "PF1.DamageModifiers": "Damage Modifiers",
   "PF1.DamageBonus": "Damage Bonus",
   "PF1.ActivationCost": "Activation Cost",
   "PF1.Duration": "Duration",
