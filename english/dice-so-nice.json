@@ -81,7 +81,7 @@
     "DICESONICE.immediatelyDisplayChatMessages": "Display chat message immediately",
     "DICESONICE.immediatelyDisplayChatMessagesHint": "When enabled, do not wait for the 3D roll to finish before showing the roll chat card",
     "DICESONICE.throwingForce" : "Throwing force",
-    "DICESONICE.useHighDPI" : "UDH resolution support (4k, Retina...)",
+    "DICESONICE.useHighDPI" : "UHD resolution support (4k, Retina...)",
     "DICESONICE.showOthersSFX" : "Show other players special effects",
     "DICESONICE.animateRollTable" : "Enable 3D dice on Roll Tables",
     "DICESONICE.animateRollTableHint" : "When possible, show a 3D dice when rolling on a Roll Table. Make sure to disable 'animate roll tables' in the core settings.",
