@@ -1700,6 +1700,10 @@
   "PF1.SpellSlotAbilityBonus": "Spell Slot Ability Bonus",
   "PF1.SpellbookName": "Spellbook Name",
   "PF1.StaticSize": "Static Size",
+  "PF1.CustomVisionRules": {
+    "Label": "Custom Vision Rules",
+    "Description": "Ignore the actor's senses, allowing custom vision rules to be applied properly."
+  },
   "PF1.DomainSlotValue": "Domain Slot Value",
   "PF1.DomainSlotValueDesc": "How many 'free' slots do Domain/School spells provide for a spell level?",
   "PF1.DisableLightLowLightVision": "Disable Low-light Vision for Light Source",
