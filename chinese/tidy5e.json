@@ -326,5 +326,6 @@
     "TIDY5E.Settings.HpOverlayBorder": {
         "hint": "输入角色肖像生命值覆盖物向内偏移的数值，在偏移的部分不会给生命值覆盖物着色。",
         "name": "生命值覆盖物偏移。"
-    }
+    },
+    "TIDY5E.ItemDetailsHeadline": "效果/描述"
 }
