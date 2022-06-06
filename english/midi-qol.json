@@ -361,6 +361,8 @@
 	"midi-qol.ConcentrationAutomation.Hint": "If enabled will handle concentration management via midi-qol, requires auto check saves to be enabled. Will disable CUB concentration management",
 	"midi-qol.SingleConcentrationRoll.Name": "Single Concentration Check",
 	"midi-qol.SingleConcentrationRoll.Hint": "If enabled and the attack is rolling normal damage + a save + other/versatile damage only roll a single concentration check for the combined damage",
+  "midi-qol.TempHPDamageConcentrationCheck.Name": "Temp HP Concentration Check",
+	"midi-qol.TempHPDamageConcentrationCheck.Hint": "If enabled loss of temphp will trigger a concentration check",
 	"midi-qol.GMSettings": "GM",
 	"midi-qol.PlayerSettings": "Player",
   "midi-qol.SoundSettings.Tab": "Sounds",

@@ -24,5 +24,11 @@
     "NAPTIME.Settings.Offline.Hint": "If selected, characters assigned to offline users will be resolved as 'Others' as selected above.  Otherwise, they will be resolved as 'Characters'",
 
     "NAPTIME.AutoHD": "Automatic Hit Dice:",
-    "NAPTIME.AutoHDThreshold": "Damage threshold to stop rolling:"
+    "NAPTIME.AutoHDThreshold": "Damage threshold to stop rolling:",
+
+    "NAPTIME.Settings.ShortRestTime.Name": "Short Rest Time",
+    "NAPTIME.Settings.ShortRestTime.Hint": "How far to advance game time on a short rest (in hours).  Set to 0 to disable.",
+
+    "NAPTIME.Settings.LongRestTime.Name": "Long Rest Time",
+    "NAPTIME.Settings.LongRestTime.Hint": "How far to advance game time on a long rest (in hours).  Set to 0 to disable."
 }
