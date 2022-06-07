@@ -2047,5 +2047,17 @@
     "PF1.Drink": "饮用",
     "PF1.Properties": "性质",
     "PF1.ActionName": "动作名称",
-    "PF1.ChooseAnAction": "选择一个动作"
+    "PF1.ChooseAnAction": "选择一个动作",
+    "PF1.DamageTypeUntyped": "无类型",
+    "PF1.DamageTypeCategory": {
+        "misc": "其他",
+        "energy": "能量",
+        "physical": "物理"
+    },
+    "PF1.Precision": "精准",
+    "PF1.CustomVisionRules": {
+        "Label": "自定义视野规则",
+        "Description": "无视角色的感官，使自定义视野规则能正确应用。"
+    },
+    "PF1.DamageModifiers": "伤害调整值"
 }
