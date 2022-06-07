@@ -162,7 +162,11 @@
             "SimpleCalendarName": "冒险日志：使用Simple Calendar的时间戳",
             "SimpleCalendarHint": "使用Simple Calendar产生时间戳，而非真实时间",
             "UseTimeName": "冒险日志：包含当前时间",
-            "UseTimeHint": "包含时间戳形式的当前时间（hh:mm:ss）"
+            "UseTimeHint": "包含时间戳形式的当前时间（hh:mm:ss）",
+            "DisableFormatHint": "在向冒险日志添加条目时禁用字体格式。",
+            "DisableFormatName": "冒险日志：禁用条目格式",
+            "DisableEntryAuthorName": "冒险日志：禁用条目中的作者",
+            "DisableEntryAuthorHint": "往冒险日志中记录活动和引用时不写入作者的名称。"
         },
         "Error": {
             "LibWrapperMissing": "你没有启用 libWrapper。冒险日志依赖于此模组，没有它将无法运行。",
@@ -173,7 +177,8 @@
             "ApiLog_NotGm": "你必须是 GM 才能向 GM 冒险日志中记录事件",
             "MissingMessage": "你没有提供消息",
             "MissingQuote": "你漏掉了 {0} 的反引号"
-        }
+        },
+        "PCCommandDescription": "向玩家日志提交一项活动"
     },
     "DF_CHAT_PLAYER_COLOR": {
         "Label": "玩家聊天颜色",
