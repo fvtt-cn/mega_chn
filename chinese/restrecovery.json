@@ -266,6 +266,6 @@
                 }
             }
         },
-        "PatchedRecovery": "{actorName} 的 {recoveryName} 已被修补，现在拥有 1/1 长休次数。"
+        "PatchedRecovery": "{actorName} 的 {recoveryName} 已被修补。"
     }
 }
