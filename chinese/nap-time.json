@@ -17,5 +17,9 @@
     "NAPTIME.Settings.CharacterLong.Hint": "对于绑定了用户的角色，应怎样处理长休？",
     "NAPTIME.Settings.OtherLong.Name": "长休：其他",
     "NAPTIME.Settings.OtherShort.Hint": "对于未绑定用户的角色，应怎样处理短休？",
-    "NAPTIME.Settings.Offline.Hint": "启用后，正离线的用户绑定的角色将会以上面选择‘其他’角色处理的方式执行休息。禁用时，将以‘角色’的方式处理"
+    "NAPTIME.Settings.Offline.Hint": "启用后，正离线的用户绑定的角色将会以上面选择‘其他’角色处理的方式执行休息。禁用时，将以‘角色’的方式处理",
+    "NAPTIME.Settings.ShortRestTime.Hint": "游戏里短休要花费的时间，单位为小时。设置为 0 时不进行更改。",
+    "NAPTIME.Settings.ShortRestTime.Name": "短休时长",
+    "NAPTIME.Settings.LongRestTime.Name": "长休时长",
+    "NAPTIME.Settings.LongRestTime.Hint": "游戏里长休要花费的时间，单位为小时。设置为 0 时不进行更改。"
 }
