@@ -203,5 +203,6 @@
     "SWADETOOLS.LowerSkillIgnored": "将被忽略以",
     "SWADETOOLS.NoSkill": "不具备此技能",
     "SWADETOOLS.DeleteManually": "手动删除",
-    "SWADETOOLS.LeaveItBlank": "留空"
+    "SWADETOOLS.LeaveItBlank": "留空",
+    "SWADETOOLS.UnderMinStr": "低于最低力量"
 }
