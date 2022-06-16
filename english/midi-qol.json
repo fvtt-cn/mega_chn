@@ -582,5 +582,6 @@
   "midi-qol.MacroPass": "Macro Pass",
   "midi-qol.MacroName": "Macro Name",
   "midi-qol.DamageRolled": "Rolled",
-  "midi-qol.DamageApplied": "Applied"
+  "midi-qol.DamageApplied": "Applied",
+  "midi-qol.FumbleThreshold": "Funble Threshold"
 }
