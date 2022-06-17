@@ -191,5 +191,8 @@
     "MonksLittleDetails.pan-to-combatant.name": "聚焦至战斗员",
     "MonksLittleDetails.switch-combat-tab.hint": "战斗创建后自动切换至战斗标签页",
     "MonksLittleDetails.token-combat-animation-hostile.hint": "选择敌对角色高亮动画的方式",
-    "MonksLittleDetails.pan-to-combatant.hint": "为GM聚焦至当前战斗员"
+    "MonksLittleDetails.pan-to-combatant.hint": "为GM聚焦至当前战斗员",
+    "MonksLittleDetails.prevent-initiative.hint": "在所有先攻都被骰出以前阻止战斗开始",
+    "MonksLittleDetails.prevent-initiative.name": "无先攻不战斗",
+    "MonksLittleDetails.StatusTurned": "翻转"
 }
