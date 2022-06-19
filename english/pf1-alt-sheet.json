@@ -34,14 +34,21 @@
         "Level8": "8th",
         "Level9": "9th",
         "Chat": {
-            "AttackChatCard": "Alternative (from pf1-alt-sheet)",
-            "addAttackChatCardTemplateN": "Add alternative attack roll chat card",
-            "addAttackChatCardTemplateH": "Adds another alternative attack roll chat card for selection. You need to manually select it in the system settings."
+            "addAttackChatCardTemplateN": "Change attack roll chat card to alternative",
+            "addAttackChatCardTemplateH": "Changes attack roll chat card to an alternate version."
         },
         "Spells": {
             "CannotCast": "You cannot cast spells of this level because:",
             "CannotCastAbilityScore": "- your ability score is not high enough",
-            "NoSpellsLeft": "No spells left"
+            "NoSpellsLeft": "No spells left",
+            "NeededConcentration": "Needed concentration rolls:",
+            "Defensive": "Defensive",
+            "VigorousMotion": "Vigorous Motion",
+            "ViolentMotion": "Violent Motion",
+            "ExtremeMotion": "Extremely Violent Motion",
+            "ViolentWeather1": "High wind carrying blinding rain/sleet",
+            "ViolentWeather2": "Wind-driven hail/dust/debris",
+            "AlwaysSucceeds": "Always succeeds"
         },
         "Skill": {
             "AlwaysShow": "AS",
