@@ -1611,6 +1611,8 @@
   "D35E.Stable": "Stable",
   "D35E.Staggered": "Staggered",
   "D35E.Unconscious": "Unconscious",
+  "D35E.Show": "Show (Default)",
+  "D35E.Hide": "Hide",
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
   "SETTINGS.D35EShowPartyHudTokenL": "Toggles if images displayed in party hud should be token images or portrait images.",
@@ -1687,5 +1689,9 @@
   "SETTINGS.D35ESharedVisionWithoutSelection": "Without selected token",
   "SETTINGS.D35ESharedVisionWithSelection": "Always",
   "SETTINGS.D35EShowPlayerContextNotesN": "Show Context Notes to players.",
-  "SETTINGS.D35EShowPlayerContextNotesH": "Displays context notes in chat cards to Players."
+  "SETTINGS.D35EShowPlayerContextNotesH": "Displays context notes in chat cards to Players.",
+  "SETTINGS.D35EWorldDefaults": "World Defaults",
+  "SETTINGS.D35EWorldDefaultsName": "World Default Settings",
+  "SETTINGS.D35EWorldDefaultsLabel": "Configure World Defaults",
+  "SETTINGS.D35EWorldDefaultsHint": "Skill visibility, additional default skills"
 }
