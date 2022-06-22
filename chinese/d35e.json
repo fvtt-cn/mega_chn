@@ -1593,5 +1593,11 @@
     "D35E.Dying": "濒死",
     "D35E.Stable": "稳定",
     "D35E.Staggered": "恍惚",
-    "D35E.Unconscious": "昏迷"
+    "D35E.Unconscious": "昏迷",
+    "D35E.Show": "显示（默认）",
+    "D35E.Hide": "隐藏",
+    "SETTINGS.D35EWorldDefaults": "世界默认",
+    "SETTINGS.D35EWorldDefaultsName": "世界默认设置",
+    "SETTINGS.D35EWorldDefaultsLabel": "配置世界默认设置",
+    "SETTINGS.D35EWorldDefaultsHint": "技能可见性，增加默认技能"
 }
