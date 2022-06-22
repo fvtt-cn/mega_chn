@@ -34,7 +34,15 @@
         "Spells": {
             "CannotCastAbilityScore": "-你的属性值不够高",
             "CannotCast": "你无法施放该环法术，因为：",
-            "NoSpellsLeft": "已无法术"
+            "NoSpellsLeft": "已无法术",
+            "VigorousMotion": "颠簸震动",
+            "Defensive": "防御式施法",
+            "ExtremeMotion": "极剧震动",
+            "AlwaysSucceeds": "总是成功",
+            "NeededConcentration": "需要专注投骰：",
+            "ViolentMotion": "剧烈震动",
+            "ViolentWeather1": "疾风骤雨",
+            "ViolentWeather2": "飞砂走石"
         },
         "Skill": {
             "AlwaysShow": "AS",
@@ -62,8 +70,8 @@
         },
         "Chat": {
             "AttackChatCard": "替换（由pf1-alt-sheet提供）",
-            "addAttackChatCardTemplateN": "增加替换样式的攻击投骰聊天卡片",
-            "addAttackChatCardTemplateH": "增加了另一个替换样式的攻击投骰聊天卡片以供选择。你需要在系统设置中手动选择。"
+            "addAttackChatCardTemplateN": "使用替换样式的攻击投骰聊天卡片",
+            "addAttackChatCardTemplateH": "将攻击投骰聊天卡片更改为替换版本。"
         }
     }
 }
