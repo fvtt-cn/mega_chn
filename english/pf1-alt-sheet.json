@@ -41,7 +41,7 @@
             "CannotCast": "You cannot cast spells of this level because:",
             "CannotCastAbilityScore": "- your ability score is not high enough",
             "NoSpellsLeft": "No spells left",
-            "NeededConcentration": "Needed concentration rolls:",
+            "NeededConcentration": "Needed concentration rolls",
             "Defensive": "Defensive",
             "VigorousMotion": "Vigorous Motion",
             "ViolentMotion": "Violent Motion",
