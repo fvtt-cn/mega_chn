@@ -583,5 +583,11 @@
   "midi-qol.MacroName": "Macro Name",
   "midi-qol.DamageRolled": "Rolled",
   "midi-qol.DamageApplied": "Applied",
-  "midi-qol.FumbleThreshold": "Fumble Threshold"
+  "midi-qol.FumbleThreshold": "Funble Threshold",
+  "midi-qol.ActionSpecialDurationImmediate.Name":  "Expire 1Hit/1Attack/1Action on roll",
+  "midi-qol.ActionSpecialDurationImmediate.Hint":  "Don't wait for damage roll before expiring attack/hit/action special duration effects",
+  "midi-qol.IgnoreSpellReactionRestriction.Name": "Allow any reaction sepll to be used",
+  "midi-qol.IgnoreSpellReactionRestriction.Hint": "Do not require available spell slots or preparation when choosing reaction spells",
+  "midi-qol.DamageVulnerabilityMultiplier.Name": "Vulnerability multiplies damage by",
+  "midi-qol.DamageResistanceMultiplier.Name": "Resistance reduces damage to "
 }
