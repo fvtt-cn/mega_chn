@@ -1613,6 +1613,8 @@
   "D35E.Unconscious": "Unconscious",
   "D35E.Show": "Show (Default)",
   "D35E.Hide": "Hide",
+  "D35E.Invisibility": "Invisibility",
+  "D35E.Banished": "Banished",
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
   "SETTINGS.D35EShowPartyHudTokenL": "Toggles if images displayed in party hud should be token images or portrait images.",
