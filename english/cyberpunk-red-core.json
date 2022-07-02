@@ -16,6 +16,7 @@
     "CPR.actorSheets.commonActions.measureDv": "Measure DV",
     "CPR.actorSheets.commonActions.new": "New",
     "CPR.actorSheets.commonActions.reload": "Reload",
+    "CPR.actorSheets.commonActions.removeUpgrade": "Remove Upgrade",
     "CPR.actorSheets.commonActions.repair": "Repair",
     "CPR.actorSheets.commonActions.resyncBodyArmor": "Resync Body Armor",
     "CPR.actorSheets.commonActions.resyncHeadArmor": "Resync Head Armor",
