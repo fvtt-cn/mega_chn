@@ -67,7 +67,7 @@
     "MonksLittleDetails.auto-reveal.hint": "在角色变为可见时自动在战斗板上显示它们，这会避免你的重复工作。",
     "MonksLittleDetails.key-swap-tool.name": "使用键盘切换工具",
     "MonksLittleDetails.clear-targets.name": "轮次结束后清除选择目标",
-    "MonksLittleDetails.key-swap-tool.hint": "允许通过按键在不同的工具之间进行切换。 需要模组 \"Library: DF Hotkeys\" 才能工作",
+    "MonksLittleDetails.key-swap-tool.hint": "允许通过按键在不同的工具之间进行切换。",
     "MonksLittleDetails.move-pause.name": "上移暂停图标",
     "MonksLittleDetails.round-chatmessages.name": "战斗轮次信息",
     "MonksLittleDetails.bloodsplat-colour.name": "血迹颜色",
@@ -194,5 +194,9 @@
     "MonksLittleDetails.pan-to-combatant.hint": "为GM聚焦至当前战斗员",
     "MonksLittleDetails.prevent-initiative.hint": "在所有先攻都被骰出以前阻止战斗开始",
     "MonksLittleDetails.prevent-initiative.name": "无先攻不战斗",
-    "MonksLittleDetails.StatusTurned": "翻转"
+    "MonksLittleDetails.StatusTurned": "已行动",
+    "MonksLittleDetails.hide-until-turn.name": "回合前隐藏",
+    "MonksLittleDetails.large-print.name": "大尺寸",
+    "MonksLittleDetails.large-print.hint": "将回合通知以大尺寸显示",
+    "MonksLittleDetails.hide-until-turn.hint": "在战斗追踪器中隐藏尚未到其回合的敌人"
 }
