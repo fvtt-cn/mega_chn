@@ -2059,5 +2059,23 @@
         "Label": "自定义视野规则",
         "Description": "无视角色的感官，使自定义视野规则能正确应用。"
     },
-    "PF1.DamageModifiers": "伤害调整值"
+    "PF1.DamageModifiers": "伤害调整值",
+    "PF1.WeaponGroupAxes": "斧类",
+    "PF1.WeaponGroupHammers": "锤　类",
+    "PF1.WeaponGroupNatural": "天武",
+    "PF1.WeaponGroupTribal": "部族",
+    "PF1.WeaponGroupBladesHeavy": "重刃类",
+    "PF1.WeaponGroupBladesLight": "轻刃类",
+    "PF1.WeaponGroupBows": "弓类",
+    "PF1.WeaponGroupClose": "贴身类",
+    "PF1.WeaponGroupCrossbows": "十字弓",
+    "PF1.WeaponGroupDouble": "双头类",
+    "PF1.WeaponGroupFirearms": "火器",
+    "PF1.WeaponGroupFlails": "链索类",
+    "PF1.WeaponGroupMonk": "武僧用",
+    "PF1.WeaponGroupPolearms": "长柄类",
+    "PF1.WeaponGroupSiegeEngines": "攻城武器",
+    "PF1.WeaponGroupSpears": "矛　类",
+    "PF1.WeaponGroupThrown": "投掷类",
+    "PF1.WeaponGroups": "武器组"
 }
