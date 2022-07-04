@@ -1599,5 +1599,8 @@
     "SETTINGS.D35EWorldDefaults": "世界默认",
     "SETTINGS.D35EWorldDefaultsName": "世界默认设置",
     "SETTINGS.D35EWorldDefaultsLabel": "配置世界默认设置",
-    "SETTINGS.D35EWorldDefaultsHint": "技能可见性，增加默认技能"
+    "SETTINGS.D35EWorldDefaultsHint": "技能可见性，增加默认技能",
+    "D35E.BuffTarACFF": "措手不及",
+    "D35E.Invisibility": "隐形",
+    "D35E.Banished": "放逐"
 }
