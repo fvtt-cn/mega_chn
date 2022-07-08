@@ -912,6 +912,7 @@
     "CPR.rolls.deathSave.title": "Death Save",
     "CPR.rolls.failed": "Failed",
     "CPR.rolls.location": "Location",
+    "CPR.rolls.luck": "Spend LUCK",
     "CPR.rolls.mods": "Mods",
     "CPR.rolls.noAutfireMaxConfig": "Configure Autofire Max Multiplier!",
     "CPR.rolls.reputation": "Reputation",
