@@ -698,6 +698,7 @@
     "CPR.itemSheet.itemUpgrade.override": "Override",
     "CPR.itemSheet.itemUpgrade.shieldHp": "Shield Hit Points",
     "CPR.itemSheet.itemUpgrade.slots": "Upgrade Slots",
+    "CPR.itemSheet.itemUpgrade.usedSlots": "Used Upgrade Slots",
     "CPR.itemSheet.itemUpgrade.unusedSlots": "Unused Upgrade Slots",
     "CPR.itemSheet.itemUpgrade.upgradeType": "Upgrade Type",
     "CPR.itemSheet.itemUpgrade.upgradeOverview": "Modifier types will be added/subtracted to the datapoint. Override types will replace the datapoint. Caution: Applying an override datapoint will ignore any modifier upgrades for that datapoint and the largest override value will be used.",
