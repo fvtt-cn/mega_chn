@@ -432,5 +432,9 @@
     "FSC.Migration.APIDialog.Title": "执行迁移？",
     "FSC.Migration.APIDialog.Content": "这会强制执行Simple Calendar的迁移工具。你确定想要执行吗？",
     "FSC.Notes.Macro": "自动执行宏",
-    "FSC.Notes.MacroHelp": "选择一个将会在备注中的日期和时间经过自动执行的宏。"
+    "FSC.Notes.MacroHelp": "选择一个将会在备注中的日期和时间经过自动执行的宏。",
+    "FSC.Configuration.CombatPauseRule.Title": "战斗规则下暂停实时时钟",
+    "FSC.Configuration.CombatPauseRule.Active": "仅在激活场景中暂停",
+    "FSC.Configuration.CombatPauseRule.Current": "在GM当前查看场景中暂停",
+    "FSC.Configuration.CombatPauseRule.Description": "选择当场景中进行战斗时何时暂停实时时钟。"
 }
