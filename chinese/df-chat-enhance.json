@@ -176,14 +176,23 @@
             "NoJournalSetGM": "冒险日志没有设置可用的日志，使用“<code>/log config</code>”来设置",
             "ApiLog_NotGm": "你必须是 GM 才能向 GM 冒险日志中记录事件",
             "MissingMessage": "你没有提供消息",
-            "MissingQuote": "你漏掉了 {0} 的反引号"
+            "MissingQuote": "你漏掉了 {0} 的反引号",
+            "NoPlayerJournalSet": "你的账户没有绑定个人冒险日志。"
         },
-        "PCCommandDescription": "向玩家日志提交一项活动"
+        "PCCommandDescription": "向玩家日志提交一项活动",
+        "PLog_Header": "玩家日志"
     },
     "DF_CHAT_PLAYER_COLOR": {
         "Label": "玩家聊天颜色",
         "SettingTintBackgroundName": "聊天消息背景染色",
-        "SettingTintBackgroundHint": "用玩家的颜色为聊天消息的背景染色。"
+        "SettingTintBackgroundHint": "用玩家的颜色为聊天消息的背景染色。",
+        "BorderStyle": {
+            "mine": "仅自己的信息",
+            "none": "无边框着色",
+            "all": "所有信息 (默认)"
+        },
+        "SettingBorderStyleName": "聊天信息边框着色",
+        "SettingBorderStyleHint": "哪些聊天信息边框应该被着色。"
     },
     "DF_CHAT_SEND_BUTTON": {
         "EnabledName": "在聊天中显示发送按钮",
@@ -193,5 +202,12 @@
     "DF_CHAT_FONT_SIZE": {
         "FontSizeName": "聊天信息字体大小",
         "FontSizeHint": "聊天信息和文本框的字体大小。(默认: 14)"
+    },
+    "DF_CHAT_TIME": {
+        "EnabledName": "使用SImple Calendar作为聊天时间戳",
+        "EnabledHint": "(需要Simple Calendar) 若启用，聊天信息会显示当前游戏时间，而非真实世界时间。重要！改变此项会使聊天记录重新渲染。",
+        "FormatName": "聊天信息时间戳格式",
+        "FormatHint": "用于显示在聊天记录上的SImple Calendar时间戳格式。需要启用上面的设定。(默认: \"YYYY, MMM DD, HH:mm\")",
+        "ErrorSimpleCalendarMissing": "必须安装并启用Simple Calendar以使用其作为聊天信息时间戳"
     }
 }
