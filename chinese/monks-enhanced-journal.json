@@ -518,5 +518,8 @@
     "MonksEnhancedJournal.currency.silver": "白银",
     "MonksEnhancedJournal.currency.copper": "铜",
     "MonksEnhancedJournal.queststatus.completed": "完成",
-    "MonksEnhancedJournal.queststatus.failed": "失败"
+    "MonksEnhancedJournal.queststatus.failed": "失败",
+    "MonksEnhancedJournal.show-chatbubble.name": "显示NPC聊天工具按钮",
+    "MonksEnhancedJournal.show-chatbubble.hint": "在棋子工具栏上显示NPC聊天工具栏的按钮",
+    "MonksEnhancedJournal.currency.caps": "帽子"
 }
