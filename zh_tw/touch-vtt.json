@@ -1,0 +1,17 @@
+{
+    "TOUCHVTT.SnapToGrid": "指示物固定到網格上",
+    "TOUCHVTT.BigButton": "更大的工具按鈕",
+    "TOUCHVTT.DeleteWall": "刪除選擇的墻",
+    "TOUCHVTT.UndoWall": "撤銷上一次墻操作",
+    "TOUCHVTT.ToggleWallChain": "切換墻壁鏈接",
+    "TOUCHVTT.Erase": "擦除",
+    "TOUCHVTT.Rotate45": "旋轉至右上",
+    "TOUCHVTT.Rotate0": "旋轉至向上",
+    "TOUCHVTT.Rotate90": "旋轉至向右",
+    "TOUCHVTT.Rotate135": "旋轉至右下",
+    "TOUCHVTT.Rotate180": "旋轉至向下",
+    "TOUCHVTT.Rotate225": "旋轉至左下",
+    "TOUCHVTT.Rotate270": "旋轉至向左",
+    "TOUCHVTT.Rotate315": "旋轉至左上",
+    "TOUCHVTT.DeleteDrawing": "刪除選中的繪圖"
+}

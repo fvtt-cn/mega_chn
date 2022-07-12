@@ -1,0 +1,16 @@
+{
+    "FURNACE.ENTITIES.sortDescending": "字母序（降序）",
+    "FURNACE.ENTITIES.sortAscending": "字母序（升序）",
+    "FURNACE.SPLIT.errorOk": "OK",
+    "FURNACE.SPLIT.errorJournalEmpty": "<strong>該日志條目為空。</strong><p>無法分割</p>",
+    "FURNACE.SPLIT.errorNoHeadings": "<strong>該日志條目無標題。</strong><p>在你的日志中創建標題，然后重試</p>",
+    "FURNACE.SPLIT.separateHeader": "在每條新日志條目中包含標題",
+    "FURNACE.SPLIT.newFolder": "在新文件夾中分割",
+    "FURNACE.SPLIT.includeImage": "在每條新條目中包含日志圖像",
+    "FURNACE.SPLIT.newEntries": "新日志條目 ({numEntires}) :",
+    "FURNACE.SPLIT.splitOn": "分割",
+    "FURNACE.SPLIT.description": "將日志條目 '{name}' 分割為多個條目。",
+    "FURNACE.SPLIT.contextMenu": "分割日志",
+    "FURNACE.SPLIT.splitSubmit": "分割日志",
+    "FURNACE.SPLIT.title": "日志分割"
+}

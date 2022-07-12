@@ -1,0 +1,106 @@
+{
+    "PDFOUNDRY": {
+        "CONTEXT": {
+            "OpenPDF": "打開PDF",
+            "PreloadPDF": "預加載PDF"
+        },
+        "PDFSHEET": {
+            "TOOLTIP": {
+                "Name": "該PDF的長可讀名稱是什么？",
+                "Code": "用于打開該PDF的短碼是什么？",
+                "URL": "應該打開哪一個PDF文件？",
+                "EnableCaching": "PDF在被打開后應該在玩家的電腦上緩存嗎？這也許能節省帶寬，但會占用用戶電腦的儲存空間。",
+                "PDFType": "參見手冊以查閱PDF類型的描述。",
+                "PageOffset": "當你要求系統打開一個頁面時，該頁面應該偏移多少以打開正確的頁面？"
+            },
+            "LABEL": {
+                "Name": "PDF名稱",
+                "Code": "PDF代碼",
+                "URL": "PDF URL",
+                "PageOffset": "頁面偏移",
+                "EnableCaching": "啟用緩存",
+                "PDFType": "PDF類型",
+                "TestSettings": "當你按下這個按鈕時，你的PDF將會打開至第5頁。如果打開的不是第5頁，關閉PDF并調整頁面偏移直到打開的是第5頁。"
+            },
+            "PLACEHOLDER": {
+                "Name": "搜刮指南！",
+                "Code": "搜指",
+                "PageOffset": "0, 3, -5, ...",
+                "URL": "自data目錄的相對路徑。"
+            },
+            "BUTTON": {
+                "Browse": "瀏覽",
+                "TestSettings": "測試設定"
+            }
+        },
+        "VIEWER": {
+            "ViewPDF": "查看PDF",
+            "ShowToPlayersText": "展示給…",
+            "ShowToPlayersTitle": "按住SHIFT以向除你之外的所有玩家展示。",
+            "SelectPlayers": "選擇玩家",
+            "SelectPlayersConfirm": "就這樣吧！",
+            "SelectSheet": "選擇PDF",
+            "SelectSheetConfirm": "就這樣吧！",
+            "InspectData": "檢查數據",
+            "InspectDataHelp3": "雖然為了方便，提供了復制/roll語句的按鈕，但在投骰時，系統可能會有意省略或更改數據。如果/roll語句沒有產生預期的結果，這不是bug。",
+            "InspectDataHelp1": "如果您愿意，可以將此窗口保持打開狀態，并將卡返回至系統系統卡。窗口將每10秒刷新一次，以反映對參與者所做的更改，但您也可以使用標題上的“刷新”按鈕手動刷新。",
+            "InspectDataHelp2": "在PDF中使用這些數據路徑時應該非常小心。顏色編碼是一種“最佳猜測”，雖然它通常是正確的，但某些系統可能會出現異常，或導致您在卡中輸入的更改被系統為某些數據路徑所覆蓋。"
+        },
+        "MANUAL": {
+            "Name": "PDFoundry用戶手冊"
+        },
+        "ERROR": {
+            "NoPDFWithCode": "無法找到具有特定代碼的PDF。",
+            "NoPDFWithName": "無法找到具有特定名稱的PDF。",
+            "PageMustBePositive": "頁面必須大于等于１。",
+            "FileNotFound": "打開PDF時發生錯誤：未在服務器上找到該文件。"
+        },
+        "ENRICH": {
+            "EmptyLinkText": "＠PDF標簽需要關聯文本。",
+            "LinkTitleOpen": "打開",
+            "LinkTitlePage": "頁",
+            "InvalidFormat": "＠PDF標簽格式無效。"
+        },
+        "SETTINGS": {
+            "WindowTitle": "PDFoundry設定",
+            "SettingsMenuButtonLabel": "配置PDFoundry",
+            "OpenHelp": "打開PDFoundry手冊",
+            "CacheSizeName": "PDF緩存大小",
+            "ViewerThemeName": "查看器主題",
+            "ViewerThemeHint": "查看器應該使用哪個主題？更改只會影響新打開的查看器。",
+            "ShowInExistingViewerName": "在現有查看器中顯示共享PDF",
+            "CacheSizeHint": "PDF緩存應允許占用多少MB的硬盤空間？必須介于64和1024之間（含64和1024）。",
+            "ShowInExistingViewerHint": "如果啟用，當其他玩家向您顯示一個PDF時，如果您已經打開了該PDF，直接改變頁面，而不是打開新窗口。"
+        },
+        "COMMON": {
+            "PageNumber": "頁號"
+        },
+        "MISC": {
+            "PDFTYPE": {
+                "Static": "靜態",
+                "Fillable": "可填充表單（未鏈接）",
+                "Actor": "可填充表單（人物卡）"
+            },
+            "DANGER": {
+                "Safe": "使用此路徑可能是安全的。",
+                "Low": "該路徑不太可能是危險的，但你應該小心。",
+                "High": "如果使用此路徑，很可能會導致問題。",
+                "Critical": "在任何情況下都不應使用此路徑！"
+            },
+            "CreatePDF": "創建PDF",
+            "NewPDF": "新PDF",
+            "Confirm": "確定",
+            "Refresh": "刷新",
+            "CopiedToClipboard": "已復制！",
+            "CopyRollPath": "復制/roll語句路徑到剪貼板。",
+            "CopyDataPath": "將數據路徑復制到剪貼板。"
+        },
+        "COMMANDS": {
+            "Success": "PDFoundry:$COMMAND_NAME$成功完成。",
+            "PurgeCacheSuccess": "PDF緩存已清除。",
+            "FixMissingTypesSuccess": "修復了缺少類型定義的PDF。",
+            "FixMissingTypesFailure": "未找到缺少類型定義的PDF。",
+            "Failure": "PDFoundry:$COMMAND_NAME$遇到錯誤。有關更多詳細信息，請參閱控制臺。"
+        }
+    }
+}

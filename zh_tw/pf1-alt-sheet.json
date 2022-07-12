@@ -1,0 +1,77 @@
+{
+    "PF1AS": {
+        "InfoMissingClass": "你的角色缺少職業。前往特性標簽頁添加一個。",
+        "AbilityScores": "屬性值",
+        "ExperienceShort": "XP",
+        "CharacterSheetLabel": "替換人物卡",
+        "NPCSheetLabel": "替換NPC人物卡",
+        "Abilities": "屬性",
+        "FFShort": "失敏",
+        "ACShort": "AC",
+        "Levels": "等級",
+        "TouchShort": "接觸",
+        "PointBuy": "使用購點",
+        "SpeedAndMovement": "速度與移動",
+        "SpellRes": "法術抗力",
+        "AttackBonuses": "攻擊加值",
+        "ClassNoFeatures": "無職業特性",
+        "DieLetter": "D",
+        "NoFeatures": "創建（+）或從合集包中拖到此處",
+        "SpecialQualities": "特殊能力",
+        "CombatManeuvers": "戰技",
+        "CasterLevel": "施法者等級",
+        "Roll": "投骰",
+        "Level0": "0環",
+        "Level1": "1環",
+        "Level2": "2環",
+        "Level3": "3環",
+        "Level4": "4環",
+        "Level5": "5環",
+        "Level6": "6環",
+        "Level7": "7環",
+        "Level8": "8環",
+        "Level9": "9環",
+        "Spells": {
+            "CannotCastAbilityScore": "-你的屬性值不夠高",
+            "CannotCast": "你無法施放該環法術，因為：",
+            "NoSpellsLeft": "已無法術",
+            "VigorousMotion": "顛簸震動",
+            "Defensive": "防御式施法",
+            "ExtremeMotion": "極劇震動",
+            "AlwaysSucceeds": "總是成功",
+            "NeededConcentration": "需要專注投骰",
+            "ViolentMotion": "劇烈震動",
+            "ViolentWeather1": "疾風驟雨",
+            "ViolentWeather2": "飛砂走石"
+        },
+        "Skill": {
+            "AlwaysShow": "AS",
+            "AlwaysShowTooltip": "總是在概覽頁顯示",
+            "TooManyRanks": "使用了過多技能點",
+            "AddSkill": "添加技能"
+        },
+        "Features": {
+            "MinimizeClasses": "最小化職業顯示",
+            "TooManyFeats": "專長過多"
+        },
+        "Config": {
+            "Reset": "重置人物卡配置",
+            "ResetTooltip": "清除角色上的特定模組配置并還原為默認值。如果有東西掛掉了不妨這么做。"
+        },
+        "MetricSpeeds": "你在使用公制單位。\n請輸入以英尺為單位的數值。\n常見數值：\n20尺 = 6米\n30尺 = 9米",
+        "NatAC": "天生護甲",
+        "BaseCombatStats": "基礎戰斗數據",
+        "Links": {
+            "Header": "角色鏈接",
+            "Mode": "模式",
+            "ModeNone": "無",
+            "ModeFamiliar": "魔寵",
+            "MasterRankPlural": "主人等級"
+        },
+        "Chat": {
+            "AttackChatCard": "替換（由pf1-alt-sheet提供）",
+            "addAttackChatCardTemplateN": "使用替換樣式的攻擊投骰聊天卡片",
+            "addAttackChatCardTemplateH": "將攻擊投骰聊天卡片更改為替換版本。"
+        }
+    }
+}

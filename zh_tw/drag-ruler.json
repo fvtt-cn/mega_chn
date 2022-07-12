@@ -1,0 +1,125 @@
+{
+    "drag-ruler": {
+        "settings": {
+            "speedProviderSettings": {
+                "speedProvider": {
+                    "hint": "選擇指示物移動著色時，速度信息的提供方。Drag Ruler 自帶通用的速度提供方，提供基礎功能并且在配置正確時，應對所有游戲系統都有效。游戲系統和安裝的模組可能會提供可用的新速度提供方。選擇其他速度提供方替換通用速度提供方可能會與正在使用的游戲系統的規則整合得更好。下列的選項依賴于此處選擇的速度提供方。",
+                    "choices": {
+                        "system": "系統 {name}",
+                        "native": "通用",
+                        "module": "模組 {name}"
+                    },
+                    "name": "速度設置提供方"
+                },
+                "color": {
+                    "hint": "將在 {colorName} 范圍內的色彩格子內使用的顏色",
+                    "unreachable": {
+                        "hint": "拖拽指示物時顯示的不可抵達的格子的顏色",
+                        "name": "不可抵達"
+                    },
+                    "name": "顏色 {colorName}"
+                },
+                "noSettings": "此速度提供方并不提供任何配置項。",
+                "activeProvider": {
+                    "hint": "下方顯示的此設置依賴于一個激活的速度提供方。如果 GM 選擇了其他的速度提供方，可用的設置項可能會改變。",
+                    "name": "當前激活的速度提供方"
+                },
+                "headers": {
+                    "speedProviderSettings": "速度提供方特定設置",
+                    "speedProvider": "速度提供"
+                },
+                "name": "速度提供方設置",
+                "hint": "速度提供方設置內包含了所有游戲系統相關的設置。",
+                "windowTitle": "速度提供方設置",
+                "button": "速度提供方設置"
+            },
+            "swapSpacebarRightClick": {
+                "hint": "拖拽時，交換空格鍵與鼠標右鍵的功能。啟用后，鼠標右鍵單擊將會放置路徑點，而按下空格鍵則會刪除",
+                "name": "交換空格與右鍵功能"
+            },
+            "showGMRulerToPlayers": {
+                "hint": "禁用后，GM 的測量尺將不會向非 GM 玩家展示",
+                "name": "向玩家展示 GM 尺子"
+            },
+            "enableMovementHistory": {
+                "hint": "啟用后，Drag Ruler將會記住指示物在戰斗中其回合內行經的路徑，并且會在拉起指示物時顯示。",
+                "name": "在戰斗時啟用移動歷史"
+            },
+            "alwaysShowSpeedForPCs": {
+                "hint": "啟用后，基于 PC 速度的著色將會展示給所有人，即使并未對該角色有觀察權限。",
+                "name": "向所有人展示 PC 的速度"
+            },
+            "autoStartMeasurement": {
+                "name": "自動測量",
+                "hint": "如果啟用此選項，在你拖動棋子時標尺會自動顯示，如果禁用，拖動棋子時將不會啟用標尺，僅在按下顯示路徑按鈕時顯示。"
+            },
+            "useGridlessRaster": {
+                "name": "使用基于速度的吸附",
+                "hint": "在無網格場景中，這使得指示物吸附至其速度范圍。"
+            },
+            "rightClickAction": {
+                "name": "右鍵點擊動作",
+                "hint": "拖動指示物時點擊右鍵應該執行什么動作？",
+                "choices": {
+                    "create": "創建路徑點",
+                    "delete": "刪除路徑點",
+                    "cancel": "取消拖動"
+                }
+            },
+            "allowPathfinding": {
+                "name": "允許玩家尋路",
+                "hint": "允許玩家在此世界中使用Drag Ruler的尋路功能。注意尋路可能經過未探索的戰爭迷霧和虛體墻，這可能提前向玩家暴露秘密。"
+            },
+            "autoPathfinding": {
+                "name": "默認尋路",
+                "hint": "若啟用，拖動指示物會自動使用尋路標尺"
+            }
+        },
+        "genericSpeedProvider": {
+            "speeds": {
+                "dash": "疾跑",
+                "walk": "步行"
+            },
+            "settings": {
+                "speedAttribute": {
+                    "hint": "該字段定義了指示物的步行速度，用于測量路徑的著色。",
+                    "name": "速度字段"
+                },
+                "dashMultiplier": {
+                    "hint": "此項可以賦予測量路徑著色的指示物第二速度顯示。將此項設置為 0 以禁用第二速度。",
+                    "name": "疾跑倍數"
+                }
+            }
+        },
+        "resetMovementHistory": "重置移動歷史",
+        "dependencies": {
+            "socketlib": {
+                "text": "Drag Ruler 依賴于 socketlib 模組以正常運行。請在該世界中激活 socketlib 模組。",
+                "title": "Socketlib 模組未安裝/啟用"
+            },
+            "terrain-ruler": {
+                "neverShowAgain": "不再顯示此條",
+                "text": "你已啟用 {moduleName}。Drag Ruler 可以使用此模組測量放置的困難地形。為此，Drag Ruler 將使用 Terrain Ruler 模組。如果已經安裝并啟用了 Terrain Ruler，Drag Ruler 將自動開始在測量中反映困難地形的結果。",
+                "title": "Drag Ruler 如何測量困難地形"
+            },
+            "ok": "OK"
+        },
+        "keybindings": {
+            "cancelDrag": "取消拖動",
+            "createWaypoint": "創建路徑點",
+            "deleteWaypoint": "刪除路徑點",
+            "disableSnap": {
+                "name": "禁用吸附",
+                "hint": "按下此鍵時吸附會被暫時禁用"
+            },
+            "moveWithoutAnimation": {
+                "name": "禁用指示物動畫",
+                "hint": "放置指示物時按住，則指示物將直接移動至目標地點"
+            },
+            "togglePathfinding": {
+                "name": "尋路開關",
+                "hint": "拖動指示物時按住，尋路功能便會暫時啟用/禁用"
+            }
+        }
+    }
+}

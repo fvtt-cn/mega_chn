@@ -1,0 +1,25 @@
+{
+    "TidyUI.clear": "清空搜索框",
+    "TidyUI.search": "鍵入以搜索模組",
+    "TidyUI.notice": "模組列表已復制到剪貼板，記得保存！",
+    "TidyUI.import": "導入模組列表",
+    "TidyUI.export": "導出已啟用的模組列表",
+    "TidyUI.paste": "在此粘貼你的模組列表（舊的文本格式）或載入一個 JSON 文件來設置你的激活模組",
+    "TidyUI.close": "關閉窗口",
+    "TidyUI.activate": "激活模組",
+    "TidyUI.toClipboard": "復制為文本",
+    "TidyUI.checkAll": "啟用所有模組",
+    "TidyUI.uncheckAll": "禁用除Tidy UI外的所有模組",
+    "TidyUI.hideDisableAll": {
+        "hint": "勾選以隱藏‘保存’按鈕旁的‘禁用所有模組’。",
+        "name": "隱藏‘禁用所有模組’按鈕。"
+    },
+    "TidyUI.moduleSettingsActive": {
+        "name": "總是啟用模組設置頁。",
+        "hint": "如果你需要經常訪問模組設置，你可能會想要啟用該選項，如此便不用點擊切換至模組設置。"
+    },
+    "TidyUI.toFile": "下載 為JSON 文件",
+    "TidyUI.fromFile": "導入 JSON 文件",
+    "TidyUI.warning": "警告：",
+    "TidyUI.instruction": "為了重新導入你的模組列表，你必須下載JSON文件。以文本形式復制只適用于發布到 Discord 或類似的地方。如果你有舊的文本格式的保存，當你想恢復它時，它仍然會被識別。"
+}

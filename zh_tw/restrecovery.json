@@ -1,0 +1,271 @@
+{
+    "REST-RECOVERY": {
+        "ClassNames": {
+            "Wizard": "法師",
+            "Bard": "吟游詩人",
+            "Druid": "德魯伊"
+        },
+        "FeatureNames": {
+            "ArcaneRecovery": "奧術恢復",
+            "SongOfRest": "紓壓曲",
+            "ChefFeat": "大廚",
+            "ChefTools": "廚師工具",
+            "PeriaptItem": "愈合護身符",
+            "DurableFeat": "耐性",
+            "DruidRecovery": "自然恢復",
+            "NaturalRecovery": "自然恢復",
+            "WoundClosureBlessing": "愈合祝福",
+            "BlackBloodFeature": "黑血愈合"
+        },
+        "Fractions": {
+            "None": "無",
+            "Quarter": "四分之一",
+            "Half": "二分之一",
+            "Full": "全部",
+            "Custom": "自定公式"
+        },
+        "Rounding": {
+            "RoundDown": "向下取整",
+            "RoundUp": "向上取整"
+        },
+        "NumberToText": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "1st": "第一",
+            "2nd": "第二",
+            "3rd": "第三",
+            "4th": "第四",
+            "5th": "第五"
+        },
+        "Chat": {
+            "RegainedSpellSlots": "額外恢復：",
+            "SpellSlotList": "{number} 個 {level} 環法術位",
+            "SpellSlotListPlural": "{number} 個 {level} 環法術位",
+            "SongOfRestSelf": "{name} 享受著自己的紓壓曲。",
+            "Chef": "{name} 享用著 {chef} 制作的美味食物。",
+            "ChefSelf": "{name} 享用著自己制作的美味食物。",
+            "SongOfRest": "{name} 享受著 {bard} 的紓壓曲。"
+        },
+        "Dialogs": {
+            "ResetSettings": {
+                "Cancel": "取消",
+                "Title": "休息恢復 | 重置設定",
+                "Content": "你確定你想要重置所有休息恢復模組的設定到默認值嗎？<br><strong>此變更無法撤銷！</strong>",
+                "Confirm": "重置模組設定"
+            },
+            "ShortRest": {
+                "SpellSlotRecovery": "以 {featureName} 恢復法術位",
+                "SpellSlotsLeft": "你有 {spellSlotsLeft} 個環位以待恢復。",
+                "NoFeatureUse": "你已經耗盡 {featureName} 的使用次數，因此不能再在此次短休中恢復任何法術位。",
+                "FullSpells": "你的法術位已經完全恢復，因此沒有必要再恢復任何法術位。",
+                "FullHealth": "你的生命值已經完全恢復，因此不能再擲任何生命骰。",
+                "AutoRoll": "自動擲骰",
+                "NoMoreRests": "不能再短休",
+                "NoMoreRestsSmall": "你已經不能再進行短休了，因為你的游戲規則規定每次長休期間最多只能短休 {max_short_rests} 次。"
+            },
+            "LongRest": {
+                "Begin": "開始長休",
+                "CustomRules": "你正在游玩自定規則，這意味著你可能會以不同的方式恢復生命值、生命骰、職業資源、物品充能次數、法術位。",
+                "BeginExplanation": "開始長休之后，你將恢復你的一部分生命骰以便用于恢復生命值。",
+                "CustomRulesLink": "查看自定規則。"
+            },
+            "ModuleConfig": {
+                "Title": "休息恢復配置",
+                "LongRest": "長休",
+                "ShortRest": "短休",
+                "Other": "其他設定",
+                "Submit": "提交設定",
+                "ItemNames": "特性名稱",
+                "General": "通用設置",
+                "Request": "此處需要新的特性。",
+                "MoreToCome": "并提供更多配置選項！"
+            },
+            "LongRestWarning": {
+                "Title": "完成長休？",
+                "Content": "你沒有消耗任何生命骰以恢復生命值，你確定你想要完成長休嗎？"
+            },
+            "LongRestSettingsDialog": {
+                "Title": "長休設定",
+                "Content": "這些是你的 GM 在此游戲中配置的長休設定。"
+            },
+            "ShortRestWarning": {
+                "Title": "結束短休？",
+                "Content": "您還沒有花費生命骰來恢復生命值，確定要結束短休嗎？"
+            }
+        },
+        "Settings": {
+            "Reset": {
+                "Title": "重置設定到默認值",
+                "Label": "重置休息恢復設定",
+                "Hint": "此項將會重置所有的模組設定到默認值。"
+            },
+            "Configure": {
+                "Title": "模組配置",
+                "Label": "配置休息",
+                "Hint": "你可以在此對話框中配置休息的運作方式。"
+            },
+            "QuickHDRoll": {
+                "Title": "速骰生命骰（跳過對話框）",
+                "Hint": "跳過對話框以快速地擲生命骰。"
+            },
+            "Debug": {
+                "Title": "啟用調試模式",
+                "Label": "打印調試消息到控制臺"
+            },
+            "ShortRest": {
+                "IgnoreInactive": {
+                    "Title": "忽略離線玩家角色",
+                    "Hint": "如果你的小隊中有一位擁有紓壓曲的吟游詩人或者一位大廚，開啟此項后，僅在其在線登錄時，才會考慮其在場。"
+                },
+                "WizardClassName": {
+                    "Title": "法師職業名稱",
+                    "Hint": "此處你可以配置在你的游戲中法師的職業名稱為何。此項可為本地化的文本。"
+                },
+                "DruidClassName": {
+                    "Title": "德魯伊職業名稱",
+                    "Hint": "此處你可以配置在你的游戲中德魯伊的職業名稱為何。此項可為本地化的文本。"
+                },
+                "BardClassName": {
+                    "Title": "吟游詩人職業名稱",
+                    "Hint": "此處你可以配置在你的游戲中吟游詩人的職業名稱為何，用于決定使用誰的紓壓曲。此項可為本地化的文本。"
+                },
+                "ArcaneRecovery": {
+                    "Title": "奧術恢復名稱",
+                    "Hint": "此處你可以配置在你的游戲中法師的奧術恢復特性名稱為何。此項可為本地化的文本。"
+                },
+                "NaturalRecovery": {
+                    "Title": "自然恢復名稱",
+                    "Hint": "此處你可以配置在你的游戲中德魯伊的自然恢復特性名稱為何。此項可為本地化的文本。"
+                },
+                "ChefFeat": {
+                    "Title": "大廚特性名稱",
+                    "Hint": "此處你可以配置在你的游戲中大廚特性的名稱為何。此項可為本地化的文本。"
+                },
+                "ChefTools": {
+                    "Title": "廚師工具名稱",
+                    "Hint": "此處你可以配置在你的游戲中廚師工具物品的名稱為何。此項可為本地化的文本。留空以無視廚師工具的需求來使用此特性。"
+                },
+                "DurableFeat": {
+                    "Title": "耐性特性名稱",
+                    "Hint": "此處你可以配置在你的游戲中耐性特性的名稱為何。此項可為本地化的文本。"
+                },
+                "PeriaptItem": {
+                    "Title": "愈合護身符名稱",
+                    "Hint": "此處你可以配置在你的游戲中愈合護身符物品的名稱為何。此項可為本地化的文本。"
+                },
+                "SongOfRest": {
+                    "Title": "紓壓曲名稱",
+                    "Hint": "此處你可以配置在你的游戲中吟游詩人的紓壓曲名稱為何。此項可為本地化的文本。"
+                },
+                "MaxShortRests": {
+                    "Title": "每次長休期間的最多短休次數",
+                    "Hint": "這可以防止角色在已短休相應次數后繼續短休。長休會重置此計數。輸入 0 以禁用此項。"
+                }
+            },
+            "LongRest": {
+                "RollHitDice": {
+                    "Title": "啟用長休生命骰擲骰",
+                    "Hint": "在長休對話框中，啟用擲骰的 UI。"
+                },
+                "PreRegainHitDice": {
+                    "Title": "在完成長休前啟用生命骰恢復",
+                    "Hint": "啟用后，將在完成長休前恢復生命骰，因此可以在休息中使用生命骰。"
+                },
+                "HitPointsRecoveryFraction": {
+                    "Hint": "長休中生命值恢復的比例。",
+                    "Title": "生命值恢復比例"
+                },
+                "HitDiceRecoveryFraction": {
+                    "Title": "生命骰恢復比例",
+                    "Hint": "長休中生命骰恢復的比例。"
+                },
+                "HitDiceRecoveryRounding": {
+                    "Hint": "如何對生命骰恢復的個數取整。",
+                    "Title": "生命骰恢復取整"
+                },
+                "ResourcesRecoveryFraction": {
+                    "Title": "資源恢復比例",
+                    "Hint": "長休中資源恢復的比例。"
+                },
+                "SpellSlotsRecoveryFraction": {
+                    "Title": "法術位恢復比例",
+                    "Hint": "長休中法術位恢復的比例（契約魔法除外）。"
+                },
+                "ItemUsesRecoveryFraction": {
+                    "Hint": "長休中物品使用次數（物品、消耗品等等）恢復的比例。",
+                    "Title": "物品使用次數恢復比例"
+                },
+                "FeatUsesRecoveryFraction": {
+                    "Title": "特性使用次數恢復比例",
+                    "Hint": "長休中特性使用次數恢復的比例。"
+                },
+                "DailyUsesRecoveryFraction": {
+                    "Title": "日常使用恢復比例",
+                    "Hint": "長休中日常使用次數恢復的比例（擁有“每日”恢復設定的物品）。"
+                },
+                "EnableAutoRollButton": {
+                    "Title": "啟用自動擲生命骰按鈕",
+                    "Hint": "這會在長休和短休 UI 上添加一個按鈕，讓玩家可以在生命值不滿時自動擲生命骰。"
+                },
+                "PreRegainHitDiceBuffer": {
+                    "Title": "啟用生命骰最大緩沖",
+                    "Hint": "此項將使每個角色總是重新獲得生命骰，即使這會使生命骰超過最大值，因此不會浪費生命骰。長休結束時，任何超過其最大值的未使用的生命骰都會消失。"
+                }
+            },
+            "ItemNames": {
+                "WizardClassName": {
+                    "Title": "法師職業名稱",
+                    "Hint": "此處你可以配置在你的游戲中法師的職業稱呼。此項可為本地化的文本。"
+                },
+                "DruidClassName": {
+                    "Title": "德魯伊職業名稱",
+                    "Hint": "此處你可以配置在你的游戲中德魯伊的職業稱呼。此項可為本地化的文本。"
+                },
+                "BardClassName": {
+                    "Title": "吟游詩人職業名稱",
+                    "Hint": "此處你可以配置在你的游戲中吟游詩人的職業稱呼，用于決定使用誰的紓壓曲。此項可為本地化的文本。"
+                },
+                "ArcaneRecovery": {
+                    "Title": "奧術恢復名稱",
+                    "Hint": "此處你可以配置在你的游戲中法師的奧術恢復的特性稱呼。此項可為本地化的文本。"
+                },
+                "NaturalRecovery": {
+                    "Hint": "此處你可以配置在你的游戲中德魯伊的自然恢復的特性稱呼。此項可為本地化的文本。",
+                    "Title": "自然恢復名稱"
+                },
+                "ChefFeat": {
+                    "Hint": "此處你可以配置在你的游戲中的大廚的專長稱呼。此項可為本地化的文本。",
+                    "Title": "大廚專長名稱"
+                },
+                "SongOfRest": {
+                    "Title": "紓壓曲名稱",
+                    "Hint": "此處你可以配置在你的游戲中吟游詩人的紓壓曲的特性稱呼。此項可為本地化的文本。"
+                },
+                "ChefTools": {
+                    "Title": "廚師工具名稱",
+                    "Hint": "此處你可以配置在你的游戲中的廚師工具的物品稱呼。此項可為本地化的文本。此項留空以無視廚師工具的需求來使用此特性。"
+                },
+                "DurableFeat": {
+                    "Title": "耐性專長名稱",
+                    "Hint": "此處你可以配置在你的游戲中的耐性的專長稱呼。此項可為本地化的文本。"
+                },
+                "PeriaptItem": {
+                    "Hint": "此處你可以配置在你的游戲中的愈合護身符的物品稱呼。此項可為本地化的文本。",
+                    "Title": "愈合護身符名稱"
+                },
+                "WoundClosureBlessing": {
+                    "Title": "愈合祝福名稱",
+                    "Hint": "此處你可以配置在你的游戲中的愈合祝福的特性稱呼。此項可為本地化的文本。"
+                },
+                "BlackBloodFeature": {
+                    "Title": "黑血愈合名稱",
+                    "Hint": "此處你可以配置在你的游戲中的黑血愈合的特性稱呼。此項可為本地化的文本。"
+                }
+            }
+        },
+        "PatchedRecovery": "{actorName} 的 {recoveryName} 已被修補。"
+    }
+}

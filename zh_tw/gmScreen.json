@@ -1,0 +1,89 @@
+{
+    "GMSCR": {
+        "Grid": "網格",
+        "gmScreen": {
+            "Title": "GM 帷幕",
+            "ClearCell": "清除單元格",
+            "EmptyCellHint": "將筆記、隨機表、角色和物品從世界或合集包中拖至此處。",
+            "Refresh": "刷新",
+            "Reset": "清除網格",
+            "ConfigureCell": "配置行列間距",
+            "Open": "GM 帷幕",
+            "OpenPlayer": "玩家帷幕",
+            "OpenFull": "打開全實體表"
+        },
+        "settings": {
+            "columns": {
+                "Name": "列",
+                "Hint": "你想要多少列？改變此項也許會需要清除網格。"
+            },
+            "condensedButton": {
+                "Hint": "將文本從按鈕上移除",
+                "Name": "精簡 GM 帷幕按鈕"
+            },
+            "gm-screen-config": {
+                "Name": "網格標簽",
+                "Label": "標簽配置",
+                "Hint": "在此處添加、刪除和更新網格標簽。"
+            },
+            "rows": {
+                "Name": "行",
+                "Hint": "你想要多少行？改變此項可能會需要清楚網格。"
+            },
+            "reset": {
+                "Name": "重置",
+                "Hint": "清除網格條目。這個操作不可撤銷。"
+            },
+            "right-margin": {
+                "Hint": "設置 GM 帷幕右邊到側邊欄之間的偏移距離。此數值可能影響抽屜顯示模式下的最大帷幕寬度。",
+                "Name": "僅限抽屜：右邊距"
+            },
+            "drawer-width": {
+                "Hint": "將除去側邊欄和右邊距后的可用帷幕寬度，乘以此百分比計算最終寬度。",
+                "Name": "僅限抽屜：寬度"
+            },
+            "display-as-drawer": {
+                "Hint": "將 GM 帷幕顯示為屏幕底部的抽屜，而非通常的對話框。如果你想要配合使用 PopOut，禁用此項。",
+                "Name": "以抽屜樣式顯示"
+            },
+            "drawer-height": {
+                "Name": "僅限抽屜：高度",
+                "Hint": "設置 GM 帷幕在抽屜顯示模式下的高度。"
+            },
+            "drawer-opacity": {
+                "Name": "僅限抽屜：不透明度",
+                "Hint": "控制抽屜的透明程度。"
+            }
+        },
+        "gridConfig": {
+            "GridTabs": "網格標簽配置",
+            "GridConfig": "網格配置",
+            "table": {
+                "Add": "添加",
+                "TabLabel": "選項卡標簽",
+                "Rows": "行",
+                "Columns": "列",
+                "TabOrder": "順序"
+            },
+            "errors": {
+                "empty": "無法保存沒有標簽的網格。"
+            }
+        },
+        "warnings": {
+            "clearConfirm": {
+                "Content": "你確定要清除網格條目嗎？這個操作無法撤銷。",
+                "Title": "清除網格"
+            },
+            "noGrids": "你的 GM 沒有共享任何GM 帷幕網格。"
+        },
+        "cellConfigDialog": {
+            "CellConfig": "單元格配置",
+            "RowSpan": "行",
+            "ColSpan": "列"
+        },
+        "entitySheet": {
+            "Label": "GM 帷幕表",
+            "Hint": "在 GM 帷幕上為此項設置專用的表。"
+        }
+    }
+}

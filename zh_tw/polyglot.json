@@ -1,0 +1,137 @@
+{
+    "POLYGLOT": {
+        "LanguagesTitle": "語言",
+        "Fonts": "字體",
+        "CustomLanguagesTitle": "自定義語言",
+        "CustomLanguagesHint": "定義一個以逗號分隔的自定義語言列表以添加至系統中。",
+        "TruespeechTitle": "巧言術",
+        "ComprehendLanguagesTitle": "通曉語言",
+        "TruespeechHint": "輸入一個語言。說這種語言的人可以聽懂所有說出的語言（無法閱讀筆記），并且所有的生物都能聽懂他說的話。",
+        "DefaultLanguageTitle": "默認語言",
+        "DefaultLanguageHint": "選擇默認選擇的語言名稱。留空則使用系統默認值。",
+        "ReplaceLanguagesTitle": "替換系統語言",
+        "ReplaceLanguagesHint": "替換系統默認語言為你的自定義語言。列表中的第一項語言將成為新的默認語言。",
+        "RandomizeRunesTitle": "隨機化符文",
+        "ScrambleGMTitle": "為GM加密信息",
+        "ExportFontsTitle": "使字體可用",
+        "ExportFontsHint": "使Polyglot字體可用于Foundry中（例如繪畫）。",
+        "DisplayTranslatedTitle": "顯示翻譯",
+        "HideTranslationTitle": "對玩家隱藏標識符",
+        "AllowOOCTitle": "加密OOC聊天信息",
+        "AllowOOCHint": "選擇哪些用戶的信息應該被加密。OOC = 角色外。",
+        "AllowOOCOptions": {
+            "a": "所有",
+            "b": "僅GM",
+            "c": "僅玩家",
+            "d": "無"
+        },
+        "Translation": "翻譯",
+        "TranslatedFrom": "翻譯自 ",
+        "LanguageLabel": "語言",
+        "AlphabetLabel": "字母表",
+        "LatinAlphabet": "拉丁字母表",
+        "ToggleRunes": "符文開關",
+        "Runes": "符文",
+        "COC7": {
+            "LanguageOwn": "語言",
+            "LanguageAny": "語言",
+            "LanguageOther": "語言",
+            "LanguageSpec": "語言"
+        },
+        "SWADE": {
+            "LanguageSkills": "語言"
+        },
+        "WFRP4E": {
+            "LanguageSkills": "語言"
+        },
+        "ScrambleGMHint": "不替 GM 翻譯并顯示文本（參考地球儀圖標的顏色來判斷指示物是否理解）。需要重載。",
+        "RandomizeRunesHint": "此項決定了生成段落的隨機數發生器類型。⚠️選項“無”僅支持字母數字字符（無變音記號）。",
+        "DisplayTranslatedHint": "對于聊天欄中被翻譯的語言，將翻譯顯示在原文下方。",
+        "HideTranslationHint": "在發送給玩家的信息中隱藏地球儀圖標和“翻譯自”。用于不想顯示給玩家說的是哪種語言時。需要重新加載。",
+        "LanguageSettings": "語言設定",
+        "ChatSettings": "聊天設定",
+        "LanguagesHint": "改變語言使用的字母表。重置為默認則會重新加載。",
+        "ComprehendLanguagesHint": "輸入一個語言。該語言無法說出或寫出，但可以明白所有其他語言。",
+        "DefaultAlphabet": "默認字符",
+        "LanguageProvider": {
+            "hint": "選擇語言信息的字母表和語言的提供方。游戲系統和安裝模組可以添加更多語言提供方。下方的選項依賴于此處選擇的語言提供方。⚠️如果你修改了提供方，你必須保存并重新打開這些設置。",
+            "name": "語言設置提供方",
+            "choices": {
+                "module": "[模組] {name}",
+                "native": "通用",
+                "system": "[系統] {name}"
+            }
+        },
+        "FontSettings": "字體設置",
+        "enableAllFontsTitle": "使用所有字體",
+        "enableAllFontsHint": "在語言設置中令 Polyglot 字體全部生效。",
+        "UESRPG.Language": "語言",
+        "JournalHighlightTitle": "日志高亮不透明度（%）",
+        "JournalHighlightHint": "設定日志上的字體的高亮不透明度。",
+        "logographicalFontToggleHint": "對使用語素文字的段落減半其空間占用（例如：日文、中文字符）。",
+        "logographicalFontToggleTitle": "語素文字",
+        "RandomizeRunesOptions": {
+            "a": "默認",
+            "b": "獨特段落",
+            "c": "無 ⚠️"
+        },
+        "Generic": {
+            "Language": "語言"
+        },
+        "source": {
+            "name": "來源類型",
+            "hint": "如果你的字體保存在 Forge 素材庫里，選擇 Forge。如果保存在 S3 存儲桶里，選擇 S3。",
+            "data": "數據文件夾",
+            "forgevtt": "Forge 素材庫",
+            "s3": "S3 存儲桶",
+            ".hint": "如果你的字體存放在Forge Assets中，選擇Forge。如果它們儲存在S3桶中，選擇S3。"
+        },
+        "directory": {
+            "name": "自定義字體目錄",
+            "hint": "設置為除 \"modules\" 文件夾外的一個包含字體文件的文件夾。",
+            ".hint": "設置為一個在\"modules\"文件夾之外的存放字體文件的文件夾。"
+        },
+        "Font": "字體",
+        "FontSize": "字體大小（%）",
+        "DND5E": {
+            "SpecialLanguagesTitle": "替換特殊語言",
+            "SpecialLanguagesHint": "用于替換“語言”的語言名稱，如“它一生中知道的所有語言”。",
+            "SpecialLanguages.title": "替換特殊語言",
+            "SpecialLanguages.hint": "會替換\"語言\"的語言名稱，例如\"它生命中所知的所有語言\"。"
+        },
+        "Languages.title": "語言",
+        "Languages.hint": "選擇語言使用的字母表。刷新時會重置為默認。",
+        "CustomLanguages.title": "自定義語言",
+        "CustomLanguages.hint": "定義一個要添加至系統的自定義語言列表，使用逗號隔開。",
+        "ComprehendLanguages.title": "通曉語言法術",
+        "ComprehendLanguages.hint": "設置一種語言，使說它的人明白所有其他語言，但其并不能被說出或寫下。",
+        "Truespeech.title": "巧言術",
+        "Truespeech.hint": "設置一種語言，說它的人聽懂所有說出的語言(不能閱讀筆記)，且所有生物都能聽懂其。",
+        "JournalHighlight.title": "筆記高光透明度 (%)",
+        "JournalHighlight.hint": "定義筆記中字體高光的透明度。",
+        "logographicalFontToggle.title": "語素字體",
+        "logographicalFontToggle.hint": "將使用語素字體(例如日語，漢語文字)的句子大小縮減一半。",
+        "DefaultLanguage.title": "默認語言",
+        "DefaultLanguage.hint": "默認選擇的語言。留空以使用系統默認。",
+        "ReplaceLanguages.title": "替換系統語言",
+        "ReplaceLanguages.hint": "使用你的自定義語言替換系統的默認語言。列表中第一個語言會成為新的默認語言。",
+        "ScrambleGM.title": "為GM加密信息",
+        "ScrambleGM.hint": "不要為 GM 翻譯文本（參照地球圖標的顏色來理解指示物）。需要重載。",
+        "enableAllFonts.title": "使用所有字體",
+        "enableAllFonts.hint": "使Polyglot字體在語言設置中可用。",
+        "RandomizeRunes.title": "隨機符文",
+        "RandomizeRunes.hint": "這決定了哪種隨機數生成器會用于生成句子。 ⚠️ \"無\"選項僅支持字母數字符號 (無重音)。",
+        "ExportFonts.title": "使字體可用",
+        "ExportFonts.hint": "使Polyglot字體可在Foundry中使用 (例如繪畫工具)。",
+        "DisplayTranslated.title": "顯示翻譯",
+        "DisplayTranslated.hint": "對于在聊天窗口中的會被翻譯的語言，顯示原始文本并在其下方顯示譯文。",
+        "HideTranslation.title": "對玩家隱藏翻譯按鈕",
+        "HideTranslation.hint": "在發給玩家的聊天信息中隱藏地球圖標和\"翻譯自\"文本。當你不想對玩家顯示你說的是哪種語言的時候很好用。需要刷新。",
+        "AllowOOC.title": "打亂OOC信息",
+        "AllowOOC.hint": "選擇需要將其信息打亂的用戶。OOC=超游。",
+        "LanguageRegex": {
+            "title": "語言正則表達式",
+            "hint": "你可以使用這個來將在物品上搜索的目標從\"Languages\"變成其他東西。例如，\"Idioma\"是葡萄牙/西班牙語，或\"Sprache\"是德語。該項設置對非英語使用者來說更有用。"
+        }
+    }
+}

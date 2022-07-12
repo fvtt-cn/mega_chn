@@ -5,8 +5,8 @@ on:
     types: [ published ]
 
 env:
-  ZIP_FILENAME: "mega_chn"
-  PACKAGE_CONTENT: "module.json cn.json welcome.js"
+  ZIP_FILENAME: "mega_chn_zh_tw"
+  PACKAGE_CONTENT: "module.json zh_tw.json welcome.js"
   PACKAGE_ID: 1208
 
 jobs:

@@ -1,0 +1,331 @@
+{
+    "TidyUI.clear": "清空搜索框",
+    "TidyUI.search": "鍵入以搜索模組",
+    "TidyUI.notice": "模組列表已復制到剪貼板，記得保存！",
+    "TidyUI.import": "導入模組列表",
+    "TidyUI.export": "導出已啟用的模組列表",
+    "TidyUI.paste": "在此粘貼你的模組列表（舊的文本格式）或載入一個 JSON 文件來設置你的激活模組",
+    "TidyUI.close": "關閉窗口",
+    "TidyUI.activate": "激活模組",
+    "TidyUI.toClipboard": "復制為文本",
+    "TidyUI.checkAll": "啟用所有模組",
+    "TidyUI.uncheckAll": "禁用除Tidy UI外的所有模組",
+    "TidyUI.hideDisableAll": {
+        "hint": "勾選以隱藏‘保存’按鈕旁的‘禁用所有模組’。",
+        "name": "隱藏‘禁用所有模組’按鈕。"
+    },
+    "TidyUI.moduleSettingsActive": {
+        "name": "總是啟用模組設置頁。",
+        "hint": "如果你需要經常訪問模組設置，你可能會想要啟用該選項，如此便不用點擊切換至模組設置。"
+    },
+    "TidyUI.toFile": "下載 為JSON 文件",
+    "TidyUI.fromFile": "導入 JSON 文件",
+    "TidyUI.warning": "警告：",
+    "TidyUI.instruction": "為了重新導入你的模組列表，你必須下載JSON文件。以文本形式復制只適用于發布到 Discord 或類似的地方。如果你有舊的文本格式的保存，當你想恢復它時，它仍然會被識別。",
+    "TIDY5E.PlayerName": "玩家名稱",
+    "TIDY5E.Gender": "性別",
+    "TIDY5E.Age": "年齡",
+    "TIDY5E.Height": "身高",
+    "TIDY5E.Weight": "體重",
+    "TIDY5E.Eyes": "瞳色",
+    "TIDY5E.Skin": "膚色",
+    "TIDY5E.Hair": "發色",
+    "TIDY5E.Subclass": "子職",
+    "TIDY5E.EditActorImage": "左鍵：編輯圖像",
+    "TIDY5E.ShowActorImage": "右鍵：顯示角色圖像",
+    "TIDY5E.ShowPortraitArt": "顯示肖像",
+    "TIDY5E.ShowTokenArt": "顯示指示物",
+    "TIDY5E.Exhaustion0": "無負面效果",
+    "TIDY5E.Exhaustion1": "屬性檢定劣勢",
+    "TIDY5E.Exhaustion2": "速度減半",
+    "TIDY5E.Exhaustion3": "攻擊檢定與豁免檢定劣勢",
+    "TIDY5E.Exhaustion4": "生命值上限減半",
+    "TIDY5E.Exhaustion5": "速度降低到 0",
+    "TIDY5E.Exhaustion6": "死亡",
+    "TIDY5E.RestHint": "進行休息",
+    "TIDY5E.RestS": "短休",
+    "TIDY5E.RestL": "長休",
+    "TIDY5E.HitDiceRollAverage": "右鍵：平均值",
+    "TIDY5E.AbbrInitiative": "先攻",
+    "TIDY5E.Journal": "日志",
+    "TIDY5E.JournalPoi": "感興趣的人",
+    "TIDY5E.JournalLoi": "感興趣的地點",
+    "TIDY5E.JournalQuests": "任務",
+    "TIDY5E.JournalMisc": "雜項",
+    "TIDY5E.JournalEntries": "日志條目",
+    "TIDY5E.EnableEdit": "允許編輯",
+    "TIDY5E.DisableEdit": "禁止編輯",
+    "TIDY5E.EditHint": "變更添加/刪除按鈕和空白內容是否可見",
+    "TIDY5E.Equip": "裝備物品",
+    "TIDY5E.Unequip": "解除裝備",
+    "TIDY5E.Attune": "同調物品",
+    "TIDY5E.Deattune": "解除同調",
+    "TIDY5E.Prepare": "準備法術",
+    "TIDY5E.Unprepare": "移出準備",
+    "TIDY5E.EmptySection": "該部分是空白的。如果您想要編輯它，請先解鎖角色卡。",
+    "TIDY5E.GmOnlyEdit": "只有您的 GM 才能編輯該部分。",
+    "TIDY5E.AttunementWarning": "同調警告：您不能同調超過 {number} 件物品！",
+    "TIDY5E.AttunementItems": "已同調物品",
+    "TIDY5E.AttunementMax": "最大同調數",
+    "TIDY5E.GridLayout": "圖標布局",
+    "TIDY5E.ListLayout": "列表布局",
+    "TIDY5E.Encumbrance": "負重",
+    "TIDY5E.EditSpell": "編輯法術",
+    "TIDY5E.DeleteSpell": "刪除法術",
+    "TIDY5E.AddFav": "添加收藏",
+    "TIDY5E.isFav": "收藏",
+    "TIDY5E.RemoveFav": "移除收藏",
+    "TIDY5E.Show": "顯示/編輯",
+    "TIDY5E.Hide": "隱藏",
+    "TIDY5E.Edit": "編輯",
+    "TIDY5E.TraitsEmpty": "空白特性",
+    "TIDY5E.Abilities": "屬性",
+    "TIDY5E.Environment": "環境",
+    "TIDY5E.SearchItem": "搜索物品",
+    "TIDY5E.SearchSpell": "搜索法術",
+    "TIDY5E.SearchFeat": "搜索特性",
+    "TIDY5E.SearchClear": "清除搜索",
+    "TIDY5E.SearchHint": "在此輸入您要搜索的內容。",
+    "TIDY5E.ItemCardsKeyHint": "按住該鍵來與此卡片交互。",
+    "TIDY5E.ItemCardsMouseHint": "用鼠標中鍵來查看/編輯物品。",
+    "TIDY5E.TogglePersonalityInfo": "切換個性信息",
+    "TIDY5E.ToggleInfo": "切換信息",
+    "TIDY5E.AbbrMod": "Mod",
+    "TIDY5E.AbbrSavingThrow": "Save",
+    "TIDY5E.SpellAttackMod": "攻擊調整值",
+    "TIDY5E.PreparedSpells": "已準備法術",
+    "TIDY5E.PreparedSpellsMax": "最大準備法術數",
+    "TIDY5E.SpellSchool": "學派",
+    "TIDY5E.Components": "成分",
+    "TIDY5E.TokenLinked": "指示物已與角色鏈接",
+    "TIDY5E.TokenUnlinked": "指示物未與角色鏈接",
+    "TIDY5E.Settings.DebugLabel": "調試",
+    "TIDY5E.Settings.UserLabel": "用戶",
+    "TIDY5E.Settings.NpcLabel": "NPC",
+    "TIDY5E.Settings.VehicleLabel": "載具",
+    "TIDY5E.Settings.SheetMenu": {
+        "label": "角色卡設置",
+        "title": "Tidy5e 角色卡設置"
+    },
+    "TIDY5E.Settings.TabPlayers": {
+        "tabLabel": "玩家",
+        "header": "PC 角色卡"
+    },
+    "TIDY5E.Settings.GlobalLabel": "全局",
+    "TIDY5E.Settings.TabNPCsVehicles": {
+        "tabLabel": "NPC/載具",
+        "header": "NPC/載具角色卡",
+        "labelNPCs": "NPC",
+        "labelVehicles": "載具"
+    },
+    "TIDY5E.Settings.TabGM": {
+        "tabLabel": "GM 選項",
+        "header": "GM 角色卡選項"
+    },
+    "TIDY5E.Settings.TabModules": {
+        "tabLabel": "模組",
+        "header": "模組選項",
+        "labelMidiQoL": "Midi Qol"
+    },
+    "TIDY5E.Settings.TabInfo": {
+        "tabLabel": "信息",
+        "header": "信息"
+    },
+    "TIDY5E.Settings.ItemCardsForAllItems": {
+        "name": "在所有布局中均顯示物品信息卡片。",
+        "hint": "如果您只想在圖標布局中查看側滑的物品信息卡片，請禁用該項。"
+    },
+    "TIDY5E.Settings.ItemCardsForNpcs": {
+        "name": "顯示 NPC/載具的物品信息卡片。",
+        "hint": "如果您不想在 NPC/載具中查看側滑的物品信息卡片，請禁用該項。"
+    },
+    "TIDY5E.Settings.ItemCardsAreFloating": {
+        "name": "物品信息卡片浮現在光標旁。",
+        "hint": "啟用后，物品信息卡片將與角色卡分離，并浮現在光標旁。該功能最好與卡片延遲一起使用。角色卡彈出的時候同樣有效。"
+    },
+    "TIDY5E.Settings.ItemCardsDelay": {
+        "name": "延遲顯示信息卡片。",
+        "hint": "物品卡片會在光標懸停超過一定的毫秒數之后顯示（0 = 無延遲，默認延遲為 300）。"
+    },
+    "TIDY5E.Settings.ItemCardsFixKey": {
+        "name": "與物品卡片交互時按住的鍵。",
+        "hint": "輸入一個用于物品卡片交互的鍵位，如：x。除了功能鍵（ctrl、alt等）之外的任何鍵均可"
+    },
+    "TIDY5E.Settings.SheetTheme": {
+        "name": "Tidy5e 色彩主題。",
+        "default": "默認（淺色）",
+        "dark": "可選（深色）",
+        "hint": "使用默認的淺色主題或可選的深色主題。"
+    },
+    "TIDY5E.Settings.RollButtonsToCard": {
+        "name": "在物品信息卡片上顯示 midiQol 物品按鈕",
+        "hint": "默認情況下擲骰按鈕會出現在物品描述中，啟用該項后會將其移動到物品信息卡片上。該功能在所有布局模式均有效。"
+    },
+    "TIDY5E.Settings.TraitLabels": {
+        "name": "顯示特質標簽。",
+        "hint": "禁用后，PC/NPC 特質僅會顯示圖標。"
+    },
+    "TIDY5E.Settings.ClassicControls": {
+        "name": "列表視圖時使用舊版物品控制欄。",
+        "hint": "總是顯示物品右側的控制欄，禁用右鍵菜單。僅對列表布局下的 PC 物品/法術列表有效。"
+    },
+    "TIDY5E.Settings.PlayerName": {
+        "hint": "啟用后，角色名稱下會顯示用于填寫玩家名稱的區域。",
+        "name": "顯示玩家名稱。"
+    },
+    "TIDY5E.Settings.JournalTab": {
+        "name": "隱藏角色日志。",
+        "hint": "啟用后會隱藏日志欄。"
+    },
+    "TIDY5E.Settings.ClassList": {
+        "name": "隱藏角色職業列表。",
+        "hint": "啟用后會隱藏角色名稱下的職業列表。"
+    },
+    "TIDY5E.Settings.InspirationAnimation": {
+        "name": "靜態激勵追蹤器。",
+        "hint": "啟用后會關閉激勵追蹤器的發光動畫。"
+    },
+    "TIDY5E.Settings.HideIfZero": {
+        "name": "隱藏為 0 的力竭和激勵追蹤器。",
+        "hint": "啟用后，若力竭等級和激勵為 0 則將其隱藏，僅會在鼠標懸停時顯示。"
+    },
+    "TIDY5E.Settings.InspirationOnHover": {
+        "name": "僅在鼠標懸停時顯示激勵指示器。",
+        "hint": "啟用后，只有鼠標懸停在角色肖像上時才顯示激勵指示器。"
+    },
+    "TIDY5E.Settings.ExhaustionOnHover": {
+        "name": "僅在鼠標懸停時顯示力竭追蹤器。",
+        "hint": "啟用后，只有鼠標懸停在角色肖像上時才顯示力竭追蹤器。"
+    },
+    "TIDY5E.Settings.HpBar": {
+        "hint": "啟用后，指示剩余生命值的彩色條會隱藏（生命值數字仍會變化）。",
+        "name": "禁用生命值條。"
+    },
+    "TIDY5E.Settings.HpOverlay": {
+        "name": "隱藏生命值覆蓋圖。",
+        "hint": "啟用后會隱藏角色圖像上的 HP 覆蓋物。"
+    },
+    "TIDY5E.Settings.TraitsTogglePc": {
+        "name": "切換空白角色特質。",
+        "hint": "默認情況下空白特質總是可見，啟用后會添加一個切換按鈕。"
+    },
+    "TIDY5E.Settings.TraitsMovedBelowResource": {
+        "name": "將特質移動到資源下方。",
+        "hint": "啟用后會將特質從左側移動到資源下方。"
+    },
+    "TIDY5E.Settings.AmmoEquippedOnly": {
+        "name": "僅顯示已裝備的彈藥。",
+        "hint": "啟用后，武器彈藥選項框中僅顯示當前裝備的彈藥。"
+    },
+    "TIDY5E.Settings.TraitsAlwaysShown": {
+        "name": "總是顯示特質。",
+        "hint": "默認情況下，空白特質可以通過切換按鈕隱藏，啟用該項后則總是顯示。"
+    },
+    "TIDY5E.Settings.SkillsAlwaysShown": {
+        "name": "總是顯示技能。",
+        "hint": "默認情況下，不熟練技能可以通過切換按鈕隱藏，啟用該項后則總是顯示。"
+    },
+    "TIDY5E.Settings.ActiveEffectsMarker": {
+        "name": "在物品上顯示主動效果標志。",
+        "hint": "如果你想知道是否物品擁有主動效果，那就啟用該項（僅適用于列表視圖）。"
+    },
+    "TIDY5E.Settings.RightClick": {
+        "hint": "出于模組沖突或個人偏好，你可以禁用右鍵菜單。物品會顯示一個菜單圖標作為替代。",
+        "name": "禁用右鍵菜單。"
+    },
+    "TIDY5E.Settings.ExpandedSheet": {
+        "name": "擴大角色卡權限為“限制”的瀏覽內容。",
+        "hint": "向有“限制”權限的玩家顯示除日志外的角色卡全部內容。"
+    },
+    "TIDY5E.Settings.PortraitStyle": {
+        "name": "圓形肖像。",
+        "hint": "選擇使用圓形肖像/圖標的角色。",
+        "all": "所有角色",
+        "pc": "PC",
+        "npc": "NPC/載具",
+        "none": "無",
+        "default": "無"
+    },
+    "TIDY5E.Settings.vehicleSheetWidth": {
+        "name": "默認載具角色卡寬度。",
+        "hint": "載具角色卡的寬度，單位是像素，需要刷新才能生效（默認 740）。"
+    },
+    "TIDY5E.Settings.PcLabel": "PC",
+    "TIDY5E.Settings.CustomExhaustionIcon": {
+        "hint": "在下方輸入您自定義的力竭效果圖像地址，如“modules/tidy5e-sheet/images/exhaustion.svg”。僅當力竭效果是“tidy 5e”模式時有效。",
+        "name": "自定義力竭效果圖標。"
+    },
+    "TIDY5E.Settings.LinkMarker": {
+        "hint": "在已鏈接/未鏈接的 NPC 角色卡上添加鏈接圖標，在周圍添加彩邊。",
+        "name": "標記已鏈接/未鏈接的 NPC。",
+        "default": "無鏈接標記（默認）",
+        "unlinked": "只應用于未鏈接的指示物",
+        "linked": "只應用于已鏈接的指示物",
+        "both": "應用于已鏈接的和未鏈接的指示物"
+    },
+    "TIDY5E.Settings.EditGmAlways": {
+        "name": "GM 總可以編輯 PC 角色卡。",
+        "hint": "啟用后，GM 無需解鎖 PC 角色卡就能進行編輯。"
+    },
+    "TIDY5E.Settings.EditEffectsGmOnly": {
+        "name": "僅允許 GM 編輯主動效果。",
+        "hint": "啟用后禁止玩家編輯他們角色卡上的主動效果，但是他們仍能看到已應用的效果。"
+    },
+    "TIDY5E.Settings.QuantityAlwaysShown": {
+        "name": "總是顯示物品數量。",
+        "hint": "啟用后不會隱藏物品數量。"
+    },
+    "TIDY5E.Settings.InspirationDisabled": {
+        "name": "禁用激勵追蹤器。",
+        "hint": "如果您的戰役不使用激勵，您可以完全禁用激勵追蹤器。"
+    },
+    "TIDY5E.Settings.ExhaustionEffects": {
+        "default": "不使用自動力竭效果",
+        "tidy5e": "Tidy5e - 應用整合的效果（使用 FVTT 主動效果）",
+        "name": "自動力竭效果。",
+        "hint": "選擇如何根據等級應用力竭效果（擲骰劣勢需要安裝 midiQol 模組）",
+        "custom": "自定義- 使用您選擇的效果（需要 CUB 模組）"
+    },
+    "TIDY5E.Settings.CustomExhaustionEffect": {
+        "name": "自定義 CUB 力竭效果名稱。",
+        "hint": "設置您自定義力竭效果的名稱 ——必須跟 CUB 中定義的名稱相同，但是不包含等級數字，如“ Exhaustion”。",
+        "tiers": "自定義 CUB 力竭等級的數字，默認為 5。",
+        "warning": "找不到需要應用力竭效果的角色指示物！"
+    },
+    "TIDY5E.Settings.ExhaustionDisabled": {
+        "name": "禁用力竭追蹤器。",
+        "hint": "如果您的戰役不使用力竭，您可以完全禁用力竭追蹤器。"
+    },
+    "TIDY5E.Settings.RestingForNpcs": {
+        "name": "NPC 休息。",
+        "hint": "啟用后會在 NPC 角色卡上顯示休息圖標/按鈕。"
+    },
+    "TIDY5E.Settings.RestingForNpcsChat": {
+        "name": "隱藏 NPC 休息的聊天信息。",
+        "hint": "啟用后會隱藏 NPC 休息的聊天信息（對 GM 與玩家均應用）。"
+    },
+    "TIDY5E.Settings.DefaultActionsTab": {
+        "name": "首次打開角色卡時的默認欄。",
+        "hint": "可以在“行動”和“基本屬性”之間選擇。",
+        "default": "行動",
+        "attributes": "基本屬性"
+    },
+    "TIDY5E.Settings.HiddenDeathSaves": {
+        "name": "對玩家隱藏死亡豁免。",
+        "hint": "啟用后，只有 GM 才能進行死亡豁免、查看死亡豁免結果"
+    },
+    "TIDY5E.Settings.npsSheetWidth": {
+        "name": "默認 NPC 角色卡寬度。",
+        "hint": "NPC 角色卡的寬度，單位是像素，需要刷新才能生效（默認 740）。"
+    },
+    "TIDY5E.Settings.playerSheetWidth": {
+        "name": "默認玩家角色卡寬度。",
+        "hint": "玩家角色卡的寬度，單位是像素，需要刷新才能生效（默認 740）。"
+    },
+    "TIDY5E.RestoreOnRest": "休息后回復",
+    "TIDY5E.Settings.HpOverlayBorder": {
+        "hint": "輸入角色肖像生命值覆蓋物向內偏移的數值，在偏移的部分不會給生命值覆蓋物著色。",
+        "name": "生命值覆蓋物偏移。"
+    },
+    "TIDY5E.ItemDetailsHeadline": "效果/描述"
+}

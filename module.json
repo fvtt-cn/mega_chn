@@ -1,15 +1,15 @@
 {
-  "name": "~~~mega_chn",
+  "name": "~~~mega_chn_zh_tw",
   "title": "Translation: 中文 [Mega]",
-  "description": "内置多个模组、系统的翻译合集，便于非 Git 用户参与到 Foundry VTT 的汉化工作之中。",
+  "description": "內置多個模組、系統的翻譯合集。項目mega_chn的正體中文化。",
   "minimumCoreVersion": "9.238",
   "compatibleCoreVersion": "9.999",
   "author": "FVTT-CN",
   "esmodules": [ "welcome.js" ],
   "languages": [{
-      "lang": "cn",
+      "lang": "zh-tw",
       "name": "中文",
-      "path": "cn.json"
+      "path": "zh-tw.json"
   }],
   "changelog": "Auto replaced",
   "version": "Auto replaced",

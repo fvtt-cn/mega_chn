@@ -1,4 +1,4 @@
-const MODULE_NAME = "~~~mega_chn";
+const MODULE_NAME = "~~~mega_chn_zh_tw";
 const WELCOMED_NAME = "welcomed";
 const LISTVER_NAME = "listver";
 
@@ -42,18 +42,19 @@ Hooks.on("ready", () => {
         }
 
         let content = `
-            <h2>欢迎使用 FVTT 中文翻译 Mega 整合包！</h2>
-            <p>Mega 包内置了多个系统和数十个不同模组的海量翻译，适合各类 GM 和玩家使用。</p>
-            <h3>此翻译包的诞生离不开所有译者的支持，特别鸣谢！</h3>
+            <h2>歡迎使用 FVTT 正體中文翻譯 Mega 整合包！</h2>
+            <p>Mega 包內置了多個系統和數十個不同模組的海量翻譯，適合各類 GM 和玩家使用。</p>
+            <h3>此翻譯包來自FVTT_CN的項目。</h3>
+            <h3>此翻譯包的誕生離不開所有譯者的支持，特別鳴謝！</h3>
             <ul>
                 ${list}
             </ul>
-            <p><small>此外，感谢 <a href="https://weblate.org/">Weblate</a> 项目为此项目提供翻译流程规范化的软件支持！</small></p>
-            <p>如需参与 FVTT 翻译工作，或提议支持更多模组/系统，请联系 <a href="https://github.com/fvtt-cn/">FVTT-CN 组织</a>！</p>
+            <p><small>此外，感謝 <a href="https://weblate.org/">Weblate</a> 項目為此項目提供翻譯流程規范化的軟件支持！</small></p>
+            <p>如需參與 FVTT 翻譯工作，或提議支持更多模組/系統，請聯系 <a href="https://github.com/fvtt-cn/">FVTT-CN 組織</a>！</p>
         `;
 
         const welcomeDialog = new Dialog({
-            title: "已开启 MEGA_CHN 翻译整合包！",
+            title: "已開啟 MEGA_CHN_ZH_TW 翻譯整合包！",
             content: content,
             buttons: {
                 ok: {
@@ -62,7 +63,7 @@ Hooks.on("ready", () => {
                 },
                 check: {
                     icon: '<i class="fas fa-thumbs-up"></i>',
-                    label: "不再显示",
+                    label: "不再顯示",
                     callback: () => game.settings.set(MODULE_NAME, WELCOMED_NAME, true)
                 }
             }

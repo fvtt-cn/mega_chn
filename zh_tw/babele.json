@@ -1,0 +1,22 @@
+{
+    "BABELE.CompendiumTranslations": "翻譯",
+    "BABELE.TranslateActorHeadBtn": "翻譯",
+    "BABELE.TranslateActorBtn": "翻譯！",
+    "BABELE.TranslateActorTitle": "翻譯角色",
+    "BABELE.ExportTranslationBtn": "導出！",
+    "BABELE.ExportTranslationTitle": "導出翻譯文件",
+    "BABELE.ExportTranslationNotes": "選擇導出的翻譯文件使用的格式。“傳統”為原始格式，“兼容”適合通過其他本地化平臺（如 Weblate、Transifex 等）進行翻譯控制",
+    "BABELE.ExportTranslationFormat": "格式",
+    "BABELE.ExportTranslationFormatLegacy": "傳統",
+    "BABELE.ExportTranslationFormatCompatible": "兼容",
+    "BABELE.TranslationDirTitle": "翻譯文件目錄",
+    "BABELE.TranslationDirHint": "輸入合集包本地化翻譯文件的目錄位置",
+    "BABELE.EnableTranslationExportTile": "啟用導出翻譯",
+    "BABELE.EnableTranslationExportHint": "啟用后會在每個合集包上添加一個按鈕，用于導出翻譯的初始模版文件",
+    "BABELE.ShowOriginalName": "顯示原本名稱",
+    "BABELE.requireLibWrapperMessage": "Babele 依賴于 “libWrapper”模組。請安裝并激活 libWrapper。",
+    "BABELE.ShowOriginalNameHint": "合集包物品不僅顯示翻譯后的名稱，而且顯示未翻譯的名稱，從而讓玩家可以在搜索工具中使用兩者進行搜索篩選。",
+    "BABELE.TranslateActorHint": "自動翻譯有翻譯的角色物品",
+    "BABELE.ShowTranslateOption": "顯示翻譯按鈕",
+    "BABELE.ShowTranslateOptionHint": "在角色卡上顯示翻譯按鈕。"
+}

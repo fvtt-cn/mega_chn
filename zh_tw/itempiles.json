@@ -1,0 +1,319 @@
+{
+    "ITEM-PILES": {
+        "Items": "物品",
+        "Currencies": "貨幣",
+        "Currency": "貨幣",
+        "ContextMenu": {
+            "ShowToPlayers": "Item Piles：顯示給玩家",
+            "RequestTrade": "Item Piles: 請求交易"
+        },
+        "Inspect": {
+            "Title": "檢查交易內容",
+            "AsActor": "你正作為<a class='item-piles-change-actor item-piles-highlight'>{actorName}</a>查看該物品堆",
+            "Owner": "作為此物品堆的擁有者, 你可以編輯其內容.",
+            "TakeAll": "拿走所有物品",
+            "Take": "拿走",
+            "Close": "關上",
+            "Leave": "離開",
+            "NoShareLeft": "沒有剩余數量。。",
+            "NoneLeft": "沒有剩余。。",
+            "OpenSheet": "打開角色卡",
+            "AddCurrency": "放入貨幣",
+            "SplitAll": "在 {num_players} 人中平分所有",
+            "SplitItems": "在 {num_players} 人中平分物品",
+            "SplitCurrencies": "在 {num_players} 人中平分貨幣",
+            "Empty": "該物品堆是空的.",
+            "Destroyed": "這里面已經沒有寶物了."
+        },
+        "Trade": {
+            "Title": "Item Piles: 交易",
+            "AutoDecline": "你對交易的請求超時未響應,已自動拒絕.",
+            "Private": "私下交易",
+            "Declined": "對方拒絕了交易.",
+            "PrivateExplanation": "交易不顯示在聊天中，也無人能觀看",
+            "Over": "該交易長時間未活躍.",
+            "Request": {
+                "PickToken": "使用選中的指示物",
+                "Label": "發送交易請求",
+                "PickActor": "選擇你此次用于交易的角色:",
+                "PickedActor": "你此次用于交易的角色:",
+                "DropActor": "拖放角色至此",
+                "Title": "Item Piles: 發送交易請求",
+                "User": "選擇你的想要交易的目標:"
+            },
+            "NoActiveUsers": {
+                "Title": "Item Piles: 沒有活躍用戶",
+                "Content": "沒有其他活躍玩家，因此你無法交易."
+            },
+            "Prompt": {
+                "Title": "Item Piles：交易請求",
+                "Content": "{trading_actor_name} (user {trading_user_name}) 想要與你交易.",
+                "PrivateContent": "{trading_actor_name} (user {trading_user_name}) 想要與你 <strong>私下</strong> 交易.",
+                "AcceptQuery": "是否接受?"
+            },
+            "OngoingRequest": {
+                "Content": "等待{user_name}回復...",
+                "Label": "取消交易請求"
+            },
+            "AddCurrency": {
+                "Title": "放入貨幣",
+                "Content": "在與{trader_actor_name}的交易中放入貨幣",
+                "Label": "更新貨幣"
+            },
+            "GMAddCurrency": "放入貨幣 (GM)",
+            "Closed": {
+                "Title": "交易關閉",
+                "Them": "用戶 \"{user_name}\" c關閉了交易窗口，因此交易取消了.",
+                "Someone": "其中一個用戶關閉了交易窗口，因此交易取消了.",
+                "You": "你關閉了交易窗口，因此交易取消了."
+            },
+            "Disconnected": "其中一個用戶斷開了連接，因此交易取消了.",
+            "UserActiveCharacterWarning": "你選擇了角色 \"{actor_name}\" 作為你的交易角色，但他是\"{player_name}\"正在<strong>使用</strong>的角色, 你確定嗎?",
+            "ActorOwnerWarning": "你不擁有這個角色，因此你不能使用他交易.",
+            "Accept": "接受",
+            "Decline": "拒絕",
+            "Mute": "不回應",
+            "Between": "{actor_1} 與 {actor_2}的交易",
+            "DragDrop": "拖放物品開始交易",
+            "CancelledRequest": {
+                "Content": "與{user_name}的交易請求取消."
+            },
+            "UserCharacterWarning": "你選擇了角色 \"{actor_name}\" 作為你的交易角色，但他是 \"{player_name}\"的指定角色.<br><br>你確定嗎？"
+        },
+        "Errors": {
+            "DisallowedItemDrop": "你無法丟下\"{type}\" 類物品",
+            "DisallowedItemTrade": "你無法交易\"{type}\" 類物品",
+            "NoSourceDrop": "只有GM能往物品欄中拖放物品.",
+            "PileTooFar": "你距離該物品堆太遠，因此無法與其交互.",
+            "PileLocked": "這個物品堆被鎖上了，你無法打開它或是放東西進去.",
+            "DropNoToken": "你在這個場景中沒有指示物，因此你無法扔下任何東西。"
+        },
+        "Dialogs": {
+            "DropTypeWarning": {
+                "Title": "物品類型警告",
+                "Content": "你正在丟下一個類型為(\"{type}\") 的物品，這個類型通常無法被丟下，你確定嗎？"
+            },
+            "ResetSettings": {
+                "Title": "重置Item Piles模組設置",
+                "Confirm": "重置模組設置",
+                "Content": "你確定要將Item Piles的所有模組設置都恢復默認嗎? <strong>此選擇不可逆！！</strong>"
+            },
+            "SystemFound": {
+                "Confirm": "使用默認設置",
+                "Title": "已識別系統",
+                "Content": "這個系統在過去不被支持，但在最近的更新中他也被添加為受支持的系統！是否加載此系統的默認物品堆設置？"
+            },
+            "ResetSharingData": {
+                "Title": "清除共享數據",
+                "Content": "這將重置從這個物品堆中已獲得自己那份的玩家的記錄。<br><br>你確定要這么做嗎？",
+                "Confirm": "重置設置"
+            },
+            "Cancel": "取消",
+            "LinkedActorWarning": {
+                "Title": "物品堆與已關聯角色",
+                "Content": "你確定將此<strong>已關聯角色</strong>轉化為物品堆嗎？該角色指示物已被關聯，因此該角色所有指示物的物品與貨幣將被共享."
+            },
+            "TradeTypeWarning": {
+                "Title": "物品類型警告",
+                "Content": "你正在丟下一個類型為(\"{type}\") 的物品，這個類型通常無法被丟下，你確定嗎？"
+            },
+            "NoSystemFound": {
+                "Title": "無法識別的系統",
+                "Content": "此系統目前并未獲得完整支持，這意味著模組不知道如何處理該系統的物品,但仍可在有限的條件下運行。<br><br>你可以自己配置模組設置，但他需要一些技術知識。<br><br>如果你有任何問題，請在Foundry discord上找<strong>Wasp#2005</strong>。"
+            }
+        },
+        "CurrenciesEditor": {
+            "Title": "貨幣編輯器",
+            "Explanation": "在這里你可以自定義能從物品堆中獲得的自定義貨幣。例如在dnd5e系統中，角色貨幣的屬性路徑為\"actor.data.data.currency.gp\"，所以你能添加名為“金幣”的自定義貨幣，其屬性路徑為\"data.currency.gp\"。",
+            "Name": "貨幣名稱",
+            "Path": "貨幣路徑",
+            "Icon": "貨幣圖像",
+            "AddNew": "添加新貨幣",
+            "Submit": "提交貨幣"
+        },
+        "FilterEditor": {
+            "Title": "物品過濾編輯器",
+            "Explanation": "此處可以定義多種篩選特定類型的過濾器，基于給定的屬性路徑，物品堆可以找到物品的\"類型\"，并基于過濾器將此類物品從物品堆UI中隱藏。",
+            "Filters": "過濾器",
+            "Path": "屬性路徑",
+            "AddNew": "添加新過濾器",
+            "Submit": "提交過濾條目"
+        },
+        "SimilaritiesEditor": {
+            "Path": "屬性路徑",
+            "Explanation_P2": "但在某些情況下，例如pf2系統中，臨時項目和永久項目可能共享名稱和類型。通過添加\"data.temporary.value\"，你的臨時項目會被標注成\"獨特的\".",
+            "AddNew": "添加新屬性路徑",
+            "Submit": "提交相似物品",
+            "Title": "相似物品編輯器",
+            "Explanation_P1": "在這里你可以定義多種類型項目的標識符，以幫助 Item Piles 區分相似的項目。在幾乎所有系統中，物品都可以名字和類型來進行區分."
+        },
+        "Defaults": {
+            "Main": {
+                "InspectItems": "啟用物品檢視",
+                "InspectItemsExplanation": "點擊物品名稱將打開其物品卡.",
+                "Distance": "交互距離",
+                "OverrideCurrencies": "覆蓋貨幣",
+                "OverrideCurrenciesExplanation": "配置此物品堆是否能轉移默認類型以外的其他貨幣。",
+                "ConfigureOverrideCurrencies": "配置覆蓋貨幣",
+                "OverrideItemFilters": "覆蓋物品過濾器",
+                "OverrideItemFiltersExplanation": "配置此物品堆是否能轉移默認類型以外的其他類型.",
+                "Title": "主要設置",
+                "EnabledPile": "啟用",
+                "EnabledPileExplanation": "是否為物品堆.",
+                "GridUnits": "格子單位 (留空為無限)",
+                "Macro": "交互宏",
+                "MacroExplanation": "與此物品堆交互時執行的宏命令名稱.",
+                "MacroPlaceholder": "插入宏名稱",
+                "DeleteWhenEmpty": "搬空后刪除",
+                "DeleteWhenEmptyExplanation": "這個物品堆被搬空后自動刪除.",
+                "DeleteWhenEmptyDefault": "默認模組設置",
+                "DeleteWhenEmptyYes": "是，搬空后自動刪除",
+                "DeleteWhenEmptyNo": "否，搬空后不要刪除",
+                "ConfigureOverrideItemFilters": "配置物品過濾器"
+            },
+            "SingleItem": {
+                "Title": "單物品設置",
+                "DisplayOneContainerWarning": "警告！你同時啟動了\"顯示單物品圖像\" 和 \"為容器\" 在這種情況下，容器圖像優先度更高。",
+                "DisplayOne": "顯示單物品圖像",
+                "Scale": "單物品指示物大小",
+                "ItemName": "使用物品名稱",
+                "OverrideScale": "覆蓋單物品指示物大小",
+                "ItemNameExplanation": "物品堆變為其包含的那一個物品的名稱.",
+                "DisplayOneExplanation": "如果物品堆中只有一個物品，則會將該物品堆的指示物圖像設置為與該物品一致。"
+            },
+            "Container": {
+                "Title": "容器設置",
+                "ClosedImagePath": "關閉圖像路徑",
+                "EmptyImagePath": "空白圖像路徑",
+                "OpenedImagePath": "開啟圖像路徑",
+                "LockedImagePath": "上鎖圖像路徑",
+                "CloseSoundPath": "關閉聲音路徑",
+                "OpenSoundPath": "開啟聲音路徑",
+                "LockedSoundPath": "上鎖聲音路徑",
+                "IsContainer": "為容器",
+                "Locked": "鎖定",
+                "Closed": "關閉"
+            },
+            "Sharing": {
+                "Title": "均分設置",
+                "ShareItemsEnabled": "啟用均分: 物品",
+                "ShareCurrenciesEnabled": "啟用均分: 貨幣",
+                "TakeAllEnabled": "啟用拿走全部按鈕",
+                "TakeAllEnabledExplanation": "搜刮此物品堆時啟用 \"拿走全部\" 按鈕。啟用此選項要求禁用上述兩個均分設置。",
+                "SplitAllEnabled": "啟用按玩家均分按鈕",
+                "SplitAllEnabledExplanation": "開啟 \"在 [number] 人中均分\" 按鈕，按下此按鈕后，所有玩家（或只有在線玩家，見下文）都可以獲得屬于自己的那一份道具。",
+                "InactivePlayers": "僅在在線玩家間均分",
+                "InactivePlayersExplanation": "只有在線玩家會在搜刮物品堆時得到屬于他們的那一份戰利品。",
+                "ResetSharingData": "重置均分數據",
+                "ResetSharingDataExplanation": "如果物品堆內容在被搜刮時被手動更改，那么均分數據可能與玩家實際獲得的不同步。使用此按鈕重置此物品堆分配給每個人的份額。",
+                "ShareItemsEnabledExplanation": "啟用此選項后，玩家只能獲得屬于自己那一份的物品。而關閉此選項意味著他們想拿多少拿多少。",
+                "ShareCurrenciesEnabledExplanation": "啟用此選項后，玩家只能獲得屬于自己那一份的貨幣。而關閉此選項意味著他們想拿多少拿多少。"
+            },
+            "Title": "物品堆設置",
+            "Configure": "物品堆",
+            "Update": "更新物品堆",
+            "Other": {
+                "Title": "其他設置"
+            }
+        },
+        "HUD": {
+            "ToggleLocked": "切換鎖定",
+            "ToggleClosed": "切換開關",
+            "Configure": "設置物品堆"
+        },
+        "DropItem": {
+            "Title": "放入物品",
+            "Dropping": "你正在放入物品",
+            "ExistingPiles": "你正在將這個物品放入 \"{item_pile_name}\".",
+            "QuantityToDrop": "你擁有 {quantity} 個此物品, 你想放入多少?",
+            "AddToPile": "放入",
+            "NewPile": "創建新物品堆",
+            "Cancel": "取消"
+        },
+        "DropCurrencies": {
+            "Title": "放入貨幣",
+            "Player": "你能夠將貨幣存入此物品堆中:",
+            "NoCurrency": "{actor_name} 沒有有效貨幣...",
+            "Cancel": "取消",
+            "AddToPile": "放入至物品堆",
+            "GM": "作為GM，你能夠往這個物品堆中添加貨幣:"
+        },
+        "Chat": {
+            "Pickup": "{name} 挑選了以下物品:",
+            "TradeSpectate": "觀看交易",
+            "PrivateTrade": "私下交易",
+            "ExpandTrade": "查看完整交易詳情",
+            "TradeStarted": "{party_1} 和 {party_2} 開始了交易.",
+            "TradeStartedButton": "點擊下面的按鈕觀看交易:",
+            "SpectateDisabled": "交易完成",
+            "Split": "一個物品堆的內容平分給了{num_players}個玩家, 每個人都收到了:",
+            "TradeComplete": "{party_1} 和 {party_2} 完成了一次交易."
+        },
+        "Setting": {
+            "Quantity": {
+                "Title": "物品數量屬性",
+                "Label": "在這里你可以設置每個物品數量的屬性路徑。 例如，在dnd5e系統中，物品的數量參數為 \"item.data.data.quantity\"，所以你應當在設置中填入 \"data.quantity\"."
+            },
+            "ActorClass": {
+                "Title": "角色類型",
+                "Label": "此設置定義了用作初次放置物品時創建的默認物品堆角色類型。在dnd5e系統中，它是 \"角色\", 因為它沒有專門的戰利品角色類型."
+            },
+            "Currencies": {
+                "Title": "貨幣",
+                "Label": "貨幣設置",
+                "Hint": "此設置定義了可以撿起的貨幣，它們可能并不是真的物品，而是人物卡上的一串數字輸入。"
+            },
+            "ItemFilters": {
+                "Title": "物品過濾器",
+                "Label": "設置物品過濾器",
+                "Hint": "在這里，你可以設置在物品堆對話中忽略不列出的物品。"
+            },
+            "ItemSimilarities": {
+                "Title": "相似物品",
+                "Label": "設置相似物品",
+                "Hint": "在這里你可以設置在這個系統中如何檢測相似物品。某些系統會具有將物品和其他類型區分開來的數據，例如臨時物品。"
+            },
+            "ShowTradeButton": {
+                "Hint": "在左下角的玩家列表下方顯示一個交易按鈕.",
+                "Title": "顯示交易按鈕"
+            },
+            "OutputToChat": {
+                "Title": "輸出至聊天",
+                "Label": "當任何玩家在物品堆中撿起物品時，這會發送一條信息顯示被撿起的物品。",
+                "Off": "關 - 關閉消息",
+                "Public": "公開 - 所有人都能看到消息",
+                "SelfGM": "僅自身和GM - 只有GM和用戶自己能看到消息",
+                "Blind": "僅GM - 只有GM能看到消息"
+            },
+            "InvertSheetOpen": {
+                "Title": "反轉Ctrl+雙擊打開",
+                "Label": "通常，要打開物品堆的角色卡，你需要按住Ctrl點擊。啟用該項將默認打開物品堆角色卡，而按住Ctrl點擊會打開物品堆UI。"
+            },
+            "HideActorHeaderText": {
+                "Title": "隱藏角色標題欄文本",
+                "Label": "隱藏人物卡標題欄上的 \"物品堆\" 文本-如果你裝了很多模組讓標題欄變得擁擠，這會很有用。"
+            },
+            "DeleteEmptyPiles": {
+                "Title": "自動刪除空白物品堆",
+                "Label": "啟用此選項將在物品堆被搬空后自動刪除。此選項也可以在物品堆上單獨設置覆蓋。"
+            },
+            "Debug": {
+                "Title": "啟用調試模式",
+                "Label": "將調試模式信息輸出到控制臺"
+            },
+            "PreloadFiles": {
+                "Title": "預加載文件",
+                "Label": "預加載物品堆文件（音頻和圖片），來實現無縫體驗。"
+            },
+            "Reset": {
+                "Title": "重置設置為默認",
+                "Label": "重置Item Piles的設置為默認",
+                "Hint": "這將重置所有Item Piles設置為此游戲系統的默認設置。"
+            },
+            "EnableTrading": {
+                "Title": "啟用交易",
+                "Hint": "此項啟用交易——當此選項禁用時，沒有人能夠發起交易。"
+            }
+        }
+    }
+}

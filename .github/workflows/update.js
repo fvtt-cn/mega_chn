@@ -36,6 +36,6 @@ for (let project of projects) {
     download(project.src, `./english/${project.name}.${ext}`, () => {});
     
     // Add empty Chinese translation if not exists.
-    if (!fs.existsSync(`./chinese/${project.name}.${ext}`))
-        fs.writeFileSync(`./chinese/${project.name}.${ext}`, '{}');
+    if (!fs.existsSync(`./zh_tw/${project.name}.${ext}`))
+        fs.writeFileSync(`./zh_tw/${project.name}.${ext}`, '{}');
 }
