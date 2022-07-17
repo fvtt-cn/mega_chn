@@ -1622,6 +1622,11 @@
   "D35E.MigrationText": "System needs to migrate to newer version. This process is generally safe but in certain edge cases my break items and characters.",
   "D35E.MigrationLogOut": "Log Out",
   "D35E.MigrationTextUser": "System needs to migrate to newer version. This process can be done only by a GM. You cannot use the system unless the GM migrates the world!",
+  "D35E.Cursed": "Cursed",
+  "D35E.CurseActive": "Curse Active",
+  "D35E.CurseIdentified": "Curse Identified",
+  "D35E.IdentifiedInformation": "This item is unidentified.",
+  "D35E.CursedInformation": "This item is cursed.",
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
   "SETTINGS.D35EShowPartyHudTokenL": "Toggles if images displayed in party hud should be token images or portrait images.",
