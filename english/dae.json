@@ -244,6 +244,7 @@
     "dae.isSaveDetail": "saving throw",
     "dae.isCheckDetail": "ability check",
     "dae.isSkillDetail": "skill check",
+    "dae.isInitiativeDetail": "initiative",
     "dae.1Action": "1 Action: Expires on the next action (item roll) of the character",
     "dae.1Attack": "1 Attack: Expires on the next {type} by the character",
     "dae.1Spell": "1 Spell: Expires on the next spell cast (ANY spell) by the character",
