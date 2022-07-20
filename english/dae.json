@@ -201,7 +201,7 @@
     "dae.removingEffects": "Removing effects",
     "dae.tokenMagic": "TokenMagic",
     "dae.transfer.Name": "Transfer to actor on item equip",
-    "dae.transfer.Hint": "Enabled means the effect is applied to the <strong>owner of the item</strong> when the item is equppied. Disable if you want the effect to apply to a <strong>target</strong> when the item is used",
+    "dae.transfer.Hint": "Enabled means the effect is applied to the owner of the item when the item is equppied. Disable if you want the effect to apply to a target when the item is used",
     "dae.effectName": "Effect Name",
     "dae.readOnly": "READ ONLY EFFECT",
     "dae.legact": "Legendary Actions",
@@ -344,5 +344,7 @@
     "dae.lightAlpha": "Light ALpha",
     "dae.lightAngle": "Light Angle",
     "dae.DAEUntestedSystems.Name": "Load DAE for untested game systems",
-    "dae.DAEUntestedSystems.Hint": "If checked DAE will load for any system not marked compatible. If unchecked DAE will only load for systems marked compatible. Requires reload"
+    "dae.DAEUntestedSystems.Hint": "If checked DAE will load for any system not marked compatible. If unchecked DAE will only load for systems marked compatible. Requires reload",
+    "dae.SelfTarget.Name": "Apply to self when item rolled",
+    "dae.SelfTarget.Hint": "Effect is applied to the user of the item, not the targets"
   }
