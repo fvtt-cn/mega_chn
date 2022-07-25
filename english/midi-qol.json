@@ -26,7 +26,7 @@
     "midi-qol.AutoApplyDamage.Hint": "Auto apply damage to hit targets (if autocheck hits on) or targets user has selected",
     "midi-qol.PlayerDamageCard.Name": "Show a players' damage card",
     "midi-qol.PlayerDamageCard.Hint": "A simpler version of the damage card. Only displayed if the GM card is displayed. Card is not shown to the GM",
-    "midi-qol.PlayerCardDamageDifferent.Name": "Display the plauer damage card if the rolled damage does not match the applied damage for some target",
+    "midi-qol.PlayerCardDamageDifferent.Name": "Display the player damage card if the rolled damage does not match the applied damage for some target",
     "midi-qol.ItemRollButtons.Name": "Add attack/damage buttons to item inventory list",
     "midi-qol.ItemRollButtons.Hint": "Add Roll Buttons to item description - these buttons support ctl/alt/shift to skip the dialog",
     "midi-qol.AddChatDamageButtons.Name": "Add damage buttons to chat message",
