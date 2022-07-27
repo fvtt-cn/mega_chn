@@ -1633,6 +1633,7 @@
   "PF1.PointBlankShot": "Point-Blank Shot",
   "PF1.UsesAmmo": "Uses Ammunition",
   "PF1.Ammunition": "Ammunition",
+  "PF1.AmmunitionSubtype": "Ammunition Subtype",
   "PF1.AmmunitionAbbr": "Ammo",
   "PF1.AmmoRemaining": "Ammunition Remaining: {0}",
   "PF1.AmmoDepleted": "Out of Ammunition!",
