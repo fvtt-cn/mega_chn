@@ -408,7 +408,7 @@
         "TypeConsumable": "Consumable",
         "TypeLoot": "Loot",
         "TypeClass": "Class, Racial HD, Mythic Path, etc.",
-        "TypeSpell": "Spell",
+        "TypeSpell": "法术",
         "TypeFeat": "Feat, Class Feature, Talent, etc.",
         "TypeBuff": "Buff",
         "TypeAttack": "Attack",
