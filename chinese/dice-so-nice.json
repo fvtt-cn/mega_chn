@@ -229,5 +229,14 @@
     "DICESONICE.ColorPrism": "棱柱",
     "DICESONICE.MaterialPristine": "质朴",
     "DICESONICE.MaterialIridescent": "彩虹色",
-    "DICESONICE.MaterialStone": "石头"
+    "DICESONICE.MaterialStone": "石头",
+    "DICESONICE.ColorRed": "红",
+    "DICESONICE.ColorBlue": "蓝",
+    "DICESONICE.ColorGreen": "绿",
+    "DICESONICE.ColorYellow": "黄",
+    "DICESONICE.ColorPink": "粉",
+    "DICESONICE.ColorGrey": "灰",
+    "DICESONICE.ColorCyan": "青",
+    "DICESONICE.TourMainContentEndTour": "如果你想获得更多信息，在模组管理窗口查看我们的帮助页面。骰得开心！",
+    "DICESONICE.TourMainTitleEndTour": "展示结束"
 }
