@@ -1630,6 +1630,11 @@
   "D35E.CurseIdentified": "Curse Identified",
   "D35E.IdentifiedInformation": "This item is unidentified.",
   "D35E.CursedInformation": "This item is cursed.",
+  "D35E.CombatBuffsExpiringNextRound": "Buffs Progressing Next",
+  "D35E.CombatCombatants": "Combatants",
+  "D35E.AttackOfOpportunity": "Attack of Opportunity",
+  "D35E.MoveAction": "Move Action",
+  "D35E.SwiftAction": "Swift Action",
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
   "SETTINGS.D35EShowPartyHudTokenL": "Toggles if images displayed in party hud should be token images or portrait images.",
