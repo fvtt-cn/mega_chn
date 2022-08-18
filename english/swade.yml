@@ -630,6 +630,7 @@ SWADE:
   Consumable:
     Use: Use
     Consumables: Consumables
+  EmptyRacialAbilitiesHint: This {race} or {archetype} doesn't have any abilities yet. Drag&Drop something onto the sheet to get started.
 ACTOR:
   TypeCharacter: Player Character
   TypeNpc: NPC
