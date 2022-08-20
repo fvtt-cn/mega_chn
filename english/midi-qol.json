@@ -139,13 +139,14 @@
     "midi-qol.CriticalDamage.Name": "Choose how to roll critical damage",
     "midi-qol.CriticalDamage.Hint": "requires foundry 0.7.0 or later. DND5e Default - standard dnd5e critical roll, base max only - base weapon dice only (no critical dice) but all maximised, max critical dice - critical dice maximised, max all dice - weapon + critical dice maximised, double dice value - result of dice x2",
     "midi-qol.CriticalDamageChoices": {
-        "default": "DND5e Settings Only",
-        "maxDamage": "Max Normal Damage",
-        "maxCrit": "Max Critical Dice",
-        "maxAll": "Max All Dice",
-        "doubleDice": "Double Rolled Damage",
-        "explode": "Explode critical dice",
-        "baseDamage": "No Bonus"
+      "default": "DND5e Settings Only",
+      "maxDamage": "Max Normal Damage",
+      "maxCrit": "Max Critical Dice (flat number)",
+      "maxCritRoll": "Max Crititcal Dice (roll dice)",
+      "maxAll": "Max All Dice",
+      "doubleDice": "Double Rolled Damage",
+      "explode": "Explode critical dice",
+      "baseDamage": "No Bonus"
     },
     "midi-qol.MergeCard.Name": "Merge Rolls to one card",
     "midi-qol.MergeCard.Hint": "Merge Attack, Hits, Damage, Saves to a single chat card",
@@ -209,7 +210,8 @@
         "alwaysIgnoreDefeated": "Always - Ignore defeated",
         "wallsBlock": "Walls Block",
         "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated",
-        "dftemplates": "Use DF Template Enhancements"
+        "dftemplates": "Use DF Template Enhancements",
+        "dfwalledTemplates": "Use DF Walled Templates"
     },
     "midi-qol.autoCheckSavesOptions": {
         "none": "Off",
