@@ -194,7 +194,7 @@
     },
     {
         "name": "wfrp4e",
-        "src": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/lang/en.json"
+        "src": "https://github.com/moo-man/WFRP4e-FoundryVTT/raw/master/static/lang/en.json"
     },
     {
         "name": "cyberpunk-red-core",
