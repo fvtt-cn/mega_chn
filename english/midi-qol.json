@@ -648,5 +648,6 @@
     "midi-qol.IgnoreSpellReactionRestriction.Name": "Allow any reaction spell to be used",
     "midi-qol.IgnoreSpellReactionRestriction.Hint": "Do not require available spell slots or preparation when choosing reaction spells",
     "midi-qol.DamageVulnerabilityMultiplier.Name": "Vulnerability multiplies damage by",
-    "midi-qol.DamageResistanceMultiplier.Name": "Resistance reduces damage to "
+    "midi-qol.DamageResistanceMultiplier.Name": "Resistance reduces damage to ",
+    "midi-qol.MeasuredTemplate": "Template"
 }
