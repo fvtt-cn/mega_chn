@@ -198,5 +198,8 @@
     "MonksLittleDetails.hide-until-turn.name": "回合前隐藏",
     "MonksLittleDetails.large-print.name": "大尺寸",
     "MonksLittleDetails.large-print.hint": "将回合通知以大尺寸显示",
-    "MonksLittleDetails.hide-until-turn.hint": "在战斗追踪器中隐藏尚未到其回合的敌人"
+    "MonksLittleDetails.hide-until-turn.hint": "在战斗追踪器中隐藏尚未到其回合的敌人",
+    "MonksLittleDetails.window-css-changes.name": "更改窗口样式",
+    "MonksLittleDetails.window-css-changes.hint": "窗口的半透明背景有时会让内容难以看清。",
+    "MonksLittleDetails.bloodsplat-size.name": "血迹大小"
 }
