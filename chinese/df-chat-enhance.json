@@ -180,7 +180,13 @@
             "NoPlayerJournalSet": "你的账户没有绑定个人冒险日志。"
         },
         "PCCommandDescription": "向玩家日志提交一项活动",
-        "PLog_Header": "玩家日志"
+        "PLog_Header": "玩家日志",
+        "Log_Event_Bland": "<p><span>{0}</span>&nbsp;(<span>{1}</span>)&nbsp;<span>{2}</span></p>",
+        "Log_Event_Bland_NoAuth": "<p><span>（{0}）</span>&nbsp;<span>{2}</span></p>",
+        "Log_Quote_Bland": "<p><span>{0}</span>&nbsp;(<span>{1}</span>)&nbsp;<span>{2}说：</span>&nbsp;<span>“{3}”</span></p>",
+        "Log_Quote_NoAuth": "<p><code><span class=\"dfal-ts\">[{0}]</span></code>&nbsp;<span class=\"dfal-qu-src\">{2}说：</span>&nbsp;<span class=\"dfal-qu\">“{3}”</span></p>",
+        "Log_Quote_Bland_NoAuth": "<p><span>（{0}）</span>&nbsp;<span>{2}说：</span>&nbsp;<span>“{3}”</span></p>",
+        "Log_Event_NoAuth": "<p><code><span class=\"dfal-ts\">[{0}]</span></code>&nbsp;<span class=\"dfal-ev\">{2}</span></p>"
     },
     "DF_CHAT_PLAYER_COLOR": {
         "Label": "玩家聊天颜色",
