@@ -83,7 +83,7 @@
     "MonksTokenBar.change-to-combat.name": "在战斗时改变移动方式",
     "MonksTokenBar.change-to-combat.hint": "战斗开始时，将移动方式修改为战斗回合",
     "MonksTokenBar.assign-loot.name": "分配敌人战利品",
-    "MonksTokenBar.assign-loot.hint": "战斗结束时，将死亡的敌人变为可打开的战利品",
+    "MonksTokenBar.assign-loot.hint": "战斗结束时，将死亡的敌人变为可打开的战利品。此功能需要其他 mod",
     "MonksTokenBar.popout-tokenbar.name": "弹出指示物栏",
     "MonksTokenBar.popout-tokenbar.hint": "将指示物栏置于一个对话框窗口中以使用 PopOut! 模组。",
     "MonksTokenBar.delete-after-grab.name": "抓取后删除消息",
@@ -191,5 +191,7 @@
     "MonksTokenBar.gm-sound.name": "GM 掷骰声效",
     "MonksTokenBar.gm-sound.hint": "在 GM 隐藏请求掷骰时播放声效",
     "MonksTokenBar.resolution-size.name": "指示物分辨率",
-    "MonksTokenBar.resolution-size.hint": "设置指示物的分辨率，数字越大图片越清晰，但加载时间会变长。"
+    "MonksTokenBar.resolution-size.hint": "设置指示物的分辨率，数字越大图片越清晰，但加载时间会变长。",
+    "MonksTokenBar.allow-roll.hint": "允许玩家请求掷骰",
+    "MonksTokenBar.allow-roll.name": "允许玩家掷骰"
 }
