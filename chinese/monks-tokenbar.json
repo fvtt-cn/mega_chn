@@ -83,7 +83,7 @@
     "MonksTokenBar.change-to-combat.name": "在战斗时改变移动方式",
     "MonksTokenBar.change-to-combat.hint": "战斗开始时，将移动方式修改为战斗回合",
     "MonksTokenBar.assign-loot.name": "分配敌人战利品",
-    "MonksTokenBar.assign-loot.hint": "战斗结束时，将死亡的敌人变为可打开的战利品。此功能需要其他 mod",
+    "MonksTokenBar.assign-loot.hint": "战斗结束时，将死亡的敌人变为可打开的战利品。此功能需要其他模组",
     "MonksTokenBar.popout-tokenbar.name": "弹出指示物栏",
     "MonksTokenBar.popout-tokenbar.hint": "将指示物栏置于一个对话框窗口中以使用 PopOut! 模组。",
     "MonksTokenBar.delete-after-grab.name": "抓取后删除消息",
