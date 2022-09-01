@@ -685,8 +685,8 @@ SWADE:
   Incap: 无力化
   Init: 先攻
   DrawInit: 先攻抽牌
-  ActionDeckReset: 重设行动卡组
-  ActionDeckResetNotification: 行动卡组重设
+  ActionDeckReset: 重设行动牌组
+  ActionDeckResetNotification: 行动牌组重设
   InitDraw: 抽取……
   General: 通用
   Addi: 额外
@@ -802,7 +802,7 @@ SWADE:
   SubtractPPDesc: 从可用奇术点中减去奇术点费用
   AddPPDesc: 为可用奇术点增加奇术点费用
   RightClickZoom: 右键缩放
-  DeckShuffled: 卡组自动洗牌
+  DeckShuffled: 牌组自动洗牌
   BasePace: 基本移速
   WarningPackLocked: 无法编辑锁定的合集包，请先进行解锁
   ActionCardEditor: 行动卡编辑器
@@ -829,8 +829,8 @@ SWADE:
   ItemDmgMod: 物品伤害调整值
   Duplicates: 找到重复项
   DuplicateItemsBodyText: 在添加{type} <strong>{name}</strong>到演员{target}时，根据名字和类型发现以下重复项。新物品已经重命名以显示其来源。
-  NoActionDeckFound: 未找到行动卡组，正在生成
-  NoActionDeckDiscardPileFound: 未找到行动卡组弃牌堆，正在生成
+  NoActionDeckFound: 未找到行动牌组，生成中
+  NoActionDeckDiscardPileFound: 未找到行动牌组弃牌堆，生成中
   Wealth: 财富
   Characters: 角色
   SettingRules: 设定规则
@@ -868,18 +868,246 @@ SWADE:
   Snapfire: 猝射
   UnstablePlatform: 不稳平台
   CannotAddRaceToRace: 你不能将种族/范型添加到种族/范型之中！
-  LayOutChaseWithDeck: 使用卡组排出追逐
+  LayOutChaseWithDeck: 使用牌组排出追逐
   ClearChaseCards: 从场景中清楚追逐卡
   NoSceneAvailable: 没有可用场景，或是你停用了画布
   ChaseCardsCleared: 所有追逐卡已经从本场景中移除。
   SetUpChase: 布设追逐
-  NotADeckCompendium: 所选合集包似乎没有留存的卡组
-  ConvertToDeck: 转换成卡组
+  NotADeckCompendium: 所选合集包似乎没有留存的牌组
+  ConvertToDeck: 转换成牌组
   Expiration:
     TabLabel: 回合行动
     Description: <p>效果会在目标的 <em>下回合或之后</em>消散。</p>
+    Behavior: 终止行动
+    BeginAuto: 回合自动开始
+    EndAuto: 回合自动结束
+    BeginPrompt: 回合手动开始
+    EndPrompt: 回合手动结束
+    None: 无
+    LooseTurnOnHold: 失去待机回合
   NoCardsLeft: 牌组中没有足够的牌了！只有 {needed} 的 {current}需要的卡可用
   Max: 上限
   SysMigrationWarning: 你的SWADE系统数据来自于过旧的Foundry版本，无法可靠地整合至最新版中，尽管仍会尝试此过程，但可能会发生错误。
   ReloadUnneeded: 此武器已经装满弹药
   AltTrait: 动作特性
+  RemoveEffectTitle: 移除{label}？
+  RemoveEffectBody: '<p style="text-align: center;">从移除 <strong>{parent}</strong>中移除
+    <strong>{label}</strong> ？</p>'
+  PPAbbreviation: 奇术点
+  ShowInChat: 在聊天中显示
+  ExpandDescription: 展开以现实描述
+  Favorite: 收藏
+  Equip: 装备
+  RollDamage: 投骰伤害
+  SystemLinks:
+    Changelog: 变化记录
+    Wiki: Wiki
+    ReportAnIssue: 汇报问题
+  OpenOrigin: 打开源头
+  EffectsPermanent: 永久性效果
+  EffectsTemporary: 暂时性效果
+  Ranks:
+    Novice: 入门
+    Seasoned: 行家
+    Veteran: 老练
+    Heroic: 英杰
+    Legendary: 传奇
+  Advances:
+    EditorTitle: 升级编辑器
+    Toggle: 切换升级计划数值
+    Delete: 删除升级
+    Planned: 计划
+    Modes:
+      Legacy: 传奇
+      Expanded: 展开
+    Types:
+      Edge: 新专长
+      SingleSkill: 提升一项技能
+      TwoSkills: 提升两项技能
+      Attribute: 提升数值
+      Hindrance: 减少负赘
+    Number: 升级数
+  AddAdvance: 添加升级
+  Appearance: 外表
+  CharacterGoals: 目标
+  Background: 背景
+  ActiveEffects:
+    Source: 源头
+    Add: 添加激活效果
+    ResetDuration: 重设持续时间
+  Keybindings:
+    OpenFavoriteCards:
+      Name: 打开收藏手牌
+      UserConfigLabel: 收藏手牌
+      Hint: 你可在用户配置中设定收藏手牌
+      NoCardsWarning: 你没有收藏手牌组！
+    Bennies:
+      Name: 使用/得到1助力点
+      Hint: 点击使用1助力点，若是按住Alt点击此按钮则是获得1助力点
+  Settings:
+    HighlightTemplate:
+      Name: 总是高亮盖板
+      Hint: 启用时，测距盖板高亮(而不是方格)。
+    FantasyCompanionEntangle:
+      Name: 奇幻搭档纠缠
+      Hint: 使用奇幻搭档的纠缠数值(而不是核心版)，需要重启方可生效
+    InitDiscardPile:
+      Name: 先攻弃牌堆
+    ParryBase:
+      Name: 定制格斗技能名称
+      Hint: 此名字的技能会用于计算角色的格挡
+    UseAttributeShorts:
+      Name: 使用缩写属性名称
+      Hint: 倘若想在PC或是NPC卡中看到缩写属性名称则启用此选项。举例而言，灵巧变成“灵”，聪慧变成“聪”等等。此选项需要关闭和重新打开所有已打开的卡才会生效。
+    InitCardDeck:
+      Name: 用于先攻的牌组
+    WeightUnit:
+      Name: 重量单位
+      Hint: 设定重量是以磅或是公斤进行计算，改变此项不会改变物品的重量，只会改变负载的计算方式
+    HideNpcItemChatCards:
+      Name: 隐藏NPC物品聊天框
+      Hint: 启用时，NPC物品的聊天框会自动设成仅对所有游戏主持人公开，而不是全员公开
+    EnableBennyNotify:
+      Name: 助力点通知
+      Hint: 获取、赋予或刷新助力点时显示聊天信息。
+    HideWC:
+      Name: 隐藏NPC不羁角色
+      Hint: 不给玩家显示哪个NPC属于不羁角色
+    CreateInitChat:
+      Name: 生成先攻聊天信息
+    AutoInit:
+      Name: 自动先攻
+      Hint: 每轮自动抽行动卡
+    Benny3DFront:
+      Name: 字体纹理
+      Hint: 3D助力点的字体纹理
+    Benny3DBack:
+      Name: 背景纹理
+      Hint: 3D助力点的背景纹理
+    Benny3DBackBump:
+      Name: 后景凹凸贴图
+      Hint: 助力点后景凹凸贴图
+    Benny3DFrontBump:
+      Hint: 助力点前景凹凸贴图
+      Name: 前景凹凸贴图
+    CoreSkillsList:
+      Name: 核心技能列表
+      Hint: 输入技能名称，以逗号分隔，以此定义所有演员的核心技能
+    CoreSkillsPack:
+      Name: 核心技能合集包
+      Hint: 选择引入的核心技能合集包
+    WealthType:
+      Name: 财富类型
+      Hint: 选择计算财富和货币的方法
+    CurrencyName:
+      Name: 货币名称
+      Hint: 命名货币
+    JokersWild:
+      Name: 鬼牌不羁
+      Hint: 任一玩家角色抽到鬼牌时给全员发1助力点
+    AmmoManagement:
+      Name: 弹药管理
+      Hint: 启用时，适用的动作会减去武器弹匣里面的弹药。物品卡同时会出现新的装填按钮，倘若可用弹药不足则无法进行攻击投骰
+    PCAmmoFromInventory:
+      Name: PC使用物品栏中的弹药
+      Hint: 启用此选项可将某一“装备”物品设为弹药使用，可用于装填武器
+    VehicleAmmoFromInventory:
+      Name: 载具使用其物品栏中的弹药
+    NPCAmmoFromInventory:
+      Name: NPC使用其物品栏中的弹药
+    EnableWoundPace:
+      Name: 按损伤调整移速
+      Hint: 启用时，移速自动受损伤影响
+    EnableConv:
+      Name: 信念点
+      Hint: 启用信念点设定规则
+    NoPowerPoints:
+      Name: 无奇术点
+      Hint: 启用此选项时隐藏所有奇术点交互
+    ApplyEncumbrance:
+      Name: 应用负载减值
+      Hint: 应用负载减值，请记住这当前暂不支持抵抗{fatigue}的{vigor}检定！
+    GmBennies:
+      Name: 游戏主持人助力点
+      Hint: 设置刷新时GM能获得的助力点数量
+    VehicleMods:
+      Name: 载具改装
+      Hint: 载具使用改装栏
+    VehicleEdges:
+      Name: 载具专长
+      Hint: 载具使用专长与负赘
+    BennyImageSheet:
+      Name: 助力点
+      Hint: 选择角色卡上助力点所用的图像
+    HardChoices:
+      Name: 艰难抉择
+      Hint: 选中以启用艰难抉择规则
+    CardSound:
+      Name: 卡牌音效
+      Hint: 先攻抽卡时播放卡牌音效
+  EffectCallbacks:
+    Shaken:
+      RollSpirit: 投骰心魂
+      Title: 移除{name}的动摇
+      Flavor: 移除动摇的心魂检定
+      UnshakeModifier: 解除动摇调整值
+      Question: 你想怎么办？
+      Success: 你不再动摇
+    Stunned:
+      Title: 移除震慑的活力检定
+      Fail: 你仍处于震慑
+      Success: 你不再处于震慑，但仍处于脆弱
+      Raise: 你不再处于震慑或脆弱
+    BleedingOut:
+      Title: 抵抗失血的活力检定
+      Fail: 你死亡了
+      Raise: 你成功得以稳定
+      Success: 你暂时苟延残喘。
+  BenniesSpendGM: 使用1GM助力点
+  DocumentLink: 关联
+  DocumentTweaks: 微调
+  TargetVulnerable: 目标陷入脆弱
+  WildAttack: 不羁攻击
+  ItemType: 物品类型
+  Source: 来源
+  Properties: 特质
+  AddAction: 增加动作
+  DeleteEmbeddedPowerPrompt: 你确定要删除奇术 {power}？
+  TrademarkWeapon:
+    Label: 招牌武器
+    Regular: 普通
+    Improved: 精通
+  OffHandPenalty: 副手减值
+  ItemEquipStatus:
+    Label: 位置
+    Stored: 存储
+    Carried: 携带
+    Equipped: 装备
+    OffHand: 副手
+    MainHand: 主手
+    TwoHands: 双手
+  DestroyOnEmpty: 清空时消灭
+  Charges: 次数
+  Consumable:
+    Use: 使用
+    Consumables: 消耗品
+  EmptyRacialAbilitiesHint: 此{race}或{archetype}暂时不具备任何能力，将内容拖拽&置入卡中以开始着手。
+  DeleteEmbeddedActionPrompt: 你确定要删除动作{action}
+ITEM:
+  TypeSkill: 技能
+  TypePower: 奇术
+  TypeAbility: 能力
+  TypeConsumable: 消耗品
+  TypeWeapon: 武器
+  TypeArmor: 护甲
+  TypeShield: 盾牌
+  TypeGear: 装备
+  TypeEdge: 专长
+  TypeHindrance: 负赘
+CARD:
+  TypeAdventure: 冒险卡
+  TypePoker: 扑克牌
+ACTOR:
+  TypeCharacter: 玩家角色
+  TypeNpc: NPC
+  TypeVehicle: 载具
