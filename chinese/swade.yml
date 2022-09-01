@@ -588,8 +588,8 @@ SWADE:
   Berserk: 狂化
   Defending: 防御
   Flying: 飞行
-  Follow: 跟随 {名称}
-  Unfollow: 不再跟随 {名称}
+  Follow: 跟随 {name}
+  Unfollow: 不再跟随 {name}
   MakeGroupLeader: 担任团体领袖
   RemoveGroupLeader: 卸任团体领袖
   AddTokenFollowers: 将所选Token设为追随者
@@ -653,7 +653,7 @@ SWADE:
   ArcBack: 奥法背景
   Req: 需求
   Conv: 信念点
-  UseConv: 使用信念点！
+  UseConv: 为信念挺身而出！
   Hesitant: 犹豫不决
   LevelHeaded: 沉稳冷静
   ImprovedLevelHeaded: 精通沉稳冷静
@@ -725,3 +725,161 @@ SWADE:
   Vehicular: 载具武器
   ShowBennyAnimationDesc: 使用助力点时播放动画，仅在安装了Dice So Nice!后生效
   WildDiePresetDesc: 为不羁骰选择1项DSN主题，若是打算自创则选择“定制”，若是不想自己的不羁骰外表与别不同就选“无”。请记住自创不羁骰当前只有自己看得见，其他玩家所见的会有所不同。
+  Formula: 公式
+  SitMod: 情境调整值
+  RollMode: 投骰宏
+  RollExample: 例如 +1d6x or -2
+  Roll: 投骰
+  RollRaise: 优良投骰
+  GroupRoll: 团体投骰
+  Ok: 是
+  Cancel: 取消
+  Redraw: 抽卡
+  Add: 增加
+  ConfigInit: 配置先攻
+  IgnWounds: 忽略损伤
+  Size: 体型
+  Scale: 尺寸
+  PickACard: 为 {name} 选一张卡
+  OldCard: 旧卡
+  ActionCard: 行动卡
+  ConvictionActive: 启动信念
+  ConvictionActivate: 为信念挺身而出！
+  ConvictionExtend: 你想延长信念吗？
+  ConvictionEnd: 信念有所动摇
+  NoBennies: 没有足够的助力点！
+  SBT: 小型爆发盖板
+  MBT: 中型爆发盖板
+  LBT: 大型爆发盖板
+  Cone: 锥形盖板
+  GM: 游戏主持人
+  Vehicles: 载具
+  AddStats: 额外数值
+  Actors: 演员
+  Items: 物品
+  Curr: 当前
+  DSNNone: 无
+  Reload: 装填
+  Refresh: 刷新此卡牌
+  Ammo: 弹药
+  ReloadSuccess: 此武器已经成功装填
+  NotEnoughAmmo: 弹药不足以完成此动作！
+  NotEnoughAmmoToReload: 没有足够的弹药用以装填
+  AutoReload: 不需要装填动作
+  NoAmmoSet: 没有弹药设置
+  Trapping: 特效
+  AddBenny: 增加1助力点
+  CurrentBennies: 当前助力点
+  RerollWithBenny: 以助力点重投
+  FreeReroll: 免费重投
+  AutoCalcParry: 自动计算格挡(包括盾牌)
+  Subtype: 子类型
+  SpecialAbility: 特殊能力
+  SpecialAbilities: 特殊能力
+  RacialAbilities: 种族能力
+  ArchetypeAbilities: 范型能力
+  About: 关于
+  EdgesHindrances: 专长&负赘
+  GrantsPowers: 赋予奇术
+  Crew: 需要乘员
+  Passengers: 可选乘客
+  String: 文本
+  Number: 数字
+  Checkbox: 复选框
+  WealthDie:
+    Label: 财富骰
+    Broke:
+      Label: 破产
+      Hint: 你破产了！
+  TraitRolls: 特性投骰
+  Trait: 特性
+  ClickSuggestions: 点击获取建议
+  Quick: 迅捷
+  BonusDamage: 奖励伤害
+  Joker: 鬼牌
+  Subtract: 减去
+  DmgRolls: 伤害投骰
+  SubtractPPDesc: 从可用奇术点中减去奇术点费用
+  AddPPDesc: 为可用奇术点增加奇术点费用
+  RightClickZoom: 右键缩放
+  DeckShuffled: 卡组自动洗牌
+  BasePace: 基本移速
+  WarningPackLocked: 无法编辑锁定的合集包，请先进行解锁
+  ActionCardEditor: 行动卡编辑器
+  CardFace: 卡面
+  CardValue: 数值
+  CardSuit: 花色
+  IsJoker: 是鬼牌
+  OpenACEditor: 在行动卡编辑器中打开
+  'Yes': 是
+  'No': 否
+  ShowCharacterSummary: 显示角色概要
+  CharacterSummary: 角色概要
+  CopyHtml: 复制HTML
+  CopyMarkdown: 复制Markdown
+  Imperial: 英制
+  Metric: 公制
+  ChangeBennyWarning: 变更这些设定需要刷新页面！
+  3DBennies: 3D助力点
+  WealthSelectionNoneOther: 无/其他
+  Modifiers: 调整值
+  ActionTraitMod: 动作特性调整值
+  ActionDmgMod: 动作伤害调整值
+  ItemTraitMod: 物品特性调整值
+  ItemDmgMod: 物品伤害调整值
+  Duplicates: 找到重复项
+  DuplicateItemsBodyText: 在添加{type} <strong>{name}</strong>到演员{target}时，根据名字和类型发现以下重复项。新物品已经重命名以显示其来源。
+  NoActionDeckFound: 未找到行动卡组，正在生成
+  NoActionDeckDiscardPileFound: 未找到行动卡组弃牌堆，正在生成
+  Wealth: 财富
+  Characters: 角色
+  SettingRules: 设定规则
+  WorldBasics: 世界基础
+  MAPenalty:
+    Label: 多重动作减值
+    None: 无
+  Mod:
+    Custom:
+      Add: 增加定制调整值
+    Support: 援助
+    Preset:
+      Choose: 选择一项预设……
+      Add: 添加预设
+    Value: 数值
+    Ignore: 忽略？
+  Illumination:
+    _name: 照明
+    Dim: 昏暗
+    Dark: 黑暗
+    Pitch: 漆黑
+  Cover:
+    _name: 掩蔽
+    Shield: 掩蔽-盾牌
+    Light: 轻度掩蔽
+    Medium: 中度掩蔽
+    Heavy: 重度掩蔽
+    Total: 全掩蔽
+  Range:
+    _name: 射程
+    Medium: 中距射程
+    Long: 长距射程
+    Extreme: 极限射程
+  ModOther: 其他调整值
+  Snapfire: 猝射
+  UnstablePlatform: 不稳平台
+  CannotAddRaceToRace: 你不能将种族/范型添加到种族/范型之中！
+  LayOutChaseWithDeck: 使用卡组排出追逐
+  ClearChaseCards: 从场景中清楚追逐卡
+  NoSceneAvailable: 没有可用场景，或是你停用了画布
+  ChaseCardsCleared: 所有追逐卡已经从本场景中移除。
+  SetUpChase: 布设追逐
+  NotADeckCompendium: 所选合集包似乎没有留存的卡组
+  ConvertToDeck: 转换成卡组
+  Expiration:
+    TabLabel: 回合行动
+    Description: <p>效果会在目标的 <em>下回合或之后</em>消散。</p>
+  NoCardsLeft: 牌组中没有足够的牌了！只有 {needed} 的 {current}需要的卡可用
+  Max: 上限
+  SysMigrationWarning: 你的SWADE系统数据来自于过旧的Foundry版本，无法可靠地整合至最新版中，尽管仍会尝试此过程，但可能会发生错误。
+  ReloadUnneeded: 此武器已经装满弹药
+  AltTrait: 动作特性
