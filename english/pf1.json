@@ -812,6 +812,7 @@
   "PF1.ConsumableTypeDrug": "Drug",
   "PF1.ConsumableTypeScroll": "Scroll",
   "PF1.ConsumableTypeWand": "Wand",
+  "PF1.ConsumableTypeRod": "Rod",
   "PF1.ConsumableTypeStaff": "Staff",
 
   "PF1.AttackTypeWeapon": "Weapon Attack",
@@ -1434,6 +1435,7 @@
   "PF1.BaseWeaponDamage": "Base Weapon Damage",
   "PF1.BaseWeaponCritical": "Base Weapon Critical",
   "PF1.SpellPreparationType": "Spell Preparation Type",
+  "PF1.Preparation": "Preparation",
   "PF1.CastsLeft": "Casts Left",
   "PF1.CasterLevelOffset": "Caster Level Offset",
   "PF1.CasterLevelCheck": "Caster Level Check",
@@ -1627,6 +1629,7 @@
   "PF1.Links": "Links",
   "PF1.Confirm": "Confirm",
   "PF1.CROffset": "Challenge Rating Offset",
+  "PF1.Offsets": "Offsets",
   "PF1.Haste": "Haste",
   "PF1.Manyshot": "Manyshot",
   "PF1.RapidShot": "Rapid Shot",
@@ -1775,6 +1778,9 @@
       "GiveToAll": "Give to All",
       "TotalExperience": "Total Experience",
       "SplitExperience": "Split Experience"
+    },
+    "EntrySelector": {
+      "Title": "Entry Selector"
     }
   },
 
