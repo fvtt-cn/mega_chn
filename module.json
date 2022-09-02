@@ -3,7 +3,7 @@
   "title": "Translation: 中文 [Mega]",
   "description": "内置多个模组、系统的翻译合集，便于非 Git 用户参与到 Foundry VTT 的汉化工作之中。",
   "minimumCoreVersion": "9.238",
-  "compatibleCoreVersion": "9.999",
+  "compatibleCoreVersion": "10.999",
   "author": "FVTT-CN",
   "esmodules": [ "welcome.js" ],
   "languages": [{
