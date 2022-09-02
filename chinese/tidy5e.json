@@ -90,7 +90,7 @@
     "TIDY5E.ItemCardsMouseHint": "用鼠标中键来查看/编辑物品。",
     "TIDY5E.TogglePersonalityInfo": "切换个性信息",
     "TIDY5E.ToggleInfo": "切换信息",
-    "TIDY5E.AbbrMod": "Mod",
+    "TIDY5E.AbbrMod": "模组",
     "TIDY5E.AbbrSavingThrow": "Save",
     "TIDY5E.SpellAttackMod": "攻击调整值",
     "TIDY5E.PreparedSpells": "已准备法术",
@@ -125,7 +125,8 @@
     "TIDY5E.Settings.TabModules": {
         "tabLabel": "模组",
         "header": "模组选项",
-        "labelMidiQoL": "Midi Qol"
+        "labelMidiQoL": "Midi Qol",
+        "labelActionsFavorites": "角色动作/最爱"
     },
     "TIDY5E.Settings.TabInfo": {
         "tabLabel": "信息",
@@ -327,5 +328,9 @@
         "hint": "输入角色肖像生命值覆盖物向内偏移的数值，在偏移的部分不会给生命值覆盖物着色。",
         "name": "生命值覆盖物偏移。"
     },
-    "TIDY5E.ItemDetailsHeadline": "效果/描述"
+    "TIDY5E.ItemDetailsHeadline": "效果/描述",
+    "TIDY5E.Settings.EditTotalLock": {
+        "name": "锁定敏感字段。",
+        "hint": "启用以防止意外地改变合理的、大部分是静态的值。"
+    }
 }
