@@ -436,5 +436,13 @@
     "FSC.Configuration.CombatPauseRule.Title": "战斗规则下暂停实时时钟",
     "FSC.Configuration.CombatPauseRule.Active": "仅在激活场景中暂停",
     "FSC.Configuration.CombatPauseRule.Current": "在GM当前查看场景中暂停",
-    "FSC.Configuration.CombatPauseRule.Description": "选择当场景中进行战斗时何时暂停实时时钟。"
+    "FSC.Configuration.CombatPauseRule.Description": "选择当场景中进行战斗时何时暂停实时时钟。",
+    "FSC.Configuration.Client.NoteReminderNotification.Description": "Simple Calendar 如何为笔记发送提醒通知。",
+    "FSC.Configuration.Client.NoteReminderNotification.Title": "笔记提醒通知",
+    "FSC.Configuration.Client.NoteReminderNotification.Whisper": "发送有关笔记详细信息的私聊。",
+    "FSC.Configuration.Client.NoteReminderNotification.Render": "自动打开笔记。",
+    "FSC.Notes.SearchPages": "搜索页面",
+    "FSC.Notes.Editor.TinyMCE": "文本（TinyMCE）",
+    "FSC.Notes.Editor.ProseMirror": "文本（ProseMirror）",
+    "FSC.Notes.Editor.Markdown": "文本（Markdown）"
 }
