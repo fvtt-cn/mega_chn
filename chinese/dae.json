@@ -258,8 +258,9 @@
     "dae.1Reaction": "1 个反应：攻击触发的反应完成后结束",
     "dae.stackableOptions": {
         "multi": "堆叠效果应用多次",
-        "none": "效果不堆叠",
-        "count": "每次堆叠增加计数 1"
+        "none": "效果不按来源堆叠",
+        "count": "每次堆叠增加计数 1",
+        "noneName": "效果不按名称堆叠"
     },
     "dae.1Spell": "1 次施法：在角色施放下个法术时结束",
     "dae.isMoved": "移动：在指示物移动时结束",
@@ -343,5 +344,10 @@
     "dae.actorUpdate": "角色更新",
     "dae.ZeroHP": "零生命值：角色生命值归零时结束",
     "dae.DAEUntestedSystems.Hint": "若选中，即使在未标记为兼容的系统中 DAE 也会加载；若不选中，DAE 只会在标记为兼容的系统中加载。该功能重新载入后生效",
-    "dae.DAEUntestedSystems.Name": "在未测试的游戏系统中加载 DAE"
+    "dae.DAEUntestedSystems.Name": "在未测试的游戏系统中加载 DAE",
+    "dae.transfer.Name": "物品装备时转移到角色上",
+    "dae.transfer.Hint": "启用后，当装备该物品时，该效果将应用到该物品的所有者。如果希望在使用该物品时将效果应用到其目标上，请禁用",
+    "dae.isInitiativeDetail": "先攻",
+    "dae.SelfTarget.Name": "物品掷骰时应用到自身",
+    "dae.SelfTarget.Hint": "效果应用于物品的使用者，而非其目标"
 }
