@@ -16,7 +16,7 @@
     "MonksEnhancedJournal.start-collapsed.name": "默认折叠",
     "MonksEnhancedJournal.start-collapsed.hint": "侧边目录默认折叠",
     "MonksEnhancedJournal.loot-sheet.name": "战利品卡",
-    "MonksEnhancedJournal.loot-sheet.hint": "分配遭遇战/任务奖励时使用什么模组",
+    "MonksEnhancedJournal.loot-sheet.hint": "分配奖励时使用什么模组",
     "MonksEnhancedJournal.loot-folder.hint": "如需创造战利品实体，则应该在哪个文件夹中创建",
     "MonksEnhancedJournal.loot-entity.name": "战利品实体",
     "MonksEnhancedJournal.loot-entity.hint": "将已指派给实体的战利品置于何处",
@@ -521,5 +521,11 @@
     "MonksEnhancedJournal.queststatus.failed": "失败",
     "MonksEnhancedJournal.show-chatbubble.name": "显示NPC聊天工具按钮",
     "MonksEnhancedJournal.show-chatbubble.hint": "在棋子工具栏上显示NPC聊天工具栏的按钮",
-    "MonksEnhancedJournal.currency.caps": "帽子"
+    "MonksEnhancedJournal.currency.caps": "帽子",
+    "MonksEnhancedJournal.inline-roll-styling.name": "内联掷骰样式",
+    "MonksEnhancedJournal.inline-roll-styling.hint": "更改内联掷骰的样式，使其更像链接",
+    "MonksEnhancedJournal.TextDuration": "文本时长",
+    "MonksEnhancedJournal.msg.NoItemsToAssign": "没有要分配给目标的物品",
+    "MonksEnhancedJournal.Shown": "显示",
+    "MonksEnhancedJournal.currency.merchants": "商人"
 }
