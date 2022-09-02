@@ -55,15 +55,6 @@ jobs:
         body: ${{ github.event.release.body }}
 
     # Publish to Foundry VTT module repo
-    - name: Setup Node
-      id: setup_node_for_publish
-      if: ${{ env.PACKAGE_ID }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16
-        cache: 'npm'
-        cache-dependency-path: '**/.github/workflows/merge.yml'
-
     - name: Publish to Foundry VTT Repo
       id: publish_foundry_repo
       if: ${{ env.PACKAGE_ID }}
