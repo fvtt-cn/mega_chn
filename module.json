@@ -2,9 +2,16 @@
   "name": "zzzzz_mega_chn",
   "title": "Translation: 中文 [Mega]",
   "description": "内置多个模组、系统的翻译合集，便于非 Git 用户参与到 Foundry VTT 的汉化工作之中。",
-  "minimumCoreVersion": "9.238",
-  "compatibleCoreVersion": "10.999",
-  "author": "FVTT-CN",
+  "authors": [
+    {
+      "name": "FVTT-CN",
+      "email": "fvtt-cn@dickytwister.org"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.282"
+  },
   "esmodules": [ "welcome.js" ],
   "languages": [{
       "lang": "cn",
