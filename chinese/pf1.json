@@ -1948,6 +1948,9 @@
         },
         "ActionChooser": {
             "Title": "{actor}使用{item}"
+        },
+        "EntrySelector": {
+            "Title": "条目选择器"
         }
     },
     "PF1.Info": {
@@ -2077,5 +2080,12 @@
     "PF1.WeaponGroupSiegeEngines": "攻城武器",
     "PF1.WeaponGroupSpears": "矛　类",
     "PF1.WeaponGroupThrown": "投掷类",
-    "PF1.WeaponGroups": "武器组"
+    "PF1.WeaponGroups": "武器组",
+    "PF1.ConsumableTypeRod": "法杖",
+    "PF1.Preparation": "准备",
+    "PF1.Offsets": "偏移",
+    "SETTINGS.pf1characterVisionN": "玩家角色视觉",
+    "SETTINGS.pf1characterVisionH": "玩家角色默认拥有指示物视野，无视默认指示物设置。",
+    "PF1.EnhancementBonusOverride": "覆盖增强加值",
+    "PF1.AmmunitionSubtype": "弹药子类"
 }
