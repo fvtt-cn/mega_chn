@@ -914,9 +914,9 @@ SWADE:
     Legendary: 传奇
   Advances:
     EditorTitle: 升级编辑器
-    Toggle: 切换升级计划数值
+    Toggle: 切换为升级待定计划状态
     Delete: 删除升级
-    Planned: 计划
+    Planned: 待定计划
     Modes:
       Legacy: 传奇
       Expanded: 展开
@@ -924,7 +924,7 @@ SWADE:
       Edge: 新专长
       SingleSkill: 提升一项技能
       TwoSkills: 提升两项技能
-      Attribute: 提升数值
+      Attribute: 提升属性
       Hindrance: 减少负赘
     Number: 升级数
   AddAdvance: 添加升级
