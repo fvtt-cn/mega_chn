@@ -188,8 +188,8 @@ SWADE:
   Incap: Incapacitated
   Init: Initiative
   DrawInit: Draw Initiative
-  ActionDeckReset: Reset Action Deck
-  ActionDeckResetNotification: Action Deck reset
+  ActionDeckReset: Reshuffle Action Deck
+  ActionDeckResetNotification: Action Deck reshuffled
   InitDraw: drew the...
   General: General
   Addi: Additional
@@ -225,9 +225,9 @@ SWADE:
   SettingConf: Setting Configurator
   SettingConfLabel: Open Setting Configurator
   SettingConfDesc: Fine tune the system to fit the setting you're playing
-  DiceConf: Dice Configuration
+  DiceConf: Wild Die Configuration
   DiceConfDesc: Configure the settings for the SWADE/Dice So Nice integration
-  DiceConfLabel: Open Dice Configuration
+  DiceConfLabel: Open Wild Die Configuration
   Formula: Formula
   SitMod: Situational Mod
   RollMode: Roll Mode
@@ -254,10 +254,6 @@ SWADE:
   ConvictionExtend: Do you want to extend your conviction?
   ConvictionEnd: wavers in their conviction
   NoBennies: You don't have enough bennies!
-  SBT: Small Blast Template
-  MBT: Medium Blast Template
-  LBT: Large Blast Template
-  Cone: Cone Template
   GM: Game Master
   Vehicles: Vehicles
   AddStats: Additional Stats
@@ -306,6 +302,7 @@ SWADE:
   Quick: Quick
   BonusDamage: Bonus Damage
   Joker: Joker
+  CustomWildDie: '- Custom Wild Die -'
   Subtract: Subtract
   DmgRolls: Damage Rolls
   SubtractPPDesc: Subtract PP Cost from the available PP
@@ -630,7 +627,27 @@ SWADE:
   Consumable:
     Use: Use
     Consumables: Consumables
-  EmptyRacialAbilitiesHint: This {race} or {archetype} doesn't have any abilities yet. Drag&Drop something onto the sheet to get started.
+  EmptyRacialAbilitiesHint: >-
+    This {race} or {archetype} doesn't have any abilities yet. Drag&Drop
+    something onto the sheet to get started.
+  Templates:
+    Cone:
+      Short: Cone
+      Long: Cone Template
+    Stream:
+      Short: Stream
+      Long: Stream Template
+    Small:
+      Short: SBT
+      Long: Small Blast Template
+    Medium:
+      Short: MBT
+      Long: Medium Blast Template
+    Large:
+      Short: LBT
+      Large: Large Blast Template
+    Available: Available Templates
+    Possible: Possible Templates
 ACTOR:
   TypeCharacter: Player Character
   TypeNpc: NPC
