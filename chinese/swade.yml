@@ -685,8 +685,8 @@ SWADE:
   Incap: 无力化
   Init: 先攻
   DrawInit: 先攻抽牌
-  ActionDeckReset: 重设行动牌组
-  ActionDeckResetNotification: 行动牌组重设
+  ActionDeckReset: 重新打乱行动牌组
+  ActionDeckResetNotification: 行动牌组已重新打乱
   InitDraw: 抽取……
   General: 通用
   Addi: 额外
@@ -712,9 +712,9 @@ SWADE:
   SettingConf: 设定配置
   SettingConfLabel: 打开设定配置
   SettingConfDesc: 微调系统来适应您正在玩的设定
-  DiceConf: 骰子配置
+  DiceConf: 不羁骰配置
   DiceConfDesc: 配置SWADE/Dice So Nice集成配置
-  DiceConfLabel: 打开骰子配置
+  DiceConfLabel: 打开不羁骰配置
   CommunityVicSheet: 社群载具卡
   ItemSheet: 狂野世界物品卡
   TraitMod: 特性调整值
@@ -1093,6 +1093,25 @@ SWADE:
     Consumables: 消耗品
   EmptyRacialAbilitiesHint: 此{race}或{archetype}暂时不具备任何能力，将内容拖拽&置入卡中以开始着手。
   DeleteEmbeddedActionPrompt: 你确定要删除动作{action}
+  CustomWildDie: '- 自定义不羁骰 -'
+  Templates:
+    Cone:
+      Long: 锥形盖板
+      Short: 锥形
+    Stream:
+      Short: 流形
+      Long: 流形盖板
+    Small:
+      Short: 小型爆发盖板
+      Long: 小型爆发盖板
+    Medium:
+      Short: MBT
+      Long: 中型爆发盖板
+    Large:
+      Short: LBT
+      Large: 大型爆发盖板
+    Available: 可用盖板
+    Possible: 可能的盖板
 ITEM:
   TypeSkill: 技能
   TypePower: 奇术
