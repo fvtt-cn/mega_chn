@@ -39,7 +39,10 @@
                 "PickedActor": "你此次用于交易的角色:",
                 "DropActor": "拖放角色至此",
                 "Title": "Item Piles: 发送交易请求",
-                "User": "选择你的想要交易的目标:"
+                "User": "选择你的想要交易的目标:",
+                "PrivateContent": "{trading_actor_name}（用户 {trading_user_name}）想要与你进行<strong>私下</strong>交易。",
+                "AcceptQuery": "是否接受？",
+                "Content": "{trading_actor_name}（用户 {trading_user_name}）想要与你进行交易。"
             },
             "NoActiveUsers": {
                 "Title": "Item Piles: 没有活跃用户",
@@ -49,7 +52,13 @@
                 "Title": "Item Piles：交易请求",
                 "Content": "{trading_actor_name} (user {trading_user_name}) 想要与你交易.",
                 "PrivateContent": "{trading_actor_name} (user {trading_user_name}) 想要与你 <strong>私下</strong> 交易.",
-                "AcceptQuery": "是否接受?"
+                "AcceptQuery": "是否接受?",
+                "User": "选择你想与之交易的用户：",
+                "PickActor": "选择你在交易中代表的角色：",
+                "PickedActor": "你在交易中代表的角色：",
+                "PickToken": "使用选中的指示物",
+                "DropActor": "拖放角色至此",
+                "Label": "发送交易请求"
             },
             "OngoingRequest": {
                 "Content": "等待{user_name}回复...",
@@ -314,6 +323,35 @@
                 "Title": "启用交易",
                 "Hint": "此项启用交易——当此选项禁用时，没有人能够发起交易。"
             }
+        },
+        "Notifications": {
+            "UpdateItemPileSuccess": "Item Pile更新成功。",
+            "UpdateMerchantSuccess": "商人更新成功。"
+        },
+        "Merchant": {
+            "AllTypes": "所有类型",
+            "Buy": "购买",
+            "NoItemsForSale": "商人没有东西供出售",
+            "NoItemsToSell": "你没有东西出售给该商人",
+            "OpenTimes": "开张时间",
+            "Hours": "小时",
+            "Closed": "商人关门了，{}后开门",
+            "Minutes": "分钟",
+            "Sell": "出售",
+            "Description": "描述",
+            "Settings": "设置",
+            "Override": "覆盖",
+            "EditTypePrices": "编辑各类型价格调整值",
+            "EditTypePricesExplanation": "在物品购买标签页中切换各类型滑条的可见性",
+            "BuyNoItems": "商人没有物品",
+            "SellNoItems": "你没有物品卖给该商人",
+            "CurrentItems": "当前物品",
+            "NoRollTables": "无随机表，创建一个以继续",
+            "ClickRoll": "点击投骰以开始",
+            "RolledTimes": "已投骰{rolls}次",
+            "KeepRolled": "保留投骰结果",
+            "AddAll": "添加所有物品",
+            "ClearAllItems": "清除所有角色物品"
         }
     }
 }
