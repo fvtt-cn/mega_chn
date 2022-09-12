@@ -315,8 +315,8 @@
 
   "PF1.RollsForInitiative": "{0} rolls for initiative!",
 
-  "PF1.Take10": "Take 10",
-  "PF1.Take20": "Take 20",
+  "PF1.Roll": "Roll",
+  "PF1.TakeX": "Take {number}",
 
   "PF1.Flags": "Flags",
   "PF1.FlagsInstructions": "Configure character features and traits which fine-tune behaviors of the PF1 system.",
