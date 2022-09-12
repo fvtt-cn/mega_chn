@@ -445,6 +445,7 @@
   "PF1.CondDazed": "Dazed",
   "PF1.CondSleep": "Sleep",
   "PF1.CondCowering": "Cowering",
+  "PF1.CondSqueezing": "Squeezing",
 
   "PF1.CondTypeBleed": "Bleed",
   "PF1.CondTypeBlind": "Blind",
