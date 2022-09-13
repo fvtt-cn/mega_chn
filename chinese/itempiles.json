@@ -95,7 +95,8 @@
             "NoSourceDrop": "只有GM能往物品栏中拖放物品.",
             "PileTooFar": "你距离该物品堆太远，因此无法与其交互.",
             "PileLocked": "这个物品堆被锁上了，你无法打开它或是放东西进去.",
-            "DropNoToken": "你在这个场景中没有指示物，因此你无法扔下任何东西。"
+            "DropNoToken": "你在这个场景中没有指示物，因此你无法扔下任何东西。",
+            "DisallowedItemSell": "该商人不接受“{type}”类型的物品"
         },
         "Dialogs": {
             "DropTypeWarning": {
@@ -129,6 +130,15 @@
             "NoSystemFound": {
                 "Title": "无法识别的系统",
                 "Content": "此系统目前并未获得完整支持，这意味着模组不知道如何处理该系统的物品,但仍可在有限的条件下运行。<br><br>你可以自己配置模组设置，但他需要一些技术知识。<br><br>如果你有任何问题，请在Foundry discord上找<strong>Wasp#2005</strong>。"
+            },
+            "TypeWarning": {
+                "Title": "物品类型警告",
+                "DropContent": "您正在丢弃一个“{type}”类型的物品，该类型的物品通常不能丢弃。您确定要丢弃它吗？",
+                "TradeContent": "您正在交易一个“{type}”类型的物品，该类型的物品通常不能交易。您确定要交易它吗？",
+                "SellContent": "您正在尝试出售一个“{type}”类型的物品，商人通常不会接受该类型的物品。您确定要出售它吗？"
+            },
+            "NewSystemVersion": {
+                "Title": "新的系统版本"
             }
         },
         "CurrenciesEditor": {
@@ -352,6 +362,12 @@
             "KeepRolled": "保留投骰结果",
             "AddAll": "添加所有物品",
             "ClearAllItems": "清除所有角色物品"
+        },
+        "Settings": {
+            "DebugHooks": {
+                "Title": "启用钩子调试",
+                "Hint": "在控制台输出 item pile 钩子及其具体内容"
+            }
         }
     }
 }
