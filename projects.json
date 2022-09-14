@@ -176,6 +176,10 @@
         "src": "https://gitlab.com/riccisi/foundryvtt-babele/-/raw/master/module/lang/en.json"
     },
     {
+        "name": "swade-immersive-macros",
+        "src": "https://github.com/SalieriC/SWADE-Immersive-Macros/raw/main/swim/lang/en.json"
+    },
+    {
         "name": "swade",
         "yml": true,
         "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
