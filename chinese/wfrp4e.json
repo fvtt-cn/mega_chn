@@ -1177,5 +1177,6 @@
     "UPDATER.OverwriteItems": "覆盖物品",
     "UPDATER.OverwriteActors": "覆盖角色",
     "UPDATER.OverwriteScenes": "覆盖场景",
-    "UPDATER.OverwriteJournals": "覆盖日志"
+    "UPDATER.OverwriteJournals": "覆盖日志",
+    "SETTINGS.UseGroupAdvantage": "使用团队优势"
 }
