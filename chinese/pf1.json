@@ -2087,5 +2087,9 @@
     "SETTINGS.pf1characterVisionN": "玩家角色视觉",
     "SETTINGS.pf1characterVisionH": "玩家角色默认拥有指示物视野，无视默认指示物设置。",
     "PF1.EnhancementBonusOverride": "覆盖增强加值",
-    "PF1.AmmunitionSubtype": "弹药子类"
+    "PF1.AmmunitionSubtype": "弹药子类",
+    "PF1.CondSqueezing": "挤压",
+    "PF1.Roll": "投骰",
+    "PF1.TakeX": "取{number}",
+    "PF1.Migration.AlreadyInProgress": "PF1系统迁移进行中。请等待迁移结束再重试。"
 }
