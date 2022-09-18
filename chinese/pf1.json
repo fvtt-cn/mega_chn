@@ -413,7 +413,7 @@
         "TypeBuff": "Buff",
         "TypeAttack": "Attack",
         "TypeRace": "Race",
-        "TypeContainer": "Container",
+        "TypeContainer": "容器",
         "TypeWeapon": "武器",
         "TypeEquipment": "Equipment, Magic Item, etc."
     },
