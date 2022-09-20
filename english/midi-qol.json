@@ -137,7 +137,7 @@
     "midi-qol.UseTokenNames.Name": "Chat cards use token name",
     "midi-qol.UseTokenNames.Hint": "Chat card titles and target names use the token name rather than the actor name",
     "midi-qol.CriticalDamage.Name": "Choose how to roll critical damage",
-    "midi-qol.CriticalDamage.Hint": "requires foundry 0.7.0 or later. DND5e Default - standard dnd5e critical roll, base max only - base weapon dice only (no critical dice) but all maximised, max critical dice - critical dice maximised, max all dice - weapon + critical dice maximised, double dice value - result of dice x2",
+    "midi-qol.CriticalDamage.Hint": "DND5e Settings Only - standard dnd5e critical roll, Max Normal Damage - base weapon dice only (no critical dice) but all maximised, Max Critical Dice - critical dice maximised, Max All Dice - item + critical dice maximised, double dice value - result of dice x2, Explode Critical Dice - roll normal critical exploding any critical dice, Only Weapon Extra Critical - the only bonus damage for critical is from the item extra critical field",
     "midi-qol.CriticalDamageChoices": {
       "default": "DND5e Settings Only",
       "maxDamage": "Max Normal Damage",
@@ -146,7 +146,7 @@
       "maxAll": "Max All Dice",
       "doubleDice": "Double Rolled Damage",
       "explode": "Explode critical dice",
-      "baseDamage": "No Bonus"
+      "baseDamage": "Only Weapon Extra Critical"
     },
     "midi-qol.MergeCard.Name": "Merge Rolls to one card",
     "midi-qol.MergeCard.Hint": "Merge Attack, Hits, Damage, Saves to a single chat card",
