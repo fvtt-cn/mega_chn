@@ -18,6 +18,7 @@
     "RTUCards.settings.config-actions.additionalData.labelBaseKey": "Used prefix for labels: ",
     "RTUCards.settings.config-actions.additionalData.resourceBaseDir": "Image root directory: ",
     "RTUCards.settings.config-actions.additionalData.overrideConf": "If unlocked, you can define which actions should be available. Do it only if you're sure that this stack declaration won't evolve anymore. Lock it again to restore default values.",
+    "RTUCards.settings.config-actions.additionalData.revealedFaceDown": "If checked, revealed cards will be put face down",
 
     "RTUCards.settings.config-actions.actionParams.header": "Related parameters",
     "RTUCards.settings.config-actions.actionParams.buttonText": "Button text",
