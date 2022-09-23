@@ -138,7 +138,13 @@
                 "SellContent": "您正在尝试出售一个“{type}”类型的物品，商人通常不会接受该类型的物品。您确定要出售它吗？"
             },
             "NewSystemVersion": {
-                "Title": "新的系统版本"
+                "Title": "新的系统版本",
+                "Content": "您正在使用的系统设置已更新，是否使用最新的模组设定覆盖？",
+                "Confirm": "升级设置"
+            },
+            "ClearAllItems": {
+                "Title": "清除所有角色物品",
+                "Content": "这将清除所有角色的物品，是否确认？"
             }
         },
         "CurrenciesEditor": {
@@ -345,7 +351,7 @@
             "NoItemsToSell": "你没有东西出售给该商人",
             "OpenTimes": "开张时间",
             "Hours": "小时",
-            "Closed": "商人关门了，{}后开门",
+            "Closed": "关闭",
             "Minutes": "分钟",
             "Sell": "出售",
             "Description": "描述",
@@ -361,12 +367,32 @@
             "RolledTimes": "已投骰{rolls}次",
             "KeepRolled": "保留投骰结果",
             "AddAll": "添加所有物品",
-            "ClearAllItems": "清除所有角色物品"
+            "ClearAllItems": "清除所有角色物品",
+            "OpenCloseAuto": "自动",
+            "Open": "打开",
+            "MerchantClosed": "商店关门了，请稍后再来。",
+            "AddItem": "应用",
+            "RemoveItem": "删除"
         },
         "Settings": {
             "DebugHooks": {
                 "Title": "启用钩子调试",
                 "Hint": "在控制台输出 item pile 钩子及其具体内容"
+            }
+        },
+        "Applications": {
+            "DropItem": {
+                "QuantityToDrop": "你拥有 {quantity} 个此物品，你要放入多少？",
+                "ExistingPiles": "你将\"{item_pile_name}\"抛入了物品堆。",
+                "Title": "抛下物品",
+                "Dropping": "你正在抛下物品",
+                "AddToPile": "创建在物品堆",
+                "NewPile": "新建物品堆"
+            },
+            "DropCurrencies": {
+                "Title": "放入货币",
+                "Player": "你可以将以下货币放入物品堆：",
+                "GM": "作为GM，你可以在物品堆中创建货币："
             }
         }
     }
