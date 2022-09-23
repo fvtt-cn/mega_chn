@@ -153,8 +153,8 @@
     "MonksEnhancedJournal.PointOfInterest": "兴趣点",
     "MonksEnhancedJournal.SearchPOIDescription": "搜索描述",
     "MonksEnhancedJournal.RecentlyViewed": "最近查看",
-    "MonksEnhancedJournal.DragMonsters": "拖到地图上可添加所有怪物",
-    "MonksEnhancedJournal.DragMonstersCombat": "拖到画布上可添加所有怪物开始战斗",
+    "MonksEnhancedJournal.DragMonsters": "单击在桌面上创建怪物",
+    "MonksEnhancedJournal.DragMonstersCombat": "点击在桌面上创建怪物并开始战斗",
     "MonksEnhancedJournal.SelectEncounter": "从遭遇中选择怪物",
     "MonksEnhancedJournal.Available": "可用",
     "MonksEnhancedJournal.Completed": "完整",
@@ -246,7 +246,7 @@
     "MonksEnhancedJournal.show-zero-quantity.hint": "向玩家显示商店中数量为零的商品",
     "MonksEnhancedJournal.chat-message.name": "显示聊天信息",
     "MonksEnhancedJournal.chat-message.hint": "玩家收到物品时在聊天栏显示一条信息",
-    "MonksEnhancedJournal.hide-inline.hint": "隐藏玩家没有权限访问的文档中的内联链接。'",
+    "MonksEnhancedJournal.hide-inline.hint": "隐藏玩家没有权限访问的文档中的内联链接。",
     "MonksEnhancedJournal.Pause": "暂停",
     "MonksEnhancedJournal.Stop": "结束",
     "MonksEnhancedJournal.EditSlide": "编辑幻灯片",
@@ -527,5 +527,7 @@
     "MonksEnhancedJournal.TextDuration": "文本时长",
     "MonksEnhancedJournal.msg.NoItemsToAssign": "没有要分配给目标的物品",
     "MonksEnhancedJournal.Shown": "显示",
-    "MonksEnhancedJournal.currency.merchants": "商人"
+    "MonksEnhancedJournal.currency.merchants": "商人",
+    "MonksEnhancedJournal.currency.tavs": "列表",
+    "MonksEnhancedJournal.currency.hammer": "锤"
 }
