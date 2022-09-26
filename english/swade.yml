@@ -648,6 +648,15 @@ SWADE:
       Large: Large Blast Template
     Available: Available Templates
     Possible: Possible Templates
+  CompendiumTOC:
+    Toggle: Toggle use Compendium TOC
+    Dialog:
+      Title: Confirm Toggle
+      Content: >-
+        In order for the change to take effect, Foundry VTT and all connected
+        clients will be reloaded. Please confirm.
+    Header: Contents
+  Category: Item Category
 ACTOR:
   TypeCharacter: Player Character
   TypeNpc: NPC
