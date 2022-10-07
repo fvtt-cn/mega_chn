@@ -107,6 +107,7 @@
     "Merchant": {
       "Title": "Merchant: {actor_name}",
       "BuyItems": "Buy Items",
+      "BuyServices": "Buy Services",
       "SellItems": "Sell Items",
       "PopulateItems": "Populate Items",
       "AllTypes": "All types",
@@ -136,7 +137,10 @@
       "ClearAllItems": "Clear All Actor Items",
       "AddItem": "Add",
       "RemoveItem": "Remove",
-      "ItemFree": "Free"
+      "ItemFree": "Free",
+      "OtherTypes": {
+        "item-piles-service": "Service"
+      }
     },
     "Dialogs": {
       "TypeWarning": {
@@ -272,6 +276,10 @@
         "PriceExplanation": "In this tab, you can configure the price of this item, including whether this item will cost other items to purchase.",
         "BasePrice": "Base Price",
         "BasePriceExplanation": "This configures the normal price of this item.",
+        "Service": "Item Is Service",
+        "ServiceExplanation": "This causes this item to not add any item to the buyer's inventory. The service \"item\" can still have quantity, but if it runs out it will not be deleted from the merchant, but set to not for sale instead.",
+        "PurchaseMacro": "Purchase Macro",
+        "PurchaseMacroExplanation": "Name of macro to execute when the item is purchased.",
         "Free": "Item Is Free",
         "FreeExplanation": "When enabled, this item does not cost any money to purchase from the merchant.",
         "DisableNormalCost": "Disable Normal Cost",
