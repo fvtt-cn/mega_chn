@@ -462,9 +462,9 @@ SWADE:
         When enabled, Measured Templates alway highlight themselves instead of
         the grid.
     FantasyCompanionEntangle:
-      Name: Fantasy Companion Entangle
+      Name: Fantasy Companion <em>Entangle</em>
       Hint: >-
-        Use the Fantasy Companion Entangle status instead of the Core version.
+        Use the Fantasy Companion <em>Entangle</em> status instead of the Core version.
         Requires a reload to take effect
     InitDiscardPile:
       Name: Initiative Discard Pile
