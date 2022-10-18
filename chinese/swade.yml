@@ -1112,6 +1112,13 @@ SWADE:
       Large: 大型爆发盖板
     Available: 可用盖板
     Possible: 可能的盖板
+  CompendiumTOC:
+    Toggle: 切换使用TOC合集包
+    Dialog:
+      Content: 若要让这次修改生效，Foundry VTT及所有连接的客户端都必须重新加载，请确认。
+      Title: 确认切换
+    Header: 内容
+  Category: 物品类别
 ITEM:
   TypeSkill: 技能
   TypePower: 奇术
