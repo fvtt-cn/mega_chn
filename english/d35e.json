@@ -1651,6 +1651,8 @@
   "D35E.DamagePool": "Damage Pool",
   "D35E.DamagePoolDeleteOnDepleted": "Delete when depleted",
   "D35E.TimelineTickOnEndOfRound": "Progress buff on the end of Turn.",
+  "D35E.AddEntry": "Add Entry",
+  "D35E.EntrySelector": "Entry Selector",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
