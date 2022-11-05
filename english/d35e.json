@@ -1656,6 +1656,7 @@
   "D35E.Points": "Points",
   "D35E.MessageResistedSpell": "Successfully resisted the attack!",
   "D35E.MessageResisitanceFailed": "Failed to resist the attack!",
+  "D35E.Invisible": "Invisible",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
