@@ -1654,6 +1654,8 @@
   "D35E.AddEntry": "Add Entry",
   "D35E.EntrySelector": "Entry Selector",
   "D35E.Points": "Points",
+  "D35E.MessageResistedSpell": "Successfully resisted the attack!",
+  "D35E.MessageResisitanceFailed": "Failed to resist the attack!",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
