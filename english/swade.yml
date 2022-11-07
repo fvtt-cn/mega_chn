@@ -115,11 +115,14 @@ SWADE:
   Reach: Reach
   Torch: Torch
   Invisible: Invisible
+  ColdBodied: Cold Bodied
   Smite: Smite
   Armor: Armor
   Protection: Protection
   Dmg: Damage
   DmgOver: Action Damage
+  Resist: Resist
+  ResistRolls: Resistance Rolls
   Ap: AP
   APLong: Armor Piercing
   RoF: RoF
@@ -295,6 +298,7 @@ SWADE:
     Broke:
       Label: Broke
       Hint: You are Broke!
+    Sides: Wealth Die Sides
   TraitRolls: Trait Rolls
   Trait: Trait
   AltTrait: Action Trait
@@ -444,6 +448,8 @@ SWADE:
     Add: Add Active Effect
     Source: Source
     ResetDuration: Reset Duration
+    AddGuided: Open Wizard
+    AddUnguided: Add Empty Effect
   Keybindings:
     OpenFavoriteCards:
       Name: Open Favorite Card Hand
@@ -462,9 +468,9 @@ SWADE:
         When enabled, Measured Templates alway highlight themselves instead of
         the grid.
     FantasyCompanionEntangle:
-      Name: Fantasy Companion <em>Entangle</em>
+      Name: Fantasy Companion Entangle
       Hint: >-
-        Use the Fantasy Companion <em>Entangle</em> status instead of the Core version.
+        Use the Fantasy Companion Entangle status instead of the Core version.
         Requires a reload to take effect
     InitDiscardPile:
       Name: Initiative Discard Pile
@@ -557,6 +563,11 @@ SWADE:
     NoPowerPoints:
       Name: No Power Points
       Hint: When enabled this option hides all Power Point interactions
+    AlwaysGeneralPP:
+      Name: Always Show General Power Points
+      Hint: >-
+        When enabled the General Powers section always shows even if all powers
+        have an associated Arcane Background
     ApplyEncumbrance:
       Name: Apply Encumbrance Penalties
       Hint: >-
@@ -580,6 +591,15 @@ SWADE:
     CardSound:
       Name: Card Sound
       Hint: Play a short card sound when dealing Initiative
+    StartingCurrency:
+      PC:
+        Name: Player Character starting currency
+        Hint: >-
+          Set the amount of currency that Player Character Actors recieve upon
+          creation
+      NPC:
+        Hint: Set the amount of currency that NPC Actors recieve upon creation
+        Name: NPC starting currency
   EffectCallbacks:
     Shaken:
       RollSpirit: Roll Spirit
@@ -630,6 +650,7 @@ SWADE:
   EmptyRacialAbilitiesHint: >-
     This {race} or {archetype} doesn't have any abilities yet. Drag&Drop
     something onto the sheet to get started.
+  NoTokenSelectedForResistRoll: To make a resistance roll, first select one token
   Templates:
     Cone:
       Short: Cone
@@ -645,7 +666,7 @@ SWADE:
       Long: Medium Blast Template
     Large:
       Short: LBT
-      Large: Large Blast Template
+      Long: Large Blast Template
     Available: Available Templates
     Possible: Possible Templates
   CompendiumTOC:
@@ -657,6 +678,39 @@ SWADE:
         clients will be reloaded. Please confirm.
     Header: Contents
   Category: Item Category
+  ItemIsAmmo: Is Ammunition
+  Vision:
+    SeeHeat: See Heat
+    SenseHeat: Sense Heat
+  Attribute: Attribute
+  BaseDie: Base Die
+  AttributeManager:
+    Title: Manage Attributes for {name}
+    Open: Manage Attributes
+  HeavyArmor: Heavy Armor
+  HeavyWeapon: Heavy Weapon
+  UsesTOC: Use Compendium TOC
+  TOCSettings:
+    Label: Open Compendium TOC Settings
+    Name: Compendium TOC Settings
+    Hint: Configure the Compendum TOC Application
+  DieSides: Die Sides
+  WildDieSides: Wild Die Sides
+  EncumbranceSteps: Encumbrance Steps
+  EffectWizard:
+    Preview: Preview
+    Change: Change
+    Mode: Mode
+    Value: Value
+    Changes: Changes
+    SelectAttribute: Select Attribute
+    EnterSkill:
+      Label: Enter skill
+      Hint: >-
+        You can enter any skill name you like or select one from the list of
+        suggestions
+  OtherStats: Other Stats
+  HotbarDropOwnedItemWarning: You can only create macro buttons for owned Items
 ACTOR:
   TypeCharacter: Player Character
   TypeNpc: NPC
@@ -672,6 +726,7 @@ ITEM:
   TypePower: Power
   TypeAbility: Ability
   TypeConsumable: Consumable
+  TypeAction: Action
 CARD:
   TypeAdventure: Adventure Card
   TypePoker: Poker Card
