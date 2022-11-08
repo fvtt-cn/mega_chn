@@ -232,7 +232,7 @@
     "SWIM.chatMessage-healOtherSuccess": "{tokenName} 给 {targetName}治好了1个损伤。",
     "SWIM.chatMessage-healOtherRaise": "{tokenName} 给 {targetName}治好了2个损伤。",
     "SWIM.chatMessage-healOtherRaiseContinued": " 并且给${targetName}治好了1个损伤。",
-    "SWIM.notification.generalErrorMsg": "出现错误，更多内容见控制台。",
+    "SWIM.notification.generalErrorMsg": "出现错误，更多内容见控制台(F12)。",
     "SWIM.notification.setupSWIMSummonCreature": "请先从合集包中导入并设置 “[SWIM] Summon Creature”文件夹。",
     "SWIM.shapeChange-numMorphsHint": "化形者可以让指示物平滑地从旧的变成新的。如果感觉到延迟或是表现上有问题，或是希望速度更快，那可以减少此项数值。“0”会让变化快到毫无延迟。默认：50",
     "SWIM.effectBuilder-usePowerIconsHint": "若是勾选，SWIM会为施术者将奇术图标（如有）作为激活效果的图标。否则就会使用SWIM提供的这些图标。",
@@ -334,5 +334,18 @@
     "SWIM.chaseSetupDeck": "抽卡牌组来源于",
     "SWIM.chaseSetupPile": "用以经过的牌组堆",
     "SWIM.chaseSetupTablesName": "表格",
-    "SWIM.chaseSetupCardsName": "卡牌"
+    "SWIM.chaseSetupCardsName": "卡牌",
+    "SWIM.notification-selectOneAndTargetAnyNumber": "请选择一个指示物，并以任意数量的其他指示物为目标。",
+    "SWIM.dialogue-ammoManagement": "弹药管理",
+    "SWIM.dialogue-woundsToApply": "要应用的损伤:",
+    "SWIM.dialogue-soakWoundsWithUnHolyWarriorContent": "<form><div class='form-group'><form>你能使用<b>至多4奇术点</b>来给化解投骰增加等同于使用奇术点数量的加值。</br>你剩下有 <b>{ppv}奇术点</b> 。</form><label for='numPP'>使用的奇术点：</label><input id='numPP' name='num' type='number' min='1' max='4' value='1'></input></div></form>",
+    "SWIM.swdUnshakeHint": "若是启用，SWIM会使用SWD而不是SWADE的摆脱动摇规则(立刻行动需要优良，若是动摇则移动减半)。",
+    "SWIM.dialogue-soakWoundsMainContent": "<form><p>你当前具备 <b>{wv}/{wm}</b> 损伤和 <b>{totalBennies}</b>助力点</p><div class='form-group'><label for='numWounds'>损伤数量：</label><input id='numWounds' name='num' type='number' min='0' value='1'></input></div></form>",
+    "SWIM.allowUserConfigName": "允许非GM用户SWIM配置登录:",
+    "SWIM.allowUserConfigHint": "此设定允许非GM用户就演员和物品登录并修改SWIM配置窗口。",
+    "SWIM.swdUnshakeName": "使用SWD摆脱动摇规则:",
+    "SWIM.notification-selectAndTargetOneToken": "必须选择一项指示物以及另一个目标。",
+    "SWIM.edge-command": "指挥",
+    "SWIM.edge-holdTheLine": "死守不退",
+    "SWIM.edge-fervor": "热情洋溢"
 }
