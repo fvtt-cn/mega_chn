@@ -791,6 +791,7 @@ SWADE:
     Broke:
       Label: 破产
       Hint: 你破产了！
+    Sides: 财富骰面
   TraitRolls: 特性投骰
   Trait: 特性
   ClickSuggestions: 点击获取建议
@@ -935,6 +936,8 @@ SWADE:
     Source: 源头
     Add: 添加激活效果
     ResetDuration: 重设持续时间
+    AddUnguided: 添加共感效果
+    AddGuided: 开启法师
   Keybindings:
     OpenFavoriteCards:
       Name: 打开收藏手牌
@@ -1045,6 +1048,16 @@ SWADE:
     CardSound:
       Name: 卡牌音效
       Hint: 先攻抽卡时播放卡牌音效
+    AlwaysGeneralPP:
+      Name: 总是显示整体奇术点
+      Hint: 启用时，即使所有奇术都各自关联有奥法背景，也要显示全体奇术部分
+    StartingCurrency:
+      NPC:
+        Hint: 设定NPC演员创建时具备的资金数量
+        Name: NPC起始资金
+      PC:
+        Name: 玩家角色起始资金
+        Hint: 设定玩家角色演员创建时具备的资金数量
   EffectCallbacks:
     Shaken:
       RollSpirit: 投骰心魂
@@ -1110,6 +1123,7 @@ SWADE:
     Large:
       Short: LBT
       Large: 大型爆发盖板
+      Long: 大型爆发盖板
     Available: 可用盖板
     Possible: 可能的盖板
   CompendiumTOC:
@@ -1119,6 +1133,41 @@ SWADE:
       Title: 确认切换
     Header: 内容
   Category: 物品类别
+  Resist: 抵抗
+  ColdBodied: 寒冷身躯
+  ResistRolls: 对抗投骰
+  NoTokenSelectedForResistRoll: 进行对抗投骰，首先选择一个指示物
+  ItemIsAmmo: 属于弹药
+  Vision:
+    SeeHeat: 看见热量
+    SenseHeat: 感知热量
+  Attribute: 属性
+  BaseDie: 基础骰
+  AttributeManager:
+    Title: 管理{name}的属性
+    Open: 管理属性
+  HeavyArmor: 重护甲
+  HeavyWeapon: 重武器
+  UsesTOC: 使用TOC合集
+  TOCSettings:
+    Label: 打开TOC合集设置
+    Name: TOC合集设置
+    Hint: 配置TOC合集应用
+  DieSides: 骰面
+  WildDieSides: 不羁骰面
+  EncumbranceSteps: 负载等级
+  EffectWizard:
+    Preview: 预览
+    Change: 改变
+    Mode: 调整
+    Value: 数值
+    Changes: 改变
+    SelectAttribute: 选择属性
+    EnterSkill:
+      Label: 输入技能
+      Hint: 你可以输入喜欢的技能名称或是从建议列表中选择一项
+  OtherStats: 其他数值
+  HotbarDropOwnedItemWarning: 你只能为拥有的物品创建宏
 ITEM:
   TypeSkill: 技能
   TypePower: 奇术
@@ -1130,6 +1179,7 @@ ITEM:
   TypeGear: 装备
   TypeEdge: 专长
   TypeHindrance: 负赘
+  TypeAction: 动作
 CARD:
   TypeAdventure: 冒险卡
   TypePoker: 扑克牌
