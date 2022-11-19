@@ -682,6 +682,7 @@ SWADE:
   Vision:
     SeeHeat: See Heat
     SenseHeat: Sense Heat
+    Infravision: Infravision
   Attribute: Attribute
   BaseDie: Base Die
   AttributeManager:
