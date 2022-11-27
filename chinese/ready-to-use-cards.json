@@ -428,5 +428,11 @@
     "RTUCards.divineTarot.cards.trumps10.label": "命运之轮",
     "RTUCards.divineTarot.cards.trumps16.label": "塔",
     "RTUCards.divineTarot.cards.trumps20.label": "审判",
-    "RTUCards.divineTarot.cards.trumps21.label": "世界"
+    "RTUCards.divineTarot.cards.trumps21.label": "世界",
+    "RTUCards.action.moveCard.give.notifyOnGMAction": "[GM 动作] 详细消息",
+    "RTUCards.action.moveCard.give.notifyOnPlayerAction": "[玩家动作] 详细消息",
+    "RTUCards.action.moveCard.discardOne.notifyOnGMAction": "[GM 行动] 详细消息",
+    "RTUCards.action.moveCard.discardOne.notifyOnPlayerAction": "[玩家行动] 详细消息",
+    "RTUCards.settings.config-actions.additionalData.revealedFaceDown": "选中后，明牌将会盖覆放置",
+    "RTUCards.action.moveCard.backDeck.notifyOnGMAction": "[GM 动作] 详细消息"
 }
