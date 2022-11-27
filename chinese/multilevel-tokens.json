@@ -44,5 +44,7 @@
     "MLT.SectionLevelsNotes": "指示物移动到 <b>@stairs</b> 时将被传送到在层数更邻近的楼层区域内其他的 <b>@stairs</b>，位置保持相对一致。",
     "MLT.FieldAdditionalArgumentsNotes": "在宏内，<b>args</b> 变量中可用的参数，用逗号分隔。",
     "MLT.SectionMacroEventsNotes": "在宏内，<b>event</b> 变量将会在 <b>MLT.ENTER</b>, <b>MLT.LEAVE</b>, or <b>MLT.MOVE</b> 中取一值。",
-    "MLT.FieldClonedTokenOpacity": "克隆指示物的不透明度"
+    "MLT.FieldClonedTokenOpacity": "克隆指示物的不透明度",
+    "MLT.SettingCloneActorLinkHint": "若启用，被克隆的指示物将会链接到原指示物的角色。否则，克隆出的指示物不会链接到任何角色，成为一个“空壳”。",
+    "MLT.SettingCloneActorLink": "克隆的指示物链接到角色"
 }
