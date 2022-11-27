@@ -332,5 +332,7 @@
     "TIDY5E.Settings.EditTotalLock": {
         "name": "锁定敏感字段。",
         "hint": "启用以防止意外地改变合理的、大部分是静态的值。"
-    }
+    },
+    "TIDY5E.ShowItemArt": "显示图像",
+    "TIDY5E.ShowItemImage": "右键：显示物品图像"
 }
