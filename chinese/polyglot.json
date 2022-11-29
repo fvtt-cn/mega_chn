@@ -100,7 +100,7 @@
             "SpecialLanguages.hint": "会替换\"语言\"的语言名称，例如\"它生命中所知的所有语言\"。"
         },
         "Languages.title": "语言",
-        "Languages.hint": "选择语言使用的字母表。刷新时会重置为默认。",
+        "Languages.hint": "选择语言使用的字母表。",
         "CustomLanguages.title": "自定义语言",
         "CustomLanguages.hint": "定义一个要添加至系统的自定义语言列表，使用逗号隔开。",
         "ComprehendLanguages.title": "通晓语言法术",
@@ -117,8 +117,8 @@
         "ReplaceLanguages.hint": "使用你的自定义语言替换系统的默认语言。列表中第一个语言会成为新的默认语言。",
         "ScrambleGM.title": "为GM加密信息",
         "ScrambleGM.hint": "不要为 GM 翻译文本（参照地球图标的颜色来理解指示物）。需要重载。",
-        "enableAllFonts.title": "将字体添加到字体和语言设置",
-        "enableAllFonts.hint": "将字体添加到字体和语言设置。",
+        "enableAllFonts.title": "将字体添加到模组设置",
+        "enableAllFonts.hint": "从所选来源中，将字体添加到字体设置和语言设置。",
         "RandomizeRunes.title": "随机符文",
         "RandomizeRunes.hint": "这决定了哪种随机数生成器会用于生成句子。 ⚠️ \"无\"选项仅支持字母数字符号 (无重音)。",
         "ExportFonts.title": "将 Polyglot 的字体添加到核心",
@@ -131,7 +131,7 @@
         "AllowOOC.hint": "选择需要将其信息打乱的用户。OOC=超游。",
         "LanguageRegex": {
             "title": "语言正则表达式",
-            "hint": "你可以使用这个来将在物品上搜索的目标从\"Languages\"变成其他东西。例如，\"Idioma\"是葡萄牙/西班牙语，或\"Sprache\"是德语。该项设置对非英语使用者来说更有用。"
+            "hint": "你可以使用这个来将在物品上搜索的目标从\"Language\"变成其他东西，例如\"Tongue\"。该项设置对非英语使用者来说更有用。"
         },
         "enableAllFonts": {
             "choices": {
