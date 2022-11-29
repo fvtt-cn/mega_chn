@@ -512,7 +512,9 @@
                 "Path": "属性路径",
                 "AddNew": "添加新过滤器",
                 "Submit": "提交过滤条目",
-                "Filters": "过滤器"
+                "Filters": "过滤器",
+                "Title": "Item Piles 过滤编辑器",
+                "TitleActor": "Item Piles 过滤编辑器：{actor_name}"
             },
             "SimilaritiesEditor": {
                 "Title": "Item Piles 相似物品编辑器",
@@ -528,7 +530,7 @@
                 "Submit": "保存货币",
                 "Title": "Item Piles 货币编辑器",
                 "TitleActor": "Item Piles 货币编辑器：{actor_name}",
-                "Explanation": "你可以在此处定义角色可以从物品堆中捡起的货币。",
+                "Explanation": "你可以在此处定义角色能够从物品堆中捡起的货币，比如这些货币。",
                 "DragDrop": "拖放物品来将其添加进列表",
                 "Exchange": "兑换比例",
                 "Data": "数据",
@@ -561,7 +563,13 @@
                 "Free": "免费物品",
                 "FreeExplanation": "启用后，在商人处购买此物品不用花钱。",
                 "DisableNormalCostExplanation": "该项启用后，无法使用主要货币购买此物品，而必须使用下列项目之一购买。",
-                "PurchaseOptions": "购买选项"
+                "PurchaseOptions": "购买选项",
+                "CantBeSoldToMerchants": "不能卖回",
+                "CantBeSoldToMerchantsExplanation": "启用后，该物品只能从商人处购买，无法卖回。",
+                "AddPurchaseOption": "添加购买选项",
+                "DropMeClickMe": "通过点击或者拖放物品来添加属性",
+                "PricePreset": "或者选择已有的预设价格：",
+                "SelectPreset": "选择预设价格"
             },
             "GiveItem": {
                 "Give": "给予",
@@ -590,7 +598,48 @@
                 "System": "系统专门设置",
                 "Donate": "如果喜欢该模组，您的捐款将会帮助它继续下去！",
                 "MoreToCome": "并提供更多配置选项……",
-                "Submit": "提交设定"
+                "Submit": "提交设定",
+                "Request": "在这里提出你的新特性要求。"
+            },
+            "ItemPileConfig": {
+                "Main": {
+                    "DisplayItemTypes": "通过物品类型筛选物品",
+                    "DisplayItemTypesExplanation": "在物品堆中分类别显示各种物品，根据其物品类型排序。",
+                    "Title": "主要设置",
+                    "EnabledPile": "启用",
+                    "EnabledPileExplanation": "是否为物品堆。",
+                    "InspectItems": "启用物品检视",
+                    "InspectItemsExplanation": "点击物品名称将打开其物品卡.",
+                    "Distance": "交互距离",
+                    "GridUnits": "单元格 (留空为无限)",
+                    "Macro": "交互宏",
+                    "MacroExplanation": "与此物品堆交互时执行的宏命令名称。",
+                    "MacroPlaceholder": "插入宏名称",
+                    "EditDescription": "编辑描述",
+                    "EditDescriptionExplanation": "该描述会在查看物品堆时的相关界面上显示",
+                    "DeleteWhenEmpty": "搬空后删除",
+                    "DeleteWhenEmptyExplanation": "这个物品堆被搬空后自动删除。",
+                    "DeleteWhenEmptyDefault": "默认模组设置",
+                    "DeleteWhenEmptyYes": "是，搬空后自动删除",
+                    "DeleteWhenEmptyNo": "否，搬空后不要删除",
+                    "OverrideCurrencies": "覆盖货币"
+                },
+                "Title": "Item Pile 配置：{actor_name}",
+                "Configure": "物品堆",
+                "Update": "更新物品堆"
+            },
+            "ItemTypePriceModifiersEditor": {
+                "Title": "物品类型价格调整值编辑器",
+                "TitleActor": "物品类型价格调整值编辑器：{actor_name}",
+                "ItemType": "物品类型",
+                "Submit": "提交价格调整值"
+            },
+            "PriceModifiersEditor": {
+                "TitleActor": "Item Piles 价格调整值编辑器：{actor_name}",
+                "DragDrop": "向列表内拖放角色来进行添加",
+                "Actor": "角色",
+                "Submit": "提交价格调整值",
+                "Title": "Item Piles 价格调整值编辑器"
             }
         },
         "HeaderButtons": {
@@ -598,7 +647,8 @@
         },
         "Warnings": {
             "NoPlayersActive": "没有可以进行该行为的活跃玩家",
-            "GiveItemDeclined": "{user_name}拒绝了您的物品报价。"
+            "GiveItemDeclined": "{user_name}拒绝了您的物品报价。",
+            "GiveItemNoGM": "没有 GM 主动接收您给予的此物品。"
         }
     }
 }
