@@ -328,7 +328,7 @@
         "hint": "输入角色肖像生命值覆盖物向内偏移的数值，在偏移的部分不会给生命值覆盖物着色。",
         "name": "生命值覆盖物偏移。"
     },
-    "TIDY5E.ItemDetailsHeadline": "效果/描述",
+    "TIDY5E.ItemDetailsHeadline": "效果/背景叙述",
     "TIDY5E.Settings.EditTotalLock": {
         "name": "锁定敏感字段。",
         "hint": "启用以防止意外地改变合理的、大部分是静态的值。"
