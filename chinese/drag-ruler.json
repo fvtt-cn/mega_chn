@@ -12,9 +12,9 @@
                     "name": "速度设置提供方"
                 },
                 "color": {
-                    "hint": "将在 {colorName} 范围内的色彩格子内使用的颜色",
+                    "hint": "将在 {colorName} 范围内的色彩格子内使用的颜色。",
                     "unreachable": {
-                        "hint": "拖拽指示物时显示的不可抵达的格子的颜色",
+                        "hint": "拖拽指示物时显示的不可抵达的格子的颜色。",
                         "name": "不可抵达"
                     },
                     "name": "颜色 {colorName}"
@@ -22,7 +22,7 @@
                 "noSettings": "此速度提供方并不提供任何配置项。",
                 "activeProvider": {
                     "hint": "下方显示的此设置依赖于一个激活的速度提供方。如果 GM 选择了其他的速度提供方，可用的设置项可能会改变。",
-                    "name": "当前激活的速度提供方"
+                    "name": "激活的速度提供方"
                 },
                 "headers": {
                     "speedProviderSettings": "速度提供方特定设置",
@@ -38,11 +38,11 @@
                 "name": "交换空格与右键功能"
             },
             "showGMRulerToPlayers": {
-                "hint": "禁用后，GM 的测量尺将不会向非 GM 玩家展示",
+                "hint": "禁用后，GM 的测量尺将不会向非 GM 玩家展示。",
                 "name": "向玩家展示 GM 尺子"
             },
             "enableMovementHistory": {
-                "hint": "启用后，Drag Ruler将会记住指示物在战斗中其回合内行经的路径，并且会在拉起指示物时显示。",
+                "hint": "启用后，Drag Ruler 将会记住指示物在战斗中其回合内行经的路径，并且会在拉起指示物时显示。",
                 "name": "在战斗时启用移动历史"
             },
             "alwaysShowSpeedForPCs": {
@@ -72,7 +72,7 @@
             },
             "autoPathfinding": {
                 "name": "默认寻路",
-                "hint": "若启用，拖动指示物会自动使用寻路标尺"
+                "hint": "若启用，拖动指示物会自动使用寻路标尺。"
             }
         },
         "genericSpeedProvider": {
@@ -110,15 +110,15 @@
             "deleteWaypoint": "删除路径点",
             "disableSnap": {
                 "name": "禁用吸附",
-                "hint": "按下此键时吸附会被暂时禁用"
+                "hint": "按下此键时吸附会被暂时禁用。"
             },
             "moveWithoutAnimation": {
                 "name": "禁用指示物动画",
-                "hint": "放置指示物时按住，则指示物将直接移动至目标地点"
+                "hint": "放置指示物时按住，则指示物将直接移动至目标地点。"
             },
             "togglePathfinding": {
                 "name": "寻路开关",
-                "hint": "拖动指示物时按住，寻路功能便会暂时启用/禁用"
+                "hint": "拖动指示物时按住，寻路功能便会暂时启用/禁用。"
             }
         }
     }
