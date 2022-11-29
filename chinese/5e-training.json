@@ -11,8 +11,8 @@
     "C5ETRAINING.ImportTypeSelectionTextOverwrite": "永久删除所有正在跟踪的项目，并替换为正在导入的项目。",
     "C5ETRAINING.ImportTypeSelectionTitle": "应该如何导入？",
     "C5ETRAINING.ImportNoFile": "没有选择文件。正在取消导入。",
-    "C5ETRAINING.ImportNoTrackedItems": "没有可以导入的项目。正在取消导入。",
-    "C5ETRAINING.ExportNoTrackedItems": "没有可以导出的项目。正在取消导出。",
+    "C5ETRAINING.ImportNoTrackedItems": "没有可以导入的项目或类别。正在取消导入。",
+    "C5ETRAINING.ExportNoTrackedItems": "没有可以导出的项目或类别。正在取消导出。",
     "C5ETRAINING.ImportTrackedItemsTooltip": "从文件导入跟踪项",
     "C5ETRAINING.ExportTrackedItemsTooltip": "导出跟踪项到文件",
     "C5ETRAINING.ImportTrackedItems": "导入",
@@ -174,5 +174,8 @@
     "C5ETRAINING.Roll": "掷骰",
     "C5ETRAINING.AdjustProgressValue": "调整进度",
     "C5ETRAINING.Cancel": "取消",
-    "C5ETRAINING.InvalidNumberWarning": "无效输入值。请输入一个数字。"
+    "C5ETRAINING.InvalidNumberWarning": "无效输入值。请输入一个数字。",
+    "C5ETRAINING.ImportOldWarningTitle": "无法导入类别",
+    "C5ETRAINING.ImportOldWarningText": "您导入的数据来自旧版本的模组，不支持导出项目的类别数据。模组仍然为您导入了这些数据，但是所有物品的类别均已被设为“未分类”。",
+    "C5ETRAINING.ImportOldWarningConfirm": "搞定，谢谢！"
 }
