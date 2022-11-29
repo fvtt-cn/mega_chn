@@ -12,7 +12,7 @@
     "MonksCommonDisplay.show-chat-log.name": "显示聊天记录",
     "MonksCommonDisplay.show-chat-log.hint": "显示聊天记录时，也显示侧边菜单栏。",
     "MonksCommonDisplay.allow-gm-players.name": "允许 GM 玩家",
-    "MonksCommonDisplay.allow-gm-players.hint": "允许选中的 GM 玩家成为公共显示玩家",
+    "MonksCommonDisplay.allow-gm-players.hint": "允许 GM 玩家显示在公共显示玩家列表中",
     "MonksCommonDisplay.show-combatants.name": "显示所有参战者",
     "MonksCommonDisplay.show-combatants.hint": "显示全列表，而不只是激活的参战者",
     "MonksCommonDisplay.limit-shown.name": "限制展示的参战者",
@@ -34,5 +34,8 @@
     "MonksCommonDisplay.show-camera-views.hint": "启用视频集成后显示摄像头视图。",
     "MonksCommonDisplay.show-camera-views.name": "显示摄像头视图",
     "MonksCommonDisplay.combat-scale.name": "战斗缩放",
-    "MonksCommonDisplay.combat-scale.hint": "缩放战斗UI尺寸变小或者变大"
+    "MonksCommonDisplay.combat-scale.hint": "缩放战斗UI尺寸变小或者变大",
+    "MonksCommonDisplay.close-after.name": "自动关闭弹窗",
+    "MonksCommonDisplay.close-after.hint": "窗口弹出超过一定秒数后，自动关闭窗口",
+    "MonksCommonDisplay.toggletoolbar": "开关工具栏显示"
 }
