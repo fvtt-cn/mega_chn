@@ -1,0 +1,76 @@
+{
+    "PF1AS": {
+        "InfoMissingClass": "Your character is missing a class. Go to the features tab and add one.",
+        "CharacterSheetLabel": "Alternative character sheet",
+        "NPCSheetLabel": "Alternative NPC character sheet",
+        "ExperienceShort": "XP",
+        "Abilities": "Abilities",
+        "AbilityScores": "Ability Scores",
+        "ACShort": "AC",
+        "FFShort": "FF",
+        "NatAC": "Nat. AC",
+        "SpellRes": "Spell Res.",
+        "Levels": "Level",
+        "TouchShort": "Touch",
+        "PointBuy": "Use Point Buy",
+        "SpeedAndMovement": "Speed and Movement",
+        "AttackBonuses": "Attack Bonuses",
+        "BaseCombatStats": "Base Combat Stats",
+        "ClassNoFeatures": "Class has no features",
+        "DieLetter": "D",
+        "NoFeatures": "Create (+) or drag from a compendium into this list",
+        "SpecialQualities": "Special Qualities",
+        "CombatManeuvers": "Combat Maneuvers",
+        "CasterLevel": "Caster Level",
+        "Roll": "Roll",
+        "Level0": "0th",
+        "Level1": "1st",
+        "Level2": "2nd",
+        "Level3": "3rd",
+        "Level4": "4th",
+        "Level5": "5th",
+        "Level6": "6th",
+        "Level7": "7th",
+        "Level8": "8th",
+        "Level9": "9th",
+        "Chat": {
+            "addAttackChatCardTemplateN": "Change attack roll chat card to alternative",
+            "addAttackChatCardTemplateH": "Changes attack roll chat card to an alternate version."
+        },
+        "Spells": {
+            "CannotCast": "You cannot cast spells of this level because:",
+            "CannotCastAbilityScore": "- your ability score is not high enough",
+            "NoSpellsLeft": "No spells left",
+            "NeededConcentration": "Needed concentration rolls",
+            "Defensive": "Defensive",
+            "VigorousMotion": "Vigorous Motion",
+            "ViolentMotion": "Violent Motion",
+            "ExtremeMotion": "Extremely Violent Motion",
+            "ViolentWeather1": "High wind carrying blinding rain/sleet",
+            "ViolentWeather2": "Wind-driven hail/dust/debris",
+            "AlwaysSucceeds": "Always succeeds"
+        },
+        "Skill": {
+            "AlwaysShow": "AS",
+            "AlwaysShowTooltip": "Always show on summary tab",
+            "TooManyRanks": "Used too many skill ranks",
+            "AddSkill": "Add Skill"
+        },
+        "Features": {
+            "MinimizeClasses": "Minimize display of classes",
+            "TooManyFeats": "Too many feats"
+        },
+        "Config": {
+            "Reset": "Reset Sheet config",
+            "ResetTooltip": "Clears the module-specific config for this actor and restores the default. Good when something seems to be broken."
+        },
+        "Links" : {
+            "Header": "Actor Link",
+            "Mode": "Mode",
+            "ModeNone": "None",
+            "ModeFamiliar": "Familiar",
+            "MasterRankPlural": "Master Ranks"
+        },
+        "MetricSpeeds": "You are using metric.\nPlease enter ft values anyway.\nCommon values:\n20 ft = 6 m\n30 ft = 9 m"
+    }
+}
