@@ -626,7 +626,19 @@
                 },
                 "Title": "Item Pile 配置：{actor_name}",
                 "Configure": "物品堆",
-                "Update": "更新物品堆"
+                "Update": "更新物品堆",
+                "SingleItem": {
+                    "DisplayOneExplanation": "如果物品堆中只有一个物品，则会将物品堆的指示物图像设置为该物品图像。",
+                    "Title": "单物品设置",
+                    "DisplayOneContainerWarning": "警告！你同时启用了\"显示单物品图像\" 和 \"为容器\"，在这种情况下，会优先显示容器图像。",
+                    "DisplayOne": "显示单物品图像",
+                    "OverrideScale": "覆盖单物品指示物大小",
+                    "Scale": "单物品指示物大小",
+                    "ItemName": "使用物品名称"
+                },
+                "Other": {
+                    "Title": "其他设置"
+                }
             },
             "ItemTypePriceModifiersEditor": {
                 "Title": "物品类型价格调整值编辑器",
