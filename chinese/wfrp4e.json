@@ -1513,5 +1513,7 @@
     "CAREER.Loading": "加载职业",
     "EFFECT.ShooterEngaged": "射击者陷入近战 - 无射程调整值",
     "EFFECT.ShootingAtEngagedTarget": "目标陷入近战",
-    "CHAT.ScatterTarget": "T"
+    "CHAT.ScatterTarget": "T",
+    "SETTINGS.useWoMOvercastHint": "使用《魔法之风》扩展第 23 页中提供的超载规则。",
+    "MOO.Prone": "<br><br><b>Moo的房规</b>：在决定远程攻击范围时，你的距离视作更远一级。"
 }
