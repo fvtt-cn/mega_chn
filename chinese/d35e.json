@@ -1637,5 +1637,15 @@
     "D35E.CurseIdentified": "诅咒确认",
     "D35E.IdentifiedInformation": "该物品无法被检定。",
     "D35E.CursedInformation": "该物品被诅咒了。",
-    "D35E.DamagePoolInfo": "启用伤害池限制，使得状态能在吸收一定伤害后失效（例如法师的石肤术）。为了让其能正常运作，该状态还必须提供伤害减免或能量抗力。 "
+    "D35E.DamagePoolInfo": "启用伤害池限制，使得状态能在吸收一定伤害后失效（例如法师的石肤术）。为了让其能正常运作，该状态还必须提供伤害减免或能量抗力。 ",
+    "D35E.Points": "点数",
+    "D35E.MessageResistedSpell": "成功抵抗攻击！",
+    "D35E.MessageResisitanceFailed": "没能抵抗攻击！",
+    "D35E.Invisible": "隐形",
+    "D35E.AddEntry": "应用条目",
+    "D35E.EntrySelector": "输入选择",
+    "D35E.True": "启用",
+    "D35E.False": "关闭",
+    "D35E.SpellDismissable": "可以反制",
+    "D35E.SpellLegacyDuration": "剩余时间（弃用）"
 }
