@@ -231,8 +231,14 @@
   "PF1.TooltipWorldConfigHideConditions_Hint": "Hide Conditions from all players",
   "PF1.TooltipWorldConfigHideClothing": "Hide Clothing (globally)",
   "PF1.TooltipWorldConfigHideClothing_Hint": "Hide Clothing from all players",
-  "PF1.TooltipWorldConfigHideActorName": "Hide Actor names (globally)",
-  "PF1.TooltipWorldConfigHideActorName_Hint": "Hide Actor names from all players",
+  "PF1.TooltipWorldConfigHideActorNameByDisposition": "Hide Actor names (globally)",
+  "PF1.TooltipWorldConfigHideActorNameByDisposition_Hint": "Hide Actor names from all players by disposition",
+  "PF1.Disposition": {
+    "None": "None",
+    "Hostile": "Hostile",
+    "Non-Friendly": "Non-Friendly",
+    "All": "All"
+  },
   "PF1.TooltipWorldConfigHideActorNameReplacement": "Hidden Replacement Name",
 
   "PF1.LevelUpForm_Title": "Level up {className}",
