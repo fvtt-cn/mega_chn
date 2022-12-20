@@ -1778,6 +1778,8 @@
 
   "D35E.ls.quantity": "Quantity",
   "D35E.ls.price": "Price (in gp)",
+  "D35E.ls.sell": "Sell",
+  "D35E.ls.buy": "Buy",
   "D35E.ls.accept": "Accept",
   "D35E.ls.cancel": "Cancel",
   "D35E.ls.update": "Update",
@@ -1794,7 +1796,7 @@
 
   "D35E.ls.chatLoot": "{buyer} looted {quantity} x {name}.",
   "D35E.ls.chatLootCoins": "{buyer} looted {quantity} {currency}.",
-  "D35E.ls.chatPurchase": "{buyer} purchased {quantity} x {name} for {cost} gp.",
+  "D35E.ls.chatPurchase": "{buyer} purchased {quantity} x {name} for {cost}.",
   "D35E.ls.chatSell": "{seller} sold {quantity} x {item} for {price} gp. to {container}",
   "D35E.ls.chatDrop": "{seller} dropped {quantity} x {item} into {container}",
   "D35E.ls.chatGive": "{quantity} x {item} given/moved from {giver} to {receiver}.",
@@ -1821,6 +1823,7 @@
   "D35E.ls.lootItem": "Loot Item",
   "D35E.ls.lootCoins": "Loot Coins",
   "D35E.ls.buyItem": "Buy Item",
+  "D35E.ls.sellItem": "Sell Item",
   "D35E.ls.editItem": "Edit Item",
   "D35E.ls.deleteItem": "Delete Item",
 
@@ -1881,6 +1884,7 @@
   "D35E.ls.buyContent": "Are you sure you want to buy <em>{item}</em>?",
 
   "D35E.ls.convertToLoot": "Convert to loot",
-  "D35E.ls.convertToLootUnlinked": "Convert defeated (tokens) to loot"
+  "D35E.ls.convertToLootUnlinked": "Convert defeated (tokens) to loot",
+  "D35E.patreonLocked": "This feature is exclusive to Patreon supporters. Coming soon."
 
 }
