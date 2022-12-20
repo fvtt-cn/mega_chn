@@ -1661,6 +1661,8 @@
   "D35E.False": "False",
   "D35E.SpellDismissable": "Can Dismiss",
   "D35E.SpellLegacyDuration": "Legacy Duration (Deprecated)",
+  "D35E.TreasureGenerator": "Generate Treasure (Token)",
+  "D35E.ConvertToLoot": "Convert To Loot (Token)",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
