@@ -958,6 +958,8 @@
   "PF1.ErrorCouldNotFindActorByName": "Could not find actor by name '{0}'",
   "PF1.ErrorFeatDisabled": "This feat is disabled",
   "PF1.ErrorNoMacroID": "No macro with id '{id}' was found",
+  "PF1.ErrorEmptySkillTag": "Skill tag cannot be empty",
+  "PF1.ErrorSkillTagAlreadyExists": "Skill tag '{tag}' already exists",
   "PF1.WarningNoSizeDie": "Could not determine size-appropriate die for {0}, defaulting to rolling {1}",
   "PF1.WarningNoDiceAllowedInFormula": "No dice rolls are allowed in formula '{0}' for {1}",
   "PF1.WarningInsufficientAmmunition": "You have insufficient ammunition of type {0}",
