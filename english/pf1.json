@@ -1571,6 +1571,7 @@
   "PF1.SeeText": "See Text",
   "PF1.DC": "DC",
   "PF1.DCOffset": "DC Offset",
+  "PF1.DCThreshold": "DC {threshold}",
   "PF1.DCDescriptionExample": "e.g. Reflex half",
   "PF1.InitiativeBonus": "Initiative Bonus",
   "PF1.PowerAttack": "Power Attack",
