@@ -182,7 +182,7 @@
     "DICESONICE.Export": "全部导出",
     "DICESONICE.ExportSFX": "导出特效",
     "DICESONICE.muteSoundSecretRolls": "静音所有 GM/盲/自骰",
-    "DICESONICE.enableFlavorColorset": "当传递了主题时（如：1d20[acid]）覆盖你的骰子外观",
+    "DICESONICE.enableFlavorColorset": "当传递了用以描述骰子的主题时（如：1d20[acid]），覆盖你的骰子外观",
     "DICESONICE.migrateMessageNeedGM": "'Dice So Nice' 需要迁移到 v4。请连接 GM 账号。",
     "DICESONICE.disabledForInitiative": "禁用先攻掷骰",
     "DICESONICE.disabledForInitiativeHint": "当从战斗板中掷先攻骰时禁用 3D 掷骰。",
@@ -215,7 +215,7 @@
     "DICESONICE.RollableAreaConfigDescription1": "调整大小和/或移动区域，以确定显示3D骰子动画的 \"掷骰区域\"。",
     "DICESONICE.RollableAreaConfigDescription2": "按 \"应用 \"保存并应用您的更改，或按 \"恢复 \"返回到自动设置。",
     "DICESONICE.Restore": "恢复",
-    "DICESONICE.RollableAreaConfigDescription3": "调整窗口大小时，已有的掷骰区域的大小不会随之改变。你必须自己重新调整区域的尺寸。",
+    "DICESONICE.RollableAreaConfigDescription3": "当存在自定义掷骰区域时，已有的掷骰区域的大小不会随之改变。你必须自己重新调整自定义区域的尺寸。",
     "DICESONICE.immersiveDarkness": "启用沉浸黑暗模式 (骰子对场景光照有反应)",
     "DICESONICE.Medium": "中等",
     "DICESONICE.Custom": "自定义",
@@ -241,5 +241,11 @@
     "DICESONICE.TourMainTitleEndTour": "展示结束",
     "DICESONICE.TourMainTitleGotoSettings": "设置栏",
     "DICESONICE.TourMainTitleGotoModulesSettings": "Dice So Nice 设置",
-    "DICESONICE.TourMainTitleGotoConfigure": "配置设定"
+    "DICESONICE.TourMainTitleGotoConfigure": "配置设定",
+    "DICESONICE.TourMainTitleGotoDiceSoNiceSettings": "3D 骰子设置",
+    "DICESONICE.TourMainContentGotoDiceSoNiceSettings": "打开你的个人 3D 骰子设置以自定义你的骰子。",
+    "DICESONICE.TourMainContentShow3DDice": "这是 3D 骰子的预览，你可以在这里看到你自己的骰子。每个玩家都有自己的骰子，你也可以点击一个骰子来自定义它。",
+    "DICESONICE.WelcomeMessageTour": "想要速览 Dice So Nice 的功能，请在检查你的教程管理器或是点击此按钮。",
+    "DICESONICE.TourMainTitleShowAppearance": "外观",
+    "DICESONICE.TourMainTitleShow3DDice": "魔法发生之地"
 }
