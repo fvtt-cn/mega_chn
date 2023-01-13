@@ -103,7 +103,7 @@
         "Languages.hint": "选择语言使用的字母表。",
         "CustomLanguages.title": "自定义语言",
         "CustomLanguages.hint": "定义一个要添加至系统的自定义语言列表，使用逗号隔开。",
-        "ComprehendLanguages.title": "通晓语言法术",
+        "ComprehendLanguages.title": "理解所有语言",
         "ComprehendLanguages.hint": "设置一种语言，使说它的人明白所有其他语言，但其并不能被说出或写下。",
         "Truespeech.title": "巧言术",
         "Truespeech.hint": "设置一种语言，说它的人听懂所有说出的语言(不能阅读笔记)，且所有生物都能听懂其。",
@@ -122,7 +122,7 @@
         "RandomizeRunes.title": "随机符文",
         "RandomizeRunes.hint": "这决定了哪种随机数生成器会用于生成句子。 ⚠️ \"无\"选项仅支持字母数字符号 (无重音)。",
         "ExportFonts.title": "将 Polyglot 的字体添加到核心",
-        "ExportFonts.hint": "将 Polyglot 的字体添加到核心的额外字体菜单。",
+        "ExportFonts.hint": "将 Polyglot 的字体添加到核心的额外字体菜单。将此项关闭后菜单中所有的 Polyglot 字体都会被移除。",
         "DisplayTranslated.title": "显示翻译",
         "DisplayTranslated.hint": "对于在聊天窗口中的会被翻译的语言，显示原始文本并在其下方显示译文。",
         "HideTranslation.title": "对玩家隐藏翻译按钮",
@@ -140,6 +140,17 @@
                 "2": "核心额外字体",
                 "3": "我全都要"
             }
+        },
+        "IgnoreJournalFontSize": {
+            "hint": "忽略日志中 Polyglot 的字体大小，使用与普通文本相同的字体大小。 如果日志的格式比较重要的话很有用。",
+            "title": "日志：使用普通字体大小"
+        },
+        "JournalHighlightColor": {
+            "hint": "定义日志中高亮字体的颜色。",
+            "title": "日志高亮颜色"
+        },
+        "languageDataPath": {
+            "title": "语言数据路径"
         }
     }
 }
