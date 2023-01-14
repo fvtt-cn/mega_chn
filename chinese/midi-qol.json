@@ -71,7 +71,8 @@
         "wallsBlockIgnoreDefeated": "墙壁遮挡 - 忽略战败",
         "alwaysIgnoreDefeated": "始终 - 忽略战败",
         "dfqol": "使用 DF QOL",
-        "dftemplates": "使用 DF 模版增强"
+        "dftemplates": "使用 DF 模版增强",
+        "dfwalledTemplates": "使用 DF Walled 测量板"
     },
     "midi-qol.buttons.altDamage": "替代伤害",
     "midi-qol.buttons.attack": "攻击",
@@ -107,7 +108,7 @@
     "midi-qol.concentrationCheckName": "专注",
     "midi-qol.config": "Midi QoL 配置",
     "midi-qol.ConfigTitle": "Midi-Qol 配置",
-    "midi-qol.CriticalDamage.Hint": "需要foundry 0.7.0或更新版本。DND5e default - 使用标准的dnd5e重击伤害掷骰；base max only - 使用原本的武器伤害骰，但全部取最大值；max critical dice - 除武器伤害骰，额外掷重击骰，且额外的重击骰全部取最大值；max all dice - 额外掷重击骰，且武器伤害骰和额外重击骰都取最大值",
+    "midi-qol.CriticalDamage.Hint": "仅限 DND5e 的设置 - 使用标准的 dnd5e 重击伤害掷骰；普通伤害取最大值 - 仅使用原本的武器伤害骰（无重击骰），但全部取最大值；取重击骰最大值 - 重击骰取最大值；所有骰子取最大值 - 物品+重击骰取最大值；骰值二倍 - 骰子结果数值 x2；爆炸重击骰 - 正常投掷重击并爆炸投掷任一重击骰；仅限武器额外重击 - 只会造成物品的额外重击字段中的伤害",
     "midi-qol.CriticalDamage.Name": "选择如何掷重击伤害骰",
     "midi-qol.criticals": "重击",
     "midi-qol.CriticalSound.Name": "重击",
@@ -445,11 +446,13 @@
     "midi-qol.DamageCardAll": "全部",
     "midi-qol.CriticalDamageChoices": {
         "default": "仅限 DND5e 的设置",
-        "baseDamage": "无加值",
+        "baseDamage": "仅限武器额外重击",
         "maxCrit": "取重击骰最大值",
         "maxDamage": "取标准伤害最大值",
         "maxAll": "取所有骰最大值",
-        "doubleDice": "双倍掷骰伤害"
+        "doubleDice": "双倍掷骰伤害",
+        "explode": "爆炸重击骰",
+        "maxCritRoll": "取重击骰最大值（掷骰）"
     },
     "midi-qol.fullDamage": " ",
     "midi-qol.noDamageAlt": "豁免成功时不受伤害",
@@ -653,5 +656,12 @@
         "spell": "自动消耗法术位",
         "item": "自动消耗资源/使用次数",
         "both": "自动消耗资源/法术位"
-    }
+    },
+    "midi-qol.MeasuredTemplate": "测量板",
+    "midi-qol.PlayerCardDamageDifferent.Name": "如果骰出的的伤害不符合应用到某些目标的伤害，则显示玩家伤害卡片",
+    "midi-qol._comment for translators_noDamageonSaveSpells": "在 foundry v9 中，array json 元素不再受支持，因此只使用 v9 版本",
+    "midi-qol._comment for translators_fullDamage": "以下两行文本都是 midi 在法术描述中搜索到的",
+    "midi-qol._comment for translators_halfDamageAlt": "以下文本都是 midi 在法术描述中搜索到的",
+    "midi-qol._comment for translators_noDamage": "以下文本都是 midi 在法术描述中搜索到的",
+    "midi-qol._comment for translators_halfDamage": "以下文本都是 midi 在法术描述中搜索到的"
 }
