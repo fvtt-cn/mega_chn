@@ -126,7 +126,8 @@
         "tabLabel": "模组",
         "header": "模组选项",
         "labelMidiQoL": "Midi Qol",
-        "labelActionsFavorites": "角色动作/最爱"
+        "labelActionsFavorites": "角色动作/最爱",
+        "labelLazyMoney": "懒人金钱"
     },
     "TIDY5E.Settings.TabInfo": {
         "tabLabel": "信息",
@@ -334,5 +335,27 @@
         "hint": "启用以防止意外地改变合理的、大部分是静态的值。"
     },
     "TIDY5E.ShowItemArt": "显示图像",
-    "TIDY5E.ShowItemImage": "右键：显示物品图像"
+    "TIDY5E.ShowItemImage": "右键：显示物品图像",
+    "TIDY5E.Class": "职业",
+    "TIDY5E.SpellClass": "施法职业",
+    "TIDY5E.Spellbook": "法术书",
+    "TIDY5E.ClassArtificer": "奇械师",
+    "TIDY5E.ClassBarbarian": "野蛮人",
+    "TIDY5E.ClassBard": "吟游诗人",
+    "TIDY5E.ClassCleric": "牧师",
+    "TIDY5E.ClassCustom": "自定义",
+    "TIDY5E.ClassDruid": "德鲁伊",
+    "TIDY5E.ClassFighter": "战士",
+    "TIDY5E.ClassMonk": "武僧",
+    "TIDY5E.ClassPaladin": "圣武士",
+    "TIDY5E.ClassRanger": "游侠",
+    "TIDY5E.ClassRogue": "游荡者",
+    "TIDY5E.ClassSorcerer": "术士",
+    "TIDY5E.ClassWarlock": "邪术士",
+    "TIDY5E.ClassWizard": "法师",
+    "TIDY5E.Settings.MulticlassSpellbookFilterLabel": "兼职法术书筛选",
+    "TIDY5E.Settings.TabLocks": {
+        "tabLabel": "锁定",
+        "header": "锁定设置"
+    }
 }
