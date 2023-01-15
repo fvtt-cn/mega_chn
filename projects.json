@@ -1,11 +1,11 @@
 [
     {
         "name": "midi-qol",
-        "src": "https://gitlab.com/tposney/midi-qol/-/raw/master/lang/en.json"
+        "src": "https://gitlab.com/tposney/midi-qol/-/raw/v10/lang/en.json"
     },
     {
         "name": "dae",
-        "src": "https://gitlab.com/tposney/dae/-/raw/master/src/lang/en.json"
+        "src": "https://gitlab.com/tposney/dae/-/raw/v10/src/lang/en.json"
     },
     {
         "name": "betterCurses",
@@ -21,7 +21,7 @@
     },
     {
         "name": "tidy-ui",
-        "src": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/langs/en.json"
+        "src": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/src/langs/en.json"
     },
     {
         "name": "tidy5e",
@@ -89,7 +89,7 @@
     },
     {
         "name": "polyglot",
-        "src": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-polyglot/master/lang/en.json"
+        "src": "https://raw.githubusercontent.com/mclemente/fvtt-module-polyglot/master/lang/en.json"
     },
     {
         "name": "PDFoundry",
