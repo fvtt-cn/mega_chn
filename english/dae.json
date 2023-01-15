@@ -123,8 +123,6 @@
     "dae.enabled": "Enabled",
     "dae.disabled": "Disabled",
     "dae.tool_proficiency": "Tool Proficiency",
-    "dae.requireItemTarget.Name": "Non-transfer effects require item targets (dnd5e)",
-    "dae.requireItemTarget.Hint": "When enabled non-transfer effects are only applied to targets if the item specifies targets or self.",
     "dae.notTargetItem": "This item does not have targets specified",
     "dae.ConsumeCharge.Name": "Consume Charge On Passive Activation",
     "dae.ConsumeCharge.Hint": "When activating a passive effect via togglePassiveEffect or chat status card only activate if the item has charges and consume a charge",
@@ -345,6 +343,9 @@
     "dae.lightAngle": "Light Angle",
     "dae.DAEUntestedSystems.Name": "Load DAE for untested game systems",
     "dae.DAEUntestedSystems.Hint": "If checked DAE will load for any system not marked compatible. If unchecked DAE will only load for systems marked compatible. Requires reload",
-    "dae.SelfTarget.Name": "Apply to self when item rolled",
-    "dae.SelfTarget.Hint": "Effect is applied to the user of the item, not the targets"
+    "dae.SelfTarget.Name": "Apply to self when item applies target effects",
+    "dae.SelfTarget.Hint": "Effect is applied to the user of the item, not the targets if the item is applying effects to targets",
+    "dae.SelfTargetAlways.Name": "Apply to self when item is rolled",
+    "dae.SelfTargetAlways.Hint": "Effect is applied to the user of the item, not the targets whenever the item is rolled"
+
   }
