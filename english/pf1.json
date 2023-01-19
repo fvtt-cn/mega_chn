@@ -712,6 +712,19 @@
   "PF1.RedMantisAssassin": "Red Mantis Assassin",
   "PF1.Psychic": "Psychic",
 
+  "PF1.Spellcasting": {
+    "Progression": {
+      "Label": "Progression"
+    },
+    "Type": {
+      "Label": "Spell Type",
+      "Arcane": "Arcane",
+      "Divine": "Divine",
+      "Psychic": "Psychic",
+      "Alchemy": "Alchemical"
+    }
+  },
+
   "PF1.SpellComponentVerbal": "Verbal",
   "PF1.SpellComponentSomatic": "Somatic",
   "PF1.SpellComponentThought": "Thought",
@@ -945,6 +958,8 @@
   "PF1.ErrorNoActorPermissionAlt": "You don't have permission to control actor '{name}'",
   "PF1.ErrorNoFormula": "{name} does not have a formula to roll!",
   "PF1.ErrorItemNoOwner": "This item has no owner",
+  "PF1.ErrorSpellbookExists": "Spellbook already exists",
+  "PF1.ErrorNoFreeSpellbooks": "No free spellbookss",
   "PF1.ErrorItemFormula": "There's a formula error in item {item} on actor {actor}",
   "PF1.ErrorNoCharges": "There's no charges left in {name}",
   "PF1.ErrorInsufficientCharges": "There's insufficient charges left in {name}",
@@ -1353,6 +1368,7 @@
   "PF1.AttackName": "Attack Name",
   "PF1.ActionName": "Action Name",
   "PF1.CreateAttack": "Create Attack",
+  "PF1.CreateSpellbook": "Create Spellbook",
   "PF1.Active": "Active",
   "PF1.SpellDetails": "Spell Details",
   "PF1.SpellBook": "Spellbook",
