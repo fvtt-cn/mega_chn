@@ -1665,6 +1665,9 @@
   "D35E.CustomTreasureGenerator": "Generate Custom Treasure (Token)",
   "D35E.ConvertToLoot": "Convert To Loot (Token)",
   "D35E.EncounterGenerator": "Encounter Generator",
+  "D35E.WarnAttackRollIncorrect": "Attack bonus cannot be calculated for item {name} (incorrect roll {roll})",
+  "D35E.VisionControlledByActor": "The vision system is controlled by the actor (Senses menu, Items and effects). To disable that, turn on the option \"Do not override Token Vision\" in config tab.",
+  "D35E.VisionNoAutomation": "\"Do not override Token Vision\" is turned on. You can manually set vision here, but vision automation will not work.",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
