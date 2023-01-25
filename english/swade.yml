@@ -219,8 +219,10 @@ SWADE:
   ShowBennyAnimationDesc: >-
     Play an animation when spending a Benny. Only available if Dice So Nice! is
     installed
-  WildDiePreset: Wild Die Theme
-  WildDiePresetDesc: >-
+  WildDiePreset: Wild Die Preset
+  WildDiePresetDesc: Select a DSN Preset design for your Wild Die.
+  WildDieTheme: Wild Die Theme
+  WildDieThemeDesc: >-
     Select a DSN Theme for your Wild Die. Select 'Custom' if you want to create
     your own or 'None' if you don't want your Wild Die to look differently.
     Please keep in mind that self-created Wild Dies currently can only be seen
@@ -293,6 +295,7 @@ SWADE:
   String: Text
   Number: Number
   Checkbox: Checkbox
+  Selection: Selection
   WealthDie:
     Label: Wealth Die
     Broke:
@@ -600,6 +603,11 @@ SWADE:
       NPC:
         Hint: Set the amount of currency that NPC Actors recieve upon creation
         Name: NPC starting currency
+    NPCCurrency:
+      Name: NPCs use currency
+      Hint: >-
+        When enabled, all NPCs have the same currency options as Player
+        Characters
   EffectCallbacks:
     Shaken:
       RollSpirit: Roll Spirit
@@ -613,6 +621,7 @@ SWADE:
       Fail: You remain Stunned
       Success: You are no longer Stunned but remain Vulnerable
       Raise: You are no longer Stunned nor Vulnerable
+      UnStunModifier: Unstun Modifier
     BleedingOut:
       Title: Vigor Test to resist Bleeding Out
       Fail: You perish
@@ -642,6 +651,8 @@ SWADE:
     OffHand: Off-Hand
     MainHand: Main Hand
     TwoHands: Two Hands
+    Added: Added
+    Readied: Readied
   DestroyOnEmpty: Destroy when Empty
   Charges: Charges
   Consumable:
@@ -712,6 +723,16 @@ SWADE:
         suggestions
   OtherStats: Other Stats
   HotbarDropOwnedItemWarning: You can only create macro buttons for owned Items
+  AdditionalStats:
+    SelectHint: Enter a list of options, seperated by semicolon
+  MessageOnUse:
+    Label: Message on Use
+    Hint: Display a chat message when this item is used
+  ItemGrants:
+    EmptyHint: This item currently grants no items
+    Header: Item Grants
+    When: Grant Items When
+  IgnFatigue: Ignore Fatigue
 ACTOR:
   TypeCharacter: Player Character
   TypeNpc: NPC
