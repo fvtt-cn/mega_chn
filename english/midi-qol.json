@@ -668,6 +668,8 @@
   },
   "midi-qol.OptionalCritRule.Name": "(House Rule) Critical Roll Margin",
   "midi-qol.OptionalCritRule.Hint": "Attack Rolls this much above AC are critical. -1 disables",
+  "midi-qol.CriticalNat20.Name": "(House Rule) Allow normal criticals",
+  "midi-qol.CriticalNat20.Hint": "A roll above critical threshold is still a critical even if it does not meet the margin requirements",
   "midi-qol.ActorOnUseMacros": "Actor On Use Macros",
   "midi-qol.MacroPass": "Macro Pass",
   "midi-qol.MacroName": "Macro Name",
@@ -690,5 +692,9 @@
   "midi-qol.itemUseHooks.Hint": "Do NOT set this - used for author's testing",
   "midi-qol.SkillAbilityCheckAdvantage.Name": "Ability Check Advantage give Skill Advantage",
   "midi-qol.SkillAbilityCheckAdvantage.Hint": "If an actor has advantage/disadvatnage on ability checks, skills based on that ability also have advatnage/disadvantage",
-  "midi-qol.ignoreTotalCover": "No Full cover"
+  "midi-qol.ignoreTotalCover": "No Full cover",
+  "midi-qol.InitPromptTitle": "Initiative Roll",
+  "midi-qol.HighlightSuccess.Name": "Color code Hit/Miss Display",
+  "midi-qol.HighlightSuccess.Hint": "When displaying hits/misses, hits are in green and misses in read"
+
 }
