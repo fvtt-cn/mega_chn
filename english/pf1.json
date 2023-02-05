@@ -963,7 +963,7 @@
   "PF1.ErrorNoFormula": "{name} does not have a formula to roll!",
   "PF1.ErrorItemNoOwner": "This item has no owner",
   "PF1.ErrorSpellbookExists": "Spellbook already exists",
-  "PF1.ErrorNoFreeSpellbooks": "No free spellbookss",
+  "PF1.ErrorNoFreeSpellbooks": "No free spellbooks",
   "PF1.ErrorItemFormula": "There's a formula error in item \"{item}\" on actor \"{actor}\"",
   "PF1.ErrorActionFormula": "There's a formula error in action \"{action}\" in item \"{item}\" on actor \"{actor}\"",
   "PF1.ErrorNoCharges": "There's no charges left in {name}",
