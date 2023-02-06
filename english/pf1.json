@@ -854,6 +854,25 @@
   "PF1.FeatTypeRacial": "Racial Trait",
   "PF1.FeatTypeTemplate": "Template",
 
+  "PF1.TraitType": "Trait Type",
+  "PF1.Trait": {
+    "Combat": "Combat",
+    "Magic": "Magic",
+    "Faith": "Faith",
+    "Social": "Social",
+    "Campaign": "Campaign",
+    "Cosmic": "Cosmic",
+    "Equipment": "Equipment",
+    "Exemplar": "Exemplar",
+    "Faction": "Faction",
+    "Family": "Family",
+    "Mount": "Mount",
+    "Race": "Race",
+    "Region": "Region",
+    "Religion": "Religion",
+    "Drawback": "Drawback"
+  },
+
   "PF1.ActivationTypePassive": "Passive",
   "PF1.ActivationTypeFree": "Free",
   "PF1.ActivationTypeSwift": "Swift",
