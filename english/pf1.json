@@ -1497,6 +1497,7 @@
   "PF1.CastingTime": "Casting Time",
   "PF1.Components": "Components",
   "PF1.Aura": "Aura",
+  "PF1.AuraPlural": "Auras",
   "PF1.SpellRangeShort": "(25 ft. + 5 ft./2 levels)",
   "PF1.SpellRangeMedium": "(100 ft. + 10 ft./level)",
   "PF1.SpellRangeLong": "(400 ft. + 40 ft./level)",
