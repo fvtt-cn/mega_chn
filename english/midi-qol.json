@@ -694,7 +694,7 @@
   "midi-qol.SkillAbilityCheckAdvantage.Hint": "If an actor has advantage/disadvatnage on ability checks, skills based on that ability also have advatnage/disadvantage",
   "midi-qol.ignoreTotalCover": "No Full cover",
   "midi-qol.InitPromptTitle": "Initiative Roll",
-  "midi-qol.HighlightSuccess.Name": "Color code Hit/Miss Display",
-  "midi-qol.HighlightSuccess.Hint": "When displaying hits/misses, hits are in green and misses in read"
+  "midi-qol.HighlightSuccess.Name": "Color code Hit/Miss/Save Display",
+  "midi-qol.HighlightSuccess.Hint": "When displaying hits/misses, hits/saves are in green and misses/failed saves in read"
 
 }
