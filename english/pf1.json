@@ -1532,6 +1532,7 @@
   "PF1.MaxDexterityModifier": "Max. Dexterity Modifier",
   "PF1.ArmorCheckPenalty": "Armor Check Penalty",
   "PF1.ArcaneSpellFailure": "Arcane Spell Failure",
+  "PF1.ArcaneSpellFailureAbbr": "ASF",
   "PF1.AutoCalculateSpellSlots": "Auto Calculate Spell Slots",
   "PF1.HasCantrips": "Has Cantrips/Orisons",
   "PF1.Modifications": "Modifications",
