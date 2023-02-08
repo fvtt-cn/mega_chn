@@ -115,24 +115,14 @@
         "Title": "Delete profile",
         "Content": "Are you sure you want to delete the \"{profile}\" module profile?"
       },
-      "QuickSetup": {
-        "Title": "Rest Recovery: Quick Setup",
-        "SlowNaturalHealingTitle": "Slow Natural Healing",
-        "SlowNaturalHealingLabel": "Characters do not regain hit points at the end of a long rest. Instead, they must spend hit dice to heal, like a short rest.",
-        "RecoverHitDiceTitle": "Recover Hit Dice Before Long Rest",
-        "RecoverHitDiceLabel": "Alters slow natural healing so that characters regain their hit dice when they start the long rest, rather than when they finish it.",
-        "OpenSettings": "Open Settings"
-      },
       "PromptRest": {
         "Title": "Prompt Rest For Players",
         "ConfigureProfiles": "Configure Profiles",
         "Short": "Short Rest",
         "Long": "Long Rest",
         "NewDayTitle": "New Day",
-        "NoNewDayTitle": "Not A New Day",
         "NewDayHint": "This causes characters who finish the rest to recover abilities that recharge on a \"per day\" basis.",
         "NewDaySimpleCalendarHint": "Based on the type selected below, characters who finish the rest to recover abilities that recharge on a \"per day\" basis. This is driven by the <strong>Simple Calendar</strong> module.",
-        "NoNewDaySimpleCalendarHint": "Neither long nor a short rest would result in a new day, so characters who finish either will <strong>not</strong> recovery abilities that recharge on a \"per day\" basis. This is driven by the <strong>Simple Calendar</strong> module.",
         "NewDay": "(new day)",
         "Submit": "Submit",
         "PlayerListShort": "Rest"
@@ -234,8 +224,6 @@
         "ShortRest": "Short Rest",
         "ItemNames": "Feature Names",
         "FoodAndWater": "Food & Water",
-        "Confused": "Confused? Too Many Options?",
-        "QuickSetup": "Click here to open the Quick Setup!",
         "Donate": "If you like this module, consider donating to keep it running!",
         "MoreToCome": "And with more configuration options to come...",
         "Request": "Request new features here.",
@@ -296,11 +284,6 @@
       }
     },
     "Settings": {
-      "QuickSetup": {
-        "Title": "Quick Setup",
-        "Label": "Open Quick Setup",
-        "Hint": "A simpler UI for quickly setting up common settings for rests."
-      },
       "Configure": {
         "Title": "Module Configuration",
         "Label": "Configure Rest",
