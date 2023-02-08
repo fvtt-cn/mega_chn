@@ -131,7 +131,7 @@
 	"TIDY5E.Settings.NpcLabel": "NPCs",
 	"TIDY5E.Settings.VehicleLabel": "Vehicles",
 	"TIDY5E.Settings.MulticlassSpellbookFilterLabel": "Multiclass Spellbook Filter",
-	"TIDY5E.Settings.ColorPickerLabel": "Color Picker (Customize the color)",
+	"TIDY5E.Settings.ColorPickerLabel": "Customize the color (It's advisable to install the module 'Color Settings')",
 
 	"TIDY5E.Settings.SheetMenu": {
 		"name": "Tidy Sheet Settings",
@@ -203,7 +203,7 @@
 
 	"TIDY5E.Settings.ClassicControls": {
 		"name": "Use classic item controls in list view.",
-		"hint": "Always shows item controls and disable right click menu. Only applies for PC item/spell inventory in list layout."
+		"hint": "Always shows item controls this will not disable the right click menu. Only applies for PC item/spell inventory in list layout."
 	},
 	"TIDY5E.Settings.RollButtonsToCard": {
 		"name": "Show midiQol Item Buttons in item's info card",
@@ -280,9 +280,9 @@
 		"name": "Show Active Effects Marker on items.",
 		"hint": "Enable if you want to see if items have active effects on them (only for list view)."
 	},
-	"TIDY5E.Settings.RightClick": {
+	"TIDY5E.Settings.RightClickDisabled": {
 		"name": "Disable right click context menu.",
-		"hint": "In case of module conflicts or preference you can disable the right click context menu. Items will show a menu icon instead."
+		"hint": "In case of module conflicts or preference you can disable the right click context menu."
 	},
 	"TIDY5E.Settings.ExpandedSheet": {
 		"name": "Expanded Limited view for character sheets.",
@@ -412,6 +412,10 @@
 	"TIDY5E.Settings.LazyHpAndExpEnable": {
 		"name": "Enable Lazy Hp and Exp",
 		"hint": "Easily add or remove HP and Experience with automatic conversion and no overdraft. It will allow inputs like '+10', '-10', '=10', '010'"
+	},
+	"TIDY5E.Settings.LazyHpForceHpValueLimit": {
+		"name": "Force (on the sheet side) to not overlay the current hp value, but instead add temporary hit points",
+		"hint": "This setting forces the correct logic of calculating the addition of temporary life points by forcing the user to fill the temporary life point field (hp.temp) instead of wrongly increasing the current life point field (hp.value), but for avoid controversy by default it is disabled to respect the behavior of the standard sheet. If enabled ensure that current 'hp.value <= hp.max' increasing the temporary files accordingly if 'hp.value > hp.max', but always with 'hp.temp <= hp.tempmax'."
 	},
 	"TIDY5E.Settings.LazyMoneyEnable": {
 		"name": "Enable Lazy Money",
