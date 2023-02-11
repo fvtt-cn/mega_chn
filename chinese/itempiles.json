@@ -661,6 +661,10 @@
             "NoPlayersActive": "没有可以进行该行为的活跃玩家",
             "GiveItemDeclined": "{user_name}拒绝了您的物品报价。",
             "GiveItemNoGM": "没有 GM 主动接收您给予的此物品。"
+        },
+        "Types": {
+            "pile": "物品堆",
+            "container": "容器"
         }
     }
 }
