@@ -1010,7 +1010,7 @@
   "PF1.WarningNoCombatantFound": "No combatant found",
   "PF1.NotificationCreatedAttack": "Created attack for {item}",
 
-  "PF1.Action_RollDefenses": "Roll Defenses",
+  "PF1.Action_DisplayDefenses": "Display Defenses",
 
   "PF1.Info_FirstClass": "Drag and drop from {html}\nor click the '+ Add' button above.",
   "PF1.Info_FirstClass_Compendium": "Class Compendium",
@@ -1146,7 +1146,7 @@
   "PF1.AbilityTypeShortSpell-Like": "Sp",
 
   "PF1.RollSkillMacroName": "{actor}: Roll {skill}",
-  "PF1.RollDefensesMacroName": "{actor}: Roll Defenses",
+  "PF1.DisplayDefensesMacroName": "{actor}: Display Defenses",
   "PF1.RollCMBMacroName": "{actor}: Roll Combat Maneuver Bonus",
   "PF1.RollCLMacroName": "{actor}: Roll Caster Level ({book})",
   "PF1.RollConcentrationMacroName": "{actor}: Roll Concentration ({book})",
