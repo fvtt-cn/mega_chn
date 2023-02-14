@@ -1621,6 +1621,8 @@
   "PF1.DeadlyAim": "Deadly Aim",
   "PF1.PrimaryAttack": "Primary Attack",
   "PF1.SecondaryAttack": "Secondary Attack",
+  "PF1.TouchAttack": "Touch Attack",
+  "PF1.TouchAttackShort": "Touch",
   "PF1.Enabled": "Enabled",
   "PF1.Disabled": "Disabled",
   "PF1.Enable": "Enable",
