@@ -1195,6 +1195,7 @@
   "PF1.CreateItemWand": "Wand",
   "PF1.CreateItemScroll": "Scroll",
   "PF1.CreateItemPotion": "Potion",
+  "PF1.CreateItemNamePlaceholder": "Wand, Scroll, or Potion",
   "PF1.CreateItemWandOf": "Wand of {name}",
   "PF1.CreateItemScrollOf": "Scroll of {name}",
   "PF1.CreateItemPotionOf": "Potion of {name}",
