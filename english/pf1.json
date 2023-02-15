@@ -1,7 +1,5 @@
 {
-  "Pathfinder 1": "Pathfinder 1",
-  "PF1.title": "Pathfinder 1",
-  "PF1.description": "A comprehensive game system for running games of Pathfinder 1 in the Foundry VTT environment.",
+  "PF1.Title": "Pathfinder 1",
 
   "PF1.ActorSheetPFCharacter": "Character",
   "PF1.ActorSheetPFNPC": "NPC",
