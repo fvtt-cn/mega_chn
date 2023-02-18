@@ -1,11 +1,9 @@
 {
   "PF1.Title": "Pathfinder 1",
-
   "PF1.ActorSheetPFCharacter": "Character",
   "PF1.ActorSheetPFNPC": "NPC",
   "PF1.ActorSheetPFNPCLite": "NPC (Lite)",
   "PF1.ActorSheetPFNPCLoot": "Loot",
-
   "SETTINGS.pf1DiagN": "Diagonal Movement Rule",
   "SETTINGS.pf1DiagL": "Configure which diagonal movement rule should be used for games within this system.",
   "SETTINGS.pf1InitTiebreakerN": "Initiative Tiebreaker",
@@ -78,7 +76,6 @@
   "SETTINGS.pf1DisableAttackCardTargetsH": "Disables targeted actors from showing up on attack cards",
   "SETTINGS.pf1ClearTargetsAfterAttackN": "Clear targets after attack",
   "SETTINGS.pf1ClearTargetsAfterAttackH": "Whether to untarget everything after an attack roll.",
-
   "SETTINGS.pf1HealthConfigName": "Health Configuration",
   "SETTINGS.pf1HealthConfigLabel": "Configure Health",
   "SETTINGS.pf1HealthConfigHint": "Configure health computations for actors.",
@@ -98,7 +95,6 @@
   "SETTINGS.pf1HealthConfigWoundsAndVigorPCHint": "Use the Wounds and Vigor optional ruleset for player characters.",
   "SETTINGS.pf1HealthConfigWoundsAndVigorNPCName": "Wounds and Vigor for NPCs",
   "SETTINGS.pf1HealthConfigWoundsAndVigorNPCHint": "Use the Wounds and Vigor optional ruleset for nonplayer characters.",
-
   "SETTINGS.pf1HealthConfigWoundThresholdsPCName": "Wound thresholds for PCs",
   "SETTINGS.pf1HealthConfigWoundsThresholdsPCHint": "Use wound threshold optional ruleset for player characters.",
   "SETTINGS.pf1HealthConfigWoundThresholdsNPCName": "Wound thresholds for NPCs",
@@ -110,33 +106,27 @@
   "SETTINGS.pf1HealthConfigWoundThresholdDisabled": "Disabled",
   "SETTINGS.pf1HealthConfigWoundThresholdNormal": "Normal",
   "SETTINGS.pf1HealthConfigWoundThresholdGritty": "Gritty",
-
   "SETTINGS.pf1DragRulerWalk": "walk",
   "SETTINGS.pf1DragRulerDash": "dash",
   "SETTINGS.pf1DragRulerRun": "run",
   "SETTINGS.pf1DragRulerUseElevationName": "Use elevation to determine movement type",
-  "SETTINGS.pf1DragRulerUseElevationHint": "Use a tokens elevation to determine wether a token is flying or burrowing",
-
+  "SETTINGS.pf1DragRulerUseElevationHint": "Use a tokens elevation to determine whether a token is flying or burrowing",
   "PF1.KEYBINDINGS": {
     "SkipConfirmPrompt": {
       "Name": "Skip Confirmation Prompt"
     },
-
     "HideTokenTooltip": {
       "Name": "Hide Token Tooltip",
       "Hint": "Hide token tooltips while this key is held"
     },
-
     "HideTokenTooltipGMInfo": {
       "Name": "Show Token Tooltip as Player"
     },
-
     "ForceShowItem": {
       "Name": "Force Show Item",
       "Hint": "Whether to show the item to chat when using a macro for it"
     }
   },
-
   "PF1.SpellComponentKeys": {
     "Verbal": "V",
     "Somatic": "S",
@@ -146,36 +136,27 @@
     "Focus": "F",
     "DivineFocus": "DF"
   },
-
   "PF1.OptionalAndVariantRules": "Optional & Variant Rules",
-
   "PF1.WoundThresholdOverride": "Wound Threshold override",
-
   "PF1.WoundLevelHealthy": "Healthy Condition",
   "PF1.WoundLevelGrazed": "Grazed Condition",
   "PF1.WoundLevelWounded": "Wounded Condition",
   "PF1.WoundLevelCritical": "Critical Condition",
-
   "SETTINGS.pf1UnitsN": "System of units",
   "SETTINGS.pf1UnitsL": "System of units to be used in the world",
-
   "SETTINGS.pf1ImperialUnits": "Imperial (feet, lbs)",
   "SETTINGS.pf1ImperialDistanceUnits": "Imperial (feet)",
   "SETTINGS.pf1ImperialWeightUnits": "Imperial (lbs)",
   "SETTINGS.pf1MetricUnits": "Metric (meters, kg)",
   "SETTINGS.pf1MetricDistanceUnits": "Metric (meters)",
   "SETTINGS.pf1MetricWeightUnits": "Metric (kg)",
-
   "SETTINGS.pf1DistanceUnitsN": "System of units for distances",
   "SETTINGS.pf1DistanceUnitsL": "Override system of units to be used with distances.",
-
   "SETTINGS.pf1WeightUnitsN": "System of units for weights",
   "SETTINGS.pf1WeightUnitsL": "Override system of units to be used with weights.",
-
   "TOKEN.VisionLowLight": "Low-light Vision",
   "TOKEN.VisionLowLightMultiplier": "Low-light Multiplier",
   "TOKEN.VisionDarkvision": "Darkvision",
-
   "PF1.ExperienceConfigName": "Experience Configuration",
   "PF1.ExperienceConfigLabel": "Configure Experience",
   "PF1.ExperienceConfigHint": "Configure aspects about leveling up.",
@@ -184,13 +165,11 @@
   "PF1.XPTrackFast": "Fast",
   "PF1.XPTrackCustomFormula": "Custom (Formula)",
   "PF1.XPTrackCustomFormulaHint": "e.g. '@level * 1000'",
-
   "PF1.AccessibilityConfigName": "Accessibility Configuration",
   "PF1.AccessibilityConfigLabel": "Accessibility",
   "PF1.AccessibilityConfigHint": "Change accessibility settings",
   "PF1.AccessibilityFontSize": "Font Size",
   "PF1.AccessibilityFontSizeHint": "Changes font size in certain aspects of the game (such as on attack chat cards)",
-
   "PF1.TooltipConfigName": "Tooltip Configuration",
   "PF1.TooltipConfigLabel": "Tooltip",
   "PF1.TooltipConfigHint": "Change tooltip settings",
@@ -204,7 +183,6 @@
   "PF1.TooltipConfigDisable": "Disable Tooltips",
   "PF1.TooltipConfigHideWithoutKey": "Hide unless {key} is held",
   "PF1.OnMouse": "On Mouse",
-
   "PF1.Sheet": {
     "PC": "Player Character (PC)",
     "NPC": "Nonplayer Character (NPC)",
@@ -213,7 +191,6 @@
     "Item": "Generic Item",
     "Container": "Container"
   },
-
   "PF1.TooltipWorldConfigName": "Tooltip World Configuration",
   "PF1.TooltipWorldConfigLabel": "Tooltip (World)",
   "PF1.TooltipWorldConfigHint": "Change world-wide tooltip settings",
@@ -240,7 +217,6 @@
   "PF1.TooltipWorldConfigNameMinimumPermission": "Name minimum permission",
   "PF1.TooltipWorldConfigNameMinimumPermission_Hint": "Minimum ownership level needed to see real token name.",
   "PF1.TooltipWorldConfigHideActorNameReplacement": "Hidden Replacement Name",
-
   "PF1.LevelUpForm_Title": "Level up {className}",
   "PF1.LevelUpForm_Health": "Health",
   "PF1.LevelUpForm_Health_Roll": "Roll",
@@ -302,12 +278,10 @@
       }
     }
   },
-
   "PF1.Submit": "Submit",
   "PF1.Next": "Next",
   "PF1.Previous": "Previous",
   "PF1.General": "General",
-
   "PF1.Apply": "Apply",
   "PF1.ApplyHalf": "Apply Half",
   "PF1.ApplyDamage": "Apply Damage",
@@ -318,22 +292,17 @@
   "PF1.ReduceBy": "Reduce by",
   "PF1.SwapSelected": "Swap Selected",
   "PF1.ClearReduction": "Clear Reduction",
-
   "PF1.RollsForInitiative": "{name} rolls for initiative!",
-
   "PF1.Roll": "Roll",
   "PF1.TakeX": "Take {number}",
-
   "PF1.Flags": "Flags",
   "PF1.FlagsInstructions": "Configure character features and traits which fine-tune behaviors of the PF1 system.",
   "PF1.FlagsTitle": "Configure Special Traits",
   "PF1.FlagsSave": "Update Special Traits",
   "PF1.FlagsBoolean": "Boolean Flags",
   "PF1.FlagsDictionary": "Dictionary Flags",
-
   "PF1.AbilityDamage": "Ability Damage",
   "PF1.AbilityDrain": "Ability Drain",
-
   "PF1.PointBuyCalculator": "Point Buy Calculator",
   "PF1.PointBuyCalculatorWarning": "The point buy calculator will OVERRIDE the character's base ability scores.",
   "PF1.PointBuyCalculatorSpent": "Points Spent",
@@ -343,7 +312,6 @@
   "PF1.PointBuyCalculatorStandardFantasy": "Standard Fantasy",
   "PF1.PointBuyCalculatorHighFantasy": "High Fantasy",
   "PF1.PointBuyCalculatorEpicFantasy": "Epic Fantasy",
-
   "PF1.CreateItem": "Create Item",
   "PF1.EditItem": "Edit Item",
   "PF1.DuplicateItem": "Duplicate Item",
@@ -354,59 +322,48 @@
   "PF1.DeleteSkill": "Delete Skill",
   "PF1.DeleteSkillTitle": "Delete Skill: {name}",
   "PF1.DeleteSkillConfirmation": "Are you sure you want to delete this skill?",
-
   "PF1.LinkTypeChildren": "Children",
   "PF1.LinkTypeCharges": "Charges",
   "PF1.LinkTypeClassAssociations": "Class Associations",
   "PF1.LinkTypeAmmunition": "Ammunition",
-
   "PF1.LinkHelpChildren": "Linked children are deleted from the actor when the link parent (this item) is deleted.",
   "PF1.LinkHelpCharges": "Linked items inherit and share the charges from the link parent (this item).",
   "PF1.LinkHelpClassAssociations": "Class association linked items are automatically added to the actor at the appropriate class level. Unlike other item links, these must be linked from a compendium.",
   "PF1.LinkHelpAmmunition": "Linked items automatically lose quantity (or charge) for every attack made with link parent (this item).",
-
   "PF1.HelpSellMultiplierN": "Sale Rate",
   "PF1.HelpSellMultiplier": "The rate at which non-trade goods sell. Trade goods always sell at full price. Default is 0.5.",
   "PF1.HelpDomainSpell": "This spell will not cost any spell slots to restore upon rest.",
-
   "PF1.AbilityStr": "Strength",
   "PF1.AbilityDex": "Dexterity",
   "PF1.AbilityCon": "Constitution",
   "PF1.AbilityInt": "Intelligence",
   "PF1.AbilityWis": "Wisdom",
   "PF1.AbilityCha": "Charisma",
-
   "PF1.AbilityStrMod": "Strength Modifier",
   "PF1.AbilityDexMod": "Dexterity Modifier",
   "PF1.AbilityConMod": "Constitution Modifier",
   "PF1.AbilityIntMod": "Intelligence Modifier",
   "PF1.AbilityWisMod": "Wisdom Modifier",
   "PF1.AbilityChaMod": "Charisma Modifier",
-
   "PF1.AbilityShortStr": "Str",
   "PF1.AbilityShortDex": "Dex",
   "PF1.AbilityShortCon": "Con",
   "PF1.AbilityShortInt": "Int",
   "PF1.AbilityShortWis": "Wis",
   "PF1.AbilityShortCha": "Cha",
-
   "PF1.SavingThrowFort": "Fortitude",
   "PF1.SavingThrowRef": "Reflex",
   "PF1.SavingThrowWill": "Will",
-
   "PF1.ACNormal": "AC",
   "PF1.ACTouch": "Touch",
   "PF1.ACFlatFooted": "Flat-footed",
   "PF1.CMDFlatFooted": "Flat-footed CMD",
-
   "PF1.ACTypeNormal": "Deflection",
   "PF1.ACTypeTouch": "Dodge",
   "PF1.ACTypeFlatFooted": "Misc FF",
-
   "PF1.WeaponHoldTypeNormal": "Normal",
   "PF1.WeaponHoldTypeTwoHanded": "Two-handed",
   "PF1.WeaponHoldTypeOffhand": "Off-hand",
-
   "PF1.WeaponGroupAxes": "Axes",
   "PF1.WeaponGroupBladesHeavy": "Blades, Heavy",
   "PF1.WeaponGroupBladesLight": "Blades, Light",
@@ -424,7 +381,6 @@
   "PF1.WeaponGroupSpears": "Spears",
   "PF1.WeaponGroupThrown": "Thrown",
   "PF1.WeaponGroupTribal": "Tribal",
-
   "PF1.CondBleed": "Bleed",
   "PF1.CondBlind": "Blind",
   "PF1.CondConfused": "Confused",
@@ -452,7 +408,6 @@
   "PF1.CondSleep": "Sleep",
   "PF1.CondCowering": "Cowering",
   "PF1.CondSqueezing": "Squeezing",
-
   "PF1.CondTypeBleed": "Bleed",
   "PF1.CondTypeBlind": "Blind",
   "PF1.CondTypeConfuse": "Confusion",
@@ -471,16 +426,13 @@
   "PF1.CondTypePetrify": "Petrification",
   "PF1.CondTypeStun": "Stun",
   "PF1.CondTypeSleep": "Sleep",
-
   "PF1.CostGP": "Cost (GP)",
-
   "PF1.ClassType": "Class Type",
   "PF1.ClassTypeBase": "Base Class",
   "PF1.ClassTypePrestige": "Prestige Class",
   "PF1.ClassTypeNPC": "NPC Class",
   "PF1.ClassTypeRacial": "Racial HD",
   "PF1.ClassTypeMythic": "Mythic Path",
-
   "PF1.ActionMWAK": "Melee Weapon Attack",
   "PF1.ActionRWAK": "Ranged Weapon Attack",
   "PF1.ActionMSAK": "Melee Spell Attack",
@@ -491,7 +443,6 @@
   "PF1.ActionSave": "Saving Throw",
   "PF1.ActionHeal": "Healing",
   "PF1.ActionOther": "Other",
-
   "PF1.Alignment": "Alignment",
   "PF1.AlignmentLG": "Lawful Good",
   "PF1.AlignmentNG": "Neutral Good",
@@ -511,10 +462,8 @@
   "PF1.AlignmentShortLE": "LE",
   "PF1.AlignmentShortNE": "NE",
   "PF1.AlignmentShortCE": "CE",
-
   "PF1.ChatReqMats": "Required Materials",
   "PF1.ChatOtherFormula": "Other Formula",
-
   "PF1.Currency": "Currency",
   "PF1.WeightlessCurrency": "Weightless Currency",
   "PF1.CurrencyPP": "PP",
@@ -529,7 +478,6 @@
   "PF1.CurrencyFailed": "Currency Transfer Failed: ",
   "PF1.CurrencyGMRequired": "A GM is required to finish the transfer.",
   "PF1.CurrencyInsufficient": "Insufficient Currency",
-
   "PF1.DistPersonal": "Personal",
   "PF1.DistTouch": "Touch",
   "PF1.DistMelee": "Melee",
@@ -539,14 +487,12 @@
   "PF1.DistLong": "Long",
   "PF1.DistFt": "Feet",
   "PF1.DistMi": "Miles",
-
   "PF1.DistM": "Meters",
   "PF1.DistKM": "Kilometers",
   "PF1.DistFtShort": "ft",
   "PF1.DistMiShort": "mi",
   "PF1.DistMShort": "m",
   "PF1.DistKMShort": "km",
-
   "PF1.ItemContainerContentsWeight": "Contents Weight",
   "PF1.ItemContainerContentsValue": "Contents Value",
   "PF1.ItemContainerContentsSellValue": "Contents Sell Value",
@@ -563,14 +509,12 @@
   "PF1.ItemContainerTotalItemValue": "Total Item Value: {gp} GP, {sp} SP, {cp} CP",
   "PF1.ItemContainerSellValue": "Sell Value: {gp} GP, {sp} SP, {cp} CP",
   "PF1.ItemContainerTakeContents": "Take from Container",
-
   "PF1.LootTypeGear": "Gear",
   "PF1.LootTypeAmmo": "Ammunition",
   "PF1.LootTypeTradeGoods": "Trade Goods",
   "PF1.LootTypeGearSingle": "Gear",
   "PF1.LootTypeAmmoSingle": "Ammunition",
   "PF1.LootTypeTradeGoodsSingle": "Trade Good",
-
   "PF1.AmmoTypeArrow": "Arrow",
   "PF1.AmmoTypeBolt": "Bolt",
   "PF1.AmmoTypeRepeatingBolt": "Bolt (Repeating)",
@@ -578,7 +522,6 @@
   "PF1.AmmoTypeBulletGun": "Bullet (Firearm)",
   "PF1.AmmoTypeBulletDragoon": "Bullet (Dragoon Firearm)",
   "PF1.AmmoTypeDart": "Dart",
-
   "PF1.SenseBSense": "Blindsense",
   "PF1.SenseBS": "Blindsight",
   "PF1.SenseDV": "Darkvision",
@@ -588,13 +531,11 @@
   "PF1.SenseSI": "See Invisibility",
   "PF1.SenseSID": "See in darkness",
   "PF1.SenseSC": "Scent",
-
   "PF1.FlyManeuverabilityClumsy": "Clumsy",
   "PF1.FlyManeuverabilityPoor": "Poor",
   "PF1.FlyManeuverabilityAverage": "Average",
   "PF1.FlyManeuverabilityGood": "Good",
   "PF1.FlyManeuverabilityPerfect": "Perfect",
-
   "PF1.BuffTarAC": "AC",
   "PF1.BuffTarACGeneric": "Generic AC",
   "PF1.BuffTarACArmor": "Armor AC",
@@ -626,10 +567,8 @@
   "PF1.BuffTarAllSpeeds": "All Speeds",
   "PF1.BuffTarMeleeAttack": "Melee Attack Rolls",
   "PF1.BuffTarRangedAttack": "Ranged Attack Rolls",
-
   "PF1.BuffTarSpells": "Spells",
   "PF1.SpellBuffEffect": "Spell Effect",
-
   "PF1.SkillAcr": "Acrobatics",
   "PF1.SkillApr": "Appraise",
   "PF1.SkillArt": "Artistry",
@@ -667,9 +606,7 @@
   "PF1.SkillSur": "Survival",
   "PF1.SkillSwm": "Swim",
   "PF1.SkillUMD": "Use Magic Device",
-
   "PF1.AddSkill": "Add Skill",
-
   "PF1.TargetAlly": "Ally",
   "PF1.TargetCreature": "Creature",
   "PF1.TargetCylinder": "Cylinder",
@@ -684,7 +621,6 @@
   "PF1.TargetSquare": "Square",
   "PF1.TargetSpace": "Space",
   "PF1.TargetWall": "Wall",
-
   "PF1.TimeInst": "Instantaneous",
   "PF1.TimeTurn": "Turns",
   "PF1.TimeTurnShort": "turns",
@@ -698,20 +634,15 @@
   "PF1.TimeMonth": "Months",
   "PF1.TimeYear": "Years",
   "PF1.TimePerm": "Permanent",
-
   "PF1.TraitArmorProf": "Armor Proficiencies",
   "PF1.TraitWeaponProf": "Weapon Proficiencies",
-
   "PF1.SpellPrepAtWill": "At-will",
   "PF1.SpellPrepPrepared": "Prepared",
   "PF1.SpellPrepSpontaneous": "Spontaneous",
-
   "PF1.SpellsKnown": "Spells Known",
-
   "PF1.Arcanist": "Arcanist",
   "PF1.RedMantisAssassin": "Red Mantis Assassin",
   "PF1.Psychic": "Psychic",
-
   "PF1.Spellcasting": {
     "Progression": {
       "Label": "Progression"
@@ -724,7 +655,6 @@
       "Alchemy": "Alchemical"
     }
   },
-
   "PF1.SpellComponentVerbal": "Verbal",
   "PF1.SpellComponentSomatic": "Somatic",
   "PF1.SpellComponentThought": "Thought",
@@ -732,32 +662,26 @@
   "PF1.SpellComponentMaterial": "Material",
   "PF1.SpellComponentFocus": "Focus",
   "PF1.SpellComponentDivineFocus": "Divine Focus",
-
   "PF1.SpellComponentDivineFocusAlone": "DF",
   "PF1.SpellComponentDivineFocusMaterial": "M/DF",
   "PF1.SpellComponentDivineFocusFocus": "F/DF",
-
   "PF1.AutoSpellClassLevelOffset": {
     "Formula": "Class Level Modification",
     "InfoBox": "If you have a prestige class that alters your class level, add that here (e.g. @classes.mysticTheurge.level)"
   },
-
   "PF1.LearnMoreSpell": "You can learn 1 more spell",
   "PF1.LearnMoreSpells": "You can learn {quantity} more spells",
   "PF1.PrepareMoreSpell": "You can prepare 1 more spell",
   "PF1.PrepareMoreSpells": "You can prepare {quantity} more spells",
   "PF1.SpellScoreTooLow": "Your ability score is too low to cast spells of this level",
   "PF1.TooManySpells": "You have {quantity} too many spells",
-
   "PF1.MeasureTemplateCone": "Cone",
   "PF1.MeasureTemplateCircle": "Circle",
   "PF1.MeasureTemplateRay": "Ray",
   "PF1.MeasureTemplateRectangle": "Rectangle",
-
   "PF1.CompendiumBrowserTitle": "Compendium Browser: {type}",
   "PF1.LoadingItemsFromIndexes": "Loading {items} items from {indexes} indexes…",
   "PF1.CopyUuidToClipboard": "Copy UUID to clipboard",
-
   "PF1.ItemTypeWeapon": "Weapon",
   "PF1.ItemTypeEquipment": "Equipment",
   "PF1.ItemTypeLoot": "Loot",
@@ -768,13 +692,11 @@
   "PF1.ItemTypeFeat": "Feat",
   "PF1.ItemTypeAttack": "Attack",
   "PF1.ItemTypeRace": "Race",
-
   "PF1.WeaponType": "Weapon Type",
   "PF1.WeaponTypeSimple": "Simple",
   "PF1.WeaponTypeMartial": "Martial",
   "PF1.WeaponTypeExotic": "Exotic",
   "PF1.WeaponTypeSplash": "Splash",
-
   "PF1.WeaponPropBlocking": "Blocking",
   "PF1.WeaponPropBrace": "Brace",
   "PF1.WeaponPropDeadly": "Deadly",
@@ -792,16 +714,13 @@
   "PF1.WeaponPropSunder": "Sunder",
   "PF1.WeaponPropThrown": "Thrown",
   "PF1.WeaponPropTrip": "Trip",
-
   "PF1.WeaponSubtype": "Weapon Subtype",
   "PF1.WeaponPropLight": "Light",
   "PF1.WeaponPropOneHanded": "One-handed",
   "PF1.WeaponPropTwoHanded": "Two-handed",
   "PF1.WeaponSubtypeRanged": "Ranged",
-
   "PF1.EquipTypeShield": "Shield",
   "PF1.EquipTypeArmor": "Armor",
-
   "PF1.EquipTypeLight": "Light Armor",
   "PF1.EquipTypeMedium": "Medium Armor",
   "PF1.EquipTypeHeavy": "Heavy Armor",
@@ -812,7 +731,6 @@
   "PF1.EquipTypeOtherShield": "Miscellaneous Shield",
   "PF1.EquipTypeClothing": "Clothing",
   "PF1.EquipTypeWondrousItem": "Wondrous Item",
-
   "PF1.EquipSlotSlotless": "Slotless",
   "PF1.EquipSlotArmor": "Armor",
   "PF1.EquipSlotShield": "Shield",
@@ -828,7 +746,6 @@
   "PF1.EquipSlotHands": "Hands",
   "PF1.EquipSlotRing": "Ring",
   "PF1.EquipSlotFeet": "Feet",
-
   "PF1.ConsumableTypePotion": "Potion/Oil",
   "PF1.ConsumableTypePoison": "Poison",
   "PF1.ConsumableTypeDrug": "Drug",
@@ -836,7 +753,6 @@
   "PF1.ConsumableTypeWand": "Wand",
   "PF1.ConsumableTypeRod": "Rod",
   "PF1.ConsumableTypeStaff": "Staff",
-
   "PF1.AttackTypeWeapon": "Weapon Attack",
   "PF1.AttackTypeWeaponPlural": "Weapon Attacks",
   "PF1.AttackTypeNatural": "Natural Attack",
@@ -845,13 +761,11 @@
   "PF1.AttackTypeAbilityPlural": "Class Abilities",
   "PF1.AttackTypeRacial": "Racial Ability",
   "PF1.AttackTypeRacialPlural": "Racial Abilities",
-
   "PF1.FeatTypeFeat": "Feat",
   "PF1.FeatTypeClassFeat": "Class Feature",
   "PF1.FeatTypeTraits": "Trait",
   "PF1.FeatTypeRacial": "Racial Trait",
   "PF1.FeatTypeTemplate": "Template",
-
   "PF1.TraitType": "Trait Type",
   "PF1.Trait": {
     "Combat": "Combat",
@@ -870,7 +784,6 @@
     "Religion": "Religion",
     "Drawback": "Drawback"
   },
-
   "PF1.ActivationTypePassive": "Passive",
   "PF1.ActivationTypeFree": "Free",
   "PF1.ActivationTypeSwift": "Swift",
@@ -887,7 +800,6 @@
   "PF1.ActivationTypeAoO": "Attack of Opportunity",
   "PF1.ActivationTypeReaction": "Reaction",
   "PF1.ActivationTypeAction": "Action",
-
   "PF1.ActivationTypeFreePlural": "Free Actions",
   "PF1.ActivationTypeSwiftPlural": "Swift Actions",
   "PF1.ActivationTypeImmediatePlural": "Immediate Actions",
@@ -900,12 +812,10 @@
   "PF1.ActivationTypeHourPlural": "Hours",
   "PF1.ActivationTypeReactionPlural": "Reactions",
   "PF1.ActivationTypeActionPlural": "Actions",
-
   "PF1.LimitedUseSingle": "Single Use",
   "PF1.LimitedUseDay": "Per Day",
   "PF1.LimitedUseWeek": "Per Week",
   "PF1.LimitedUseCharges": "Charges",
-
   "PF1.ActorSizeFine": "Fine",
   "PF1.ActorSizeDiminutive": "Diminutive",
   "PF1.ActorSizeTiny": "Tiny",
@@ -915,7 +825,6 @@
   "PF1.ActorSizeHuge": "Huge",
   "PF1.ActorSizeGargantuan": "Gargantuan",
   "PF1.ActorSizeColossal": "Colossal",
-
   "PF1.SpellSchoolAbjuration": "Abjuration",
   "PF1.SpellSchoolConjuration": "Conjuration",
   "PF1.SpellSchoolDivination": "Divination",
@@ -925,7 +834,6 @@
   "PF1.SpellSchoolNecromancy": "Necromancy",
   "PF1.SpellSchoolTransmutation": "Transmutation",
   "PF1.SpellSchoolUniversal": "Universal",
-
   "PF1.SpellLevel0": "Cantrip/Orison",
   "PF1.SpellLevel1": "1st Level",
   "PF1.SpellLevel2": "2nd Level",
@@ -936,44 +844,35 @@
   "PF1.SpellLevel7": "7th Level",
   "PF1.SpellLevel8": "8th Level",
   "PF1.SpellLevel9": "9th Level",
-
   "PF1.FavouredClassBonuses": "Favoured Class Bonuses",
   "PF1.FavouredClassHP": "Hit Points",
   "PF1.FavouredClassSkill": "Skills",
   "PF1.FavouredClassAlt": "Alt",
-
   "PF1.FavouredClassBonus": {
     "Label": "Favoured Class Bonus",
     "HP": "Hit Point",
     "Skill": "Skill",
     "Alt": "Alt"
   },
-
   "PF1.Key_Control": "Control",
-
   "PF1.ArmorProfLight": "Light Armor",
   "PF1.ArmorProfMedium": "Medium Armor",
   "PF1.ArmorProfHeavy": "Heavy Armor",
   "PF1.ArmorProfShield": "Shields",
   "PF1.ArmorProfTowerShield": "Tower Shields",
-
   "PF1.WeaponProfSimple": "Simple Weapons",
   "PF1.WeaponProfMartial": "Martial Weapons",
-
   "PF1.InventoryWeapons": "Weapons",
   "PF1.InventoryArmorEquipment": "Armor/Equipment",
   "PF1.InventoryConsumables": "Consumables",
   "PF1.InventoryContainers": "Containers",
-
   "PF1.ChangeFlagLoseDexToAC": "Lose Dex to AC",
   "PF1.ChangeFlagDwarflikeEncumbrance": "Dwarf-like Encumbrance",
   "PF1.ChangeFlagMediumArmorFullSpeed": "Full Speed in Medium Armor",
   "PF1.ChangeFlagHeavyArmorFullSpeed": "Full Speed in Heavy Armor",
   "PF1.ChangeFlagNoDex": "No Dexterity",
   "PF1.ChangeFlagNoStr": "No Strength",
-
   "PF1.Undefined": "Undefined",
-
   "PF1.ErrorGenericPermission": "You don't have permission to perform what action",
   "PF1.ErrorNoActorPermission": "You don't have permission to control this actor",
   "PF1.ErrorNoActorPermissionAlt": "You don't have permission to control actor '{name}'",
@@ -1007,13 +906,10 @@
   "PF1.WarningCannotCreateChargeLink2": "Could not create a Charge type link between {source} and {target}, because {target} is already linked to {deeptarget}",
   "PF1.WarningNoCombatantFound": "No combatant found",
   "PF1.NotificationCreatedAttack": "Created attack for {item}",
-
   "PF1.Action_DisplayDefenses": "Display Defenses",
-
   "PF1.Info_FirstClass": "Drag and drop from {html}\nor click the '+ Add' button above.",
   "PF1.Info_FirstClass_Compendium": "Class Compendium",
   "PF1.Info_MissingClass": "Your character is missing a class. Go to the Classes subtab on the Summary tab of your character sheet.",
-
   "PF1.CMDNotes": "CMD Notes",
   "PF1.AttackNotes": "Attack Notes",
   "PF1.EffectNotes": "Effect Notes",
@@ -1023,10 +919,8 @@
   "PF1.SaveNotes": "Save Notes",
   "PF1.CLNotes": "Caster Level Notes",
   "PF1.NonApplicable": "N/A",
-
   "PF1.SkillTypeAdventure": "Adventure",
   "PF1.SkillTypeBackground": "Background",
-
   "PF1.ACP": "ACP",
   "PF1.ACPLong": "Armor Check Penalty",
   "PF1.ACPTooltip": "Armor Check Penalties",
@@ -1035,7 +929,6 @@
   "PF1.RT": "RT",
   "PF1.RTTooltip": "Requires Training",
   "PF1.SkillModTooltip": "Skill Modifier",
-
   "PF1.BrowseSpells": "Browse Spells",
   "PF1.BrowseItems": "Browse Items",
   "PF1.BrowseBestiary": "Browse Bestiary",
@@ -1043,7 +936,6 @@
   "PF1.BrowseClasses": "Browse Classes",
   "PF1.BrowseRaces": "Browse Races",
   "PF1.BrowseBuffs": "Browse Buffs",
-
   "PF1.LanguageAboleth": "Aboleth",
   "PF1.LanguageAbyssal": "Abyssal",
   "PF1.LanguageAklo": "Aklo",
@@ -1095,7 +987,6 @@
   "PF1.LanguageTien": "Tien",
   "PF1.LanguageVarisian": "Varisian",
   "PF1.LanguageVudrani": "Vudrani",
-
   "PF1.CreatureTypeAberration": "Aberration",
   "PF1.CreatureTypeAnimal": "Animal",
   "PF1.CreatureTypeConstruct": "Construct",
@@ -1109,12 +1000,10 @@
   "PF1.CreatureTypePlant": "Plant",
   "PF1.CreatureTypeUndead": "Undead",
   "PF1.CreatureTypeVermin": "Vermin",
-
   "PF1.Rest": "Rest",
   "PF1.RestoreHealth": "Restore Health",
   "PF1.RestoreDailyUses": "Restore Daily Uses",
   "PF1.LongTermCare": "Long-Term Care",
-
   "PF1.BonusModifierUntyped": "Untyped",
   "PF1.BonusModifierUntypedPerm": "Untyped (Permanent)",
   "PF1.BonusModifierBase": "Base",
@@ -1135,14 +1024,12 @@
   "PF1.BonusModifierCircumstance": "Circumstance",
   "PF1.BonusModifierAlchemical": "Alchemical",
   "PF1.BonusModifierPenalty": "Penalty",
-
   "PF1.AbilityTypeExtraordinary": "Extraordinary",
   "PF1.AbilityTypeSupernatural": "Supernatural",
   "PF1.AbilityTypeSpell-Like": "Spell-Like",
   "PF1.AbilityTypeShortExtraordinary": "Ex",
   "PF1.AbilityTypeShortSupernatural": "Su",
   "PF1.AbilityTypeShortSpell-Like": "Sp",
-
   "PF1.RollSkillMacroName": "{actor}: Roll {skill}",
   "PF1.DisplayDefensesMacroName": "{actor}: Display Defenses",
   "PF1.RollCMBMacroName": "{actor}: Roll Combat Maneuver Bonus",
@@ -1150,7 +1037,6 @@
   "PF1.RollConcentrationMacroName": "{actor}: Roll Concentration ({book})",
   "PF1.RollBABMacroName": "{actor}: Roll Base Attack Bonus",
   "PF1.RollSaveMacroName": "{actor}: Roll {type} Save",
-
   "PF1.DamageTypeUntyped": "Untyped",
   "PF1.DamageTypeBludgeoning": "Bludgeoning",
   "PF1.DamageTypePiercing": "Piercing",
@@ -1163,13 +1049,11 @@
   "PF1.DamageTypeForce": "Force",
   "PF1.DamageTypeNegative": "Negative",
   "PF1.DamageTypePositive": "Positive",
-
   "PF1.DamageTypeCategory": {
     "misc": "Miscellaneous",
     "physical": "Physical",
     "energy": "Energy"
   },
-
   "PF1.SourceInfoSize": "Size",
   "PF1.SourceInfoBuffs": "Buff",
   "PF1.SourceInfoTemporaryBuffs": "Temporary Buff",
@@ -1185,10 +1069,8 @@
   "PF1.SourceInfoMiscFeatures": "Miscellaneous",
   "PF1.SourceInfoTemplate": "Template",
   "PF1.SourceInfoRace": "Race",
-
   "PF1.SourceInfoSkillRank_ClassBase": "{className} (Base)",
   "PF1.SourceInfoSkillRank_ClassFC": "{className} (Favoured Class)",
-
   "PF1.CreateItemForSpell": "Create Item for {name}",
   "PF1.CreateItemWand": "Wand",
   "PF1.CreateItemScroll": "Scroll",
@@ -1197,40 +1079,32 @@
   "PF1.CreateItemWandOf": "Wand of {name}",
   "PF1.CreateItemScrollOf": "Scroll of {name}",
   "PF1.CreateItemPotionOf": "Potion of {name}",
-
   "PF1.CombatInfo_Header": "Combat",
   "PF1.CombatInfo_Round": "Round {round}",
-
   "PF1.ScriptCalls": {
     "Name": "Script Calls",
     "NewName": "New Script Call",
-
     "Use": {
       "Name": "Use",
       "Info": "Called when the item has been 'used' (attack, drink potion, etc.). Has the extra variable `attacks`, which is an array containing the action's attack rolls, if any."
     },
-
     "Equip": {
       "Name": "Equip",
       "Info": "Called when the item has been equipped or unequipped. Has the extra variable `equipped`, which is either `true` or `false`."
     },
-
     "Toggle": {
       "Name": "Toggle",
       "Info": "Called when the item has been enabled or disabled. Has the extra variable `state`, which is either `true` or `false`."
     },
-
     "ChangeQuantity": {
       "Name": "Change Quantity",
       "Info": "Called when the quantity of the item has been changed. Has the extra variables `quantity.previous` and `quantity.new`, which are both numbers."
     },
-
     "ChangeLevel": {
       "Name": "Change Level",
       "Info": "Called when the level of the item has been changed. Has the extra variables `quantity.previous` and `quantity.new`, which are both numbers."
     }
   },
-
   "PF1.Abundant": "Abundant",
   "PF1.AbundantDesc": "Never remove this ammunition when used.",
   "PF1.AddClass": "Add Class",
@@ -1503,12 +1377,10 @@
   "PF1.SpellRangeShortMetric": "(7.5 m + 1.5 m/2 levels)",
   "PF1.SpellRangeMediumMetric": "(30 m + 3 m/level)",
   "PF1.SpellRangeLongMetric": "(120 m + 12 m/level)",
-
   "PF1.AuraStrength_Faint": "Faint",
   "PF1.AuraStrength_Moderate": "Moderate",
   "PF1.AuraStrength_Strong": "Strong",
   "PF1.AuraStrength_Overwhelming": "Overwhelming",
-
   "PF1.Unknown": "Unknown",
   "PF1.ElementalSchool": "Elemental School",
   "PF1.Bloodline": "Bloodline",
@@ -1808,14 +1680,11 @@
   "PF1.ChooseAnAction": "Choose an action",
   "PF1.Drink": "Drink",
   "PF1.Properties": "Properties",
-
   "PF1.Migration.Start": "Applying PF1 System Migration for version {version}. Please stand by.",
   "PF1.Migration.AlreadyInProgress": "PF1 System Migration is already in progress. Please wait for it to finish before trying again.",
   "PF1.Migration.Ongoing": "Migration is ongoing. Please wait until it finishes.",
   "PF1.Migration.End": "PF1 System Migration to version {version} succeeded!",
-
   "PF1.DenyDexBonus": "Deny Dexterity bonus",
-
   "PF1.Application": {
     "ActionChooser": {
       "Title": "{actor} using {item}"
@@ -1840,20 +1709,17 @@
       "Title": "Entry Selector"
     }
   },
-
   "PF1.Dialog": {
     "SplitItem": {
       "Title": "Split item: {name}",
       "Desc": "Input the number to split off."
     }
   },
-
   "PF1.Info": {
     "AddClassDialog": "You can hold Shift to bypass this dialog.",
     "AddClassDialog_Desc": "Pressing Normal opens a short wizard, while pressing Raw will add the class without any alterations.",
     "NotFunctioning": "The system (currently) doesn't use this feature"
   },
-
   "PF1.Help": {
     "Label": "Help"
   },
