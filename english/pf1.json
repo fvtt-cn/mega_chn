@@ -1757,7 +1757,7 @@
   "PF1.Large": "Large",
   "PF1.ExtraLarge": "Extra Large",
   "PF1.Changelog": "Changelog",
-  "PF1.DontShowAgain": "Don't show again",
+  "PF1.DontShowAgain": "Don't show changelog after system updates",
   "PF1.IdentifyDC": "Identify DC",
   "PF1.IdentifyDCNumber": "Identify DC {dc}",
   "PF1.MagicItems": "Magic Items",
