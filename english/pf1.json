@@ -1669,6 +1669,7 @@
   "PF1.AttackWith": "Attack with: {name}",
   "PF1.AttackWithSpell": "Cast spell: {name}",
   "PF1.AttackWithFeat": "Use feature: {name}",
+  "PF1.QuickActionUseAny": "Use: {name}",
   "PF1.ShowInQuickbar": "Show in Quickbar",
   "PF1.Tag": "Tag",
   "PF1.Tags": "Tags",
