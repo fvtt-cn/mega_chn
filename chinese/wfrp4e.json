@@ -1521,5 +1521,6 @@
     "BugReport.ErrorName1": "请在名称栏中填入你的Discord Tag或者邮箱地址。",
     "SHEET.NoCareers": "未找到职业",
     "Overchannelling": "过载",
-    "Something went wrong": "有什么出错了"
+    "Something went wrong": "有什么出错了",
+    "SETTINGS.UIACrits": "使用Up In Arms的重击调整"
 }
