@@ -622,6 +622,7 @@
   "PF1.BuffTarAllDamageRolls": "All Damage Rolls",
   "PF1.BuffTarAllSavingThrows": "All Saving Throws",
   "PF1.BuffTarAllSkills": "All Skills",
+  "PF1.BuffTarUntrainedSkills": "Untrained Skills",
   "PF1.BuffTarAllAbilityChecks": "All Ability Checks",
   "PF1.BuffTarAllSpeeds": "All Speeds",
   "PF1.BuffTarMeleeAttack": "Melee Attack Rolls",
