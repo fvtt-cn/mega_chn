@@ -1484,6 +1484,7 @@
   "PF1.WeaponDetails": "Weapon Details",
   "PF1.EnhancementBonus": "Enhancement Bonus",
   "PF1.EnhancementBonusOverride": "Enhancement Bonus Override",
+  "PF1.Enhancement": "+{bonus} Enhancement",
   "PF1.BaseWeaponDamage": "Base Weapon Damage",
   "PF1.BaseWeaponCritical": "Base Weapon Critical",
   "PF1.SpellPreparationType": "Spell Preparation Type",
