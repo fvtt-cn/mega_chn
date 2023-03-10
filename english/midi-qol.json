@@ -363,6 +363,12 @@
     "preDamageApplication": "Before Damage Application",
     "preActiveEffects": "Before Active Effects",
     "postActiveEffects": "After Active Effects ",
+    "isAttacked": "Actor is target of an attack",
+    "isHit": "Actor is target of a hit",
+    "isSave": "Actor rolled a save",
+    "isSaveSuccess": "Actor rolled a successful save",
+    "isSaveFailure": "Actor failed a saving throw",
+    "isDamaged": "Actor is damaged by an attack",
     "all": "All"
   },
   "midi-qol.DragDropTarget.Name": "Drag and Drop Targeting",
@@ -534,9 +540,11 @@
   "midi-qol.HPNotUpdated": "HP Not Updated",
   "midi-qol.reactionDamaged": "Damaged",
   "midi-qol.reactionManual": "Manual",
+  "midi-qol.reactionPreAttack": "Pre Attack Roll",
   "midi-qol.ddbGL.Name": "Enable ddb-game-log support",
   "midi-qol.ddbGL.Hint": "Accept attack/damage/saving throws from ddb-game-log to trigger midi workflows in foundry",
   "midi-qol.ShowReactionChatMessage.Name": "Show Chat prompt for reactions",
+  "midi-qol.reactionFlavorPreAttack": "{actorName} is attacked by {itemName} and can use a reaction",
   "midi-qol.reactionFlavorAttack": "{actorName} is hit by {itemName} and can use a reaction",
   "midi-qol.reactionFlavorDamage": "{actorName} is damaged by {itemName} and can use a reaction",
   "midi-qol.AccelKeysOverride.Name": "Midi-qol speed keys override others",
@@ -695,6 +703,7 @@
   "midi-qol.ignoreTotalCover": "No Full cover",
   "midi-qol.InitPromptTitle": "Initiative Roll",
   "midi-qol.HighlightSuccess.Name": "Color code Hit/Miss/Save Display",
-  "midi-qol.HighlightSuccess.Hint": "When displaying hits/misses, hits/saves are in green and misses/failed saves in read"
-
+  "midi-qol.HighlightSuccess.Hint": "When displaying hits/misses, hits/saves are in green and misses/failed saves in read",
+  "midi-qol.OptionalRuleVitality.Name": "(House Rule) Vitality pool",
+  "midi-qol.OptionalRuleVitality.Hint": "when set to a resource damage applied to a target with 0 HP does damage to the vitality resource. If that reaches 0 the target is dead"
 }
