@@ -1683,6 +1683,7 @@
   "D35E.AttackProficiencyPenalty": "Proficiency Penalty",
   "D35E.AttackMasterworkBonus": "Masterwork Bonus",
   "D35E.AttackSecondaryAttackPenalty": "Secondary Attack Penalty",
+  "D35E.Result": "Result",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
