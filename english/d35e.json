@@ -1684,6 +1684,8 @@
   "D35E.AttackMasterworkBonus": "Masterwork Bonus",
   "D35E.AttackSecondaryAttackPenalty": "Secondary Attack Penalty",
   "D35E.Result": "Result",
+  "D35E.LoadingCompendiums": "Loading Compendiums",
+  "D35E.Bestiary": "Bestiary",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
