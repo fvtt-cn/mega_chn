@@ -365,9 +365,11 @@
     "postActiveEffects": "After Active Effects ",
     "isAttacked": "Actor is target of an attack",
     "isHit": "Actor is target of a hit",
+    "preTargetSsave": "Target is about to roll a saving throw",
     "isSave": "Actor rolled a save",
     "isSaveSuccess": "Actor rolled a successful save",
     "isSaveFailure": "Actor failed a saving throw",
+    "preApplyTargetDamage": "Target is about to be damaged by an item",
     "isDamaged": "Actor is damaged by an attack",
     "all": "All"
   },
@@ -698,12 +700,14 @@
   "midi-qol.AttackPerTarget.Name": "Roll a separate attck per target",
   "midi-qol.itemUseHooks.Name": "Utilise Item Hooks",
   "midi-qol.itemUseHooks.Hint": "Do NOT set this - used for author's testing",
-  "midi-qol.SkillAbilityCheckAdvantage.Name": "Ability Check Advantage give Skill Advantage",
+  "midi-qol.SkillAbilityCheckAdvantage.Name": "Ability Check Advantage gives Skill Advantage",
   "midi-qol.SkillAbilityCheckAdvantage.Hint": "If an actor has advantage/disadvatnage on ability checks, skills based on that ability also have advatnage/disadvantage",
   "midi-qol.ignoreTotalCover": "No Full cover",
   "midi-qol.InitPromptTitle": "Initiative Roll",
   "midi-qol.HighlightSuccess.Name": "Color code Hit/Miss/Save Display",
   "midi-qol.HighlightSuccess.Hint": "When displaying hits/misses, hits/saves are in green and misses/failed saves in read",
   "midi-qol.OptionalRuleVitality.Name": "(House Rule) Vitality pool",
-  "midi-qol.OptionalRuleVitality.Hint": "when set to a resource damage applied to a target with 0 HP does damage to the vitality resource. If that reaches 0 the target is dead"
+  "midi-qol.OptionalRuleVitality.Hint": "when set to a resource damage applied to a target with 0 HP does damage to the vitality resource. If that reaches 0 the target is dead",
+  "midi-qol.AutoRerollInitiative.Name": "Auto reroll initiative",
+  "midi-qol.AutoRerollInitiative.Hint": "Auto reroll initiative for all combatants at the start of a new round. Warning: can break round/turn effect expiry"
 }
