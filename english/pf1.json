@@ -1707,6 +1707,7 @@
   "PF1.Creatures": "Creatures",
   "PF1.ChargeCost": "Charge Cost",
   "PF1.ChargeCostFormula": "Charge Cost Formula",
+  "PF1.ChargeSource": "Charge Source",
   "PF1.Value": "Value",
   "PF1.TotalItems": "{count} Total Items",
   "PF1.FilteredItems": "{count} Filtered Items",
