@@ -1639,6 +1639,7 @@
   "PF1.Poor": "Poor",
   "PF1.Good": "Good",
   "PF1.Proficient": "Proficient",
+  "PF1.ProficientAttack": "Proficient (Attack)",
   "PF1.Masterwork": "Masterwork",
   "PF1.ClassSkills": "Class Skills",
   "PF1.MeasureTemplate": "Measure Template",
