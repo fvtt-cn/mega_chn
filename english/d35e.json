@@ -1688,6 +1688,8 @@
   "D35E.Bestiary": "Bestiary",
   "D35E.Generate": "Generate",
   "D35E.ModifiedFormulaNeedsAmpersand": "When using field referenced in Modified Formula, Modified Field needs ampersand before the field name.",
+  "D35E.FeatAddedLevel": "Added at level",
+  "D35E.Feat": "Feat",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
