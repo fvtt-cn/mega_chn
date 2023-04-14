@@ -18,6 +18,7 @@ SWADE:
   Pace: Pace
   Running: Running
   RunningDie: Running Die
+  RunningMod: Running Modifier
   RollRun: Click to run
   Adv: Advances
   Rank: Rank
@@ -46,7 +47,7 @@ SWADE:
   AttrStrShort: Str
   AttrVigShort: Vig
   Skills: Skills
-  Unskilled: Unskilled
+  Unskilled: Unskilled Attempt
   CoreSkill: Core Skill
   CoreSkills: Core Skills
   LinkAttr: Linked Attribute
@@ -267,15 +268,31 @@ SWADE:
   Max: Max
   Curr: Current
   DSNNone: '- None -'
+  Duplicate: Duplicate
   Reload: Reload
   Refresh: Refresh this card
   Ammo: Ammunition
+  ppReload: Power Points to Reload
+  ReloadNotPossible: This actor type doesn't reload
   ReloadUnneeded: The weapon is already fully loaded
   ReloadSuccess: The weapon has been successfully reloaded
   NotEnoughAmmo: You don't have enough ammunition for this action!
   NotEnoughAmmoToReload: There's not enough ammo for a full reload
-  AutoReload: Doesn't need Reload action
+  ReloadType:
+    Label: Reload Type
+    None: None
+    Single: Single
+    Full: Full
+    Magazine: Magazine
+    Battery: Battery
+    PP: Power Points
   NoAmmoSet: There is no ammunition set
+  NoAmmoPP: Could not find power points matching the set ammo
+  NoMags: You don't have any consumables marked as magazines in your inventory
+  RemoveAmmo: Remove Ammunition
+  ConsumableType:
+    Label: Subtype
+    Regular: Regular
   Trapping: Trappings
   AddBenny: Add a Benny
   CurrentBennies: Current Bennies
@@ -302,6 +319,8 @@ SWADE:
       Label: Broke
       Hint: You are Broke!
     Sides: Wealth Die Sides
+    WildSides: Wealth Wild Die Sides
+    Modifier: Wealth Die Modifier
   TraitRolls: Trait Rolls
   Trait: Trait
   AltTrait: Action Trait
@@ -545,14 +564,13 @@ SWADE:
     AmmoManagement:
       Name: Ammunition Management
       Hint: >-
-        When turned on, and applicable, actions subtract ammunition from the
-        magazine of the weapon. Item cards also gain a new reload button and you
-        will not be able to roll an attack if not enough ammunition is available
+        Automates ammo consumption. See system documentation journal for
+        details.
     PCAmmoFromInventory:
       Name: PCs use Ammunition from Inventory
       Hint: >-
-        When activated the option to set a `Gear` Item can be set to be used as
-        ammunition and will be used when reloading the weapon
+        When activated a Gear or Consumable Item that is set as ammunition will
+        be used when reloading the weapon
     NPCAmmoFromInventory:
       Name: NPCs use ammunition from their inventory
     VehicleAmmoFromInventory:
@@ -590,7 +608,7 @@ SWADE:
       Hint: Select which image to use for Bennies on the Character Sheet
     HardChoices:
       Name: Hard Choices
-      Hint: Checking this will enable the Hard Choices rule
+      Hint: Checking this will enable the Hard Choices setting rule
     CardSound:
       Name: Card Sound
       Hint: Play a short card sound when dealing Initiative
@@ -608,6 +626,18 @@ SWADE:
       Hint: >-
         When enabled, all NPCs have the same currency options as Player
         Characters
+    DumbLuck:
+      Name: Dumb Luck
+      Hint: Checking this will enable the Dumb Luck Setting Rule
+    WoundCap:
+      Name: Wound Cap
+      Hint: Checking this will enable the Wound Cap Setting Rule when calculating Wounds.
+    GrittyDamage:
+      Name: Gritty Damage
+      Hint: Checking this will enable the Gritty Damage Setting Rule and allow for selecting the Injury Table to roll.
+    InjuryTable:
+      Name: Injury Table
+      Hint: Select the appropriate RollTable to automatically roll for Gritty Damage.
   EffectCallbacks:
     Shaken:
       RollSpirit: Roll Spirit
@@ -627,6 +657,9 @@ SWADE:
       Fail: You perish
       Success: You hang on, for now.
       Raise: You successfully stabilize
+  Validation:
+    OnlyOneRace: You can only have one race at a time!
+    OnlyOneArchetype: You can only have one archetype at a time!
   BenniesSpendGM: Spend a GM Benny
   DocumentLink: Link
   DocumentTweaks: Tweaks
@@ -640,6 +673,7 @@ SWADE:
   DeleteEmbeddedPowerPrompt: Are you sure you want to delete the power {power}?
   TrademarkWeapon:
     Label: Trademark Weapon
+    None: None
     Regular: Regular
     Improved: Improved
   OffHandPenalty: Off-Hand Penalty
@@ -733,6 +767,51 @@ SWADE:
     Header: Item Grants
     When: Grant Items When
   IgnFatigue: Ignore Fatigue
+  BaseDamage: Base Damage
+  RefreshPP: Refresh Power Points
+  Targets: 'Targets:'
+  Rolls:
+    RollResult: Roll Result
+    SwadeRoll: Roll
+    DamageRoll: Damage Roll
+    TraitRoll: Trait Roll
+    Critfail:
+      Critfail: CRITICAL FAILURE
+      Confirm: Critical Failure Confirmation
+      ConfirmDie: Confirmation Die
+  LoadedAmmo: Loaded Ammmunition
+  DamageApplicator:
+    ApplyDamage: Apply Damage
+    WoundsAboutToBeTaken: <p><strong>{name}</strong> is about to take <strong>{wounds}</strong>!</p>
+    SoakDialog:
+      WoundedTitle: Roll to Soak Wounds for {name}?
+      UnwoundedTitle: Adjust Damage to Determine Status for {name}?
+      WoundedPrompt: <p>{name} is about to take {wounds}. Do you want to attempt to Soak?</p>
+      ShakenPrompt: <p>{name} is about to become Shaken.</p>
+      UnharmedPrompt: <p>{name} might be unharmed.</p>
+      Benny: Spend a Benny to Soak
+      GMBenny: Spend a GM Benny to Soak
+      Free: Soak for Free
+      TakeWounds: Take {wounds}
+      AdjustDamage: Adjust Damage
+      ApplyShaken: Apply Shaken Status
+      Accept: Accept
+    RerollSoakDialog:
+      Title: Reroll to Soak Wounds for {name}?
+      Prompt: <p>{name} is about to take {wounds}. Do you want to reroll the Soak roll?</p>
+      Benny: Spend a Benny to Reroll
+      GMBenny: Spend a GM Benny to Reroll
+      Free: Reroll for Free
+      TakeWounds: Take {wounds}
+    AdjustDamagePrompt: <p>Adjust damage for any abilities and effects {name} might have.</p>
+    Result:
+      NoSignificantDamage: <p><strong>{name}</strong> suffers no significant damage.</p>
+      SoakedAll: <p><strong>{name}</strong> Soaked all Wounds and is not Shaken!</p>
+      IsShaken: <p><strong>{name}</strong> is <strong>Shaken</strong>!</p>
+      IsShakenWithWounds: <p><strong>{name}</strong> is <strong>Shaken</strong> with <strong>{wounds}</strong>!</p>
+      IsIncapacitated: <p><strong>{name}</strong> is <strong>Incapacitated!</strong></p>
+    NoInjuryTable: No Injury Table has been selected. See SWADE Settings Configuration
+    NoTargetsSelected: Please select a target to apply the damage to.
 ACTOR:
   TypeCharacter: Player Character
   TypeNpc: NPC
