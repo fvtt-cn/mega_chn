@@ -667,6 +667,7 @@ SWADE:
   WildAttack: Wild Attack
   ItemType: Item Type
   Source: Source
+  MigrateCompendium: Force compendium migration
   Properties: Properties
   AddAction: Add Action
   DeleteEmbeddedActionPrompt: Are you sure you want to delete the action {action}
