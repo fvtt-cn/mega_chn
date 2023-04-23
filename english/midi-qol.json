@@ -440,6 +440,7 @@
     "levelsautocover": "Levels Auto Cover",
     "simbuls-cover-calculator": "Simbuls Cover Calculator"
   },
+
   "midi-qol.NearbyAllyRanged.Name": "(House Rule) Ranged Attacks at foes near allies have disadvantage.",
   "midi-qol.WallsBlockRangeOptions": {
     "none": "No",
