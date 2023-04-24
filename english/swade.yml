@@ -683,6 +683,7 @@ SWADE:
     Stored: Stored
     Carried: Carried
     Equipped: Equipped
+    Installed: Installed
     OffHand: Off-Hand
     MainHand: Main Hand
     TwoHands: Two Hands
@@ -785,6 +786,7 @@ SWADE:
     ApplyDamage: Apply Damage
     WoundsAboutToBeTaken: <p><strong>{name}</strong> is about to take <strong>{wounds}</strong>!</p>
     SoakDialog:
+      SoakRoll: Soak Roll
       WoundedTitle: Roll to Soak Wounds for {name}?
       UnwoundedTitle: Adjust Damage to Determine Status for {name}?
       WoundedPrompt: <p>{name} is about to take {wounds}. Do you want to attempt to Soak?</p>
@@ -800,6 +802,7 @@ SWADE:
     RerollSoakDialog:
       Title: Reroll to Soak Wounds for {name}?
       Prompt: <p>{name} is about to take {wounds}. Do you want to reroll the Soak roll?</p>
+      PromptCritFail: <p>{name} is about to take {wounds}. A critical fail is preventing rerolls.</p>
       Benny: Spend a Benny to Reroll
       GMBenny: Spend a GM Benny to Reroll
       Free: Reroll for Free
