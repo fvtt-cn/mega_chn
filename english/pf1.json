@@ -1208,6 +1208,7 @@
   "PF1.ScriptCalls": {
     "Name": "Script Calls",
     "NewName": "New Script Call",
+    "Create": "Create embedded script call",
 
     "Use": {
       "Name": "Use",
