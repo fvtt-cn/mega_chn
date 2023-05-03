@@ -710,5 +710,7 @@
   "midi-qol.OptionalRuleVitality.Name": "(House Rule) Vitality pool",
   "midi-qol.OptionalRuleVitality.Hint": "when set to a resource damage applied to a target with 0 HP does damage to the vitality resource. If that reaches 0 the target is dead",
   "midi-qol.AutoRerollInitiative.Name": "Auto reroll initiative",
-  "midi-qol.AutoRerollInitiative.Hint": "Auto reroll initiative for all combatants at the start of a new round. Warning: can break round/turn effect expiry"
+  "midi-qol.AutoRerollInitiative.Hint": "Auto reroll initiative for all combatants at the start of a new round. Warning: can break round/turn effect expiry",
+  "midi-qol.UndoWorkflow.Name": "Experimental: Support undoing item rolls",
+  "midi-qol.UndoWorkflow.Hint": "If enabled midi will store undo data for all item rolls. Not suitable for game time. Undo via MidiQOL.undoMostRecentWorkflow()"
 }
