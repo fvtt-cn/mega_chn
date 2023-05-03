@@ -755,6 +755,11 @@
   "PF1.MeasureTemplateRay": "Ray",
   "PF1.MeasureTemplateRectangle": "Rectangle",
 
+  "PF1.CompendiumBrowser": {
+    "HiddenPack": "Pack hidden in compendium browsers",
+    "ShowPack": "Show in compendium browsers",
+    "HidePack": "Hide in compendium browsers"
+  },
   "PF1.CompendiumBrowserTitle": "Compendium Browser: {type}",
   "PF1.Any": "Any",
   "PF1.FilterBooleanOperatorHint": "Switch between requiring an item to match all filters, or any single one.",
