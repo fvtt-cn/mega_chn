@@ -191,8 +191,8 @@
   "PF1.AccessibilityFontSize": "Font Size",
   "PF1.AccessibilityFontSizeHint": "Changes font size in certain aspects of the game (such as on attack chat cards)",
 
-  "PF1.TooltipConfigName": "Tooltip Configuration",
-  "PF1.TooltipConfigLabel": "Tooltip",
+  "PF1.TooltipConfigName": "Token Tooltip Configuration",
+  "PF1.TooltipConfigLabel": "Token Tooltip",
   "PF1.TooltipConfigHint": "Change tooltip settings",
   "PF1.TooltipConfigResetInfo": "Reset Pathfinder tooltip configuration.",
   "PF1.TooltipConfigUpdateInfo": "Updated Pathfinder tooltip configuration.",
@@ -214,9 +214,9 @@
     "Container": "Container"
   },
 
-  "PF1.TooltipWorldConfigName": "Tooltip World Configuration",
-  "PF1.TooltipWorldConfigLabel": "Tooltip (World)",
-  "PF1.TooltipWorldConfigHint": "Change world-wide tooltip settings",
+  "PF1.TooltipWorldConfigName": "Token Tooltip Global Configuration",
+  "PF1.TooltipWorldConfigLabel": "Global Configuration",
+  "PF1.TooltipWorldConfigHint": "Change tooltip settings for all users",
   "PF1.TooltipWorldConfigHidePortraits": "Hide Portraits",
   "PF1.TooltipWorldConfigDisable": "Disable Tooltips",
   "PF1.TooltipWorldConfigHideHeld": "Hide Held items",
