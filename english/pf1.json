@@ -1415,6 +1415,8 @@
   "PF1.SpellComponents": "Spell Components",
   "PF1.SpellResistance": "Spell Resistance",
   "PF1.SpellcastingMaterials": "Spellcasting Materials",
+  "PF1.SpellMaterialDescription": "Material description",
+  "PF1.SpellMaterialValue": "Material value",
   "PF1.SpellcastingFocus": "Spellcasting Focus",
   "PF1.SpellEffect": "Spell Effect",
   "PF1.SubSchool": "Subschool",
