@@ -715,7 +715,10 @@
 
   "PF1.Spellcasting": {
     "Progression": {
-      "Label": "Progression"
+      "Label": "Progression",
+      "HighHint": "Spell levels go up to 9.",
+      "MediumHint": "Spell levels go up to 6.",
+      "LowHint": "Spell levels go up to 4."
     },
     "Type": {
       "Label": "Spell Type",
@@ -1807,7 +1810,7 @@
     "Description": "Ignore the actor's senses, allowing custom vision rules to be applied properly."
   },
   "PF1.DomainSlotValue": "Domain Slot Value",
-  "PF1.DomainSlotValueDesc": "How many 'free' slots do Domain/School spells provide for a spell level?",
+  "PF1.DomainSlotValueDesc": "How many bonus slots Domain/School spells have for a spell level.",
   "PF1.DisableLightLowLightVision": "Disable Low-light Vision for Light Source",
   "PF1.Command": "Command",
   "PF1.MaximumRangeIncrements": "Maximum Range Increments",
