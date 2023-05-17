@@ -94,7 +94,7 @@
     "TIDY5E.AbbrSavingThrow": "Save",
     "TIDY5E.SpellAttackMod": "攻击调整值",
     "TIDY5E.PreparedSpells": "已准备法术",
-    "TIDY5E.PreparedSpellsMax": "最大准备法术数",
+    "TIDY5E.PreparedSpellsMax": "最大准备法术数（注意：不要在激活效果上使用“覆盖”模式）",
     "TIDY5E.SpellSchool": "学派",
     "TIDY5E.Components": "成分",
     "TIDY5E.TokenLinked": "指示物已与角色链接",
