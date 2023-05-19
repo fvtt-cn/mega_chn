@@ -137,16 +137,22 @@
   "midi-qol.noSaveTargets": "No targets to save",
   "midi-qol.UseTokenNames.Name": "Chat cards use token name",
   "midi-qol.UseTokenNames.Hint": "Chat card titles and target names use the token name rather than the actor name",
-  "midi-qol.CriticalDamage.Name": "Choose critical damage",
+  "midi-qol.CriticalDamage.Name": "Choose critical damage for Players",
   "midi-qol.CriticalDamage.Hint": "DND5e Settings Only - standard dnd5e critical roll, Max Normal Damage - base weapon dice only (no critical dice) but all maximised, Max Critical Dice - critical dice maximised, Max All Dice - item + critical dice maximised, double dice value - result of dice x2, Explode Critical Dice - roll normal critical exploding any critical dice, Only Weapon Extra Critical - the only bonus damage for critical is from the item extra critical field",
+  "midi-qol.CriticalDamageGM.Name": "Choose critical damage for GM",
+  "midi-qol.CriticalDamageGM.Hint": "",
+
+
   "midi-qol.CriticalDamageChoices": {
     "default": "DND5e Settings Only",
     "maxDamage": "Max Normal Damage",
     "maxCrit": "Max Critical Dice (flat number)",
-    "maxCritRoll": "Max Crititcal Dice (roll dice)",
+    "maxCritRoll": "Max Critical Dice (roll dice)",
     "maxAll": "Max All Dice",
     "doubleDice": "Double Rolled Damage",
-    "explode": "Explode critical dice",
+    "explode": "Explode all critical dice",
+    "explodeCharacter": "Explode Character critical dice",
+    "explodeNPC": "Explode NPC crtical dice",
     "baseDamage": "Only Weapon Extra Critical"
   },
   "midi-qol.MergeCard.Name": "Merge Rolls to one card",
@@ -558,7 +564,7 @@
   "midi-qol._comment for translators_ItemMacroText": "The text below is searched for by midi in the onUseMacro field in item data. If you change it every item with an onUseMacro will need to be changed to match",
   "midi-qol.ItemMacroText": "ItemMacro",
   "midi-qol.LateTargeting.Name": "Late Targeting",
-  "midi-qol.LateTargeting.Hint": "When rolling with auto roll attack set, items which are not AoE, Ranged or self targeting will pause and wait for targets to be selected. Switch out of targeting mode in the controls HUD",
+  "midi-qol.LateTargeting.Hint": "When rolling with auto roll attack set, items which are not AoE, Ranged or self targeting will pause and wait for targets to be selected.",
   "midi-qol.LateTargeting.Blurb": "Choose {targetCount} targets",
   "midi-qol.LateTargetingOptions": {
     "none": "No Late Targeting",
@@ -712,5 +718,8 @@
   "midi-qol.AutoRerollInitiative.Name": "Auto reroll initiative",
   "midi-qol.AutoRerollInitiative.Hint": "Auto reroll initiative for all combatants at the start of a new round. Warning: can break round/turn effect expiry",
   "midi-qol.UndoWorkflow.Name": "Experimental: Support undoing item rolls",
-  "midi-qol.UndoWorkflow.Hint": "If enabled midi will store undo data for all item rolls. Not suitable for game time. Undo via MidiQOL.undoMostRecentWorkflow()"
+  "midi-qol.UndoWorkflow.Hint": "If enabled midi will store undo data for all item rolls. Not suitable for game time. Undo via MidiQOL.undoMostRecentWorkflow()",
+  "midi-qol.RollChecksBlind.Name" : "All player ability checks are rolled blind",
+  "midi-qol.RollSavesBlind.Name" : "All player ability saves are rolled blind",
+  "midi-qol.RollSkillsBlind.Name" : "All player skill checks are rolled blind"
 }
