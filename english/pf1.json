@@ -1863,6 +1863,9 @@
     },
     "EntrySelector": {
       "Title": "Entry Selector"
+    },
+    "TraitSelector": {
+      "CustomHint": "You can separate distinct entries with semicolon (;)."
     }
   },
 
