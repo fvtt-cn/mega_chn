@@ -1882,6 +1882,32 @@
     "NotFunctioning": "The system (currently) doesn't use this feature"
   },
 
+  "PF1.Troubleshooter": {
+    "Button": "Troubleshooter",
+    "Title": "Pathfinder 1e System Troubleshooting",
+    "Prelude": "Here are some things you may do when facing problems.",
+    "Steps": {
+      "Label": "Steps",
+      "Help": "Check the {link} (help button near where you opened this dialog).",
+      "HelpLink": "help browser",
+      "FAQ": "Check the FAQ",
+      "Log": "Check dev tools console log for errors (F12 [or Option+Command+I on Mac], console tab)",
+      "Modules": "Ensure modules are not the cause.",
+      "DisableModules": "Launching in safe mode is quick way to disable all modules.",
+      "ModuleSuggest": "{link} can alternatively speed up ruling out modules.",
+      "Discord": "Stop by in {link} Discord server.",
+      "DiscordChannel": "<code>{channel}</code> channel is for your Pathfinder 1e needs.",
+      "DiscordHint": "The channel pins usually hold any pertinent information.",
+      "Report": "Consider {reportlink} as a bug or a feature request.",
+      "ReportLinkText": "reporting your issue"
+    },
+    "Actions": {
+      "Label": "Operations",
+      "Migrate": "Run System Migration",
+      "MigrateHint": "Normally migration automatically runs, if there are pertinent migrations pending, whenever PF1 update happens and GM logs in the first time.<br>Running migration manually may sometimes solve problems, such as with documents imported from unmigrated sources."
+    }
+  },
+
   "PF1.Help": {
     "Label": "Help"
   },
