@@ -404,7 +404,7 @@
   "midi-qol.SingleConcentrationRoll.Hint": "If enabled and the attack is rolling normal damage + a save + other/versatile damage only roll a single concentration check for the combined damage",
   "midi-qol.TempHPDamageConcentrationCheck.Name": "Temporary HP Concentration Check",
   "midi-qol.TempHPDamageConcentrationCheck.Hint": "If enabled loss of temporary HP will trigger a concentration check",
-  "midi-qol.RemoveConcentrationEffects.Name": "Remove concentration when effecs removed",
+  "midi-qol.RemoveConcentrationEffects.Name": "Remove concentration when effects removed",
   "midi-qol.RemoveConcentrationEffects.Hint": "Check when effects (effects & templates) are removed. If all effects and templates for the concentration spell/feature have been removed remove concentrtion",
   "midi-qol.RemoveConcentrationEffectsOptions" : {
     "none": "Never",
@@ -717,18 +717,18 @@
   "midi-qol.OptionalRuleVitality.Hint": "when set to a resource damage applied to a target with 0 HP does damage to the vitality resource. If that reaches 0 the target is dead",
   "midi-qol.AutoRerollInitiative.Name": "Auto reroll initiative",
   "midi-qol.AutoRerollInitiative.Hint": "Auto reroll initiative for all combatants at the start of a new round. Warning: can break round/turn effect expiry",
-  "midi-qol.UndoWorkflow.Name": "Experimental: Support undoing item rolls",
-  "midi-qol.UndoWorkflow.Hint": "If enabled midi will store undo data for all item rolls. Not suitable for game time. Undo via MidiQOL.undoMostRecentWorkflow()",
   "midi-qol.RollChecksBlind.Name" : "All player ability checks are rolled blind",
   "midi-qol.RollSavesBlind.Name" : "All player ability saves are rolled blind",
   "midi-qol.RollSkillsBlind.Name" : "All player skill checks are rolled blind",
   "midi-qol.UndoWorkflow" : {
+    "Name": "Experimental: Support undoing item rolls",
+    "Hint": "If enabled midi will store undo data for all item rolls. Not suitable for game time. Undo via MidiQOL.undoMostRecentWorkflow()",
     "title": "Undo workflow",
     "actorName": "Actor name",
     "itemName": "Item name",
     "targetName": "Target name",
-    "removeFirstWorkflow": "Remove Top Recent Workflow From List (WARNING)",
-    "undoFirstWorkflow": "Undo Top Workflow From List",
+    "removeFirstWorkflow": "Remove Top/Most Recent Workflow From List (WARNING)",
+    "undoFirstWorkflow": "Undo Top/Most Recent Workflow From List",
     "GMOnly": "Only the GM can undo workflows"
   }
 }
