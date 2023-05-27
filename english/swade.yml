@@ -1,0 +1,847 @@
+SWADE:
+  ButtonReset: Reset
+  ButtonSubmit: Submit
+  CommunityCharSheet: Legacy Character Sheet
+  CommunityNPCSheet: Community NPC Sheet
+  CommunityVicSheet: Community Vehicle Sheet
+  CommunityItemSheet: Community Item Sheet
+  ItemSheet: Savage Worlds Item Sheet
+  Expand: Expand
+  OfficialSheet: Savage Worlds Official Sheet by Pinnacle
+  ModHint: Make sure your modifier includes a + or -
+  ActionDeckPresetLight: Action Deck (Light)
+  ActionDeckPresetDark: Action Deck (Dark)
+  Name: Name
+  Tough: Toughness
+  Race: Race
+  Archetype: Archetype
+  Pace: Pace
+  Running: Running
+  RunningDie: Running Die
+  RunningMod: Running Modifier
+  RollRun: Click to run
+  Adv: Advances
+  Rank: Rank
+  Inv: Gear
+  Summary: Traits
+  Pow: Powers
+  WildCard: Wild Card
+  Extra: Extra
+  Bennies: Bennies
+  TraitMod: Trait Modifier
+  SkillTest: Skill Test
+  AttributeTest: Attribute Test
+  Attributes: Attributes
+  Derived: Derived Stats
+  AttrAgi: Agility
+  AttrSma: Smarts
+  AnimalSmarts: Animal Smarts
+  AnimalSmartsMarker: A
+  AttrSpr: Spirit
+  AttrStr: Strength
+  AttrVig: Vigor
+  Tweaks: Tweaks
+  AttrAgiShort: Agi
+  AttrSmaShort: Sma
+  AttrSprShort: Spi
+  AttrStrShort: Str
+  AttrVigShort: Vig
+  Skills: Skills
+  Unskilled: Unskilled Attempt
+  CoreSkill: Core Skill
+  CoreSkills: Core Skills
+  LinkAttr: Linked Attribute
+  ArcaneSkill: Arcane Skill
+  ActivateArcaneDevice: Activate Device
+  Die: Die
+  WildDie: Wild Die
+  Modifier: Modifier
+  BenniesSpend: Spend a Benny
+  BenniesGive: Give a Benny
+  BenniesRefresh: Refresh Bennies
+  AllBenniesRefresh: Refresh All Bennies
+  BenniesRefreshMessage: Bennies have been refreshed!
+  BenniesRefreshAllMessage: All Bennies have been refreshed!
+  BenniesGMRefreshMessage: GM Bennies have been refreshed!
+  BenniesAddMessage: was given a new Benny!
+  BenniesGMAddMessage: took an additional Benny!
+  BenniesSpendMessage: spends a Benny!
+  BenniesMax: Bennies Reset
+  EditSkill: Edit Skill
+  EdEdge: Edit Edge
+  EdHind: Edit Hindrance
+  Ed: Edit
+  Del: Delete
+  Arcane: Arcane
+  All: All
+  HasPowers: Has Powers
+  Weapons: Weapons
+  MeleeWeapons: Melee Weapons
+  RangedWeapons: Ranged Weapons
+  Armors: Armors
+  WeaponsAndArmor: Weapons & Armor
+  Shields: Shields
+  Biography: Biography
+  Shaken: Shaken
+  Distr: Distracted
+  Vuln: Vulnerable
+  Stunned: Stunned
+  Entangled: Entangled
+  Bound: Bound
+  Aiming: Aiming
+  Berserk: Berserk
+  Defending: Defending
+  Flying: Flying
+  Follow: Follow {name}
+  Unfollow: Unfollow {name}
+  MakeGroupLeader: Make Group Leader
+  RemoveGroupLeader: Remove Group Leader
+  AddTokenFollowers: Add Selected Tokens as Followers
+  GroupByName: Group by Name
+  SetGroupColor: Set Group Color
+  SelectColor: Select a color
+  Holding: Holding
+  Hold: Hold
+  ActAfterCurrentCombatant: Act After Current Combatant
+  ActBeforeCurrentCombatant: Act now
+  LoseTurn: Toggle Lose Turn
+  Frightened: Frightened
+  Encumbered: Encumbered
+  Prone: Prone
+  BleedingOut: Bleeding Out
+  Diseased: Diseased
+  HeartAttack: Heart Attack
+  OnFire: On Fire
+  Poisoned: Poisoned
+  Reach: Reach
+  Torch: Torch
+  Invisible: Invisible
+  ColdBodied: Cold Bodied
+  Smite: Smite
+  Armor: Armor
+  Protection: Protection
+  Dmg: Damage
+  DmgOver: Action Damage
+  Resist: Resist
+  ResistRolls: Resistance Rolls
+  Ap: AP
+  APLong: Armor Piercing
+  RoF: RoF
+  Mag: Shots
+  Parry: Parry
+  Notes: Notes
+  ActionsEffects: Actions & Effects
+  Actions: Actions
+  DmgModUni: Damage Modifier
+  SkillModUni: Trait Modifier
+  ShotsUsed: Shots Used
+  NaturalArmor: Natural Armor
+  HitLocations: Hit Locations
+  Head: Head
+  Torso: Torso
+  Arms: Arms
+  Legs: Legs
+  MinStrLong: Minimum Strength
+  MinStr: Min. Strength
+  MinStrShort: Min.Str
+  Desc: Description
+  Special: Special Abilities
+  Details: Details
+  Equippable: Equippable
+  ArcaneDevice: Arcane Device
+  Misc: Misc
+  QuickAccess: Quick Access
+  Effects: Effects
+  Hindrances: Hindrances
+  MajHind: Major Hindrance
+  Major: (Major)
+  Minor: (Minor)
+  Edges: Edges
+  ArcBack: Arcane Background
+  Req: Requirements
+  Conv: Conviction
+  UseConv: Calls on their Conviction!
+  Hesitant: Hesitant
+  LevelHeaded: Level Headed
+  ImprovedLevelHeaded: Improved Level Headed
+  AutoCalc: Automatic Calculations
+  InclArmor: Automatically calculates Toughness, including armor
+  Label: Label
+  HasMaxValue: Has Max Value
+  Enabled: Enabled
+  Currency: Currency
+  CarryWeight: Encumbrance
+  Eqd: Eq'd
+  Equipped: Equipped
+  Unequipped: Unequipped
+  Quantity: Quantity
+  Weight: Weight
+  Price: Cost
+  PP: Power Points
+  PPShort: P. Points
+  PPCost: PP Cost
+  CurPP: Current Power Points
+  MaxPP: Maximum Power Points
+  Dur: Duration
+  Trap: Trapping
+  Wound: Wound
+  Wounds: Wounds
+  WoundsMax: Max Wounds
+  Fatigue: Fatigue
+  FatigueMax: Max Fatigue
+  Incap: Incapacitated
+  Init: Initiative
+  DrawInit: Draw Initiative
+  ActionDeckReset: Reshuffle Action Deck
+  ActionDeckResetNotification: Action Deck reshuffled
+  InitDraw: drew the…
+  General: General
+  Addi: Additional
+  Status: Status
+  Handling: Handling
+  Topspeed: Top Speed
+  OutOfControl: Out of Control
+  Wrecked: Wrecked
+  Item: Item
+  Cargo: Cargo
+  MaxCargo: Maximum Cargo Weight
+  CargoWeight: Cargo Weight
+  Mods: Mods
+  ModSlots: Mod Slots
+  MaxMods: Maximum Mods
+  Operator: Operator
+  ManCheck: Maneuver Check
+  AltSkill: Alternative Skill
+  Class: Classification
+  Vehicular: Vehicular Weapon
+  VehicleMod: Vehicle Mod
+  OpSkill: Operation Skill
+  ShowBennyAnimation: Show Benny Animation
+  ShowBennyAnimationDesc: >-
+    Play an animation when spending a Benny. Only available if Dice So Nice! is
+    installed
+  WildDiePreset: Wild Die Preset
+  WildDiePresetDesc: Select a DSN Preset design for your Wild Die.
+  WildDieTheme: Wild Die Theme
+  WildDieThemeDesc: >-
+    Select a DSN Theme for your Wild Die. Select 'Custom' if you want to create
+    your own or 'None' if you don't want your Wild Die to look differently.
+    Please keep in mind that self-created Wild Dies currently can only be seen
+    by you. Other players will see them differently.
+  SettingConf: Setting Configurator
+  SettingConfLabel: Open Setting Configurator
+  SettingConfDesc: Fine tune the system to fit the setting you're playing.
+  DiceConf: Wild Die Configuration
+  DiceConfDesc: Configure the settings for the SWADE/Dice So Nice integration
+  DiceConfLabel: Open Wild Die Configuration
+  Formula: Formula
+  SitMod: Situational Mod
+  RollMode: Roll Mode
+  RollExample: eg. +1d6x or -2
+  Roll: Roll
+  RollRaise: Roll Raise
+  GroupRoll: Group Roll
+  Ok: Ok
+  Cancel: Cancel
+  Redraw: Draw Card
+  Add: Add
+  ConfigInit: Configure Initiative
+  IgnWounds: Ignore Wounds
+  Size: Size
+  Scale: Scale
+  PickACard: Pick a card for {name}
+  NoCardsLeft: >-
+    There are not enough cards left in the deck! Only {current} of {needed}
+    needed cards are available
+  OldCard: Old card
+  ActionCard: Action Card
+  ConvictionActive: Conviction Active
+  ConvictionActivate: Calls upon their conviction!
+  ConvictionExtend: Do you want to extend your conviction?
+  ConvictionEnd: wavers in their conviction
+  NoBennies: You don't have enough bennies!
+  GM: Game Master
+  Vehicles: Vehicles
+  AddStats: Additional Stats
+  Actors: Actors
+  Items: Items
+  Max: Max
+  Curr: Current
+  DSNNone: '- None -'
+  Duplicate: Duplicate
+  Reload: Reload
+  Refresh: Refresh this card
+  Ammo: Ammunition
+  ppReload: Power Points to Reload
+  ReloadNotPossible: This actor type doesn't reload
+  ReloadUnneeded: The weapon is already fully loaded
+  ReloadSuccess: The weapon has been successfully reloaded
+  NotEnoughAmmo: You don't have enough ammunition for this action!
+  NotEnoughAmmoToReload: There's not enough ammo for a full reload
+  ReloadType:
+    Label: Reload Procedure
+    None: None
+    Single: Single
+    Full: Full
+    Magazine: Magazine
+    Battery: Battery
+    PP: Power Points
+  NoAmmoSet: There is no ammunition set
+  NoAmmoPP: Could not find power points matching the set ammo
+  NoMags: You don't have any consumables marked as magazines in your inventory
+  RemoveAmmo: Remove Ammunition
+  ConsumableType:
+    Label: Subtype
+    Regular: Regular
+  Trapping: Trappings
+  AddBenny: Add a Benny
+  CurrentBennies: Current Bennies
+  RerollWithBenny: Reroll with Benny
+  FreeReroll: Free Reroll
+  AutoCalcParry: Automatically calculates Parry, including Shields
+  Subtype: Subtype
+  SpecialAbility: Special Ability
+  SpecialAbilities: Special Abilities
+  RacialAbilities: Racial Abilities
+  ArchetypeAbilities: Archetype Abilities
+  About: About
+  EdgesHindrances: Edges & Hindrances
+  GrantsPowers: Grants Powers
+  Crew: Required Crew
+  Passengers: Optional Passengers
+  String: Text
+  Number: Number
+  Checkbox: Checkbox
+  Selection: Selection
+  WealthDie:
+    Label: Wealth Die
+    Broke:
+      Label: Broke
+      Hint: You are Broke!
+    Sides: Wealth Die Sides
+    WildSides: Wealth Wild Die Sides
+    Modifier: Wealth Die Modifier
+  TraitRolls: Trait Rolls
+  Trait: Trait
+  AltTrait: Action Trait
+  ClickSuggestions: Click for suggestions
+  Quick: Quick
+  BonusDamage: Bonus Damage
+  Joker: Joker
+  CustomWildDie: '- Custom Wild Die -'
+  Subtract: Subtract
+  DmgRolls: Damage Rolls
+  SubtractPPDesc: Subtract PP Cost from the available PP
+  AddPPDesc: Add PP Cost to the available PP
+  RightClickZoom: Right-Click to Zoom
+  SysMigrationWarning: >-
+    Your SWADE system data is from too old a Foundry version and cannot be
+    reliably migrated to the latest version. The process will be attempted, but
+    errors may occur.
+  DeckShuffled: Card Deck automatically shuffled
+  BasePace: Base Pace
+  WarningPackLocked: You cannot edit a locked Compendium. Please unlock it first
+  ActionCardEditor: Action Card Editor
+  CardFace: Card Face
+  CardValue: Value
+  CardSuit: Suit
+  IsJoker: Is Joker
+  OpenACEditor: Open in Action Card Editor
+  'Yes': 'Yes'
+  'No': 'No'
+  ShowCharacterSummary: Show Character Summary
+  CharacterSummary: Character Summary
+  CopyHtml: Copy HTML
+  CopyMarkdown: Copy Markdown
+  Imperial: Imperial
+  Metric: Metric
+  ChangeBennyWarning: Changing these settings will require you to refresh the page!
+  3DBennies: 3D Bennies
+  WealthSelectionNoneOther: None/Other
+  Modifiers: Modifiers
+  ActionTraitMod: Action Trait Modifier
+  ActionDmgMod: Action Damage Modifier
+  ItemTraitMod: Item Trait Modifier
+  ItemDmgMod: Item Damage Modifier
+  Duplicates: Duplicates Found
+  DuplicateItemsBodyText: >-
+    While adding the {type} <strong>{name}</strong> to the Actor {target} the
+    following duplicates (by name and type) have been found. The new items  have
+    been renamed to reflect their source.
+  NoActionDeckFound: No Action Deck found, creating one
+  NoActionDeckDiscardPileFound: No Action Deck Discard Pile found, creating one
+  Wealth: Wealth
+  Characters: Characters
+  SettingRules: Setting Rules
+  WorldBasics: World Basics
+  MAPenalty:
+    Label: Multi-Action Penalty
+    None: None
+  Mod:
+    Custom:
+      Add: Add Custom Modifier
+    Support: Support
+    Preset:
+      Choose: Choose a Modifier…
+      Add: Add Preset
+    Value: Value
+    Ignore: Ignore?
+  Illumination:
+    _name: Illumination
+    Dim: Dim Light
+    Dark: Darkness
+    Pitch: Pitch Black
+  Cover:
+    _name: Cover
+    Shield: Cover - Shield
+    Light: Light Cover
+    Medium: Medium Cover
+    Heavy: Heavy Cover
+    Total: Total Cover
+  Range:
+    _name: Range
+    Medium: Medium Range
+    Long: Long Range
+    Extreme: Extreme Range
+  ModOther: Other Modifiers
+  Snapfire: Snapfire
+  UnstablePlatform: Unstable Platform
+  CannotAddRaceToRace: You cannot add a race/archetype to a race/archetype!
+  LayOutChaseWithDeck: Use Deck to lay out Chase
+  ClearChaseCards: Clear Chase cards from Scene
+  NoSceneAvailable: There is no scene available or you've disabled the canvas
+  ChaseCardsCleared: All chase cards have been removed from the scene.
+  SetUpChase: Set Up Chase
+  NotADeckCompendium: The compendium you selected doesn't appear to be a legacy deck
+  ConvertToDeck: Convert to Deck
+  Expiration:
+    TabLabel: Turn Behavior
+    Description: <p>Effects expire on the target's <em>next turn or later</em>.</p>
+    Behavior: Expiration Behavior
+    BeginAuto: Start of Turn, Automatic
+    BeginPrompt: Start of Turn, Prompt
+    EndAuto: End of Turn, Automatic
+    EndPrompt: End of Turn, Prompt
+    None: None
+    LooseTurnOnHold: Lose Turn on Hold
+  RemoveEffectTitle: Remove {label} ?
+  RemoveEffectBody: >-
+    <p style="text-align: center;">Remove <strong>{label}</strong> from
+    <strong>{parent}</strong>?</p>
+  PPAbbreviation: PP
+  ShowInChat: Show in chat
+  ExpandDescription: Expand to show description
+  Favorite: Favorite
+  Equip: Equip
+  RollDamage: Roll Damage
+  SystemLinks:
+    Changelog: Changelog
+    Wiki: Wiki
+    ReportAnIssue: Report an Issue
+  OpenOrigin: Open origin
+  EffectsTemporary: Temporary Effects
+  EffectsPermanent: Permanent Effects
+  Ranks:
+    Novice: Novice
+    Seasoned: Seasoned
+    Veteran: Veteran
+    Heroic: Heroic
+    Legendary: Legendary
+  Advances:
+    EditorTitle: Advance Editor
+    Toggle: Toggle Advance Planned Status
+    Delete: Delete Advance
+    Planned: Planned
+    Modes:
+      Legacy: Legacy
+      Expanded: Expanded
+    Types:
+      Edge: New Edge
+      SingleSkill: Raise Single Skill
+      TwoSkills: Raise Two Skills
+      Attribute: Raise Attribute
+      Hindrance: Decrease Hindrance
+    Number: Advance number
+  AddAdvance: Add Advance
+  Appearance: Appearance
+  CharacterGoals: Goals
+  Background: Background
+  ActiveEffects:
+    Add: Add Active Effect
+    Source: Source
+    ResetDuration: Reset Duration
+    AddGuided: Open Wizard
+    AddUnguided: Add Empty Effect
+  Keybindings:
+    OpenFavoriteCards:
+      Name: Open Favorite Card Hand
+      UserConfigLabel: Favorite Card Hand
+      Hint: You can set your favorite hand in the User Config
+      NoCardsWarning: You don't have a favorite card hand set!
+    Bennies:
+      Name: Spend/Receive a Benny
+      Hint: >-
+        Press to spend a Benny, hold down Alt while you press the key to receive
+        a Benny instead
+  Settings:
+    ArbitFields: Arbitrary Setting Fields
+    HighlightTemplate:
+      Name: Always Highlight Templates
+      Hint: >-
+        When enabled, Measured Templates alway highlight themselves instead of
+        the grid.
+    FantasyCompanionEntangle:
+      Name: Fantasy Companion Entangle
+      Hint: >-
+        Use the Fantasy Companion Entangle status instead of the Core version.
+        Requires a reload to take effect
+    InitDiscardPile:
+      Name: Initiative Discard Pile
+    InitCardDeck:
+      Name: Card Deck to use for Initiative
+    ParryBase:
+      Name: Localized Fighting Skill Name
+      Hint: The name of the skill which will be used to calculate a characters Parry
+    UseAttributeShorts:
+      Name: Use shortened attribute names
+      Hint: >-
+        Activate this option if you want to see abbreviated attribute names on
+        the pc and npc sheets, i.e. Agi instead of Agility, Sma instead of
+        Smarts, etc. You'll need to close and reopen all open sheets for this
+        option to take effect.
+    WeightUnit:
+      Name: Unit of weight
+      Hint: >-
+        Sets whether weights are measured in pounds or kilograms. Changing this
+        will NOT change the weights on items, only how the encumbrance is
+        calculated
+    HideNpcItemChatCards:
+      Name: Hide NPC Item Chat Cards
+      Hint: >-
+        When enabled, NPC Item Chat Cards are automatically sent as a whisper to
+        all Gamemasters instead of being posted for all to see
+    EnableBennyNotify:
+      Name: Benny notifications
+      Hint: Displays chat messages when bennies are taken, given or refreshed.
+    HideWC:
+      Name: Hide NPC Wild Cards
+      Hint: Do not show which NPCs are Wild Cards to players
+    CreateInitChat:
+      Name: Create Chat Message for Initiative
+    AutoInit:
+      Name: Automatic Initiative
+      Hint: Automatically draw Action Cards every round
+    Benny3DFront:
+      Name: Front Texture
+      Hint: Front texture of the 3D Benny
+    Benny3DBack:
+      Name: Back Texture
+      Hint: Back texture of the 3D Benny
+    Benny3DBackBump:
+      Name: Back Bump Map
+      Hint: Back bump map of the benny
+    Benny3DFrontBump:
+      Hint: Front bump map of the benny
+      Name: Front Bump Map
+    CoreSkillsList:
+      Name: List of Core Skills
+      Hint: >-
+        Enter a comma-separated list of skill names to be defined as core skills
+        for all actors
+    CoreSkillsPack:
+      Name: Core Skills Compendium
+      Hint: Choose from which Compendium the core skills will be drawn
+    WealthType:
+      Name: Wealth Type
+      Hint: Choose how to track character wealth and currency
+    CurrencyName:
+      Name: Currency Name
+      Hint: Name your currency
+    JokersWild:
+      Name: Joker's Wild
+      Hint: >-
+        Gives a Benny to every player character when one of them is dealt a
+        Joker
+    AmmoManagement:
+      Name: Ammunition Management
+      Hint: >-
+        Automates ammo consumption. See system documentation journal for
+        details.
+    PCAmmoFromInventory:
+      Name: PCs use Ammunition from Inventory
+      Hint: >-
+        When activated a Gear or Consumable Item that is set as ammunition will
+        be used when reloading the weapon
+    NPCAmmoFromInventory:
+      Name: NPCs use ammunition from their inventory
+    VehicleAmmoFromInventory:
+      Name: Vehicles use ammunition from their inventory
+    EnableWoundPace:
+      Name: Adjust Pace with Wounds
+      Hint: When enabled, Pace is automatically affected by Wounds
+    EnableConv:
+      Name: Conviction
+      Hint: Enable the Conviction setting rule
+    NoPowerPoints:
+      Name: No Power Points
+      Hint: When enabled this option hides all Power Point interactions
+    AlwaysGeneralPP:
+      Name: Always Show General Power Points
+      Hint: >-
+        When enabled the General Powers section always shows even if all powers
+        have an associated Arcane Background
+    ApplyEncumbrance:
+      Name: Apply Encumbrance Penalties
+      Hint: >-
+        Apply encumbrance penalties. Please keep in mind that this currently
+        does NOT SUPPORT {vigor} tests to resist {fatigue}!
+    GmBennies:
+      Name: Gamemaster Bennies
+      Hint: Sets how many Bennies the GM receives on a refresh
+    VehicleMods:
+      Name: Vehicles Mods
+      Hint: Vehicles use Mod-Slots
+    VehicleEdges:
+      Name: Vehicle Edges
+      Hint: Vehicles use Edges and Hindrances
+    BennyImageSheet:
+      Name: Benny
+      Hint: Select which image to use for Bennies on the Character Sheet
+    HardChoices:
+      Name: Hard Choices
+      Hint: Checking this will enable the Hard Choices setting rule
+    CardSound:
+      Name: Card Sound
+      Hint: Play a short card sound when dealing Initiative
+    StartingCurrency:
+      PC:
+        Name: Player Character starting currency
+        Hint: >-
+          Set the amount of currency that Player Character Actors recieve upon
+          creation
+      NPC:
+        Hint: Set the amount of currency that NPC Actors recieve upon creation
+        Name: NPC starting currency
+    NPCCurrency:
+      Name: NPCs use currency
+      Hint: >-
+        When enabled, all NPCs have the same currency options as Player
+        Characters
+    DumbLuck:
+      Name: Dumb Luck
+      Hint: Checking this will enable the Dumb Luck Setting Rule
+    WoundCap:
+      Name: Wound Cap
+      Hint: Checking this will enable the Wound Cap Setting Rule when calculating Wounds.
+    UnarmoredHero:
+      Name: Unarmored Hero
+      Hint: Checking this will enable the Unarmored Hero setting rule when rolling to soak
+    GrittyDamage:
+      Name: Gritty Damage
+      Hint: Checking this will enable the Gritty Damage Setting Rule and allow for
+        selecting the Injury Table to roll.
+    InjuryTable:
+      Name: Injury Table
+      Hint: Select the appropriate RollTable to automatically roll for Gritty Damage.
+  EffectCallbacks:
+    Shaken:
+      RollSpirit: Roll Spirit
+      Title: Remove Shaken from {name}
+      Flavor: Spirit Test to remove Shaken
+      UnshakeModifier: Unshake Modifier
+      Question: What do you want to do?
+      Success: You are no longer Shaken
+    Stunned:
+      Title: Vigor Test to remove Stunned
+      Fail: You remain Stunned
+      Success: You are no longer Stunned but remain Vulnerable
+      Raise: You are no longer Stunned nor Vulnerable
+      UnStunModifier: Unstun Modifier
+    BleedingOut:
+      Title: Vigor Test to resist Bleeding Out
+      Fail: You perish
+      Success: You hang on, for now.
+      Raise: You successfully stabilize
+  Validation:
+    OnlyOneRace: You can only have one race at a time!
+    OnlyOneArchetype: You can only have one archetype at a time!
+  BenniesSpendGM: Spend a GM Benny
+  DocumentLink: Link
+  DocumentTweaks: Tweaks
+  TargetVulnerable: Target is Vulnerable
+  WildAttack: Wild Attack
+  ItemType: Item Type
+  Source: Source
+  MigrateCompendium: Force compendium migration
+  Properties: Properties
+  AddAction: Add Action
+  DeleteEmbeddedActionPrompt: Are you sure you want to delete the action {action}
+  DeleteEmbeddedPowerPrompt: Are you sure you want to delete the power {power}?
+  TrademarkWeapon:
+    Label: Trademark Weapon
+    None: None
+    Regular: Regular
+    Improved: Improved
+  OffHandPenalty: Off-Hand Penalty
+  ItemEquipStatus:
+    Label: Location
+    Stored: Stored
+    Carried: Carried
+    Equipped: Equipped
+    Installed: Installed
+    OffHand: Off-Hand
+    MainHand: Main Hand
+    TwoHands: Two Hands
+    Added: Added
+    Readied: Readied
+  DestroyOnEmpty: Destroy when Empty
+  Charges: Charges
+  Consumable:
+    Use: Use
+    Consumables: Consumables
+  EmptyRacialAbilitiesHint: >-
+    This {race} or {archetype} doesn't have any abilities yet. Drag&Drop
+    something onto the sheet to get started.
+  NoTokenSelectedForResistRoll: To make a resistance roll, first select one token
+  Templates:
+    Cone:
+      Short: Cone
+      Long: Cone Template
+    Stream:
+      Short: Stream
+      Long: Stream Template
+    Small:
+      Short: SBT
+      Long: Small Blast Template
+    Medium:
+      Short: MBT
+      Long: Medium Blast Template
+    Large:
+      Short: LBT
+      Long: Large Blast Template
+    Available: Available Templates
+    Possible: Possible Templates
+  CompendiumTOC:
+    Toggle: Toggle use Compendium TOC
+    Dialog:
+      Title: Confirm Toggle
+      Content: >-
+        In order for the change to take effect, Foundry VTT and all connected
+        clients will be reloaded. Please confirm.
+    Header: Contents
+  Category: Item Category
+  ItemIsAmmo: Is Ammunition
+  Vision:
+    SeeHeat: See Heat
+    SenseHeat: Sense Heat
+    Infravision: Infravision
+  Attribute: Attribute
+  BaseDie: Base Die
+  AttributeManager:
+    Title: Manage Attributes for {name}
+    Open: Manage Attributes
+  HeavyArmor: Heavy Armor
+  HeavyWeapon: Heavy Weapon
+  UsesTOC: Use Compendium TOC
+  TOCBlockList: Compendium TOC Blocklist
+  TOCSettings:
+    Label: Open Compendium TOC Settings
+    Name: Compendium TOC Settings
+    Hint: Configure the Compendum TOC Application
+  DieSides: Die Sides
+  WildDieSides: Wild Die Sides
+  EncumbranceSteps: Encumbrance Steps
+  EffectWizard:
+    Preview: Preview
+    Change: Change
+    Mode: Mode
+    Value: Value
+    Changes: Changes
+    SelectAttribute: Select Attribute
+    EnterSkill:
+      Label: Enter skill
+      Hint: >-
+        You can enter any skill name you like or select one from the list of
+        suggestions
+  OtherStats: Other Stats
+  HotbarDropOwnedItemWarning: You can only create macro buttons for owned Items
+  AdditionalStats:
+    SelectHint: Enter a list of options, seperated by semicolon
+  MessageOnUse:
+    Label: Message on Use
+    Hint: Display a chat message when this item is used
+  ItemGrants:
+    EmptyHint: This item currently grants no items
+    Header: Item Grants
+    When: Grant Items When
+  IgnFatigue: Ignore Fatigue
+  BaseDamage: Base Damage
+  RefreshPP: Refresh Power Points
+  Targets: 'Targets:'
+  Rolls:
+    RollResult: Roll Result
+    SwadeRoll: Roll
+    DamageRoll: Damage Roll
+    TraitRoll: Trait Roll
+    Critfail:
+      Critfail: CRITICAL FAILURE
+      Confirm: Critical Failure Confirmation
+      ConfirmDie: Confirmation Die
+  LoadedAmmo: Loaded Ammmunition
+  DamageApplicator:
+    ApplyDamage: Apply Damage
+    SoakModifier: Soak Modifier
+    WoundsAboutToBeTaken: <p><strong>{name}</strong> is about to take <strong>{wounds}</strong>!</p>
+    SoakDialog:
+      SoakRoll: Vigor Test to Soak
+      WoundedTitle: Roll to Soak Wounds for {name}?
+      UnwoundedTitle: Adjust Damage to Determine Status for {name}?
+      WoundedPrompt: <p>{name} is about to take {wounds}. Do you want to attempt to
+        Soak?</p>
+      ShakenPrompt: <p>{name} is about to become Shaken.</p>
+      UnharmedPrompt: <p>{name} might be unharmed.</p>
+      Benny: Spend a Benny to Soak
+      GMBenny: Spend a GM Benny to Soak
+      Free: Soak for Free
+      TakeWounds: Take {wounds}
+      AdjustDamage: Adjust Damage
+      ApplyShaken: Apply Shaken Status
+      Accept: Accept
+    RerollSoakDialog:
+      Title: Reroll to Soak Wounds for {name}?
+      Prompt: <p>{name} is about to take {wounds}. Do you want to reroll the Soak roll?</p>
+      PromptCritFail: <p>{name} is about to take {wounds}. A critical fail is preventing rerolls.</p>
+      Benny: Spend a Benny to Reroll
+      GMBenny: Spend a GM Benny to Reroll
+      Free: Reroll for Free
+      TakeWounds: Take {wounds}
+    AdjustDamagePrompt: <p>Adjust damage for any abilities and effects {name} might
+      have.</p>
+    Result:
+      NoSignificantDamage: <p><strong>{name}</strong> suffers no significant damage.</p>
+      SoakedAll: <p><strong>{name}</strong> Soaked all Wounds and is not Shaken!</p>
+      IsShaken: <p><strong>{name}</strong> is <strong>Shaken</strong>!</p>
+      IsShakenWithWounds: <p><strong>{name}</strong> is <strong>Shaken</strong> with
+        <strong>{wounds}</strong>!</p>
+      IsIncapacitated: <p><strong>{name}</strong> is <strong>Incapacitated!</strong></p>
+    NoInjuryTable: No Injury Table has been selected. See SWADE Settings Configuration
+    NoTargetsSelected: Please select a target to apply the damage to.
+ACTOR:
+  TypeCharacter: Player Character
+  TypeNpc: NPC
+  TypeVehicle: Vehicle
+ITEM:
+  TypeWeapon: Weapon
+  TypeArmor: Armor
+  TypeShield: Shield
+  TypeGear: Gear
+  TypeEdge: Edge
+  TypeHindrance: Hindrance
+  TypeSkill: Skill
+  TypePower: Power
+  TypeAbility: Ability
+  TypeConsumable: Consumable
+  TypeAction: Action
+CARD:
+  TypeAdventure: Adventure Card
+  TypePoker: Poker Card
