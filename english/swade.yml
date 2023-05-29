@@ -51,6 +51,17 @@ SWADE:
   CoreSkill: Core Skill
   CoreSkills: Core Skills
   LinkAttr: Linked Attribute
+  GlobalMod:
+    Label: Global Modifiers
+    Trait: All Traits
+    Agility: Agility and linked Skills
+    Smarts: Smarts and linked Skills
+    Spirit: Spirit and linked Skills
+    Strength: Strength and linked Skills
+    Vigor: Vigor and linked Skills
+    Attack: All Attacks
+    Damage: All Damage
+    AP: All Armor Piercing
   ArcaneSkill: Arcane Skill
   ActivateArcaneDevice: Activate Device
   Die: Die
@@ -167,7 +178,6 @@ SWADE:
   AutoCalc: Automatic Calculations
   InclArmor: Automatically calculates Toughness, including armor
   Label: Label
-  HasMaxValue: Has Max Value
   Enabled: Enabled
   Currency: Currency
   CarryWeight: Encumbrance
@@ -382,6 +392,7 @@ SWADE:
       Add: Add Custom Modifier
     Support: Support
     Preset:
+      Settings: Preset Modifiers
       Choose: Choose a Modifier…
       Add: Add Preset
     Value: Value
@@ -404,8 +415,13 @@ SWADE:
     Long: Long Range
     Extreme: Extreme Range
   ModOther: Other Modifiers
+  ModTrait: Trait Modifiers
+  ModAttack: Attack Modifiers
+  ModDamage: Damage Modifiers
   Snapfire: Snapfire
   UnstablePlatform: Unstable Platform
+  Weakness: Weakness
+  Resistance: Resistance
   CannotAddRaceToRace: You cannot add a race/archetype to a race/archetype!
   LayOutChaseWithDeck: Use Deck to lay out Chase
   ClearChaseCards: Clear Chase cards from Scene
@@ -424,6 +440,7 @@ SWADE:
     EndPrompt: End of Turn, Prompt
     None: None
     LooseTurnOnHold: Lose Turn on Hold
+    Remaining: Remaining
   RemoveEffectTitle: Remove {label} ?
   RemoveEffectBody: >-
     <p style="text-align: center;">Remove <strong>{label}</strong> from
@@ -632,17 +649,29 @@ SWADE:
       Hint: Checking this will enable the Dumb Luck Setting Rule
     WoundCap:
       Name: Wound Cap
-      Hint: Checking this will enable the Wound Cap Setting Rule when calculating Wounds.
+      Hint: >-
+        Checking this will enable the Wound Cap Setting Rule when calculating
+        Wounds.
     UnarmoredHero:
       Name: Unarmored Hero
-      Hint: Checking this will enable the Unarmored Hero setting rule when rolling to soak
+      Hint: >-
+        Checking this will enable the Unarmored Hero setting rule when rolling
+        to soak
     GrittyDamage:
       Name: Gritty Damage
-      Hint: Checking this will enable the Gritty Damage Setting Rule and allow for
+      Hint: >-
+        Checking this will enable the Gritty Damage Setting Rule and allow for
         selecting the Injury Table to roll.
     InjuryTable:
       Name: Injury Table
-      Hint: Select the appropriate RollTable to automatically roll for Gritty Damage.
+      Hint: >-
+        Select the appropriate RollTable to automatically roll for Gritty
+        Damage.
+    HeroesNeverDie:
+      Name: Heroes Never Die
+      Hint: >-
+        Checking this will enable the Heroes Never Die Setting Rule when
+        determining incapacitation
   EffectCallbacks:
     Shaken:
       RollSpirit: Roll Spirit
@@ -662,6 +691,8 @@ SWADE:
       Fail: You perish
       Success: You hang on, for now.
       Raise: You successfully stabilize
+      BleedOutModifier: Bleeding Out Modifier
+      IgnoreWounds: Bleeding Out Ignore Wounds
   Validation:
     OnlyOneRace: You can only have one race at a time!
     OnlyOneArchetype: You can only have one archetype at a time!
@@ -670,6 +701,10 @@ SWADE:
   DocumentTweaks: Tweaks
   TargetVulnerable: Target is Vulnerable
   WildAttack: Wild Attack
+  CalledShot:
+    HeadOrVitals: 'Called Shot: Head or Vitals'
+    Hand: 'Called Shot: Hand'
+    Limbs: 'Called Shot: Limbs'
   ItemType: Item Type
   Source: Source
   MigrateCompendium: Force compendium migration
@@ -767,6 +802,12 @@ SWADE:
   HotbarDropOwnedItemWarning: You can only create macro buttons for owned Items
   AdditionalStats:
     SelectHint: Enter a list of options, seperated by semicolon
+    Key: Stat Key
+    Label: Label
+    Type: Type
+    HasMaxValue: Has Max Value
+    Current: 'Current {stat}'
+    Max: 'Max {stat}'
   MessageOnUse:
     Label: Message on Use
     Hint: Display a chat message when this item is used
@@ -796,8 +837,7 @@ SWADE:
       SoakRoll: Vigor Test to Soak
       WoundedTitle: Roll to Soak Wounds for {name}?
       UnwoundedTitle: Adjust Damage to Determine Status for {name}?
-      WoundedPrompt: <p>{name} is about to take {wounds}. Do you want to attempt to
-        Soak?</p>
+      WoundedPrompt: <p>{name} is about to take {wounds}. Do you want to attempt to Soak?</p>
       ShakenPrompt: <p>{name} is about to become Shaken.</p>
       UnharmedPrompt: <p>{name} might be unharmed.</p>
       Benny: Spend a Benny to Soak
@@ -809,39 +849,63 @@ SWADE:
       Accept: Accept
     RerollSoakDialog:
       Title: Reroll to Soak Wounds for {name}?
-      Prompt: <p>{name} is about to take {wounds}. Do you want to reroll the Soak roll?</p>
-      PromptCritFail: <p>{name} is about to take {wounds}. A critical fail is preventing rerolls.</p>
+      Prompt: >-
+        <p>{name} is about to take {wounds}. Do you want to reroll the Soak
+        roll?</p>
+      PromptCritFail: >-
+        <p>{name} is about to take {wounds}. A critical fail is preventing
+        rerolls.</p>
       Benny: Spend a Benny to Reroll
       GMBenny: Spend a GM Benny to Reroll
       Free: Reroll for Free
       TakeWounds: Take {wounds}
-    AdjustDamagePrompt: <p>Adjust damage for any abilities and effects {name} might
-      have.</p>
+    AdjustDamagePrompt: <p>Adjust damage for any abilities and effects {name} might have.</p>
     Result:
       NoSignificantDamage: <p><strong>{name}</strong> suffers no significant damage.</p>
       SoakedAll: <p><strong>{name}</strong> Soaked all Wounds and is not Shaken!</p>
       IsShaken: <p><strong>{name}</strong> is <strong>Shaken</strong>!</p>
-      IsShakenWithWounds: <p><strong>{name}</strong> is <strong>Shaken</strong> with
+      IsShakenWithWounds: >-
+        <p><strong>{name}</strong> is <strong>Shaken</strong> with
         <strong>{wounds}</strong>!</p>
       IsIncapacitated: <p><strong>{name}</strong> is <strong>Incapacitated!</strong></p>
+    Incapacitation:
+      InjuryRoll: Vigor Roll to resist injury upon incapacitation
+      Dies: <p><strong>{name}</strong> dies from the damage!</p>
+      PermanentInjury: >-
+        <p><strong>{name}</strong> suffers a permanent injury and is
+        <strong>Bleeding Out!</strong></p>
+      PermanentInjuryHND: <p><strong>{name}</strong> suffers a permanent injury!</p>
+      TemporaryInjury: >-
+        <p><strong>{name}</strong> suffers an injury that will go away when all
+        Wounds are healed.</p>
+      ShortInjury: >-
+        <p><strong>{name}</strong> suffers an injury that will go away in 24
+        hours, or when all Wounds are healed (whichever is sooner).</p>
+      TakeFail: Suffer a permanent injury
+      TakeSuccess: Suffer an injury that goes away when all wounds are healed
+      Title: Reroll injury severity for {name}?
+      Prompt: >-
+        <p>{name} is about to be injured. Do you want to reroll the Vigor
+        roll?</p>
     NoInjuryTable: No Injury Table has been selected. See SWADE Settings Configuration
     NoTargetsSelected: Please select a target to apply the damage to.
-ACTOR:
-  TypeCharacter: Player Character
-  TypeNpc: NPC
-  TypeVehicle: Vehicle
-ITEM:
-  TypeWeapon: Weapon
-  TypeArmor: Armor
-  TypeShield: Shield
-  TypeGear: Gear
-  TypeEdge: Edge
-  TypeHindrance: Hindrance
-  TypeSkill: Skill
-  TypePower: Power
-  TypeAbility: Ability
-  TypeConsumable: Consumable
-  TypeAction: Action
-CARD:
-  TypeAdventure: Adventure Card
-  TypePoker: Poker Card
+TYPES:
+  Actor:
+    character: Player Character
+    npc: NPC
+    vehicle: Vehicle
+  Item:
+    weapon: Weapon
+    armor: Armor
+    shield: Shield
+    gear: Gear
+    edge: Edge
+    hindrance: Hindrance
+    skill: Skill
+    power: Power
+    ability: Ability
+    consumable: Consumable
+    action: Action
+  Card:
+    adventure: Adventure Card
+    poker: Poker Card
