@@ -151,6 +151,7 @@
     "maxAll": "Max All Dice",
     "doubleDice": "Double Rolled Damage",
     "explode": "Explode all critical dice",
+    "maxDamageExplode": "Max base damage and explode critical dice",
     "explodeCharacter": "Explode Character critical dice",
     "explodeNPC": "Explode NPC crtical dice",
     "baseDamage": "Only Weapon Extra Critical"
@@ -521,6 +522,7 @@
   "midi-qol.ActiveDefenceString": "Active Defence",
   "midi-qol.ActiveDefence.Name": "Active Defence",
   "midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit' rolls players make a defence roll. Requires LMRTFY and does not work with better rolls",
+  "midi-qol.ActiveDefenceShowGM.Name": "GM Sees active defence rolls",
   "midi-qol.PromptDamageRoll.Name": "Enhanced Damage Roll Dialog",
   "midi-qol.PromptDamageRoll.Hint": "When using Damage Roll Dialog display an enhanced dialog that supports choosing item damage.",
   "midi-qol.GMHide3dDice.Name": "Hide GM attack/damage/saving throw 3d dice rolls - overrides other settings (merge card only)",
