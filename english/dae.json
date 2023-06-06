@@ -199,7 +199,7 @@
     "dae.removingEffects": "Removing effects",
     "dae.tokenMagic": "TokenMagic",
     "dae.transfer.Name": "Transfer to actor on item equip",
-    "dae.transfer.Hint": "Enabled means the effect is applied to the owner of the item when the item is equppied. Disable if you want the effect to apply to a target when the item is used",
+    "dae.transfer.Hint": "Enabled means the effect is applied to the owner of the item when the item is equipped. Disable if you want the effect to apply to a target when the item is used",
     "dae.effectName": "Effect Name",
     "dae.readOnly": "READ ONLY EFFECT",
     "dae.legact": "Legendary Actions",
