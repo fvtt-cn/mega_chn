@@ -346,6 +346,7 @@
   "D35E.WeaponPropImprovised": "Improvised",
   "D35E.WeaponPropMonk": "Monk",
   "D35E.WeaponPropNonLethal": "Non-lethal",
+  "D35E.WeaponPropNonLethalNoPenalty": "No Penalty Non-lethal Attacks",
   "D35E.WeaponPropPerformance": "Performance",
   "D35E.WeaponPropReach": "Reach",
   "D35E.WeaponPropSunder": "Sunder",
@@ -1690,6 +1691,7 @@
   "D35E.ModifiedFormulaNeedsAmpersand": "When using field referenced in Modified Formula, Modified Field needs ampersand before the field name.",
   "D35E.FeatAddedLevel": "Added at level",
   "D35E.Feat": "Feat",
+  "D35E.TreatAttackAsNaturalAttack": "Treat Attack as Natural Attack",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
