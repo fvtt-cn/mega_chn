@@ -806,8 +806,8 @@ SWADE:
     Label: Label
     Type: Type
     HasMaxValue: Has Max Value
-    Current: 'Current {stat}'
-    Max: 'Max {stat}'
+    Current: Current {stat}
+    Max: Max {stat}
   MessageOnUse:
     Label: Message on Use
     Hint: Display a chat message when this item is used
@@ -826,8 +826,14 @@ SWADE:
     TraitRoll: Trait Roll
     Critfail:
       Critfail: CRITICAL FAILURE
-      Confirm: Critical Failure Confirmation
       ConfirmDie: Confirmation Die
+      Unconfirmed: Critical Failure Not Confirmed
+      Possible: POSSIBLE CRITICAL FAILURE
+      Confirmed: Critical Failure Confirmation
+      Confirm: Confirm
+    Free: Free
+    Benny: Benny
+    GMBenny: GM Benny
   LoadedAmmo: Loaded Ammmunition
   DamageApplicator:
     ApplyDamage: Apply Damage
