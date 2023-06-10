@@ -36,6 +36,8 @@
   "SETTINGS.pf1LowLightVisionModeH": "When checked, players who have no token selected will not benefit from any of their tokens' low-light vision (this also applies to darkvision)",
   "SETTINGS.pf1CoinWeightN": "Coin Weight Divisor",
   "SETTINGS.pf1CoinWeightH": "How many coins weigh 1 lbs",
+  "SETTINGS.pf1SpellPointCostN": "Spellpoint default cost",
+  "SETTINGS.pf1SpellPointCostH": "Default cost spellpoint using spells use if not configured per spell.",
   "SETTINGS.pf1SharedVisionModeN": "Shared Vision Mode",
   "SETTINGS.pf1SharedVisionModeH": "How to handle Shared Vision between players.",
   "SETTINGS.pf1characterVisionN": "Player character vision",
