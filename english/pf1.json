@@ -1785,6 +1785,8 @@
   "PF1.DontShowAgain": "Don't show changelog after system updates",
   "PF1.IdentifyDC": "Identify DC",
   "PF1.IdentifyDCNumber": "Identify DC {dc}",
+  "PF1.Identify": "Identify",
+  "PF1.Unidentify": "Unidentify",
   "PF1.MagicItems": "Magic Items",
   "PF1.Summary": "Summary",
   "PF1.HitDieShort": "HD",
