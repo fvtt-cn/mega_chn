@@ -1456,6 +1456,7 @@
   "PF1.ImmuneTo": "Immune to {immunity}",
   "PF1.AbilityTest": "{ability} Ability Test",
   "PF1.SkillCheck": "{skill} Skill Check",
+  "PF1.InitiativeCheck": "{name}: Initiative Check",
   "PF1.SavingThrowRoll": "{save} Saving Throw",
   "PF1.SavingThrowButtonLabel": "{type} DC {dc}",
   "PF1.SavingThrowButtonLabelGMSensitive": "{save} Save",
