@@ -689,8 +689,8 @@
   "PF1.TargetWall": "Wall",
 
   "PF1.TimeInst": "Instantaneous",
-  "PF1.TimeTurn": "Turns",
-  "PF1.TimeTurnShort": "turns",
+  "PF1.TimeTurn": "Turn",
+  "PF1.TimeTurnShort": "turn",
   "PF1.TimeRound": "Rounds",
   "PF1.TimeRoundShort": "rnds",
   "PF1.TimeMinute": "Minutes",
@@ -701,6 +701,7 @@
   "PF1.TimeMonth": "Months",
   "PF1.TimeYear": "Years",
   "PF1.TimePerm": "Permanent",
+  "PF1.TimeFormat": "{value} {unit}",
 
   "PF1.TraitArmorProf": "Armor Proficiencies",
   "PF1.TraitWeaponProf": "Weapon Proficiencies",
