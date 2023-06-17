@@ -1749,6 +1749,8 @@
   "PF1.UseItem": "Use Item",
   "PF1.UseSpell": "Use Spell",
   "PF1.UseFeat": "Use Feature",
+  "PF1.UseBuff": "Use Buff",
+  "PF1.RollSkill": "Roll Skill Check",
   "PF1.PerformAttack": "Perform Attack",
   "PF1.DisplayInChat": "Display in chat",
   "PF1.UseSpellPoints": "Use Spell Points",
