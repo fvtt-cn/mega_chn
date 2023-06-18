@@ -401,10 +401,6 @@
   "PF1.ACFlatFooted": "Flat-footed",
   "PF1.CMDFlatFooted": "Flat-footed CMD",
 
-  "PF1.ACTypeNormal": "Deflection",
-  "PF1.ACTypeTouch": "Dodge",
-  "PF1.ACTypeFlatFooted": "Misc FF",
-
   "PF1.WeaponHoldTypeNormal": "Normal",
   "PF1.WeaponHoldTypeTwoHanded": "Two-handed",
   "PF1.WeaponHoldTypeOffhand": "Off-hand",
