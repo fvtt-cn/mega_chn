@@ -1692,6 +1692,7 @@
   "D35E.FeatAddedLevel": "Added at level",
   "D35E.Feat": "Feat",
   "D35E.TreatAttackAsNaturalAttack": "Treat Attack as Natural Attack",
+  "D35E.WarningAbilityLevelChange": "You cannot change the ability level as the same ability at the same level already exists.",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
