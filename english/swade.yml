@@ -249,6 +249,7 @@ SWADE:
   RollMode: Roll Mode
   RollExample: eg. +1d6x or -2
   Roll: Roll
+  RollNoun: Roll
   RollRaise: Roll Raise
   GroupRoll: Group Roll
   Ok: Ok
