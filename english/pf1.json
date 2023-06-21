@@ -985,7 +985,7 @@
 
   "PF1.Undefined": "Undefined",
 
-  "PF1.ErrorGenericPermission": "You don't have permission to perform what action",
+  "PF1.ErrorGenericPermission": "You don't have permission to perform that action",
   "PF1.ErrorNoActorPermission": "You don't have permission to control this actor",
   "PF1.ErrorNoActorPermissionAlt": "You don't have permission to control actor '{name}'",
   "PF1.ErrorNoFormula": "{name} does not have a formula to roll!",
