@@ -437,6 +437,11 @@
   "midi-qol.OptionalRules.Hint": "DND5E Game rules that you may wish to enable. Generally don't work with better rolls.",
   "midi-qol.InvisAdvantage.Name": "Hidden/Invisible attackers have advantage (disadvantage if they cannot see their target) on attacks (use CV/CE/CUB and core foundy vision)",
   "midi-qol.CheckRange.Name": "Check weapon range when attacking",
+  "midi-qol.CheckRangeOptions": {
+    "none": "Do not check range",
+    "longfail": "target range > long range: fail",
+    "longdisadv": "target range > long range: disadvantage"
+  },
   "midi-qol.NearbyFoe.Name": "Ranged attacks when a foe is closer than this have disadvantage. 0 disables",
   "midi-qol.WallsBlockRange.Name": "Walls block ranged attacks",
   "midi-qol.WallsBlockRange.Hint": "Walls block ranged attacks \n No = no effect, center = check center to center line, center + Levels = center check but use the 'levels' module to determine wall blocking. Center + Levels also means use levels volumetric templates for template targeting",
@@ -710,7 +715,7 @@
   "midi-qol.itemUseHooks.Name": "Utilise Item Hooks",
   "midi-qol.itemUseHooks.Hint": "Do NOT set this - used for author's testing",
   "midi-qol.SkillAbilityCheckAdvantage.Name": "Ability Check Advantage gives Skill Advantage",
-  "midi-qol.SkillAbilityCheckAdvantage.Hint": "If an actor has advantage/disadvantage on ability checks, skills based on that ability also have advatnage/disadvantage",
+  "midi-qol.SkillAbilityCheckAdvantage.Hint": "If an actor has advantage/disadvantage on ability checks, skills based on that ability also have advantage/disadvantage",
   "midi-qol.ignoreTotalCover": "No Full cover",
   "midi-qol.InitPromptTitle": "Initiative Roll",
   "midi-qol.HighlightSuccess.Name": "Color code Hit/Miss/Save Display",
@@ -732,5 +737,7 @@
     "removeFirstWorkflow": "Remove Top/Most Recent Workflow From List (WARNING)",
     "undoFirstWorkflow": "Undo Top/Most Recent Workflow From List",
     "GMOnly": "Only the GM can undo workflows"
-  }
+  },
+  "midi-qol.cubNotSupported": "Combat Utility Belt will not be migrated to version 11. Midi will remove support for CUB in midi version 11.1.0"
+
 }
