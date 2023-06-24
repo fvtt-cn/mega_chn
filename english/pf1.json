@@ -786,6 +786,7 @@
   "PF1.WeaponTypeExotic": "Exotic",
   "PF1.WeaponTypeSplash": "Splash",
 
+  "PF1.WeaponPropAutomatic": "Automatic",
   "PF1.WeaponPropBlocking": "Blocking",
   "PF1.WeaponPropBrace": "Brace",
   "PF1.WeaponPropDeadly": "Deadly",
@@ -800,7 +801,9 @@
   "PF1.WeaponPropNonLethal": "Non-lethal",
   "PF1.WeaponPropPerformance": "Performance",
   "PF1.WeaponPropReach": "Reach",
+  "PF1.WeaponPropScatter": "Scatter",
   "PF1.WeaponPropSunder": "Sunder",
+  "PF1.WeaponPropSpecial": "Special",
   "PF1.WeaponPropThrown": "Thrown",
   "PF1.WeaponPropTrip": "Trip",
 
