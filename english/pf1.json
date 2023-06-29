@@ -1819,8 +1819,8 @@
     "Label": "Custom Vision Rules",
     "Description": "Ignore the actor's senses, allowing custom vision rules to be applied properly."
   },
-  "PF1.DomainSlotValue": "Domain Slot Value",
-  "PF1.DomainSlotValueDesc": "How many bonus slots Domain/School spells have for a spell level.",
+  "PF1.DomainSlotValue": "Domain/School Slots",
+  "PF1.DomainSlotValueDesc": "Number of bonus spell slots Domain/School spells have for each spell level.",
   "PF1.DisableLightLowLightVision": "Disable Low-light Vision for Light Source",
   "PF1.Command": "Command",
   "PF1.MaximumRangeIncrements": "Maximum Range Increments",
