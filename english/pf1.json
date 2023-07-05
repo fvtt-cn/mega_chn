@@ -1874,6 +1874,19 @@
     },
     "TraitSelector": {
       "CustomHint": "You can separate distinct entries with semicolon (;)."
+    },
+    "DamageResistanceSelector": {
+      "DRTitle": "Damage Reduction Selection",
+      "ERTitle": "Energy Resistance Selection",
+      "DamageAmount": "Amount",
+      "Bypassed": "Bypassed by",
+      "Resisted": "Against",
+      "TypeNothing": "Nothing",
+      "CombinationType": "Operator",
+      "CombinationOr": "or",
+      "CombinationAnd": "and",
+      "CombinationFormattedOr": "{type1} or {type2}",
+      "CombinationFormattedAnd": "{type1} and {type2}"
     }
   },
 
