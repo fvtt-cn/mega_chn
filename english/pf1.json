@@ -1773,6 +1773,10 @@
   "PF1.Default": "Default",
   "PF1.Vision": "Vision",
   "PF1.Held": "Held",
+  "PF1.BaseTypes": {
+    "Label": "Equipment Base Types",
+    "Description": "For abilities that function on specific types, such as Weapon Focus."
+  },
   "PF1.WeaponGroups": "Weapon Groups",
   "PF1.GiveItem": "Give Item",
   "PF1.SplitItem": "Split Item",
