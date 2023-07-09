@@ -1017,6 +1017,7 @@
   "PF1.WarningMissingAmmunition": "Ammunition linked to the attack is missing.",
   "PF1.WarningConditionalRoll": "Rolling conditional formula № {number} of conditional {name} caused an error",
   "PF1.WarningNoItemOnActor": "Actor {actor} has no item {item}",
+  "PF1.WarningInvalidUUID": "Invalid UUID \"{uuid}\"",
   "PF1.WarningCannotCreateChargeLink": "Could not create a Charge type link between {source} and {target}, because {target} has Charge type links of its own",
   "PF1.WarningCannotCreateChargeLink2": "Could not create a Charge type link between {source} and {target}, because {target} is already linked to {deeptarget}",
   "PF1.WarningNoCombatantFound": "No combatant found",
