@@ -1166,6 +1166,10 @@
   "PF1.RollConcentrationMacroName": "{actor}: Roll Concentration ({book})",
   "PF1.RollBABMacroName": "{actor}: Roll Base Attack Bonus",
   "PF1.RollSaveMacroName": "{actor}: Roll {type} Save",
+  "PF1.RollInitiativeMacroName": "{actor}: Roll Initiative",
+  "PF1.RollAbilityMacroName": "{actor}: Roll {ability}",
+  "PF1.RollMeleeMacroName": "{actor}: Roll Melee Attack",
+  "PF1.RollRangedMacroName": "{actor}: Roll Ranged Attack",
 
   "PF1.DamageTypeUntyped": "Untyped",
   "PF1.DamageTypeBludgeoning": "Bludgeoning",
