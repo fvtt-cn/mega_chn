@@ -1333,6 +1333,7 @@
   "PF1.Vigor": "Vigor",
   "PF1.HitDice": "Hit Dice",
   "PF1.HitDie": "Hit Die",
+  "PF1.HealthPerTier": "Health Per Tier",
   "PF1.CustomHitDice": "Custom Hit Dice",
   "PF1.CustomHitDiceHint": "Enter formula, e.g. floor(@item.level / 2)",
   "PF1.InfoShort": "Info",
