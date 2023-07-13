@@ -337,6 +337,7 @@
   "PF1.AbilityDrain": "Ability Drain",
 
   "PF1.PointBuyCalculator": "Point Buy Calculator",
+  "PF1.PointBuyCalculatorSetupHint": "Point buy calculator is available here only temporarily. You can always access it from the settings tab.",
   "PF1.PointBuyCalculatorWarning": "The point buy calculator will OVERRIDE the character's base ability scores.",
   "PF1.PointBuyCalculatorInvalidPoints": "Invalid point usage.",
   "PF1.PointBuyCalculatorSpent": "Points Spent",
@@ -1453,6 +1454,8 @@
   "PF1.DamageRollPlural": "Damage Rolls",
   "PF1.AbilityScore": "Ability Score",
   "PF1.AbilityScoreLinks": "Ability Score Links",
+  "PF1.BaseSetup": "Base Setup",
+  "PF1.UtilityFunctions": "Utility Functions",
   "PF1.SavingThrow": "Saving Throw",
   "PF1.SavingThrowPlural": "Saving Throws",
   "PF1.SavingThrowEffect": "Saving Throw Effect",
