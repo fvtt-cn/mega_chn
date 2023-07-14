@@ -1939,8 +1939,10 @@
     },
     "Actions": {
       "Label": "Operations",
-      "Migrate": "Run System Migration",
-      "MigrateHint": "Normally migration automatically runs, if there are pertinent migrations pending, whenever PF1 update happens and GM logs in the first time.<br>Running migration manually may sometimes solve problems, such as with documents imported from unmigrated sources."
+      "MigrateWorld": "Migrate World",
+      "MigrateWorldHint": "Normally migration automatically runs, if there are pertinent migrations pending, whenever PF1 update happens and GM logs in the first time.<br>Running migration manually may sometimes solve problems, such as with documents imported from unmigrated sources.",
+      "MigrateModules": "Migrate Module Packs",
+      "MigrateModulesHint": "In case you have modules with compendiums that have not been migrated on their end to be fully compatible with current version."
     }
   },
 
