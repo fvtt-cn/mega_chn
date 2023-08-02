@@ -1220,6 +1220,7 @@
   "PF1.CreateItemWandOf": "Wand of {name}",
   "PF1.CreateItemScrollOf": "Scroll of {name}",
   "PF1.CreateItemPotionOf": "Potion of {name}",
+  "PF1.NewItem": "New {type}",
 
   "PF1.CombatInfo_Header": "Combat",
   "PF1.CombatInfo_Round": "Round {round}",
