@@ -1,0 +1,83 @@
+{
+  "I18N.LANGUAGE": "English",
+  "I18N.MAINTAINERS": "@JeansenVaars#2857",
+
+  "MinimalUI.SettingsAlwaysVisible": "Always Visible",
+  "MinimalUI.SettingsStartVisible": "Start Visible",
+  "MinimalUI.SettingsPartiallyVisible": "Partially Visible",
+  "MinimalUI.SettingsAutoHide": "Auto-Hide",
+  "MinimalUI.SettingsAutoHidePlus": "Auto-Hide Plus",
+  "MinimalUI.SettingsClickToggle": "Click Toggle",
+  "MinimalUI.SettingsCollapsed": "Start Collapsed",
+  "MinimalUI.SettingsOnlyGM": "Visible to GM Only",
+  "MinimalUI.SettingsHide": "Hide Completely",
+
+  "MinimalUI.SettingsSmall": "Small",
+  "MinimalUI.SettingsDefault": "Default",
+  "MinimalUI.SettingsStandard": "Standard",
+  "MinimalUI.SettingsBig": "Big",
+
+  "MinimalUI.Enabled": "Enabled",
+  "MinimalUI.Disabled": "Disabled",
+
+  "MinimalUI.LogoStyleName": "Foundry Logo Visibility",
+  "MinimalUI.LogoStyleHint": "Foundry logo visibility and size",
+  "MinimalUI.LogoBehaviourName": "Foundry Logo Behaviour",
+  "MinimalUI.LogoBehaviourHint": "Use the Foundry Logo to toggle visual elements (when visible, of course).",
+  "MinimalUI.LogoBehaviourToggle": "Logo toggles Hide ALL UI",
+  "MinimalUI.LogoBehaviourToggleNoChat": "Logo toggles Hide ALL UI except Chat",
+  "MinimalUI.LogoImageName": "Foundry Logo Image",
+  "MinimalUI.LogoImageHint": "Image should be 100x50 pixel size.",
+
+  "MinimalUI.ControlsSizeName": "Left Controls size",
+  "MinimalUI.ControlsSizeHint": "Choose favorite side panel size.",
+  "MinimalUI.ControlsSubHideName": "Left Controls Submenu Style",
+  "MinimalUI.ControlsSubHideHint": "Whether to show the sub-menu buttons on mouse hover",
+
+  "MinimalUI.HotbarStyleName": "Macro Hotbar",
+  "MinimalUI.HotbarStyleHint": "Customize Hotbar UI. Auto-Hide Ignored when using Custom Hotbar module.",
+  "MinimalUI.HotbarPositionName": "Macro Hotbar Position",
+  "MinimalUI.HotbarPositionHint": "Horizontal position of the Macro Hotbar",
+  "MinimalUI.HotbarPositionExtremeLeft": "Extreme Left",
+  "MinimalUI.HotbarPositionMaxLeft": "Left (Foundry Default)",
+  "MinimalUI.HotbarPositionCenterLeft": "Center Left",
+  "MinimalUI.HotbarPositionCenter": "Center",
+  "MinimalUI.HotbarPositionCenterRight": "Center Right",
+  "MinimalUI.HotbarPositionManual": "Manual",
+  "MinimalUI.HotbarPPositionName": "Macro Hotbar Manual Pixel Position",
+  "MinimalUI.HotbarPPositionHint": "Horizontal position in pixels. If Macro Position is 'Manual'",
+
+  "MinimalUI.NavigationStyleName": "Scene Navigation Style",
+  "MinimalUI.NavigationStyleHint": "Customize scene navigation behaviour",
+  "MinimalUI.NavigationSizeName": "Scene Navigation Size",
+  "MinimalUI.NavigationSizeHint": "Customize scene navigation Size, when visible.",
+
+  "MinimalUI.PlayersBehaviourName": "Player List Behaviour",
+  "MinimalUI.PlayersBehaviourHint": "Customize Player List UI",
+  "MinimalUI.PlayersSizeName": "Player List Size",
+  "MinimalUI.PlayersSizeHint": "Choose between standard size or the small version.",
+
+  "MinimalUI.PlayersShowPingName" : "User Latency with Minimal UI Behavior",
+  "MinimalUI.PlayersShowPingHint" : "Show ping regardless of auto-hide player lists",
+  "MinimalUI.PlayersShowPing"  : "Show",
+  "MinimalUI.PlayersHidePing"  : "Hide",
+
+  "MinimalUI.SidebarStyleName": "Right Side Panel Behavior",
+  "MinimalUI.SidebarStyleHint": "Whether the right side panel starts collapsed or not",
+
+  "MinimalUI.BorderColorName": "Border Colors",
+  "MinimalUI.BorderColorHint": "Color of borders for sidebars and buttons",
+  "MinimalUI.ShadowColorName": "Shadow Colors",
+  "MinimalUI.ShadowColorHint": "Color for shadows around borders and buttons",
+  "MinimalUI.ShadowStrengthName": "Shadow Strength",
+  "MinimalUI.ShadowStrengthHint": "How gloomy and shadow are the borders? Default: 5",
+  "MinimalUI.TransparencyPercentageName": "Hover Opacity Percentage",
+  "MinimalUI.TransparencyPercentageHint": "How Opaque are components until we hover with the mouse? Default: 100",
+  "MinimalUI.ColorPicker": "Color Picker",
+
+  "MinimalUI.NoCameraBehaviorName": "No Camera Behavior",
+  "MinimalUI.NoCameraBehaviorHint": "What to do with players with cameras turned off?. Note: Hidden mode won't allow toggle camera on. Switch to a different mode to turn it back on.",
+  "MinimalUI.NoCameraBehaviorReduced": "Reduced",
+  "MinimalUI.NoCameraBehaviorHidden": "Hidden"
+
+}
