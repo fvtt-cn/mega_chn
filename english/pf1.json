@@ -6,6 +6,7 @@
   "PF1.ActorSheetPFNPCLite": "NPC (Lite)",
   "PF1.ActorSheetPFNPCLoot": "Loot",
   "PF1.ActorSheetPFHaunt": "Haunt",
+  "PF1.ActorSheetPFTrap": "Trap",
 
   "SETTINGS.pf1DiagN": "Diagonal Movement Rule",
   "SETTINGS.pf1DiagL": "Configure which diagonal movement rule should be used for games within this system.",
@@ -215,6 +216,7 @@
     "NPCLite": "NPC Lite",
     "NPCLoot": "Loot",
     "Haunt": "Haunt",
+    "Trap": "Trap",
     "Item": "Generic Item",
     "Container": "Container"
   },
@@ -1232,6 +1234,14 @@
     "Destruction": "Destruction"
   },
 
+  "PF1.Trap": {
+    "Type": "Type",
+    "PerceptionDC": "Perception DC",
+    "DisableDeviceDC": "Disable Device DC",
+    "EffectsDetails": "Effects",
+    "Trigger": "Trigger"
+  },
+
   "PF1.CombatInfo_Header": "Combat",
   "PF1.CombatInfo_Round": "Round {round}",
 
@@ -1965,6 +1975,7 @@
     "TypeCharacter": "Player Character (PC)",
     "TypeNpc": "Nonplayer Character (NPC)",
     "TypeHaunt": "Haunt",
+    "TypeTrap": "Trap",
     "TypeBasic": "Basic (for modules)"
   },
   "ITEM": {
