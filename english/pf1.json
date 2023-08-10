@@ -217,6 +217,7 @@
     "NPCLoot": "Loot",
     "Haunt": "Haunt",
     "Trap": "Trap",
+    "Vehicle": "Vehicle",
     "Item": "Generic Item",
     "Container": "Container"
   },
@@ -1241,6 +1242,29 @@
     "EffectsDetails": "Effects",
     "Trigger": "Trigger"
   },
+  "PF1.Vehicles": {
+    "Space": {
+      "Large": "2-6 squares",
+      "Huge": "7-12 squares",
+      "Gargantuan": "13-20 squares",
+      "Colossal": "21+ squares"
+    },
+    "Types": {
+      "Land": "Land",
+      "Sea": "Sea",
+      "Air": "Air"
+    },
+    "OccupiedSpace": "Occupied Space",
+    "MaximumSpeed": "Maximum Speed",
+    "Acceleration": "Acceleration",
+    "Propulsion": "Propulsion",
+    "DrivingCheck": "Driving Check",
+    "ForwardFacing": "Forward Facing",
+    "DrivingDevice": "Driving Device",
+    "DrivingSpace": "Driving Space",
+    "Crew": "Crew",
+    "Decks": "Decks"
+  },
 
   "PF1.CombatInfo_Header": "Combat",
   "PF1.CombatInfo_Round": "Round {round}",
@@ -1976,6 +2000,7 @@
     "TypeNpc": "Nonplayer Character (NPC)",
     "TypeHaunt": "Haunt",
     "TypeTrap": "Trap",
+    "TypeVehicle": "Vehicle",
     "TypeBasic": "Basic (for modules)"
   },
   "ITEM": {
