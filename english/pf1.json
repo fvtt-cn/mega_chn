@@ -1777,7 +1777,7 @@
   "PF1.Ammunition": "Ammunition",
   "PF1.AmmunitionSubtype": "Ammunition Subtype",
   "PF1.AmmunitionAbbr": "Ammo",
-  "PF1.AmmoRemaining": "Ammunition Remaining: {0}",
+  "PF1.AmmoRemaining": "Ammunition Remaining: {quantity}",
   "PF1.AmmoDepleted": "Out of Ammunition!",
   "PF1.Priority": "Priority",
   "PF1.Creatures": "Creatures",
