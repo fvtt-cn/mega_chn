@@ -1,0 +1,41 @@
+{
+  "keikaku.initializing": "Initializing the to-do list manager",
+  "keikaku.journalbutton": "To-Do List",
+
+  "keikaku.reminder.title": "To-Do List Reminder",
+  "keikaku.reminder.complete": "All your tasks are complete. Do you want to add a new one?",
+  "keikaku.reminder.incomplete": "There are unfinished tasks in your to-do list.",
+  "keikaku.reminder.hint": "You can change when this dialog is shown in the module settings.",
+  "keikaku.reminder.button": "Open To-Do List",
+
+  "keikaku.settings.reminder.name": "Remind Players",
+  "keikaku.settings.reminder.hint": "During load a dialog pops up to remind players of the to-do list",
+  "keikaku.settings.reminder.choice.never": "Never",
+  "keikaku.settings.reminder.choice.incomplete": "Unfinished Tasks",
+  "keikaku.settings.reminder.choice.always": "Always",
+
+  "keikaku.taskform.title": "Edit Task",
+  "keikaku.taskform.field.color": "Color",
+  "keikaku.taskform.field.done": "Completed",
+  "keikaku.taskform.field.secret": "Keep secret from GM",
+  "keikaku.taskform.field.tag": "Tag",
+  "keikaku.taskform.field.tags.none": "None",
+  "keikaku.taskform.field.tags.important": "Important",
+  "keikaku.taskform.field.tags.optional": "Optional",
+  "keikaku.taskform.field.description": "Description",
+  "keikaku.taskform.customization": "Customization",
+  "keikaku.taskform.createtask": "Create Task",
+  "keikaku.taskform.updatetask": "Update Task",
+
+  "keikaku.todolistwindow.title": "To-Do List",
+  "keikaku.todolistwindow.completetask": "Mark Complete",
+  "keikaku.todolistwindow.deletetask": "Delete Task",
+  "keikaku.todolistwindow.edittask": "Edit Task",
+  "keikaku.todolistwindow.incompletetask": "Mark Incomplete",
+  "keikaku.todolistwindow.newtask": "New Task",
+  "keikaku.todolistwindow.placeholder.owner": "There's nothing for you to do at the moment. Add a task to get started.",
+  "keikaku.todolistwindow.placeholder.other": "The selected player has not added any tasks.",
+  "keikaku.todolistwindow.playerselection": "Player Selection",
+  "keikaku.todolistwindow.tags.important": "important",
+  "keikaku.todolistwindow.tags.optional": "optional"
+}
