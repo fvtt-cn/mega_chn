@@ -1603,7 +1603,7 @@
   "D35E.UseSpellList": "Use Spell List",
   "D35E.Compendium": "Compendium",
   "D35E.Physical": "Physical",
-  "D35E.NumberOfAttacksAutocalculated": "Extra attacks were automatically calculated. If you want to disable that behaviour, set <b>Scale Attacks Nubmer with BAB</b> to <b>Never</b>.",
+  "D35E.NumberOfAttacksAutocalculated": "Extra attacks were automatically calculated. If you want to disable that behaviour, set <b>Scale Attacks Number with BAB</b> to <b>Never</b>.",
   "D35E.NoExtraAttacks": "No Extra Attacks",
   "D35E.AttackBonusInfo": "These bonuses <b>do not take into account dynamic combat changes</b> that may be provided by feats like Weapon Focus or Weapon Specialization.",
   "D35E.DropItemWithUIDTitle": "Adding Item with UID",
