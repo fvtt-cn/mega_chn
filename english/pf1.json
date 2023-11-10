@@ -582,6 +582,7 @@
   "PF1.AmmoTypeBulletGun": "Bullet (Firearm)",
   "PF1.AmmoTypeBulletDragoon": "Bullet (Dragoon Firearm)",
   "PF1.AmmoTypeDart": "Dart",
+  "PF1.AmmoTypeSiege": "Siege",
 
   "PF1.SenseBSense": "Blindsense",
   "PF1.SenseBS": "Blindsight",
