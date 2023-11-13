@@ -1766,6 +1766,7 @@
   "PF1.AmmunitionAbbr": "Ammo",
   "PF1.AmmoRemaining": "Ammunition Remaining: {quantity}",
   "PF1.AmmoDepleted": "Out of Ammunition!",
+  "PF1.NotSelected": "Not Selected",
   "PF1.Priority": "Priority",
   "PF1.Creatures": "Creatures",
   "PF1.ChargeCost": "Charge Cost",
