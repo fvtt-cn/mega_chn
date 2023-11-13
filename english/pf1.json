@@ -1,13 +1,6 @@
 {
   "PF1.Title": "Pathfinder 1",
 
-  "PF1.ActorSheetPFCharacter": "Character",
-  "PF1.ActorSheetPFNPC": "NPC",
-  "PF1.ActorSheetPFNPCLite": "NPC (Lite)",
-  "PF1.ActorSheetPFNPCLoot": "Loot",
-  "PF1.ActorSheetPFHaunt": "Haunt",
-  "PF1.ActorSheetPFTrap": "Trap",
-
   "SETTINGS.pf1DiagN": "Diagonal Movement Rule",
   "SETTINGS.pf1DiagL": "Configure which diagonal movement rule should be used for games within this system.",
   "SETTINGS.pf1InitTiebreakerN": "Initiative Tiebreaker",
