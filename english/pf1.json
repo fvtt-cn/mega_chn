@@ -1,5 +1,5 @@
 {
-  "PF1.Title": "Pathfinder 1",
+  "PF1.Title": "Pathfinder 1e",
 
   "SETTINGS.pf1DiagN": "Diagonal Movement Rule",
   "SETTINGS.pf1DiagL": "Configure which diagonal movement rule should be used for games within this system.",
@@ -1870,9 +1870,11 @@
   "PF1.SpellSlotAbilityBonus": "Spell Slot Ability Bonus",
   "PF1.SpellbookName": "Spellbook Name",
   "PF1.StaticSize": "Static Size",
+  "PF1.StaticSizeHint": "If enabled, token dimensions and scale are not automatically adjusted to match character size.",
   "PF1.CustomVisionRules": {
     "Label": "Custom Vision Rules",
-    "Description": "Ignore the actor's senses, allowing custom vision rules to be applied properly."
+    "Description": "Ignore the actor's senses, allowing custom vision rules to be applied properly.",
+    "ConfigHint": "Senses are normally configured on actor sheet's attributes tab, not here."
   },
   "PF1.DomainSlotValue": "Domain/School Slots",
   "PF1.DomainSlotValueDesc": "Number of bonus spell slots Domain/School spells have for each spell level.",
