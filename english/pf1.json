@@ -1982,25 +1982,27 @@
   "PF1.Help": {
     "Label": "Help"
   },
-  "ACTOR": {
-    "TypeCharacter": "Player Character (PC)",
-    "TypeNpc": "Nonplayer Character (NPC)",
-    "TypeHaunt": "Haunt",
-    "TypeTrap": "Trap",
-    "TypeVehicle": "Vehicle",
-    "TypeBasic": "Basic (for modules)"
-  },
-  "ITEM": {
-    "TypeWeapon": "Weapon",
-    "TypeEquipment": "Equipment, Magic Item, etc.",
-    "TypeConsumable": "Consumable",
-    "TypeLoot": "Loot",
-    "TypeClass": "Class, Racial HD, Mythic Path, etc.",
-    "TypeSpell": "Spell",
-    "TypeFeat": "Feat, Class Feature, Talent, etc.",
-    "TypeBuff": "Buff",
-    "TypeAttack": "Attack",
-    "TypeRace": "Race",
-    "TypeContainer": "Container"
+  "TYPES": {
+    "Actor": {
+      "character": "Player Character (PC)",
+      "npc": "Nonplayer Character (NPC)",
+      "haunt": "Haunt",
+      "trap": "Trap",
+      "vehicle": "Vehicle",
+      "basic": "Basic (for modules)"
+    },
+    "Item": {
+      "weapon": "Weapon",
+      "equipment": "Equipment, Magic Item, etc.",
+      "consumable": "Consumable",
+      "loot": "Loot",
+      "class": "Class, Racial HD, Mythic Path, etc.",
+      "spell": "Spell",
+      "feat": "Feat, Class Feature, Talent, etc.",
+      "buff": "Buff",
+      "attack": "Attack",
+      "race": "Race",
+      "container": "Container"
+    }
   }
 }
