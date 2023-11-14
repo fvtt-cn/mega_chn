@@ -135,6 +135,11 @@
     "ForceShowItem": {
       "Name": "Force Show Item",
       "Hint": "Whether to show the item to chat when using a macro for it"
+    },
+
+    "StickyTokenTooltip": {
+      "Name": "Sticky Token Tooltip",
+      "Hint": "Keep token tooltip open even after hovering out of token."
     }
   },
 
