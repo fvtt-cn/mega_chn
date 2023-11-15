@@ -1727,6 +1727,7 @@
   "PF1.EquipmentSubtype": "Equipment Subtype",
   "PF1.ConsumableType": "Consumable Type",
   "PF1.CreatureType": "Creature Type",
+  "PF1.InheritAs": "Inherit ({inherited})",
   "PF1.Override": "Override",
   "PF1.OverrideColor": "Override Color",
   "PF1.CustomColor": "Custom Color",
