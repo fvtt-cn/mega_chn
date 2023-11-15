@@ -84,6 +84,8 @@
   "SETTINGS.pf1HealthConfigTabVariant": "Variant Rules",
   "SETTINGS.pf1HealthConfigInstructions": "Configure the health computation parameters for the various types of actors.  For reference, Pathfinder Society uses the following configuration for player characters: automatic computation, 0.5 rate, one hitdie maximized, round up, discrete continuity.",
   "SETTINGS.pf1HealthCompute": "Compute",
+  "SETTINGS.pf1HealthRate": "Rate",
+  "SETTINGS.pf1HealthMaximized": "Maximized",
   "SETTINGS.pf1HealthComputeAuto": "Auto",
   "SETTINGS.pf1HealthComputeManual": "Manual",
   "SETTINGS.pf1HealthRoundingName": "Health Rounding",
@@ -1139,6 +1141,8 @@
   "PF1.RestoreHealth": "Restore Health",
   "PF1.RestoreDailyUses": "Restore Daily Uses",
   "PF1.LongTermCare": "Long-Term Care",
+  "PF1.RestMessage": "{name} rested for {hours} hours.",
+  "PF1.FullRestMessage": "{name} rested for {hours} hours and restored daily uses.",
 
   "PF1.BonusModifierUntyped": "Untyped",
   "PF1.BonusModifierUntypedPerm": "Untyped (Permanent)",
