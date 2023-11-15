@@ -988,11 +988,10 @@
   "PF1.InventoryContainers": "Containers",
 
   "PF1.ChangeFlagLoseDexToAC": "Lose Dex to AC",
-  "PF1.ChangeFlagDwarflikeEncumbrance": "Dwarf-like Encumbrance",
+  "PF1.ChangeFlagNoMediumEncumbrance": "Unaffected by Medium Encumbrance",
+  "PF1.ChangeFlagNoHeavyEncumbrance": "Unaffected by Heavy Encumbrance",
   "PF1.ChangeFlagMediumArmorFullSpeed": "Full Speed in Medium Armor",
   "PF1.ChangeFlagHeavyArmorFullSpeed": "Full Speed in Heavy Armor",
-  "PF1.ChangeFlagNoDex": "No Dexterity",
-  "PF1.ChangeFlagNoStr": "No Strength",
 
   "PF1.Undefined": "Undefined",
 
@@ -1840,6 +1839,8 @@
   "PF1.MaxDexArmor": "Max Dexterity Bonus (Armor)",
   "PF1.MaxDexShield": "Max Dexterity Bonus (Shield)",
   "PF1.Encumbrance": "Encumbrance",
+  "PF1.MediumEncumbrance": "Medium Encumbrance",
+  "PF1.HeavyEncumbrance": "Heavy Encumbrance",
   "PF1.Raw": "Raw",
   "PF1.Normal": "Normal",
   "PF1.Changelog": "Changelog",
