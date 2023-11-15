@@ -1695,6 +1695,7 @@
   "PF1.SeeText": "See Text",
   "PF1.DC": "DC",
   "PF1.DCFormula": "DC Formula",
+  "PF1.DCOffset": "DC Offset",
   "PF1.DCOffsetFormula": "DC Offset Formula",
   "PF1.DCThreshold": "DC {threshold}",
   "PF1.DCDescriptionExample": "e.g. Reflex half",
@@ -1931,7 +1932,9 @@
       "SplitExperience": "Split Experience"
     },
     "EntrySelector": {
-      "Title": "Entry Selector"
+      "Title": "Entry Selector",
+      "TitleIsolated": "{item} – {title}",
+      "TitleOwned": "{item} – {actor} – {title}"
     },
     "TraitSelector": {
       "CustomHint": "You can separate distinct entries with semicolon (;)."
