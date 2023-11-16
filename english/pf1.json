@@ -387,7 +387,6 @@
 
   "PF1.HelpSellMultiplierN": "Sale Rate",
   "PF1.HelpSellMultiplier": "The rate at which non-trade goods sell. Trade goods always sell at full price. Default is 0.5.",
-  "PF1.HelpDomainSpell": "This spell will not cost any spell slots to restore upon rest.",
 
   "PF1.AbilityStr": "Strength",
   "PF1.AbilityDex": "Dexterity",
@@ -1453,6 +1452,12 @@
   "PF1.Height": "Height",
   "PF1.Weight": "Weight",
   "PF1.ItemWeight": "Weight",
+  "PF1.WeightDetails": {
+    "Base": "Base: {value}",
+    "Stack": "Stack: {value}",
+    "Contents": "Contents: {value}",
+    "Total": "Total: {value}"
+  },
   "PF1.Base": "Base",
   "PF1.TempShort": "Temp.",
   "PF1.TempHP": "Temporary Hit Points",
