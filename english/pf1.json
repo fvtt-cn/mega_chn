@@ -1002,9 +1002,9 @@
 
   "PF1.Undefined": "Undefined",
 
-  "PF1.ErrorGenericPermission": "You don't have permission to perform that action",
-  "PF1.ErrorNoActorPermission": "You don't have permission to control this actor",
-  "PF1.ErrorNoActorPermissionAlt": "You don't have permission to control actor '{name}'",
+  "PF1.ErrorGenericPermission": "You are not authorized to perform that action",
+  "PF1.ErrorNoActorPermission": "You are not authorized to control this actor",
+  "PF1.ErrorNoActorPermissionAlt": "You are not authorized to control actor \"{name}\"",
   "PF1.ErrorNoFormula": "{name} does not have a formula to roll!",
   "PF1.ErrorItemNoOwner": "This item has no owner",
   "PF1.ErrorSpellbookExists": "Spellbook already exists",
@@ -1015,7 +1015,6 @@
   "PF1.ErrorInsufficientCharges": "There's insufficient charges left in {name}",
   "PF1.ErrorNoQuantity": "You don't have any more of that item",
   "PF1.ErrorNoSpellsLeft": "You don't have spells left of that type",
-  "PF1.ErrorUnauthorizedAction": "You are not authorized to perform that action",
   "PF1.ErrorActorFormula": "Formula error of type {context} on actor {name}",
   "PF1.ErrorActorNotFound": "Actor with ID {id} not found",
   "PF1.ErrorCantIdentify": "You are not allowed to identify items",
@@ -1866,6 +1865,7 @@
   "PF1.HitDieShort": "HD",
   "PF1.ChallengeRatingShort": "CR",
   "PF1.Experience": "Experience",
+  "PF1.XPValue": "{value} XP",
   "PF1.Combat": "Combat",
   "PF1.Current": "Current",
   "PF1.Maximum": "Maximum",
@@ -1932,6 +1932,7 @@
       "Options": {
         "BonusExperience": "Bonus Experience"
       },
+      "Reward": "Reward",
       "SplitEvenly": "Split Evenly",
       "GiveToAll": "Give to All",
       "TotalExperience": "Total Experience",
