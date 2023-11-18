@@ -1814,6 +1814,8 @@
   "PF1.ByLevel": "By Level",
   "PF1.ByBonus": "By Bonus",
   "PF1.Total": "Total",
+  "PF1.Missing": "Missing",
+  "PF1.Excess": "Excess",
   "PF1.BonusFeatFormula": "Bonus Feat Formula",
   "PF1.Advanced": "Advanced",
   "PF1.LeftToPrepare": "Amount left to prepare",
