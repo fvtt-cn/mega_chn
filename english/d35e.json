@@ -1694,6 +1694,15 @@
   "D35E.TreatAttackAsNaturalAttack": "Treat Attack as Natural Attack",
   "D35E.WarningAbilityLevelChange": "You cannot change the ability level as the same ability at the same level already exists.",
   "D35E.Auto": "Automatic",
+  "D35E.CreateSpecialActionFromTemplate": "Create Special Action from Template",
+  "D35E.CreateSpecialActionFromTemplateHint": "This will create a Special Action from a template. You can then edit it to your liking.",
+  "D35E.AbilityDrain": "Ability Drain",
+  "D35E.AbilityDamage": "Ability Damage",
+  "D35E.Cancel": "Cancel",
+  "D35E.SaveDC": "Save DC",
+  "D35E.Create": "Create",
+  "D35E.RollSkillCheck": "Roll Skill Check",
+
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
@@ -1782,6 +1791,17 @@
   "SETTINGS.lsClearInventoryHint": "If enabled, all existing items will be removed from the Loot Sheet before adding new items from the rollable table. If disabled, existing items will remain.",
   "SETTINGS.lsChangeIconForSpellScrollsTitle": "Change icon for Spell Scrolls?",
   "SETTINGS.lsChangeIconForSpellScrollsHint": "Changes the icon for spell scrolls to a scroll icon. If left unchecked, retains the spell's icon.",
+
+  "SETTINGS.additionalCachedCompendiums_classAbilitiesN": "Class Abilities Compendiums",
+  "SETTINGS.additionalCachedCompendiums_classAbilitiesH": "Compendiums to cache for Class Abilities",
+  "SETTINGS.additionalCachedCompendiums_racialAbilitiesN": "Racial Abilities Compendiums",
+  "SETTINGS.additionalCachedCompendiums_racialAbilitiesH": "Compendiums to cache for Racial Abilities",
+  "SETTINGS.additionalCachedCompendiums_spellLikeAbilitiesN": "Spell-Like Abilities Compendiums",
+  "SETTINGS.additionalCachedCompendiums_spellLikeAbilitiesH": "Compendiums to cache for Spell-Like Abilities",
+  "SETTINGS.additionalCachedCompendiums_materialsN": "Materials Compendiums",
+  "SETTINGS.additionalCachedCompendiums_materialsH": "Compendiums to cache for Materials",
+  "SETTINGS.additionalCachedCompendiums_damageTypesN": "Damage Types Compendiums",
+  "SETTINGS.additionalCachedCompendiums_damageTypesH": "Compendiums to cache for Damage Types",
 
   "ERROR.lsItemInvalidQuantity": "Item quantity invalid.",
   "ERROR.lsChangingSettingsFor": "Error changing settings for \"{name}\".",
