@@ -41,6 +41,8 @@
   "SETTINGS.pf1pcDispositionH": "Override to default token disposition for player characters.",
   "SETTINGS.pf1npcDispositionN": "Non-player character disposition",
   "SETTINGS.pf1npcDispositionH": "Override to default token disposition for non-player characters",
+  "SETTINGS.pf1systemVisionN": "Rules-based vision",
+  "SETTINGS.pf1systemVisionH": "Use character's vision configuration to determine token vision automatically.",
   "SETTINGS.pf1SharedVisionWithoutSelection": "Without selected token",
   "SETTINGS.pf1SharedVisionWithSelection": "Always",
   "SETTINGS.pf1AllowScriptChangesN": "Enable Script Changes",
