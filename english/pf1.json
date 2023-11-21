@@ -1906,9 +1906,9 @@
   "PF1.StaticSize": "Static Size",
   "PF1.StaticSizeHint": "If enabled, token dimensions and scale are not automatically adjusted to match character size.",
   "PF1.CustomVisionRules": {
-    "Label": "Custom Vision Rules",
-    "Description": "Ignore the actor's senses, allowing custom vision rules to be applied properly.",
-    "ConfigHint": "Senses are normally configured on actor sheet's attributes tab, not here."
+    "Label": "Disable System Controlled Vision",
+    "Description": "Prevent system from controlling vision, allowing you to customize it.",
+    "ConfigHint": "System controlled senses are configured on actor sheet's attributes tab."
   },
   "PF1.DomainSlotValue": "Domain/School Slots",
   "PF1.DomainSlotValueDesc": "Number of bonus spell slots Domain/School spells have for each spell level.",
