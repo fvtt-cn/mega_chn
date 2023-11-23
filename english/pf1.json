@@ -1908,7 +1908,8 @@
   "PF1.CustomVisionRules": {
     "Label": "Disable System Controlled Vision",
     "Description": "Prevent system from controlling vision, allowing you to customize it.",
-    "ConfigHint": "System controlled senses are configured on actor sheet's attributes tab."
+    "ConfigHint": "System controlled senses are configured on actor sheet's attributes tab.",
+    "Warning": "This configuration has no effect while system controlled vision is disabled either globally or in token. Please disable both if you wish to continue using this."
   },
   "PF1.DomainSlotValue": "Domain/School Slots",
   "PF1.DomainSlotValueDesc": "Number of bonus spell slots Domain/School spells have for each spell level.",
@@ -1937,6 +1938,27 @@
   "PF1.Migration.AlreadyInProgress": "PF1 System Migration is already in progress. Please wait for it to finish before trying again.",
   "PF1.Migration.Ongoing": "Migration is ongoing. Please wait until it finishes.",
   "PF1.Migration.End": "PF1 System Migration to version {version} completed!",
+
+  "PF1.ContentSource": {
+    "Title": "Content Source: {name}",
+    "EditHint": "Edit Content Source Details",
+    "Missing": "No source information",
+    "Pages": "p. {pages}",
+    "Info": {
+      "Title": "Title",
+      "TitleHint": "Title of the source material, usually book name.",
+      "ID": "ID",
+      "IDHint": "Book ID or similar, e.g. PZO1110",
+      "Edition": "Edition",
+      "EditionHint": "e.g. 6",
+      "Errata": "Errata",
+      "ErrataHint": "Errata version or date",
+      "Pages": "Pages",
+      "PagesHint": "Page number, range (e.g. 276-278), or list (e.g. 124,270)",
+      "Publisher": "Publisher",
+      "PublisherHint": "e.g. Paizo"
+    }
+  },
 
   "PF1.Application": {
     "ActionChooser": {
