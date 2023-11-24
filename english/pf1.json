@@ -769,12 +769,11 @@
     "InfoBox": "If you have a prestige class that alters your class level, add that here (e.g. @classes.mysticTheurge.level)"
   },
 
-  "PF1.LearnMoreSpell": "You can learn 1 more spell",
-  "PF1.LearnMoreSpells": "You can learn {quantity} more spells",
-  "PF1.PrepareMoreSpell": "You can prepare 1 more spell",
-  "PF1.PrepareMoreSpells": "You can prepare {quantity} more spells",
-  "PF1.SpellScoreTooLow": "Your ability score is too low to cast spells of this level",
-  "PF1.TooManySpells": "You have {quantity} too many spells",
+  "PF1.Spellbook": {
+    "Known": "Known",
+    "OpenSlots": "Open Slots",
+    "InsufficientAbility": "Insufficient Ability Score"
+  },
 
   "PF1.MeasureTemplateCone": "Cone",
   "PF1.MeasureTemplateCircle": "Circle",
