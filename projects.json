@@ -202,7 +202,7 @@
     },
     {
         "name": "cyberpunk-red-core",
-        "src": "https://gitlab.com/JasonAlanTerry/fvtt-cyberpunk-red-core/-/raw/dev/lang/en.json"
+        "src": "https://gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-core/-/raw/master/src/lang/en.json"
     },
     {
         "name": "ironsworn",
