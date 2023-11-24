@@ -1945,10 +1945,40 @@
   "PF1.Drink": "Drink",
   "PF1.Properties": "Properties",
 
-  "PF1.Migration.Start": "Applying PF1 System Migration for version {version}. Please stand by.",
-  "PF1.Migration.AlreadyInProgress": "PF1 System Migration is already in progress. Please wait for it to finish before trying again.",
-  "PF1.Migration.Ongoing": "Migration is ongoing. Please wait until it finishes.",
-  "PF1.Migration.End": "PF1 System Migration to version {version} completed!",
+  "PF1.Migration": {
+    "Start": "Applying PF1 System Migration for version {version}. Please stand by.",
+    "AlreadyInProgress": "PF1 System Migration is already in progress. Please wait for it to finish before trying again.",
+    "Ongoing": "Migration is ongoing. Please wait until it finishes.",
+    "End": "PF1 System Migration to version {version} completed!",
+    "Dialog": {
+      "Title": "Migration",
+      "Ongoing": "Migration In Progress!",
+      "Completed": "Migration Completed!",
+      "IgnoreLocked": "Ignoring Locked Compendiums",
+      "ProcessLocked": "Processing Locked Compendiums",
+      "Category": "Category",
+      "Issues": "Migration Issues",
+      "InvalidDocuments": "Invalid Documents",
+      "Errors": "Errors",
+      "Tooltip": {
+        "Ignored": "Ignored",
+        "Invalid": "Invalid",
+        "Errors": "Errors",
+        "Processed": "Processed",
+        "Total": "Total",
+        "Status": "Status"
+      }
+    },
+    "Category": {
+      "World": "World",
+      "Modules": "Module Packs",
+      "System": "System",
+      "Actors": "Actors Directory",
+      "Items": "Items Directory",
+      "Scenes": "Scenes",
+      "Packs": "Compendiums"
+    }
+  },
 
   "PF1.ContentSource": {
     "Title": "Content Source: {name}",
