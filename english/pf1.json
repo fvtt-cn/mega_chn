@@ -500,6 +500,7 @@
 
   "PF1.ActionMWAK": "Melee Weapon Attack",
   "PF1.ActionRWAK": "Ranged Weapon Attack",
+  "PF1.ActionTWAK": "Thrown Weapon Attack",
   "PF1.ActionMSAK": "Melee Spell Attack",
   "PF1.ActionRSAK": "Ranged Spell Attack",
   "PF1.ActionMCMan": "Melee Combat Maneuver",
@@ -1510,6 +1511,9 @@
   "PF1.RangedWeapon": "Ranged Weapon",
   "PF1.RangedSpell": "Ranged Spell",
   "PF1.WeaponDamage": "Weapon Damage",
+  "PF1.MeleeWeaponDamage": "Melee Weapon Damage",
+  "PF1.RangedWeaponDamage": "Ranged Weapon Damage",
+  "PF1.ThrownWeaponDamage": "Thrown Weapon Damage",
   "PF1.SpellDamage": "Spell Damage",
   "PF1.AttackRollPlural": "Attack Rolls",
   "PF1.DamageRollPlural": "Damage Rolls",
