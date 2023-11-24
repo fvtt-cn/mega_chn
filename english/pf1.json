@@ -1432,6 +1432,8 @@
   "PF1.SpeedFly": "Fly Speed",
   "PF1.SpeedFly_Short": "Fly",
   "PF1.SpeedMisc": "Misc Movement",
+  "PF1.SpeedShort": "{speed} {unit} {mode}",
+  "PF1.Movement": "Movement",
   "PF1.Spells": "Spells",
   "PF1.Stature": "Stature",
   "PF1.StatureLong": "Long",
