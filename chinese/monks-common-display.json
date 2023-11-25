@@ -37,5 +37,21 @@
     "MonksCommonDisplay.combat-scale.hint": "缩放战斗UI尺寸变小或者变大",
     "MonksCommonDisplay.close-after.name": "自动关闭弹窗",
     "MonksCommonDisplay.close-after.hint": "窗口弹出超过一定秒数后，自动关闭窗口",
-    "MonksCommonDisplay.toggletoolbar": "开关工具栏显示"
+    "MonksCommonDisplay.toggletoolbar": "开关工具栏显示",
+    "MonksCommonDisplay.GM": "GM",
+    "MonksCommonDisplay.focus-padding.hint": "在聚焦的指示物周围",
+    "MonksCommonDisplay.SelectTokens": "选择的指示物",
+    "MonksCommonDisplay.FullScene": "全场景",
+    "MonksCommonDisplay.per-scene.hint": "存储每个场景的设置，以便每个场景有不同的显示效果",
+    "MonksCommonDisplay.hide-ui.name": "隐藏 UI",
+    "MonksCommonDisplay.hide-ui.hint": "为公共显示隐藏 UI",
+    "MonksCommonDisplay.Combatant": "参战者",
+    "MonksCommonDisplay.focus-padding.name": "聚焦",
+    "MonksCommonDisplay.ClearJournals": "清除日志",
+    "MonksCommonDisplay.ClearImages": "清除图像",
+    "MonksCommonDisplay.per-scene.name": "按场景设置",
+    "MonksCommonDisplay.ShowAsCommonDisplay": "以公共显示",
+    "MonksCommonDisplay.show-vertical.name": "竖直显示",
+    "MonksCommonDisplay.show-vertical.hint": "公共显示界面竖直展示",
+    "MonksCommonDisplay.Party": "小队"
 }
