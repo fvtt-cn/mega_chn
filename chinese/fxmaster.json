@@ -84,5 +84,6 @@
     "FXMASTER.WeatherEffectsGroupOther": "其他",
     "FXMASTER.WeatherEffectsGroupAnimals": "动物",
     "FXMASTER.WeatherEffectsGroupWeather": "天气",
-    "FXMASTER.LineWidth": "线宽"
+    "FXMASTER.LineWidth": "线宽",
+    "I18N.LANGUAGE": "中文"
 }
