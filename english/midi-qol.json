@@ -2,7 +2,7 @@
   "midi-qol.ItemDeleteCheck.Name": "Item Delete Check",
   "midi-qol.ItemDeleteCheck.Hint": "Open a confirmation dialog when trying to delete items from character sheet",
   "midi-qol.DamageImmunities.Name": "Apply Damage immunities",
-  "midi-qol.DamageImmunities.Hint": "When using midi-qol damage buttons or auto applying damage apply target's damage immunities/vulnerabilities/resistances. All damage types are checked.",
+  "midi-qol.DamageImmunities.Hint": "When using midi-qol damage buttons or auto applying damage apply target's damage immunity/vulnerabilities/resistances. All damage types are checked.",
   "midi-qol.WorldKeyMappings.Name": "World vs Client Key Configuration",
   "midi-qol.WorldKeyMappings.Blurb1": "Key mappings are defined per client. Each player can have different key mappings. To force all clients to have the same key mappings use one of the available modules to enforce common settings.",
   "midi-qol.WorldKeyMappings.Blurb2": "I have tested 'Force Client Controls' with success",
@@ -63,6 +63,7 @@
   "midi-qol.misses": "misses",
   "midi-qol.save-success": " succeeds",
   "midi-qol.save-failure": " fails",
+  "midi-qol.save-drawn": "drawn",
   "midi-qol.damage-applied": "Hit Points Updated",
   "midi-qol.noItemNamed": "Your selected token does not have an item named",
   "midi-qol.noTokens": "Cannot apply effect - no token targeted",
@@ -141,8 +142,6 @@
   "midi-qol.CriticalDamage.Hint": "DND5e Settings Only - standard dnd5e critical roll, Max Normal Damage - base weapon dice only (no critical dice) but all maximised, Max Critical Dice - critical dice maximised, Max All Dice - item + critical dice maximised, double dice value - result of dice x2, Explode Critical Dice - roll normal critical exploding any critical dice, Only Weapon Extra Critical - the only bonus damage for critical is from the item extra critical field",
   "midi-qol.CriticalDamageGM.Name": "Choose critical damage for GM",
   "midi-qol.CriticalDamageGM.Hint": "",
-
-
   "midi-qol.CriticalDamageChoices": {
     "default": "DND5e Settings Only",
     "maxDamage": "Max Normal Damage",
@@ -215,11 +214,13 @@
   "midi-qol.autoTargetOptions": {
     "none": "None",
     "always": "Always",
-    "alwaysIgnoreDefeated": "Always - Ignore defeated",
+    "alwaysIgnoreIncapcitated": "Always - Ignore Incapcitated/Dead",
+    "alwaysIgnoreDefeated": "Always - Ignore Dead",
     "wallsBlock": "Walls Block",
-    "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated",
+    "wallsBlockIgnoreIncapcitated": "Walls Block - Ignore Incapcitated/Dead",
+    "wallsBlockIgnoreDefeated": "Walls Block - Ignore Dead",
     "dftemplates": "Use DF Template Enhancements",
-    "dfwalledTemplates": "Use Walled Templates"
+    "walledtemplates": "Use Walled Templates"
   },
   "midi-qol.autoCheckSavesOptions": {
     "none": "Off",
@@ -231,9 +232,11 @@
   "midi-qol.rangeTargetOptions": {
     "none": "None",
     "always": "Always",
-    "alwaysIgnoreDefeated": "Always - Ignore Defeated",
+    "alwaysIgnoreIncpacitated": "Always - Ignore Icapacitated/Dead",
+    "alwaysIgnoreDefeated": "Always - Ignore Dead",
     "wallsBlock": "Walls Block",
-    "wallsBlockIgnoreDefeated": "Walls Block - Ignore Defeated"
+    "wallsBlockIgnoreInacpacitated": "Walls Block - Ignore Incapcitated/Dead",
+    "wallsBlockIgnoreDefeated": "Walls Block - Ignore Dead"
   },
   "midi-qol.autoRollDamageOptions": {
     "none": "Never",
@@ -244,8 +247,10 @@
   "midi-qol.autoApplyDamageOptions": {
     "none": "No",
     "noCard": "No + damage card",
+    "noCardMisses": "No + damage card + misses",
     "yes": "Yes",
     "yesCard": "Yes + damage card",
+    "yesCardMisses": "Yes + damage card + misses",
     "yesCardNPC": "Yes(NPC) No(PC) + damage card"
   },
   "midi-qol.playerDamageCardOptions": {
@@ -275,12 +280,14 @@
   "midi-qol.rollNPCSavesOptions": {
     "none": "Chat Message",
     "auto": "Auto",
+    "autoDialog": "Auto roll and show roll dialog",
     "letme": "Let Me Roll That For You",
     "letmeQuery": "LMRTFY + Query",
     "mtb": "Monks Token Bar"
   },
   "midi-qol.playerRollSavesOptions": {
     "none": "None",
+    "noneDialog": "Auto roll and show roll dialog",
     "letme": "Let Me Roll That For You",
     "letmeQuery": "LMRTFY + Query",
     "chat": "Chat Message",
@@ -336,6 +343,7 @@
   "midi-qol.EnableWorkflow.Name": "Enable roll automation support",
   "midi-qol.EnableWorkflow.Hint": "If enabled automation of rolls can be configured in the Workflow Settings panel",
   "midi-qol.magicalProp": "Magical",
+  "midi-qol.confirmTargetsProp": "Conf Targets",
   "midi-qol.noDamageSaveProp": "No Dam Save",
   "midi-qol.fullDamageSaveProp": "Full Dam Save",
   "midi-qol.defaultDamageType": "None",
@@ -345,6 +353,7 @@
   "midi-qol.magicalDamageProp": "Magic Damage",
   "midi-qol.magicalEffectProp": "Magic Effect",
   "midi-qol.concentrationEffectProp": "Concentration",
+  "midi-qol.noConcentrationEffectProp": "No Conc Save",
   "midi-qol.toggleEffectProp": "Toggle effect",
   "midi-qol.playerControlsInvisibleTokens.Name": "Players control owned hidden tokens",
   "midi-qol.playerControlsInvisibleTokens.Hint": "Experimental - might work",
@@ -370,14 +379,15 @@
     "preDamageApplication": "Before Damage Application",
     "preActiveEffects": "Before Active Effects",
     "postActiveEffects": "After Active Effects ",
-    "isAttacked": "Actor is target of an attack",
-    "isHit": "Actor is target of a hit",
-    "preTargetSsave": "Target is about to roll a saving throw",
-    "isSave": "Actor rolled a save",
-    "isSaveSuccess": "Actor rolled a successful save",
-    "isSaveFailure": "Actor failed a saving throw",
-    "preApplyTargetDamage": "Target is about to be damaged by an item",
-    "isDamaged": "Actor is damaged by an attack",
+    "isAttacked": "Target is attacked attack",
+    "isHit": "Target of a hit",
+    "preTargetSave": "Target is about to roll a saving throw",
+    "isSave": "Target rolled a save",
+    "isSaveSuccess": "Target rolled a successful save",
+    "isSaveFailure": "target failed a saving throw",
+    "preTargetDamageApplication": "Target is about to be damaged by an item",
+    "postTargetEffectApplication": "Target has an effect applied by a rolled item",
+    "isDamaged": "Target is damaged by an attack",
     "all": "All"
   },
   "midi-qol.DragDropTarget.Name": "Drag and Drop Targeting",
@@ -407,7 +417,7 @@
   "midi-qol.TempHPDamageConcentrationCheck.Hint": "If enabled loss of temporary HP will trigger a concentration check",
   "midi-qol.RemoveConcentrationEffects.Name": "Remove concentration when effects removed",
   "midi-qol.RemoveConcentrationEffects.Hint": "Check when effects (effects & templates) are removed. If all effects and templates for the concentration spell/feature have been removed remove concentrtion",
-  "midi-qol.RemoveConcentrationEffectsOptions" : {
+  "midi-qol.RemoveConcentrationEffectsOptions": {
     "none": "Never",
     "effects": "Check Effects",
     "effectsTemplates": "Check Effects and Templates"
@@ -435,7 +445,16 @@
   "midi-qol.Mechanics": "Mechanics",
   "midi-qol.OptionalRules.Name": "Optional Game Rules",
   "midi-qol.OptionalRules.Hint": "DND5E Game rules that you may wish to enable. Generally don't work with better rolls.",
-  "midi-qol.InvisAdvantage.Name": "Hidden/Invisible attackers have advantage (disadvantage if they cannot see their target) on attacks (use CV/CE/CUB and core foundy vision)",
+  "midi-qol.InvisAdvantage.Name": "Hidden/Invisible attackers have advantage/disadvantage on attacks",
+  "midi-qol.InvisAdvantage.Hint": "(Rules as written) Invisible attackers have advantage on attacks. Disadvantage if the target is invisible",
+  "midi-qol.InvisAdvantageOptions": {
+    "none": "Do not apply",
+    "RAW": "Rules as written",
+    "vision": "Use Token Vision"
+  },
+  "midi-qol.InvisVision.Name": "Force vision when checking",
+  "midi-qol.InvisVision.Hint": "Checked behave as if all tokens have vision enabled. Unchecked: tokens without vision can see everything",
+  "midi-qol.CantSeeAdvantage.Hint": "(Use Token Vision) Invisible attackers have advantage on targets who can't see them. Disadvantage if they can't see the target",
   "midi-qol.CheckRange.Name": "Check weapon range when attacking",
   "midi-qol.CheckRangeOptions": {
     "none": "Do not check range",
@@ -444,15 +463,19 @@
   },
   "midi-qol.NearbyFoe.Name": "Ranged attacks when a foe is closer than this have disadvantage. 0 disables",
   "midi-qol.WallsBlockRange.Name": "Walls block ranged attacks",
-  "midi-qol.WallsBlockRange.Hint": "Walls block ranged attacks \n No = no effect, center = check center to center line, center + Levels = center check but use the 'levels' module to determine wall blocking. Center + Levels also means use levels volumetric templates for template targeting",
+  "midi-qol.WallsBlockRange.Hint1": "No = wall do not block range checks",
+  "midi-qol.WallsBlockRange.Hint2": "center = check center to center line",
+  "midi-qol.WallsBlockRange.Hint3": "center + Levels = center check but use the 'levels' module to determine wall blocking LOS. Also use levels volumetric templates for template targeting",
+  "midi-qol.WallsBlockRange.Hint4": "levels Auto Cover = Use levelsautocover to test and block for full cover",
+  "midi-qol.WallsBlockRange.Hint5": "Alternative Token Visibility = Use Alternative Token Visibility to test and block for full cover",
   "midi-qol.WallsBlockRangeOptionsNew": {
     "none": "No",
     "center": "Center Check",
     "centerLevels": "Center + Levels",
     "levelsautocover": "Levels Auto Cover",
-    "simbuls-cover-calculator": "Simbuls Cover Calculator"
+    "simbuls-cover-calculator": "Simbuls Cover Calculator",
+    "tokenvisibility": "Alternative Token Visibility"
   },
-
   "midi-qol.NearbyAllyRanged.Name": "(House Rule) Ranged Attacks at foes near allies have disadvantage.",
   "midi-qol.WallsBlockRangeOptions": {
     "none": "No",
@@ -464,15 +487,19 @@
   "midi-qol.CoverCalculationOptions": {
     "none": "None",
     "simbuls-cover-calculator": "Simbul's Cover Calculator",
-    "levelsautocover": "Levels Auto Cover"
+    "levelsautocover": "Levels Auto Cover",
+    "tokenvisibility": "Alternative Token Visibility"
   },
   "midi-qol.NearbyAllyRanged.Hint": "Ranged Attacks with allies nearby (5 feet) to the target have disadvantage for targets smaller than this (w*h). 0 disables",
   "midi-qol.Incapacitated.Name": "Incapacitated actors can't take actions or reactions",
   "midi-qol.RemoveHiddenInvis.Name": "Attacking removes hidden (use CE/CV/CUB/core foundry specialStatus )",
   "midi-qol.CriticalSaves.Name": "(House Rule) Critical/Fumble always succeed/fail for saving throws",
   "midi-qol.MaxDRValue.Name": "(House rule) Enabling this means that only the most effective Damage Reduction will apply. Off means DR accumulates",
+  "midi-qol.DRAllPerDamageDetail.Name": "(House Rule) DRAll (DR.rwak/...) is deducted from BOTH attack damage and Other damage.",
+  "midi-qol.DRAllPerDamageDetail.Hint": "Unchecked means DRALL applies just once to the total damage",
   "midi-qol.invisible": "Invisible",
   "midi-qol.hidden": "Hidden",
+  "midi-qol.nevertarget": "Never Target",
   "midi-qol.DamageCardMultHeader": "Mult",
   "midi-qol.DamageCardUndoHeader": "Undo",
   "midi-qol.DamageCardApplyHeader": "Apply",
@@ -526,7 +553,7 @@
   "midi-qol.NoChangelogs": "Midi-qol supports and recommends the ChangeLogs or Module Manager+ modules to show you any changes since you last updated",
   "midi-qol.ActiveDefenceString": "Active Defence",
   "midi-qol.ActiveDefence.Name": "Active Defence",
-  "midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit' rolls players make a defence roll. Requires LMRTFY and does not work with better rolls",
+  "midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit' rolls players make a defence roll. Will use LMRTFY if installed",
   "midi-qol.ActiveDefenceShowGM.Name": "GM Sees active defence rolls",
   "midi-qol.PromptDamageRoll.Name": "Enhanced Damage Roll Dialog",
   "midi-qol.PromptDamageRoll.Hint": "When using Damage Roll Dialog display an enhanced dialog that supports choosing item damage.",
@@ -543,12 +570,19 @@
     "both": "Auto consume resources/spell slots"
   },
   "midi-qol.ChallengeModeArmor.Name": "Enable Challenge Mode Armor Class",
-  "midi-qol.ChallengeModeArmorScale.Name": "Enable house version Challenge Mode Armor Class",
+  "midi-qol.ChallengeModeArmorOptions": {
+    "none": "No Challenge Mode Armor",
+    "challenge": "Challenge Mode Armor (Base)",
+    "scale": "Challenge Mode Armor (Scaled)",
+    "scaleNoAR": "Challenge Mode Armor (Scaled No AR)"
+  },
   "midi-qol.ChallengeModeArmor.Hint": "Implements the challenge mode armor rules - see the readme for more information",
-  "midi-qol.ChallengeModeArmorScale.Hint": "Requires Challenge Mode Armor enabled. Implements a modified challenge mode armor rules - see the readme for more information",
+  "midi-qol.ChallengeModeArmorScale.Hint": "Implements a modified challenge mode armor rules - see the readme for more information",
+  "midi-qol.ChallengeModeArmorScaleNoAR.Hint": "Implements a modified challenge mode armor rules but no AR reducing incoming damage - see the readme for more information",
   "midi-qol.NonSilverPhysical": "Non-Silver Physical",
   "midi-qol.NonAdamantinePhysical": "Non-Adamantine Physical",
   "midi-qol.NonMagical": "Non-Magical Damage",
+  "midi-qol.NonMagicalPhysical": "Non-Magical Physical",
   "midi-qol.Magical": "Magical Damage",
   "midi-qol.EffectActivation": "Activation Condition true required for effect activation",
   "midi-qol.HPUpdated": "HP Updated",
@@ -570,24 +604,24 @@
   "midi-qol.DeferText": "[Defer]",
   "midi-qol._comment for translators_ItemMacroText": "The text below is searched for by midi in the onUseMacro field in item data. If you change it every item with an onUseMacro will need to be changed to match",
   "midi-qol.ItemMacroText": "ItemMacro",
-  "midi-qol.LateTargeting.Name": "Late Targeting",
-  "midi-qol.LateTargeting.Hint": "When rolling with auto roll attack set, items which are not AoE, Ranged or self targeting will pause and wait for targets to be selected.",
-  "midi-qol.LateTargeting.Blurb": "Choose {targetCount} targets",
-  "midi-qol.LateTargetingOptions": {
-    "none": "No Late Targeting",
-    "noTargetsSelected": "Late Target only if none selected",
-    "all": "Always display late targeting"
-  },
-  "midi-qol.AddDead.Name": "Add effect When HP = 0",
-  "midi-qol.AddDead.Hint": "NPC Add Defeated, PC Add Convenient Effect Unconscious",
+  "midi-qol.TargetConfirmationConfig.Name": "Target Confirmation",
+  "midi-qol.TargetConfirmationConfig.Hint": "When rolling an item confirm targets before completing",
+  "midi-qol.TargetConfirmation.Name": "Target Confirmation",
+  "midi-qol.TargetConfirmation.Blurb": "Select up to {targetCount} targets. Shift-Click to select multiple targets",
+  "midi-qol.TargetConfirmation.BlurbAny": "Select any number of targets. Shift-Click to select multiple targets",
+
+  "midi-qol.AddDead.Name": "Add effect when HP = 0",
+  
+  "midi-qol.AddDead.Hint1": "Player Controlled",
+  "midi-qol.AddDead.Hint2": "GM Controlled",
   "midi-qol.AddDeadOptions": {
     "none": "Do Not Update",
     "overlay": "Add effect as overlay",
-    "normal": "add effect as icon"
+    "normal": "Add effect as icon"
   },
   "midi-qol.Wounded": "Wounded",
-  "midi-qol.AddWounded.Name": "Mark Wounded when hp falls below %",
-  "midi-qol.AddWounded.Hint": "Add Custom Convenient Effect 'Wounded' when HP are less than specified percentage of max. 0 disables.",
+  "midi-qol.AddWounded.Name": "Add effect when hp falls below %",
+  "midi-qol.AddWounded.Hint": "Add Selected status when HP are less than specified percentage of max. 0 disables.",
   "midi-qol.debugCallTiming.Name": "Log execution timing",
   "midi-qol.debugCallTiming.Hint": "Provide some log information about how long things take",
   "midi-qol.autoFailFriendly": "Auto Fail Friendly",
@@ -628,7 +662,8 @@
   "midi-qol.ShowReactionAttackRollOptions": {
     "none": "Attack Hits",
     "d20": "d20 roll only",
-    "all": "Attack Roll Total"
+    "all": "Attack Roll Total",
+    "allCrit": "Attack Roll Total + Critical"
   },
   "midi-qol.Reactions": "Prompt For Reactions",
   "midi-qol.ReactionsTab": "Reactions",
@@ -682,6 +717,7 @@
     "ceflanked": "CE Flanked condition only",
     "ceflankedNoconga": "CE Flanked + no conga line"
   },
+  "midi-qol.Flanked": "Flanked",
   "midi-qol.RollAlternate.Name": "Move roll formula to tooltip",
   "midi-qol.RollAlternate.Hint": "Use alternate roll display on merge card moving the roll formula to the tooltip and optionally add advantage attribution",
   "midi-qol.RollAlternateOptions": {
@@ -724,11 +760,11 @@
   "midi-qol.OptionalRuleVitality.Hint": "when set to a resource damage applied to a target with 0 HP does damage to the vitality resource. If that reaches 0 the target is dead",
   "midi-qol.AutoRerollInitiative.Name": "Auto reroll initiative",
   "midi-qol.AutoRerollInitiative.Hint": "Auto reroll initiative for all combatants at the start of a new round. Warning: can break round/turn effect expiry",
-  "midi-qol.RollChecksBlind.Name" : "All player ability checks are rolled blind",
-  "midi-qol.RollSavesBlind.Name" : "All player ability saves are rolled blind",
-  "midi-qol.RollSkillsBlind.Name" : "All player skill checks are rolled blind",
+  "midi-qol.RollChecksBlind.Name" : "Which player ability checks are rolled blind",
+  "midi-qol.RollSavesBlind.Name" : "Which player ability saves are rolled blind",
+  "midi-qol.RollSkillsBlind.Name" : "Which player skill checks are rolled blind",
   "midi-qol.UndoWorkflow" : {
-    "Name": "Experimental: Support undoing item rolls",
+    "Name": "Support undoing item rolls",
     "Hint": "If enabled midi will store undo data for all item rolls. Not suitable for game time. Undo via MidiQOL.undoMostRecentWorkflow()",
     "title": "Undo workflow",
     "actorName": "Actor name",
@@ -738,6 +774,52 @@
     "undoFirstWorkflow": "Undo Top/Most Recent Workflow From List",
     "GMOnly": "Only the GM can undo workflows"
   },
-  "midi-qol.cubNotSupported": "Combat Utility Belt will not be migrated to version 11. Midi will remove support for CUB in midi version 11.1.0"
-
+  "midi-qol.cubNotSupported": "Combat Utility Belt will not be migrated to version 11. Midi will remove support for CUB in midi version 11.1.0",
+  "miidi-qol.ContestedRoll": "Contested Roll",
+  "midi-qol.versus": "versus",
+  "midi-qol.Skipped": "Skipped",
+  "midi-qol.ExportTroubleShooting": "Export Trouble Shooting Data",
+  "midi-qol.TroubleShooter.Name": "Open Trouble Shooter",
+  "midi-qol.TroubleShooter.Hint": "(VERY EARLY) trouble shooter to help diagnose problems",
+  "midi-qol.TroubleShooter.Label": "Troubleshooter",
+  "midi-qol.Summary": "Summary",
+  "midi-qol.CommonModules": "Common Modules",
+  "midi-qol.Problems": "Problems",
+  "midi-qol.AllModules": "All Modules",
+  "midi-qol.Errors": "Errors",
+  "midi-qol.Inactive": "Inactive",
+  "midi-qol.Active": "Active",
+  "midi-qol.EnforceSingleWeaponTarget.Name":  "Weapons attack single target",
+  "midi-qol.EnforceSingleWeaponTarget.Hint": "Wepaons with no target specification can only attack one target",
+  "midi-qol.DisplayBonusRolls.Name": "Show before and after optional bonus chat card",
+  "midi-qol.DisplayBonusRolls.Hint": "Display a chat card with the before and after roll when an optional bonus is applied",
+  "midi-qol.MergeCardMulti.Name": "Add extra buttons to merge card",
+  "midi-qol.MergeCardMulti.Hint": "Add buttons for advantage/disadvantage critical/nocritical to the item chart card",
+  "midi-qol.ConfirmAttackDamage.Name": "Display Confirm Roll Button",
+  "midi-qol.ConfirmAttackDamage.Hint": "Pause after rolling attack/damage for the player/GM to confirm",
+  "midi-qol.ConfirmAttackDamageOptions": {
+    "none": "No confirmation",
+    "gmOnly": "Only GM can confirm",
+    "GMPlayer": "GM and Player can confirm"
+  },
+  "midi-qol.ConfirmRoll": "Confirm",
+  "midi-qol.ConfirmMiss": "Confirm Miss",
+  "midi-qol.ConfirmHit": "Confirm Hit",
+  "midi-qol.AverageNPCDamage.Name": "Alll damage/critical dice rolled for npc hits are 'average' results",
+  "midi-qol.GriddedGridless.Name": "Gridless Grid",
+  "midi-qol.GriddedGridless.Hint": "If set midi will use the square grid for all distance calculations. EXPERIMENTAL",
+  "midi-qol.targetConfirmationPosition": "Target Confirmation Position",
+  "midi-qol.TargetConfirmationEnabled": "Enable Target Confirmation",
+  "midi-qol.TargetConfirmationAll": "Always confirm targets",
+  "midi-qol.TargetConfirmationNoneTargeted": "Confirm targets if none selected",
+  "midi-qol.TargetConfirmation.hasAttack": "Confirm targets if rolled item has an attack",
+  "midi-qol.TargetConfirmationCreatureTarget": "Confirm targets if rolled item has 'creature' target",
+  "midi-qol.TargetConfirmationSelfTarget": "Confirm targets if self is targeted",
+  "midi-qol.TargetConfirmationAoETarget": "Confirm targets if item has an AoE",
+  "midi-qol.TargetConfirmationRangedAoE": "Confirm targets if item has ranged AoE",
+  "midi-qol.TargetConfirmationLongRangeTarget": "Confirm targets if any target is long range",
+  "midi-qol.TargetConfirmationCoveredTarget": "Confirm targets if any target has cover",
+  "midi-qol.TargetConfirmationMixedDisposition": "Confirm targets if targeting allies and hostiles",
+  "midi-qol.TargetConfirmationAllies": "Confirm targets if any target is an ally",
+  "midi-qol.OutOfRange": "Out of Range"
 }
