@@ -38,7 +38,7 @@
     "TMFX.settings.autoFPS.name": "自动帧率",
     "TMFX.template.tint": "效果色调：",
     "TMFX.template.fx": "特殊效果：",
-    "TMFX.template.opacity": "内部不透明度：",
+    "TMFX.template.opacity": "材质不透明度：",
     "TMFX.settings.importOverwrite.name": "导入时覆写",
     "TMFX.preset.reset.success": "你的预设库已成功重置。",
     "TMFX.preset.reset.message": "你确定要重置你的预设库吗？",
