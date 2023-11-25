@@ -1523,5 +1523,6 @@
     "Overchannelling": "过载",
     "Something went wrong": "有什么出错了",
     "SETTINGS.UIACrits": "使用Up In Arms的重击调整",
-    "TYPES.Item.skill": "技能"
+    "TYPES.Item.skill": "技能",
+    "TYPES.Item.weapon": "武器"
 }
