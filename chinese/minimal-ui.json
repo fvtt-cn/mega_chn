@@ -1,5 +1,5 @@
 {
-    "I18N.LANGUAGE": "简体中文",
+    "I18N.LANGUAGE": "中文",
     "I18N.MAINTAINERS": "FVTT-CN",
     "MinimalUI.SettingsAlwaysVisible": "总是可见",
     "MinimalUI.SettingsStartVisible": "默认可见",
@@ -71,7 +71,7 @@
     "MinimalUI.LogoBehaviourToggleNoChat": "Logo开关隐藏除聊天框之外的所有UI",
     "MinimalUI.LogoImageHint": "图像大小需为100x50像素。",
     "MinimalUI.HidePlayerCameraHint": "玩家摄像头/音频是否仅对GM可见",
-    "MinimalUI.PlayersShowPingName": "使用MInimal UI行为的Ping记录器",
+    "MinimalUI.PlayersShowPingName": "用户延迟跟随 Minimal UI 行为",
     "MinimalUI.PlayersShowPingHint": "无视自动隐藏玩家列表显示Ping",
     "MinimalUI.PlayersShowPing": "显示",
     "MinimalUI.PlayersHidePing": "隐藏",
