@@ -1,27 +1,27 @@
 [
     {
         "name": "midi-qol",
-        "src": "https://gitlab.com/tposney/midi-qol/-/raw/v10/lang/en.json"
+        "src": "https://gitlab.com/tposney/midi-qol/-/raw/v11/lang/en.json"
     },
     {
         "name": "dae",
-        "src": "https://gitlab.com/tposney/dae/-/raw/v10/src/lang/en.json"
+        "src": "https://gitlab.com/tposney/dae/-/raw/v11/src/lang/en.json"
     },
     {
         "name": "betterCurses",
-        "src": "https://raw.githubusercontent.com/Wigsinator/betterCurses/master/src/lang/en.json"
+        "src": "https://github.com/Wigsinator/betterCurses/raw/main/src/lang/en.json"
     },
     {
         "name": "touch-vtt",
-        "src": "https://raw.githubusercontent.com/Oromis/touch-vtt/main/lang/en.json"
+        "src": "https://github.com/Oromis/touch-vtt/raw/main/lang/en.json"
     },
     {
         "name": "tokenmagic",
-        "src": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/lang/en.json"
+        "src": "https://github.com/Feu-Secret/Tokenmagic/raw/master/tokenmagic/lang/en.json"
     },
     {
         "name": "tidy-ui",
-        "src": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/src/langs/en.json"
+        "src": "https://github.com/sdenec/tidy-ui_game-settings/raw/master/src/langs/en.json"
     },
     {
         "name": "tidy5e",
@@ -29,19 +29,11 @@
     },
     {
         "name": "split-journal",
-        "src": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-split-journal/main/lang/en.json"
-    },
-    {
-        "name": "lib-df-hotkeys",
-        "src": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/lib-df-hotkeys/lang/en.json"
+        "src": "https://github.com/League-of-Foundry-Developers/fvtt-split-journal/raw/main/lang/en.json"
     },
     {
         "name": "fxmaster",
         "src": "https://github.com/ghost-fvtt/fxmaster/raw/main/lang/en.json"
-    },
-    {
-        "name": "drag-ruler",
-        "src": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/develop/lang/en.json"
     },
     {
         "name": "multilevel-tokens",
@@ -56,28 +48,8 @@
         "src": "https://gitlab.com/riccisi/foundryvtt-magic-items/-/raw/master/module/lang/en.json"
     },
     {
-        "name": "5e-training",
-        "src": "https://raw.githubusercontent.com/crash1115/5e-training/master/lang/en.json"
-    },
-    {
-        "name": "nap-time",
-        "src": "https://raw.githubusercontent.com/BadIdeasBureau/nap-time/main/languages/en.json"
-    },
-    {
         "name": "gmScreen",
-        "src": "https://raw.githubusercontent.com/ElfFriend-DnD/foundryvtt-gmScreen/main/src/lang/en.json"
-    },
-    {
-        "name": "simple-calendar",
-        "src": "https://raw.githubusercontent.com/vigoren/foundryvtt-simple-calendar/main/src/lang/en.json"
-    },
-    {
-        "name": "keikaku",
-        "src": "https://raw.githubusercontent.com/pyrige/fvtt-keikaku/main/i18n/en.json"
-    },
-    {
-        "name": "pf1-alt-sheet",
-        "src": "https://gitlab.com/zenvy/foundryvtt-pf1-alt-sheet/-/raw/master/lang/en.json"
+        "src": "https://github.com/ElfFriend-DnD/foundryvtt-gmScreen/raw/main/src/lang/en.json"
     },
     {
         "name": "smalltime",
@@ -85,79 +57,39 @@
     },
     {
         "name": "ActiveAuras",
-        "src": "https://raw.githubusercontent.com/kandashi/Active-Auras/main/lang/en.json"
+        "src": "https://github.com/kandashi/Active-Auras/raw/main/lang/en.json"
     },
     {
         "name": "polyglot",
-        "src": "https://raw.githubusercontent.com/mclemente/fvtt-module-polyglot/master/lang/en.json"
-    },
-    {
-        "name": "PDFoundry",
-        "src": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/locale/en/config.json"
+        "src": "https://github.com/mclemente/fvtt-module-polyglot/raw/master/src/lang/en.json"
     },
     {
         "name": "encounter-stats",
-        "src": "https://raw.githubusercontent.com/johnnolan/fvtt-encounter-stats/main/languages/en.json"
-    },
-    {
-        "name": "NPCGen",
-        "src": "https://raw.githubusercontent.com/ardittristan/VTTNPCGen/master/lang/en.json"
-    },
-    {
-        "name": "automated-animations",
-        "src": "https://raw.githubusercontent.com/otigon/automated-jb2a-animations/main/lang/en.json"
+        "src": "https://github.com/johnnolan/encounter-stats/raw/main/languages/en.json"
     },
     {
         "name": "minimal-ui",
-        "src": "https://raw.githubusercontent.com/saif-ellafi/foundryvtt-minimal-ui/main/lang/en.json"
-    },
-    {
-        "name": "quick-insert",
-        "src": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/raw/master/lang/en.json"
-    },
-    {
-        "name": "torchlight",
-        "src": "https://raw.githubusercontent.com/PhilippeKr/TorchLight/main/lang/en.json"
+        "src": "https://github.com/saif-ellafi/foundryvtt-minimal-ui/raw/main/lang/en.json"
     },
     {
         "name": "levels",
-        "src": "https://raw.githubusercontent.com/theripper93/Levels/main/lang/en.json"
+        "src": "https://github.com/theripper93/Levels/raw/master/lang/en.json"
     },
     {
         "name": "df-chat-enhance",
-        "src": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/df-chat-enhance/lang/en.json"
-    },
-    {
-        "name": "dnd5e-helpers",
-        "src": "https://raw.githubusercontent.com/trioderegion/dnd5e-helpers/master/lang/en.json"
-    },
-    {
-        "name": "dice-so-nice",
-        "src": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/lang/en.json"
-    },
-    {
-        "name": "league-theatre",
-        "src": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-theatre/master/app/lang/en.json"
+        "src": "https://github.com/flamewave000/dragonflagon-fvtt/raw/master/df-chat-enhance/lang/en.json"
     },
     {
         "name": "monks-tokenbar",
-        "src": "https://raw.githubusercontent.com/ironmonk88/monks-tokenbar/main/lang/en.json"
+        "src": "https://github.com/ironmonk88/monks-tokenbar/raw/main/lang/en.json"
     },
     {
         "name": "monks-common-display",
-        "src": "https://raw.githubusercontent.com/ironmonk88/monks-common-display/main/lang/en.json"
-    },
-    {
-        "name": "monks-little-details",
-        "src": "https://raw.githubusercontent.com/ironmonk88/monks-little-details/main/lang/en.json"
+        "src": "https://github.com/ironmonk88/monks-common-display/raw/main/lang/en.json"
     },
     {
         "name": "restrecovery",
         "src": "https://github.com/fantasycalendar/FoundryVTT-RestRecovery/raw/main/languages/en.json"
-    },
-    {
-        "name": "itempiles",
-        "src": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/raw/master/languages/en.json"
     },
     {
         "name": "monks-enhanced-journal",
@@ -165,7 +97,7 @@
     },
     {
         "name": "swade-tools",
-        "src": "https://raw.githubusercontent.com/lipefl/swade-tools/main/lang/en.json"
+        "src": "https://github.com/lipefl/swade-tools/raw/main/lang/en.json"
     },
     {
         "name": "ready-to-use-cards",
@@ -174,19 +106,6 @@
     {
         "name": "babele",
         "src": "https://gitlab.com/riccisi/foundryvtt-babele/-/raw/master/module/lang/en.json"
-    },
-    {
-        "name": "swade-immersive-macros",
-        "src": "https://github.com/SalieriC/SWADE-Immersive-Macros/raw/main/swim/lang/en.json"
-    },
-    {
-        "name": "swade",
-        "yml": true,
-        "src": "https://gitlab.com/peginc/swade/-/raw/master/src/lang/en.yml"
-    },
-    {
-        "name": "ryuutama",
-        "src": "https://raw.githubusercontent.com/Reaver01/ryuutama/master/lang/en.json"
     },
     {
         "name": "demonlord",
@@ -206,18 +125,10 @@
     },
     {
         "name": "ironsworn",
-        "src": "https://raw.githubusercontent.com/ben/foundry-ironsworn/main/system/lang/en.json"
+        "src": "https://github.com/ben/foundry-ironsworn/raw/main/system/lang/en.json"
     },
     {
         "name": "gurps",
         "src": "https://github.com/crnormand/gurps/raw/main/lang/en.json"
-    },
-    {
-        "name": "pf1",
-        "src": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/lang/en.json"
-    },
-    {
-        "name": "ose",
-        "src": "https://github.com/vttred/ose/raw/main/src/lang/en.json"
     }
 ]
