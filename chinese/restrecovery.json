@@ -15,7 +15,8 @@
             "DruidRecovery": "自然恢复",
             "NaturalRecovery": "自然恢复",
             "WoundClosureBlessing": "愈合祝福",
-            "BlackBloodFeature": "黑血愈合"
+            "BlackBloodFeature": "黑血愈合",
+            "PowerSurge": "力量涌动"
         },
         "Fractions": {
             "None": "无",
@@ -47,7 +48,26 @@
             "SongOfRestSelf": "{name} 享受着自己的纾压曲。",
             "Chef": "{name} 享用着 {chef} 制作的美味食物。",
             "ChefSelf": "{name} 享用着自己制作的美味食物。",
-            "SongOfRest": "{name} 享受着 {bard} 的纾压曲。"
+            "SongOfRest": "{name} 享受着 {bard} 的纾压曲。",
+            "PreventedHitDiceRecovery": "因为在长休期间消耗了生命骰，所以没有恢复生命骰。",
+            "RegainedUses": "此外，还恢复了以下的：",
+            "RecoveryNameNum": "{name} 恢复 {number} 使用次数",
+            "CouldNotShortRest": "{actorName} 不能进行短休。",
+            "CouldNotLongRest": "{actorName} 不能进行长休。",
+            "WaterNoneHalf": "从外部水源喝水，但只喝了所需量的一半。",
+            "WaterNoneNone": "没有喝下任何东西。",
+            "NoExhaustion": "但设法避免了力竭。",
+            "WaterNoneFull": "从外部水源喝了足够的水，得以满足。",
+            "WaterHalfHalf": "从外部水源和自己的水中喝到满足。",
+            "WaterHalfNone": "喝了自己的水，但只喝了所需量的一半。",
+            "WaterFullNone": "喝了自己的水喝到满足。",
+            "HitDiceNoArmor": "选择不穿护甲休息，恢复了正常数量的生命骰。",
+            "NoHitDiceArmor": "选择穿戴护甲休息，不恢复生命骰。",
+            "HitDiceArmor": "选择穿戴护甲休息，恢复了更少的生命骰。",
+            "ExhaustionDeath": "遗憾的是，{actorName} 的力竭状态达到了 {max_levels} 水平，最终死亡。",
+            "ExhaustionArmor": "选择穿戴护甲，并不恢复力竭状态。",
+            "Exhaustion": "因此，他们遭受了 {exhaustion} 级的力竭等级。",
+            "FoodNoneNone": "没有吃任何东西。"
         },
         "Dialogs": {
             "ResetSettings": {
@@ -64,13 +84,26 @@
                 "FullHealth": "你的生命值已经完全恢复，因此不能再掷任何生命骰。",
                 "AutoRoll": "自动掷骰",
                 "NoMoreRests": "不能再短休",
-                "NoMoreRestsSmall": "你已经不能再进行短休了，因为你的游戏规则规定每次长休期间最多只能短休 {max_short_rests} 次。"
+                "NoMoreRestsSmall": "你已经不能再进行短休了，因为你的游戏规则规定每次长休期间最多只能短休 <strong>{max_short_rests}</strong> 次。",
+                "MaxHitDiceSpend": "你只能在此次短休中花费 <strong>{max_spend}</strong> 颗生命骰（剩余 <strong> {current} </strong> 颗）。",
+                "NoHitDiceRest": "来个短休？短休时，你可以恢复主要或次要资源。",
+                "ShortRestLimit": "在你必须进行长休之前，你还有 <strong>{num_short_rests}</strong> 次短休。",
+                "MinHitDiceSpend": "你必须花费 <strong>{min_spend}</strong> 颗生命骰以完成此次短休。",
+                "ShortRestLimitSmall": "你的游戏规则规定每次长休期间的最多只能短休 <strong>{max_short_rests}</strong> 次。",
+                "FinishRest": "完成短休",
+                "ForcedNewDayTitle": "新的一天",
+                "ForcedNewDayHint": "新的一天开始了，因此这次短休可以恢复按“每天”充能的能力。"
             },
             "LongRest": {
                 "Begin": "开始长休",
                 "CustomRules": "你正在游玩自定规则，这意味着你可能会以不同的方式恢复生命值、生命骰、职业资源、物品充能次数、法术位。",
                 "BeginExplanation": "开始长休之后，你将恢复你的一部分生命骰以便用于恢复生命值。",
-                "CustomRulesLink": "查看自定规则。"
+                "CustomRulesLink": "查看自定规则。",
+                "ForcedNewDayHint": "新的一天开始了，因此这次长休可以恢复按“每天”充能的能力。",
+                "FinishRest": "完成长休",
+                "ForcedNewDayTitle": "新的一天",
+                "ArmorRecovery": "长休期间卸甲？",
+                "ArmorRecoveryHint": "由于你装备的是非轻型护甲，你将遭受惩罚。点击橙色的自定义规则文本，查看它对你的影响。"
             },
             "ModuleConfig": {
                 "Title": "休息恢复配置",
@@ -81,7 +114,14 @@
                 "ItemNames": "特性名称",
                 "General": "通用设置",
                 "Request": "在这里提出你的新特性要求。",
-                "MoreToCome": "并提供更多配置选项！"
+                "MoreToCome": "并提供更多配置选项。。。",
+                "FoodAndWater": "食物 & 饮水",
+                "Donate": "如果你喜欢这个模组，请考虑捐赠以维持其运行！",
+                "ModuleProfile": "模组配置文件：",
+                "ImportProfile": "导入配置文件",
+                "ExportProfile": "导出配置文件",
+                "Confused": "麻了？这么多选项？",
+                "QuickSetup": "点击此处开启快速设置！"
             },
             "LongRestWarning": {
                 "Title": "完成长休？",
@@ -94,6 +134,99 @@
             "ShortRestWarning": {
                 "Title": "结束短休？",
                 "Content": "您还没有花费生命骰来恢复生命值，确定要结束短休吗？"
+            },
+            "Resources": {
+                "RecoveryFormula": "恢复公式",
+                "Short": "短",
+                "Configure": "配置资源恢复",
+                "Title": "资源配置",
+                "Value": "值",
+                "Name": "名称",
+                "Long": "长"
+            },
+            "PromptRest": {
+                "Title": "对玩家提示休息",
+                "ConfigureProfiles": "配置文件",
+                "Long": "长休",
+                "Short": "短休",
+                "NewDayTitle": "新的一天",
+                "NewDayHint": "这会导致完成完成休息的角色恢复以“每天”充能的能力。",
+                "PlayerListShort": "休息",
+                "Submit": "提交",
+                "NoNewDayTitle": "并非新的一天",
+                "NewDaySimpleCalendarHint": "根据下面选择的类型，完成休息的角色恢复以“每天”充能的能力。 这是由<strong>简单日历</strong>模组驱动的。",
+                "NoNewDaySimpleCalendarHint": "长休和短休都不会导致新的一天，因此，完成休息的角色<strong>不</strong>恢复以“每天”充能的能力。 这是由<strong>简单日历</strong>模组驱动的。",
+                "NewDay": "（新的一天）"
+            },
+            "SaveProfile": {
+                "Title": "创建新的模组配置文件",
+                "OverrideProfile": "你的新配置文件不能与旧配置文件具有相同的名称",
+                "Empty": "你的新配置文件不能有空名称",
+                "Enter": "输入预设名："
+            },
+            "DiscardChanges": {
+                "Title": "未保存的更改",
+                "Content": "你对此配置文件有未保存的更改。你确定要切换配置文件吗？"
+            },
+            "ItemOverrides": {
+                "DayWorth": "一次充能足够全天",
+                "UsesCustomRecovery": "使用自定义恢复",
+                "Title": "休息恢复：食物 & 饮水",
+                "Formula": "公式：",
+                "IsConsumable": "物品可消耗",
+                "Type": "类型：",
+                "Enabled": "已启用",
+                "ChargesDescription": "休息恢复的食物 & 饮水系统要求使用的物品必须有充能次数——一次充能等于一个单位的食物或水。"
+            },
+            "AbilityUse": {
+                "SatedFood": "你已经吃饱了，吃这个不会有任何好处。",
+                "DayWorthTitleFood": "这种类型的消耗品相当于一整天的食物。",
+                "DayWorthTitleBoth": "这种类型的消耗品相当于一整天的食物和水。",
+                "DayWorthTitleWater": "这种类型的消耗品相当于一整天的水。",
+                "DayWorthTitleCont": "在第二天之前，你不需要再食用任何此类消耗品。此类消耗品不能吃一半。",
+                "Title": "选择你想消耗多少该物品："
+            },
+            "ResetDefaultChanges": {
+                "Title": "重置默认设置",
+                "Content": "你确定要重置 “默认” 模组配置文件到默认值吗？"
+            },
+            "DeleteProfile": {
+                "Title": "删除配置文件",
+                "Content": "你确定要删除 “{profile}” 模组配置文件吗？"
+            },
+            "RestSteps": {
+                "Prev": "上一步",
+                "Next": "下一步",
+                "SpellRecovery": {
+                    "Title": "魔法恢复",
+                    "NoFeatureUse": "你的 {featureName} 没有使用次数了，所以你不能在此次短休中恢复任何法术位。",
+                    "FullSpells": "你法术位已满，不需要恢复任何法术位。"
+                },
+                "Rest": {
+                    "Title": "休息"
+                },
+                "FoodWater": {
+                    "Title": "食物 & 饮水"
+                }
+            },
+            "CharacterOwnersOffline": {
+                "Content": "你提示要休息的以下角色的所有者都不在线，你愿意为他们完成休息吗？",
+                "Title": "角色所有者离线"
+            },
+            "RestHealthWarning": {
+                "Title": "完成长休？",
+                "Content": "你还没有花费任何生命骰来恢复生命值，确定要结束长休吗？"
+            },
+            "RestSpendHitDice": {
+                "Title": "花费生命骰？"
+            },
+            "QuickSetup": {
+                "Title": "休息恢复：快速设置",
+                "RecoverHitDiceTitle": "在长休前恢复生命骰",
+                "SlowNaturalHealingLabel": "长休结束后，角色不会恢复生命值。相反，他们必须花费生命骰来治疗，就像短休一样。",
+                "RecoverHitDiceLabel": "改变缓慢的自然愈合，使角色在开始长休时恢复生命骰，而非休息结束时。",
+                "SlowNaturalHealingTitle": "缓慢自然愈合",
+                "OpenSettings": "打开设置"
             }
         },
         "Settings": {
@@ -266,6 +399,30 @@
                 }
             }
         },
-        "PatchedRecovery": "{actorName} 的 {recoveryName} 已被修补。"
+        "PatchedRecovery": "{actorName} 的 {recoveryName} 已被修补。",
+        "Warnings": {
+            "PreventedLongRest": "你无法进行长休，某种效果阻止你如此做！",
+            "PreventedShortRest": "你无法进行短休，某种效果阻止你如此做！",
+            "NotPromptedLongRest": "GM 已配置为如果没有提示就不能开始长休！",
+            "NotPromptedShortRest": "GM 已配置为如果没有提示就不能开始短休！",
+            "ItemNoUses": "“{item}” 已无使用次数，因此无法消耗。"
+        },
+        "Misc": {
+            "Both": "两者",
+            "Food": "食物",
+            "Water": "水"
+        },
+        "Modules": {
+            "CUB": "CUB",
+            "DFreds": "DFreds 便捷效果"
+        },
+        "PatchedConsumable": "已更新 {itemName} 使用次数。",
+        "Traits": {
+            "Title": "休息恢复",
+            "HitDieBonus": {
+                "Hint": "每当该角色掷出一个生命骰时，都会为该骰子加上一个加值。这可以是一个公式，如 \"1d6 + 3\"。",
+                "Title": "生命骰加值"
+            }
+        }
     }
 }
