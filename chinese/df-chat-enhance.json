@@ -122,7 +122,11 @@
         "ScrollButton": "滚动到底部",
         "NewMessage": "新消息！",
         "ScrollIfYouHint": "如果你已在聊天栏中滚动到上面，此功能将会在你发送消息时，自动将你的聊天栏滚动到底部。",
-        "EnableHint": "将显示滚动到底部的按钮，并且如果你要在聊天栏中向上滚动，此功能将会阻止新消息发送时自动滚动到底部。作为新消息发送的提醒，滚动到底部的按钮将会被高亮。"
+        "EnableHint": "将显示滚动到底部的按钮，并且如果你要在聊天栏中向上滚动，此功能将会阻止新消息发送时自动滚动到底部。作为新消息发送的提醒，滚动到底部的按钮将会被高亮。",
+        "HistorySizeName": "减少显示的聊天消息",
+        "HistorySizeHint": "减少显示的聊天信息数量。旧信息将在您向上滚动聊天记录时再加载。当聊天记录较长时，这有助于提高 Foundry 的性能。",
+        "HistoryFixEnabledName": "聊天消息最大值",
+        "HistoryFixEnabledHint": "在聊天记录底部显示的聊天信息的最大数量。"
     },
     "DF_CHAT_EDIT.Settings_IgnoreHtmlName": "聊天编辑：忽略含有 HTML 的消息",
     "DF_CHAT_EDIT.Settings_IgnoreHtmlHint": "禁止编辑包含 HTML 代码的聊天消息。",
