@@ -40,5 +40,11 @@
     "SMLTME.Moonlight_Adjust": "月光调整",
     "SMLTME.Moonlight_Adjust_Hint": "根据当前月相调整全局光照阈值。",
     "SMLTME.Moon_Darkness_Hint": "基于当前月相自适应最大黑暗等级。",
-    "SMLTME.Moon_Darkness": "月相影响黑暗水平"
+    "SMLTME.Moon_Darkness": "月相影响黑暗水平",
+    "SMLTME.Moon_Tint_Hint": "由 SmallTime 控制黑暗等级的场景将使用简单日历中配置的第一个可用月亮的颜色。",
+    "SMLTME.Toggle_Hotkey_Hint": "打开或关闭 SmallTime 窗口。",
+    "SMLTME.Phase_Impact_Hint": "缩放月相对当前黑暗等级的亮度影响（需要刷新）。",
+    "SMLTME.Moon_Tint": "以月色调整黑暗",
+    "SMLTME.Toggle_Hotkey": "可见性切换",
+    "SMLTME.Phase_Impact": "月相影响"
 }
