@@ -214,10 +214,10 @@
   "midi-qol.autoTargetOptions": {
     "none": "None",
     "always": "Always",
-    "alwaysIgnoreIncapcitated": "Always - Ignore Incapcitated/Dead",
+    "alwaysIgnoreIncapacitated": "Always - Ignore Incapacitated/Dead",
     "alwaysIgnoreDefeated": "Always - Ignore Dead",
     "wallsBlock": "Walls Block",
-    "wallsBlockIgnoreIncapcitated": "Walls Block - Ignore Incapcitated/Dead",
+    "wallsBlockIgnoreIncapacitated": "Walls Block - Ignore Incapacitated/Dead",
     "wallsBlockIgnoreDefeated": "Walls Block - Ignore Dead",
     "dftemplates": "Use DF Template Enhancements",
     "walledtemplates": "Use Walled Templates"
@@ -235,7 +235,7 @@
     "alwaysIgnoreIncpacitated": "Always - Ignore Icapacitated/Dead",
     "alwaysIgnoreDefeated": "Always - Ignore Dead",
     "wallsBlock": "Walls Block",
-    "wallsBlockIgnoreInacpacitated": "Walls Block - Ignore Incapcitated/Dead",
+    "wallsBlockIgnoreInacpacitated": "Walls Block - Ignore Incapacitated/Dead",
     "wallsBlockIgnoreDefeated": "Walls Block - Ignore Dead"
   },
   "midi-qol.autoRollDamageOptions": {
