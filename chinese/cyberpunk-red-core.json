@@ -644,5 +644,8 @@
     "CPR.global.cyberwareType.cyberLeg": "赛博腿",
     "CPR.global.cyberwareType.neuralware": "神经组件",
     "CPR.global.cyberwareType.fashionware": "时尚组件",
-    "CPR.global.cyberwareType.cyberAudioSuite": "赛博音频套件"
+    "CPR.global.cyberwareType.cyberAudioSuite": "赛博音频套件",
+    "CPR.characterSheet.leftPane.hardened.reasons.canAttack": "能以 {skillName } => 15 攻击",
+    "CPR.characterSheet.leftPane.hardened.reasons.autofireMartialArts": "{skillName} 技能为 6 或更高",
+    "CPR.characterSheet.leftPane.hardened.reasons.dexPlusMove": "{dex} 为 8 或更高且 {move} 为 8 或更高"
 }
