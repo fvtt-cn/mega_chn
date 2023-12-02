@@ -68,7 +68,7 @@
     "EncounterStats.template.highest_average_damage": "最高平均伤害",
     "EncounterStats.template.ac": "AC",
     "EncounterStats.template.damage_total": "合计",
-    "EncounterStats.template.isCritical": "致命伤",
+    "EncounterStats.template.isCritical": "重伤",
     "EncounterStats.actiontypes.heal": "治疗",
     "EncounterStats.actiontypes.msak": "近战法术攻击",
     "EncounterStats.actiontypes.rsak": "远程法术攻击",
