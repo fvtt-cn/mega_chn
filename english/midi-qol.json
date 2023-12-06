@@ -748,8 +748,6 @@
   "midi-qol.MeasuredTemplate": "Template",
   "midi-qol.AutoRemoveTemplate.Name": "Auto remove placed template on spell expiry",
   "midi-qol.AttackPerTarget.Name": "Roll a separate attck per target",
-  "midi-qol.itemUseHooks.Name": "Utilise Item Hooks",
-  "midi-qol.itemUseHooks.Hint": "Do NOT set this - used for author's testing",
   "midi-qol.SkillAbilityCheckAdvantage.Name": "Ability Check Advantage gives Skill Advantage",
   "midi-qol.SkillAbilityCheckAdvantage.Hint": "If an actor has advantage/disadvantage on ability checks, skills based on that ability also have advantage/disadvantage",
   "midi-qol.ignoreTotalCover": "No Full cover",
@@ -823,5 +821,12 @@
   "midi-qol.TargetConfirmationCoveredTarget": "Confirm targets if any target has cover",
   "midi-qol.TargetConfirmationMixedDisposition": "Confirm targets if targeting allies and hostiles",
   "midi-qol.TargetConfirmationAllies": "Confirm targets if any target is an ally",
-  "midi-qol.OutOfRange": "Out of Range"
+  "midi-qol.OutOfRange": "Out of Range",
+  "midi-qol.SaveDROrder.Name": "Damage Reduction Save Order",
+  "midi-qol.SaveDROrder.Hint": "Order in which damage reduction is applied. If 'none' damage reduction is applied",
+  "midi-qol.SaveDROrderOptions": {
+    "DRSavedr": "Damage Reduction -> Saves -> damage resistance (dr/dv/di)",
+    "SaveDRdr": "Saves -> Damage Reduction -> damage resistance (dr/dv/di)"
+  },
+  "midi-qol.WaitingForPreviousWorkflow": "Previous roll of {name} has not completed."
 }
