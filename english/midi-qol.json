@@ -445,7 +445,7 @@
   "midi-qol.Mechanics": "Mechanics",
   "midi-qol.OptionalRules.Name": "Optional Game Rules",
   "midi-qol.OptionalRules.Hint": "DND5E Game rules that you may wish to enable. Generally don't work with better rolls.",
-  "midi-qol.InvisAdvantage.Name": "Hidden/Invisible attackers have advantage/disadvantage on attacks",
+  "midi-qol.InvisAdvantage.Name": "Unseen/Invisible attackers have advantage/disadvantage on attacks",
   "midi-qol.InvisAdvantage.Hint": "(Rules as written) Invisible attackers have advantage on attacks. Disadvantage if the target is invisible",
   "midi-qol.InvisAdvantageOptions": {
     "none": "Do not apply",
@@ -454,6 +454,13 @@
   },
   "midi-qol.InvisVision.Name": "Force vision when checking",
   "midi-qol.InvisVision.Hint": "Checked behave as if all tokens have vision enabled. Unchecked: tokens without vision can see everything",
+  "midi-qol.HiddenAdvantage.Name": "Hidden attackers have advantage/disadvantage on attacks",
+  "midi-qol.HiddenAdvantage.Hint": "Hidden attackers have advantage on attacks. Disadvantage if the target is hidden",
+  "midi-qol.HiddenAdvantageOptions": {
+    "none": "Do not apply",
+    "effect": "Check 'Hidden' Status",
+    "perceptive": "Perceptive"
+  },
   "midi-qol.CantSeeAdvantage.Hint": "(Use Token Vision) Invisible attackers have advantage on targets who can't see them. Disadvantage if they can't see the target",
   "midi-qol.CheckRange.Name": "Check weapon range when attacking",
   "midi-qol.CheckRangeOptions": {
