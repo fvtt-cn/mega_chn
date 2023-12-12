@@ -416,7 +416,7 @@
   "midi-qol.TempHPDamageConcentrationCheck.Name": "Temporary HP Concentration Check",
   "midi-qol.TempHPDamageConcentrationCheck.Hint": "If enabled loss of temporary HP will trigger a concentration check",
   "midi-qol.RemoveConcentrationEffects.Name": "Remove concentration when effects removed",
-  "midi-qol.RemoveConcentrationEffects.Hint": "Check when effects (effects & templates) are removed. If all effects and templates for the concentration spell/feature have been removed remove concentrtion",
+  "midi-qol.RemoveConcentrationEffects.Hint": "Check when effects (effects & templates) are removed. If all effects and templates for the concentration spell/feature have been removed remove concentration",
   "midi-qol.RemoveConcentrationEffectsOptions": {
     "none": "Never",
     "effects": "Check Effects",
