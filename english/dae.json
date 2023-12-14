@@ -282,8 +282,9 @@
     "dae.ShowInline.Name": "Display results of inline rolls",
     "dae.ShowInline.Hint": "Effects with an inline roll will display the roll results if set",
     "dae.stackableOptions": {
-      "noneName": "Effects do not stack by name", 
-      "none": "Effects do not stack by origin", 
+      "noneName": "Effects do not stack by effect name and effect origin", 
+      "noneNameOnly": "Effects do not stack by effect name",
+      "none": "Effects do not stack by effect origin", 
       "multi": "Stacking effects apply the effect multiple times", 
       "count": "each stack increase stack count by 1"
     },
