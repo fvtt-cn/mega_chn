@@ -343,11 +343,11 @@
   "midi-qol.EnableWorkflow.Name": "Enable roll automation support",
   "midi-qol.EnableWorkflow.Hint": "If enabled automation of rolls can be configured in the Workflow Settings panel",
   "midi-qol.magicalProp": "Magical",
-  "midi-qol.confirmTargetsProp": "Conf Targets",
-  "midi-qol.noDamageSaveProp": "No Dam Save",
-  "midi-qol.fullDamageSaveProp": "Full Dam Save",
+  "midi-qol.confirmTargetsProp": "Confirm Targets",
+  "midi-qol.noDamageSaveProp": "No Damage Save",
+  "midi-qol.fullDamageSaveProp": "Full Damage Save",
   "midi-qol.defaultDamageType": "None",
-  "midi-qol.halfDamageSaveProp": "Half Dam Save",
+  "midi-qol.halfDamageSaveProp": "Half Damage Save",
   "midi-qol.rollOtherProp": "Also Roll Other",
   "midi-qol.otherCritProp": "Critical Other",
   "midi-qol.magicalDamageProp": "Magic Damage",
@@ -835,5 +835,18 @@
     "DRSavedr": "Damage Reduction -> Saves -> damage resistance (dr/dv/di)",
     "SaveDRdr": "Saves -> Damage Reduction -> damage resistance (dr/dv/di)"
   },
-  "midi-qol.WaitingForPreviousWorkflow": "Previous roll of {name} has not completed."
+  "midi-qol.WaitingForPreviousWorkflow": "Previous roll of {name} has not completed.",
+  "midi-qol.ConfirmTargetOptions": {
+    "default": "Settings",
+    "always": "Always",
+    "never": "Never"
+  },
+  "midi-qol.SaveDamageOptions": {
+    "default": "Midi-QOL Settings", 
+    "fulldam": "Full Damage", 
+    "halfdam": "Half Damage", 
+    "nodam": "No Damage"
+  },
+  "midi-qol.ConcentrationIncapacitatedConditionCheck.Name": "Remove concentration when incapacitating status applied",
+  "midi-qol.ConcentrationIncapacitatedConditionCheck.Hint": "Incapacitated, Dead,  Unconscious, Petrified, Paralysed and Stunned remove concentration"
 }
