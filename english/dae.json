@@ -256,8 +256,6 @@
     "dae.turnEndSource": "Turn End: Expires at the end of the source actor's next turn (in combat)",
     "dae.startEveryTurn": "Start of each turn: Run effect macros at the start of the characters turn",
     "dae.endEveryTurn": "End of each turn: Run effect macros at the end of the characters turn",
-    "dae.displayTraits.Name": "Include active effects in special traits display",
-    "dae.displayTraits.Hint": "Special traits display includes active effects changes. Entered values are assumed to be to the pre-active effect value",
     "dae.ConditionalVisibility": "Conditional Visibility",
     "dae.ConditionalVisibilityVision": "CV Vision",
     "dae.noDupDamageMacro.Name": "No Duplicate Damage macros",
