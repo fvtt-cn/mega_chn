@@ -888,5 +888,7 @@
   "midi-qol.AutoCompleteWorkflow.Hint": "Workflows will be marked as complete if rolled before completion, no extra rolls will be performed",
   "midi-qol.squareRadius": "Squared Radius",
   "midi-qol.AddFakeDice.Name": "Add fake dice to GM Dice So Nice rolls",
-  "midi-qol.MidiFieldsTab.Name": "Display Midi item fields in a separate tab"
+  "midi-qol.MidiFieldsTab.Name": "Display Midi item fields in a separate tab",
+  "midi-qol.UndoChatColor.Name": "Undo Chat Cards Color",
+  "midi-qol.UndoChatColor.Hint": "Delete means remove the chat card on undo. Otherwise the undone chats are recoloured"
 }
