@@ -55,6 +55,9 @@
     "RTUCards.settings.gmIcon.label": "GM icon",
     "RTUCards.settings.gmIcon.hint": "Displayed when GMs perform actions on decks",
 
+    "RTUCards.settings.shortcutsToggle.label": "Keyboard shortcut",
+    "RTUCards.settings.shortcutsToggle.hint": "For displaying/hiding all small GUI for hand and revealed cards",
+
     "RTUCards.settings.smallDisplay.label": "Smaller window",
     "RTUCards.settings.smallDisplay.hint": "The classic card stack sheet may take too much room if you use a laptop screen",
 
