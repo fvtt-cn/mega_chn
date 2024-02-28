@@ -169,7 +169,7 @@
     },
     "TIDY5E.Settings.ClassicControls": {
         "name": "列表视图时使用旧版物品控制栏。",
-        "hint": "总是显示物品右侧的控制栏，禁用右键菜单。仅对列表布局下的 PC 物品/法术列表有效。"
+        "hint": "总是显示物品右侧的控制栏，此项不会禁用右键菜单。仅对列表布局下的 PC 物品/法术列表有效。"
     },
     "TIDY5E.Settings.PlayerName": {
         "hint": "启用后，角色名称下会显示用于填写玩家名称的区域。",
@@ -177,7 +177,7 @@
     },
     "TIDY5E.Settings.JournalTab": {
         "name": "隐藏角色日志。",
-        "hint": "启用后会隐藏日志栏。"
+        "hint": "启用后会隐藏角色日志栏。"
     },
     "TIDY5E.Settings.ClassList": {
         "name": "隐藏角色职业列表。",
