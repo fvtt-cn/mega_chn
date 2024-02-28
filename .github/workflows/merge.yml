@@ -7,7 +7,7 @@ on:
 env:
   ZIP_FILENAME: "mega_chn"
   PACKAGE_CONTENT: "module.json cn.json welcome.js"
-  PACKAGE_ID: 1208
+  PACKAGE_ID: "zzzzz_mega_chn"
 
 jobs:
   build:
