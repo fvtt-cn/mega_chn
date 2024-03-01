@@ -66,8 +66,23 @@
             "HitDiceArmor": "选择穿戴护甲休息，恢复了更少的生命骰。",
             "ExhaustionDeath": "遗憾的是，{actorName} 的力竭状态达到了 {max_levels} 水平，最终死亡。",
             "ExhaustionArmor": "选择穿戴护甲，并不恢复力竭状态。",
-            "Exhaustion": "因此，他们遭受了 {exhaustion} 级的力竭等级。",
-            "FoodNoneNone": "没有吃任何东西。"
+            "Exhaustion": "因此，遭受了 {exhaustion} 级的力竭等级。",
+            "FoodNoneNone": "没有吃任何东西。",
+            "ConsumedBothDayWorth": "{actorName} 消耗了 {itemName}，提供了一整天的食物和水。",
+            "SatedFood": "不需要更多食物。",
+            "ConsumedBoth": "{actorName} 消耗了 {itemName}，提供了 {charges} 单位的食物和水。",
+            "ConsumedFoodDayWorth": "{actorName} 吃了 {itemName}，提供了一整天的食物。",
+            "FoodHalfNone": "吃了自己的食物，但只吃了一半的量。",
+            "FoodNoneHalf": "吃了外部来源的食物，但只吃了一半的量。",
+            "RequiredSatedFood": "他们需要 {units} 单位的食物才能满足一天的需求。",
+            "RequiredSatedWater": "他们需要 {units} 单位的水才能满足一天的需求。",
+            "ConsumedWater": "{actorName} 喝了 {itemName}，提供了 {charges} 单位的水。",
+            "FoodHalfHalf": "既吃了外部来源的食物，又吃了自己的食物，感觉满足了。",
+            "FoodFullNone": "吃了足够的自己的食物，感觉满足了。",
+            "ConsumedFood": "{actorName} 吃了 {itemName}，提供了 {charges} 单位的食物。",
+            "SatedWater": "不需要更多水。",
+            "FoodNoneFull": "吃了足够的外部来源的食物，感觉满足了。",
+            "ConsumedWaterDayWorth": "{actorName} 喝了 {itemName}，提供了一整天的水。"
         },
         "Dialogs": {
             "ResetSettings": {
@@ -103,7 +118,9 @@
                 "FinishRest": "完成长休",
                 "ForcedNewDayTitle": "新的一天",
                 "ArmorRecovery": "长休期间卸甲？",
-                "ArmorRecoveryHint": "由于你装备的是非轻型护甲，你将遭受惩罚。点击橙色的自定义规则文本，查看它对你的影响。"
+                "ArmorRecoveryHint": "由于你装备的是非轻型护甲，你将受到惩罚。点击橙色的自定义规则文本，查看对你的影响。",
+                "MaxHitDiceSpend": "在这次长休中，你最多只能消耗 <strong>{max_spend}</strong> 个生命骰（还剩<strong>{current}</strong> 个）。",
+                "MinHitDiceSpend": "你必须至少消耗 <strong>{min_spend}</strong> 个生命骰才能完成这次长休。"
             },
             "ModuleConfig": {
                 "Title": "休息恢复配置",
@@ -137,15 +154,15 @@
             },
             "Resources": {
                 "RecoveryFormula": "恢复公式",
-                "Short": "短",
+                "Short": "短休",
                 "Configure": "配置资源恢复",
-                "Title": "资源配置",
+                "Title": "配置资源恢复",
                 "Value": "值",
                 "Name": "名称",
-                "Long": "长"
+                "Long": "长休"
             },
             "PromptRest": {
-                "Title": "对玩家提示休息",
+                "Title": "提示玩家休息",
                 "ConfigureProfiles": "配置文件",
                 "Long": "长休",
                 "Short": "短休",
@@ -184,7 +201,12 @@
                 "DayWorthTitleBoth": "这种类型的消耗品相当于一整天的食物和水。",
                 "DayWorthTitleWater": "这种类型的消耗品相当于一整天的水。",
                 "DayWorthTitleCont": "在第二天之前，你不需要再食用任何此类消耗品。此类消耗品不能吃一半。",
-                "Title": "选择你想消耗多少该物品："
+                "Title": "选择你想消耗多少该物品：",
+                "HalfUnit": "消耗一半",
+                "FullUnit": "全部消耗",
+                "NotSatedFood": "你需要吃 {units} 单位的食物才能吃饱。",
+                "SatedWater": "你已经喝饱了，喝这个不会有任何好处。",
+                "NotSatedWater": "你需要喝 {units} 单位的水才能喝饱。"
             },
             "ResetDefaultChanges": {
                 "Title": "重置默认设置",
@@ -198,15 +220,35 @@
                 "Prev": "上一步",
                 "Next": "下一步",
                 "SpellRecovery": {
-                    "Title": "魔法恢复",
+                    "Title": "法术恢复",
                     "NoFeatureUse": "你的 {featureName} 没有使用次数了，所以你不能在此次短休中恢复任何法术位。",
-                    "FullSpells": "你法术位已满，不需要恢复任何法术位。"
+                    "FullSpells": "你法术位已满，不需要恢复任何法术位。",
+                    "SpellSlotFeature": "使用 {featureName} 恢复法术位",
+                    "SpellSlotRule": "恢复法术位",
+                    "SpellSlotsLeft": "你还有 {spellSlotsLeft} 环的法术位需要恢复。"
                 },
                 "Rest": {
                     "Title": "休息"
                 },
                 "FoodWater": {
-                    "Title": "食物 & 饮水"
+                    "Title": "食物 & 饮水",
+                    "FoodExhaustion": "因为你挨饿了，如果你在没有吃足够的食物的情况下完成这一天，你将自动遭受 <strong>1 级力竭</strong>。",
+                    "DayWorth": "一次使用的物品价值一整天的 {type}",
+                    "ExternalWater": "有外部水源",
+                    "ExternalFoodHalf": "吃一半的量",
+                    "HalfWater": "如果你在这一天没有喝足够的水，你必须进行一次 DC {dc} 的体质豁免检定，否则会遭受 <strong>{exhaustion} 级力竭</strong>。",
+                    "FoodSated": "你已经吃得足够了。",
+                    "NoWater": "如果你在这一天喝的水量少于一半，你将自动遭受 <strong>{exhaustion} 级力竭</strong>。",
+                    "FoodRequirement": "你还需要再吃 <strong>{food}</strong> 单位的食物。",
+                    "DragDrop": "拖放物品来消耗，或选择：",
+                    "ExternalFoodFull": "吃饱为止",
+                    "ExternalFood": "有外部食物来源",
+                    "WaterSated": "你已经喝得足够了。",
+                    "ExternalWaterHalf": "喝一半的量",
+                    "WaterRequirement": "你还需要再喝 <strong>{water}</strong> 单位的水。",
+                    "FoodAlmostExhaustion": "如果你在不吃完全量的食物的情况下完成这一天，你将在 <strong>{days} 天</strong>后自动遭受 <strong>1 级力竭</strong>。",
+                    "AmountToConsume": "需要消耗的量",
+                    "ExternalWaterFull": "喝饱为止"
                 }
             },
             "CharacterOwnersOffline": {
@@ -218,7 +260,8 @@
                 "Content": "你还没有花费任何生命骰来恢复生命值，确定要结束长休吗？"
             },
             "RestSpendHitDice": {
-                "Title": "花费生命骰？"
+                "Title": "花费生命骰？",
+                "Content": "你需要至少消耗 {num_dice} 个生命骰来完成此次休息。确定要这样做吗？"
             },
             "QuickSetup": {
                 "Title": "休息恢复：快速设置",
@@ -227,6 +270,10 @@
                 "RecoverHitDiceLabel": "改变缓慢的自然愈合，使角色在开始长休时恢复生命骰，而非休息结束时。",
                 "SlowNaturalHealingTitle": "缓慢自然愈合",
                 "OpenSettings": "打开设置"
+            },
+            "RestNoHitDice": {
+                "Content": "你需要至少消耗 {num_dice} 个生命骰来完成此次休息，但你没有剩余的生命骰。",
+                "Title": "没有剩余的生命骰"
             }
         },
         "Settings": {
@@ -397,6 +444,40 @@
                     "Title": "黑血愈合名称",
                     "Hint": "此处你可以配置在你的游戏中的黑血愈合的特性称呼。此项可为本地化的文本。"
                 }
+            },
+            "ShowPlayerListRestButton": {
+                "Title": "显示提示休息按钮",
+                "Hint": "配置是否在左下玩家列表中的下方显示提示休息的按钮（需要刷新）"
+            },
+            "QuickSetup": {
+                "Hint": "更简单的 UI，用于快速设置休息的常用设置。",
+                "Label": "打开快速设置",
+                "Title": "快速设置"
+            },
+            "General": {
+                "EnableSimpleCalendarIntegration": {
+                    "Title": "启用简单日历整合",
+                    "Hint": "启用此功能后，玩家的提示休息 UI 和长/短休息 UI 中的“新一天”按钮会根据日历的当前时间自动显示。"
+                },
+                "EnableAutoRollButton": {
+                    "Hint": "这在长休和短休 UI 中添加了一个按钮，以便玩家可以自动掷生命骰，直到 HP 几乎满为止。",
+                    "Title": "启用生命骰自动掷骰按钮"
+                },
+                "PreventUserRest": {
+                    "Hint": "这会阻止用户自行开始休息，并且必须由 GM 提示休息。",
+                    "Title": "防止用户休息"
+                },
+                "EnablePromptRestTimePassing": {
+                    "Title": "启用提示休息后自动计时功能",
+                    "Hint": "这使得玩家可以在 GM 提示休息后，时间随之流逝。这可能会导致角色上基于时间的激活效果过期。"
+                }
+            },
+            "RequiresModule": "需要 {module_name}",
+            "FoodAndWater": {
+                "EnableFoodAndWater": {
+                    "Hint": "这使得与食物和饮水自动化相关的子功能成为可能，如下所示。",
+                    "Title": "启用食物和饮水自动化"
+                }
             }
         },
         "PatchedRecovery": "{actorName} 的 {recoveryName} 已被修补。",
@@ -422,6 +503,26 @@
             "HitDieBonus": {
                 "Hint": "每当该角色掷出一个生命骰时，都会为该骰子加上一个加值。这可以是一个公式，如 \"1d6 + 3\"。",
                 "Title": "生命骰加值"
+            },
+            "LongRestSpellPointsBonus": {
+                "Title": "长休时法术点恢复奖励",
+                "Hint": "这是在长休期间法术位恢复中将会添加的加值。"
+            },
+            "LongRestSpellPointsFormula": {
+                "Title": "长休时法术点恢复公式",
+                "Hint": "这个特性允许你为这个特定角色覆盖法术位恢复公式。"
+            },
+            "NoFoodWater": {
+                "Hint": "如果启用，该角色不需要任何食物或水，类似于邪术师的不朽天性的特性。",
+                "Title": "禁用食物和水需求"
+            },
+            "FoodUnitsPerDay": {
+                "Title": "每天所需食物单位",
+                "Hint": "这会覆盖该角色每天所需食物的单位数。"
+            },
+            "WaterUnitsPerDay": {
+                "Title": "每天所需水单位",
+                "Hint": "这会覆盖该角色每天所需水的单位数。"
             }
         }
     }
