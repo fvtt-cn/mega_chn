@@ -10,7 +10,6 @@
 - [x] 模组管理器： 搜索 `Translation: 中文 [Mega]` 并**完成更新**
 
 ## 加入我们
-- QQ 频道： https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=3cheK&appChannel=share&businessType=9&from=246610&biz=ka
 - Discord 服务器： https://discord.gg/7UrkEg634m
 
 ### 如何参与到翻译中
