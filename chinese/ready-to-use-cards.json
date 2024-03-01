@@ -434,5 +434,7 @@
     "RTUCards.action.moveCard.discardOne.notifyOnGMAction": "[GM 行动] 详细消息",
     "RTUCards.action.moveCard.discardOne.notifyOnPlayerAction": "[玩家行动] 详细消息",
     "RTUCards.settings.config-actions.additionalData.revealedFaceDown": "选中后，明牌将会盖覆放置",
-    "RTUCards.action.moveCard.backDeck.notifyOnGMAction": "[GM 动作] 详细消息"
+    "RTUCards.action.moveCard.backDeck.notifyOnGMAction": "[GM 动作] 详细消息",
+    "RTUCards.settings.shortcutsToggle.hint": "用于显示/隐藏手牌和亮牌所有小型 GUI",
+    "RTUCards.settings.shortcutsToggle.label": "键盘快捷键"
 }
