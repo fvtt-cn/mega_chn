@@ -105,7 +105,9 @@
     "TIDY5E.Settings.VehicleLabel": "载具",
     "TIDY5E.Settings.SheetMenu": {
         "label": "角色卡设置",
-        "title": "Tidy5e 角色卡设置"
+        "title": "Tidy5e 角色卡设置",
+        "hint": "自定义你自己的 Tidy 版本",
+        "name": "Tidy 卡设置"
     },
     "TIDY5E.Settings.TabPlayers": {
         "tabLabel": "玩家",
@@ -357,5 +359,17 @@
     "TIDY5E.Settings.TabLocks": {
         "tabLabel": "锁定",
         "header": "锁定设置"
+    },
+    "TIDY5E.OriginSummaryConfig": "起源总结配置",
+    "TIDY5E.Settings.ColorPickerLabel": "自定义颜色（建议安装 “Color Settings” 模块）",
+    "TIDY5E.LevelBumpTooltip": "当你施展法术时，你可以免费施展更高一级的法术。",
+    "TIDY5E.Tidy5eSheet": "Tidy 5e 角色卡",
+    "TIDY5E.Tidy5eNPC": "Tidy 5e NPC 卡",
+    "TIDY5E.Tidy5eItemSheet": "Tidy 5e 物品卡",
+    "TIDY5E.Tidy5eVehicle": "Tidy 5e 载具卡",
+    "TIDY5E.LevelBump": "环阶提升",
+    "TIDY5E.Settings.TabHomebrewRules": {
+        "tabLabel": "私设规则",
+        "header": "私设规则"
     }
 }
