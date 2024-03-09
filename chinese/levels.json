@@ -180,7 +180,7 @@
         "err": {
             "wallheight": "警告!层级要求墙高版本为4.1.0或更高才能正常工作。",
             "elevatedvision": "层级:警告!检测到在模组 Elevated Vision 中启用了“默认自动指示物提升”选项-此设置已知会破坏层级的常规功能并已被禁用!",
-            "tokenOOB": "层级：指示物 %n 高度超过当前选定层级的上限。请手动设置指示物高度或使您的层级更高。了解更多请看：<a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>这里</a>.",
+            "tokenOOB": "层级：指示物 %n 高度超过当前选定层级的上限。请手动设置指示物高度或使你的层级更高。了解更多请看：<a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>这里</a>.",
             "elevatedvisioncompat": "层级:警告!检测到的模组 “Elevated Vision” - 该模组已知会破坏层级的正常功能，不应与层级结合使用。"
         },
         "drawingconfig": {
