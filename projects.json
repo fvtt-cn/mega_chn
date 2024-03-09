@@ -64,10 +64,6 @@
         "src": "https://github.com/mclemente/fvtt-module-polyglot/raw/master/src/lang/en.json"
     },
     {
-        "name": "encounter-stats",
-        "src": "https://github.com/johnnolan/encounter-stats/raw/main/languages/en.json"
-    },
-    {
         "name": "minimal-ui",
         "src": "https://github.com/saif-ellafi/foundryvtt-minimal-ui/raw/main/lang/en.json"
     },
@@ -100,10 +96,6 @@
         "src": "https://github.com/lipefl/swade-tools/raw/main/lang/en.json"
     },
     {
-        "name": "ready-to-use-cards",
-        "src": "https://gitlab.com/adrien.schiehle/ready-to-use-cards/-/raw/master/lang/en.json"
-    },
-    {
         "name": "babele",
         "src": "https://gitlab.com/riccisi/foundryvtt-babele/-/raw/master/module/lang/en.json"
     },
@@ -118,14 +110,6 @@
     {
         "name": "wfrp4e",
         "src": "https://github.com/moo-man/WFRP4e-FoundryVTT/raw/master/static/lang/en.json"
-    },
-    {
-        "name": "cyberpunk-red-core",
-        "src": "https://gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-core/-/raw/master/src/lang/en.json"
-    },
-    {
-        "name": "ironsworn",
-        "src": "https://github.com/ben/foundry-ironsworn/raw/main/system/lang/en.json"
     },
     {
         "name": "gurps",
