@@ -1,12 +1,12 @@
 {
     "npc-generator-gpt.settings": {
         "itemsComp": {
-            "hint": "将用于填充角色表的物品手册。",
-            "name": "物品手册"
+            "hint": "将用于填充角色表的物品合计。",
+            "name": "物品合集"
         },
         "spellsComp": {
-            "name": "法术手册",
-            "hint": "将用于填充角色表的法术手册。"
+            "name": "法术合集",
+            "hint": "将用于填充角色表的法术合集。"
         },
         "hideAlignment": {
             "name": "隐藏阵营",
@@ -27,15 +27,15 @@
         "systemSource": "系统",
         "apiKey": {
             "name": "API 密钥",
-            "hint": "你的私人 OpenAI API 密钥。[https://platform.openai.com/account/api-keys]"
+            "hint": "你的私有 OpenAI API 密钥。[https://platform.openai.com/account/api-keys]"
         },
         "temperature": {
             "hint": "此参数影响模型回应的“创造性”。较高的值（接近 1）使回应更随机，而较低的值（接近 0）使它们更确定且集中。较高的值可能导致回应的多样性增加，但也可能产生不可预测的输出。",
             "name": "温度"
         },
         "top_p": {
-            "name": "顶部 P",
-            "hint": "也被称为“核心采样”，此参数限制了模型可能选择的基于概率的词汇或令牌的池。例如，对于 top_p=0.9，模型将从预测的“顶部”90%的词汇或令牌中选择，排除了较不可能的选项。这可以帮助在输出中平衡多样性和连贯性。"
+            "name": "Top P 值",
+            "hint": "也被称为“核心采样”，此参数限制了模型可能选择的基于概率的词汇或词元的池。例如，对于 top_p=0.9，模型将从预测的“顶部”90%的词汇或词元中选择，排除了较不可能的选项。这可以帮助在输出中平衡多样性和连贯性。"
         },
         "freq_penality": {
             "hint": "这个参数可以用来阻止过于频繁或过于常见的答案出现。正值会惩罚使用频繁词汇，可能导致更原创的答案，而负值则鼓励使用频繁词汇。",
@@ -47,7 +47,7 @@
         "commoner": {
             "alchemist": "炼金术士",
             "blacksmith": "铁匠",
-            "healer": "治疗者",
+            "healer": "医师",
             "baker": "面包师",
             "cobbler": "鞋匠",
             "carpenter": "木匠",
@@ -72,18 +72,18 @@
         },
         "race": {
             "human": "人类",
-            "gnome-forest": "森林侏儒",
+            "gnome-forest": "林侏儒",
             "dwarf-hill": "丘陵矮人",
             "elf-common": "精灵",
             "dwarf-common": "矮人",
-            "halfling-stout": "健壮的半身人",
+            "halfling-stout": "强健半身人",
             "label": "种族",
             "halfling-common": "半身人",
-            "drow": "黑暗精灵",
+            "drow": "卓尔精灵",
             "halforc": "半兽人",
             "halfelf": "半精灵",
-            "gnome-rock": "岩石侏儒",
-            "halfling-lightfoot": "轻足哈比人",
+            "gnome-rock": "岩侏儒",
+            "halfling-lightfoot": "轻足半身人",
             "gnome-common": "侏儒",
             "dwarf-mountain": "山地矮人",
             "elf-high": "高等精灵",
@@ -92,16 +92,16 @@
             "elf-wood": "木精灵"
         },
         "npc": {
-            "wizard": "巫师",
-            "sorcerer": "巫师",
+            "wizard": "法师",
+            "sorcerer": "术士",
             "cleric": "牧师",
             "bard": "吟游诗人",
             "druid": "德鲁伊",
             "fighter": "战士",
-            "warlock": "术士",
-            "rogue": "盗贼",
+            "warlock": "邪术师",
+            "rogue": "游荡者",
             "barbarian": "野蛮人",
-            "monk": "僧侣",
+            "monk": "武僧",
             "paladin": "圣骑士",
             "ranger": "游侠"
         },
@@ -120,7 +120,7 @@
         },
         "type": {
             "commoner": "平民",
-            "npc": "非玩家角色",
+            "npc": "NPC",
             "monster": "怪物",
             "label": "类型"
         },
@@ -141,7 +141,7 @@
         "error2": "处理 ChatGPT 的回应时出错！请再试一次。",
         "wait": "请等待。一个请求正在处理中。",
         "enhance": "NPC '{npcName}' 增强完成！",
-        "error4": "你的 OpenAI 账户中没有任何信用。请访问 https://platform.openai.com/account/billing/overview",
+        "error4": "你的 OpenAI 账户中没有余额。请访问 https://platform.openai.com/account/billing/overview",
         "error3": "创建 NPC 出错！请再试一次。",
         "error": "请求被拒绝！请等待几秒钟后再试。 (查看控制台（F12）以获取更多详细信息)",
         "done": "NPC '{npcName}' 生成完成！"
@@ -156,7 +156,7 @@
         "title": "NGG - 偏好设置"
     },
     "npc-generator-gpt.sheet": {
-        "readaloud": "向玩家朗读",
+        "readaloud": "向玩家大声朗读",
         "equip": "装备",
         "unknown": "未知",
         "spells": "法术",
