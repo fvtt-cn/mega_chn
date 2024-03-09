@@ -566,7 +566,7 @@
         "displayOnly": "显示状态图标"
     },
     "midi-qol.EnforceBonusActions.Title": "附赠动作已使用",
-    "midi-qol.EnforceBonusActions.Content": "您本轮已使用了附赠动作。仍要继续吗？",
+    "midi-qol.EnforceBonusActions.Content": "你本轮已使用了附赠动作。仍要继续吗？",
     "midi-qol.NoOptionalRules.Name": "无可选规则",
     "midi-qol.NoOptionalRules.Hint": "本次掷骰禁用可选规则",
     "midi-qol.CriticalSoundName": "重击",
@@ -588,7 +588,7 @@
     "midi-qol.RecordAOO.Name": "记录借机攻击",
     "midi-qol.RecordAOO.Hint": "当一个角色在其回合外进行了一次攻击时——标记他们的反应已使用",
     "midi-qol.EnforceReactions.Title": "已使用反应",
-    "midi-qol.EnforceReactions.Content": "您本轮已使用了反应。仍要继续吗？",
+    "midi-qol.EnforceReactions.Content": "你本轮已使用了反应。仍要继续吗？",
     "midi-qol.ActiveConcentrationSpell.ContentGeneric": "<p>你正处于专注中。要结束专注并继续吗？</p>",
     "midi-qol.ActiveConcentrationSpell.ContentNamed": "<p>你正专注于<em>@NAME@</em>。要结束专注并继续吗？</p>",
     "midi-qol.MidiProperties": "Midi-qol 物品属性",
