@@ -699,7 +699,7 @@
     "midi-qol.IgnoreSpellReactionRestriction.Name": "允许使用任何反应法术",
     "midi-qol.IgnoreSpellReactionRestriction.Hint": "选择反应法术时不需要可用的法术位或准备",
     "midi-qol.DamageResistanceMultiplier.Name": "抗性伤害倍数 ",
-    "midi-qol.CriticalNat20.Hint": "超过重击阈值的掷骰即使不符合余量要求，也仍视为重击。",
+    "midi-qol.CriticalNat20.Hint": "超过重击阈值的掷骰即使不符合余量要求，也仍视为重击",
     "midi-qol.DamageImmunityMultiplier.Name": "免疫伤害倍数 ",
     "midi-qol.InitPromptTitle": "先攻掷骰",
     "midi-qol.ignoreTotalCover": "无全身掩蔽",
