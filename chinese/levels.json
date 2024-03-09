@@ -19,7 +19,7 @@
     "levels.settings.enableTooltips.name": "启用工具提示",
     "levels.settings.enableTooltips.hint": "鼠标悬停在层级对象上时，上下显示工具提示",
     "levels.settings.tokenElevScale.name": "指示物高度",
-    "levels.settings.tokenElevScale.hint": "根据受控指示物的高度来改变棋子大小",
+    "levels.settings.tokenElevScale.hint": "根据受控指示物的高度来改变指示物大小",
     "levels.settings.fogHiding.name": "进阶战争迷雾",
     "levels.settings.fogHiding.hint": "在已探索的战争迷雾中隐藏未探索过的层级",
     "levels.settings.lockElevation.name": "锁定高度",
@@ -76,7 +76,7 @@
     "levels.settings.forceUiRefresh.name": "强制 UI 刷新",
     "levels.template.special.name": "特殊",
     "levels.settings.forceUiRefresh.hint": "在性能损耗情况下强制对层级 UI 进行更频繁的刷新，启用后可能会在特定系统中产生一些问题（例如 PF2e）",
-    "levels.settings.hideElevation.hint": "对棋子隐藏高度",
+    "levels.settings.hideElevation.hint": "对指示物隐藏高度",
     "levels.settings.hideElevation.opt0": "不隐藏",
     "levels.settings.hideElevation.opt1": "隐藏玩家",
     "levels.settings.hideElevation.opt2": "对所有人隐藏",
@@ -91,7 +91,7 @@
     "levels.err.collision": "层级：尝试的移动与至少一个天花板/地板发生碰撞",
     "levels.dialog.getFromScene.content": "从当前场景中获取层级吗？此操作将会覆盖你当前的层级",
     "levels.controls.suppressBrmode.name": "抑制Better Roofs模式应用",
-    "levels.err.tokenheight": "层级：警告！侦测到模组Wall Height‘的设置棋子高度’功能已启用！——此设置与层级不兼容，已经被禁用！",
+    "levels.err.tokenheight": "层级：警告！侦测到模组 Wall Height 的“设置指示物高度”功能已启用！——此设置与层级不兼容，已经被禁用！",
     "levels": {
         "ui": {
             "clearLevels": "清除层级",
@@ -137,12 +137,12 @@
                 "name": "允许视觉"
             },
             "isBasement": {
-                "hint": "如果启用，棋子只有在平行距离才会显示，不处于这个高度的棋子不会显示图块。",
+                "hint": "如果启用，指示物只有在平行距离才会显示，不处于这个高度的指示物不会显示图块。",
                 "name": "严格距离"
             },
             "showAboveRange": {
                 "name": "最大高度差",
-                "hint": "什么时候在下方显示？在启用时，这是棋子和图块的最大高度差，如果超出这个范围，图块将不可见。"
+                "hint": "什么时候在下方显示？在启用时，这是指示物和图块的最大高度差，如果超出这个范围，图块将不可见。"
             },
             "rangeTop": {
                 "name": "高度（顶部）"
@@ -150,7 +150,7 @@
             "range": {
                 "unit": "海拔高度"
             },
-            "occlusionNone": "遮挡模式设置为“无”，这个贴图将不会遮挡视线。如果你想要让这个棋子会遮挡视野，请将遮挡模式设置为“渐变”。",
+            "occlusionNone": "遮挡模式设置为“无”，这个贴图将不会遮挡视线。如果你想要让这个指示物会遮挡视野，请将遮挡模式设置为“渐变”。",
             "allWallBlockSight": {
                 "hint": "选中后，当墙体不能通过视野时，其下方所有图块也会阻挡视线。",
                 "name": "所有墙都遮挡视线"
@@ -173,15 +173,15 @@
         },
         "settings": {
             "exactTokenVisibility": {
-                "hint": "启用此选项必须让棋子处于可见。此选项会周期对棋子进行检查以适应3D Canvas",
-                "name": "精准棋子视觉"
+                "hint": "启用此选项必须让指示物处于可见。此选项会周期对指示物进行检查以适应3D Canvas",
+                "name": "精准指示物视觉"
             }
         },
         "err": {
             "wallheight": "警告!层级要求墙高版本为4.1.0或更高才能正常工作。",
-            "elevatedvision": "层级:警告!检测到在模块“提升视觉”中启用了“默认自动棋子提升”选项-此设置已知会破坏层级的常规功能并已被禁用!",
-            "tokenOOB": "层级：棋子 %n 高度超过当前选定层级的上限。请手动设置棋子高度或使您的层级更高。了解更多请看：<a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>这里</a>.",
-            "elevatedvisioncompat": "层级:警告!检测到的模组“提升视觉”-该模组已知会破坏层级的正常功能，不应与层级结合使用。"
+            "elevatedvision": "层级:警告!检测到在模组 Elevated Vision 中启用了“默认自动指示物提升”选项-此设置已知会破坏层级的常规功能并已被禁用!",
+            "tokenOOB": "层级：指示物 %n 高度超过当前选定层级的上限。请手动设置指示物高度或使您的层级更高。了解更多请看：<a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>这里</a>.",
+            "elevatedvisioncompat": "层级:警告!检测到的模组 “Elevated Vision” - 该模组已知会破坏层级的正常功能，不应与层级结合使用。"
         },
         "drawingconfig": {
             "isHole": {
@@ -191,7 +191,7 @@
         },
         "conflicts": {
             "midiqol": {
-                "tokenvis": "在MidiQOL中启用“玩家控制拥有的隐藏令牌”选项会导致令牌可见性问题。请在模组设置中禁用此选项。"
+                "tokenvis": "在 MidiQoL 中启用“玩家控制拥有的隐藏指示物”选项会导致指示物可见性问题。请在模组设置中禁用此选项。"
             }
         },
         "template": {
