@@ -1,1 +1,180 @@
-{}
+{
+    "npc-generator-gpt.settings": {
+        "itemsComp": {
+            "hint": "将用于填充角色表的物品手册。",
+            "name": "物品手册"
+        },
+        "spellsComp": {
+            "name": "法术手册",
+            "hint": "将用于填充角色表的法术手册。"
+        },
+        "hideAlignment": {
+            "name": "隐藏阵营",
+            "hint": "如果你希望对玩家隐藏阵营，可以将阵营替换为“未知”。阵营仍会被导入到“传记”中的秘密部分。"
+        },
+        "pres_penality": {
+            "name": "存在惩罚",
+            "hint": "此参数影响模型倾向于在答案中包含或排除特定词语或概念的倾向。正值鼓励包含特定概念，而负值则阻止它们。"
+        },
+        "movementUnits": {
+            "hint": "启用后，生成的角色的移动测量将使用公制系统，而不是英制系统。",
+            "name": "使用公制系统"
+        },
+        "fuzzyThreshold": {
+            "name": "物品和法术搜索阈值",
+            "hint": "匹配算法在何时放弃。阈值为 0.0 需要完美匹配（字母和位置都要匹配），阈值为 1.0 将匹配任何内容。"
+        },
+        "systemSource": "系统",
+        "apiKey": {
+            "name": "API 密钥",
+            "hint": "你的私人 OpenAI API 密钥。[https://platform.openai.com/account/api-keys]"
+        },
+        "temperature": {
+            "hint": "此参数影响模型回应的“创造性”。较高的值（接近 1）使回应更随机，而较低的值（接近 0）使它们更确定且集中。较高的值可能导致回应的多样性增加，但也可能产生不可预测的输出。",
+            "name": "温度"
+        },
+        "top_p": {
+            "name": "顶部 P",
+            "hint": "也被称为“核心采样”，此参数限制了模型可能选择的基于概率的词汇或令牌的池。例如，对于 top_p=0.9，模型将从预测的“顶部”90%的词汇或令牌中选择，排除了较不可能的选项。这可以帮助在输出中平衡多样性和连贯性。"
+        },
+        "freq_penality": {
+            "hint": "这个参数可以用来阻止过于频繁或过于常见的答案出现。正值会惩罚使用频繁词汇，可能导致更原创的答案，而负值则鼓励使用频繁词汇。",
+            "name": "频率惩罚"
+        }
+    },
+    "npc-generator-gpt.dialog": {
+        "ph-name": "可选的",
+        "commoner": {
+            "alchemist": "炼金术士",
+            "blacksmith": "铁匠",
+            "healer": "治疗者",
+            "baker": "面包师",
+            "cobbler": "鞋匠",
+            "carpenter": "木匠",
+            "farmer": "农夫",
+            "merchant": "商人",
+            "scribe": "抄写员",
+            "miner": "矿工",
+            "messenger": "信使",
+            "innkeeper": "旅店老板",
+            "guard": "卫兵",
+            "hermit": "隐士",
+            "hunter": "猎人",
+            "fisherman": "渔夫",
+            "tailor": "裁缝",
+            "barkeep": "酒保",
+            "butcher": "屠夫"
+        },
+        "subtype": {
+            "label": "工作",
+            "class": "职业",
+            "subrace": "亚种"
+        },
+        "race": {
+            "human": "人类",
+            "gnome-forest": "森林侏儒",
+            "dwarf-hill": "丘陵矮人",
+            "elf-common": "精灵",
+            "dwarf-common": "矮人",
+            "halfling-stout": "健壮的半身人",
+            "label": "种族",
+            "halfling-common": "半身人",
+            "drow": "黑暗精灵",
+            "halforc": "半兽人",
+            "halfelf": "半精灵",
+            "gnome-rock": "岩石侏儒",
+            "halfling-lightfoot": "轻足哈比人",
+            "gnome-common": "侏儒",
+            "dwarf-mountain": "山地矮人",
+            "elf-high": "高等精灵",
+            "tiefling": "提夫林",
+            "dragonborn": "龙裔",
+            "elf-wood": "木精灵"
+        },
+        "npc": {
+            "wizard": "巫师",
+            "sorcerer": "巫师",
+            "cleric": "牧师",
+            "bard": "吟游诗人",
+            "druid": "德鲁伊",
+            "fighter": "战士",
+            "warlock": "术士",
+            "rogue": "盗贼",
+            "barbarian": "野蛮人",
+            "monk": "僧侣",
+            "paladin": "圣骑士",
+            "ranger": "游侠"
+        },
+        "random": "随机",
+        "alignment": {
+            "lg": "守序善良",
+            "label": "阵营",
+            "ng": "中立善良",
+            "ce": "混乱邪恶",
+            "ln": "守序中立",
+            "ne": "中立邪恶",
+            "n": "中立",
+            "cn": "混乱中立",
+            "cg": "混乱善良",
+            "le": "守序邪恶"
+        },
+        "type": {
+            "commoner": "平民",
+            "npc": "非玩家角色",
+            "monster": "怪物",
+            "label": "类型"
+        },
+        "name": "名称",
+        "button": "创建非玩家角色",
+        "title": "NGG - 偏好设置",
+        "gender": {
+            "label": "性别",
+            "female": "女性",
+            "male": "男性"
+        },
+        "buttonPending": "正在连接...",
+        "cr": {
+            "label": "CR"
+        }
+    },
+    "npc-generator-gpt.status": {
+        "error2": "处理 ChatGPT 的回应时出错！请再试一次。",
+        "wait": "请等待。一个请求正在处理中。",
+        "enhance": "NPC '{npcName}' 增强完成！",
+        "error4": "你的 OpenAI 账户中没有任何信用。请访问 https://platform.openai.com/account/billing/overview",
+        "error3": "创建 NPC 出错！请再试一次。",
+        "error": "请求被拒绝！请等待几秒钟后再试。 (查看控制台（F12）以获取更多详细信息)",
+        "done": "NPC '{npcName}' 生成完成！"
+    },
+    "npc-generator-gpt.enhance": {
+        "button": "增强 NPC",
+        "buttonPending": "连接中...",
+        "radio": {
+            "enhance": "增强",
+            "background": "传记"
+        },
+        "title": "NGG - 偏好设置"
+    },
+    "npc-generator-gpt.sheet": {
+        "readaloud": "向玩家朗读",
+        "equip": "装备",
+        "unknown": "未知",
+        "spells": "法术",
+        "background": "背景",
+        "alignment": "阵营",
+        "appearance": "外貌",
+        "roleplaying": "角色扮演"
+    },
+    "npc-generator-gpt.query": {
+        "spells": "法术",
+        "readaloud": "GM 将向玩家阅读的生动描述",
+        "equip": "装备",
+        "name": "名称",
+        "appearance": "外貌",
+        "enhance": "编写 D&D 5e NPC {userQuery} 的传记。结构：",
+        "background": "简短传记",
+        "roleplaying": "角色扮演提示",
+        "generate": "为 D&D 5e 创建一个 NPC {userQuery}。结构："
+    },
+    "npc-generator-gpt.button": "生成 NPC"
+}
