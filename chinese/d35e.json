@@ -1774,7 +1774,7 @@
     "D35E.ls.buyTitle": "购买{item}",
     "D35E.ls.totalWeight": "总重量",
     "D35E.ls.giveTitleSplit": "拆分数量",
-    "D35E.ls.giveTitle": "将{item} 给 {actor}",
+    "D35E.ls.giveTitle": "将 {item} 给 {actor}",
     "D35E.ls.giveContent": "多少？",
     "D35E.ls.giveContentSingle": "你确定要将 <em>{item}</em> 给 <b>{actor}</b>吗?",
     "D35E.ls.lootTitle": "战利品{item}",
