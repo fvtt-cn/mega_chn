@@ -258,7 +258,8 @@
         "multi": "堆叠效果应用多次",
         "none": "效果不按来源堆叠",
         "count": "每次堆叠增加计数 1",
-        "noneName": "效果不按名称堆叠"
+        "noneName": "效果不按名称和来源堆叠",
+        "noneNameOnly": "效果不按名称堆叠"
     },
     "dae.1Spell": "1 次施法：在角色施放下个法术时结束",
     "dae.isMoved": "移动：在指示物移动时结束",
@@ -346,6 +347,23 @@
     "dae.transfer.Name": "物品装备时转移到角色上",
     "dae.transfer.Hint": "启用后，当装备该物品时，该效果将应用到该物品的所有者。如果希望在使用该物品时将效果应用到其目标上，请禁用",
     "dae.isInitiativeDetail": "先攻",
-    "dae.SelfTarget.Name": "物品掷骰时应用到自身",
-    "dae.SelfTarget.Hint": "效果应用于物品的使用者，而非其目标"
+    "dae.SelfTarget.Name": "当物品应用目标效果时，应用于自身",
+    "dae.SelfTarget.Hint": "如果物品对目标应用效果，则应用于物品的使用者，而非其指定的目标",
+    "dae.suppressed": "消除",
+    "dae.EffectSheetLabel": "DAE 激活效果卡",
+    "dae.DIMETitleBar.Name": "DIME 标题栏",
+    "dae.DIMETitleBar.Hint": "在标题栏中显示 DAE 物品宏编辑器",
+    "dae.DAEColorTitleBar.Name": "DAE 彩色标题栏",
+    "dae.DAEColorTitleBar.Hint": "如果文档中存在任何效果/物品宏，则将颜色应用到 DAE 效果编辑器按钮/DIME 按钮（需要勾选 DAE 标题栏）。",
+    "dae.ShowIcon.Hint": "在指示物和战斗显示上显示效果图标",
+    "dae.DontApply.Name": "不应用效果",
+    "dae.DontApply.Hint": "当 DAE（和 midi）应用激活效果时，跳过此项",
+    "dae.DIMESyncItemacro.Name": "同步 DIME 和物品宏",
+    "dae.DIMESyncItemacro.Hint": "选中意味着 DIME 宏和 物品宏将保持同步 - 你可以使用其中任何一个进行编辑。如果没有勾选，DIME 编辑器将优先生效。",
+    "dae.isHealed": "被治疗：如果角色被治疗就会过期",
+    "dae.SelfTargetAlways.Name": "物品掷骰时应用于自身",
+    "dae.SelfTargetAlways.Hint": "每当物品掷骰时，效果都会应用于物品的使用者，而不是目标",
+    "dae.ShowIcon.Name": "始终显示效果图标",
+    "dae.DIMEditor.Name": "DIME",
+    "dae.IncapacitatedDisabled": "如果角色陷入无力，效果将被禁用"
 }
