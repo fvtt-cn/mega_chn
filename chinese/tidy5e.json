@@ -91,7 +91,7 @@
     "TIDY5E.TogglePersonalityInfo": "切换个性信息",
     "TIDY5E.ToggleInfo": "切换信息",
     "TIDY5E.AbbrMod": "调整值",
-    "TIDY5E.AbbrSavingThrow": "Save",
+    "TIDY5E.AbbrSavingThrow": "豁免",
     "TIDY5E.SpellAttackMod": "攻击调整值",
     "TIDY5E.PreparedSpells": "已准备法术",
     "TIDY5E.PreparedSpellsMax": "最大准备法术数（注意：不要在激活效果上使用“覆盖”模式）",
@@ -127,7 +127,7 @@
     "TIDY5E.Settings.TabModules": {
         "tabLabel": "模组",
         "header": "模组选项",
-        "labelMidiQoL": "Midi Qol",
+        "labelMidiQoL": "Midi QoL",
         "labelActionsFavorites": "角色动作/最爱",
         "labelLazyMoney": "懒人金钱"
     },
@@ -288,12 +288,14 @@
         "tidy5e": "Tidy5e - 应用整合的效果（使用 FVTT 激活效果）",
         "name": "自动力竭效果。",
         "hint": "选择如何根据等级应用力竭效果（掷骰劣势需要安装 midiQol 模组）",
-        "custom": "自定义- 使用您选择的效果（需要 CUB 模组）"
+        "custom": "自定义- 使用您选择的效果（需要 CUB 模组）",
+        "dfredce": "DFreds Convenient Effects - 使用你自己的效果",
+        "cub": "CUB - 使用你自己的效果"
     },
     "TIDY5E.Settings.CustomExhaustionEffect": {
         "name": "自定义 CUB 力竭效果名称。",
-        "hint": "设置您自定义力竭效果的名称 ——必须跟 CUB 中定义的名称相同，但是不包含等级数字，如“ Exhaustion”。",
-        "tiers": "自定义 CUB 力竭等级的数字，默认为 5。",
+        "hint": "设置您自定义力竭效果的名称 ——必须跟 CUB 中定义的名称相同，但是不包含等级数字，如 “Exhaustion”",
+        "tiers": "自定义 CUB 力竭等级，默认为 5",
         "warning": "找不到需要应用力竭效果的角色指示物！"
     },
     "TIDY5E.Settings.ExhaustionDisabled": {
@@ -312,7 +314,14 @@
         "name": "首次打开角色卡时的默认栏。",
         "hint": "可以在“行动”和“基本属性”之间选择。",
         "default": "行动",
-        "attributes": "基本属性"
+        "attributes": "基本属性",
+        "journal": "日志",
+        "actions": "行动",
+        "inventory": "背包",
+        "spellbook": "法术栏",
+        "features": "特性",
+        "effects": "效果",
+        "biography": "传记"
     },
     "TIDY5E.Settings.HiddenDeathSaves": {
         "name": "对玩家隐藏死亡豁免。",
@@ -358,7 +367,12 @@
     "TIDY5E.Settings.MulticlassSpellbookFilterLabel": "兼职法术书筛选",
     "TIDY5E.Settings.TabLocks": {
         "tabLabel": "锁定",
-        "header": "锁定设置"
+        "header": "锁定设置",
+        "hint2": "请注意，这并不是一个安全的封锁，玩家可以绕过这些限制，因此如果玩家有恶意，这并不是一个充分的答案。这适用于玩家缺乏经验（对 D&D 和/或对使用电脑缺乏经验）的游戏，以防止他们犯错（如意外添加/删除豁免熟练度）。",
+        "hint": "防止玩家更改角色卡中不常更改的内容，并提供完全隐藏某些你根本不想使用的元素的选项。通过设置可以自定义锁定/隐藏的内容，并通过切换按钮确定谁有权编辑工作表。",
+        "labelFeaturesLocks": "特性锁定",
+        "labelGeneralLocks": "常规锁定",
+        "labelInventoryLocks": "背包锁定"
     },
     "TIDY5E.OriginSummaryConfig": "起源总结配置",
     "TIDY5E.Settings.ColorPickerLabel": "自定义颜色（建议安装 “Color Settings” 模块）",
@@ -370,6 +384,229 @@
     "TIDY5E.LevelBump": "环阶提升",
     "TIDY5E.Settings.TabHomebrewRules": {
         "tabLabel": "私设规则",
-        "header": "私设规则"
+        "header": "私设规则",
+        "labelHBUpcastFreeSpell": "免费向上施放法术"
+    },
+    "TIDY5E.Settings.HideSpellSlotMarker": {
+        "name": "在卡上隐藏法术位标记。",
+        "hint": "启用隐藏彩色法术位标记，这通常在使用法术值变体规则时非常有用。"
+    },
+    "TIDY5E.Settings.SpellClassFilterSelect": {
+        "name": "启用多重法术栏筛选",
+        "hint": "如果你的角色不需要这些，禁用此选项可以让你收回空间，整理你的角色卡。"
+    },
+    "TIDY5E.Settings.SpellClassFilterIconReplace": {
+        "name": "用类别图标覆盖法术图标",
+        "hint": "启用此选项后，法术书标签页将显示法术类别的图标，而不是法术的图像。这对管理多个列表非常有用，无需在列表间切换。"
+    },
+    "TIDY5E.Settings.LazyMoneyEnable": {
+        "name": "启用懒人金币",
+        "hint": "轻松添加或删除货币，自动转换，不会透支。它允许输入'+10', '-10', '=10', '010'等"
+    },
+    "TIDY5E.Settings.LockLevelSelector": {
+        "hint": "在特性选项卡下的角色卡上禁用level selector，或提供选项以锁定页面布局人员无法更改。使用这些字段的所有其他模组都工作正常。",
+        "name": "对非GM锁定level selector"
+    },
+    "TIDY5E.Settings.ColorPickerPactOutline": {
+        "name": "'PactOutline' 颜色选择",
+        "hint": "为 'PactOutline' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerAtWillAccent": {
+        "name": "'At Will Accent' 颜色选择",
+        "hint": "为 'At Will Accent' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerInnate": {
+        "name": "'Innate' 颜色选择",
+        "hint": "为 'Innate' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.Debug": {
+        "name": "启用调试",
+        "hint": "将调试信息打印到控制台"
+    },
+    "TIDY5E.Settings.EnableSortFavoritesItemsAlphabetically": {
+        "name": "启用按字母顺序排列收藏夹",
+        "hint": "启用此设置将在收藏夹 HTML 模板上按字母顺序对物品、功能、法术进行排序"
+    },
+    "TIDY5E.Settings.ColorPickerEquippedAccent": {
+        "name": "'Equipped Accent' 颜色选择",
+        "hint": "为 'Equipped Accent' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerEquipped": {
+        "hint": "为 'Equipped' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。",
+        "name": "'Equipped' 颜色选择"
+    },
+    "TIDY5E.Settings.ColorPickerEquippedOutline": {
+        "name": "'Equipped Outline' 颜色选择",
+        "hint": "为 'Equipped Outline' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerPreparedAccent": {
+        "name": "'Prepared Accent' 颜色选择",
+        "hint": "为 'Prepared Accent' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerPrepared": {
+        "name": "'Prepared' 颜色选择",
+        "hint": "为 'Prepared' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerPreparedOutline": {
+        "name": "'Prepared Outline' 颜色选择",
+        "hint": "为 'Prepared Outline' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerPactAccent": {
+        "hint": "为 'PactAccent' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。",
+        "name": "'PactAccent' 颜色选择"
+    },
+    "TIDY5E.Settings.ColorPickerInnateOutline": {
+        "name": "'Innate Outline' 颜色选择",
+        "hint": "为 'Innate Outline' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.AllowHpMaxOverride": {
+        "name": "允许在角色卡上覆盖最大HP",
+        "hint": "如果启用此模组设置，GM 可以手动更改角色卡上的最大HP。"
+    },
+    "TIDY5E.Settings.ColorPickerAlwaysPreparedOutline": {
+        "name": "'Always Prepared Outline' 颜色选择",
+        "hint": "为 'Always Prepared Outline' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerAlwaysPreparedAccent": {
+        "name": "'Always Prepared Accent' 颜色选择",
+        "hint": "为 'Always Prepared Accent' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.HideIconsNextToTheItemName": {
+        "name": "隐藏项目名称旁边的图标",
+        "hint": "如果启用此设置，则会隐藏对象名称旁边的支持图标（喜好、同调等），这通常在启用'列表视图时使用经典物品控制栏'设置时非常有用，可避免图标冗余..."
+    },
+    "TIDY5E.Settings.AllowHpConfigOverride": {
+        "name": "允许在角色卡上覆盖 hp 面板配置",
+        "hint": "通常情况下你并不需要这样做，但如果启用该模组设置，就会取代角色卡上的 hp 配置面板。这将覆盖系统的默认行为，对于避免系统的某些不需要的默认行为非常有用。"
+    },
+    "TIDY5E.Settings.Reset": {
+        "dialogs": {
+            "title": "重置模组设置",
+            "content": "你确定要将所有模组设置重置为当前系统的默认设置？<strong>这是无法挽回的！</strong>",
+            "confirm": "重置模组设置",
+            "cancel": "取消"
+        },
+        "name": "将设置重置为默认值",
+        "hint": "这将把所有设置重置为当前游戏系统的默认设置。"
+    },
+    "TIDY5E.Settings.HideSpellbookTabNpc": {
+        "name": "隐藏NPC的法术书栏",
+        "hint": "默认情况下，NPC 的法术书栏会移动到属性选项卡上。禁用此选项则永远不会这样做。"
+    },
+    "TIDY5E.Settings.LazyMoneyIgnoreElectrum": {
+        "hint": "转换时，忽略电子货币。这不会影响直接添加或删除，除非同时启用了 \"添加金币时转换\"。",
+        "name": "忽略电子货币"
+    },
+    "TIDY5E.Settings.ColorPickerAtWill": {
+        "name": "'At Will' 颜色选择",
+        "hint": "为 'At Will' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerInnateAccent": {
+        "name": "'Innate Accent' 颜色选择",
+        "hint": "为 'Innate Accent' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.BetterAttackDialog": {
+        "name": "启用更好的默认攻击按钮高亮显示",
+        "hint": "攻击按钮不能很清楚地显示建议的操作。这就需要根据高亮显示的按钮，为优势按钮添加绿色边框，为劣势按钮添加红色边框。"
+    },
+    "TIDY5E.Settings.HBEnableUpcastFreeSpell": {
+        "name": "启用免费向上施法。",
+        "hint": "在你施法时增加一个额外的按钮，用于将法术的环阶提高一级。这是一条自制规则。感谢 Discord 上的 @mxfz 提供宏代码，感谢 @thundershield 提供创意。https://discord.com/channels/170995199584108546/699750150674972743/1055686421198946465"
+    },
+    "TIDY5E.Settings.HBSetFeaturesForUpcastFreeSpell": {
+        "name": "为免费向上施法设置特性",
+        "hint": "此设置仅在启用了模组设置 '启用免费向上施法'后才会起作用，是一串以字符'|'分隔的特性名称，搜索此类特性时不区分大小写，如果找到 'valid'特性，角色就可以使用向上施法特性。如果为空，将被忽略。"
+    },
+    "TIDY5E.Settings.EnablePermanentUnlockOnNPCIfYouAreGM": {
+        "name": "如果你是 GM，永久启用 NPC 角色卡的解锁功能",
+        "hint": "即使在锁定的情况下，GM 不是也应该可以编辑 NPC 卡吗？如果这不算 BUG 的话。那么有没有可能让 NPC 卡默认为解锁状态？每次都要解锁 NPC 卡来删除激活效果或物品会有点疲乏"
+    },
+    "TIDY5E.Settings.EnablePermanentUnlockOnVehicleIfYouAreGM": {
+        "name": "如果你是 GM，永久启用载具角色卡的解锁功能",
+        "hint": "即使在锁定的情况下，GM 不是也应该可以编辑载具卡吗？如果这不算 BUG 的话。那么有没有可能让载具卡默认为解锁状态？每次都要解锁载具卡来删除激活效果或物品会有点疲乏"
+    },
+    "TIDY5E.Settings.EnableActionListOnFavoritePanel": {
+        "name": "在收藏夹面板上启用动作列表",
+        "hint": "显示按动作、附赠动作、反应分组的收藏夹项目。你需要 'Character Actions 5e Variant forked by p4535992 (https://github.com/p4535992/foundryvtt-character-actions-dnd5e)'"
+    },
+    "TIDY5E.Settings.LockExpChanges": {
+        "hint": "这将锁定非 GM 玩家在角色卡上输入经验值。使用这些字段的所有其他模组都工作正常。",
+        "name": "对非GM锁定经验变更"
+    },
+    "TIDY5E.Settings.LockHpMaxChanges": {
+        "hint": "这将锁定非 GM 玩家在角色卡上输入最大hp。使用这些字段的所有其他模组都工作正常。",
+        "name": "对非GM锁定最大hp变更"
+    },
+    "TIDY5E.Settings.LockConfigureSheet": {
+        "name": "对非GM锁定角色卡配置",
+        "hint": "禁用并隐藏角色卡上的配置角色卡按钮，以避免玩家使用其他角色卡。使用这些字段的所有其他模组都工作正常。"
+    },
+    "TIDY5E.Settings.ColorPickerPact": {
+        "name": "'Pact' 颜色选择",
+        "hint": "为 'Pact' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.ColorPickerAlwaysPrepared": {
+        "name": "'Always Prepared' 颜色选择",
+        "hint": "为 'Always Prepared' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.RightClickDisabled": {
+        "hint": "如果存在模组冲突或偏好，你可以禁用右键上下文菜单。",
+        "name": "禁用右键上下文菜单。"
+    },
+    "TIDY5E.Settings.ColorPickerAtWillOutline": {
+        "name": "'At Will Outline' 颜色选择",
+        "hint": "为 'At Will Outline' 选择颜色。透明值 '#00000000' 在当前语境下等效于禁用颜色。"
+    },
+    "TIDY5E.Settings.LazyHpForceHpValueLimit1": {
+        "name": "强制（仅在角色卡一侧）不超过当前 hp 最大值 + 最大临时 hp (hp.value <= hp.max + hp.tempmax)",
+        "hint": "如果启用此设置，将强制确保当前'hp.value <= (hp.max + hp.tempmax)'。"
+    },
+    "TIDY5E.Settings.LazyHpForceHpValueLimit2": {
+        "name": "强制（仅在角色卡一侧）不超过当前最大 HP 值，而是增加临时生命值（hp.value <= hp.max && hp.temp <= hp.tempmax）",
+        "hint": "此设置通过强制用户填写临时生命值字段（hp.temp）而不是增加当前生命值字段（hp.value）来强制计算临时生命值的增加逻辑，但为避免争议，默认情况下禁用此设置以尊重标准工作表的行为。如果启用，将确保当前 'hp.value <= hp.max'在 'hp.value > hp.max'的情况下相应增加临时命中点数 'hp.temp'，但始终保持 'hp.temp <= hp.tempmax'。"
+    },
+    "TIDY5E.Settings.JournalTabNPCDisabled": {
+        "name": "隐藏 NPC 日志。",
+        "hint": "启用后会隐藏 NPC 日志栏。"
+    },
+    "TIDY5E.Settings.SpellClassFilterAdditionalClasses": {
+        "name": "为'多重法术栏筛选'添加额外类别",
+        "hint": "使用'id1|name1,id2|name2'语法在下拉菜单中添加其他自制类别，例如'occultist|Occultist,alchemist|Alchemist'"
+    },
+    "TIDY5E.Settings.ColorPickerEnabled": {
+        "name": "启用颜色选择器",
+        "hint": "启用/禁用颜色选择器"
+    },
+    "TIDY5E.Settings.EnableSpellLevelButtons": {
+        "name": "启用法术环阶按钮。",
+        "hint": "启用以按钮取代法术环阶选择下拉菜单。"
+    },
+    "TIDY5E.Settings.HideStandardEncumbranceBar": {
+        "name": "移除/隐藏角色卡中的标准负重栏",
+        "hint": "如果启用，它将隐藏标准负重栏，如果你使用的是“变体负重”模组，则可能不需要此功能"
+    },
+    "TIDY5E.Settings.LazyHpAndExpEnable": {
+        "name": "启用懒人 HP 和 Exp",
+        "hint": "轻松添加或删除 HP 和经验值，自动转换，不会透支。它允许输入'+10', '-10', '=10', '010'等"
+    },
+    "TIDY5E.Settings.LazyMoneyAddConvert": {
+        "name": "添加金币时转换",
+        "hint": "添加货币时，自动将货币转换为更高面值，而不是保留你收到的面值的默认行为。"
+    },
+    "TIDY5E.Settings.LazyMoneyChatLog": {
+        "name": "聊天记录",
+        "hint": "私聊告诉 GM 货币的任何变动。"
+    },
+    "TIDY5E.Settings.AllowCantripToBePreparedOnContext": {
+        "name": "允许通过右键单击 'prepared'戏法",
+        "hint": "塔沙万事坩埚中的\"戏法公式\"可选规则允许法师在长休后准备他们的戏法，就像他们准备环阶法术一样。"
+    },
+    "TIDY5E.Settings.LockMoneyChanges": {
+        "name": "对非GM锁定货币变更",
+        "hint": "这将锁定非 GM 玩家在角色卡上输入 pp、gp、ep、sp、cp。使用这些字段的所有其他模组都工作正常。"
+    },
+    "TIDY5E.Settings.LockItemQuantity": {
+        "name": "对非GM锁定物品数量",
+        "hint": "启用此功能可锁定角色卡中物品和项目卡的输入数量。使用这些字段的所有其他模组都工作正常。"
     }
 }
