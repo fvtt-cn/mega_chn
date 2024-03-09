@@ -100,6 +100,10 @@
         "src": "https://gitlab.com/riccisi/foundryvtt-babele/-/raw/master/module/lang/en.json"
     },
     {
+        "name": "npc-generator-gpt",
+        "src": "https://github.com/Halftonex/npc-generator-gpt/raw/main/lang/en.json"
+    },
+    {
         "name": "demonlord",
         "src": "https://github.com/Xacus/demonlord/raw/master/src/lang/en.json"
     },
