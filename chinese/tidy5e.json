@@ -230,8 +230,8 @@
         "hint": "默认情况下，不熟练技能可以通过切换按钮隐藏，启用该项后则总是显示。"
     },
     "TIDY5E.Settings.ActiveEffectsMarker": {
-        "name": "在物品上显示主动效果标志。",
-        "hint": "如果你想知道是否物品拥有主动效果，那就启用该项（仅适用于列表视图）。"
+        "name": "在物品上显示激活效果标志。",
+        "hint": "如果你想知道是否物品拥有激活效果，那就启用该项（仅适用于列表视图）。"
     },
     "TIDY5E.Settings.RightClick": {
         "hint": "出于模组冲突或个人偏好，你可以禁用右键菜单。物品会显示一个菜单图标作为替代。",
@@ -272,8 +272,8 @@
         "hint": "启用后，GM 无需解锁 PC 角色卡就能进行编辑。"
     },
     "TIDY5E.Settings.EditEffectsGmOnly": {
-        "name": "仅允许 GM 编辑主动效果。",
-        "hint": "启用后禁止玩家编辑他们角色卡上的主动效果，但是他们仍能看到已应用的效果。"
+        "name": "仅允许 GM 编辑激活效果。",
+        "hint": "启用后禁止玩家编辑他们角色卡上的激活效果，但是他们仍能看到已应用的效果。"
     },
     "TIDY5E.Settings.QuantityAlwaysShown": {
         "name": "总是显示物品数量。",
@@ -285,7 +285,7 @@
     },
     "TIDY5E.Settings.ExhaustionEffects": {
         "default": "不使用自动力竭效果",
-        "tidy5e": "Tidy5e - 应用整合的效果（使用 FVTT 主动效果）",
+        "tidy5e": "Tidy5e - 应用整合的效果（使用 FVTT 激活效果）",
         "name": "自动力竭效果。",
         "hint": "选择如何根据等级应用力竭效果（掷骰劣势需要安装 midiQol 模组）",
         "custom": "自定义- 使用您选择的效果（需要 CUB 模组）"
