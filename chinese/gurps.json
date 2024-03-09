@@ -1039,5 +1039,6 @@
     "GURPS.tokenToolsTitle": "启用效果修正值弹出",
     "GURPS.moveStep": "迈步({reason})",
     "GURPS.moveConstant": "{value} {unit}/秒 ({reason})",
-    "GURPS.modifierTelegraphicAttack": "命中（耿直攻击）"
+    "GURPS.modifierTelegraphicAttack": "命中（耿直攻击）",
+    "GURPS.addSingleRollSelected": "选择的单一伤害骰"
 }
