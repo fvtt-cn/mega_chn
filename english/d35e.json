@@ -1702,7 +1702,12 @@
   "D35E.SaveDC": "Save DC",
   "D35E.Create": "Create",
   "D35E.RollSkillCheck": "Roll Skill Check",
-
+  "D35E.Targets": "Targets",
+  "D35E.BaseSize": "Base Size",
+  "D35E.SizeChange": "Size Change (Relative)",
+  "D35E.AddDuplicateRaceForActor": "Adding Race To Actor",
+  "D35E.AddDuplicateRaceForActorD": "You are trying to add {0} to the actor while it already has a race {1} added. Do you want to replace it?",
+  "D35E.WarningTooManyRaces": "Actor has more than one race assigned. This may cause issues with some features.",
 
 
   "SETTINGS.D35EShowPartyHudTokenN": "Party HUD should display token images? ",
