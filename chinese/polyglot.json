@@ -124,7 +124,7 @@
         "ReplaceLanguages.title": "删除系统语言",
         "ReplaceLanguages.hint": "删除系统默认语言。自定义语言列表中的第一种语言将成为新的默认语言。",
         "ScrambleGM.title": "为 GM 乱码信息",
-        "ScrambleGM.hint": "不要为 GM 翻译文本（参考小球颜色以便用指示物理解）。需要重新加载。",
+        "ScrambleGM.hint": "不要为 GM 翻译文本（参考小球颜色以便用指示物理解）。",
         "enableAllFonts.title": "将 Foundry 字体添加到Polyglot中",
         "enableAllFonts.hint": "关闭此设置可从 Polyglot 中移除所有 Foundry 字体。",
         "RandomizeRunes.title": "随机符文",
@@ -134,7 +134,7 @@
         "DisplayTranslated.title": "显示翻译",
         "DisplayTranslated.hint": "对于在聊天窗口中翻译的语言，会在下面显示原文和译文。",
         "HideTranslation.title": "向玩家隐藏指示器",
-        "HideTranslation.hint": "隐藏玩家聊天信息中的小球和“翻译”文本。当你不想向玩家显示你说的是哪种语言时，该功能很有用。需要重新加载。",
+        "HideTranslation.hint": "隐藏玩家聊天信息中的小球和“翻译”文本。当你不想向玩家显示你说的是哪种语言时，该功能很有用。",
         "AllowOOC.title": "乱码OOC聊天消息",
         "AllowOOC.hint": "选择哪些用户的OOC信息应被乱码。",
         "LanguageRegex": {
@@ -159,7 +159,7 @@
         },
         "languageDataPath": {
             "title": "语言数据路径",
-            "hint": "如果你的系统在角色的数据中设置了语言，但没有被正确加载，可能是使用了其他数据路径。请输入正确属性的数据路径（如 actor.system.languages 或 actor.system.speak）。此设置优先于 {setting} 设置。需要重新加载。"
+            "hint": "如果你的系统在角色的数据中设置了语言，但没有被正确加载，可能是使用了其他数据路径。请输入正确属性的数据路径（如 actor.system.languages 或 actor.system.speak）。此设置优先于 {setting} 设置。"
         },
         "PF2E": {
             "replaceLanguages.hint": "删除系统的默认语言。你必须在私设元素菜单上至少设置一种自制语言，否则非通用语言将不会被删除。如果你禁用此设置并希望将稀有度重置回默认值，请查看模组维基。"
@@ -247,7 +247,11 @@
         },
         "literacyDataPath": {
             "title": "识字数据路径",
-            "hint": "与 {setting} 设置相同，但用于阅读日志。此设置需要 {setting} 设置。需要重新加载。"
+            "hint": "与 {setting} 设置相同，但用于阅读日志。此设置需要 {setting} 设置。"
+        },
+        "DisplayCheckbox": {
+            "hint": "从聊天部分删除复选框。",
+            "title": "显示复选框"
         }
     }
 }
