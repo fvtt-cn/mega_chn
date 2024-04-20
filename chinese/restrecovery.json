@@ -12,7 +12,6 @@
             "ChefTools": "厨师工具",
             "PeriaptItem": "愈合护身符",
             "DurableFeat": "耐性",
-            "DruidRecovery": "自然恢复",
             "NaturalRecovery": "自然恢复",
             "WoundClosureBlessing": "愈合祝福",
             "BlackBloodFeature": "黑血愈合",
@@ -42,7 +41,6 @@
             "5th": "第五"
         },
         "Chat": {
-            "RegainedSpellSlots": "额外恢复：",
             "SpellSlotList": "{number} 个 {level} 环法术位",
             "SpellSlotListPlural": "{number} 个 {level} 环法术位",
             "SongOfRestSelf": "{name} 享受着自己的纾压曲。",
@@ -85,18 +83,7 @@
             "ConsumedWaterDayWorth": "{actorName} 喝了 {itemName}，提供了一整天的水。"
         },
         "Dialogs": {
-            "ResetSettings": {
-                "Cancel": "取消",
-                "Title": "休息恢复 | 重置设定",
-                "Content": "你确定你想要重置所有休息恢复模组的设定到默认值吗？<br><strong>此变更无法撤销！</strong>",
-                "Confirm": "重置模组设定"
-            },
             "ShortRest": {
-                "SpellSlotRecovery": "以 {featureName} 恢复法术位",
-                "SpellSlotsLeft": "你有 {spellSlotsLeft} 个环位以待恢复。",
-                "NoFeatureUse": "你已经耗尽 {featureName} 的使用次数，因此不能再在此次短休中恢复任何法术位。",
-                "FullSpells": "你的法术位已经完全恢复，因此没有必要再恢复任何法术位。",
-                "FullHealth": "你的生命值已经完全恢复，因此不能再掷任何生命骰。",
                 "AutoRoll": "自动掷骰",
                 "NoMoreRests": "不能再短休",
                 "NoMoreRestsSmall": "你已经不能再进行短休了，因为你的游戏规则规定每次长休期间最多只能短休 <strong>{max_short_rests}</strong> 次。",
@@ -126,7 +113,6 @@
                 "Title": "休息恢复配置",
                 "LongRest": "长休",
                 "ShortRest": "短休",
-                "Other": "其他设定",
                 "Submit": "提交设定",
                 "ItemNames": "特性名称",
                 "General": "通用设置",
@@ -140,17 +126,9 @@
                 "Confused": "麻了？这么多选项？",
                 "QuickSetup": "点击此处开启快速设置！"
             },
-            "LongRestWarning": {
-                "Title": "完成长休？",
-                "Content": "你没有消耗任何生命骰以恢复生命值，你确定你想要完成长休吗？"
-            },
             "LongRestSettingsDialog": {
                 "Title": "长休设定",
                 "Content": "这些是你的 GM 在此游戏中配置的长休设定。"
-            },
-            "ShortRestWarning": {
-                "Title": "结束短休？",
-                "Content": "您还没有花费生命骰来恢复生命值，确定要结束短休吗？"
             },
             "Resources": {
                 "RecoveryFormula": "恢复公式",
@@ -277,11 +255,6 @@
             }
         },
         "Settings": {
-            "Reset": {
-                "Title": "重置设定到默认值",
-                "Label": "重置休息恢复设定",
-                "Hint": "此项将会重置所有的模组设定到默认值。"
-            },
             "Configure": {
                 "Title": "模组配置",
                 "Label": "配置休息",
@@ -299,46 +272,6 @@
                 "IgnoreInactive": {
                     "Title": "忽略离线玩家角色",
                     "Hint": "如果你的小队中有一位拥有纾压曲的吟游诗人或者一位大厨，开启此项后，仅在其在线登录时，才会考虑其在场。"
-                },
-                "WizardClassName": {
-                    "Title": "法师职业名称",
-                    "Hint": "此处你可以配置在你的游戏中法师的职业名称为何。此项可为本地化的文本。"
-                },
-                "DruidClassName": {
-                    "Title": "德鲁伊职业名称",
-                    "Hint": "此处你可以配置在你的游戏中德鲁伊的职业名称为何。此项可为本地化的文本。"
-                },
-                "BardClassName": {
-                    "Title": "吟游诗人职业名称",
-                    "Hint": "此处你可以配置在你的游戏中吟游诗人的职业名称为何，用于决定使用谁的纾压曲。此项可为本地化的文本。"
-                },
-                "ArcaneRecovery": {
-                    "Title": "奥术恢复名称",
-                    "Hint": "此处你可以配置在你的游戏中法师的奥术恢复特性名称为何。此项可为本地化的文本。"
-                },
-                "NaturalRecovery": {
-                    "Title": "自然恢复名称",
-                    "Hint": "此处你可以配置在你的游戏中德鲁伊的自然恢复特性名称为何。此项可为本地化的文本。"
-                },
-                "ChefFeat": {
-                    "Title": "大厨特性名称",
-                    "Hint": "此处你可以配置在你的游戏中大厨特性的名称为何。此项可为本地化的文本。"
-                },
-                "ChefTools": {
-                    "Title": "厨师工具名称",
-                    "Hint": "此处你可以配置在你的游戏中厨师工具物品的名称为何。此项可为本地化的文本。留空以无视厨师工具的需求来使用此特性。"
-                },
-                "DurableFeat": {
-                    "Title": "耐性特性名称",
-                    "Hint": "此处你可以配置在你的游戏中耐性特性的名称为何。此项可为本地化的文本。"
-                },
-                "PeriaptItem": {
-                    "Title": "愈合护身符名称",
-                    "Hint": "此处你可以配置在你的游戏中愈合护身符物品的名称为何。此项可为本地化的文本。"
-                },
-                "SongOfRest": {
-                    "Title": "纾压曲名称",
-                    "Hint": "此处你可以配置在你的游戏中吟游诗人的纾压曲名称为何。此项可为本地化的文本。"
                 },
                 "MaxShortRests": {
                     "Title": "每次长休期间的最多短休次数",
@@ -385,10 +318,6 @@
                 "DailyUsesRecoveryFraction": {
                     "Title": "日常使用恢复比例",
                     "Hint": "长休中日常使用次数恢复的比例（拥有“每日”恢复设定的物品）。"
-                },
-                "EnableAutoRollButton": {
-                    "Title": "启用自动掷生命骰按钮",
-                    "Hint": "这会在长休和短休 UI 上添加一个按钮，让玩家可以在生命值不满时自动掷生命骰。"
                 },
                 "PreRegainHitDiceBuffer": {
                     "Title": "启用生命骰最大缓冲",
