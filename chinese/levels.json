@@ -95,7 +95,8 @@
             "stair": "将图纸视为楼梯",
             "editLevels": "编辑层级",
             "players": "显示玩家",
-            "minElevDiff": "最小层级大小"
+            "minElevDiff": "最小层级大小",
+            "tokenAttacher": "相对于当前层级来放置 Token Attacher 预制件<hr>如果你不是放置预制件，此选项应关闭"
         },
         "sceneconfig": {
             "lightMasking": {
