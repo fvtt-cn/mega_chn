@@ -1,27 +1,4 @@
 {
-    "TidyUI.clear": "清空搜索框",
-    "TidyUI.search": "键入以搜索模组",
-    "TidyUI.notice": "模组列表已复制到剪贴板，记得保存！",
-    "TidyUI.import": "导入模组列表",
-    "TidyUI.export": "导出已启用的模组列表",
-    "TidyUI.paste": "在此粘贴你的模组列表（旧的文本格式）或载入一个 JSON 文件来设置你的激活模组",
-    "TidyUI.close": "关闭窗口",
-    "TidyUI.activate": "激活模组",
-    "TidyUI.toClipboard": "复制为文本",
-    "TidyUI.checkAll": "启用所有模组",
-    "TidyUI.uncheckAll": "禁用除Tidy UI外的所有模组",
-    "TidyUI.hideDisableAll": {
-        "hint": "勾选以隐藏‘保存’按钮旁的‘禁用所有模组’。",
-        "name": "隐藏‘禁用所有模组’按钮。"
-    },
-    "TidyUI.moduleSettingsActive": {
-        "name": "总是启用模组设置页。",
-        "hint": "如果你需要经常访问模组设置，你可能会想要启用该选项，如此便不用点击切换至模组设置。"
-    },
-    "TidyUI.toFile": "下载 为JSON 文件",
-    "TidyUI.fromFile": "导入 JSON 文件",
-    "TidyUI.warning": "警告：",
-    "TidyUI.instruction": "为了重新导入你的模组列表，你必须下载JSON文件。以文本形式复制只适用于发布到 Discord 或类似的地方。如果你有旧的文本格式的保存，当你想恢复它时，它仍然会被识别。",
     "TIDY5E.PlayerName": "玩家名称",
     "TIDY5E.Gender": "性别",
     "TIDY5E.Age": "年龄",
@@ -232,10 +209,6 @@
     "TIDY5E.Settings.ActiveEffectsMarker": {
         "name": "在物品上显示激活效果标志。",
         "hint": "如果你想知道是否物品拥有激活效果，那就启用该项（仅适用于列表视图）。"
-    },
-    "TIDY5E.Settings.RightClick": {
-        "hint": "出于模组冲突或个人偏好，你可以禁用右键菜单。物品会显示一个菜单图标作为替代。",
-        "name": "禁用右键菜单。"
     },
     "TIDY5E.Settings.ExpandedSheet": {
         "name": "扩大角色卡权限为“限制”的浏览内容。",
