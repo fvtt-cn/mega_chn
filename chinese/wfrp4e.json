@@ -572,8 +572,6 @@
     "CHAT.TestModifiers.FastWeapon": "防御快速武器的惩罚。",
     "CHAT.TestModifiers.DefendingLarger": "SL 格档更大生物的惩罚。",
     "CHAT.TestModifiers.AttackingLarger": "攻击一个更大的目标。",
-    "CHAT.TestModifiers.FinalModifiersTitle": "<b>最终调整值</b>:",
-    "CHAT.TestModifiers.FinalModifiers": "{target} 目标, {sl}SL 到 <b>{name}</b>",
     "CHAT.TestModifiers.AttackerMountLarger": "从更大坐骑攻击的加值。",
     "CHAT.TestModifiers.DefenderMountLarger": "攻击更大坐骑的骑乘者的惩罚。",
     "CHAT.TestModifiers.SlowDefend": "攻击者是缓慢武器",
