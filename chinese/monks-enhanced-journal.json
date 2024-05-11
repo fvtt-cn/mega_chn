@@ -514,5 +514,7 @@
     "MonksEnhancedJournal.Shown": "显示",
     "MonksEnhancedJournal.currency.merchants": "商人",
     "MonksEnhancedJournal.currency.tavs": "列表",
-    "MonksEnhancedJournal.currency.hammer": "锤"
+    "MonksEnhancedJournal.currency.hammer": "锤",
+    "MonksEnhancedJournal.extract-extra-classes.name": "增加额外样式",
+    "MonksEnhancedJournal.show-chat-bubbles.name": "显示聊天气泡"
 }
