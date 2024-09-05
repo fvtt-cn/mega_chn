@@ -1252,7 +1252,6 @@
     "DIALOG.QuickcastingTooltip": "如果你放弃移动和所有的免费动作，你可以在你的回合中用一个动作迅速地进行引导与施法。因为你匆忙地施法，将任何施法失误的严重度提升一个等级（例如，从轻微到严重，从严重到灾难）。 ",
     "ERROR.EFFECT": "{effect}效果生效时出错，请查看控制台（F12）",
     "Overcasts": "超魔",
-    "CHAT.DiseaseDurationError": " 在投持续时间时出现错误。",
     "TABLE.Cancel": "掷骰：{result} - 取消",
     "ERROR.SpellLore": "你无法在法术被角色拥有时修改它的学派",
     "Momentum": "动能",
