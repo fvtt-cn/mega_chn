@@ -422,10 +422,6 @@
             "Food": "食物",
             "Water": "水"
         },
-        "Modules": {
-            "CUB": "CUB",
-            "DFreds": "DFreds 便捷效果"
-        },
         "PatchedConsumable": "已更新 {itemName} 使用次数。",
         "Traits": {
             "Title": "休息恢复",
