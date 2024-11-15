@@ -518,7 +518,6 @@
     "MARKET.Exchange": "整理（钱币数量最少）",
     "MARKET.CreditRequest": "收款请求",
     "WFRP4E.ConditionName.Stunned": "晕眩",
-    "SETTINGS.MooCritMOdifiersHint": "当你在0承伤下受到伤害时，从重伤表中的结果中为你的体质加值的每一点伤害差值添加或减去10。<br><br>例如，我还剩下4点承伤，拥有50的体质。我受到12点伤害。我在被降到0点承伤时还剩下8点伤害，在TB为5的情况下，这将让重伤骰的结果获得+30。<br><br>例如，我还剩下4点承伤，拥有50的体质，我受到5点伤害。我在被降到0点承伤时还剩下1点伤害，在TB为5的情况下，这将会让重伤表的结果获得-40。",
     "CHAT.DamageAP": "损失1点AP于",
     "CHAT.Apply": "应用",
     "CHAT.ApplyError": "你无法应用此效果。",
