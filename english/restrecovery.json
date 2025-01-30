@@ -1,0 +1,671 @@
+{
+  "REST-RECOVERY": {
+    "JournalUuids": {
+      "Exhaustion": "Compendium.rest-recovery.exhaustion.JournalEntry.TqAqEUUR8LyEDi7q.JournalEntryPage.epHJRWnHvCPA8WKF"
+    },
+    "ClassNames": {
+      "Wizard": "Wizard",
+      "Druid": "Druid",
+      "Bard": "Bard"
+    },
+    "Warnings": {
+      "PreventedLongRest": "You cannot long rest because you are under an effect that prevents you from doing so!",
+      "PreventedShortRest": "You cannot short rest because you are under an effect that prevents you from doing so!",
+      "NotPromptedLongRest": "The GM has configured this game so you cannot start a long rest without being prompted!",
+      "NotPromptedShortRest": "The GM has configured this game so you cannot start a short rest without being prompted!",
+      "ItemNoUses": "\"{item}\" has no more uses left, so you cannot consume it."
+    },
+    "FeatureNames": {
+      "ArcaneRecovery": "Arcane Recovery",
+      "NaturalRecovery": "Natural Recovery",
+      "NaturalRecoveryActivity": "Recover Spell Slots",
+      "SongOfRest": "Song of Rest",
+      "ChefFeat": "Chef",
+      "ChefTools": "Cook's Utensils",
+      "PeriaptItem": "Periapt of Wound Closure",
+      "WoundClosureBlessing": "Blessing of Wound Closure",
+      "DurableFeat": "Durable",
+      "BlackBloodFeature": "Black Blood Healing"
+    },
+    "OneDnDExhaustionEffect": {
+      "Name": "Exhaustion (One D&D)",
+      "Description": "With One D&D exhaustion, a creature suffers cumulative -1 penalties per level of exhaustion to all d20 rolls (attack rolls, ability checks, skill checks, and saving throws) and spell DCs. When a creature reaches 10 levels of exhaustion, they die."
+    },
+    "PatchedRecovery": "{actorName}'s {recoveryName} has been patched.",
+    "PatchedConsumable": "Updated {itemName} with uses.",
+    "Fractions": {
+      "None": "None",
+      "Quarter": "Quarter",
+      "Half": "Half",
+      "Full": "Full",
+      "Custom": "Custom Formula"
+    },
+    "RollFormula": {
+      "Normal": "Normal",
+			"Advantage": "Advantage",
+      "Maximized": "Maximized"
+    },
+    "Currencies": {
+      "Copper": "cp",
+      "Electrum": "ep",
+      "Gold": "gp",
+      "Platinum": "pp",
+      "Silver": "sp"
+    },
+    "Rounding": {
+      "RoundDown": "Round Down",
+      "RoundUp": "Round Up"
+    },
+    "Misc": {
+      "Food": "Food",
+      "Water": "Water",
+      "Both": "Food & Water"
+    },
+    "NumberToText": {
+      "1": "One",
+      "2": "Two",
+      "3": "Three",
+      "4": "Four",
+      "5": "Five",
+      "1st": "1st",
+      "2nd": "2nd",
+      "3rd": "3rd",
+      "4th": "4th",
+      "5th": "5th"
+    },
+    "Chat": {
+      "RegainedUses": "In addition, they recovered the following:",
+      "SpellSlotList": "{number} {level} level spell slot",
+      "SpellSlotListPlural": "{number} {level} level spell slots",
+      "RecoveryNameNum": "{name} regained {number} uses",
+      "SongOfRest": "{name} enjoys {bard}'s {songOfRestName}.",
+      "SongOfRestSelf": "{name} enjoys their own {songOfRestName}.",
+      "Chef": "{name} enjoys some delicious food from {chef}.",
+      "ChefSelf": "{name} enjoys their own delicious food.",
+      "ConsumedBothDayWorth": "{actorName} consumed {itemName} for a full day's worth of food and water.",
+      "ConsumedBoth": "{actorName} consumed {itemName} for {charges} units of food and water.",
+      "ConsumedFoodDayWorth": "{actorName} ate {itemName} for a full day's worth of food.",
+      "ConsumedFood": "{actorName} ate {itemName} for {charges} units of food.",
+      "ConsumedWaterDayWorth": "{actorName} drank {itemName} for a full day's worth of water.",
+      "ConsumedWater": "{actorName} drank {itemName} for {charges} units of water.",
+      "RequiredSatedFood": "They require {units} units of food to be sated for the day.",
+      "RequiredSatedWater": "They require {units} units of water to be sated for the day.",
+      "SatedFood": "They don't require any more food.",
+      "SatedWater": "They don't require any more water.",
+      "FoodFullNone": "They ate enough of their own food to be sated.",
+      "FoodHalfNone": "They ate of their own food, but only half of the amount that they needed.",
+      "FoodHalfHalf": "They ate from an external source and of their own food to be sated.",
+      "FoodNoneFull": "They ate enough food from an external source to be sated.",
+      "FoodNoneHalf": "They ate from an external source, but only half of the amount that they needed.",
+      "FoodNoneNone": "They didn't eat anything.",
+      "WaterFullNone": "They drank enough of their own water to be sated.",
+      "WaterHalfNone": "They drank of their own water, but only half of the amount that they needed.",
+      "WaterHalfHalf": "They drank from an external source and of their own water to be sated.",
+      "WaterNoneFull": "They drank enough water from an external source to be sated.",
+      "WaterNoneHalf": "They drank from an external source, but only half of the amount that they needed.",
+      "WaterNoneNone": "They didn't drink anything.",
+      "NoExhaustion": "But they managed to avoid exhaustion.",
+      "Exhaustion": "Thus, they suffered {exhaustion} levels of exhaustion.",
+      "ExhaustionDeath": "Regrettably, {actorName} reached {max_levels} levels of exhaustion and perished.",
+      "ExhaustionArmor": "They chose to keep their armor on, and recovered none of their exhaustion.",
+      "HitDiceArmor": "They recovered less hit dice than normal because they rested in their armor.",
+      "NoHitDiceArmor": "They recovered none of their hit dice because they rested in their armor.",
+      "HitDiceNoArmor": "They chose to not rest in their armor, and regained the normal amount of hit dice.",
+      "PreventedHitDiceRecovery": "Because they spent hit dice during the long rest, they recovered no hit dice.",
+      "CouldNotLongRest": "{actorName} could not take a long rest.",
+      "CouldNotShortRest": "{actorName} could not take a short rest.", 
+      "Flavor": {
+        "ShortRestNormal": "Short Rest ({duration} {units})",
+        "LongRestNormal": "Long Rest ({duration} {units})",
+        "ShortRestNewday": "Short Rest (New Day)"
+      },
+      "AlternateShortRestResult": "{name} takes a short rest and recovers {health} Hit Points.",
+      "TidyChanged": "Rest Recovery changed Tidy5e Sheet's exhaustion display settings:",
+      "TidyTypeChanged": "Exhaustion type changed from {oldType} to {newType}.",
+      "TidyHintsChanged": "Custom level hints were removed.",
+      "TidyLevelsChanged": "Exhaustion levels changed from {oldLevels} to {newLevels}."
+    },
+    "Dialogs": {
+      "SaveProfile": {
+        "Title": "Create New Module Profile",
+        "Enter": "Enter preset name:",
+        "OverrideProfile": "Your new profile cannot have the same name as an old profile",
+        "Empty": "Your new profile cannot have an empty name"
+      },
+      "DiscardChanges": {
+        "Title": "Unsaved Changes",
+        "Content": "You have unsaved changes to this profile. Are you sure you want to switch profile?"
+      },
+      "ResetDefaultChanges": {
+        "Title": "Reset default setting",
+        "Content": "Are you sure you want to reset the \"Default\" module profile to its default values?"
+      },
+      "DeleteProfile": {
+        "Title": "Delete profile",
+        "Content": "Are you sure you want to delete the \"{profile}\" module profile?"
+      },
+      "QuickSetup": {
+        "Title": "Rest Recovery: Quick Setup",
+        "SlowNaturalHealingTitle": "Slow Natural Healing",
+        "SlowNaturalHealingLabel": "Characters do not regain hit points at the end of a long rest. Instead, they must spend hit dice to heal, like a short rest.",
+        "RecoverHitDiceTitle": "Recover Hit Dice Before Long Rest",
+        "RecoverHitDiceLabel": "Alters slow natural healing so that characters regain their hit dice when they start the long rest, rather than when they finish it.",
+        "OpenSettings": "Open Settings",
+        "5eRestCustom": {
+          "Title": "Custom (Set your own values)",
+          "LongRestCustomTitle": "Long Rest duration in hours",
+          "ShortRestCustomTitle": "Short Rest duration in hours"
+        }
+      },
+      "PromptRest": {
+        "Title": "Prompt Rest For Players",
+        "ConfigureProfiles": "Configure Profiles",
+        "Short": "Short Rest",
+        "Long": "Long Rest",
+        "NewDayTitle": "New Day",
+        "NoNewDayTitle": "Not A New Day",
+        "NewDayHint": "This causes characters who finish the rest to recover abilities that recharge on a \"per day\" basis.",
+        "NewDaySimpleCalendarHint": "Based on the type selected below, characters who finish the rest to recover abilities that recharge on a \"per day\" basis. This is driven by the <strong>Simple Calendar</strong> module.",
+        "NoNewDaySimpleCalendarHint": "Neither long nor a short rest would result in a new day, so characters who finish either will <strong>not</strong> recovery abilities that recharge on a \"per day\" basis. This is driven by the <strong>Simple Calendar</strong> module.",
+        "NewDay": "(new day)",
+        "Submit": "Submit",
+        "PlayerListShort": "Rest",
+        "PlayerListFull": "Prompt Rest",
+        "PromptCharactersRest": "Player characters to prompt rests for",
+        "RestProfile": "Rest Profile"
+      },
+      "ShortRest": {
+        "ForcedNewDayTitle": "New Day",
+        "ForcedNewDayHint": "A new day dawns, so this short rest will recover abilities that recharge on a \"per day\" basis.",
+        "NoHitDiceRest": "Take a short rest? On a short rest you may recover primary or secondary resources.",
+        "NoMoreRests": "No more short rests",
+        "NoMoreRestsSmall": "You have have no more capacity for a short rest, as your game's rules mandate a maximum of <strong>{max_short_rests}</strong> per long rest.",
+        "ShortRestLimit": "You have <strong>{num_short_rests}</strong> short rests remaining before you must take a long rest.",
+        "ShortRestLimitSmall": "Your game's rules mandate a maximum of <strong>{max_short_rests}</strong> per long rest.",
+        "AutoRoll": "Auto Roll",
+        "MinHitDiceSpend": "You must spend <strong>{min_spend}</strong> hit dice to finish this short rest.",
+        "MaxHitDiceSpend": "You can only spend <strong>{max_spend}</strong> hit dice during this short rest (<strong>{current}</strong> left).",
+        "FinishRest": "Finish Short Rest"
+      },
+      "RestHealthWarning": {
+        "Title": "Finish Rest?",
+        "Content": "You haven't spent any hit dice to regain hit points, are you sure you want to finish your rest?"
+      },
+      "RestSpendHitDice": {
+        "Title": "Spend Hit Dice?",
+        "Content": "You need to spend at least {num_dice} hit dice to finish this rest. Are you sure you want to do this?"
+      },
+      "RestNoHitDice": {
+        "Title": "No remaining hit dice",
+        "Content": "You need to spend at least {num_dice} hit dice to finish this rest, but you do not have any left."
+      },
+      "LongRest": {
+        "ForcedNewDayTitle": "New Day",
+        "ForcedNewDayHint": "A new day dawns, so this long rest will recover abilities that recharge on a \"per day\" basis.",
+        "Begin": "Begin Long Rest",
+        "BeginExplanation": "By beginning your long rest, you will regain some of your hit dice so that you can roll them to regain hit points.",
+        "CustomRules": "You are playing with custom rules, which means that you may regain hit points, hit dice, class resources, limited use item charges, and spell slots differently.",
+        "CustomRulesLink": "Check out the custom rules.",
+        "MinHitDiceSpend": "You must spend <strong>{min_spend}</strong> hit dice to finish this long rest.",
+        "MaxHitDiceSpend": "You can only spend <strong>{max_spend}</strong> hit dice during this long rest (<strong>{current}</strong> left).",
+        "ArmorRecovery": "Remove Armor During Long Rest?",
+        "ArmorRecoveryHint": "Since you have non-light armor equipped, you will suffer penalties. Click on the orange custom rules text to see how it impacts you.",
+        "FinishRest": "Finish Long Rest"
+      },
+      "RestSteps": {
+        "Next": "Next Step",
+        "Prev": "Previous Step",
+        "Rest": {
+          "Title": "Rest"
+        },
+        "FoodWater": {
+          "Title": "Food & Water",
+          "FoodRequirement": "You need to eat another <strong>{food}</strong> units of food.",
+          "FoodSated": "You've already eaten enough.",
+          "FoodAlmostExhaustion": "If you finish this day without having eaten the full amount of food, you will automatically suffer <strong>1 level of exhaustion</strong> in <strong>{days} days</strong>.",
+          "FoodExhaustion": "Because you are starving, you will automatically suffer <strong>1 level of exhaustion</strong> if you finish this day without having eaten the full required amount of food.",
+          "ExternalFood": "Has access to external food source",
+          "ExternalFoodFull": "Eat until sated",
+          "ExternalFoodHalf": "Eat half amount needed",
+          "WaterRequirement": "You need to drink another <strong>{water}</strong> units of water.",
+          "AmountToConsume": "Amount To Consume",
+          "WaterSated": "You've already drank enough.",
+          "NoWater": "You will automatically suffer <strong>{exhaustion} levels of exhaustion</strong> if you finish this day having drank less than half of the requirement amount of water.",
+          "HalfWater": "You must make a DC {dc} Constitution saving throw or suffer <strong>{exhaustion} levels of exhaustion</strong> if you finish this day without drinking the full amount.",
+          "DragDrop": "Drag and drop items to consume, or select:",
+          "DayWorth": "One use of item worth entire day of {type}",
+          "ExternalWater": "Has access to external water source",
+          "ExternalWaterFull": "Drink until sated",
+          "ExternalWaterHalf": "Drink half amount needed",
+          "ExternalCost": "This will cost <strong>{cost} {currency}</strong>.",
+          "CantAfford": "<strong>You cannot afford to purchase the food/water options you have selected - change your selection in order to complete this rest.</strong>"
+        },
+        "SpellRecovery": {
+          "Title": "Magic Recovery",
+          "SpellSlotFeature": "Recover Spell Slots with {featureName}",
+          "SpellSlotRule": "Recover Spell Slots",
+          "SpellSlotsLeft": "You have {spellSlotsLeft} levels of spell slots left to recover.",
+          "NoFeatureUse": "You do not have any uses left of your {featureName}, so you cannot regain any spell slots during this short rest.",
+          "FullSpells": "You're full on spells, you have no need to regain any spell slots."
+        }
+      },
+      "LongRestSettingsDialog": {
+        "Title": "Long Rest Settings",
+        "Content": "These are the settings your GM configured for long rests in this game."
+      },
+      "CharacterOwnersOffline": {
+        "Title": "Character Owners Offline",
+        "Content": "The owners of the following characters you prompted to rest are offline, would you like to finish their rest for them?"
+      },
+      "Resources": {
+        "Configure": "Configure Resource Recovery",
+        "Title": "Resource Configuration",
+        "Name": "Name",
+        "Value": "Value",
+        "Short": "Short",
+        "Long": "Long",
+        "RecoveryFormula": "Recovery Formula"
+      },
+      "ModuleConfig": {
+        "Title": "Rest Recovery Configuration",
+        "General": "General Settings",
+        "LongRest": "Long Rest",
+        "ShortRest": "Short Rest",
+        "ItemNames": "Feature Names",
+        "FoodAndWater": "Food & Water",
+        "Confused": "Confused? Too Many Options?",
+        "QuickSetup": "Click here to open the Quick Setup!",
+        "Donate": "If you like this module, consider donating to keep it running!",
+        "MoreToCome": "And with more configuration options to come...",
+        "Request": "Request new features here.",
+        "Submit": "Submit Settings",
+        "ModuleProfile": "Module Profile:",
+        "ImportProfile": "Import Profile",
+        "ExportProfile": "Export Profile"
+      },
+      "ItemOverrides": {
+        "Title": "Rest Recovery: Food & Water",
+        "UsesCustomRecovery": "Uses Custom Recovery",
+        "Type": "Type:",
+        "Enabled": "Enabled",
+        "Formula": "Formula:",
+        "IsConsumable": "Item is consumable",
+        "DayWorth": "One charge is an entire day's worth",
+        "ChargesDescription": "Rest Recovery's food and water system requires the item to have charges to be used - one charge equals one unit of food or water."
+      },
+      "AbilityUse": {
+        "Title": "Select how much of this item you want to consume:",
+        "DayWorthTitleBoth": "This type of consumable is worth an entire day worth of both food and water.",
+        "DayWorthTitleFood": "This type of consumable is worth an entire day worth of food.",
+        "DayWorthTitleWater": "This type of consumable is worth an entire day worth of water.",
+        "DayWorthTitleCont": "You will not need to consume anything of that type until the next day. You cannot eat half of this type of consumable.",
+        "SatedFood": "You are already sated, you will gain no benefits from eating this.",
+        "NotSatedFood": "You need to eat {units} units to be sated.",
+        "SatedWater": "You are already sated, you will gain no benefits from drinking this.",
+        "NotSatedWater": "You require {units} units of water to be sated.",
+        "FullUnit": "Consume full unit",
+        "HalfUnit": "Consume half unit"
+      }
+    },
+    "Traits": {
+      "Title": "Rest Recovery",
+      "HitDieBonus": {
+        "Title": "Hit Die Bonus",
+        "Hint": "Whenever this character rolls a hit die, this applies a bonus to that roll. This can be a formula, like \"1d6 + 3\"."
+      },
+      "HitDieAdvantage": {
+        "Title": "Hit Die Advantage",
+        "Hint": "Whenever this character rolls a hit die, they roll with advantage."
+      },
+      "LongRestSpellPointsBonus": {
+        "Title": "Spell slot point-like recovery bonus",
+        "Hint": "This is a bonus that will be added to the spell slot recovery during a long rest."
+      },
+      "LongRestSpellPointsFormula": {
+        "Title": "Spell slot point-like recovery formula",
+        "Hint": "This trait allows you to override the spell slot recovery formula for this specific character."
+      },
+      "FoodUnitsPerDay": {
+        "Title": "Units of food required per day",
+        "Hint": "This overrides how many units of food this character needs per day."
+      },
+      "WaterUnitsPerDay": {
+        "Title": "Units of water required per day",
+        "Hint": "This overrides how many units of water this character needs per day."
+      },
+      "NoFoodWater": {
+        "Title": "Disable Food & Water Requirement",
+        "Hint": "If enabled, this character does not require any food or water, similar to the Undying Nature warlock feature."
+      }
+    },
+    "Settings": {
+      "QuickSetup": {
+        "Title": "Quick Setup",
+        "Label": "Open Quick Setup",
+        "Hint": "A simpler UI for quickly setting up common settings for rests."
+      },
+      "Configure": {
+        "Title": "Module Configuration",
+        "Label": "Configure Rest",
+        "Hint": "You can configure how rests work in this dialog."
+      },
+      "QuickHDRoll": {
+        "Title": "Quick-roll Hit Dice (skip dialog)",
+        "Hint": "Skip the dialog for rolling hit dice and roll them quickly."
+      },
+      "ShowPlayerListRestButton": {
+        "Title": "Show prompt rest button",
+        "Hint": "Configures whether the prompt rest button is shown below the players in the bottom-left player list (requires refresh)"
+      },
+      "Debug": {
+        "Title": "Enable debugging",
+        "Label": "Prints debug messages to the console"
+      },
+      "RequiresModule": "Requires {module_name}",
+      "General": {
+				"HitDieRollFormula": {
+          "Title": "Hit Die formula",
+          "Hint": "This configures the hit die roll formula, allowing for advantage or maximized results."
+				},
+        "PeriaptRollMechanics": {
+          "Title": "Hit Die Multiplication Mechanics",
+          "Hint": "This configures how hit die multiplying effects such as the item \"Periapt of Wound Closure\" and the \"Hit Die roll multiplier\" setting handle the multiplication of the hit die roll.",
+          "Options": {
+            "MultiplyRoll": "Multiply dice roll",
+            "MultiplyTotal": "Multiply total result"
+          }
+        },
+        "PreventUserRest": {
+          "Title": "Prevent User Rest",
+          "Hint": "This prevents users from initiating rests themselves, and must be prompted to rest by the GM."
+        },
+        "EnableAutoRollButton": {
+          "Title": "Enable hit dice auto roll button",
+          "Hint": "This adds a button to the long and short rest UI so that players can auto-roll hit dice until their HP is almost full."
+        },
+        "EnablePromptRestTimePassing": {
+          "Title": "Enable automatic time passage on prompt rest",
+          "Hint": "This enables time passing whenever players and prompted to rest by a GM. This may cause time-based active effects on characters to expire."
+        },
+        "EnableSimpleCalendarIntegration": {
+          "Title": "Enable Simple Calendar integration",
+          "Hint": "Enabling this makes the \"New Day\" button in the prompt rest UI and in the long/short rest UI for players automated based on the current time of the calendar."
+        },
+        "EnableSimpleCalendarNotes": {
+          "Title": "Enable Simple Calendar notes",
+          "Hint": "Enabling this will create a Simple Calendar note for each character's short/long rests, the content of which will be identical to the chat message outputted at the end of the rest.",
+          "Hint2": "Note: Players must have \"Create Journal Entries\" permissions & \"Add Notes\" Simple Calendar permissions enabled if resting while online."
+        },
+        "SimpleCalendarNotesOnlyPrompted": {
+          "Title": "Enable notes only on prompted rests",
+          "Hint": "Enabling this will create Simple Calendar notes only when a rest has been prompted by the GM."
+        },
+        "HDRecoveryFraction": {
+          "Title": "Hit Die roll multiplier",
+          "Hint": "The fraction of a hit die roll to actually recover as hit points each time a hit die is rolled."
+        }
+      },
+      "FoodAndWater": {
+        "EnableFoodAndWater": {
+          "Title": "Enable food and water automation",
+          "Hint": "This enables sub-features relating to food and water automation, as seen below."
+        },
+        "DisableRollConsumableItems": {
+          "Title": "Disable rolling consumable items on rest",
+          "Hint": "By default, if a character chooses to consume an item during their rest, it will be rolled as if the character clicked on its roll button. This setting will disable this automatic roll."
+        },
+        "FoodUnitsPerDay": {
+          "Title": "Units of food required per day",
+          "Hint": "This configures how many units of food characters needs per day. Setting this to 0 disables food requirement altogether."
+        },
+        "WaterUnitsPerDay": {
+          "Title": "Units of water required per day",
+          "Hint": "This configures how many units of water characters needs per day. Setting this to 0 disables water requirement altogether."
+        },
+        "ExternalFoodAccess": {
+          "Title": "Access to external food source",
+          "Hint": "This configures whether players will be able to pick \"External Food Source\" during rests as a replacement for consumable items. \"Full\" means full access like in inns and cities, \"Half\" means limited access or poor food, \"None\" means wilderness or starvation."
+        },
+        "ExternalFoodHasCost": {
+          "Title": "External food has cost",
+          "Hint": "Whether \"external food\" has a financial cost, such as the cost of a meal at a tavern."
+        },
+        "ExternalFoodFullCostCurrency": {
+          "Title": "Cost of Full food",
+          "Hint": "The cost of acquiring the full amount of food required during a rest."
+        },
+        "ExternalFoodHalfCostCurrency": {
+          "Title": "Cost of Half food",
+          "Hint": "The cost of acquiring half the amount of of food required during a rest."
+        },
+        "ExternalWaterAccess": {
+          "Title": "Access to external water source",
+          "Hint": "Same as above, but for water. Keep in mind that \"Half\" and \"None\" will cause characters to experience exhaustion almost immediately unless they have access to consumable items."
+        },
+        "ExternalWaterHasCost": {
+          "Title": "External water has cost",
+          "Hint": "Whether \"external water\" has a financial cost, such as the cost of a drink at a tavern."
+        },
+        "ExternalWaterFullCostCurrency": {
+          "Title": "Cost of Full water",
+          "Hint": "The cost of acquiring the full amount of water required during a rest."
+        },
+        "ExternalWaterHalfCostCurrency": {
+          "Title": "Cost of Half water",
+          "Hint": "The cost of acquiring half the amount of of water required during a rest."
+        },
+        "AutomateFoodWaterExhaustion": {
+          "Title": "Automate food & water exhaustion",
+          "Hint": "Enabling this makes it so that characters suffer exhaustion if they do not eat or drink enough. Requires rest exhaustion automation to be enabled."
+        },
+        "NoFoodDuration": {
+          "Title": "Maximum days with no food",
+          "Hint": "This configures how many days characters can survive without eating food before suffering from automatic exhaustion."
+        },
+        "HalfWaterSaveDC": {
+          "Title": "Half water exhaustion DC",
+          "Hint": "This configures the Constitution saving throw DC that characters must make if they drink only half of the required amount of water."
+        },
+        "FoodWaterPromptNewDay": {
+          "Title": "Prompt food & water consumption on new day",
+          "Hint": "If enabled, food & water consumption will be requested only when a rest results in a \"new day\", regardless of whether it is short or long"
+        }
+      },
+      "ShortRest": {
+        "IgnoreInactive": {
+          "Title": "Ignore inactive player characters",
+          "Hint": "If you have a Bard with the Song of Rest or a Chef in your party, this will only consider them as present if the owning player is active and logged on."
+        },
+        "MaxShortRests": {
+          "Title": "Maximum short rests per long rest",
+          "Hint": "This prevents characters from taking short rests if they reach a number of short rests equal to this number. Taking a long rest resets this counter. Putting zero here disables this setting."
+        },
+        "MinHitDieSpend": {
+          "Title": "Minimum short rest hit die spend",
+          "Hint": "This prevents characters from finishing a short rest if they do not spend this number of hit dice. Putting zero here disables this setting."
+        },
+        "MaxHitDieSpend": {
+          "Title": "Maximum short rest hit die spend",
+          "Hint": "This prevents characters from rolling hit dice once they have rolled a number of hit dice equal to this setting. This can never be less than the \"Minimum short rest hit die spend\" setting."
+        },
+        "NoHitDice": {
+          "Title": "Disable hit dice rolls during short rests",
+          "Hint": "This prevents characters from rolling hit dice during short rests."
+        },
+        "ResourcesRecoveryFraction": {
+          "Title": "Resources recovery fraction",
+          "Hint": "The fraction of resources to recover on a short rest."
+        },
+        "ItemUsesRecoveryFraction": {
+          "Title": "Item uses recovery fraction",
+          "Hint": "The fraction of item uses (items, consumables, etc.) to recover on a short rest, if the item has charges with limited uses per short rest."
+        },
+        "FeatUsesRecoveryFraction": {
+          "Title": "Feat uses recovery fraction",
+          "Hint": "The fraction of feat uses to recover on a short rest, if the feature has charges with limited uses per short rest."
+        },
+        "PactSpellSlotsLongRecoveryFraction": {
+          "Title": "Pact spell slots recovery fraction",
+          "Hint": "The fraction of Warlock pact spell slots to recover on a short rest."
+        },
+        "SongOfRestMultiuse": {
+          "Title": "Song of Rest rolls for every hit die spent",
+          "Hint": "Enabling this will allow Song of Rest to roll & add a bonus to every hit die rolled during a rest, rather than only the first."
+        },
+        "HitPointsRecoveryFraction": {
+          "Title": "Hit points recovery fraction",
+          "Hint": "The fraction of hit points to recover on a short rest (in addition to hit dice rolls)."
+        }
+      },
+      "LongRest": {
+        "AutomateExhaustion": {
+          "Title": "Enable exhaustion automation",
+          "Hint": "This makes it so that exhaustion is subtracted by 1 every long rest."
+        },
+        "ExhaustionIntegration": {
+          "Title": "Exhaustion Module Integration",
+          "Hint": "This setting allows you to use other modules in order to apply their respective exhaustion active effects on characters."
+        },
+        "OneDnDExhaustion": {
+          "Title": "Enable One D&D Exhaustion",
+          "Hint": "In the new One D&D, exhaustion instead stacks to 10 (upon which you still die), and applies a -1 penalty to Ability Checks, Attack Rolls, Saving Throws, and the character's Spell Save DC per exhaustion level. Simply change the exhaustion level on the characters, and the penalty is automatically applied.",
+          "Hint2": "Note: This is not compatible with the <em>Alternative Exhaustion 5e</em> module."
+        },
+        "OneDnDExhaustionSheetOverride": {
+          "Title": "Enable One D&D Exhaustion Sheet Override",
+          "Hint": "Enable sheet modification to show 10 pips instead of 6."
+        },
+        "PreventLongRestExhaustionRecovery": {
+          "Title": "Prevent Long Rest Exhaustion Recovery",
+          "Hint": "When enabled, this setting prevents characters from recovering exhaustion when finishing a long rest."
+        },
+        "RollHitDice": {
+          "Title": "Enable long rest hit dice rolls",
+          "Hint": "Enables the hit dice roll UI in the Long Rest dialog."
+        },
+        "PreRegainHitDice": {
+          "Title": "Enable hit dice recovery before finishing long rest",
+          "Hint": "This makes it so that hit dice are recovered before finishing the long rest, so that you can roll them as a part of this rest."
+        },
+        "PreRegainHitDiceBuffer": {
+          "Title": "Enable hit dice max buffer",
+          "Hint": "This setting causes each character to always regain hit dice, even if it would put their hit dice above their maximum, so that no hit dice are wasted. Any unused hit dice over their maximum will disappear once the long rest is completed."
+        },
+        "PreventRegainHitDice": {
+          "Title": "Prevent hit dice recovery on long rests if rolled",
+          "Hint": "This setting makes it so that characters that roll any hit dice during a long rest will not recover any at the end of the long rest. This is incompatible with the \"Enable hit dice recovery before finishing long rest\" setting."
+        },
+        "MaxHitDieSpend": {
+          "Title": "Maximum long rest hit die spend",
+          "Hint": "This prevents characters from rolling hit dice once they have rolled a number of hit dice equal to this setting."
+        },
+        "HitPointsRecoveryFraction": {
+          "Title": "Hit points recovery fraction",
+          "Hint": "The fraction of hit points to recover on a long rest."
+        },
+        "HitDiceRecoveryFraction": {
+          "Title": "Hit dice recovery fraction",
+          "Hint": "The fraction of hit dice to recover on a long rest."
+        },
+        "HitDiceRecoveryRounding": {
+          "Title": "Hit dice recovery rounding",
+          "Hint": "How to round the number of hit dice recovered."
+        },
+        "ResourcesRecoveryFraction": {
+          "Title": "Resources recovery fraction",
+          "Hint": "The fraction of resources to recover on a long rest."
+        },
+        "SpellSlotsRecoveryFraction": {
+          "Title": "Spell slots recovery fraction",
+          "Hint": "The fraction of spell slots to recover on a long rest."
+        },
+        "CustomSpellSlotRecovery": {
+          "Title": "Enable spell slot point-like recovery rule",
+          "Hint": "Enabling this setting will cause everyone with spell slots to recover them like the wizard \"Arcane Recovery\" feature, where you have you choose which spell slots you recover. This setting can only be enabled when \"Spell slots recovery fraction\" is set to custom. Characters regain a number of spell slots equal to the custom formula's setting."
+        },
+        "PactSpellSlotsLongRecoveryFraction": {
+          "Title": "Pact spell slots recovery fraction",
+          "Hint": "The fraction of Warlock pact spell slots to recover on a long rest."
+        },
+        "ItemUsesRecoveryFraction": {
+          "Title": "Item uses recovery fraction",
+          "Hint": "The fraction of item uses (items, consumables, etc.) to recover on a long rest."
+        },
+        "FeatUsesRecoveryFraction": {
+          "Title": "Feat uses recovery fraction",
+          "Hint": "The fraction of feat uses to recover on a long rest."
+        },
+        "DailyUsesRecoveryFraction": {
+          "Title": "Daily uses recovery fraction",
+          "Hint": "The fraction of daily uses to recover on a long rest (items with the \"Day\" recovery setting)."
+        },
+        "AutomateArmor": {
+          "Title": "Armor long rest automation",
+          "Hint": "With this enabled, non-light armor impedes long rests. Configure below how it impacts the long rest."
+        },
+        "ArmorHitDiceRecoveryFraction": {
+          "Title": "Armor hit dice recovery fraction",
+          "Hint": "If the character is wearing non-light armor during the long rest, this is fraction of hit dice they recover on a long rest."
+        },
+        "AutomateArmorExhaustion": {
+          "Title": "Armor prevents exhaustion recovery",
+          "Hint": "When enabled and the character is wearing non-light armor during the long rest, they do not recover from exhaustion. Requires exhaustion automation to be enabled."
+        }
+      },
+      "ItemNames": {
+        "WizardClassName": {
+          "Title": "Wizard class name",
+          "Hint": "Here you can configure what the Wizard class is called in your game. This can be a localized string."
+        },
+        "DruidClassName": {
+          "Title": "Druid class name",
+          "Hint": "Here you can configure what the Druid class is called in your game. This can be a localized string."
+        },
+        "BardClassName": {
+          "Title": "Bard class name",
+          "Hint": "Here you can configure what the Bard class is called in your game. This is used to determine whose Song of Rest to use. This can be a localized string."
+        },
+        "ArcaneRecovery": {
+          "Title": "Arcane Recovery name",
+          "Hint": "Here you can configure what a wizard's Arcane Recovery feature is called in your game. This can be a localized string."
+        },
+        "NaturalRecovery": {
+          "Title": "Natural Recovery name",
+          "Hint": "Here you can configure what a druid's Natural Recovery feature is called in your game. This can be a localized string."
+        },
+        "NaturalRecoveryActivity": {
+          "Title": "Natural Recovery Activity name",
+          "Hint": "Here you can configure what a druid's Natural Recovery activity is called in your game. This can be a localized string."
+        },
+        "SongOfRest": {
+          "Title": "Song of Rest name",
+          "Hint": "Here you can configure what a bard's Song of Rest feature is called in your game. This can be a localized string."
+        },
+        "ChefFeat": {
+          "Title": "Chef feat name",
+          "Hint": "Here you can configure what the Chef feat is called in your game. This can be a localized string."
+        },
+        "ChefTools": {
+          "Title": "Chef Tools name",
+          "Hint": "Here you can configure what the chef tools item is called in your game. This can be a localized string. Leave this blank if you want to disable chef requiring tools to use the feat."
+        },
+        "DurableFeat": {
+          "Title": "Durable feat name",
+          "Hint": "Here you can configure what the Durable feat is called in your game. This can be a localized string."
+        },
+        "PeriaptItem": {
+          "Title": "Periapt of Wound Closure name",
+          "Hint": "Here you can configure what the Periapt of Wound Closure item is called in your game. This can be a localized string."
+        },
+        "WoundClosureBlessing": {
+          "Title": "Blessing of Wound Closure name",
+          "Hint": "Here you can configure what the Blessing of Wound Closure feature is called in your game. This can be a localized string."
+        },
+        "BlackBloodFeature": {
+          "Title": "Black Blood Healing name",
+          "Hint": "Here you can configure what a Verdan's Black Blood Healing feature is called in your game. This can be a localized string."
+        }
+      }
+    }
+  }
+}
