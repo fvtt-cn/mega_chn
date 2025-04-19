@@ -129,15 +129,6 @@
                 "Title": "长休设定",
                 "Content": "这些是你的 GM 在此游戏中配置的长休设定。"
             },
-            "Resources": {
-                "RecoveryFormula": "恢复公式",
-                "Short": "短休",
-                "Configure": "配置资源恢复",
-                "Title": "配置资源恢复",
-                "Value": "值",
-                "Name": "名称",
-                "Long": "长休"
-            },
             "PromptRest": {
                 "Title": "提示玩家休息",
                 "ConfigureProfiles": "配置文件",
@@ -297,10 +288,6 @@
                 "HitDiceRecoveryRounding": {
                     "Hint": "如何对生命骰恢复的个数取整。",
                     "Title": "生命骰恢复取整"
-                },
-                "ResourcesRecoveryFraction": {
-                    "Title": "资源恢复比例",
-                    "Hint": "长休中资源恢复的比例。"
                 },
                 "SpellSlotsRecoveryFraction": {
                     "Title": "法术位恢复比例",
