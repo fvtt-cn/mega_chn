@@ -30,7 +30,39 @@
     "TYPES.Item.vehicleTest" : "Vehicle Crew Test",
     "TYPES.Item.vehicleRole" : "Vehicle Role",
     "TYPES.Item.template" : "Template",
-    
+
+    "SHEETS.Item.ammunition" : "Ammunition Sheet",
+    "SHEETS.Item.armour" : "Armour Sheet",
+    "SHEETS.Item.career" : "Career Sheet",
+    "SHEETS.Item.container" : "Container Sheet",
+    "SHEETS.Item.critical" : "Critical Sheet",
+    "SHEETS.Item.disease" : "Disease Sheet",
+    "SHEETS.Item.injury" : "Injury Sheet",
+    "SHEETS.Item.money" : "Money Sheet",
+    "SHEETS.Item.mutation" : "Mutation Sheet",
+    "SHEETS.Item.prayer" : "Prayer Sheet",
+    "SHEETS.Item.psychology" : "Psychology Sheet",
+    "SHEETS.Item.talent" : "Talent Sheet",
+    "SHEETS.Item.trapping" : "Trapping Sheet",
+    "SHEETS.Item.skill" : "Skill Sheet",
+    "SHEETS.Item.spell" : "Spell Sheet",
+    "SHEETS.Item.trait" : "Trait Sheet",
+    "SHEETS.Item.weapon" : "Weapon Sheet",
+    "SHEETS.Item.extendedTest" : "Extended Test Sheet",
+    "SHEETS.Item.cargo" : "Cargo Sheet",
+    "SHEETS.Item.vehicleMod" : "Vehicle Modification Sheet",
+    "SHEETS.Item.vehicleTest" : "Vehicle Crew Test Sheet",
+    "SHEETS.Item.vehicleRole" : "Vehicle Role Sheet",
+    "SHEETS.Item.template" : "Template Sheet",
+
+    "SHEETS.Actor.character" : "Player Character Sheet",
+    "SHEETS.Actor.npc" : "Non-Player Character Sheet",
+    "SHEETS.Actor.creature" : "Creature Sheet",
+    "SHEETS.Actor.vehicle" : "Vehicle Sheet",
+
+    "TOKEN.MOVEMENT.Status.immobile": "Immobile",
+    "TOKEN.MOVEMENT.Status.restricted": "Restricted",
+
     "Targets" : "Targets",
     "Trapping" : "Trapping",
     "Weapon" : "Weapon",
@@ -46,6 +78,8 @@
     "WFRP4e Homebrew": "WFRP4e Homebrew",
     "Homebrew Settings": "Homebrew Settings",
     "Settings for common homebrew/house rules": "Settings for common homebrew/house rules.",
+    "SETTINGS.DisableTheme" : "Disable Theme",
+    "SETTINGS.DisableThemeHint" : "Disables the Warhammer theming of default Foundry UI (Document Sheet theme can be toggled via the sheet configuration at the top of the sheet).",
     "SETTINGS.InitRule" : "Initiative Rules",
     "SETTINGS.InitHint" : "Configure which method is used to determine who acts first in combat.",
     "SETTINGS.InitDefault" : "Default (Highest to Lowest Initative, Agility Tiebreaks)",
@@ -143,7 +177,7 @@
     "SETTINGS.Moo": "Moo Man's House Rules",
     "SETTINGS.MooHint": "Assorted mechanics change that I believe have potential to improve the game. Note that the ones listed here are not an exhaustive list of the house rules I use, but only those that can be applied in code.<br><br>For the entire list, please see the <a href='https://github.com/moo-man/WFRP4e-FoundryVTT/wiki/Homebrew-Rules'>Wiki Page.</a><br>Note that these rules are generally all meant to be used together.<br>Feedback is always appreciated. Please use the <a href='https://github.com/moo-man/WFRP4e-FoundryVTT/discussions/categories/moo-s-house-rules'>Github Discussion Board</a> for discussion of the mechanics.",
     "SETTINGS.MooAdvantage" : "Advantage",
-    "SETTINGS.MooAdvantageHint" : "Instead of +10 per Advantage, you gain +1 SL per Advantage <b>on successful tests</b>",
+    "SETTINGS.MooAdvantageHint" : "Instead of +10 per Advantage, you gain +1 SL per Advantage <strong>on successful tests</strong>",
     "SETTINGS.MooDifficulty" : "Difficulty Options",
     "SETTINGS.MooDifficultyHint" : "Makes the Difficulty options symmetric",
     "SETTINGS.MooCritsFumbles" : "MooCritsFumbles",
@@ -788,8 +822,7 @@
     "DIALOG.QuickcastingTooltip" : "If you forfeit your Move and all Free Actions, you may use your Turn to quickly Channel and Cast in the same Action. Because you are rushing, increase the severity of any suffered Miscast by one table (ie, from Minor to Major or Major to Catastrophic). ",
     "DIALOG.EnterQuantity" : "Enter Quantity?",
     "DIALOG.PostQuantity" : "Post Quantity",
-    "DIALOG.ItemQuantity" : "Item Quantity",
-    "DIALOG.QuantityHint" : "Item Quantity is the quantity of items in each post.<br>Total quantity reduced will be Post Quantity X Item Quantity<br>Selecting Infinite will not reduce your quantity",
+    "DIALOG.PostQuantityContent" : "How many times can this Item be retrieved? Leave blank for unrestricted.",
     "Post": "Post",
     "DIALOG.MemorizeSpell" : "Memorize Spell",
     "DIALOG.MemorizeSpellContent" : "Memorizing this spell will cost {xp} XP.",
@@ -879,7 +912,8 @@
     "CHAT.PostMoreThanHave" : "Cannot post more than you have.",
     "CHAT.PostQuantityReduced" : "Quantity reduced by {num}",
     "CHAT.NoMoreLeft" : "No more Credit instances left.",
-    "CHAT.ExpReceived" : "Received <b>{amount}</b> experience for <b>{reason}</b>",
+    "CHAT.ExpReceived" : "Received <b>{amount}</b> experience for <b>{reason}</b>.",
+    "CHAT.ExpReceivedNoReason" : "Received <b>{amount}</b> experience.",
     "CHAT.DiseasesRules" : "<br>Refer to the diseases for their Contraction Rules",
     "CHAT.CorruptionTest" : "<br><b>Click a corruption link to prompt a test for Corruption</b>",
     "CHAT.CorruptionFail" : "<b>{name}</b> gains {number} Corruption.",
@@ -1044,13 +1078,13 @@
     "MARKET.Town" : "Town",
     "MARKET.City" : "City",
     "MARKET.AvailabilityTest" : "Availability Test",
-    "MARKET.AvailWrongCommand": "Wrong parameters. Expected parameters: <br>Settlement size [Village,Town,City]<br>Rarity [Common,Scarce,Rare,Exotic]<br>(opt.) Roll modifier",
+    "MARKET.AvailWrongCommand": "Wrong parameters. Expected parameters: Rarity [Common,Scarce,Rare,Exotic]<br><br>Settlement size [Village,Town,City]<br>(opt.) Roll modifier",
     "MARKET.AvailCommandExample": "Example: /avail Village Rare 10",
     "MARKET.SettlementSize" : "Settlement type:",
     "MARKET.Rarity" : "Rarity:",
     "MARKET.InStock": "In stock:",
     "MARKET.QuantityAvailable": "Available quantity:",
-    "MARKET.RollForAvailability" : "Roll for availability",
+    "MARKET.RollForAvailability" : "Roll Availability",
     "MARKET.SelectSettlementSize" : "Select the settlement size:",
     "MARKET.PayForItem" : "Pay",
     "MARKET.ReceiveCredit" : "Receive",
@@ -1061,7 +1095,7 @@
     "MARKET.PayCommand" : "Payment Response",
     "MARKET.PayRequest" : "Payment Request",
     "MARKET.CreditCommand" : "Credit Response",
-    "MARKET.CreditRequest" : "Credit Request",
+    "MARKET.CreditRequest" : "Reward",
     "MARKET.d": "d",
     "MARKET.CreditCommandNotAllowed" : "Only GMs are allowed to use this command.",
     "MARKET.PaidBy" : "Paid by:",
@@ -1410,6 +1444,8 @@
     "NAME.SeaLegsTalent" : "Sea Legs",
     "NAME.Ogre" : "Ogre",
     "NAME.Lingering" : "Lingering",
+    "NAME.Amphibious" : "Amphibious",
+    "NAME.Flight" : "Flight",
 
     "SPEC.Any": "Any",
     "SPEC.Basic" : "Basic",
@@ -1442,6 +1478,16 @@
     "SPEC.Sight" : "Sight",
     "SPEC.Hearing" : "Hearing",
     "SPEC.Smell" : "Smell",
+
+
+    "SHEET.CharacterSheet" : "Character Sheet",
+    "SHEET.NPCSheet" : "NPC Sheet",
+    "SHEET.CreatureSheet" : "Creature Sheet",
+    "SHEET.VehicleSheet" : "Vehicle Sheet",
+    "SHEET.CharacterSheetNoTheme" : "Character Sheet (No Theme)",
+    "SHEET.NPCSheetNoTheme" : "NPC Sheet (No Theme)",
+    "SHEET.CreatureSheetNoTheme" : "Creature Sheet (No Theme)",
+    "SHEET.VehicleSheetNoTheme" : "Vehicle Sheet (No Theme)",
 
     "SHEET.DupPrompt" : "Do you want to duplicate this item?",
     "SHEET.DupTitle" : "Duplicate item",
@@ -1605,18 +1651,20 @@
     "OPPOSED.Ward" : "<b>Ward</b>: Hit Ignored (Rolled {roll})",
     "OPPOSED.WardRoll" : "<b>Ward Roll</b>: {roll}",
 
-    "CHATOPT.ApplyDamage": "Apply damage",
+    "CHATOPT.ApplyDamage": "Apply Damage",
     "CHATOPT.ApplyDamageNoAP": "Apply Damage (Ignore AP)",
     "CHATOPT.ApplyDamageNoTB": "Apply Damage (Ignore TB)",
     "CHATOPT.ApplyDamageNoTBAP": "Apply Damage (Ignore TB and AP)",
     "CHATOPT.UseFortuneReroll":"Use a Fortune point to reroll", 
     "CHATOPT.UseFortuneSL":"Use a Fortune point to add +1 SL", 
     "CHATOPT.DarkDeal": "Take a Dark Deal to reroll (+1 Corruption)",
-    "CHATOPT.OpposeTarget": "Oppose with Targets",
+    "CHATOPT.StartOpposed": "Start Opposed",
+    "CHATOPT.DefendOpposed": "Defend Opposed",
     "CHATOPT.CompleteUnopposed": "Complete All Unopposed",
     "CHATOPT.ApplyAllDamage": "Apply All Damage",
     "CHATOPT.Reroll": "Reroll",
     "CHATOPT.TotalPower": "Total Power",
+    "CHATOPT.EditTest": "Edit Test",
 
     "TRAVEL.TravelMessageBase": "From <b>{from}</b> to <b>{to}</b> : ",
     "TRAVEL.TravelMessageRoad": "<br><b>Road</b> : {road_distance} miles<br>&nbsp;&nbsp;By Coach : {road_days} days, danger is {road_danger_string}<br>&nbsp;&nbsp;By Heavy Horse : {road_horse_heavy_days} days, danger is {road_danger_string}<br>&nbsp;&nbsp;By Fast Horse : {road_horse_fast_days} days, danger is {road_danger_string}<br>&nbsp;&nbsp;On Foot : {road_feet_days} days, danger is {road_danger_feet_string}",
@@ -1729,16 +1777,6 @@
     "Confirm" : "Confirm",
 
     "Actor Settings": "Actor Settings",
-    "CONFIGURE.CalcTokenSize" : "Auto-calculate Token Size",
-    "CONFIGURE.CalcRun" : "Auto-calculate Run Speed",
-    "CONFIGURE.CalcWalk" : "Auto-calculate Walk Speed",
-    "CONFIGURE.CalcWounds" : "Auto-calculate Wounds",
-    "CONFIGURE.CalcCritWounds" : "Auto-calculate Critical Wounds",
-    "CONFIGURE.CalcCorruption" : "Auto-calculate Corruption",
-    "CONFIGURE.CalcMaxEnc" : "Auto-calculate max Encumbrance",
-    "CONFIGURE.EquipPoints" : "Equip Points - Limits equipped weapons",
-    "CONFIGURE.AddActorEncumbrance" : "Add Encumbrance for Actors",
-    "CONFIGURE.MainHand" : "Main Hand",
 
     "BUTTON.PostBug" : "Submit a Grudge",
     "BUTTON.CharacterCreation" : "Character Creation",
@@ -1801,12 +1839,17 @@
     "WFRP4E.MountButtonNotify" : "The left-side actor ({mounter}) has mounted the right-side actor ({mountee})",
     "MountError": "You can only mount creatures of a larger or equal size.",
 
+
+    "minor": "Minor",
+    "moderate": "Moderate",
+    "major": "Major",
     "Minor": "Minor",
     "Moderate": "Moderate",
     "Major": "Major",
     "CORRUPTION.Minor": "Minor",
     "CORRUPTION.Moderate": "Moderate",
     "CORRUPTION.Major": "Major",
+    "CORRUPTION.Exposure": "Corruption Exposure",
     "Quantity": "Quantity",
     "Infinite": "Infinite",
     "Halved" : "Halved",
@@ -1865,7 +1908,7 @@
 
     "Career Selector": "Career Selector",
     "SHEET.NoCareers": "No Careers Found",
-    "Exp Cost": "Exp Cost",
+    "XP Cost": "XP Cost",
     "Select": "Select",
     
     "Species Characteristics": "Species Characteristics",
@@ -1943,6 +1986,72 @@
         },
 
         "Models" : {
+
+            "standard": {
+                "FIELDS": {
+                    "details" : {
+                        "mainHand" : {
+                            "label" : "Main Hand",
+                            "hint" : "What hand is considered 'primary' when distinguished by the system."
+                        },
+                        "hitLocationTable.value" : {
+                            "label" : "Hit Location Table",
+                            "hint" : "Defines a custom hit location table for when this Actor is attacked."
+                        }
+                    },
+                    "settings": {
+                        "equipPoints" : {
+                            "label" : "Equip Points",
+                            "hint" : "Limits equipped weapons, 2 points is 2 'hands'"
+                        },
+  
+                        "autoCalc": {
+                            "size": {
+                                "label": "Auto-calculate Token Size",
+                                "hint": "Automatically sizes tokens based on this Actor's Size"
+                            },
+                            "run": {
+                                "label": "Auto-calculate Run Speed",
+                                "hint": "Default Run speed is 4 × Movement"
+                            },
+                            "walk": {
+                                "label": "Auto-calculate Walk Speed",
+                                "hint": "Default Walk speed is 2 × Movement"
+                            },
+                            "wounds": {
+                                "label": "Auto-calculate Wounds",
+                                "hint": "Default max Wounds is SB + (2 × TB) + WPB (for Average size)"
+                            },
+                            "criticals": {
+                                "label": "Auto-calculate Criticals",
+                                "hint": "Default max Criticals is TB"
+                            },
+                            "corruption": {
+                                "label": "Auto-calculate Corruption",
+                                "hint": "Default Corruption threshold is TB + WPB"
+                            },
+                            "encumbrance": {
+                                "label": "Auto-calculate Encumbrance",
+                                "hint": "Default Encumbrance threshold is SB + TB"
+                            }
+                        }
+                    }
+                }
+            },
+
+            "vehicle" : {
+                "FILEDS" : {
+                    "vehicleType" : {
+                        "label" : "Vehicle Type"
+                    },
+                    "status.morale.transferEffects" : {
+                        "label" : "Transfer Morale Effects",
+                        "hint" : "Apply morale effects to Actors on this vehicle."
+                    }
+                }
+            },
+
+
             "ammunition" : {
                 "FIELDS" : {
                     "ammunitionType.value" : {
@@ -2452,6 +2561,29 @@
                         "label" : "Location"
                     }
                 }
+            }
+        },
+
+        "Theme" : {
+            "Config" : "WFRP4e Theme Configuration",
+            "ConfigButton" : "Configure Theme",
+            "ConfigHint" : "Enable or disable the styling provided by the system.",
+            "FIELDS" : {
+                "actor.enabled.label" : "Enable Theme",
+                "item.enabled.label" : "Enable Theme",
+                "journal.enabled.label" : "Enable Theme",
+                "sidebar.enabled.label" : "Enable Theme",
+                "apps.enabled.label" : "Enable Theme",
+
+                "actor.font.label" : "Font",
+                "item.font.label" : "Font",
+                "journal.font.label" : "Font",
+                "sidebar.font.label" : "Font",
+                "apps.font.label" : "Font"
+            },
+            "Font" : {
+                "Classic" : "Classic",
+                "Readable" : "Readable"
             }
         }
       }
