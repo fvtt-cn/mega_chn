@@ -50,5 +50,7 @@
     "ACTIVEAURAS.FORM_WallsDoBlock": "是",
     "ACTIVEAURAS.removeHiddenAurasHint": "对于隐藏的指示物，会移除其提供的任何光环，默认开启",
     "ACTIVEAURAS.removeHiddenAuras": "删除隐藏指示物上的光环？",
-    "ACTIVEAURAS.FORM_WallsDontBlock": "否"
+    "ACTIVEAURAS.FORM_WallsDontBlock": "否",
+    "ACTIVEAURAS.FORM_StatusConditions": "要添加的状态条件",
+    "EFFECT.TABS.activeauras": "活性光环"
 }
