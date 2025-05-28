@@ -687,7 +687,16 @@
     "TYPES": {
         "Item": {
             "ammo": "弹药",
-            "weapon": "武器"
+            "weapon": "武器",
+            "relic": "遗物",
+            "language": "语言",
+            "specialaction": "特殊行动",
+            "profession": "职业"
+        },
+        "Actor": {
+            "character": "玩家/非玩家"
         }
-    }
+    },
+    "DL.surrounded": "被围攻",
+    "DL.injured": "受伤"
 }
