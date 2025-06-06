@@ -196,8 +196,6 @@
     "SETTINGS.FocusTurnStartHint": "在参战者的回合开始时，将镜头转向他们。",
     "SETTINGS.HideTestData": "隐藏检定资料",
     "SETTINGS.HideTestDataHint": "GM 检定聊天卡不会向玩家显示敏感的 NPC 数据。",
-    "SETTINGS.ManualChatCards": "手动聊天卡",
-    "SETTINGS.ManualChatCardsHint": "如果使用物理骰子，则显示空白的掷骰结果来填写。",
     "SETTINGS.PlayerBrowser": "玩家访问浏览器",
     "SETTINGS.PlayerBrowserHint": "允许玩家有权限访问项目浏览器。",
     "SETTINGS.AdvantageBonus": "优势加值",
