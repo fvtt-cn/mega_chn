@@ -134,8 +134,6 @@
                 "PlayerListShort": "休息",
                 "Submit": "提交",
                 "NoNewDayTitle": "并非新的一天",
-                "NewDaySimpleCalendarHint": "根据下面选择的类型，完成休息的角色恢复以“每天”充能的能力。 这是由<strong>简单日历</strong>模组驱动的。",
-                "NoNewDaySimpleCalendarHint": "长休和短休都不会导致新的一天，因此，完成休息的角色<strong>不</strong>恢复以“每天”充能的能力。 这是由<strong>简单日历</strong>模组驱动的。",
                 "NewDay": "（新的一天）"
             },
             "SaveProfile": {
@@ -365,10 +363,6 @@
                 "Title": "快速设置"
             },
             "General": {
-                "EnableSimpleCalendarIntegration": {
-                    "Title": "启用简单日历整合",
-                    "Hint": "启用此功能后，玩家的提示休息 UI 和长/短休息 UI 中的“新一天”按钮会根据日历的当前时间自动显示。"
-                },
                 "EnableAutoRollButton": {
                     "Hint": "这在长休和短休 UI 中添加了一个按钮，以便玩家可以自动掷生命骰，直到 HP 几乎满为止。",
                     "Title": "启用生命骰自动掷骰按钮"
