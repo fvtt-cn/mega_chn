@@ -1223,7 +1223,6 @@
     "DIALOG.MemorizeSpellContent": "记忆该法术会花费{xp}点XP。",
     "DIALOG.GainPrayer": "获取神术",
     "DIALOG.GainPrayerContent": "获取该神术会花费{xp}XP。",
-    "CHAT.MutateTable": "在一个腐化表中掷骰：",
     "ITEM.CastSkillOverride": "替换施法技能",
     "ERROR.NoSkill": "无法在合集包或世界中找到技能或{skill}的分支技能",
     "ERROR.Found": "找不到{name}",
