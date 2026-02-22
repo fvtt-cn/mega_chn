@@ -11,7 +11,7 @@
     "Filters": "Filter Effects",
     "SaveMacro": "Save Particle and Filter Effects as Macro",
     "ClearFX": "Clear Scene Particle and Filter Effects",
-    "ToolsActive": "Tools Active"
+    "ToolsActive": "FXMaster Tools"
   },
   "FXMASTER": {
     "Common": {
@@ -60,7 +60,11 @@
       "ApiEffectsDetails": "API Parameters",
       "ApiEffectsNone": "No API effects are active on this Scene.",
       "ApiEffectsKindParticle": "Particle",
-      "ApiEffectsKindFilter": "Filter"
+      "ApiEffectsKindFilter": "Filter",
+      "ApiEffectsEdit": "Edit",
+      "ApiEffectsEditUnavailable": "Edit (unavailable)",
+      "ApiEffectEditorTitle": "Edit API Effect",
+      "ApiEffectMissing": "This API effect no longer exists on this Scene."
     },
     "Params": {
       "Saturation": "Saturation",
@@ -169,6 +173,7 @@
       "GlyphSlicePct": "Glyph Slice %",
       "GlyphFlickerSpeed": "Glyph Flicker Speed",
       "TopDown": "Top Down",
+      "Jitter": "Jitter",
       "DirectionalMovement": "Directional Movement",
       "Spread": "Directional Spread",
       "FishType": {
@@ -194,7 +199,18 @@
       },
       "RotationStrength": "Rotation Strength",
       "Trail": "Trail",
-      "LateralMovement": "Lateral Movement"
+      "LateralMovement": "Lateral Movement",
+      "SoundFxEnabled": "Sound FX",
+      "LightningMode": "Lightning Mode",
+      "LightningModeHorizontal": "Horizontal",
+      "LightningModeMixed": "Mixed",
+      "BoltFrequency": "Bolt Frequency",
+      "BoltLength": "Bolt Length",
+      "Branchiness": "Branchiness",
+      "SyncFlash": "Sync with Lightning Flash",
+      "TopDownScale": "Top Down Scale",
+      "TopDownBolts": "Top Down Bolts",
+      "TopDownBoltsVariable": "Variable Bolt Count"
     },
     "ParamTooltips": {
       "Saturation": "Color intensity. 0 = grayscale; 1 = original; >1 = oversaturated.",
@@ -290,11 +306,20 @@
       "GlyphSlicePct": "If slices are enabled, how much of the slice region gets glyphs.",
       "GlyphFlickerSpeed": "How fast glyphs blink. 0 disables flicker.",
       "TopDown": "Play effect in top-down mode",
+      "Jitter": "How jagged the bolt path is. Higher values create more chaotic arcs and branching.",
       "DirectionalMovement": "Play effect in specific direction",
       "Spread": "Determine spread offset from direction in degrees",
       "RotationStrength": "How strongly particles rotate as they move. Higher = more rotation.",
       "Trail": "Trail intensity/length behind particle sprites. Higher = longer/stronger trails.",
-      "LateralMovement": "Adds smooth side-to-side drifting to particle movement. Higher = more lateral drift."
+      "LateralMovement": "Adds smooth side-to-side drifting to particle movement. Higher = more lateral drift.",
+      "LightningMode": "Choose how bolts are generated: Horizontal streaks, Top Down strikes, or a mix of both.",
+      "BoltFrequency": "How often a bolt spawns on average. Higher values produce more frequent bolts.",
+      "BoltLength": "Controls the overall bolt length. In Top Down mode this sets the foreshortened strike depth.",
+      "Branchiness": "Controls how strongly the bolt branches and how many sub-branches it can form.",
+      "SyncFlash": "When enabled, Lightning Bolts will trigger flashes from the base Lightning filter and suppress its autonomous flashing so flashes occur only when bolts spawn.",
+      "TopDownScale": "Scales the size of Top Down strikes (beam and origin flash). Does not affect Horizontal bolts.",
+      "TopDownBolts": "Maximum number of simultaneous Top Down strikes. In Variable Bolt Count mode, this is the maximum possible bolts per strike event.",
+      "TopDownBoltsVariable": "If enabled, chooses a random number of Top Down bolts up to the maximum (biased toward lower counts). If disabled, always spawns exactly the maximum number."
     },
     "Particles": {
       "Groups": {
@@ -312,6 +337,7 @@
         "Eagles": "Eagles",
         "Embers": "Embers",
         "Fog": "Fog",
+        "Hail": "Hail",
         "AutumnLeaves": "Autumn Leaves",
         "Rain": "Rain",
         "Rats": "Rats",
@@ -334,6 +360,7 @@
         "EaglesWeatherEffectsConfig": "Eagles (FXMaster)",
         "EmbersWeatherEffectsConfig": "Embers (FXMaster)",
         "FogWeatherEffectsConfig": "Fog (FXMaster)",
+        "HailWeatherEffectsConfig": "Hail (FXMaster)",
         "AutumnLeavesWeatherEffectsConfig": "Autumn Leaves (FXMaster)",
         "RainWeatherEffectsConfig": "Rain (FXMaster)",
         "RatsWeatherEffectsConfig": "Rats (FXMaster)",
@@ -410,7 +437,8 @@
         "Sunlight": "Sunlight",
         "Duststorm": "Duststorm",
         "Ice": "Ice",
-        "Glitch": "Glitch"
+        "Glitch": "Glitch",
+        "LightningBolts": "Lightning Bolts"
       },
       "TypeErrors": {
         "TypeUnknown": "Filter effect '{id}' is of unknown type '{type}', skipping it.",
@@ -474,6 +502,72 @@
       "ScanCompleteEmpty": "FXMaster | Animation Scan Complete - No animation effects found. FXMaster populates animations from your own custom animations folder specified in the module settings, or from providers such as JB2A, Boss Loot, etc.",
       "Thumbnails": "Thumbnails",
       "ThumbnailsHint": "Enables lookup for animation thumbnails during the Refresh Animations scan. Animation providers that support thumbnail lookup are JB2A and Eskie Effects."
+    },
+    "SoundFX": {
+      "ControlTitle": "Manage Sound Effects",
+      "ManagerTitle": "Sound Effects Manager",
+      "AddRule": "Add Sound Rule",
+      "DeleteRule": "Delete Rule",
+      "AddSound": "Add Sound",
+      "DeleteSound": "Delete Sound",
+      "Effects": "Effects",
+      "Mode": "Multi-Sound Mode",
+      "ModeParallel": "Parallel (all sounds play simultaneously)",
+      "ModeSequential": "Sequential (one sound at a time, played in order of priority)",
+      "File": "Sound File",
+      "Browse": "Browse",
+      "Level": "Level",
+      "DragPriority": "Drag to reprioritize",
+      "NoRules": "No Sound Effects rules configured.",
+      "NoSounds": "No sounds in this rule.",
+      "V13Only": "Sound Effects requires Foundry VTT V13+.",
+      "KindParticle": "Particle",
+      "KindFilter": "Filter",
+      "RuleConfigTitle": "Sound Rule",
+      "EditRule": "Edit Rule",
+      "Save": "Save",
+      "Cancel": "Cancel",
+      "Sounds": "Sounds",
+      "FadeTime": "Fade Time",
+      "FadeTimeHint": "Fade in/out time in milliseconds.",
+      "EffectsHint": "Select one effect for a single-effect sound rule, or select multiple effects to create a combo rule with higher priority.",
+      "NoEffectsSelected": "No effects selected.",
+      "PausePlaylists": "Pause Playlists",
+      "PausePlaylistsHint": "When this rule is active in Scene or Viewer scope, pause any currently playing playlist tracks on this client. Playback resumes when no matching rules with this option remain active.",
+      "RegionSoundOptions": "Region Sound Options",
+      "RegionRadius": "Region Radius",
+      "RegionRadiusHintPct": "Region Radius is expressed as a percentage of each disconnected Regions component size (0-500%).",
+      "RegionBoundsOnly": "Play within Region bounds",
+      "RegionEasing": "Use easing",
+      "RegionWalls": "Constrained by walls",
+      "UnitMs": "ms",
+      "UnitPercent": "%",
+      "ConfigDescription": {
+        "SceneWide": "Plays scene-wide while the selected effects are active. Scene-level effects always play scene-wide.",
+        "PointSource": "Each disconnected Region shape emits from its center with a radius of ~{pct}% of that shape's size.",
+        "RegionOnly": "Audible only while a controlled Token is inside a matching Region.",
+        "RegionPadding": "Full volume inside a matching Region, then fades out up to ~{pct}% beyond the boundary."
+      },
+      "ConfigMode": {
+        "Scene": "Scene",
+        "RegionOnly": "Region Only",
+        "RegionPadding": "Region + Padding",
+        "RegionPointSource": "Region Point Source"
+      },
+      "Scope": {
+        "Scene": "Scene",
+        "Region": "Region",
+        "Viewer": "Viewer"
+      },
+      "ActiveIn": "Active in: {scopes}",
+      "Priority": "Priority",
+      "FilePlaceholder": "assets/sounds/...",
+      "RuleName": "Rule Name",
+      "RuleNamePlaceholder": "Optional name (for identification)",
+      "Enabled": "Enabled",
+      "Disabled": "Disabled",
+      "UnnamedRule": "Unnamed Rule",
+      "CurrentMode": "Current Mode: {mode}"
     }
   }
 }
