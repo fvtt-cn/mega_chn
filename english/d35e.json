@@ -65,6 +65,16 @@
   "TOKEN.VisionLowLight": "Low-light Vision",
   "TOKEN.VisionDarkvision": "Darkvision",
 
+  "D35E.Sense.seeInvis": "See Invisibility",
+  "D35E.Sense.blindsense": "Blindsense",
+  "D35E.Sense.blindsight": "Blindsight",
+  "D35E.Sense.tremorsense": "Tremorsense",
+  "D35E.SETTINGS.DisableLLV.Label": "Disable low-light vision for this light",
+  "D35E.SETTINGS.DisableLLV.Hint": "When checked, this light source will not have its radius multiplied by tokens' low-light vision.",
+  "D35E.Vision": "D35E Vision",
+  "SETTINGS.D35EVisionN": "Enable system vision",
+  "SETTINGS.D35EVisionH": "When enabled, low-light vision and detection modes (e.g. blindsight, tremorsense) affect lighting and vision. Disable to use core Foundry vision only.",
+
   "D35E.ApplyDamage": "Apply Damage",
   "D35E.ApplyCriticalDamage": "Apply Critical Damage",
   "D35E.ApplyHealing": "Apply Healing",
