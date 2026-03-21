@@ -1468,6 +1468,18 @@
   "D35E.SenseTruesight": "Truesight",
   "D35E.SenseSpecial": "Special Senses",
 
+  "D35E.Treasure": "Treasure",
+  "D35E.TreasureConfig": "Configure Treasure",
+  "D35E.TreasureConfigHint": "Configure the percentage of standard treasure this creature carries.",
+  "D35E.TreasureCoins": "Coins",
+  "D35E.TreasureGoods": "Goods",
+  "D35E.TreasureItems": "Items",
+  "D35E.TreasureNone": "None",
+  "D35E.TreasureStandard": "Standard",
+  "D35E.TreasureDouble": "Double Standard",
+  "D35E.TreasureTriple": "Triple Standard",
+  "D35E.TreasurePreset": "Preset",
+
   "D35E.VisionLowLight": "Low-light Vision",
 
   "D35E.DistMeterShort": "m",
