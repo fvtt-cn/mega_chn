@@ -399,6 +399,17 @@
   "D35E.EquipSlotRing": "Ring",
   "D35E.EquipSlotFeet": "Feet",
 
+  "D35E.ChangeTargetSlots": "Equipment Slots",
+  "D35E.EquipChooseSlot": "Choose Slot",
+  "D35E.EquipChooseSlotHint": "Where should \"{name}\" be equipped?",
+  "D35E.SlotOverCapacity": "This item is equipped but the \"{slot}\" slot is over capacity — only {capacity} item(s) allowed.",
+  "D35E.SlotPosition": "Position",
+  "D35E.SlotPositionDefault": "Default",
+  "D35E.SlotPositionOccupied": "occupied",
+  "D35E.SlotFull": "Slot \"{slot}\" is already at capacity ({capacity}).",
+  "D35E.SlotFullTitle": "Slot Full",
+  "D35E.SlotFullConfirm": "The \"{slot}\" slot is already at capacity ({capacity}). Equip anyway?",
+
   "D35E.ConsumableTypePotion": "Potion/Oil",
   "D35E.ConsumableTypePoison": "Poison",
   "D35E.ConsumableTypeDrug": "Drug",
