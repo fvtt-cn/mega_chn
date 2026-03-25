@@ -1784,6 +1784,8 @@
   "SETTINGS.D35ECurrencyNamesH": "Coin names, from Platinium to Copper, divided by comma. Enter any text, leave empty to use default.",
   "SETTINGS.D35EHideSpellDescriptionsIfHasActionN": "Hide Spell Description chat card",
   "SETTINGS.D35EHideSpellDescriptionsIfHasActionL": "Hides Spell Description chat card if spell has Action",
+  "SETTINGS.D35EFizzleSpellOnArcaneFailureN": "Fizzle spells on Arcane Spell Failure",
+  "SETTINGS.D35EFizzleSpellOnArcaneFailureL": "When enabled, failed arcane spell failure checks cancel spell effects and only post the Arcane Spell Failure card.",
   "SETTINGS.D35ESaveAttackWindowN": "Save Attack Window form",
   "SETTINGS.D35ESaveAttackWindowL": "Enabling this will save per-item attack window values (wield mode, selected ammo, attack bonus etc).",
   "SETTINGS.D35EDisableTutorialN": "Disable tutorial for all players",
