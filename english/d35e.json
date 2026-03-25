@@ -1973,6 +1973,39 @@
 
   "D35E.ls.convertToLoot": "Convert to loot",
   "D35E.ls.convertToLootUnlinked": "Convert defeated (tokens) to loot",
-  "D35E.patreonLocked": "This feature is exclusive to Patreon supporters. Coming soon."
+  "D35E.patreonLocked": "This feature is exclusive to Patreon supporters. Coming soon.",
+
+  "D35E.BonusModUntyped": "Untyped",
+  "D35E.BonusModBase": "Base",
+  "D35E.BonusModEnhancement": "Enhancement",
+  "D35E.BonusModDodge": "Dodge",
+  "D35E.BonusModInherent": "Inherent",
+  "D35E.BonusModDeflection": "Deflection",
+  "D35E.BonusModMorale": "Morale",
+  "D35E.BonusModLuck": "Luck",
+  "D35E.BonusModSacred": "Sacred",
+  "D35E.BonusModInsight": "Insight",
+  "D35E.BonusModResistance": "Resistance",
+  "D35E.BonusModProfane": "Profane",
+  "D35E.BonusModTrait": "Trait",
+  "D35E.BonusModRacial": "Racial",
+  "D35E.BonusModSize": "Size",
+  "D35E.BonusModCompetence": "Competence",
+  "D35E.BonusModCircumstance": "Circumstance",
+  "D35E.BonusModAlchemical": "Alchemical",
+  "D35E.BonusModPenalty": "Penalty",
+  "D35E.BonusModReplace": "Replace",
+
+  "D35E.DamTypeBludgeoning": "Bludgeoning",
+  "D35E.DamTypePiercing": "Piercing",
+  "D35E.DamTypeSlashing": "Slashing",
+  "D35E.DamTypeCold": "Cold",
+  "D35E.DamTypeFire": "Fire",
+  "D35E.DamTypeElectricity": "Electricity",
+  "D35E.DamTypeSonic": "Sonic",
+  "D35E.DamTypeAcid": "Acid",
+  "D35E.DamTypeForce": "Force",
+  "D35E.DamTypeNegative": "Negative",
+  "D35E.DamTypePositive": "Positive"
 
 }
