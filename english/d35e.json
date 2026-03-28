@@ -1736,6 +1736,8 @@
   "D35E.CreateSpecialActionFromTemplateHint": "This will create a Special Action from a template. You can then edit it to your liking.",
   "D35E.AbilityDrain": "Ability Drain",
   "D35E.AbilityDamage": "Ability Damage",
+  "D35E.CureAbilityDrain": "Cure Ability Drain",
+  "D35E.CureAbilityDamage": "Cure Ability Damage",
   "D35E.Cancel": "Cancel",
   "D35E.SaveDC": "Save DC",
   "D35E.Create": "Create",
