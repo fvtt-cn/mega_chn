@@ -1462,6 +1462,8 @@
   "D35E.WeaponTreatAsEpic": "Treat as Epic for purpose of DR",
   "D35E.ClassHasUnmetRequirements": "This class has unmet requirements",
   "D35E.Junk": "Junk Item (Unusable Item Types)",
+  "D35E.ContainerReequipContent": "<p>You removed <strong>{item}</strong> from its container. Re-equip it now?</p>",
+  "D35E.ContainerReequipTitle": "Re-equip item",
   "D35E.FixContainers": "Fix Containers in Containers",
   "D35E.FixContainersDesc": "This action fixes containers that have been put inside a containers in cyclic fashion by removing all container in container associations.",
   "D35E.Fix": "Fix",
