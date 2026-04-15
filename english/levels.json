@@ -8,6 +8,10 @@
             "advancedFogWarn": "Levels: The Advanced Fog Of war setting needs to be disabled for the Multi Level Fog to work, please disable it in the module settings or disable it per tile."
         },
         "settings": {
+            "blockSightMovement": {
+                "name": "Block Sight and Movement",
+                "hint": "Makes this tile block token sight and movement. This is a compatibility feature to allow a smoother transition from the Levels Module to the Core Foundry Scene Levels.<br /><br /><strong>It is recommended to disable this option and use a Region with 'Define Surface' behavior.</strong><br /><br />Note that this feature will not be updated, and if it ceases to work it will not get any fixes."
+            },
             "enableTooltips": {
                 "name": "Enable Tooltips",
                 "hint": "Show tooltips with top and bottom when hovering levels objects"
@@ -56,10 +60,6 @@
                 "name": "Multilevel Fog Folder",
                 "hint": "The folder name to store the generated scenes for the multilevel fog of war."
             },
-            "blockSightMovement": {
-                "name": "Fence",
-                "hint": "When enabled, walls with height that does not restrict vision will still restrict movement"
-            },
             "forceUiRefresh": {
                 "name": "Force UI refresh",
                 "hint": "Forces more frequent refreshes of the levels UI at the cost of performance, if enabled may cause issues on specific systems (eg. PF2e)"
@@ -82,6 +82,10 @@
             "migrateOnStartup": {
                 "name": "Migrate settings on startup",
                 "hint": "If enabled, the module will migrate the data from the V11 data structure to the V12 one on startup. You can use the macro 'CONFIG.Levels.helpers.migration.showManualMigrationDialog()' to manually migrate your settings."
+            },
+            "migrateOnStartupDialog": {
+                "name": "Open 'Migrate settings Dialog' on startup",
+                "hint": "If enabled, the module will open a dialog to migrate the data from the V13 data structure to the V14 one on startup. You can use the macro 'CONFIG.Levels.helpers.migration.showManualMigrationDialog()' to manually migrate your settings."
             }
         },
         "tileconfig": {
