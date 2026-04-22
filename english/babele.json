@@ -58,5 +58,6 @@
   "BABELE.ShowTranslateOptionHint": "Toggles the translate option on the actor sheets.",
   "BABELE.WarnMissingPaths": "Warn About Missing Source Paths",
   "BABELE.WarnMissingPathsHint": "Enables diagnostic warnings when a static translation targets a source path that is not present in the original document data.",
-  "BABELE.requireLibWrapperMessage": "Babele requires the 'libWrapper' module. Please install and activate it."
+  "BABELE.requireLibWrapperMessage": "Babele requires the 'libWrapper' module. Please install and activate it.",
+  "BABELE.TranslationSourcesRefreshed": "Babele refreshed translation sources. Closed compendium documents are updated; already open documents may need to be reopened."
 }
