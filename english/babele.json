@@ -83,6 +83,8 @@
   "BABELE.ShowOriginalNameHint": "Shows the untranslated name of the compendium's item in addition to the translated one. This will also allow you to filter by the original name along with the translated one in the search widget.",
   "BABELE.ShowTranslateOption": "Show translate option",
   "BABELE.ShowTranslateOptionHint": "Toggles the translate option on the actor sheets.",
+  "BABELE.SyncImportedAdventureTokenNames": "Sync imported Adventure token names",
+  "BABELE.SyncImportedAdventureTokenNamesHint": "When importing an Adventure, update token names only for tokens in imported Scenes whose Actors were imported by that same Adventure.",
   "BABELE.WarnMissingPaths": "Warn About Missing Source Paths",
   "BABELE.WarnMissingPathsHint": "Enables diagnostic warnings when a static translation targets a source path that is not present in the original document data.",
   "BABELE.SourcePriorityTitle": "Translation Source Priority",
