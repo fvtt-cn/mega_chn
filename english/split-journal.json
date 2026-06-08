@@ -1,0 +1,17 @@
+{
+    "FURNACE.SPLIT.title": "Split Journal",
+    "FURNACE.SPLIT.splitSubmit": "Split Journal",
+    "FURNACE.SPLIT.contextMenu": "Split Journal",
+    "FURNACE.SPLIT.description": "Split the journal entry '{name}' into multiple entries.",
+    "FURNACE.SPLIT.splitOn": "Split on",
+    "FURNACE.SPLIT.newEntries": "New journal entries ({numEntries}) :",
+    "FURNACE.SPLIT.separateHeader": "Include page header in each new journal entry",
+    "FURNACE.SPLIT.includeImage": "Include Journal's image in each new entry",
+    "FURNACE.SPLIT.newFolder": "Split in new Folder",
+    "FURNACE.SPLIT.errorNoHeadings": "<strong>This Journal entry had no headings.</strong><p>Create headings in your journal then try again</p>",
+    "FURNACE.SPLIT.errorJournalEmpty": "<strong>This Journal entry is empty.</strong><p>There is nothing to split</p>",
+    "FURNACE.SPLIT.errorOk": "OK",
+
+    "FURNACE.ENTITIES.sortAscending": "Sort Alphabetically (Ascending)",
+    "FURNACE.ENTITIES.sortDescending": "Sort Alphabetically (Descending)"
+}
