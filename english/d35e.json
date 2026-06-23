@@ -1911,6 +1911,7 @@
   "D35E.patreonLocked": "This feature is exclusive to Patreon supporters. Coming soon.",
   "D35E.BonusModUntyped": "Untyped",
   "D35E.BonusModBase": "Base",
+  "D35E.BonusModBaseReplace": "Base Replace",
   "D35E.BonusModEnhancement": "Enhancement",
   "D35E.BonusModDodge": "Dodge",
   "D35E.BonusModInherent": "Inherent",
