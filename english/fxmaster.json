@@ -888,12 +888,13 @@
         "ConfigTitle": "Custom Particle Effect",
         "AmbientFloat": "Ambient Float",
         "DirectionalDrift": "Directional Drift",
+        "SoundOnly": "Sound Only",
         "RefreshBrowserTitle": "Refresh Browser",
         "RefreshBrowserContentNew": "Would you like to refresh your browser now? The {name} effect will not be available within the Region Particle Effects menu until a refresh occurs.",
         "RefreshBrowserContentUpdated": "Would you like to refresh your browser now? The {name} effect will not be updated within the Region Particle Effects menu until a refresh occurs. Issues may occur if the effect was modified to use different base effect types or texture paths.",
         "Tooltips": {
           "Name": "Name shown in the FXMaster particle list.",
-          "BaseEffect": "Choose the motion style. Directional Drift moves particles in a primary direction. Ambient Float spawns particles randomly and lets them drift on-screen. Manual Placement creates placed sprite instances with optional light controls.",
+          "BaseEffect": "Choose the effect behavior. Directional Drift moves particles in a primary direction. Ambient Float spawns particles randomly and lets them drift on-screen. Manual Placement creates placed sprite instances with optional light controls. Sound Only creates a non-visual effect entry for SoundFX rules.",
           "Group": "Which FXMaster category this effect appears under (Weather, Ambient, or Animals).",
           "Textures": "One or more image paths, separated by commas. Multiple images become selectable sprite options for Manual Placement effects and are chosen at random for other base effects.",
           "Icon": "Icon image shown in the particle list.",
@@ -998,7 +999,7 @@
         "AlwaysVisibleForGM": "Always Visible for GM"
       },
       "BehaviorHints": {
-        "SuppressSceneSoundsRegionBehaviorHint": "Suppress scene-level FXMaster SoundFX for listeners inside this Region."
+        "SuppressSceneSoundsRegionBehaviorHint": "Suppress selected scene-level FXMaster SoundFX rule types for listeners inside this Region."
       }
     },
     "SoundFX": {
@@ -1099,7 +1100,7 @@
       "EnableRule": "Enable Rule",
       "DisableRule": "Disable Rule",
       "SuppressSceneSounds": {
-        "Hint": "Suppress scene-level FXMaster SoundFX while the listener is inside this Region.",
+        "Hint": "Suppress selected scene-level FXMaster SoundFX rule types while the listener is inside this Region.",
         "Easing": "Enable easing",
         "EasingHint": "Gradually fade scene-level SoundFX as the listener moves from the Region edge toward its interior.",
         "Muffled": "Enable muffling",
@@ -1120,8 +1121,20 @@
           "muffledIntensity": {
             "label": "Muffled intensity",
             "hint": "Strength of the muffled audio effect."
+          },
+          "environmentalSounds": {
+            "label": "Environmental Sounds",
+            "hint": "Suppress scene-level Environmental SoundFX rules for listeners inside this Region."
+          },
+          "tokenMovementSounds": {
+            "label": "Token Movement Sounds",
+            "hint": "Suppress scene-level Token Movement SoundFX rules for listeners inside this Region."
           }
-        }
+        },
+        "EnvironmentalSounds": "Environmental Sounds",
+        "EnvironmentalSoundsHint": "Suppress scene-level Environmental SoundFX rules for listeners inside this Region.",
+        "TokenMovementSounds": "Token Movement Sounds",
+        "TokenMovementSoundsHint": "Suppress scene-level Token Movement SoundFX rules for listeners inside this Region."
       },
       "ModeManual": "Manual (selected sounds only)",
       "ResetPsfxDefaultRules": "Reset PSFX Rules to Default",
@@ -1226,6 +1239,8 @@
       "CompositeGridInFxStackHint": "Render the normal Foundry grid lines into FXMaster's compositor input so scene particles and filters can appear over the grid. Grid highlights and controls remain above FXMaster.",
       "DisplayEffectsOverVision": "Display Effects Above Fog/Vision",
       "DisplayEffectsOverVisionHint": "Render FXMaster particles and filters above Foundry fog of war and token vision. Hidden scene artwork remains masked, but Below Tiles, Below Tokens, Restricts Weather, and suppression Regions can still create visible silhouettes or gaps in the effect over fog.",
+      "DisableGridMovementHighlighting": "Disable Grid Movement Highlighting",
+      "DisableGridMovementHighlightingHint": "Hide Foundry's highlighted grid spaces while tokens are moving. Intended for users who want FXMaster token-movement interactions to remain visually prominent; movement, ruler paths, waypoints, and measurement are unchanged.",
       "PatreonSupportName": "Patreon Support",
       "PatreonSupportLabel": "Gambit's Lounge"
     },
