@@ -1549,6 +1549,8 @@
   "D35E.RestParty": "Rest Party",
   "D35E.PartyRestedHeader": "Long Rest Completed",
   "D35E.PartyRested": "Everyone have rested. Daily uses have been reset, and characters were healed.",
+  "D35E.PartyRestedCalendarError": "Simple Calendar date change failed — the party rested anyway.",
+  "D35E.PartyRestedActorError": "Rest failed for {0} — check the console for details.",
   "D35E.ImprovedCover": "Improved Cover",
   "D35E.ConcealmentBaseInPercent": "Concealment (0-100%)",
   "D35E.BehindImprovedCover": "Behind Improved Cover",
