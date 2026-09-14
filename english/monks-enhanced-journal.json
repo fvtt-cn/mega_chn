@@ -14,8 +14,8 @@
   "MonksEnhancedJournal.use-runes.hint": "If using Polyglot, set the default state of runes in Journal Entry.",
   "MonksEnhancedJournal.show-permissions.name": "Show player permissions",
   "MonksEnhancedJournal.show-permissions.hint": "Show player permissions on the journal entry",
-  "MonksEnhancedJournal.start-collapsed.name": "Start Collapsed",
-  "MonksEnhancedJournal.start-collapsed.hint": "Start with the side directory collapsed",
+  "MonksEnhancedJournal.start-collapsed.name": "Open Collapsed",
+  "MonksEnhancedJournal.start-collapsed.hint": "Open Enhanced Journal with the side directory collapsed",
   "MonksEnhancedJournal.use-objectives.name": "Use Quest Objectives",
   "MonksEnhancedJournal.use-objectives.hint": "Add Objectives to Quests entries",
   "MonksEnhancedJournal.open-outside.name": "Open Links",
@@ -459,6 +459,7 @@
   "MonksEnhancedJournal.VoteFor": "For",
   "MonksEnhancedJournal.VoteAgainst": "Against",
   "MonksEnhancedJournal.NoVote": "No Vote",
+  "MonksEnhancedJournal.Defunct": "Defunct",
 
   "MonksEnhancedJournal.tabs.description": "Description",
   "MonksEnhancedJournal.tabs.picture": "Picture",
