@@ -1684,6 +1684,7 @@
   "D35E.CombatCombatants": "Combatants",
   "D35E.AttackOfOpportunity": "Attack of Opportunity",
   "D35E.AoOLeavingThreatened": "is leaving a threatened area",
+  "D35E.AoOProvoking": "is provoking Attacks of Opportunity",
   "D35E.AoOMayMake": "May make an Attack of Opportunity:",
   "D35E.AttacksOfOpportunity": "Attacks of Opportunity",
   "D35E.AoOAbbr": "AoO/Round",
